@@ -63,8 +63,8 @@
       "r": "For 10 points, name this theory that the universe began about 13.8 billion years ago in a hot, dense state."
     },
     {
-      "p": "Fred Hoyle, who believed in a rival theory in which new matter is constantly created as the universe expands, gave this theory its catchy name during a 1949 BBC radio broadcast. Hoyle’s rival model, developed with Hermann Bondi and Thomas Gold, was called the Steady State theory.",
-      "r": "For 10 points, name this theory that the universe expanded from an extremely hot, dense beginning."
+      "p": "Hermann Bondi, Thomas Gold, and Fred Hoyle championed a rival to this theory, in which new matter is constantly created as the universe expands, so that the universe always looks the same. That rival model was called the Steady State theory.",
+      "r": "Hoyle himself coined this theory’s name on BBC radio in 1949. For 10 points, name this theory that the universe expanded from an extremely hot, dense beginning."
     },
     {
       "p": "As a pun on the first three letters of the Greek alphabet, George Gamow [“GAM-off”] added Hans Bethe’s name to a 1948 paper with Ralph Alpher about how the lightest elements formed. Alpher and Robert Herman also predicted that leftover radiation from this event should still fill space.",
@@ -75,20 +75,20 @@
       "r": "For 10 points, name this event that started the expansion of the universe about 13.8 billion years ago."
     },
     {
-      "p": "Around 1980, Alan Guth proposed that a split second after this event, the universe swelled enormously in a burst called inflation. That idea helps explain why the universe looks so smooth in every direction and why space is so nearly flat.",
+      "p": "To explain why the universe looks so smooth in every direction and why space is so nearly flat, physicists propose that a split second after this event, the universe swelled enormously in a burst called inflation. Alan Guth first proposed that idea around 1980.",
       "r": "For 10 points, name this event, the hot, dense beginning of the universe about 13.8 billion years ago."
     },
     {
-      "p": "In 1922, Alexander Friedmann found solutions to Albert Einstein’s equations that describe an expanding universe, ideas that later fed into this theory. Edwin Hubble’s 1929 discovery that distant galaxies are rushing away from us became key evidence for it.",
-      "r": "For 10 points, name this theory of the universe’s origin, whose name was coined by Fred Hoyle."
+      "p": "In 1922, Alexander Friedmann found solutions to Albert Einstein’s equations that describe an expanding universe, ideas that later fed into this theory. Einstein himself had at first preferred a universe that stays the same size.",
+      "r": "Edwin Hubble’s 1929 discovery that distant galaxies are rushing away from us became key evidence for it. For 10 points, name this theory of the universe’s origin."
     },
     {
       "p": "Olbers’ paradox asks why the night sky is dark if the universe is endless and filled with stars, and part of the answer comes from this theory: the universe has a limited age, so light from the most distant stars has not had time to reach us.",
       "r": "For 10 points, name this theory that the universe began about 13.8 billion years ago."
     },
     {
-      "p": "This theory got a huge boost in 1964, when Arno Penzias and Robert Wilson accidentally detected a faint microwave glow coming from every direction in the sky. That glow, released about 380,000 years after this event, is its leftover afterglow.",
-      "r": "For 10 points, name this event that began the universe, named by Fred Hoyle in 1949."
+      "p": "Robert Dicke’s team at Princeton was building an instrument to search for radiation left over from this event when they learned that two Bell Labs scientists had already found it by accident. That faint glow was released about 380,000 years after this event.",
+      "r": "Arno Penzias and Robert Wilson discovered it in 1964. For 10 points, name this event that began the universe, named by Fred Hoyle."
     },
     {
       "p": "Physicists call the first tiny sliver of time after this event, up to about 10 to the minus 43rd seconds, the Planck epoch. For the first several microseconds after this event, the universe was filled with a hot soup of quarks and gluons.",
@@ -286,10 +286,21 @@
     {
       "id": "friedmann",
       "tier": "power",
-      "t": "Alexander Friedmann found expanding-universe solutions to Einstein’s equations in 1922",
+      "t": "Alexander Friedmann found expanding-universe solutions to Einstein’s equations in 1922; Einstein had at first preferred an unchanging universe",
       "k": [
         "friedmann",
         "1922"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dicke",
+      "tier": "power",
+      "t": "Robert Dicke’s Princeton team was about to search for its leftover radiation when two Bell Labs scientists found it by accident",
+      "k": [
+        "dicke",
+        "princeton",
+        "bell labs"
       ],
       "n": 0
     },
