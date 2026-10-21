@@ -102,7 +102,7 @@ data = {
             "r": "That frigate was the USS _Merrimack_. For 10 points, name these armored warships, which first fought each other at Hampton Roads."
         },
         {
-            "p": "One of these ships sank in a storm off Cape Hatteras, North Carolina, on the last day of 1862. In 2002, divers raised its famous turret, which is now preserved at the Mariners’ Museum in Newport News, Virginia.",
+            "p": "One of these ships sank in a storm off Cape Hatteras, North Carolina, on the last day of 1862. In 2002, divers raised its famous turret, which is preserved at the Mariners’ Museum in Newport News, Virginia.",
             "r": "That ship was the USS _Monitor_. For 10 points, name these iron-armored warships of the Civil War era."
         },
         {

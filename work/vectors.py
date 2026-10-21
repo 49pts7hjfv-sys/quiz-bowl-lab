@@ -344,7 +344,7 @@ data = {
         }
     ],
     "trap": {
-        "title": "The whole idea, or one example?",
+        "title": "Vector or one example?",
         "body": "Velocity, force, and displacement are all vectors, and each is also its own answer line, so a tossup about one specific quantity may want that quantity instead. Scalars (size only) and matrices (grids of numbers) are separate answer lines too, and since a matrix with one column is sometimes called a column vector, clues about the two can overlap.",
         "fix": "Listen for the noun: “these quantities” with both magnitude and direction, tip-to-tail adding, dot and cross products, or i-hat, j-hat, and k-hat means vectors. “This quantity,” defined as the rate of change of position, means velocity; “size only” means scalars.",
         "line": "Real answer line: <b><u>vector</u></b>s (or <u>vector quantit</u>ies; do not accept “scalars,” “matrices,” or “velocity”)"
