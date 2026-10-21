@@ -17,7 +17,8 @@ data = {
     "answerHtml": "<b><u>Enceladus</u></b>",
     "accept": [
         "enceladus",
-        "moon enceladus"
+        "moon enceladus",
+        "enceladus moon of saturn"
     ],
     "prompt": [],
     "reject": [

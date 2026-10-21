@@ -83,7 +83,7 @@ data = {
     "tossups": [
         {
             "p": "The Dutch legal scholar Hugo Grotius [“GROH-shee-us”] coined the Latin name for this power in a 1625 book on the law of war and peace. He argued that a state could take its subjects’ property for public needs, but that it should pay them for what it took.",
-            "r": "For 10 points, name this government power to take private property for public use."
+            "r": "The Fifth Amendment limits it. For 10 points, name this government power to take private property for public use."
         },
         {
             "p": "In a dissent about this power, Sandra Day O’Connor warned that nothing would stop a government from replacing “any Motel 6 with a Ritz-Carlton” or “any home with a shopping mall.” The majority ruled that a Connecticut city’s economic development plan counted as a “public use.”",
@@ -91,11 +91,11 @@ data = {
         },
         {
             "p": "In _Berman v. Parker_, a unanimous Supreme Court let Washington, D.C., use this power on a department store that was not itself run-down, as part of a plan to rebuild a whole neighborhood. William O. Douglas wrote that a community may choose to be “beautiful as well as healthy.”",
-            "r": "For 10 points, name this government power to take private property for public use."
+            "r": "That 1954 decision upheld an urban renewal plan. For 10 points, name this government power to take private property for public use."
         },
         {
-            "p": "In a 1984 case, the Supreme Court let Hawaii use this power to break up huge estates by moving land from a few large landowners to the people who leased homes on it. Sandra Day O’Connor wrote that opinion, though two decades later she dissented in a famous case about the same power.",
-            "r": "For 10 points, name this government power, which the Fifth Amendment limits."
+            "p": "In a 1984 case, the Supreme Court let Hawaii use this power to break up huge estates by moving land from a few large landowners to the people who leased homes on it. Sandra Day O’Connor wrote that opinion, though she later dissented in a famous case about the same power.",
+            "r": "That later case was _Kelo v. City of New London_. For 10 points, name this government power, which the Fifth Amendment limits."
         },
         {
             "p": "In 1857, New York City used this power to remove the residents of Seneca Village, a community where many African American families owned land, to make room for Central Park. The landowners were paid for their property, as the law required.",
@@ -103,11 +103,11 @@ data = {
         },
         {
             "p": "In an 1897 case about a railroad’s land in Chicago, the Supreme Court ruled that states, not just the national government, must pay “just compensation” when they use this power. That decision is often called the first to apply part of the Bill of Rights to the states through the Fourteenth Amendment.",
-            "r": "For 10 points, name this government power to take private property for public use."
+            "r": "That case involved the Chicago, Burlington and Quincy Railroad. For 10 points, name this government power to take private property for public use."
         },
         {
             "p": "In 1981, Michigan’s top court let Detroit use this power to clear a neighborhood called Poletown so that General Motors could build a car factory. The same court reversed itself in 2004, ruling that taking property just to boost the economy broke the state’s constitution.",
-            "r": "For 10 points, name this power of governments to take private land for public use."
+            "r": "For 10 points, name this power of governments to take private land for public use, if they pay for it."
         },
         {
             "p": "New York planner Robert Moses used this power to clear land for highways such as the Cross Bronx Expressway, forcing thousands of people to move. In the 1950s and 1960s, many cities also used it for “urban renewal” projects that tore down older neighborhoods.",
@@ -131,7 +131,7 @@ data = {
         },
         {
             "p": "The Tennessee Valley Authority used this power in the 1930s to acquire farms that would be flooded by its new dams, and states later used it to build the Interstate Highway System. In each case, owners had to be paid for their land.",
-            "r": "For 10 points, name this government power to take private property for public use."
+            "r": "For 10 points, name this government power to take private property for public use, which the Takings Clause limits."
         },
         {
             "p": "The Massachusetts Constitution of 1780 promised “a reasonable compensation” to anyone whose property was taken for public uses, an early limit on this power. A national limit followed in 1791, when the Bill of Rights was ratified.",
