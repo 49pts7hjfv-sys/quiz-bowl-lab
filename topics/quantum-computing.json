@@ -139,7 +139,7 @@
       "r": "Those ideas are superposition and entanglement. For 10 points, name this kind of computing, which stores information in qubits."
     },
     {
-      "p": "Some of these machines use superconducting circuits that must be chilled to a tiny fraction of a degree above absolute zero, colder than outer space. Others store information in single trapped ions held in place by electric and magnetic fields, or in particles of light.",
+      "p": "Some of these machines use superconducting circuits that must be chilled to a tiny fraction of a degree above absolute zero, colder than outer space. Others store information in single trapped ions held in place by electromagnetic fields, or in particles of light.",
       "r": "Their units can hold a superposition of 0 and 1. For 10 points, name this kind of computing that uses qubits."
     },
     {
@@ -151,7 +151,7 @@
       "r": "Measuring those units gives 0 or 1. For 10 points, name this kind of computing, whose basic units are called qubits."
     },
     {
-      "p": "Three of this technology’s basic units can represent all eight possible three-digit binary patterns at the same time, and each added unit doubles that number. Algorithms for these machines use interference to make wrong answers cancel out and right answers grow stronger.",
+      "p": "Three of this technology’s basic units can hold a superposition of all eight possible three-digit binary patterns, and each added unit doubles that number. Algorithms for these machines use interference to make wrong answers cancel out and right answers grow stronger.",
       "r": "For 10 points, name this kind of computing that uses qubits rather than ordinary bits."
     },
     {
@@ -296,7 +296,7 @@
     {
       "id": "benioff-manin",
       "tier": "power",
-      "t": "Paul Benioff described a Turing machine that follows these rules in 1980; Yuri Manin floated a similar idea the same year",
+      "t": "Paul Benioff described a Turing machine that obeys the rules of the atomic world in 1980; Yuri Manin floated a similar idea the same year",
       "k": [
         "benioff",
         "1980",

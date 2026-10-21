@@ -102,7 +102,7 @@
   },
   "tossups": [
     {
-      "p": "Allen Newell, Cliff Shaw, and Herbert Simon created this data structure at the RAND Corporation in the mid-1950s for their Information Processing Language, which they used to write their Logic Theorist program. Simon later won a Nobel Prize in Economics.",
+      "p": "Allen Newell, Cliff Shaw, and Herbert Simon, working with the RAND Corporation, created this data structure in the mid-1950s for their Information Processing Language, which they used to write their Logic Theorist program. Simon later won a Nobel Prize in Economics.",
       "r": "For 10 points, name this data structure made of nodes, each holding data and a pointer to the next node."
     },
     {
@@ -122,7 +122,7 @@
       "r": "Its last node points to null. For 10 points, name this data structure, in which each node points to the next."
     },
     {
-      "p": "The last node of this data structure usually points to null, a value that Tony Hoare [“HOR”] later called his “billion-dollar mistake” because null pointers have caused so many program crashes. Programmers sometimes add a dummy “sentinel” node at the start so that their code needs fewer special cases.",
+      "p": "The last node of this data structure usually points to null, and Tony Hoare [“HOR”] later called his invention of the null reference a “billion-dollar mistake” because null pointers have caused so many program crashes. Programmers sometimes add a dummy “sentinel” node at the start so that their code needs fewer special cases.",
       "r": "Its first node is the head. For 10 points, name this data structure, a chain of nodes connected by pointers."
     },
     {
@@ -284,7 +284,7 @@
     {
       "id": "newell-simon",
       "tier": "power",
-      "t": "Allen Newell, Cliff Shaw, and Herbert Simon created it at the RAND Corporation (1955–1956) for their Information Processing Language, used to write the Logic Theorist",
+      "t": "Allen Newell, Cliff Shaw, and Herbert Simon, working with the RAND Corporation, created it in 1955–1956 for their Information Processing Language, used to write the Logic Theorist",
       "k": [
         "newell",
         "simon",
@@ -330,7 +330,7 @@
     {
       "id": "hoare",
       "tier": "power",
-      "t": "Tony Hoare called the null reference his “billion-dollar mistake”",
+      "t": "Tony Hoare called his invention of the null reference a “billion-dollar mistake”",
       "k": [
         "hoare",
         "billion-dollar mistake"
