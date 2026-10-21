@@ -102,8 +102,8 @@ data = {
             "r": "The girl was Pocahontas. For 10 points, name this English captain who led Jamestown in 1608 and 1609."
         },
         {
-            "p": "The full title of this man’s 1624 _Generall Historie_ also names New England and the Summer Isles, an old name for Bermuda. That book tells how a chief’s daughter protected this author from execution by laying her head on his.",
-            "r": "That girl was Pocahontas. For 10 points, name this leader of Jamestown."
+            "p": "The full title of this man’s 1624 _Generall Historie_ also names New England and the Summer Isles, an old name for Bermuda. That book includes a letter he said he had written to Queen Anne in 1616 about a visiting Native woman.",
+            "r": "It also tells how that woman, Pocahontas, saved his life. For 10 points, name this English captain who led Jamestown."
         },
         {
             "p": "In 1609, this man was badly hurt when his bag of gunpowder accidentally exploded while he was in a boat, and he sailed home to England that October. He never returned to Virginia, and the colony soon suffered through the “Starving Time.”",
@@ -114,7 +114,7 @@ data = {
             "r": "His rule was “He that will not work shall not eat.” For 10 points, name this president of the Jamestown council."
         },
         {
-            "p": "Colin Farrell played this man in Terrence Malick’s 2005 film _The New World_. In real life, this man was about 27 years old when he was captured and brought before the chief Powhatan in the winter of 1607.",
+            "p": "Colin Farrell played this man in Terrence Malick’s 2005 film _The New World_. In real life, this man was about 27 years old when he was captured and brought before the chief Powhatan in December 1607.",
             "r": "Mel Gibson voiced him in Disney’s 1995 movie _Pocahontas_. For 10 points, name this English captain who led Jamestown."
         },
         {
@@ -282,8 +282,8 @@ data = {
         {
             "id": "hid-face",
             "tier": "power",
-            "t": "Wrote that when he met Pocahontas near London in 1616, she hid her face because she had been told he was dead",
-            "k": ["hid her face", "london", "1616"],
+            "t": "Wrote that when he met Pocahontas near London in 1616, she hid her face because she had been told he was dead; printed a letter he said he wrote to Queen Anne about her",
+            "k": ["hid her face", "queen anne", "1616"],
             "n": 0
         },
         {

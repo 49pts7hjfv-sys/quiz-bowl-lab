@@ -71,7 +71,7 @@
       "r": "For 10 points, name this immigration station, where about 12 million people arrived between 1892 and 1954."
     },
     {
-      "p": "Immigrants at this place climbed a long staircase to the Registry Room while doctors watched them for signs of illness. At the bottom of the “Stairs of Separation,” some headed to trains going west, some to New York City, and some to be held for more questions.",
+      "p": "Immigrants at this place climbed a long staircase to the Registry Room while doctors watched them for signs of illness. Those who passed went down the “Stairs of Separation,” where people bound for trains going west parted from those headed for New York City.",
       "r": "The Registry Room was also called the Great Hall. For 10 points, name this immigration station near the Statue of Liberty."
     },
     {
@@ -79,7 +79,7 @@
       "r": "For 10 points, name this federal immigration station that opened in New York Harbor in 1892."
     },
     {
-      "p": "In 1916, German agents set off an explosion at the Black Tom munitions depot in nearby Jersey City that blew out windows and damaged roofs at this place. The same blast damaged the arm of the Statue of Liberty that holds the torch.",
+      "p": "In 1916, German agents set off an explosion at the Black Tom munitions depot in nearby Jersey City that shattered windows and damaged buildings at this place. The same blast damaged the arm of the Statue of Liberty that holds the torch.",
       "r": "For 10 points, name this immigration station in New York Harbor, where about 12 million immigrants arrived."
     },
     {
@@ -318,10 +318,10 @@
     {
       "id": "stairs",
       "tier": "power",
-      "t": "The “Stairs of Separation” sent people to trains, to New York City, or to detention",
+      "t": "On the “Stairs of Separation,” people bound for trains going west parted from those headed for New York City",
       "k": [
         "stairs of separation",
-        "detention"
+        "trains"
       ],
       "n": 0
     },

@@ -29,6 +29,9 @@ data = {
         "body of salt water",
         "bodies of salt water",
         "large bodies of water",
+        "large bodies of salt water",
+        "huge bodies of water",
+        "huge bodies of salt water",
         "hydrosphere"
     ],
     "reject": [
@@ -123,7 +126,7 @@ data = {
             "r": "It lies in the largest of them, the Pacific. For 10 points, name these huge bodies of salt water."
         },
         {
-            "p": "In 1520, after a stormy trip through the strait at the tip of South America, Ferdinand Magellan named the calm waters he entered with a word meaning “peaceful.” Another of these bodies of water, the Atlantic, is named for the Titan Atlas.",
+            "p": "In 1520, after a stormy trip through the strait near the southern tip of South America, Ferdinand Magellan named the calm waters he entered with a word meaning “peaceful.” Another of these bodies of water, the Atlantic, is named for the Titan Atlas.",
             "r": "For 10 points, name these five bodies of salt water, the largest of which is the Pacific."
         },
         {
@@ -358,7 +361,8 @@ data = {
         ],
         "prompt": [
             "bodies of water",
-            "hydrosphere"
+            "hydrosphere",
+            "huge bodies of salt water"
         ],
         "wrong": [
             "Seas",

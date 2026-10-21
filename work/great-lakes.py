@@ -150,14 +150,14 @@ data = {
             "id": "homes",
             "tier": "giveaway",
             "t": "Five lakes remembered with HOMES: Huron, Ontario, Michigan, Erie, and Superior",
-            "k": ["homes", "huron", "ontario", "superior"],
+            "k": ["homes", "huron"],
             "n": 0
         },
         {
             "id": "border",
             "tier": "giveaway",
             "t": "Four of them lie on the border between the United States and Canada",
-            "k": ["border", "canada", "four of them"],
+            "k": ["canada", "border"],
             "n": 0
         },
         {
@@ -252,7 +252,7 @@ data = {
             "id": "rush-bagot",
             "tier": "power",
             "t": "The Rush–Bagot Agreement (1817) limited U.S. and British warships on them and on Lake Champlain",
-            "k": ["rush", "bagot", "warships", "1817"],
+            "k": ["rush–bagot", "bagot", "warships", "1817"],
             "n": 0
         },
         {
@@ -266,7 +266,7 @@ data = {
             "id": "soo-locks",
             "tier": "power",
             "t": "The Soo Locks (1855) at Sault Ste. Marie carry freighters, many loaded with iron ore, past the rapids between Superior and Huron",
-            "k": ["soo locks", "sault ste. marie", "1855", "iron ore"],
+            "k": ["soo locks", "iron ore", "1855"],
             "n": 0
         },
         {
@@ -280,14 +280,14 @@ data = {
             "id": "griffon",
             "tier": "power",
             "t": "La Salle’s _Le Griffon_ (1679), the first large sailing ship on the upper lakes, vanished on its first voyage",
-            "k": ["griffon", "la salle", "1679"],
+            "k": ["griffon", "1679"],
             "n": 0
         },
         {
             "id": "cuyahoga",
             "tier": "power",
             "t": "After the Cuyahoga River fire in Cleveland (1969), Nixon and Pierre Trudeau signed a 1972 water quality agreement",
-            "k": ["cuyahoga", "1969", "water quality", "trudeau"],
+            "k": ["cuyahoga", "1969", "trudeau"],
             "n": 0
         },
         {
@@ -308,7 +308,7 @@ data = {
             "id": "manitoulin",
             "tier": "power",
             "t": "Manitoulin Island, in Lake Huron, is the largest island in any freshwater lake",
-            "k": ["manitoulin", "largest island"],
+            "k": ["manitoulin", "huron"],
             "n": 0
         },
         {

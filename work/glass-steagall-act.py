@@ -227,14 +227,14 @@ data = {
             "id": "volcker",
             "tier": "middle",
             "t": "The Volcker Rule in the Dodd–Frank Act (2010) limited banks’ trading with their own money; some called it a partial return to the 1933 rules",
-            "k": ["volcker", "dodd", "2010", "own money"],
+            "k": ["volcker", "dodd", "2010"],
             "n": 0
         },
         {
             "id": "pecora",
             "tier": "power",
             "t": "Ferdinand Pecora’s Senate hearings exposed risky practices at big banks and built support for it; Pecora later joined the first SEC",
-            "k": ["pecora", "ferdinand", "hearings"],
+            "k": ["pecora", "senate", "risky"],
             "n": 0
         },
         {
@@ -248,14 +248,14 @@ data = {
             "id": "sections",
             "tier": "power",
             "t": "Its Sections 16, 20, 21, and 32 built the wall between banks and securities firms; the 1999 repeal removed Sections 20 and 32",
-            "k": ["sections", "wall", "securities firms"],
+            "k": ["sections 20 and 32", "wall", "sections"],
             "n": 0
         },
         {
             "id": "section-21",
             "tier": "power",
             "t": "Section 21, which was never repealed, still bars securities firms from taking deposits",
-            "k": ["section 21", "never repealed", "taking deposits"],
+            "k": ["section 21", "repealed"],
             "n": 0
         },
         {

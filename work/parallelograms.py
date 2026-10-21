@@ -1,0 +1,375 @@
+import json
+
+data = {
+    "id": "parallelograms",
+    "name": "Parallelograms",
+    "mono": "PGM",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "Two pairs of parallel sides · Area = base × height",
+    "dates": "Studied in Book I of Euclid’s _Elements_, c. 300 BCE",
+    "briefing": "A parallelogram is a four-sided shape whose opposite sides are parallel, like a rectangle that has been pushed over sideways. Its opposite sides are equal, its opposite angles are equal, and its two diagonals cut each other exactly in half. Its area is base times height, not base times the slanted side, so one with a base of 8 and a height of 5 covers 40 square units. Rectangles, rhombuses, and squares are all special parallelograms.",
+    "answerHtml": "<b><u>parallelogram</u></b>s (prompt on <u>quadrilateral</u>s; do not accept “trapezoids,” “rhombuses,” “rectangles,” or “squares”)",
+    "accept": [
+        "parallelogram",
+        "parallelograms"
+    ],
+    "prompt": [
+        "quadrilateral",
+        "quadrilaterals",
+        "quadrangle",
+        "quadrangles",
+        "four sided shape",
+        "four sided shapes",
+        "four sided figure",
+        "four sided polygon"
+    ],
+    "reject": [
+        "trapezoid",
+        "trapezoids",
+        "trapezium",
+        "trapeziums",
+        "trapezia",
+        "rhombus",
+        "rhombuses",
+        "rhombi",
+        "rhomb",
+        "rhomboid",
+        "rhomboids",
+        "diamond",
+        "diamonds",
+        "rectangle",
+        "rectangles",
+        "oblong",
+        "square",
+        "squares",
+        "kite",
+        "kites",
+        "parallelepiped",
+        "parallelepipeds",
+        "rhombohedron",
+        "rhombohedrons",
+        "parallel lines",
+        "parallel postulate",
+        "vector",
+        "vectors",
+        "triangle",
+        "triangles",
+        "polygon",
+        "polygons",
+        "pentagon",
+        "hexagon"
+    ],
+    "tests": {
+        "right": [
+            "parallelogram",
+            "Parallelograms",
+            "paralelogram",
+            "parallelagram",
+            "a parallelogram"
+        ],
+        "prompt": [
+            "quadrilateral",
+            "quadrilaterals"
+        ],
+        "wrong": [
+            "trapezoid",
+            "rhombus",
+            "rectangle",
+            "square",
+            "parallelepiped",
+            "rhomboid",
+            "trapezium",
+            "kite",
+            "vectors"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Parallelogram",
+    "qb": {
+        "q": "parallelogram",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Proposition 34 in Book I of Euclid’s _Elements_ proves that in one of these shapes, opposite sides are equal, opposite angles are equal, and a diagonal cuts the shape into two equal halves. The next proposition shows that two of these on the same base and between the same pair of parallel lines have equal areas.",
+            "r": "Their name comes from Greek words for “parallel” and “line.” For 10 points, name these four-sided shapes that have two pairs of parallel sides."
+        },
+        {
+            "p": "Pierre Varignon [“vah-reen-YOHN”] names a theorem stating that connecting the midpoints of the four sides of any quadrilateral, in order, always makes one of these shapes. Each side of the shape made that way is parallel to one diagonal of the original quadrilateral and half as long.",
+            "r": "The two diagonals of one of these shapes bisect each other. For 10 points, name these quadrilaterals whose opposite sides are parallel."
+        },
+        {
+            "p": "A law named for these shapes says that the squares of their four sides add up to the same total as the squares of their two diagonals. For a 3-by-4 rectangle, which is a special case of these shapes, both totals are 50, since 9 plus 16 plus 9 plus 16 equals 25 plus 25.",
+            "r": "Their opposite angles are equal. For 10 points, name these quadrilaterals with two pairs of parallel sides, whose area equals base times height."
+        },
+        {
+            "p": "The first corollary to the laws of motion in Isaac Newton’s _Principia_ says that a body pushed by two forces at once travels along the diagonal of one of these shapes, whose sides stand for the two forces. A rule for adding vectors drawn from the same point is named for these shapes.",
+            "r": "Rectangles are one special case of them. For 10 points, name these four-sided shapes whose opposite sides are parallel and equal in length."
+        },
+        {
+            "p": "One of these shapes whose neighboring sides of 6 and 8 meet at a 30-degree angle has an area of 24, since its area equals the product of two neighboring sides times the sine of the angle between them.",
+            "r": "Rectangles are the special case of these shapes with four right angles. For 10 points, name these quadrilaterals whose area is base times height."
+        },
+        {
+            "p": "The absolute value of the determinant of a 2-by-2 matrix gives the area of one of these shapes built from the matrix’s two columns. The length of the cross product of two vectors equals the area of one of these shapes that the two vectors outline.",
+            "r": "Each diagonal splits one of these into two congruent triangles. For 10 points, name these quadrilaterals whose opposite sides are parallel."
+        },
+        {
+            "p": "A solid called a parallelepiped [“pair-uh-lel-uh-PIE-ped”] has six faces that are all these shapes. Calcite crystals break into rhombohedrons, solids whose six faces are all a special kind of these shapes with four equal sides.",
+            "r": "Rectangles, rhombuses, and squares are all special cases of these shapes. For 10 points, name these quadrilaterals with two pairs of parallel sides."
+        },
+        {
+            "p": "Book I of Euclid’s _Elements_ uses the word “rhomboid” for one of these shapes whose opposite sides and angles are equal but which has no right angles and unequal neighboring sides. Euclid called one of these with four equal sides but no right angles a “rhombus.”",
+            "r": "If one angle of one of these is 70 degrees, the others are 110, 70, and 110 degrees. For 10 points, name these quadrilaterals with two pairs of parallel sides."
+        },
+        {
+            "p": "A shear, which slides points parallel to a fixed line, turns a rectangle into one of these shapes with the same base, height, and area. Two copies of any triangle fit together to form one of these, which is why a triangle’s area is half of its base times its height.",
+            "r": "Moving a triangle from one end of one of these to the other end can turn it into a rectangle. For 10 points, name these shapes whose area is base times height."
+        },
+        {
+            "p": "A general one of these shapes has no lines of mirror symmetry, but it looks exactly the same after a half turn around the point where its diagonals cross. Its two diagonals have different lengths unless it is a rectangle.",
+            "r": "Its diagonals cut each other in half. For 10 points, name these quadrilaterals whose opposite sides are parallel."
+        },
+        {
+            "p": "A quadrilateral must be one of these shapes if just one pair of its opposite sides is both parallel and equal in length. One of these whose diagonals are equal in length must be a rectangle, and one whose diagonals cross at right angles must be a rhombus.",
+            "r": "Their opposite angles are equal. For 10 points, name these four-sided shapes with two pairs of parallel sides."
+        },
+        {
+            "p": "A pantograph, a hinged tool for copying a drawing at a larger or smaller size, keeps some of its arms in the shape of one of these. Copies of any one of these shapes can tile a floor with no gaps just by sliding them, without turning any of them.",
+            "r": "Every rhombus is one of these. For 10 points, name these quadrilaterals whose opposite sides are parallel and equal in length."
+        },
+        {
+            "p": "Three of these shapes with equal sides and angles of 60 and 120 degrees fit together into a regular hexagon that looks like a cube, as in the quilt pattern called “Tumbling Blocks.” The swinging arms of a navigator’s parallel ruler form one of these, so its two edges always stay parallel.",
+            "r": "Rhombuses and rectangles are special cases. For 10 points, name these quadrilaterals with two pairs of parallel sides."
+        },
+        {
+            "p": "Plotting 0, two complex numbers, and their sum on the complex plane usually gives the four corners of one of these shapes. One of these with a base of 8, a height of 5, and slanted sides of 6 has an area of 40 and a perimeter of 28.",
+            "r": "Its slanted side does not matter for area. For 10 points, name these quadrilaterals whose area equals base times height."
+        },
+        {
+            "p": "Under the “inclusive” definition used in some textbooks, every one of these shapes also counts as a trapezoid, since a trapezoid only needs at least one pair of parallel sides. Under the other common definition, a trapezoid has exactly one such pair, so none of these shapes qualify.",
+            "r": "Every square is one of these. For 10 points, name these quadrilaterals with two pairs of parallel sides."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "A quadrilateral with two pairs of parallel sides: each side is parallel to the side across from it",
+            "k": ["two pairs", "parallel sides", "quadrilateral"],
+            "n": 0
+        },
+        {
+            "id": "area",
+            "tier": "giveaway",
+            "t": "Area = base × height, with the height measured straight up from the base, not along the slanted side",
+            "k": ["base × height", "base times height", "slanted side"],
+            "n": 0
+        },
+        {
+            "id": "opposite-equal",
+            "tier": "giveaway",
+            "t": "Opposite sides are equal in length, and opposite angles are equal",
+            "k": ["opposite sides", "opposite angles"],
+            "n": 0
+        },
+        {
+            "id": "special-cases",
+            "tier": "giveaway",
+            "t": "Rectangles, rhombuses, and squares are all special kinds",
+            "k": ["rectangles", "rhombuses", "squares"],
+            "n": 0
+        },
+        {
+            "id": "diagonals-bisect",
+            "tier": "giveaway",
+            "t": "Its two diagonals bisect each other (cut each other exactly in half)",
+            "k": ["bisect", "diagonals", "in half"],
+            "n": 0
+        },
+        {
+            "id": "supplementary",
+            "tier": "middle",
+            "t": "Neighboring angles add up to 180° (they are supplementary): if one angle is 70°, the others are 110°, 70°, and 110°",
+            "k": ["supplementary", "neighboring angles", "180°"],
+            "n": 0
+        },
+        {
+            "id": "worked-area",
+            "tier": "middle",
+            "t": "Example: base 8 and height 5 give an area of 40; with slanted sides of 6, the perimeter is 2 × (8 + 6) = 28",
+            "k": ["perimeter", "area of 40"],
+            "n": 0
+        },
+        {
+            "id": "congruent-triangles",
+            "tier": "middle",
+            "t": "Each diagonal splits it into two congruent (identical) triangles",
+            "k": ["congruent", "each diagonal", "triangles"],
+            "n": 0
+        },
+        {
+            "id": "cut-and-slide",
+            "tier": "middle",
+            "t": "Cutting a triangle off one end and sliding it to the other end can make a rectangle with the same base and height",
+            "k": ["sliding", "rectangle", "cutting a triangle"],
+            "n": 0
+        },
+        {
+            "id": "greek-name",
+            "tier": "middle",
+            "t": "Its name comes from Greek words for “parallel” and “line”",
+            "k": ["greek", "line"],
+            "n": 0
+        },
+        {
+            "id": "rect-rhombus-tests",
+            "tier": "middle",
+            "t": "One with equal diagonals is a rectangle; one with perpendicular diagonals is a rhombus; a square is both",
+            "k": ["equal diagonals", "perpendicular diagonals", "rhombus"],
+            "n": 0
+        },
+        {
+            "id": "rotational",
+            "tier": "middle",
+            "t": "A general one has no mirror lines but looks the same after a half turn around the point where its diagonals cross",
+            "k": ["half turn", "mirror lines", "rotational symmetry"],
+            "n": 0
+        },
+        {
+            "id": "vector-addition",
+            "tier": "middle",
+            "t": "Its namesake law adds two vectors drawn from one point: their sum is the diagonal between them",
+            "k": ["vectors", "namesake law", "diagonal"],
+            "n": 0,
+            "rabbit": "Vectors"
+        },
+        {
+            "id": "tiling",
+            "tier": "middle",
+            "t": "Copies of any one can tile a floor with no gaps just by sliding them, with no turning needed",
+            "k": ["tile", "no gaps", "sliding"],
+            "n": 0
+        },
+        {
+            "id": "euclid",
+            "tier": "power",
+            "t": "Euclid’s _Elements_, Book I: Proposition 34 proves opposite sides and angles are equal; Proposition 35 says ones on the same base between the same parallels have equal areas",
+            "k": ["proposition 34", "proposition 35", "euclid", "equal areas"],
+            "n": 0,
+            "rabbit": "Euclid"
+        },
+        {
+            "id": "rhomboid",
+            "tier": "power",
+            "t": "Euclid called one with no right angles and unequal neighboring sides a “rhomboid”",
+            "k": ["rhomboid", "unequal"],
+            "n": 0
+        },
+        {
+            "id": "varignon",
+            "tier": "power",
+            "t": "Varignon’s theorem: joining the midpoints of any quadrilateral’s four sides, in order, always makes one",
+            "k": ["varignon", "midpoints"],
+            "n": 0
+        },
+        {
+            "id": "squares-law",
+            "tier": "power",
+            "t": "Its namesake law: the squares of the four sides add up to the squares of the two diagonals (3-by-4 rectangle: 9 + 16 + 9 + 16 = 25 + 25)",
+            "k": ["squares", "3-by-4", "two diagonals"],
+            "n": 0
+        },
+        {
+            "id": "newton",
+            "tier": "power",
+            "t": "Corollary 1 of Newton’s _Principia_ (1687): a body pushed by two forces at once moves along the diagonal of one built from those forces",
+            "k": ["corollary", "principia", "newton", "two forces"],
+            "n": 0,
+            "rabbit": "Isaac Newton"
+        },
+        {
+            "id": "sine-area",
+            "tier": "power",
+            "t": "Its area also equals two neighboring sides times the sine of the angle between them: sides 6 and 8 at 30° give 24",
+            "k": ["sine", "neighboring sides", "30°"],
+            "n": 0
+        },
+        {
+            "id": "determinant-cross",
+            "tier": "power",
+            "t": "Its area is the absolute value of the 2 × 2 determinant of two vectors, or the length of their cross product",
+            "k": ["determinant", "cross product", "absolute value"],
+            "n": 0,
+            "rabbit": "Determinant"
+        },
+        {
+            "id": "shear",
+            "tier": "power",
+            "t": "A shear turns a rectangle into one with the same area; two copies of any triangle form one, so a triangle’s area is half of base × height",
+            "k": ["shear", "two copies", "same area"],
+            "n": 0
+        },
+        {
+            "id": "parallelepiped",
+            "tier": "power",
+            "t": "A parallelepiped is a solid with six faces that are all these; calcite breaks into rhombohedrons, whose six faces are rhombuses",
+            "k": ["parallelepiped", "rhombohedrons", "calcite", "six faces"],
+            "n": 0
+        },
+        {
+            "id": "one-pair-test",
+            "tier": "power",
+            "t": "A quadrilateral must be one if a single pair of opposite sides is both parallel and equal",
+            "k": ["single pair", "parallel and equal"],
+            "n": 0
+        },
+        {
+            "id": "trapezoid-inclusive",
+            "tier": "power",
+            "t": "Under the “inclusive” definition of a trapezoid (at least one pair of parallel sides), every one counts as a trapezoid",
+            "k": ["inclusive", "trapezoid", "at least one pair"],
+            "n": 0
+        },
+        {
+            "id": "complex-numbers",
+            "tier": "power",
+            "t": "On the complex plane, 0, two complex numbers, and their sum usually form its four corners",
+            "k": ["complex numbers", "complex plane", "four corners"],
+            "n": 0,
+            "rabbit": "Complex numbers"
+        },
+        {
+            "id": "linkages",
+            "tier": "power",
+            "t": "Hinged tools use it: a pantograph copies drawings at a new size, and a navigator’s parallel ruler keeps its two edges parallel",
+            "k": ["pantograph", "parallel ruler", "hinged"],
+            "n": 0
+        },
+        {
+            "id": "tumbling-blocks",
+            "tier": "power",
+            "t": "Three with equal sides and 60° and 120° angles form a cube-like regular hexagon, as in the “Tumbling Blocks” quilt pattern",
+            "k": ["tumbling blocks", "hexagon", "quilt"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not a rhombus or rectangle",
+        "body": "Every rectangle, rhombus, and square is a parallelogram, so clues about parallelograms can tempt you to name one of those special cases, but a special case is wrong when the clues fit every parallelogram. Trapezoids are a different answer line too: many textbooks say a trapezoid has exactly one pair of parallel sides. Saying only “quadrilateral” earns a prompt.",
+        "fix": "Check for an extra condition. Four right angles or equal diagonals point to a rectangle; four equal sides or perpendicular diagonals point to a rhombus; both point to a square. If the clues only say that opposite sides are parallel and equal, or that the area is base times height, say “parallelogram.”",
+        "line": "Real answer line: <b><u>parallelogram</u></b>s (prompt on <u>quadrilateral</u>s; do not accept “trapezoids,” “rhombuses,” “rectangles,” or “squares”)"
+    }
+}
+
+with open("topics/parallelograms.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote topics/parallelograms.json")

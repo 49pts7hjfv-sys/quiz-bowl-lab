@@ -1,0 +1,461 @@
+{
+  "id": "mcculloch-v-maryland",
+  "name": "McCulloch v. Maryland",
+  "mono": "MVM",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "1819 Supreme Court case · Upheld the national bank and Congress’s implied powers",
+  "dates": "Decided March 6, 1819",
+  "briefing": "In 1818, Maryland passed a tax on banks it had not chartered, aimed at the Baltimore branch of the Second Bank of the United States. When the branch’s cashier, James McCulloch, refused to pay, the case went to the Supreme Court. In 1819, Chief Justice John Marshall ruled for a unanimous Court that Congress had the implied power to create the bank and that no state could tax it, because “the power to tax involves the power to destroy.”",
+  "answerHtml": "<b><u>McCulloch</u></b> v. Maryland (prompt on “Maryland” alone; do not accept “Gibbons v. Ogden” or “Marbury v. Madison”)",
+  "accept": [
+    "mcculloch v maryland",
+    "mcculloch vs maryland",
+    "mcculloch versus maryland",
+    "mcculloch v state of maryland",
+    "mcculloch maryland",
+    "mcculloch",
+    "mccullough v maryland",
+    "mccullough",
+    "mcculloch case"
+  ],
+  "prompt": [
+    "maryland",
+    "james mcculloch",
+    "james w mcculloch",
+    "james william mcculloch"
+  ],
+  "reject": [
+    "gibbons v ogden",
+    "gibbons",
+    "ogden",
+    "marbury v madison",
+    "marbury",
+    "dartmouth college v woodward",
+    "dartmouth college",
+    "fletcher v peck",
+    "osborn v bank of the united states",
+    "osborn",
+    "cohens v virginia",
+    "martin v hunters lessee",
+    "worcester v georgia",
+    "barron v baltimore",
+    "second bank of the united states",
+    "bank of the united states",
+    "first bank of the united states",
+    "national bank",
+    "necessary and proper clause",
+    "elastic clause",
+    "supremacy clause",
+    "implied powers",
+    "john marshall",
+    "daniel webster",
+    "luther martin",
+    "william pinkney",
+    "andrew jackson",
+    "bank war",
+    "federal reserve",
+    "dred scott v sandford",
+    "plessy v ferguson",
+    "brown v board of education",
+    "miranda v arizona"
+  ],
+  "tests": {
+    "right": [
+      "McCulloch v. Maryland",
+      "McCulloch",
+      "McCullough v. Maryland",
+      "McCulloch vs. Maryland",
+      "Mcculoch v Maryland",
+      "McCulloch versus Maryland"
+    ],
+    "prompt": [
+      "Maryland",
+      "James McCulloch"
+    ],
+    "wrong": [
+      "Gibbons v. Ogden",
+      "Marbury v. Madison",
+      "Dartmouth College v. Woodward",
+      "Second Bank of the United States",
+      "Necessary and Proper Clause",
+      "Osborn v. Bank of the United States",
+      "Barron v. Baltimore",
+      "John Marshall"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/McCulloch_v._Maryland",
+  "qb": {
+    "q": "McCulloch",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "An opinion in this case declared, “Let the end be legitimate, let it be within the scope of the constitution,” and then said that all appropriate means consistent with the Constitution are allowed. That opinion argued that “necessary” did not have to mean “absolutely necessary.”",
+      "r": "For 10 points, name this 1819 Supreme Court case that upheld the Second Bank of the United States."
+    },
+    {
+      "p": "Luther Martin, who had refused to sign the Constitution in 1787, argued this case as the attorney general of the losing state. Daniel Webster and Attorney General William Wirt argued for the winning side.",
+      "r": "For 10 points, name this 1819 case in which John Marshall’s Court ruled that a state could not tax the national bank."
+    },
+    {
+      "p": "In this case, the Chief Justice noted that the Tenth Amendment, unlike the Articles of Confederation, leaves out the word “expressly.” He also rejected the idea that the Constitution was a compact among sovereign states, saying it came from the people.",
+      "r": "That Chief Justice was John Marshall. For 10 points, name this 1819 case that upheld Congress’s implied powers."
+    },
+    {
+      "p": "Five years after this case, the Supreme Court reaffirmed it in _Osborn v. Bank of the United States_, after an Ohio official seized money from a branch of the national bank to collect a state tax. In his 1832 veto of the bank’s recharter, Andrew Jackson refused to accept that this case had settled whether the bank was constitutional.",
+      "r": "For 10 points, name this 1819 case in which John Marshall ruled that states cannot tax the Second Bank of the United States."
+    },
+    {
+      "p": "Virginia judge Spencer Roane attacked this decision in a series of newspaper essays, and the decision’s author secretly answered him in essays published under a pen name. Many critics in Virginia feared this decision’s broad reading of federal power would threaten the rights of the states.",
+      "r": "For 10 points, name this 1819 case in which John Marshall wrote that “the power to tax involves the power to destroy.”"
+    },
+    {
+      "p": "A state law passed in 1818 required any bank not chartered by that state to print its notes on special stamped paper or pay $15,000 a year. The cashier of a Baltimore bank branch refused to pay, leading to this case.",
+      "r": "For 10 points, name this 1819 Supreme Court case that upheld the national bank and Congress’s implied powers."
+    },
+    {
+      "p": "This case’s opinion followed the reasoning of Alexander Hamilton, who in 1791 had defended a national bank against Thomas Jefferson’s argument that the Constitution did not allow one. In this case, the Court ruled that Congress could create such a bank as a way to carry out its listed powers.",
+      "r": "For 10 points, name this 1819 case about the Second Bank of the United States, decided by John Marshall’s Court."
+    },
+    {
+      "p": "This case was decided during the Panic of 1819, when many Americans blamed hard times on the institution at its center. About a month earlier, the same Court had decided _Dartmouth College v. Woodward_, a case about a college charter.",
+      "r": "For 10 points, name this 1819 case in which John Marshall ruled that a state could not tax the Second Bank of the United States."
+    },
+    {
+      "p": "This case relied on the Supremacy Clause to rule that states may not interfere with lawful actions of the federal government. Its opinion warned that if states could tax federal institutions, they could use that power to cripple them.",
+      "r": "That opinion said “the power to tax involves the power to destroy.” For 10 points, name this 1819 Supreme Court case."
+    },
+    {
+      "p": "In this unanimous decision, the Chief Justice wrote, “We must never forget, that it is a constitution we are expounding,” explaining that a constitution marks only its “great outlines” instead of spelling out every detail like a legal code.",
+      "r": "For 10 points, name this 1819 case in which John Marshall upheld the Second Bank of the United States."
+    },
+    {
+      "p": "James Madison, who had argued against a national bank in 1791, signed the 1816 law that created the institution at the center of this case. That institution was headquartered in Philadelphia, but this case involved one of its branches in Baltimore.",
+      "r": "For 10 points, name this 1819 case in which John Marshall’s Court ruled that a state could not tax the Second Bank of the United States."
+    },
+    {
+      "p": "This case answered two questions: whether Congress had the power to create a corporation even though the Constitution never mentions one, and whether a state could tax that corporation’s local branch. The Court answered yes to the first question and no to the second.",
+      "r": "For 10 points, name this 1819 case about the Second Bank of the United States, decided by John Marshall."
+    },
+    {
+      "p": "This decision stated that the national government, “though limited in its powers, is supreme within its sphere of action.” It ruled that a state’s attempt to tax a federal institution conflicted with that supremacy and was therefore unconstitutional.",
+      "r": "For 10 points, name this 1819 case in which John Marshall struck down a state tax on the Second Bank of the United States."
+    },
+    {
+      "p": "Joseph Hopkinson, who wrote the words to the patriotic song “Hail, Columbia,” was a lawyer for the losing state in this case. The famous lawyer William Pinkney, a former U.S. attorney general, gave the final argument for the winning side.",
+      "r": "For 10 points, name this 1819 case in which the Supreme Court upheld Congress’s power to charter the Second Bank of the United States."
+    },
+    {
+      "p": "After the charter of an earlier national bank expired in 1811, money troubles during the War of 1812 led Congress to charter a new one in 1816. This case decided whether that new bank was constitutional and whether a state could tax its branch.",
+      "r": "Chief Justice John Marshall wrote the unanimous opinion. For 10 points, name this 1819 case about the Second Bank of the United States."
+    }
+  ],
+  "clues": [
+    {
+      "id": "year-court",
+      "tier": "giveaway",
+      "t": "1819 Supreme Court case; Chief Justice John Marshall wrote the unanimous opinion",
+      "k": [
+        "1819",
+        "john marshall",
+        "unanimous"
+      ],
+      "n": 0,
+      "rabbit": "John Marshall"
+    },
+    {
+      "id": "bank-tax",
+      "tier": "giveaway",
+      "t": "Ruled that a state could not tax the Second Bank of the United States",
+      "k": [
+        "second bank",
+        "tax",
+        "state"
+      ],
+      "n": 0,
+      "rabbit": "Second Bank of the United States"
+    },
+    {
+      "id": "power-to-destroy",
+      "tier": "giveaway",
+      "t": "Marshall: “The power to tax involves the power to destroy”",
+      "k": [
+        "power to tax",
+        "power to destroy",
+        "destroy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "implied-powers",
+      "tier": "giveaway",
+      "t": "Upheld Congress’s implied power to create a bank under the Necessary and Proper (“Elastic”) Clause",
+      "k": [
+        "implied power",
+        "necessary and proper",
+        "elastic"
+      ],
+      "n": 0,
+      "rabbit": "Federalism"
+    },
+    {
+      "id": "cashier",
+      "tier": "middle",
+      "t": "Began when the cashier of the bank’s Baltimore branch refused to pay a state tax",
+      "k": [
+        "cashier",
+        "baltimore",
+        "refused"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stamp-tax",
+      "tier": "middle",
+      "t": "The state’s 1818 law made banks it had not chartered print their notes on stamped paper or pay $15,000 a year",
+      "k": [
+        "stamped paper",
+        "$15,000",
+        "1818"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supremacy",
+      "tier": "middle",
+      "t": "Relied on the Supremacy Clause: states may not interfere with lawful actions of the federal government",
+      "k": [
+        "supremacy clause",
+        "supremacy",
+        "interfere"
+      ],
+      "n": 0,
+      "rabbit": "Supremacy Clause"
+    },
+    {
+      "id": "webster",
+      "tier": "middle",
+      "t": "Daniel Webster and Attorney General William Wirt argued for the bank",
+      "k": [
+        "daniel webster",
+        "webster",
+        "william wirt",
+        "wirt"
+      ],
+      "n": 0,
+      "rabbit": "Daniel Webster"
+    },
+    {
+      "id": "expounding",
+      "tier": "middle",
+      "t": "Marshall: “We must never forget, that it is a constitution we are expounding”; a constitution marks only its “great outlines”",
+      "k": [
+        "expounding",
+        "great outlines",
+        "never forget"
+      ],
+      "n": 0
+    },
+    {
+      "id": "necessary-means",
+      "tier": "middle",
+      "t": "Marshall said “necessary” did not have to mean “absolutely necessary”",
+      "k": [
+        "absolutely necessary",
+        "necessary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hamilton",
+      "tier": "middle",
+      "t": "Followed Alexander Hamilton’s 1791 defense of the First Bank, which Thomas Jefferson had called unconstitutional",
+      "k": [
+        "alexander hamilton",
+        "first bank",
+        "1791",
+        "thomas jefferson"
+      ],
+      "n": 0,
+      "rabbit": "Alexander Hamilton"
+    },
+    {
+      "id": "jackson",
+      "tier": "middle",
+      "t": "In his 1832 veto of the bank’s recharter, Andrew Jackson refused to accept that this ruling had settled the bank’s constitutionality",
+      "k": [
+        "andrew jackson",
+        "veto",
+        "1832"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dartmouth",
+      "tier": "middle",
+      "t": "Decided about a month after _Dartmouth College v. Woodward_ (1819), another Marshall Court ruling",
+      "k": [
+        "dartmouth college",
+        "woodward",
+        "month"
+      ],
+      "n": 0
+    },
+    {
+      "id": "let-the-end",
+      "tier": "power",
+      "t": "Marshall: “Let the end be legitimate, let it be within the scope of the constitution,” and appropriate means are allowed",
+      "k": [
+        "let the end be legitimate",
+        "legitimate",
+        "appropriate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "luther-martin",
+      "tier": "power",
+      "t": "The state’s attorney general, Luther Martin, who had refused to sign the Constitution in 1787, argued the losing side",
+      "k": [
+        "luther martin",
+        "attorney general",
+        "1787"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hopkinson",
+      "tier": "power",
+      "t": "Joseph Hopkinson, who wrote the words to “Hail, Columbia,” also argued for the losing state",
+      "k": [
+        "joseph hopkinson",
+        "hopkinson",
+        "hail, columbia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pinkney",
+      "tier": "power",
+      "t": "Former U.S. attorney general William Pinkney gave the final argument for the bank",
+      "k": [
+        "william pinkney",
+        "pinkney",
+        "final argument"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tenth",
+      "tier": "power",
+      "t": "Marshall noted that the Tenth Amendment, unlike the Articles of Confederation, leaves out the word “expressly”",
+      "k": [
+        "tenth amendment",
+        "expressly",
+        "articles of confederation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "people-not-states",
+      "tier": "power",
+      "t": "Marshall said the Constitution came from the people, not from a compact among sovereign states",
+      "k": [
+        "the people",
+        "compact",
+        "sovereign states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "supreme-sphere",
+      "tier": "power",
+      "t": "Marshall: the national government, “though limited in its powers, is supreme within its sphere of action”",
+      "k": [
+        "sphere of action",
+        "supreme",
+        "limited"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corporation",
+      "tier": "power",
+      "t": "Two questions: could Congress create a corporation, which the Constitution never mentions (yes), and could a state tax its branch (no)?",
+      "k": [
+        "corporation",
+        "two questions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "osborn",
+      "tier": "power",
+      "t": "Reaffirmed in _Osborn v. Bank of the United States_ (1824), after an Ohio official seized money from a bank branch to collect a state tax",
+      "k": [
+        "osborn",
+        "ohio",
+        "1824"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roane",
+      "tier": "power",
+      "t": "Virginia judge Spencer Roane attacked the ruling in newspaper essays; Marshall secretly answered under a pen name",
+      "k": [
+        "spencer roane",
+        "roane",
+        "pen name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "panic",
+      "tier": "power",
+      "t": "Decided during the Panic of 1819, when many Americans blamed the bank for hard times",
+      "k": [
+        "panic of 1819",
+        "panic",
+        "hard times"
+      ],
+      "n": 0
+    },
+    {
+      "id": "madison-1816",
+      "tier": "power",
+      "t": "James Madison, who had argued against a national bank in 1791, signed the bank’s charter in 1816; it was headquartered in Philadelphia",
+      "k": [
+        "james madison",
+        "1816",
+        "philadelphia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "war-of-1812",
+      "tier": "power",
+      "t": "The First Bank’s charter expired in 1811, and money troubles in the War of 1812 led Congress to charter a second bank",
+      "k": [
+        "war of 1812",
+        "1811",
+        "expired"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Marshall Court case?",
+    "body": "John Marshall’s Court decided several famous cases that are easy to mix up. _Marbury v. Madison_ (1803) established judicial review; McCulloch v. Maryland (1819) upheld the national bank and implied powers; _Dartmouth College v. Woodward_ (1819) protected a college’s charter as a contract; and _Gibbons v. Ogden_ (1824) gave Congress power over steamboats and other trade between states. Daniel Webster argued and won both McCulloch and _Gibbons_, so a Webster clue alone does not settle it.",
+    "fix": "A bank, a state tax, implied powers, the Necessary and Proper Clause, and “the power to tax involves the power to destroy” mean McCulloch. Midnight judges and judicial review mean _Marbury_; steamboats and interstate commerce mean _Gibbons_; a college charter means _Dartmouth_. Saying only “Maryland” earns a prompt, so lead with “McCulloch.”",
+    "line": "Real answer line: <b><u>McCulloch</u></b> v. Maryland (prompt on “Maryland” alone; do not accept “Gibbons v. Ogden” or “Marbury v. Madison”)"
+  }
+}

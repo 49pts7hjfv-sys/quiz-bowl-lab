@@ -30,6 +30,8 @@
     "warren court",
     "warren commission",
     "robert penn warren",
+    "penn warren",
+    "robert warren",
     "mercy otis warren",
     "mercy warren",
     "joseph warren",
@@ -78,7 +80,7 @@
     },
     {
       "p": "In February 2017, the Senate voted to stop this senator from speaking during a debate over Jeff Sessions’s nomination for attorney general, after she read aloud a 1986 letter by Coretta Scott King. Majority Leader Mitch McConnell explained, “She was warned. She was given an explanation.”",
-      "r": "His next words, “Nevertheless, she persisted,” became a popular slogan. For 10 points, name this senator from Massachusetts."
+      "r": "His next words, “Nevertheless, she persisted,” became a widely repeated slogan. For 10 points, name this senator from Massachusetts."
     },
     {
       "p": "After the 2008 financial crisis, this law professor chaired a Congressional Oversight Panel that kept watch on the Troubled Asset Relief Program, the government’s rescue of the banks. In 2010 and 2011, she worked for President Barack Obama setting up a new consumer agency.",
@@ -113,8 +115,8 @@
       "r": "That agency is the Consumer Financial Protection Bureau. For 10 points, name this senator first elected in 2012."
     },
     {
-      "p": "Before going to law school, this woman taught children with disabilities at a public school in New Jersey, using her training in speech pathology. She later spent decades teaching and writing about bankruptcy law.",
-      "r": "For 10 points, name this Harvard law professor who became a senator from Massachusetts in 2013."
+      "p": "Before going to law school, this woman taught children with disabilities at a public school in New Jersey, after earning a degree in speech pathology. She later spent decades teaching and writing about bankruptcy law.",
+      "r": "For 10 points, name this Harvard law professor who was elected to the Senate from Massachusetts in 2012."
     },
     {
       "p": "This senator was reelected in 2018 over Geoff Diehl and in 2024 over John Deaton, both Republicans. Before entering politics, she had spent more than thirty years as a law professor, much of that time studying bankruptcy.",
@@ -125,8 +127,8 @@
       "r": "She later became a law professor at Harvard. For 10 points, name this senator from Massachusetts."
     },
     {
-      "p": "During the 2020 race, this candidate proposed a yearly “two-cent” tax on each dollar of a household’s wealth above $50 million, and crowds at her rallies chanted “Two cents!” She also posed for photos with voters in long “selfie lines.”",
-      "r": "For 10 points, name this Massachusetts senator who ended her presidential campaign in March 2020."
+      "p": "During the 2020 race, this candidate proposed a yearly “wealth tax” on households worth more than $50 million, one of many detailed plans her campaign released. She ended that campaign in March 2020, soon after the Super Tuesday primaries.",
+      "r": "For 10 points, name this Massachusetts senator who first proposed the Consumer Financial Protection Bureau."
     }
   ],
   "clues": [
@@ -200,7 +202,7 @@
     {
       "id": "coretta",
       "tier": "middle",
-      "t": "In 2017 she read a 1986 letter by Coretta Scott King opposing Jeff Sessions, who had been nominated for attorney general",
+      "t": "In 2017, while the Senate debated Jeff Sessions for attorney general, she read Coretta Scott King’s 1986 letter opposing his nomination as a federal judge",
       "k": [
         "coretta scott king",
         "jeff sessions",
@@ -357,13 +359,13 @@
       "n": 0
     },
     {
-      "id": "two-cents",
+      "id": "wealth-tax",
       "tier": "power",
-      "t": "Proposed a yearly “two-cent” tax on wealth above $50 million; posed for photos with voters in long “selfie lines”",
+      "t": "Proposed a yearly “wealth tax” on households worth more than $50 million during her 2020 campaign",
       "k": [
-        "two-cent",
-        "wealth",
-        "selfie lines"
+        "wealth tax",
+        "50 million",
+        "2020"
       ],
       "n": 0
     }
@@ -372,7 +374,7 @@
     "title": "Which Warren?",
     "body": "Several famous Warrens appear in quiz bowl. Earl Warren was the Chief Justice whose court decided _Brown v. Board of Education_, Robert Penn Warren wrote the novel _All the King’s Men_, and Mercy Otis Warren wrote plays and a history of the American Revolution. Bernie Sanders also ran for the 2020 Democratic nomination, so campaign clues can fit either senator.",
     "fix": "Massachusetts, Harvard Law, bankruptcy research, the Consumer Financial Protection Bureau, and “Nevertheless, she persisted” mean Elizabeth Warren. Vermont and Burlington mean Sanders. “Warren” alone is enough on this answer line, but if you add a first name, it must be “Elizabeth.”",
-    "line": "Real answer line: Elizabeth <b><u>Warren</u></b> (accept Elizabeth Ann <b><u>Warren</u></b>; prompt on <u>Elizabeth</u>)"
+    "line": "Real answer line: Elizabeth <b><u>Warren</u></b> (accept Elizabeth Ann <b><u>Warren</u></b>; prompt on <u>Elizabeth</u>; do not accept “Earl Warren”)"
   },
   "tests": {
     "right": [

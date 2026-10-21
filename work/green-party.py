@@ -149,14 +149,14 @@ data = {
             "id": "environment",
             "tier": "giveaway",
             "t": "A political party built around protecting the environment (ecology)",
-            "k": ["environment", "ecology", "political party"],
+            "k": ["environment", "ecology"],
             "n": 0
         },
         {
             "id": "nader-2000",
             "tier": "giveaway",
             "t": "Consumer advocate Ralph Nader was its 2000 presidential candidate, winning almost 3 percent nationally and more than 97,000 votes in Florida",
-            "k": ["ralph nader", "nader", "97,000", "almost 3 percent"],
+            "k": ["ralph nader", "nader", "97,000"],
             "n": 0,
             "rabbit": "Ralph Nader"
         },
@@ -185,7 +185,7 @@ data = {
             "id": "five-percent",
             "tier": "middle",
             "t": "In 2000, Nader hoped for 5 percent of the vote to win federal campaign money; a 15 percent polling rule kept him out of the debates",
-            "k": ["5 percent", "15 percent", "debates", "campaign money"],
+            "k": ["15 percent", "5 percent", "debates"],
             "n": 0
         },
         {
@@ -235,7 +235,7 @@ data = {
             "id": "petra-kelly",
             "tier": "power",
             "t": "Petra Kelly helped found West Germany’s party of the same name (1980), which entered the Bundestag in 1983",
-            "k": ["petra kelly", "bundestag", "west germany", "1983"],
+            "k": ["petra kelly", "bundestag", "1983"],
             "n": 0
         },
         {
@@ -249,14 +249,14 @@ data = {
             "id": "mckinney-georgia",
             "tier": "power",
             "t": "Cynthia McKinney had been the first African American woman to represent Georgia in Congress; Rosa Clemente was her running mate",
-            "k": ["first african american woman", "rosa clemente", "clemente"],
+            "k": ["rosa clemente", "clemente", "georgia"],
             "n": 0
         },
         {
             "id": "angela-walker",
             "tier": "power",
             "t": "Angela Walker was Howie Hawkins’s running mate in 2020; Hawkins had run three times for governor of New York",
-            "k": ["angela walker", "governor of new york", "three times"],
+            "k": ["angela walker", "three times"],
             "n": 0
         },
         {

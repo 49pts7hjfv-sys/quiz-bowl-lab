@@ -210,7 +210,7 @@ data = {
             "id": "flood-1927",
             "tier": "middle",
             "t": "Directed relief during the Great Mississippi Flood of 1927",
-            "k": ["1927", "flood", "relief"],
+            "k": ["mississippi flood", "1927"],
             "n": 0,
             "rabbit": "Mississippi River"
         },
@@ -302,7 +302,7 @@ data = {
             "id": "commissions",
             "tier": "power",
             "t": "Led commissions to reorganize the executive branch for Truman (1947) and Eisenhower; founded a war-and-peace library at Stanford (1919)",
-            "k": ["reorganize", "truman", "eisenhower", "war-and-peace"],
+            "k": ["reorganize", "truman"],
             "n": 0
         },
         {

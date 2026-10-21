@@ -145,7 +145,7 @@ data = {
             "id": "army-post",
             "tier": "giveaway",
             "t": "A famous Army post in Kentucky that stores much of the nation’s gold is named for him",
-            "k": ["kentucky", "gold", "army post"],
+            "k": ["kentucky", "gold"],
             "n": 0
         },
         {
@@ -181,7 +181,7 @@ data = {
             "id": "delaware-trenton",
             "tier": "middle",
             "t": "Directed the crossing of the Delaware River on Christmas night, 1776, before the Battle of Trenton",
-            "k": ["delaware", "trenton", "christmas"],
+            "k": ["delaware", "trenton"],
             "n": 0
         },
         {
@@ -289,7 +289,7 @@ data = {
             "id": "maine-fort",
             "tier": "power",
             "t": "A granite fort on Maine’s Penobscot River is also named for him",
-            "k": ["penobscot", "granite fort", "maine"],
+            "k": ["penobscot", "maine"],
             "n": 0
         }
     ],

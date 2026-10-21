@@ -193,7 +193,7 @@ data = {
             "id": "cook",
             "tier": "middle",
             "t": "Captain James Cook arrived in 1778, named the islands for the Earl of Sandwich, and was killed at Kealakekua Bay in 1779",
-            "k": ["james cook", "cook", "1778", "earl of sandwich"],
+            "k": ["james cook", "cook", "1778"],
             "n": 0
         },
         {
@@ -272,14 +272,14 @@ data = {
             "id": "kalakaua",
             "tier": "power",
             "t": "King Kalākaua, the “Merrie Monarch,” was the first reigning monarch to travel around the world (1881); ʻIolani Palace had electric lights before the White House",
-            "k": ["merrie monarch", "around the world", "1881", "electric lights"],
+            "k": ["merrie monarch", "1881"],
             "n": 0
         },
         {
             "id": "blount",
             "tier": "power",
             "t": "Grover Cleveland pulled an annexation treaty and sent James Blount, who said U.S. minister John Stevens had improperly helped the overthrow by landing Marines from the USS _Boston_",
-            "k": ["blount", "grover cleveland", "john stevens", "uss boston"],
+            "k": ["blount", "boston"],
             "n": 0
         },
         {
@@ -314,7 +314,7 @@ data = {
             "id": "hotspot",
             "tier": "power",
             "t": "The islands formed over a hotspot, oldest in the northwest; Mauna Kea rises more than 30,000 feet from the ocean floor",
-            "k": ["hotspot", "mauna kea", "30,000 feet"],
+            "k": ["hotspot", "oldest"],
             "n": 0
         },
         {
@@ -328,7 +328,7 @@ data = {
             "id": "mahele",
             "tier": "power",
             "t": "The Great Mahele (1848) under Kamehameha III divided the land and allowed private ownership",
-            "k": ["mahele", "kamehameha iii", "1848"],
+            "k": ["mahele", "1848"],
             "n": 0
         },
         {

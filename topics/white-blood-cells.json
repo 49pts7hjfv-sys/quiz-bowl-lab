@@ -1,0 +1,493 @@
+{
+  "id": "white-blood-cells",
+  "name": "White blood cells",
+  "mono": "WBC",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Infection-fighting cells of the immune system · Made in bone marrow",
+  "dates": "Phagocytosis discovered in 1882",
+  "briefing": "White blood cells are your body’s defense force, a mix of first responders, scouts, and cleanup crews that patrol your blood and tissues for germs. Neutrophils rush to an infection and swallow bacteria, some lymphocytes make antibodies and remember old enemies, and macrophages gobble up debris. Made in your bone marrow, they are far outnumbered by red blood cells, but a single drop of blood still holds many thousands of them.",
+  "answerHtml": "<b><u>White blood cells</u></b> (accept <u>leukocytes</u> or <u>WBCs</u>; prompt on <u>blood cells</u>; do not accept “red blood cells,” “platelets,” or “antibodies”)",
+  "accept": [
+    "white blood cells",
+    "white blood cell",
+    "white cells",
+    "white cell",
+    "leukocytes",
+    "leukocyte",
+    "leucocytes",
+    "leucocyte",
+    "wbc",
+    "wbcs",
+    "white blood corpuscles",
+    "white blood corpuscle",
+    "white corpuscles",
+    "white corpuscle"
+  ],
+  "prompt": [
+    "blood cells",
+    "blood cell",
+    "white blood",
+    "immune cells",
+    "immune cell",
+    "immune system cells"
+  ],
+  "reject": [
+    "red blood cells",
+    "red blood cell",
+    "erythrocytes",
+    "erythrocyte",
+    "red cells",
+    "platelets",
+    "platelet",
+    "thrombocytes",
+    "antibodies",
+    "antibody",
+    "immunoglobulins",
+    "plasma",
+    "blood plasma",
+    "serum",
+    "hemoglobin",
+    "bone marrow",
+    "marrow",
+    "stem cells",
+    "stem cell",
+    "lymphocytes",
+    "lymphocyte",
+    "neutrophils",
+    "neutrophil",
+    "macrophages",
+    "macrophage",
+    "monocytes",
+    "monocyte",
+    "eosinophils",
+    "eosinophil",
+    "basophils",
+    "basophil",
+    "phagocytes",
+    "phagocyte",
+    "b cells",
+    "b cell",
+    "t cells",
+    "t cell",
+    "helper t cells",
+    "killer t cells",
+    "natural killer cells",
+    "nk cells",
+    "plasma cells",
+    "mast cells",
+    "granulocytes",
+    "agranulocytes",
+    "lymph",
+    "lymph nodes",
+    "thymus",
+    "spleen",
+    "leukemia",
+    "pus",
+    "antigens",
+    "antigen",
+    "histamine",
+    "white dwarfs",
+    "white dwarf",
+    "red and white blood cells"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/White_blood_cell",
+  "qb": {
+    "q": "white blood cell",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1882, Élie Metchnikoff [“MECH-nih-koff”] stuck tiny rose thorns into see-through starfish larvae and watched cells like these swarm around the thorns, leading him to discover phagocytosis, the way some of these cells swallow germs. He shared the 1908 Nobel Prize with Paul Ehrlich.",
+      "r": "They are made in bone marrow. For 10 points, name these infection-fighting blood cells, which include neutrophils and lymphocytes."
+    },
+    {
+      "p": "In the late 1870s, Paul Ehrlich used new dyes to sort these cells into types, naming one type for the way its granules soak up the pink dye eosin. Another type, the rarest of these cells, takes up basic dyes and releases histamine.",
+      "r": "Neutrophils are the most common type. For 10 points, name these immune cells that travel in the blood and fight infection."
+    },
+    {
+      "p": "A lab test called a differential counts the five main types of these cells, which students memorize from most to least common with the phrase “Never Let Monkeys Eat Bananas.” The “N” stands for neutrophils, and the “B” stands for basophils.",
+      "r": "The “L” stands for lymphocytes, which include B cells and T cells. For 10 points, name these infection-fighting cells in the blood."
+    },
+    {
+      "p": "When a tube of blood is spun in a centrifuge, these cells and platelets settle into a thin, pale layer called the buffy coat, which sits between the yellowish plasma above and the red blood cells below. That layer usually makes up less than one percent of the blood.",
+      "r": "Neutrophils and lymphocytes are two kinds of these cells. For 10 points, name these immune cells made in bone marrow."
+    },
+    {
+      "p": "These cells follow chemical trails to the site of an infection, a movement called chemotaxis, and then squeeze through the walls of tiny blood vessels into the surrounding tissue in a process called diapedesis [“dy-uh-puh-DEE-sis”]. Their numbers often rise sharply when the body is fighting an infection.",
+      "r": "Lymphocytes and neutrophils are types of these. For 10 points, name these blood cells of the immune system."
+    },
+    {
+      "p": "The most common type of these cells has a nucleus split into several lobes, and it can fling out sticky webs of DNA called NETs to trap bacteria. Pus is made largely of that type after huge numbers of them die fighting an infection.",
+      "r": "That type is the neutrophil, a phagocyte that swallows germs. For 10 points, name these infection-fighting cells made in bone marrow."
+    },
+    {
+      "p": "One kind of these cells is named for the bursa of Fabricius [“fuh-BRISH-ee-us”], a pouch in birds where that kind matures, while another kind is named for the thymus, a gland in the chest where it matures.",
+      "r": "Those two kinds, B cells and T cells, are lymphocytes. For 10 points, name these immune cells made in bone marrow."
+    },
+    {
+      "p": "In the 1840s, Rudolf Virchow coined the name of a disease after finding the blood of some patients crowded with these cells. That disease, leukemia, is a cancer that begins in the bone marrow, where abnormal versions of these cells multiply out of control.",
+      "r": "Neutrophils are the most common kind of these cells. For 10 points, name these infection-fighting cells of the blood."
+    },
+    {
+      "p": "Signaling proteins called interleukins [“in-ter-LOO-kinz”] got their name because scientists first thought they were made by and acted on these cells. Some of these cells also release histamine, which helps cause the swelling and itching of allergic reactions.",
+      "r": "Monocytes and lymphocytes are two kinds of these. For 10 points, name these immune cells made in bone marrow."
+    },
+    {
+      "p": "Kupffer [“KOOP-fer”] cells in the liver and microglia [“my-KROH-glee-uh”] in the brain are specialized macrophages, a type of these cells whose name means “big eaters.” Many macrophages develop from monocytes, another type of these cells, after they leave the blood.",
+      "r": "Neutrophils are the most common type. For 10 points, name these immune cells that fight infection."
+    },
+    {
+      "p": "One rare kind of these cells, the eosinophil [“ee-oh-SIN-oh-fil”], helps fight parasitic worms and plays a role in allergies and asthma. The rarest kind, the basophil, releases histamine and heparin. Both are far less common than neutrophils.",
+      "r": "For 10 points, name these immune cells, which are outnumbered hundreds to one by red blood cells."
+    },
+    {
+      "p": "Unlike red blood cells and platelets, these cells have a nucleus, making them the only cells in healthy human blood that do. In a healthy adult, each microliter of blood usually holds about 4,500 to 11,000 of them.",
+      "r": "Lymphocytes and neutrophils are two kinds. For 10 points, name these immune cells made in bone marrow."
+    },
+    {
+      "p": "HIV infects and destroys helper T cells, a kind of these cells that carries a surface protein called CD4, which weakens the whole immune system. Doctors track a patient’s CD4 count to see how well the immune system is holding up.",
+      "r": "B cells, which make antibodies, are another kind. For 10 points, name these infection-fighting blood cells."
+    },
+    {
+      "p": "Natural killer cells, one kind of these cells, can destroy virus-infected cells and some cancer cells without first learning to recognize a specific invader. Lymph nodes often swell during an illness because these cells are multiplying inside them.",
+      "r": "A high count of them in a blood test can signal an infection. For 10 points, name these immune cells."
+    },
+    {
+      "p": "These cells are split into granulocytes, whose cytoplasm is filled with tiny granules, and agranulocytes, which have few visible granules under a microscope. Neutrophils, eosinophils, and basophils are granulocytes, while lymphocytes and monocytes are agranulocytes.",
+      "r": "All of them are made in bone marrow. For 10 points, name these infection-fighting cells of the blood."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fight-infection",
+      "tier": "giveaway",
+      "t": "Blood cells of the immune system that fight infections and germs",
+      "k": [
+        "immune system",
+        "infections",
+        "germs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bone-marrow",
+      "tier": "giveaway",
+      "t": "Made in bone marrow from stem cells",
+      "k": [
+        "bone marrow",
+        "stem cells"
+      ],
+      "n": 0,
+      "rabbit": "Stem cells"
+    },
+    {
+      "id": "types",
+      "tier": "giveaway",
+      "t": "Main types: neutrophils, lymphocytes, monocytes, eosinophils, and basophils",
+      "k": [
+        "neutrophils",
+        "lymphocytes",
+        "monocytes",
+        "eosinophils",
+        "basophils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "outnumbered",
+      "tier": "giveaway",
+      "t": "Far fewer than red blood cells: there are hundreds of red blood cells for each one",
+      "k": [
+        "hundreds",
+        "red blood cells"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "neutrophils-common",
+      "tier": "middle",
+      "t": "Neutrophils are the most common type and are among the first to reach an infection",
+      "k": [
+        "neutrophils",
+        "most common",
+        "first"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lymphocytes",
+      "tier": "middle",
+      "t": "Lymphocytes include B cells, which make antibodies, and T cells",
+      "k": [
+        "b cells",
+        "t cells",
+        "antibodies"
+      ],
+      "n": 0,
+      "rabbit": "Antibodies"
+    },
+    {
+      "id": "phagocytosis",
+      "tier": "middle",
+      "t": "Some, like neutrophils and macrophages, are phagocytes that swallow germs, a process called phagocytosis",
+      "k": [
+        "phagocytes",
+        "phagocytosis",
+        "swallow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "macrophages",
+      "tier": "middle",
+      "t": "Monocytes can leave the blood and grow into macrophages, whose name means “big eaters”",
+      "k": [
+        "monocytes",
+        "macrophages",
+        "big eaters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pus",
+      "tier": "middle",
+      "t": "Pus is made largely of dead neutrophils left after fighting an infection",
+      "k": [
+        "pus",
+        "dead neutrophils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leukemia",
+      "tier": "middle",
+      "t": "Leukemia is a cancer that starts in the bone marrow, where abnormal ones multiply out of control",
+      "k": [
+        "leukemia",
+        "cancer"
+      ],
+      "n": 0,
+      "rabbit": "Cancer"
+    },
+    {
+      "id": "nucleus",
+      "tier": "middle",
+      "t": "The only cells in healthy human blood that have a nucleus",
+      "k": [
+        "nucleus",
+        "only cells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mnemonic",
+      "tier": "middle",
+      "t": "“Never Let Monkeys Eat Bananas” lists the five main types from most to least common",
+      "k": [
+        "never let monkeys eat bananas",
+        "most to least"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hiv",
+      "tier": "middle",
+      "t": "HIV destroys helper T cells, which carry the surface protein CD4",
+      "k": [
+        "hiv",
+        "helper t cells",
+        "cd4"
+      ],
+      "n": 0,
+      "rabbit": "HIV"
+    },
+    {
+      "id": "metchnikoff",
+      "tier": "power",
+      "t": "Élie Metchnikoff discovered phagocytosis in 1882 by sticking rose thorns into starfish larvae",
+      "k": [
+        "metchnikoff",
+        "rose thorns",
+        "starfish",
+        "1882"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nobel-1908",
+      "tier": "power",
+      "t": "Metchnikoff shared the 1908 Nobel Prize with Paul Ehrlich",
+      "k": [
+        "1908",
+        "ehrlich"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ehrlich-dyes",
+      "tier": "power",
+      "t": "Paul Ehrlich’s dyes sorted them into types; eosinophils soak up the pink dye eosin, and basophils take up basic dyes",
+      "k": [
+        "eosin",
+        "dyes",
+        "basic dyes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "buffy-coat",
+      "tier": "power",
+      "t": "In centrifuged blood they form, with platelets, a thin pale layer called the buffy coat, usually under one percent of the blood",
+      "k": [
+        "buffy coat",
+        "centrifuged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chemotaxis-diapedesis",
+      "tier": "power",
+      "t": "They follow chemical trails (chemotaxis) and squeeze out through blood vessel walls (diapedesis)",
+      "k": [
+        "chemotaxis",
+        "diapedesis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lobes-nets",
+      "tier": "power",
+      "t": "Neutrophils have nuclei with several lobes and can fling out sticky DNA webs called NETs to trap bacteria",
+      "k": [
+        "lobes",
+        "nets",
+        "dna webs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bursa-thymus",
+      "tier": "power",
+      "t": "B cells are named for the bursa of Fabricius in birds; T cells are named for the thymus, where they mature",
+      "k": [
+        "bursa of fabricius",
+        "thymus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "virchow",
+      "tier": "power",
+      "t": "Rudolf Virchow coined the name leukemia in the 1840s after seeing patients’ blood crowded with them",
+      "k": [
+        "virchow",
+        "1840s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interleukins",
+      "tier": "power",
+      "t": "Interleukins, signaling proteins, got their name because they were first thought to pass messages between these cells",
+      "k": [
+        "interleukins",
+        "signaling proteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kupffer-microglia",
+      "tier": "power",
+      "t": "Specialized macrophages include Kupffer cells in the liver and microglia in the brain",
+      "k": [
+        "kupffer cells",
+        "microglia"
+      ],
+      "n": 0,
+      "rabbit": "Liver"
+    },
+    {
+      "id": "eosinophils-basophils",
+      "tier": "power",
+      "t": "Eosinophils fight parasitic worms and play a role in allergies; basophils, the rarest type, release histamine",
+      "k": [
+        "parasitic worms",
+        "histamine",
+        "basophils"
+      ],
+      "n": 0
+    },
+    {
+      "id": "granulocytes",
+      "tier": "power",
+      "t": "Granulocytes (neutrophils, eosinophils, basophils) are packed with granules; agranulocytes (lymphocytes, monocytes) have few",
+      "k": [
+        "granulocytes",
+        "agranulocytes",
+        "granules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nk-cells",
+      "tier": "power",
+      "t": "Natural killer cells destroy virus-infected and some cancer cells without first learning a specific target",
+      "k": [
+        "natural killer",
+        "virus-infected"
+      ],
+      "n": 0
+    },
+    {
+      "id": "count",
+      "tier": "power",
+      "t": "A healthy adult usually has about 4,500 to 11,000 per microliter of blood; a high count can signal an infection",
+      "k": [
+        "microliter",
+        "high count",
+        "infection"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which blood part?",
+    "body": "Blood tossups mention several parts, and each has its own answer line. Red blood cells carry oxygen with hemoglobin, platelets help blood clot, and antibodies are proteins that some of these cells make, not cells themselves. Naming a single type, such as lymphocytes or neutrophils, also loses a question that asks for the whole group, and “blood cells” alone only earns a prompt.",
+    "fix": "Fighting infection, phagocytes, pus, leukemia, Metchnikoff, or a list of types like neutrophils and lymphocytes means white blood cells (leukocytes). Oxygen and hemoglobin mean red blood cells; clotting means platelets; Y-shaped proteins mean antibodies.",
+    "line": "Real answer line: <b><u>White blood cells</u></b> (accept <u>leukocytes</u> or <u>WBCs</u>; prompt on <u>blood cells</u>; do not accept “red blood cells,” “platelets,” or “antibodies”)"
+  },
+  "tests": {
+    "right": [
+      "White blood cells",
+      "leukocytes",
+      "WBCs",
+      "white blood cell",
+      "Leucocytes",
+      "Whte blood cells",
+      "White cells"
+    ],
+    "prompt": [
+      "Blood cells",
+      "Immune cells"
+    ],
+    "wrong": [
+      "Red blood cells",
+      "Platelets",
+      "Antibodies",
+      "Lymphocytes",
+      "Neutrophils",
+      "Bone marrow",
+      "Plasma",
+      "Leukemia"
+    ]
+  }
+}

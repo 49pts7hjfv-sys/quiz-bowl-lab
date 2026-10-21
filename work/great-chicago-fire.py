@@ -191,7 +191,7 @@ data = {
             "id": "peshtigo",
             "tier": "middle",
             "t": "The same night, the far deadlier Peshtigo Fire in Wisconsin killed more than 1,000 people, and fires also burned Holland, Michigan",
-            "k": ["peshtigo", "wisconsin", "holland"],
+            "k": ["peshtigo", "holland"],
             "n": 0
         },
         {
@@ -247,14 +247,14 @@ data = {
             "id": "sheridan",
             "tier": "power",
             "t": "Mayor Roswell Mason put General Philip Sheridan in charge of keeping order",
-            "k": ["sheridan", "roswell mason", "mason"],
+            "k": ["sheridan", "mason"],
             "n": 0
         },
         {
             "id": "medill",
             "tier": "power",
             "t": "_Tribune_ publisher Joseph Medill, whose paper printed a “Cheer Up” editorial, was elected mayor weeks later on a “Fireproof” ticket",
-            "k": ["medill", "fireproof", "cheer up", "tribune"],
+            "k": ["medill", "mayor"],
             "n": 0
         },
         {

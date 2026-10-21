@@ -176,7 +176,7 @@ data = {
             "id": "katrina",
             "tier": "giveaway",
             "t": "Hurricane Katrina (2005) crossed it before striking Louisiana and Mississippi",
-            "k": ["katrina", "hurricane", "2005"],
+            "k": ["katrina", "2005"],
             "n": 0,
             "rabbit": "Hurricane Katrina"
         },
@@ -192,7 +192,7 @@ data = {
             "id": "loop-current",
             "tier": "middle",
             "t": "Its warm Loop Current enters through the Yucatán Channel and exits through the Straits of Florida as the Florida Current",
-            "k": ["loop current", "yucatán channel", "straits of florida"],
+            "k": ["loop current", "warm"],
             "n": 0,
             "rabbit": "Ocean currents"
         },
@@ -200,7 +200,7 @@ data = {
             "id": "dead-zone",
             "tier": "middle",
             "t": "Fertilizer carried by the Mississippi feeds algae that leave a low-oxygen “dead zone” off Louisiana each summer",
-            "k": ["dead zone", "fertilizer", "algae", "oxygen"],
+            "k": ["dead zone", "algae", "oxygen"],
             "n": 0
         },
         {
@@ -256,7 +256,7 @@ data = {
             "id": "pineda",
             "tier": "power",
             "t": "Alonso Álvarez de Pineda drew the first known map of its coast in 1519",
-            "k": ["pineda", "first known map", "1519"],
+            "k": ["pineda", "1519"],
             "n": 0
         },
         {
@@ -270,7 +270,7 @@ data = {
             "id": "ixtoc",
             "tier": "power",
             "t": "The Ixtoc I blowout (1979) in the Bay of Campeche spilled oil for about nine months",
-            "k": ["ixtoc", "1979", "blowout"],
+            "k": ["ixtoc", "1979"],
             "n": 0
         },
         {
@@ -284,7 +284,7 @@ data = {
             "id": "sigsbee",
             "tier": "power",
             "t": "Its deepest point, the Sigsbee Deep, is named for Charles Sigsbee, later captain of the USS _Maine_",
-            "k": ["sigsbee", "deepest point", "uss maine"],
+            "k": ["sigsbee", "deep"],
             "n": 0
         },
         {
