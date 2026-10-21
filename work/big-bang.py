@@ -81,8 +81,8 @@ data = {
             "r": "For 10 points, name this event, the hot, dense beginning of the universe about 13.8 billion years ago.",
         },
         {
-            "p": "In 1922, Alexander Friedmann found solutions to Albert Einstein’s equations that describe an expanding universe, ideas that later fed into this theory. Edwin Hubble’s 1929 discovery that distant galaxies are rushing away from us became key evidence for it.",
-            "r": "For 10 points, name this theory of the universe’s origin, whose name was coined by Fred Hoyle.",
+            "p": "In 1922, Alexander Friedmann found solutions to Albert Einstein’s equations that describe an expanding universe, ideas that later fed into this theory. Einstein himself had at first preferred a universe that stays the same size.",
+            "r": "Edwin Hubble’s 1929 discovery that distant galaxies are rushing away from us became key evidence for it. For 10 points, name this theory of the universe’s origin.",
         },
         {
             "p": "Olbers’ paradox asks why the night sky is dark if the universe is endless and filled with stars, and part of the answer comes from this theory: the universe has a limited age, so light from the most distant stars has not had time to reach us.",
