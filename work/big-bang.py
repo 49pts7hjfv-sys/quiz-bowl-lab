@@ -65,8 +65,8 @@ data = {
             "r": "For 10 points, name this theory that the universe began about 13.8 billion years ago in a hot, dense state.",
         },
         {
-            "p": "Fred Hoyle, who believed in a rival theory in which new matter is constantly created as the universe expands, gave this theory its catchy name during a 1949 BBC radio broadcast. Hoyle’s rival model, developed with Hermann Bondi and Thomas Gold, was called the Steady State theory.",
-            "r": "For 10 points, name this theory that the universe expanded from an extremely hot, dense beginning.",
+            "p": "Hermann Bondi, Thomas Gold, and Fred Hoyle championed a rival to this theory, in which new matter is constantly created as the universe expands, so that the universe always looks the same. That rival model was called the Steady State theory.",
+            "r": "Hoyle himself coined this theory’s name on BBC radio in 1949. For 10 points, name this theory that the universe expanded from an extremely hot, dense beginning.",
         },
         {
             "p": "As a pun on the first three letters of the Greek alphabet, George Gamow [“GAM-off”] added Hans Bethe’s name to a 1948 paper with Ralph Alpher about how the lightest elements formed. Alpher and Robert Herman also predicted that leftover radiation from this event should still fill space.",
