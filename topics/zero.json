@@ -16,7 +16,9 @@
     "the number zero",
     "number zero",
     "nought",
-    "naught"
+    "naught",
+    "the number 0",
+    "number 0"
   ],
   "prompt": [
     "nothing",
@@ -49,7 +51,37 @@
     "origin",
     "eros",
     "heroes",
-    "nero"
+    "nero",
+    "number one",
+    "number two",
+    "number three",
+    "number four",
+    "number five",
+    "number six",
+    "number seven",
+    "number eight",
+    "number nine",
+    "number ten",
+    "number eleven",
+    "number twelve",
+    "number e",
+    "number i",
+    "number pi",
+    "number phi",
+    "number tau",
+    "number infinity",
+    "number 1",
+    "number 2",
+    "number 3",
+    "number 4",
+    "number 5",
+    "number 6",
+    "number 7",
+    "number 8",
+    "number 9",
+    "number 10",
+    "number 11",
+    "number 12"
   ],
   "tests": {
     "right": [
@@ -58,7 +90,8 @@
       "Zero",
       "the number zero",
       "nought",
-      "the numbr zero"
+      "the numbr zero",
+      "the number 0"
     ],
     "prompt": [
       "nothing"
@@ -69,7 +102,8 @@
       "absolute zero",
       "empty set",
       "The number two",
-      "null"
+      "null",
+      "number 1"
     ]
   },
   "media": [],

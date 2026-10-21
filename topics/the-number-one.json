@@ -68,7 +68,33 @@
     "unit fractions",
     "half",
     "one half",
-    "a half"
+    "a half",
+    "number three",
+    "number five",
+    "number six",
+    "number seven",
+    "number eight",
+    "number nine",
+    "number ten",
+    "number eleven",
+    "number twelve",
+    "number e",
+    "number i",
+    "number pi",
+    "number phi",
+    "number tau",
+    "number 0",
+    "number 2",
+    "number 3",
+    "number 4",
+    "number 5",
+    "number 6",
+    "number 7",
+    "number 8",
+    "number 9",
+    "number 10",
+    "number 11",
+    "number 12"
   ],
   "tests": {
     "right": [
@@ -90,7 +116,9 @@
       "negative one",
       "i",
       "prime number",
-      "infinity"
+      "infinity",
+      "the number 2",
+      "number 4"
     ]
   },
   "media": [],
