@@ -123,7 +123,7 @@ data = {
             "r": "For 10 points, name this 1871 disaster that destroyed much of Chicago, blamed in legend on a cow."
         },
         {
-            "p": "Fire Prevention Week is held each year during the week that includes October 9, in memory of this disaster. Late on that date, rain finally began to slow this disaster, which had burned for more than a day across about three square miles.",
+            "p": "Fire Prevention Week is held each year during the week that includes October 9, in memory of this disaster. Late on that date, rain began to fall and helped put out this disaster, which had burned for more than a day across about three square miles.",
             "r": "It destroyed more than 17,000 buildings. For 10 points, name this 1871 fire that destroyed much of Chicago."
         },
         {

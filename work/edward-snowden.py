@@ -1,0 +1,313 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+# Living person: roles with dates, both views where opinions come up (NEW_TOPICS_BRIEF sections 4-5).
+# Consistent with the reviewed wikileaks.json: Sarah Harrison, "a journalist working for WikiLeaks,"
+# traveled with him from Hong Kong to Moscow; he gave his documents to journalists, not to WikiLeaks.
+# No prompts: "Edward" alone is too generic.
+
+data = {
+    "id": "edward-snowden",
+    "name": "Edward Snowden",
+    "mono": "ES",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Former NSA contractor · Revealed secret U.S. surveillance programs in 2013",
+    "dates": "Born 1983; disclosures in 2013",
+    "briefing": "In 2013, Edward Snowden, a 29-year-old computer contractor for the National Security Agency, gave journalists thousands of secret documents showing how the U.S. government collected Americans’ phone records and gathered internet data. He then flew from Hong Kong to Moscow, where he was stranded after the U.S. canceled his passport. Supporters call him a whistleblower; U.S. officials, who charged him under the Espionage Act, say he harmed national security.",
+    "answerHtml": "Edward <b><u>Snowden</u></b> (or Edward Joseph <b><u>Snowden</u></b>; do not accept “Julian Assange” or “WikiLeaks”)",
+    "accept": [
+        "edward snowden",
+        "snowden",
+        "ed snowden",
+        "edward joseph snowden",
+        "edward j snowden"
+    ],
+    "prompt": [],
+    "reject": [
+        "julian assange",
+        "assange",
+        "wikileaks",
+        "wiki leaks",
+        "chelsea manning",
+        "bradley manning",
+        "manning",
+        "glenn greenwald",
+        "greenwald",
+        "laura poitras",
+        "poitras",
+        "barton gellman",
+        "gellman",
+        "ewen macaskill",
+        "daniel ellsberg",
+        "ellsberg",
+        "reality winner",
+        "sarah harrison",
+        "james clapper",
+        "clapper",
+        "keith alexander",
+        "nsa",
+        "national security agency",
+        "cia",
+        "prism",
+        "citizenfour"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Edward_Snowden",
+    "qb": {
+        "q": "Snowden",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Born in Elizabeth City, North Carolina, in 1983, this man worked for the CIA as a computer specialist, including a posting in Geneva, Switzerland, and later became a contractor for a different intelligence agency.",
+            "r": "In 2013, he leaked secret documents about National Security Agency surveillance programs to journalists. For 10 points, name this American."
+        },
+        {
+            "p": "After the U.S. government canceled his passport, this man spent about forty days in the transit area of Moscow’s Sheremetyevo [“sheh-reh-MYET-yeh-voh”] Airport in 2013, until Russia granted him temporary asylum. He had planned only to change planes there on his way to Latin America.",
+            "r": "For 10 points, name this former contractor who revealed secret National Security Agency surveillance programs."
+        },
+        {
+            "p": "Sarah Harrison, a journalist working for WikiLeaks, traveled with this man on his June 2013 flight from Hong Kong to Moscow, even though he had given his secret documents to reporters rather than to WikiLeaks.",
+            "r": "Those reporters included Glenn Greenwald and Laura Poitras. For 10 points, name this former National Security Agency contractor."
+        },
+        {
+            "p": "In July 2013, several European countries closed their airspace to a plane carrying Bolivian president Evo Morales, forcing it to land in Vienna, because of rumors that this man was secretly on board.",
+            "r": "He was actually stuck at a Moscow airport. For 10 points, name this American who leaked National Security Agency documents."
+        },
+        {
+            "p": "The first news story based on this man’s documents revealed a secret court order requiring the phone company Verizon to hand over records of millions of Americans’ calls to the government every day.",
+            "r": "Soon after, reporters revealed a program called PRISM. For 10 points, name this man who leaked National Security Agency files in 2013."
+        },
+        {
+            "p": "_The Guardian_’s U.S. edition and _The Washington Post_ shared the 2014 Pulitzer Prize for Public Service for stories based on documents this man gave to reporters, including the _Post_’s Barton Gellman.",
+            "r": "Those documents revealed the PRISM surveillance program. For 10 points, name this former National Security Agency contractor who leaked them in 2013."
+        },
+        {
+            "p": "In a room at Hong Kong’s Mira Hotel in June 2013, this man met the _Guardian_ reporter Ewen MacAskill and two other journalists, one of whom filmed their conversations over several days.",
+            "r": "That filmmaker, Laura Poitras, made the Oscar-winning documentary _Citizenfour_ about him. For 10 points, name this man, who leaked National Security Agency documents."
+        },
+        {
+            "p": "In early 2013, this man contacted a documentary filmmaker through encrypted emails, signing them with a code name that later became the title of her film about him. He met her in person months later in Hong Kong.",
+            "r": "The U.S. later charged him under the Espionage Act of 1917. For 10 points, name this former National Security Agency contractor."
+        },
+        {
+            "p": "Two years after this man’s disclosures, Congress passed the USA Freedom Act of 2015, which ended the government’s bulk collection of Americans’ phone records under Section 215 of the Patriot Act. Earlier that year, a federal appeals court had ruled that the program went beyond what the law allowed.",
+            "r": "For 10 points, name this former contractor who revealed secret National Security Agency programs in 2013 and later received asylum in Russia."
+        },
+        {
+            "p": "Files leaked by this man described XKeyscore, a tool for searching huge amounts of internet data, and Tempora, a British program run by the spy agency GCHQ to tap fiber-optic cables.",
+            "r": "For 10 points, name this American who gave those files to journalists, including Glenn Greenwald, in 2013 and then went to Russia."
+        },
+        {
+            "p": "Joseph Gordon-Levitt played this man in a 2016 film directed by Oliver Stone, and this man’s 2019 memoir, _Permanent Record_, describes his years working in U.S. intelligence. The U.S. government sued to claim its earnings because he had not submitted it for a required review.",
+            "r": "He leaked secret National Security Agency documents in 2013. For 10 points, name this man."
+        },
+        {
+            "p": "On June 9, 2013, _The Guardian_ posted a video interview, filmed in Hong Kong, in which this 29-year-old revealed that he was the source of a series of stories about government surveillance. He had flown there from his home in Hawaii about three weeks earlier.",
+            "r": "For 10 points, name this man who exposed secret National Security Agency programs such as PRISM."
+        },
+        {
+            "p": "Russia granted this man temporary asylum in 2013, permanent residency in 2020, and citizenship in 2022, while in the United States he faced charges under the Espionage Act of 1917.",
+            "r": "Supporters call him a whistleblower, while U.S. officials say he harmed national security. For 10 points, name this former NSA contractor."
+        },
+        {
+            "p": "In 2013, this man was working for the consulting firm Booz Allen Hamilton at a government facility in Hawaii, a job he had held for only a few months, before he took leave and flew to Hong Kong.",
+            "r": "There, he gave journalists secret files about the National Security Agency. For 10 points, name this man."
+        },
+        {
+            "p": "In 2014, this man appeared at a TED conference in Vancouver by remote control, using a rolling robot with a screen that showed his face, because he could not travel there himself.",
+            "r": "For 10 points, name this former National Security Agency contractor who had been granted asylum in Russia in 2013."
+        }
+    ],
+    "clues": [
+        {
+            "id": "nsa-leaks",
+            "tier": "giveaway",
+            "t": "Former National Security Agency contractor who leaked secret documents about U.S. surveillance programs in 2013",
+            "k": ["national security agency", "contractor", "surveillance", "2013"],
+            "n": 0
+        },
+        {
+            "id": "journalists",
+            "tier": "giveaway",
+            "t": "Gave his documents to journalists, including Glenn Greenwald, Laura Poitras, and Barton Gellman, not to WikiLeaks",
+            "k": ["glenn greenwald", "greenwald", "laura poitras", "barton gellman"],
+            "n": 0,
+            "rabbit": "WikiLeaks"
+        },
+        {
+            "id": "prism",
+            "tier": "giveaway",
+            "t": "Revealed PRISM, a program that collected data from internet companies",
+            "k": ["prism", "internet companies"],
+            "n": 0
+        },
+        {
+            "id": "russia",
+            "tier": "giveaway",
+            "t": "Flew from Hong Kong to Moscow in 2013; Russia gave him asylum (2013), permanent residency (2020), and citizenship (2022)",
+            "k": ["hong kong", "moscow", "asylum", "citizenship"],
+            "n": 0
+        },
+        {
+            "id": "espionage-act",
+            "tier": "middle",
+            "t": "Charged in 2013 with theft of government property and two crimes under the Espionage Act of 1917",
+            "k": ["espionage act", "1917", "theft"],
+            "n": 0
+        },
+        {
+            "id": "citizenfour",
+            "tier": "middle",
+            "t": "_Citizenfour_, Laura Poitras’s documentary about him, won the Oscar for best documentary feature in 2015",
+            "k": ["citizenfour", "oscar", "documentary"],
+            "n": 0
+        },
+        {
+            "id": "two-views",
+            "tier": "middle",
+            "t": "Supporters call him a whistleblower; U.S. officials say he harmed national security",
+            "k": ["whistleblower", "national security"],
+            "n": 0
+        },
+        {
+            "id": "verizon",
+            "tier": "middle",
+            "t": "First story (June 2013): a secret court order made Verizon hand over phone records of millions of Americans every day",
+            "k": ["verizon", "court order", "phone records"],
+            "n": 0
+        },
+        {
+            "id": "booz-allen",
+            "tier": "middle",
+            "t": "Worked for Booz Allen Hamilton at a government facility in Hawaii (2013)",
+            "k": ["booz allen hamilton", "booz allen", "hawaii"],
+            "n": 0
+        },
+        {
+            "id": "cia-geneva",
+            "tier": "middle",
+            "t": "Born in North Carolina (1983); earlier worked for the CIA, including in Geneva, Switzerland",
+            "k": ["geneva", "north carolina", "cia"],
+            "n": 0
+        },
+        {
+            "id": "pulitzer",
+            "tier": "middle",
+            "t": "_The Guardian_ and _The Washington Post_ shared the 2014 Pulitzer Prize for Public Service for stories from his documents",
+            "k": ["pulitzer", "public service", "2014"],
+            "n": 0
+        },
+        {
+            "id": "mira-hotel",
+            "tier": "middle",
+            "t": "Met journalists, including the _Guardian_’s Ewen MacAskill, at Hong Kong’s Mira Hotel (June 2013)",
+            "k": ["mira", "ewen macaskill", "macaskill"],
+            "n": 0
+        },
+        {
+            "id": "sheremetyevo",
+            "tier": "power",
+            "t": "Spent about 40 days in the transit area of Moscow’s Sheremetyevo Airport after the U.S. canceled his passport",
+            "k": ["sheremetyevo", "transit", "passport"],
+            "n": 0
+        },
+        {
+            "id": "sarah-harrison",
+            "tier": "power",
+            "t": "Sarah Harrison, a journalist working for WikiLeaks, traveled with him from Hong Kong to Moscow",
+            "k": ["sarah harrison", "harrison"],
+            "n": 0
+        },
+        {
+            "id": "evo-morales",
+            "tier": "power",
+            "t": "July 2013: Bolivian president Evo Morales’s plane was forced to land in Vienna amid rumors that he was aboard",
+            "k": ["evo morales", "vienna", "bolivian"],
+            "n": 0
+        },
+        {
+            "id": "code-name",
+            "tier": "power",
+            "t": "Contacted filmmaker Laura Poitras by encrypted email under the code name that became her film’s title",
+            "k": ["encrypted", "code name"],
+            "n": 0
+        },
+        {
+            "id": "usa-freedom-act",
+            "tier": "power",
+            "t": "In 2015, an appeals court ruled the phone-records program went beyond the Patriot Act, and the USA Freedom Act ended that bulk collection",
+            "k": ["usa freedom act", "bulk collection", "patriot act"],
+            "n": 0
+        },
+        {
+            "id": "xkeyscore",
+            "tier": "power",
+            "t": "His files described XKeyscore and Tempora, a program of Britain’s spy agency GCHQ",
+            "k": ["xkeyscore", "tempora", "gchq"],
+            "n": 0
+        },
+        {
+            "id": "film-memoir",
+            "tier": "power",
+            "t": "Played by Joseph Gordon-Levitt in Oliver Stone’s 2016 film; wrote the memoir _Permanent Record_ (2019)",
+            "k": ["gordon-levitt", "oliver stone", "permanent record"],
+            "n": 0
+        },
+        {
+            "id": "video",
+            "tier": "power",
+            "t": "Revealed his identity, at age 29, in a _Guardian_ video filmed in Hong Kong (June 9, 2013)",
+            "k": ["video", "identity", "june 9"],
+            "n": 0
+        },
+        {
+            "id": "ted-robot",
+            "tier": "power",
+            "t": "Spoke at a 2014 TED conference in Vancouver through a rolling telepresence robot",
+            "k": ["robot", "vancouver", "telepresence"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Leaker, website, or reporter?",
+        "body": "Snowden is often mixed up with WikiLeaks and its founder, Julian Assange, but he gave his documents to journalists such as Glenn Greenwald, Laura Poitras, and Barton Gellman, not to WikiLeaks. A WikiLeaks journalist, Sarah Harrison, did travel with him from Hong Kong to Moscow. Chelsea Manning, the Army analyst who gave files to WikiLeaks in 2010, is a separate answer, and so is Daniel Ellsberg, who leaked the Pentagon Papers in 1971.",
+        "fix": "Listen for the noun and the year: “this contractor,” 2013, the NSA, PRISM, Hong Kong, and Moscow mean Snowden; “this website” or “this organization” means WikiLeaks; “this Australian” means Assange; “this soldier” or 2010 means Manning.",
+        "line": "Real answer line: Edward <b><u>Snowden</u></b> (or Edward Joseph <b><u>Snowden</u></b>; do not accept “Julian Assange” or “WikiLeaks”)"
+    },
+    "tests": {
+        "right": [
+            "Edward Snowden",
+            "Snowden",
+            "Ed Snowden",
+            "Edward Joseph Snowden",
+            "Edward Snowdon",
+            "Snowdin"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Julian Assange",
+            "WikiLeaks",
+            "Chelsea Manning",
+            "Glenn Greenwald",
+            "Daniel Ellsberg",
+            "NSA",
+            "Laura Poitras",
+            "Bradley Manning"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

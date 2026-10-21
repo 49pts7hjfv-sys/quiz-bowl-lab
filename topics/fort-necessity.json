@@ -1,0 +1,427 @@
+{
+  "id": "fort-necessity",
+  "name": "Fort Necessity",
+  "mono": "FN",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Washington’s hastily built 1754 fort · Site of his only surrender",
+  "dates": "Built and surrendered 1754",
+  "briefing": "In the spring of 1754, a 22-year-old Virginia officer named George Washington built a small round stockade in a wet Pennsylvania meadow, expecting a French attack after his men had ambushed a French scouting party. On July 3, French soldiers and their Native allies surrounded the fort, and after a day of fighting in pouring rain, Washington surrendered, the only surrender of his career. The clash helped start the French and Indian War.",
+  "answerHtml": "Fort <b><u>Necessity</u></b> (or Battle of Fort <b><u>Necessity</u></b>; accept Battle of the <b><u>Great Meadows</u></b>)",
+  "accept": [
+    "fort necessity",
+    "necessity",
+    "battle of fort necessity",
+    "ft necessity",
+    "fort necessity national battlefield",
+    "great meadows",
+    "the great meadows",
+    "battle of the great meadows",
+    "battle of great meadows"
+  ],
+  "prompt": [],
+  "reject": [
+    "fort duquesne",
+    "duquesne",
+    "fort ticonderoga",
+    "fort pitt",
+    "fort le boeuf",
+    "fort leboeuf",
+    "fort presque isle",
+    "fort cumberland",
+    "fort prince george",
+    "fort william henry",
+    "fort niagara",
+    "fort oswego",
+    "fort frontenac",
+    "fort carillon",
+    "louisbourg",
+    "fort louisbourg",
+    "fort sumter",
+    "fort mchenry",
+    "fort washington",
+    "fort stanwix",
+    "jumonville glen",
+    "battle of jumonville glen",
+    "jumonville",
+    "braddock expedition",
+    "braddocks defeat",
+    "battle of the monongahela",
+    "monongahela",
+    "forks of the ohio",
+    "valley forge",
+    "french and indian war",
+    "seven years war"
+  ],
+  "mediaPending": true,
+  "media": [],
+  "wiki": "https://en.wikipedia.org/wiki/Battle_of_Fort_Necessity",
+  "qb": {
+    "q": "Fort Necessity",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Robert Stobo, one of two officers handed over as hostages after this fort’s surrender, secretly drew a map of Fort Duquesne [“doo-KAYN”] and smuggled it out. French officers later found that map among General Edward Braddock’s papers after his defeat in 1755.",
+      "r": "For 10 points, name this small fort in southwestern Pennsylvania that George Washington surrendered on July 3, 1754."
+    },
+    {
+      "p": "Jacob Van Braam, a Dutch-born officer who spoke some French, translated this fort’s surrender terms aloud at night in pouring rain. The French text said that the defenders had committed an “assassination” weeks earlier, which their commander later said he had not understood.",
+      "r": "That commander was George Washington. For 10 points, name this fort he surrendered in 1754, early in the French and Indian War."
+    },
+    {
+      "p": "Captain James Mackay brought an independent company of British regular soldiers from South Carolina to this fort, but he refused to take orders from a colonial officer. Mackay and that officer both signed the papers when this fort was surrendered.",
+      "r": "That colonial officer was 22-year-old George Washington. For 10 points, name this fort, the site of Washington’s only surrender."
+    },
+    {
+      "p": "In 1755, General Edward Braddock was buried in the middle of a road near this fort’s ruins, and wagons rolled over his grave to hide it. Braddock had died of wounds days after his army was ambushed near the Monongahela [“muh-non-guh-HEE-luh”] River.",
+      "r": "A year earlier, George Washington had surrendered this fort to the French. For 10 points, name this fort in southwestern Pennsylvania."
+    },
+    {
+      "p": "Years after this fort fell, the man who built it bought the land where it had stood. He had placed the fort in a marshy meadow with wooded hills close by, so attackers could fire on it from cover among the trees.",
+      "r": "That builder was George Washington. For 10 points, name this fort that Washington surrendered on July 3, 1754."
+    },
+    {
+      "p": "Colonel Joshua Fry, the commander of the Virginia Regiment, died after falling from his horse before he could join the troops building this fort, so his young second-in-command was promoted to lead them. Those troops built this fort in just a few days in the spring of 1754.",
+      "r": "That officer was George Washington. For 10 points, name this fort in Pennsylvania, the site of Washington’s only surrender."
+    },
+    {
+      "p": "The Seneca leader Tanacharison [“tan-uh-CHAR-ih-sun”], known as the Half King, left this fort before the French attacked, unhappy with its commander’s leadership. Weeks earlier, he had guided that commander’s men to a French camp in a rocky glen.",
+      "r": "That attack, at Jumonville Glen, led George Washington to build this fort. For 10 points, name this fort he surrendered in July 1754."
+    },
+    {
+      "p": "During the battle at this fort, heavy rain flooded the defenders’ shallow trenches and soaked much of their gunpowder, while enemy soldiers fired from the cover of nearby woods. By evening, the French commander offered to discuss terms.",
+      "r": "The defenders marched out the next morning, July 4, 1754. For 10 points, name this fort where George Washington made the only surrender of his career."
+    },
+    {
+      "p": "The French officer who captured this fort, Louis Coulon de Villiers [“koo-LOHN duh vee-YAY”], had asked to lead the attack to avenge his brother, who had been killed weeks earlier in a skirmish with Virginia soldiers. He set out from Fort Duquesne [“doo-KAYN”] with French troops and Native allies.",
+      "r": "For 10 points, name this fort that George Washington surrendered to Villiers in 1754, at the start of the French and Indian War."
+    },
+    {
+      "p": "After the defenders of this fort left, the French burned it and returned to Fort Duquesne [“doo-KAYN”]. Under the surrender terms, the losing side left two officers behind as hostages until French prisoners taken earlier were sent back.",
+      "r": "For 10 points, name this fort in southwestern Pennsylvania that a 22-year-old George Washington surrendered in July 1754."
+    },
+    {
+      "p": "Virginia’s lieutenant governor, Robert Dinwiddie, sent troops toward the Forks of the Ohio in 1754, but the French had already seized that spot and begun building Fort Duquesne [“doo-KAYN”] there. The Virginians stopped short and built this small fort in a mountain meadow.",
+      "r": "Their commander, George Washington, surrendered it on July 3. For 10 points, name this fort, the site of an opening battle of the French and Indian War."
+    },
+    {
+      "p": "Exactly twenty-two years before the Declaration of Independence was adopted, the defeated garrison of this fort marched out, carrying their wounded, and began the long walk home to Virginia. The French terms had allowed them to leave with their muskets.",
+      "r": "Their commander, George Washington, later became the first U.S. president. For 10 points, name this fort he surrendered in 1754."
+    },
+    {
+      "p": "The British writer Horace Walpole is often quoted as saying that a volley fired by a young Virginian in the American backwoods “set the world on fire.” That volley, at Jumonville Glen, led the Virginian to build this fort, which the French attacked weeks later.",
+      "r": "For 10 points, name this fort in Pennsylvania where that Virginian, George Washington, surrendered in July 1754."
+    },
+    {
+      "p": "This fort was a small, round stockade of upright logs, only about 50 feet across, with a little storehouse inside and shallow trenches outside. The National Park Service later rebuilt it on its original site, which it protects as a national battlefield.",
+      "r": "For 10 points, name this fort in southwestern Pennsylvania that George Washington hastily built and then surrendered in 1754."
+    },
+    {
+      "p": "A year before building this fort, its builder carried a letter from Virginia’s lieutenant governor to the French commander at Fort Le Boeuf [“luh BUFF”], warning the French to leave the Ohio Country. The French refused, and both sides soon raced to control the region.",
+      "r": "For 10 points, name this fort that George Washington surrendered on July 3, 1754, an opening event of the French and Indian War."
+    }
+  ],
+  "clues": [
+    {
+      "id": "washington-built",
+      "tier": "giveaway",
+      "t": "Built by 22-year-old George Washington’s Virginia troops in 1754",
+      "k": [
+        "george washington",
+        "washington",
+        "1754",
+        "virginia"
+      ],
+      "n": 0,
+      "rabbit": "George Washington"
+    },
+    {
+      "id": "only-surrender",
+      "tier": "giveaway",
+      "t": "Washington surrendered it on July 3, 1754, the only surrender of his career",
+      "k": [
+        "only surrender",
+        "surrendered",
+        "july 3"
+      ],
+      "n": 0
+    },
+    {
+      "id": "french-indian-war",
+      "tier": "giveaway",
+      "t": "An opening event of the French and Indian War",
+      "k": [
+        "french and indian war",
+        "opening event"
+      ],
+      "n": 0,
+      "rabbit": "French and Indian War"
+    },
+    {
+      "id": "pennsylvania",
+      "tier": "giveaway",
+      "t": "Stood in a meadow in southwestern Pennsylvania",
+      "k": [
+        "southwestern pennsylvania",
+        "pennsylvania",
+        "meadow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jumonville",
+      "tier": "middle",
+      "t": "Built after Washington’s men ambushed a French party at Jumonville Glen (May 28, 1754)",
+      "k": [
+        "jumonville glen",
+        "jumonville",
+        "ambushed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "villiers",
+      "tier": "middle",
+      "t": "Surrendered to Louis Coulon de Villiers, who wanted to avenge his brother, killed at Jumonville Glen",
+      "k": [
+        "coulon de villiers",
+        "villiers",
+        "avenge",
+        "brother"
+      ],
+      "n": 0
+    },
+    {
+      "id": "assassination",
+      "tier": "middle",
+      "t": "The French-language surrender papers said Washington’s men had committed an “assassination”; he said he had not understood",
+      "k": [
+        "assassination",
+        "surrender papers",
+        "french-language"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stockade",
+      "tier": "middle",
+      "t": "A small, round log stockade, only about 50 feet across, built in a hurry in a low, marshy meadow close to wooded hills",
+      "k": [
+        "stockade",
+        "marshy",
+        "wooded hills",
+        "round"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rain",
+      "tier": "middle",
+      "t": "Heavy rain flooded the trenches and soaked the gunpowder during the battle",
+      "k": [
+        "rain",
+        "gunpowder",
+        "trenches"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forks",
+      "tier": "middle",
+      "t": "The Virginians were heading for the Forks of the Ohio, where the French were building Fort Duquesne",
+      "k": [
+        "forks of the ohio",
+        "fort duquesne",
+        "duquesne"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dinwiddie",
+      "tier": "middle",
+      "t": "Virginia’s lieutenant governor, Robert Dinwiddie, sent the troops",
+      "k": [
+        "robert dinwiddie",
+        "dinwiddie",
+        "lieutenant governor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "july-4",
+      "tier": "middle",
+      "t": "The defeated troops marched out on July 4, 1754, exactly 22 years before the Declaration of Independence",
+      "k": [
+        "july 4",
+        "22 years",
+        "declaration of independence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "van-braam",
+      "tier": "power",
+      "t": "Jacob Van Braam translated the surrender terms for Washington at night in the rain",
+      "k": [
+        "van braam",
+        "translated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stobo",
+      "tier": "power",
+      "t": "Hostage Robert Stobo secretly mapped Fort Duquesne; the French later found the map in Braddock’s papers",
+      "k": [
+        "robert stobo",
+        "stobo",
+        "map"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hostages-burned",
+      "tier": "power",
+      "t": "Two officers were left as hostages, and the French burned the fort after the defenders marched out",
+      "k": [
+        "hostages",
+        "burned"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terms",
+      "tier": "power",
+      "t": "The surrender terms let the defenders keep their muskets and march home to Virginia",
+      "k": [
+        "muskets",
+        "surrender terms",
+        "march home"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mackay",
+      "tier": "power",
+      "t": "Captain James Mackay’s South Carolina company of British regulars would not take Washington’s orders; Mackay co-signed the surrender",
+      "k": [
+        "james mackay",
+        "mackay",
+        "south carolina",
+        "regulars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fry",
+      "tier": "power",
+      "t": "Washington took command after Colonel Joshua Fry died from a fall from his horse",
+      "k": [
+        "joshua fry",
+        "fry",
+        "horse"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-king",
+      "tier": "power",
+      "t": "The Seneca leader Tanacharison (the Half King) guided Washington to Jumonville’s camp but left before the battle",
+      "k": [
+        "tanacharison",
+        "half king",
+        "seneca"
+      ],
+      "n": 0
+    },
+    {
+      "id": "braddock-grave",
+      "tier": "power",
+      "t": "General Edward Braddock was buried in a road nearby in 1755, after his defeat near the Monongahela",
+      "k": [
+        "edward braddock",
+        "braddock",
+        "monongahela",
+        "1755"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bought-land",
+      "tier": "power",
+      "t": "Washington later bought the land where it had stood",
+      "k": [
+        "bought",
+        "land"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walpole",
+      "tier": "power",
+      "t": "Horace Walpole is often quoted saying a young Virginian’s volley at Jumonville Glen “set the world on fire”",
+      "k": [
+        "horace walpole",
+        "walpole",
+        "world on fire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "le-boeuf",
+      "tier": "power",
+      "t": "In 1753, Washington had carried Dinwiddie’s warning to leave the Ohio Country to the French at Fort Le Boeuf",
+      "k": [
+        "fort le boeuf",
+        "le boeuf",
+        "1753"
+      ],
+      "n": 0
+    },
+    {
+      "id": "national-battlefield",
+      "tier": "power",
+      "t": "The National Park Service rebuilt the stockade on its original site, a national battlefield",
+      "k": [
+        "national park service",
+        "national battlefield",
+        "rebuilt"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which fort, which fight?",
+    "body": "Several forts and fights from 1753 to 1755 show up in questions about young George Washington. This is the little stockade he built and surrendered in 1754; Jumonville Glen is the ambush weeks earlier that led him to build it; Fort Duquesne is the French fort at the Forks of the Ohio, later replaced by the British Fort Pitt; and Fort Le Boeuf is where he delivered a warning to the French in 1753.",
+    "fix": "Built and surrendered, July 3, 1754, pouring rain, Villiers, and the “assassination” paper mean Fort Necessity. A surprise attack on a French scouting party means Jumonville Glen. Braddock’s target, the Forks of the Ohio, and Pittsburgh mean Fort Duquesne.",
+    "line": "Real answer line: Fort <b><u>Necessity</u></b> (or Battle of Fort <b><u>Necessity</u></b>; accept Battle of the <b><u>Great Meadows</u></b>)"
+  },
+  "tests": {
+    "right": [
+      "Fort Necessity",
+      "Necessity",
+      "Battle of Fort Necessity",
+      "Ft. Necessity",
+      "Fort Neccessity",
+      "Great Meadows",
+      "Battle of the Great Meadows"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Fort Duquesne",
+      "Fort Ticonderoga",
+      "Fort Pitt",
+      "Jumonville Glen",
+      "Fort Le Boeuf",
+      "Battle of the Monongahela",
+      "French and Indian War",
+      "Fort Sumter"
+    ]
+  }
+}

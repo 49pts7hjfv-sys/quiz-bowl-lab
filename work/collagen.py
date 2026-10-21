@@ -1,0 +1,367 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "collagen",
+    "name": "Collagen",
+    "mono": "COL",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Rope-like triple-helix protein · Most abundant protein in mammals",
+    "dates": "Triple-helix structure proposed in 1954",
+    "briefing": "Collagen is the most abundant protein in your body, a tough, rope-like molecule made of three chains twisted into a triple helix. It gives strength to skin, tendons, ligaments, bones, and cartilage, and your body needs vitamin C to build it, which is why sailors without fresh fruit got scurvy. Boil collagen out of animal skin and bones and you get gelatin, the stuff that makes jiggly desserts wobble.",
+    "answerHtml": "<b><u>Collagen</u></b> (accept <u>collagens</u> or specific types such as type I <u>collagen</u>; prompt on <u>fibrous protein</u>; do not accept “gelatin,” “keratin,” or “elastin”)",
+    "accept": [
+        "collagen",
+        "collagens",
+        "type i collagen",
+        "type 1 collagen",
+        "type ii collagen",
+        "type 2 collagen",
+        "type iv collagen",
+        "collagen fibers",
+        "collagen fibres",
+        "collagen fibrils",
+        "tropocollagen"
+    ],
+    "prompt": [
+        "fibrous protein",
+        "fibrous proteins",
+        "structural protein",
+        "structural proteins"
+    ],
+    "reject": [
+        "gelatin",
+        "gelatine",
+        "keratin",
+        "keratins",
+        "elastin",
+        "actin",
+        "myosin",
+        "fibrin",
+        "fibrinogen",
+        "fibroin",
+        "spectrin",
+        "tubulin",
+        "titin",
+        "chitin",
+        "cellulose",
+        "glycine",
+        "proline",
+        "hydroxyproline",
+        "lysine",
+        "vitamin c",
+        "ascorbic acid",
+        "scurvy",
+        "cartilage",
+        "tendons",
+        "tendon",
+        "ligaments",
+        "ligament",
+        "bone",
+        "bones",
+        "skin",
+        "dermis",
+        "connective tissue",
+        "fibroblasts",
+        "fibroblast",
+        "collagenase",
+        "hemoglobin",
+        "albumin",
+        "casein",
+        "rubisco",
+        "hyaluronic acid",
+        "glue",
+        "leather",
+        "keloids",
+        "halogen",
+        "halogens"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Collagen",
+    "qb": {
+        "q": "collagen",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1954, G. N. Ramachandran [“RAH-muh-CHUN-drun”] and Gopinath Kartha, working in Madras, India, proposed that this protein is made of three chains twisted around one another like a rope. Glycine fills every third position along each of those chains.",
+            "r": "A lack of vitamin C weakens it, causing scurvy. For 10 points, name this triple-helix protein, the most abundant protein in the human body."
+        },
+        {
+            "p": "This protein’s name comes from the Greek word “kolla,” meaning glue, because glue was traditionally made from animal tissues rich in it. Its chains are especially rich in the amino acids proline and hydroxyproline.",
+            "r": "Boiling it out of animal skin and bones makes gelatin. For 10 points, name this protein found in skin, tendons, and bones."
+        },
+        {
+            "p": "Enzymes that attach hydroxyl groups to the amino acids proline and lysine in this protein need ascorbic acid as a helper. Without that helper, this protein comes out too weak to hold tissues together, so wounds heal slowly and gums bleed.",
+            "r": "That happens in scurvy, which struck sailors who lacked vitamin C. For 10 points, name this protein that strengthens skin, blood vessels, and gums."
+        },
+        {
+            "p": "Only glycine, the smallest amino acid, can fit into the crowded center of this protein’s structure, so glycine appears at every third position along each of its chains. The most common three-unit pattern in those chains is glycine, proline, and hydroxyproline.",
+            "r": "Its three chains wind into a triple helix. For 10 points, name this protein, the main protein in tendons and ligaments."
+        },
+        {
+            "p": "Most cases of osteogenesis imperfecta [“OSS-tee-oh-JEN-uh-sis im-per-FEK-tuh”], or “brittle bone disease,” come from changes in the genes for the type I form of this protein. Bones get their flexibility from fibers of this protein and their hardness from calcium phosphate crystals.",
+            "r": "Vitamin C is needed to make it. For 10 points, name this most abundant protein in mammals, which also strengthens skin and tendons."
+        },
+        {
+            "p": "Some forms of Ehlers–Danlos syndrome, which can cause very stretchy skin and unusually loose joints, involve faulty versions of this protein. The dermis, the thick layer of skin beneath the surface, gets most of its strength from fibers of this protein.",
+            "r": "Glycine makes up every third amino acid in it. For 10 points, name this protein that is boiled to make gelatin."
+        },
+        {
+            "p": "The most common types of this protein form long fibers, but its type IV form instead builds thin, sheetlike basement membranes that support layers of cells. Scientists have described more than two dozen types of this protein in all.",
+            "r": "Type I is the most common, found in skin, tendons, and bones. For 10 points, name this triple-helix protein."
+        },
+        {
+            "p": "In a classic classroom experiment, soaking a chicken bone in vinegar for several days dissolves its calcium minerals and leaves a bendable, rubbery bone made mostly of this protein. Without fibers of this protein, bones would be hard but brittle.",
+            "r": "Fibroblasts in connective tissue make it. For 10 points, name this most abundant protein in the human body."
+        },
+        {
+            "p": "Tanning, which turns animal hides into leather, works by forming extra chemical cross-links between molecules of this protein, the main protein in an animal’s hide. Those cross-links make leather tough and keep it from rotting the way raw skin would.",
+            "r": "Its three chains form a triple helix. For 10 points, name this protein that people boil to make gelatin."
+        },
+        {
+            "p": "Thin fibers of this protein lie in neat, evenly spaced layers in the cornea, the clear front window of the eye, which lets light pass straight through. The white of the eye, the sclera [“SKLAIR-uh”], is also made mostly of this protein, but its fibers are arranged irregularly.",
+            "r": "Vitamin C is needed to build it. For 10 points, name this most abundant protein in mammals, which is boiled to make gelatin."
+        },
+        {
+            "p": "Keloids [“KEE-loydz”] are raised, overgrown scars in which too much of this protein builds up. In a healing wound, cells called fibroblasts lay down fresh fibers of this protein, which slowly knit together into scar tissue.",
+            "r": "Its chains twist together in a triple helix. For 10 points, name this protein that strengthens skin, tendons, and cartilage."
+        },
+        {
+            "p": "The smooth, glassy hyaline [“HY-uh-lin”] cartilage at the ends of bones is rich in the type II form of this protein, while tough fibrocartilage, found in the outer rings of the discs between vertebrae, has thick bundles of its type I form.",
+            "r": "Building it requires vitamin C. For 10 points, name this protein, the most abundant in the human body."
+        },
+        {
+            "p": "When a blood vessel is torn, platelets stick to fibers of this protein exposed in the vessel wall, helped by a large “glue” protein called von Willebrand factor. That helps begin a blood clot.",
+            "r": "Tendons and ligaments are made mostly of it. For 10 points, name this triple-helix protein that is boiled to make gelatin."
+        },
+        {
+            "p": "Ultraviolet rays in sunlight speed up the breakdown of this protein in the skin’s dermis, and the body makes less of it as people age, which helps explain wrinkles. Elastin fibers let skin stretch, while fibers of this protein keep it from tearing.",
+            "r": "Gelatin is made from it. For 10 points, name this protein, the most abundant in mammals, that forms a triple helix."
+        },
+        {
+            "p": "Like keratin and the silk protein fibroin [“FY-broh-in”], this protein is classed as a fibrous protein rather than a globular protein like hemoglobin. Its long molecules line up side by side and link together into strong fibrils.",
+            "r": "Scurvy weakens it because building it requires vitamin C. For 10 points, name this protein that fills skin, tendons, and bones."
+        }
+    ],
+    "clues": [
+        {
+            "id": "most-abundant",
+            "tier": "giveaway",
+            "t": "The most abundant protein in mammals, roughly a quarter to a third of all the protein in the body",
+            "k": ["most abundant", "mammals", "quarter"],
+            "n": 0,
+            "rabbit": "Proteins"
+        },
+        {
+            "id": "tissues",
+            "tier": "giveaway",
+            "t": "Gives strength to skin, tendons, ligaments, bones, and cartilage",
+            "k": ["skin", "tendons", "ligaments", "bones", "cartilage"],
+            "n": 0
+        },
+        {
+            "id": "gelatin",
+            "tier": "giveaway",
+            "t": "Boiling it out of animal skin and bones makes gelatin",
+            "k": ["gelatin", "boiling"],
+            "n": 0
+        },
+        {
+            "id": "triple-helix",
+            "tier": "giveaway",
+            "t": "Three protein chains twist together like a rope into a triple helix",
+            "k": ["triple helix", "three", "rope"],
+            "n": 0
+        },
+        {
+            "id": "vitamin-c",
+            "tier": "middle",
+            "t": "Building it requires vitamin C, so a lack of vitamin C weakens it and causes scurvy",
+            "k": ["vitamin c", "scurvy"],
+            "n": 0,
+            "rabbit": "Vitamin C"
+        },
+        {
+            "id": "glycine",
+            "tier": "middle",
+            "t": "Glycine, the smallest amino acid, sits at every third position in its chains, since only glycine fits in the crowded center",
+            "k": ["glycine", "every third", "smallest"],
+            "n": 0,
+            "rabbit": "Glycine"
+        },
+        {
+            "id": "proline",
+            "tier": "middle",
+            "t": "Its chains are rich in proline and hydroxyproline, often in a glycine–proline–hydroxyproline pattern",
+            "k": ["proline", "hydroxyproline"],
+            "n": 0,
+            "rabbit": "Amino acids"
+        },
+        {
+            "id": "fibroblasts",
+            "tier": "middle",
+            "t": "Made mainly by fibroblasts; healing wounds fill with it as scar tissue",
+            "k": ["fibroblasts", "scar tissue"],
+            "n": 0
+        },
+        {
+            "id": "vinegar-bone",
+            "tier": "middle",
+            "t": "Soaking a bone in vinegar dissolves the minerals and leaves rubbery fibers of it; it keeps bones from being brittle",
+            "k": ["vinegar", "rubbery", "brittle"],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "middle",
+            "t": "Comes in more than two dozen types; type I, in skin, tendons, and bones, is the most common",
+            "k": ["two dozen", "type i", "most common"],
+            "n": 0
+        },
+        {
+            "id": "elastin-contrast",
+            "tier": "middle",
+            "t": "Gives skin its strength, while elastin fibers let skin stretch and snap back",
+            "k": ["elastin", "stretch", "strength"],
+            "n": 0
+        },
+        {
+            "id": "ramachandran",
+            "tier": "power",
+            "t": "G. N. Ramachandran and Gopinath Kartha proposed its triple-helix structure in 1954 in Madras, India",
+            "k": ["ramachandran", "kartha", "1954", "madras"],
+            "n": 0
+        },
+        {
+            "id": "kolla",
+            "tier": "power",
+            "t": "Its name comes from the Greek “kolla,” meaning glue, since glue was traditionally made from it",
+            "k": ["kolla", "glue", "greek"],
+            "n": 0
+        },
+        {
+            "id": "hydroxylation",
+            "tier": "power",
+            "t": "Enzymes that add hydroxyl groups to its proline and lysine need ascorbic acid (vitamin C) as a helper",
+            "k": ["hydroxyl", "lysine", "ascorbic acid"],
+            "n": 0
+        },
+        {
+            "id": "osteogenesis-imperfecta",
+            "tier": "power",
+            "t": "Faulty versions of its type I form cause most cases of osteogenesis imperfecta, or “brittle bone disease”",
+            "k": ["osteogenesis imperfecta", "brittle bone"],
+            "n": 0
+        },
+        {
+            "id": "ehlers-danlos",
+            "tier": "power",
+            "t": "Some forms of Ehlers–Danlos syndrome, which can cause very stretchy skin and loose joints, involve faulty versions of it",
+            "k": ["ehlers–danlos", "stretchy skin", "loose joints"],
+            "n": 0
+        },
+        {
+            "id": "type-iv",
+            "tier": "power",
+            "t": "Its type IV form builds thin, sheetlike basement membranes that support layers of cells",
+            "k": ["type iv", "basement membranes"],
+            "n": 0
+        },
+        {
+            "id": "cornea",
+            "tier": "power",
+            "t": "Neat, evenly spaced layers of its fibers keep the cornea clear; the sclera, or white of the eye, is also mostly made of it",
+            "k": ["cornea", "sclera", "evenly spaced"],
+            "n": 0
+        },
+        {
+            "id": "leather",
+            "tier": "power",
+            "t": "Tanning turns animal hides into leather by adding cross-links between its molecules",
+            "k": ["tanning", "leather", "cross-links"],
+            "n": 0
+        },
+        {
+            "id": "keloids",
+            "tier": "power",
+            "t": "Keloids are raised, overgrown scars where too much of it builds up",
+            "k": ["keloids", "scars"],
+            "n": 0
+        },
+        {
+            "id": "cartilage-types",
+            "tier": "power",
+            "t": "Hyaline cartilage is rich in its type II form; fibrocartilage in spinal discs has thick bundles of its type I form",
+            "k": ["hyaline", "type ii", "fibrocartilage"],
+            "n": 0,
+            "rabbit": "Cartilage"
+        },
+        {
+            "id": "platelets",
+            "tier": "power",
+            "t": "Platelets stick to it where a torn blood vessel wall exposes it, helped by von Willebrand factor",
+            "k": ["platelets", "von willebrand"],
+            "n": 0,
+            "rabbit": "Platelets"
+        },
+        {
+            "id": "fibrous",
+            "tier": "power",
+            "t": "A fibrous protein, like keratin and the silk protein fibroin, rather than a globular one like hemoglobin",
+            "k": ["fibrous", "fibroin", "globular"],
+            "n": 0,
+            "rabbit": "Keratin"
+        },
+        {
+            "id": "uv-wrinkles",
+            "tier": "power",
+            "t": "Sunlight’s ultraviolet rays speed up its breakdown in the dermis, and the body makes less with age, helping cause wrinkles",
+            "k": ["ultraviolet", "dermis", "wrinkles"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Protein, product, or partner?",
+        "body": "Collagen tossups mention gelatin, glycine, vitamin C, and keratin, and naming any of them loses the question. Gelatin is what you get after boiling collagen, so it is a product, not the protein in your body; glycine is one of its amino acids, and vitamin C is the helper needed to build it. Keratin is a different tough protein that builds hair and nails, and elastin is the stretchy partner protein in skin.",
+        "fix": "If the clues mention a triple helix, glycine at every third spot, scurvy, tendons, or Ramachandran, say collagen. Hair, nails, horns, and feathers mean keratin; stretching and snapping back mean elastin.",
+        "line": "Real answer line: <b><u>Collagen</u></b> (accept <u>collagens</u> or specific types such as type I <u>collagen</u>; prompt on <u>fibrous protein</u>; do not accept “gelatin,” “keratin,” or “elastin”)"
+    },
+    "tests": {
+        "right": [
+            "Collagen",
+            "collagens",
+            "Type I collagen",
+            "Colagen",
+            "Collagen fibers"
+        ],
+        "prompt": [
+            "Fibrous protein",
+            "Structural protein"
+        ],
+        "wrong": [
+            "Gelatin",
+            "Keratin",
+            "Elastin",
+            "Actin",
+            "Glycine",
+            "Vitamin C",
+            "Cartilage",
+            "Halogens"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

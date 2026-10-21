@@ -1,0 +1,482 @@
+{
+  "id": "great-lakes",
+  "name": "Great Lakes",
+  "mono": "GL",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Five connected lakes on the U.S.–Canada border · Remember them with HOMES",
+  "dates": "Carved by Ice Age glaciers",
+  "briefing": "The Great Lakes are five huge connected lakes, Superior, Michigan, Huron, Erie, and Ontario, that hold about a fifth of the world’s unfrozen surface fresh water. Lake Michigan is the only one entirely inside the United States; the other four are shared with Canada. Ships can sail from them all the way to the Atlantic Ocean through the St. Lawrence Seaway, and water flowing from Lake Erie to Lake Ontario plunges over Niagara Falls.",
+  "answerHtml": "<b><u>Great Lakes</u></b> (prompt on <u>lakes</u>; do not accept the name of a single lake, such as “Lake Superior” or “Lake Erie”)",
+  "accept": [
+    "great lakes",
+    "the great lakes",
+    "laurentian great lakes",
+    "great lakes of north america",
+    "north american great lakes",
+    "great lakes system"
+  ],
+  "prompt": [
+    "lakes",
+    "the lakes",
+    "five lakes",
+    "the five lakes"
+  ],
+  "reject": [
+    "lake superior",
+    "superior",
+    "lake michigan",
+    "michigan",
+    "lake huron",
+    "huron",
+    "lake erie",
+    "erie",
+    "lake ontario",
+    "ontario",
+    "lake michigan huron",
+    "lake st clair",
+    "lake saint clair",
+    "lake baikal",
+    "baikal",
+    "african great lakes",
+    "great lakes of africa",
+    "great salt lake",
+    "great slave lake",
+    "great bear lake",
+    "lake winnipeg",
+    "lake champlain",
+    "lake of the woods",
+    "finger lakes",
+    "lake victoria",
+    "lake tahoe",
+    "lake agassiz",
+    "caspian sea",
+    "st lawrence seaway",
+    "saint lawrence seaway",
+    "st lawrence river",
+    "saint lawrence river",
+    "erie canal",
+    "welland canal",
+    "soo locks",
+    "niagara falls",
+    "niagara river",
+    "lake effect snow",
+    "mississippi river",
+    "hudson bay",
+    "great plains",
+    "great basin"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Great_Lakes",
+  "qb": {
+    "q": "Great Lakes",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The Rush–Bagot [“BAG-ut”] Agreement of 1817 sharply limited how many warships the United States and Britain could keep on these bodies of water and on nearby Lake Champlain. That agreement helped make the U.S.–Canada border, which runs through four of them, one of the most peaceful in the world.",
+      "r": "Lake Michigan is the only one of them entirely inside the United States. For 10 points, name this group of five lakes that includes Superior and Erie."
+    },
+    {
+      "p": "Sea lampreys, eel-like fish that feed on other fish, spread into the upper parts of these bodies of water through the Welland Canal, which lets ships climb past a natural barrier in the Canadian province of Ontario. The lampreys nearly wiped out the lake trout in several of them by the 1950s.",
+      "r": "That barrier is Niagara Falls, between Lake Erie and Lake Ontario. For 10 points, name this group of five lakes on the U.S.–Canada border."
+    },
+    {
+      "p": "The Soo Locks, which opened in 1855 at Sault Ste. Marie [“SOO saint muh-REE”], let ships get around the rapids of the St. Marys River between two of these bodies of water. Huge freighters carrying iron ore from Minnesota’s Mesabi [“muh-SAH-bee”] Range still pass through those locks.",
+      "r": "The largest of these bodies of water is Lake Superior. For 10 points, name this group of five lakes that also includes Huron and Michigan."
+    },
+    {
+      "p": "In Henry Wadsworth Longfellow’s _The Song of Hiawatha_, the wigwam of Nokomis stands “by the shores of Gitche Gumee” [“GITCH-ee GOO-mee”], an Ojibwe [“oh-JIB-way”] name for the largest of these bodies of water. Gordon Lightfoot’s song about a 1975 shipwreck also uses that name.",
+      "r": "That body of water is Lake Superior. For 10 points, name this group of five freshwater lakes that also includes Erie and Ontario."
+    },
+    {
+      "p": "In 1679, La Salle’s ship _Le Griffon_, the first large sailing ship on the upper parts of these bodies of water, vanished with its crew and a load of furs on its first voyage. Its wreck has never been positively identified.",
+      "r": "That ship had set out for home from Lake Michigan. For 10 points, name this group of five lakes that includes Superior and Huron."
+    },
+    {
+      "p": "After oil-soaked debris on the Cuyahoga [“ky-uh-HOH-guh”] River caught fire in Cleveland in 1969, Richard Nixon and Canadian prime minister Pierre Trudeau signed a 1972 agreement to reduce pollution in these bodies of water. The shallowest of them had been called “dead” in the 1960s because of algae and pollution.",
+      "r": "That lake was Erie. For 10 points, name this group of five lakes that also includes Ontario, Michigan, Huron, and Superior."
+    },
+    {
+      "p": "Zebra mussels, which probably arrived in ballast water dumped by ships from Europe, were first found in 1988 in Lake St. Clair, which links two of these bodies of water. The tiny mussels spread quickly, clogging water intake pipes for cities and power plants.",
+      "r": "Ships can reach these lakes from the Atlantic Ocean through the St. Lawrence Seaway. For 10 points, name this group of five lakes that includes Erie and Ontario."
+    },
+    {
+      "p": "Scientists have studied wolves and moose on Isle Royale, an island national park in one of these bodies of water, since 1958, in the world’s longest-running study of a predator and its prey. Another of these bodies of water holds Manitoulin [“man-ih-TOO-lin”] Island, the largest island in any freshwater lake.",
+      "r": "Those lakes are Superior and Huron. For 10 points, name this group of five lakes on the U.S.–Canada border."
+    },
+    {
+      "p": "The Mackinac [“MAK-ih-naw”] Bridge, which opened in 1957, crosses a strait that joins two of these bodies of water so widely that scientists often treat them as a single lake. An island in that strait has banned cars for more than a century.",
+      "r": "Those two lakes are Michigan and Huron. For 10 points, name this group of five lakes that also includes Superior, Erie, and Ontario."
+    },
+    {
+      "p": "In 1615, Samuel de Champlain reached one of these bodies of water and called it “La Mer Douce” [“lah mair DOOSS”], or “the freshwater sea.” French fur traders called voyageurs [“voy-uh-ZHURZ”] later paddled birchbark canoes across all of them.",
+      "r": "That body of water was Lake Huron, the H in the memory trick HOMES. For 10 points, name this group of five lakes."
+    },
+    {
+      "p": "A November 1913 storm nicknamed the “White Hurricane” sank or wrecked many ships on these bodies of water, killing more than 250 people. Another November storm sank the freighter _Edmund Fitzgerald_ in 1975 with all 29 of its crew.",
+      "r": "Gordon Lightfoot sang about that wreck on Lake Superior. For 10 points, name this group of five lakes that includes Superior."
+    },
+    {
+      "p": "The largest of these bodies of water holds more water than the other four combined. All of them together hold about as much fresh water as Russia’s Lake Baikal, roughly a fifth of the world’s unfrozen surface fresh water.",
+      "r": "That largest lake, Superior, has the most surface area of any freshwater lake on Earth. For 10 points, name this group of five lakes."
+    },
+    {
+      "p": "The 1783 Treaty of Paris drew the border between the United States and British territory through the middle of four of these bodies of water and the rivers linking them. Eight U.S. states, including Ohio and Minnesota, border them.",
+      "r": "The fifth, Lake Michigan, lies entirely inside the United States. For 10 points, name this group of five lakes."
+    },
+    {
+      "p": "After winning a battle on one of these bodies of water in 1813, Oliver Hazard Perry reported, “We have met the enemy and they are ours.” Perry had moved to a second ship during that battle after his flagship, the USS _Lawrence_, was badly damaged.",
+      "r": "That battle in the War of 1812 took place on Lake Erie. For 10 points, name this group of five lakes that also includes Superior and Michigan."
+    },
+    {
+      "p": "In an 1825 ceremony called the “Wedding of the Waters,” DeWitt Clinton poured a keg of lake water into the Atlantic Ocean to celebrate a canal linking one of these lakes to New York City. In 1959, a seaway opened that let oceangoing ships sail into these lakes from the St. Lawrence River.",
+      "r": "For 10 points, name this group of five lakes, which includes Erie, the lake that the Erie Canal connected to the Hudson River."
+    }
+  ],
+  "clues": [
+    {
+      "id": "homes",
+      "tier": "giveaway",
+      "t": "Five lakes remembered with HOMES: Huron, Ontario, Michigan, Erie, and Superior",
+      "k": [
+        "homes",
+        "huron",
+        "ontario",
+        "superior"
+      ],
+      "n": 0
+    },
+    {
+      "id": "border",
+      "tier": "giveaway",
+      "t": "Four of them lie on the border between the United States and Canada",
+      "k": [
+        "border",
+        "canada",
+        "four of them"
+      ],
+      "n": 0
+    },
+    {
+      "id": "michigan-only",
+      "tier": "giveaway",
+      "t": "Lake Michigan is the only one entirely inside the United States",
+      "k": [
+        "lake michigan",
+        "entirely",
+        "only one"
+      ],
+      "n": 0
+    },
+    {
+      "id": "superior-largest",
+      "tier": "giveaway",
+      "t": "Lake Superior is the largest, with the most surface area of any freshwater lake on Earth",
+      "k": [
+        "lake superior",
+        "largest",
+        "surface area"
+      ],
+      "n": 0
+    },
+    {
+      "id": "niagara",
+      "tier": "giveaway",
+      "t": "Niagara Falls lies on the Niagara River between Lake Erie and Lake Ontario",
+      "k": [
+        "niagara falls",
+        "niagara",
+        "lake erie"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fresh-water",
+      "tier": "middle",
+      "t": "Together they hold about a fifth of the world’s unfrozen surface fresh water, about as much as Russia’s Lake Baikal",
+      "k": [
+        "fresh water",
+        "a fifth",
+        "baikal"
+      ],
+      "n": 0,
+      "rabbit": "Lakes"
+    },
+    {
+      "id": "erie-canal",
+      "tier": "middle",
+      "t": "The Erie Canal (1825) linked Lake Erie at Buffalo to the Hudson River and New York City",
+      "k": [
+        "erie canal",
+        "1825",
+        "buffalo",
+        "hudson"
+      ],
+      "n": 0,
+      "rabbit": "Erie Canal"
+    },
+    {
+      "id": "seaway",
+      "tier": "middle",
+      "t": "The St. Lawrence Seaway (1959) let oceangoing ships sail in from the Atlantic Ocean",
+      "k": [
+        "st. lawrence seaway",
+        "seaway",
+        "1959"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fitzgerald",
+      "tier": "middle",
+      "t": "The freighter _Edmund Fitzgerald_ sank in a storm on Lake Superior on November 10, 1975, with all 29 crew; Gordon Lightfoot sang about it",
+      "k": [
+        "edmund fitzgerald",
+        "fitzgerald",
+        "lightfoot",
+        "1975"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glaciers",
+      "tier": "middle",
+      "t": "Ice Age glaciers carved out their basins",
+      "k": [
+        "glaciers",
+        "ice age",
+        "basins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cities",
+      "tier": "middle",
+      "t": "Cities on their shores include Chicago and Milwaukee (Michigan), Cleveland and Buffalo (Erie), Toronto (Ontario), and Duluth (Superior)",
+      "k": [
+        "chicago",
+        "cleveland",
+        "toronto",
+        "duluth"
+      ],
+      "n": 0,
+      "rabbit": "Chicago"
+    },
+    {
+      "id": "perry",
+      "tier": "middle",
+      "t": "Battle of Lake Erie (1813): Oliver Hazard Perry reported, “We have met the enemy and they are ours”",
+      "k": [
+        "oliver hazard perry",
+        "perry",
+        "1813"
+      ],
+      "n": 0,
+      "rabbit": "War of 1812"
+    },
+    {
+      "id": "erie-dead",
+      "tier": "middle",
+      "t": "Erie, the shallowest, was called “dead” in the 1960s because of algae and pollution",
+      "k": [
+        "shallowest",
+        "dead",
+        "algae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mackinac",
+      "tier": "middle",
+      "t": "Michigan and Huron meet at the Straits of Mackinac, crossed by the Mackinac Bridge (1957); scientists often treat them as one lake",
+      "k": [
+        "mackinac",
+        "straits",
+        "1957"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rush-bagot",
+      "tier": "power",
+      "t": "The Rush–Bagot Agreement (1817) limited U.S. and British warships on them and on Lake Champlain",
+      "k": [
+        "rush",
+        "bagot",
+        "warships",
+        "1817"
+      ],
+      "n": 0
+    },
+    {
+      "id": "welland",
+      "tier": "power",
+      "t": "The Welland Canal lets ships bypass Niagara Falls; sea lampreys spread through it and nearly wiped out the lake trout",
+      "k": [
+        "welland canal",
+        "welland",
+        "sea lampreys",
+        "lake trout"
+      ],
+      "n": 0
+    },
+    {
+      "id": "soo-locks",
+      "tier": "power",
+      "t": "The Soo Locks (1855) at Sault Ste. Marie carry freighters, many loaded with iron ore, past the rapids between Superior and Huron",
+      "k": [
+        "soo locks",
+        "sault ste. marie",
+        "1855",
+        "iron ore"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hiawatha",
+      "tier": "power",
+      "t": "Longfellow’s _The Song of Hiawatha_: “By the shores of Gitche Gumee” (Lake Superior)",
+      "k": [
+        "gitche gumee",
+        "hiawatha",
+        "longfellow"
+      ],
+      "n": 0
+    },
+    {
+      "id": "griffon",
+      "tier": "power",
+      "t": "La Salle’s _Le Griffon_ (1679), the first large sailing ship on the upper lakes, vanished on its first voyage",
+      "k": [
+        "griffon",
+        "la salle",
+        "1679"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cuyahoga",
+      "tier": "power",
+      "t": "After the Cuyahoga River fire in Cleveland (1969), Nixon and Pierre Trudeau signed a 1972 water quality agreement",
+      "k": [
+        "cuyahoga",
+        "1969",
+        "water quality",
+        "trudeau"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zebra-mussels",
+      "tier": "power",
+      "t": "Zebra mussels, carried in ships’ ballast water, were found in Lake St. Clair in 1988 and spread fast",
+      "k": [
+        "zebra mussels",
+        "ballast",
+        "1988"
+      ],
+      "n": 0
+    },
+    {
+      "id": "isle-royale",
+      "tier": "power",
+      "t": "Isle Royale, in Lake Superior, has hosted the world’s longest-running study of wolves and moose (since 1958)",
+      "k": [
+        "isle royale",
+        "wolves",
+        "moose",
+        "1958"
+      ],
+      "n": 0
+    },
+    {
+      "id": "manitoulin",
+      "tier": "power",
+      "t": "Manitoulin Island, in Lake Huron, is the largest island in any freshwater lake",
+      "k": [
+        "manitoulin",
+        "largest island"
+      ],
+      "n": 0
+    },
+    {
+      "id": "champlain",
+      "tier": "power",
+      "t": "Samuel de Champlain reached Lake Huron in 1615 and called it “La Mer Douce,” the freshwater sea",
+      "k": [
+        "champlain",
+        "la mer douce",
+        "1615"
+      ],
+      "n": 0
+    },
+    {
+      "id": "white-hurricane",
+      "tier": "power",
+      "t": "The “White Hurricane” of November 1913 sank or wrecked many ships and killed more than 250 people",
+      "k": [
+        "white hurricane",
+        "1913",
+        "november"
+      ],
+      "n": 0
+    },
+    {
+      "id": "superior-volume",
+      "tier": "power",
+      "t": "Lake Superior holds more water than the other four lakes combined",
+      "k": [
+        "more water",
+        "combined",
+        "other four"
+      ],
+      "n": 0
+    },
+    {
+      "id": "treaty-paris",
+      "tier": "power",
+      "t": "The 1783 Treaty of Paris ran the U.S. border through the middle of four of them",
+      "k": [
+        "treaty of paris",
+        "1783",
+        "middle"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The group or one lake?",
+    "body": "Many real tossups ask for just one of these lakes, such as Lake Erie (Perry’s battle, the Erie Canal) or Lake Superior (the _Edmund Fitzgerald_, Gitche Gumee), and naming the whole group on those is wrong. On a question about all five, naming a single lake is wrong too. Russia’s Lake Baikal holds about as much fresh water as all five together, so a “fresh water” clue alone doesn’t settle it.",
+    "fix": "Listen for the noun: “these lakes” or “this group of lakes” wants the Great Lakes, while “this lake” wants one name. Use HOMES (Huron, Ontario, Michigan, Erie, Superior) to check that the lake you are thinking of really is one of the five.",
+    "line": "Real answer line: <b><u>Great Lakes</u></b> (do not accept or prompt on the name of a single lake, such as “Lake Superior” or “Lake Erie”)"
+  },
+  "tests": {
+    "right": [
+      "Great Lakes",
+      "the Great Lakes",
+      "Grate Lakes",
+      "Great Lake",
+      "Laurentian Great Lakes"
+    ],
+    "prompt": [
+      "Lakes"
+    ],
+    "wrong": [
+      "Lake Superior",
+      "Lake Michigan",
+      "Lake Erie",
+      "Lake Baikal",
+      "Great Salt Lake",
+      "Finger Lakes",
+      "African Great Lakes",
+      "St. Lawrence Seaway"
+    ]
+  }
+}

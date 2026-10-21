@@ -1,0 +1,486 @@
+{
+  "id": "lewis-and-clark-expedition",
+  "name": "Lewis and Clark Expedition",
+  "mono": "LC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Jefferson’s 1804–1806 journey to the Pacific · Explored the Louisiana Purchase",
+  "dates": "1804–1806",
+  "briefing": "In May 1804, more than 40 men set off up the Missouri River from near St. Louis on a mission from President Thomas Jefferson: explore the new Louisiana Purchase and look for a water route to the Pacific. Led by Meriwether Lewis and William Clark, the Corps of Discovery crossed the Rocky Mountains with help from Sacagawea, a young Shoshone woman carrying her baby son. They reached the Pacific in November 1805 and returned in September 1806, having lost only one member, to illness.",
+  "answerHtml": "<b><u>Lewis and Clark</u></b> Expedition (or <b><u>Corps of Discovery</u></b>; prompt on <u>Lewis</u> or <u>Clark</u> alone)",
+  "accept": [
+    "lewis and clark expedition",
+    "lewis and clark",
+    "lewis clark",
+    "lewis clark expedition",
+    "clark and lewis",
+    "corps of discovery",
+    "the corps of discovery",
+    "meriwether lewis and william clark",
+    "lewis and william clark",
+    "william clark and meriwether lewis"
+  ],
+  "prompt": [
+    "lewis",
+    "clark",
+    "meriwether lewis",
+    "william clark",
+    "captain lewis",
+    "captain clark"
+  ],
+  "reject": [
+    "louisiana purchase",
+    "louisiana territory",
+    "zebulon pike",
+    "pike expedition",
+    "pikes expedition",
+    "pikes peak",
+    "oregon trail",
+    "santa fe trail",
+    "california trail",
+    "sacagawea",
+    "toussaint charbonneau",
+    "charbonneau",
+    "thomas jefferson",
+    "george rogers clark",
+    "john colter",
+    "john lewis",
+    "lewis carroll",
+    "stephen long",
+    "long expedition",
+    "john c fremont",
+    "fremont expedition",
+    "alexander mackenzie",
+    "northwest passage",
+    "york"
+  ],
+  "tests": {
+    "right": [
+      "Lewis and Clark Expedition",
+      "Lewis and Clark",
+      "Lewis & Clark",
+      "Corps of Discovery",
+      "the Lewis and Clarke expedition",
+      "Luis and Clark",
+      "Meriwether Lewis and William Clark"
+    ],
+    "prompt": [
+      "Lewis",
+      "Clark",
+      "William Clark",
+      "Meriwether Lewis"
+    ],
+    "wrong": [
+      "Louisiana Purchase",
+      "Zebulon Pike",
+      "Oregon Trail",
+      "Sacagawea",
+      "Pike expedition",
+      "Thomas Jefferson",
+      "George Rogers Clark"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition",
+  "qb": {
+    "q": "Lewis and Clark",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The only member of this expedition to die during it, Sergeant Charles Floyd, probably died of a burst appendix in August 1804. His companions buried him on a bluff above the Missouri River near present-day Sioux City, Iowa, and named a nearby river for him.",
+      "r": "This expedition had spent the previous winter at Camp Dubois near St. Louis. For 10 points, name this expedition that Thomas Jefferson sent to explore the Louisiana Purchase."
+    },
+    {
+      "p": "In July 1806, one leader of this expedition carved his name and the date into a sandstone butte beside the Yellowstone River and named it for a little boy he called “Pomp.” That boy, Jean Baptiste Charbonneau [“SHAR-buh-noh”], had been born at this expedition’s winter camp in present-day North Dakota.",
+      "r": "His mother, Sacagawea, served as an interpreter on this expedition. For 10 points, name this expedition sent west by Thomas Jefferson."
+    },
+    {
+      "p": "Alexander Mackenzie’s 1801 book about his overland journey across Canada to the Pacific alarmed the president who planned this expedition. In a secret message in January 1803, that president asked Congress for $2,500 to pay for this expedition, presenting it as a way to expand trade with Native nations.",
+      "r": "For 10 points, name this expedition that President Thomas Jefferson sent to explore the West from 1804 to 1806."
+    },
+    {
+      "p": "To prepare for this expedition, one of its leaders studied medicine with Benjamin Rush and learned to use a sextant from the astronomer Andrew Ellicott. That leader also designed a collapsible iron boat frame, built at the Harpers Ferry armory, which leaked and had to be abandoned at the Great Falls of the Missouri.",
+      "r": "Its members, including Sacagawea, reached the Pacific Ocean in November 1805. For 10 points, name this expedition sent by Thomas Jefferson."
+    },
+    {
+      "p": "Prickly pear cactus spines pierced the moccasins of this expedition’s men as they spent weeks in 1805 hauling their canoes and baggage about 18 miles overland. They built rough carts with wheels cut from a cottonwood tree to get around a series of five waterfalls in present-day Montana.",
+      "r": "Those falls are the Great Falls of the Missouri. For 10 points, name this expedition that Thomas Jefferson sent to explore the West."
+    },
+    {
+      "p": "At a fork in a river in June 1805, nearly all of this expedition’s men believed the muddy northern branch was the main stream, but its two leaders correctly chose the clear southern branch. One leader named the northern branch the Marias [“muh-RY-us”] River after his cousin Maria Wood.",
+      "r": "Days later, this expedition reached the Great Falls of the Missouri. For 10 points, name this expedition that included Sacagawea and her baby son."
+    },
+    {
+      "p": "At a place in present-day Montana called Three Forks, this expedition named three rivers for the president, the Secretary of State, and Treasury Secretary Albert Gallatin. A young woman traveling with this expedition recognized the spot, because she had been captured there by Hidatsa [“hee-DAHT-suh”] raiders about five years earlier.",
+      "r": "That woman, who appears on a dollar coin first issued in 2000, was Sacagawea. For 10 points, name this expedition that Thomas Jefferson sent to the Pacific."
+    },
+    {
+      "p": "After crossing the Continental Divide at Lemhi Pass in August 1805, this expedition desperately needed horses to cross the mountains ahead. At a meeting with the Shoshone, a woman traveling with the expedition wept with joy when she recognized the chief, Cameahwait, as her own brother.",
+      "r": "The Shoshone then traded horses to the travelers. For 10 points, name this expedition that explored the Louisiana Purchase and reached the Pacific."
+    },
+    {
+      "p": "Nearly starving after crossing the snowy Bitterroot Mountains on the Lolo Trail in September 1805, members of this expedition were fed by the Nez Perce [“nez PURSE”], who also cared for their horses over the winter. The Nez Perce showed them how to hollow out logs with fire to make canoes.",
+      "r": "This expedition then paddled down the Snake and Columbia Rivers. For 10 points, name this expedition that reached the Pacific Ocean in November 1805."
+    },
+    {
+      "p": "In a November 1805 vote on where to spend the winter, this expedition recorded the choices of its members, including the enslaved man York. The group then built a fort on the south side of the Columbia River, and some men spent the rainy months boiling seawater at a camp on the coast to make salt.",
+      "r": "That fort, near present-day Astoria, Oregon, was named Fort Clatsop. For 10 points, name this expedition sent by Thomas Jefferson."
+    },
+    {
+      "p": "On November 7, 1805, one leader of this expedition wrote “Ocian in view! O! the joy” in his journal, although he was actually seeing the wide mouth of the Columbia River. That leader, who drew most of this expedition’s maps, was famous for his creative spelling.",
+      "r": "This expedition spent the following winter at Fort Clatsop. For 10 points, name this expedition that Thomas Jefferson sent west."
+    },
+    {
+      "p": "Chief Black Buffalo helped calm a tense standoff between Lakota warriors and this expedition near present-day Pierre [“PEER”], South Dakota, in September 1804. Weeks earlier, this expedition had held its first formal council with Native leaders, the Otoe [“OH-toh”] and Missouria, at a place it named Council Bluff.",
+      "r": "For 10 points, name this expedition whose members handed out Jefferson peace medals on their way up the Missouri River."
+    },
+    {
+      "p": "In 1803, one leader of this expedition floated down the Ohio River on a new keelboat with his Newfoundland dog, Seaman, which caught swimming squirrels for food. In April 1805, that keelboat was sent back down the Missouri River carrying animal skins and a live prairie dog, which survived the trip east.",
+      "r": "That spring, this expedition left Fort Mandan with Sacagawea and her husband, Toussaint Charbonneau. For 10 points, name this expedition sent by Thomas Jefferson."
+    },
+    {
+      "p": "A Hidatsa [“hee-DAHT-suh”] chief who had never seen a Black man rubbed the skin of one member of this expedition to check whether he was painted. After this expedition, that man asked his owner for his freedom as a reward for his service, but he was refused for years.",
+      "r": "That enslaved man was named York. For 10 points, name this expedition that Thomas Jefferson sent to explore the Louisiana Purchase."
+    },
+    {
+      "p": "On the way home in 1806, this expedition split into groups so that one leader could explore the Yellowstone River while the other explored the Marias River, where his small party had a deadly fight with Blackfeet men. Near the end of the trip, John Colter left this expedition to become a fur trapper.",
+      "r": "This expedition’s members reached St. Louis in September 1806. For 10 points, name this expedition that Thomas Jefferson sent across the continent."
+    }
+  ],
+  "clues": [
+    {
+      "id": "jefferson",
+      "tier": "giveaway",
+      "t": "Sent by President Thomas Jefferson (1804–1806) to explore the Louisiana Purchase and look for a water route to the Pacific",
+      "k": [
+        "thomas jefferson",
+        "jefferson",
+        "louisiana purchase",
+        "water route"
+      ],
+      "n": 0,
+      "rabbit": "Louisiana Purchase"
+    },
+    {
+      "id": "sacagawea",
+      "tier": "giveaway",
+      "t": "Sacagawea, a young Shoshone woman, traveled with it as an interpreter, carrying her baby; she appears on a dollar coin first issued in 2000",
+      "k": [
+        "sacagawea",
+        "shoshone",
+        "interpreter",
+        "dollar coin"
+      ],
+      "n": 0,
+      "rabbit": "Sacagawea"
+    },
+    {
+      "id": "pacific",
+      "tier": "giveaway",
+      "t": "Traveled up the Missouri River, crossed the Rocky Mountains, and reached the Pacific Ocean in November 1805",
+      "k": [
+        "missouri river",
+        "rocky mountains",
+        "pacific",
+        "november 1805"
+      ],
+      "n": 0
+    },
+    {
+      "id": "st-louis",
+      "tier": "giveaway",
+      "t": "Started up the Missouri from near St. Louis in May 1804 and returned there in September 1806",
+      "k": [
+        "st. louis",
+        "may 1804",
+        "september 1806"
+      ],
+      "n": 0
+    },
+    {
+      "id": "camp-dubois",
+      "tier": "middle",
+      "t": "Trained during the winter of 1803–1804 at Camp Dubois, in Illinois across the Mississippi from the mouth of the Missouri",
+      "k": [
+        "camp dubois",
+        "dubois",
+        "illinois"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-mandan",
+      "tier": "middle",
+      "t": "Spent the winter of 1804–1805 at Fort Mandan, near Mandan and Hidatsa villages in present-day North Dakota",
+      "k": [
+        "fort mandan",
+        "mandan",
+        "hidatsa",
+        "north dakota"
+      ],
+      "n": 0
+    },
+    {
+      "id": "charbonneau",
+      "tier": "middle",
+      "t": "Hired the French-Canadian fur trader Toussaint Charbonneau, Sacagawea’s husband, as an interpreter",
+      "k": [
+        "toussaint charbonneau",
+        "charbonneau",
+        "fur trader"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pomp",
+      "tier": "middle",
+      "t": "Sacagawea’s son, Jean Baptiste Charbonneau, was born at Fort Mandan in February 1805 and nicknamed “Pomp”",
+      "k": [
+        "jean baptiste",
+        "pomp",
+        "february 1805"
+      ],
+      "n": 0
+    },
+    {
+      "id": "york",
+      "tier": "middle",
+      "t": "York, an enslaved man owned by one of its two leaders, made the whole journey; he was refused his freedom for years afterward",
+      "k": [
+        "york",
+        "enslaved",
+        "freedom"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floyd",
+      "tier": "middle",
+      "t": "Sergeant Charles Floyd was the only member to die, probably of appendicitis, in August 1804 near present-day Sioux City, Iowa",
+      "k": [
+        "charles floyd",
+        "floyd",
+        "appendicitis",
+        "sioux city"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cameahwait",
+      "tier": "middle",
+      "t": "Sacagawea’s brother, the Shoshone chief Cameahwait, traded the horses needed to cross the mountains (August 1805)",
+      "k": [
+        "cameahwait",
+        "brother",
+        "horses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "great-falls",
+      "tier": "middle",
+      "t": "Spent weeks hauling canoes and supplies about 18 miles around the Great Falls of the Missouri, in Montana (1805)",
+      "k": [
+        "great falls",
+        "18 miles",
+        "montana"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ocian",
+      "tier": "middle",
+      "t": "A leader wrote “Ocian in view! O! the joy” on seeing the wide mouth of the Columbia River (November 7, 1805)",
+      "k": [
+        "ocian in view",
+        "columbia river",
+        "joy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fort-clatsop",
+      "tier": "middle",
+      "t": "Spent the rainy winter of 1805–1806 at Fort Clatsop, near present-day Astoria, Oregon; men boiled seawater on the coast to make salt",
+      "k": [
+        "fort clatsop",
+        "clatsop",
+        "astoria",
+        "salt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secret-message",
+      "tier": "power",
+      "t": "In a secret message (January 1803), Jefferson asked Congress for $2,500, presenting the trip as a way to expand trade with Native nations",
+      "k": [
+        "secret message",
+        "$2,500",
+        "congress"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mackenzie",
+      "tier": "power",
+      "t": "Alexander Mackenzie’s 1801 book about crossing Canada to the Pacific alarmed Jefferson",
+      "k": [
+        "alexander mackenzie",
+        "mackenzie",
+        "canada"
+      ],
+      "n": 0
+    },
+    {
+      "id": "prep",
+      "tier": "power",
+      "t": "To prepare, one leader studied medicine with Benjamin Rush, learned to use a sextant from Andrew Ellicott, and had an iron boat frame made at Harpers Ferry",
+      "k": [
+        "benjamin rush",
+        "andrew ellicott",
+        "sextant",
+        "harpers ferry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "keelboat",
+      "tier": "power",
+      "t": "A keelboat carried one leader and his Newfoundland dog, Seaman, down the Ohio (1803); in April 1805 it went back with specimens, including a live prairie dog",
+      "k": [
+        "keelboat",
+        "seaman",
+        "newfoundland",
+        "prairie dog"
+      ],
+      "n": 0
+    },
+    {
+      "id": "council-bluff",
+      "tier": "power",
+      "t": "First formal council with Native leaders: the Otoe and Missouria at Council Bluff (August 1804); the travelers handed out Jefferson peace medals",
+      "k": [
+        "council bluff",
+        "otoe",
+        "missouria",
+        "peace medals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-buffalo",
+      "tier": "power",
+      "t": "Chief Black Buffalo helped end a tense standoff with the Lakota near present-day Pierre, South Dakota (September 1804)",
+      "k": [
+        "black buffalo",
+        "lakota",
+        "pierre",
+        "standoff"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marias",
+      "tier": "power",
+      "t": "At a fork in June 1805, the leaders correctly chose the south branch; the north branch was named the Marias River for a cousin, Maria Wood",
+      "k": [
+        "marias",
+        "maria wood",
+        "fork"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-forks",
+      "tier": "power",
+      "t": "At Three Forks, Montana, named the Jefferson, Madison, and Gallatin Rivers; Sacagawea had been captured there as a girl",
+      "k": [
+        "three forks",
+        "gallatin",
+        "captured"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lemhi",
+      "tier": "power",
+      "t": "Crossed the Continental Divide at Lemhi Pass, on the Montana–Idaho border (August 1805)",
+      "k": [
+        "lemhi pass",
+        "continental divide",
+        "idaho"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nez-perce",
+      "tier": "power",
+      "t": "After a starving crossing of the Bitterroot Mountains on the Lolo Trail, the Nez Perce fed them and showed them how to make canoes",
+      "k": [
+        "nez perce",
+        "lolo trail",
+        "bitterroot",
+        "canoes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vote",
+      "tier": "power",
+      "t": "In a November 1805 vote on where to spend the winter, the choices of York and Sacagawea were recorded",
+      "k": [
+        "vote",
+        "winter",
+        "recorded"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pompeys-pillar",
+      "tier": "power",
+      "t": "One leader carved his name on Pompeys Pillar, a sandstone butte in Montana that he named for “Pomp” (July 1806)",
+      "k": [
+        "pompeys pillar",
+        "sandstone",
+        "carved"
+      ],
+      "n": 0
+    },
+    {
+      "id": "return-split",
+      "tier": "power",
+      "t": "Coming home (1806), the group split up: one leader explored the Yellowstone River, the other the Marias, where his party had a deadly fight with Blackfeet men",
+      "k": [
+        "yellowstone river",
+        "blackfeet",
+        "split"
+      ],
+      "n": 0
+    },
+    {
+      "id": "colter",
+      "tier": "power",
+      "t": "John Colter left near the end to become a fur trapper and later explored the Yellowstone area",
+      "k": [
+        "john colter",
+        "colter",
+        "fur trapper"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Expedition, purchase, or trail?",
+    "body": "The Lewis and Clark Expedition explored the Louisiana Purchase, but the Purchase itself was the 1803 land deal with France, a separate answer line. Zebulon Pike led a different expedition (1806–1807) into the Southwest, and the Oregon Trail was a wagon route that pioneers used decades later, in the 1840s. Saying only “Lewis” or only “Clark” earns just a prompt.",
+    "fix": "Sacagawea, York, Fort Mandan, Fort Clatsop, and the Missouri and Columbia Rivers mean Lewis and Clark. Napoleon and $15 million mean the Louisiana Purchase; Pikes Peak means Pike; covered wagons and Independence, Missouri, mean the Oregon Trail. Say both names, or “Corps of Discovery.”",
+    "line": "Real answer line: <b><u>Lewis and Clark</u></b> Expedition (or <b><u>Corps of Discovery</u></b>; prompt on <u>Lewis</u> or <u>Clark</u> alone)"
+  }
+}
