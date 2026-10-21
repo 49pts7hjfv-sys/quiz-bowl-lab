@@ -140,7 +140,7 @@ data = {
             "r": "For 10 points, name these sets of equations, which can be solved by graphing their lines and finding where they cross."
         },
         {
-            "p": "Applying Kirchhoff’s [“KEER-kofs”] laws to an electric circuit with several loops produces one of these, and balancing a chemical equation can be done by solving one. When one of these is written as A x equals b, its solution is the inverse of matrix A times b.",
+            "p": "Applying Kirchhoff’s [“KEER-kofs”] laws to an electric circuit with several loops produces one of these, and balancing a chemical equation can be done by solving one. When one of these is written as A x equals b and matrix A has an inverse, its solution is that inverse times b.",
             "r": "For 10 points, name these sets of two or more equations, solved by graphing, substitution, or elimination."
         },
         {
@@ -254,7 +254,7 @@ data = {
         {
             "id": "matrix-form",
             "tier": "middle",
-            "t": "Written in matrix form as Ax = b, so x = A⁻¹b (the inverse of A times b); the augmented matrix adds the column of constants",
+            "t": "Written in matrix form as Ax = b; if A has an inverse, x = A⁻¹b. The augmented matrix adds the column of constants",
             "k": ["augmented matrix", "inverse", "ax = b"],
             "n": 0,
             "rabbit": "Matrices"
