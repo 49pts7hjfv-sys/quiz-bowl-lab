@@ -45,6 +45,7 @@ data = {
         "hurricane maria",
         "maria",
         "hurricane wilma",
+        "hurricane katia",
         "wilma",
         "hurricane ike",
         "hurricane ivan",

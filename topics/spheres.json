@@ -10,7 +10,9 @@
   "answerHtml": "<b><u>sphere</u></b>s (do not accept “circle,” “ball,” or “spheroid”)",
   "accept": [
     "sphere",
-    "spheres"
+    "spheres",
+    "shpere",
+    "shperes"
   ],
   "prompt": [],
   "reject": [
@@ -31,6 +33,8 @@
     "ellipsoids",
     "hemisphere",
     "hemispheres",
+    "hemi sphere",
+    "hemi spheres",
     "semicircle",
     "great circle",
     "great circles",
@@ -50,6 +54,7 @@
       "sphere",
       "Spheres",
       "spere",
+      "shpere",
       "a sphere",
       "unit sphere"
     ],
@@ -60,6 +65,7 @@
       "cylinder",
       "spheroid",
       "hemisphere",
+      "hemi-sphere",
       "oblate spheroid"
     ]
   },
