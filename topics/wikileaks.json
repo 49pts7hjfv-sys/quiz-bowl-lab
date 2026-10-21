@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Website that publishes secret documents · Founded by Julian Assange in 2006",
   "dates": "Founded 2006",
-  "briefing": "WikiLeaks is a website that publishes secret documents, often sent by anonymous sources. The Australian Julian Assange founded it in 2006, and in 2010 it released hundreds of thousands of classified U.S. military reports and diplomatic messages provided by Army analyst Chelsea Manning. Supporters praised it for exposing government secrets, while U.S. officials said its releases put lives at risk. In 2024, Assange made a plea deal and returned home to Australia.",
+  "briefing": "The Australian Julian Assange founded WikiLeaks in 2006 to publish secret documents, often sent by anonymous sources. In 2010 it released hundreds of thousands of classified U.S. military reports and diplomatic messages provided by Chelsea Manning, then an Army intelligence analyst; supporters praised it for exposing government secrets, while U.S. officials said the releases put lives at risk. In 2024, Assange made a plea deal with U.S. prosecutors, was freed from a British prison, and returned home to Australia.",
   "answerHtml": "<b><u>WikiLeaks</u></b> (do not accept “Julian Assange” or “Wikipedia”)",
   "accept": [
     "wikileaks",
@@ -69,7 +69,7 @@
   },
   "tossups": [
     {
-      "p": "In June 2024, this organization’s founder pleaded guilty to one charge in a U.S. federal court on Saipan, in the Northern Mariana Islands, and then flew home to Australia. He had spent the previous five years in London’s Belmarsh prison fighting extradition to the United States.",
+      "p": "In June 2024, under a plea agreement, this organization’s founder pleaded guilty to one charge in a U.S. federal court on Saipan, in the Northern Mariana Islands, and was freed to fly home to Australia. He had spent the previous five years in London’s Belmarsh prison fighting extradition to the United States.",
       "r": "For 10 points, name this website, founded by Julian Assange, that publishes secret documents from anonymous sources."
     },
     {
@@ -109,7 +109,7 @@
       "r": "For 10 points, name this website founded by Julian Assange that publishes secret documents from anonymous sources."
     },
     {
-      "p": "In 2013, this organization’s editor Sarah Harrison traveled with Edward Snowden when he flew from Hong Kong to Moscow after revealing secret National Security Agency programs. Snowden had given his documents to journalists, not to this group.",
+      "p": "In 2013, Sarah Harrison, a journalist working for this organization, traveled with Edward Snowden when he flew from Hong Kong to Moscow after revealing secret National Security Agency programs. Snowden had given his documents to journalists, not to this group.",
       "r": "For 10 points, name this website founded by Julian Assange that publishes secret documents."
     },
     {
@@ -155,7 +155,7 @@
     {
       "id": "manning",
       "tier": "giveaway",
-      "t": "Its biggest source in 2010 was Army intelligence analyst Chelsea Manning",
+      "t": "Its biggest 2010 releases came from Chelsea Manning, then an Army intelligence analyst",
       "k": [
         "chelsea manning",
         "manning",
@@ -221,10 +221,11 @@
     {
       "id": "plea",
       "tier": "middle",
-      "t": "2024: Assange pleaded guilty to one charge in a U.S. court on Saipan and returned home to Australia",
+      "t": "2024: under a plea deal, Assange pleaded guilty to one charge in a U.S. court on Saipan, was freed, and returned home to Australia",
       "k": [
         "saipan",
         "pleaded guilty",
+        "plea deal",
         "australia"
       ],
       "n": 0
@@ -243,7 +244,7 @@
     {
       "id": "snowden",
       "tier": "middle",
-      "t": "Its editor Sarah Harrison traveled with Edward Snowden from Hong Kong to Moscow (2013)",
+      "t": "Sarah Harrison, a journalist working for it, traveled with Edward Snowden from Hong Kong to Moscow (2013)",
       "k": [
         "sarah harrison",
         "edward snowden",
