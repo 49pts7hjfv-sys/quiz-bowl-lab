@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Jewish day of rest · From Friday sundown to Saturday nightfall",
   "dates": "Every week, Friday sundown to Saturday nightfall",
-  "briefing": "Every Friday at sundown, many Jewish families light candles, bless wine and two braided loaves of challah, and greet one another with “Shabbat shalom.” Shabbat, the weekly day of rest, recalls the story in Genesis in which God rests on the seventh day of creation, and the commandment to “remember the Sabbath day, to keep it holy.” It lasts until Saturday night, when a short ceremony called Havdalah separates it from the new week.",
+  "briefing": "Every Friday evening, many Jewish families light candles, bless wine and two braided loaves of challah, and greet one another with “Shabbat shalom.” Shabbat, the weekly day of rest, recalls the story in Genesis in which God rests on the seventh day of creation, and the commandment to “remember the Sabbath day, to keep it holy.” It lasts until Saturday night, when a short ceremony called Havdalah separates it from the new week.",
   "answerHtml": "<b><u>Shabbat</u></b> (or <u>Sabbath</u>; accept <u>Shabbos</u> or <u>Shabbes</u>; prompt on <u>Saturday</u> or “day of rest”; do not accept “Sunday”)",
   "accept": [
     "shabbat",
@@ -78,7 +78,7 @@
   },
   "tossups": [
     {
-      "p": "The essayist Ahad Ha’am [“AH-hahd hah-AHM”] wrote that more than the Jewish people have kept this observance, it has kept the Jewish people. The Book of Exodus calls it a sign between God and the Israelites forever, and observant Jews avoid thirty-nine categories of work during it.",
+      "p": "The essayist Ahad Ha’am [“ah-KHAHD hah-AHM”] wrote that more than the Jewish people have kept this observance, it has kept the Jewish people. The Book of Exodus calls it a sign between God and the Israelites forever, and observant Jews avoid thirty-nine categories of work during it.",
       "r": "For 10 points, name this weekly Jewish day of rest, which begins at sundown on Friday."
     },
     {
@@ -98,7 +98,7 @@
       "r": "Families welcome it by lighting candles. For 10 points, name this Jewish day of rest that begins on Friday evening."
     },
     {
-      "p": "Two loaves of bread are set out for this day’s meals to recall the double portion of manna gathered on the sixth day in the wilderness, since none fell on the seventh. Those braided loaves are covered with a cloth while a blessing over wine called Kiddush [“KID-ish”] is said.",
+      "p": "Two loaves of bread are set out for this day’s meals to recall the Exodus story of the double portion of manna gathered on the sixth day, since none fell on the seventh. Those braided loaves are covered with a cloth while a blessing over wine called Kiddush [“KID-ish”] is said.",
       "r": "For 10 points, name this weekly Jewish day of rest, whose arrival is marked by lighting candles."
     },
     {
@@ -408,7 +408,7 @@
     {
       "id": "eighteen-minutes",
       "tier": "power",
-      "t": "Candles are lit 18 minutes before sunset; the woman of the house covers her eyes for the blessing",
+      "t": "Many communities light candles 18 minutes before sunset; the woman of the house traditionally covers her eyes for the blessing",
       "k": [
         "18 minutes",
         "covers her eyes",
@@ -442,7 +442,7 @@
   "trap": {
     "title": "Weekly, not yearly",
     "body": "This answer is the weekly day of rest, but nearby answer lines are yearly holidays: Rosh Hashanah, the New Year, and Yom Kippur, the Day of Atonement, which Leviticus calls a “Sabbath of Sabbaths.” Its customs, like candles, wine, and challah, show up in holiday questions too. And most Christians hold their main worship on Sunday, which they call the Lord’s Day; “Sunday” is not accepted here.",
-    "fix": "Listen for “weekly,” “every Friday,” Havdalah, the 39 kinds of work, or the eruv: those mean Shabbat (“Sabbath” and “Shabbos” also work). A shofar, apples and honey, or Kol Nidre mean one of the High Holy Days. “Saturday” alone earns only a prompt, so say the day’s name.",
+    "fix": "Listen for “weekly,” “every Friday,” Havdalah, the 39 kinds of work, or the eruv: those mean Shabbat (“Sabbath” and “Shabbos” also work). A shofar, apples and honey, or Kol Nidre mean one of the High Holy Days. “Saturday” alone earns only a prompt, so say “Shabbat” or “Sabbath.”",
     "line": "Real answer line: <b><u>Shabbat</u></b> (or <u>Sabbath</u>; accept <u>Shabbos</u> or <u>Shabbes</u>; prompt on <u>Saturday</u> or “day of rest”; do not accept “Sunday”)"
   },
   "tests": {

@@ -81,9 +81,7 @@
     "gospels",
     "quran",
     "koran",
-    "judaism",
-    "jewish",
-    "jews"
+    "judaism"
   ],
   "media": [],
   "mediaPending": true,
@@ -119,11 +117,11 @@
       "r": "Jewish tradition holds that God gave this text to Moses at Mount Sinai. For 10 points, name this scripture made up of Genesis, Exodus, Leviticus, Numbers, and Deuteronomy."
     },
     {
-      "p": "In the Book of Nehemiah, the scribe Ezra stands on a wooden platform and reads this text aloud to the people of Jerusalem from early morning until midday, while Levites explain its meaning. The Sadducees accepted only this written law and rejected the oral traditions of the Pharisees.",
+      "p": "In the Book of Nehemiah, the scribe Ezra stands on a wooden platform and reads this text aloud to the people of Jerusalem from early morning until midday, while Levites explain its meaning. The Sadducees held to this written law but rejected the oral traditions of the Pharisees.",
       "r": "For 10 points, name this Jewish scripture, which tradition says was given to Moses at Mount Sinai."
     },
     {
-      "p": "The Samaritans keep their own version of this text, written in an old form of the Hebrew alphabet, and they accept no other books as holy scripture. In Islam, it is honored as a holy book that God revealed to the prophet Musa.",
+      "p": "The Samaritans keep their own version of this text, written in an old form of the Hebrew alphabet, and they accept no other books as holy scripture. Muslims honor it as a holy book revealed to the prophet Musa.",
       "r": "Its first book is Genesis. For 10 points, name this scripture, the first part of the Hebrew Bible."
     },
     {
@@ -375,7 +373,7 @@
     {
       "id": "sadducees",
       "tier": "power",
-      "t": "The Sadducees accepted only this written law and rejected the Pharisees’ oral traditions",
+      "t": "The Sadducees held to this written law but rejected the Pharisees’ oral traditions",
       "k": [
         "sadducees",
         "pharisees",
@@ -450,8 +448,8 @@
     }
   ],
   "trap": {
-    "title": "Text, Tanakh, or Talmud?",
-    "body": "Several Jewish texts sound alike. The Torah is the five books from Genesis to Deuteronomy, written on the scroll kept in every synagogue. The Tanakh is the whole Hebrew Bible, of which the Torah is only the first part, so naming it earns just a prompt. The Talmud is a later collection of rabbinic discussion built on the Mishnah, and naming a single book, such as Genesis, is wrong too.",
+    "title": "Torah, Tanakh, or Talmud?",
+    "body": "Several Jewish texts sound alike. The Torah is the five books from Genesis to Deuteronomy, written on the scrolls kept in synagogues. The Tanakh is the whole Hebrew Bible, of which the Torah is only the first part, so naming it earns just a prompt. The Talmud is a later collection of rabbinic discussion built on the Mishnah, and naming a single book, such as Genesis, is wrong too.",
     "fix": "A scroll, a sofer, a yad, Simchat Torah, the 613 commandments, or “Genesis through Deuteronomy” mean the Torah (“Pentateuch” and “Five Books of Moses” also work). Rabbis debating, the Gemara, or “six orders” mean the Talmud or Mishnah. If the clues add the Prophets and the Writings, the answer is the Tanakh.",
     "line": "Real answer line: <b><u>Torah</u></b> (or <b><u>Pentateuch</u></b> or <b><u>Five Books of Moses</u></b>; accept <u>Chumash</u> or <u>Tawrat</u>; prompt on <u>Tanakh</u>, Hebrew <u>Bible</u>, or <u>Old Testament</u>; do not accept “Talmud”)"
   },
@@ -464,7 +462,8 @@
       "Chumash",
       "Tora",
       "Sefer Torah",
-      "Pentatuch"
+      "Pentatuch",
+      "the Jewish Torah"
     ],
     "prompt": [
       "Tanakh",

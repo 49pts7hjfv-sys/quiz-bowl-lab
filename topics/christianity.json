@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "World’s largest religion · Based on the life and teachings of Jesus",
   "dates": "Began in the 1st century CE",
-  "briefing": "Christianity grew from a small group of Jesus’s followers in the 1st century CE into the world’s largest religion, practiced by about a third of the world’s people. Christians believe that Jesus of Nazareth is the Son of God, that he was crucified in Jerusalem, and that he rose from the dead, which they celebrate at Easter. Its holy book, the Bible, joins the Old Testament to the New Testament, which tells of Jesus and his first followers.",
+  "briefing": "Christianity grew from a small group of Jesus’s followers in the 1st century CE into the world’s largest religion, practiced by more than two billion people. Christians believe that Jesus of Nazareth is the Son of God, that he was crucified in Jerusalem, and that he rose from the dead, which they celebrate at Easter. Its holy book, the Bible, joins the Old Testament to the New Testament, which tells of Jesus and his first followers.",
   "answerHtml": "<b><u>Christianity</u></b> (accept word forms like <u>Christian</u>s; do not accept a single branch such as “Catholicism” or “Protestantism”)",
   "accept": [
     "christianity",
@@ -118,7 +118,7 @@
       "r": "The missionary Paul spread it among non-Jews around the Mediterranean. For 10 points, name this religion whose best-known symbol is the cross."
     },
     {
-      "p": "Tradition says that Gregory the Illuminator converted King Tiridates [“teer-ih-DAH-teez”] III, making Armenia in 301 CE the first kingdom to adopt this religion as its official faith. In Africa, the kingdom of Aksum [“AHK-soom”] adopted it under King Ezana in the 300s.",
+      "p": "Tradition says that Gregory the Illuminator converted King Tiridates [“tir-ih-DAY-teez”] III, making Armenia in 301 CE the first kingdom to adopt this religion as its official faith. In Africa, the kingdom of Aksum [“AHK-soom”] adopted it under King Ezana in the 300s.",
       "r": "In 380, the emperor Theodosius I made it the official religion of the Roman Empire. For 10 points, name this religion based on the teachings of Jesus."
     },
     {
@@ -126,7 +126,7 @@
       "r": "That rite is called the Eucharist, or Holy Communion. For 10 points, name this religion whose followers believe Jesus rose from the dead on Easter."
     },
     {
-      "p": "In Western churches, this religion’s most important holiday falls on the first Sunday after the first full moon of spring. It comes after a season of about forty days of prayer and fasting called Lent, which begins on Ash Wednesday, and the week before it includes Palm Sunday and Good Friday.",
+      "p": "In Western churches, this religion’s most important holiday usually falls on the first Sunday after the first full moon of spring. It comes after a season of about forty days of prayer and fasting called Lent, which begins on Ash Wednesday, and the week before it includes Palm Sunday and Good Friday.",
       "r": "That holiday, Easter, celebrates the day its followers believe Jesus rose from the dead. For 10 points, name this religion."
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "p": "The Coptic Church of Egypt and the Armenian Apostolic Church belong to the Oriental Orthodox churches of this religion, a family that rejected the decisions of the Council of Chalcedon [“KAL-suh-don”] in 451. This religion’s largest branch is led by the bishop of Rome, the pope.",
-      "r": "With about a third of the world’s people as followers, it is the largest religion on Earth. For 10 points, name this religion based on the life and teachings of Jesus."
+      "r": "With more than two billion followers, it is the largest religion on Earth. For 10 points, name this religion based on the life and teachings of Jesus."
     },
     {
       "p": "In an Easter letter of 367 CE, Athanasius [“ath-uh-NAY-shus”] of Alexandria gave the earliest known list matching the twenty-seven books of this religion’s New Testament. Four of those books, traditionally credited to Matthew, Mark, Luke, and John, tell of Jesus’s life and are called the Gospels, meaning “good news.”",
@@ -158,7 +158,7 @@
     {
       "id": "jesus",
       "tier": "giveaway",
-      "t": "Based on the life and teachings of Jesus of Nazareth, whom its followers believe is the Son of God",
+      "t": "Based on the life and teachings of Jesus of Nazareth, whom its followers believe to be the Son of God",
       "k": [
         "jesus",
         "son of god",
@@ -202,10 +202,10 @@
     {
       "id": "largest",
       "tier": "giveaway",
-      "t": "The world’s largest religion, followed by about a third of the world’s people",
+      "t": "The world’s largest religion, with more than two billion followers",
       "k": [
         "largest religion",
-        "a third"
+        "two billion"
       ],
       "n": 0
     },
@@ -331,7 +331,7 @@
     {
       "id": "lent-easter",
       "tier": "middle",
-      "t": "Lent, about forty days of prayer and fasting, begins on Ash Wednesday; Western churches hold Easter on the first Sunday after the first full moon of spring",
+      "t": "Lent, about forty days of prayer and fasting, begins on Ash Wednesday; Western churches usually hold Easter on the first Sunday after the first full moon of spring",
       "k": [
         "lent",
         "ash wednesday",
@@ -501,7 +501,8 @@
       "Christmas",
       "Jesus",
       "Hans Christian Andersen",
-      "Christian Science"
+      "Christian Science",
+      "Christening"
     ]
   }
 }
