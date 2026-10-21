@@ -1,0 +1,395 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+# Absorbs the manifest aka "Dwight David Eisenhower". "Ike" is accepted, so it never appears in tossups or
+# clues (the slogan is described as rhyming his nickname with "like").
+# Not rejected on purpose: "dwight" (inside every full-name accept) and "david eisenhower" (inside
+# "dwight david eisenhower", which would make "President Dwight David Eisenhower" wrong).
+# Consistent with brown-v-board-of-education.json (Little Rock, 101st Airborne, Warren named after Vinson died),
+# korean-war.json ("I shall go to Korea"; 1953 armistice) and richard-nixon.json (VP 1953-1961).
+
+data = {
+    "id": "dwight-d-eisenhower",
+    "name": "Dwight D. Eisenhower",
+    "mono": "DDE",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "34th U.S. President · Supreme Allied Commander on D-Day",
+    "dates": "1890–1969",
+    "briefing": "Dwight Eisenhower grew up in Abilene, Kansas, and as Supreme Allied Commander he led D-Day, the June 6, 1944, invasion of Normandy that helped free Western Europe from Nazi Germany. Elected the 34th president in 1952 with the slogan “I Like Ike,” he saw the fighting in Korea end, launched the Interstate Highway System, and sent troops to protect nine Black students at Little Rock’s Central High School.",
+    "answerHtml": "Dwight D. <b><u>Eisenhower</u></b> (or Dwight David <b><u>Eisenhower</u></b>; accept <b><u>Ike</u></b>; prompt on <u>Dwight</u>)",
+    "accept": [
+        "dwight d eisenhower",
+        "dwight eisenhower",
+        "dwight david eisenhower",
+        "david dwight eisenhower",
+        "eisenhower",
+        "ike",
+        "ike eisenhower",
+        "president eisenhower",
+        "general eisenhower"
+    ],
+    "prompt": [
+        "dwight",
+        "dwight d",
+        "dwight david"
+    ],
+    "reject": [
+        "mamie eisenhower",
+        "mamie",
+        "mamie doud",
+        "john eisenhower",
+        "milton eisenhower",
+        "julie nixon eisenhower",
+        "eisenhower doctrine",
+        "eisenhower interstate system",
+        "eisenhower interstate highway system",
+        "eisenhower matrix",
+        "eisenhower jacket",
+        "eisenhower dollar",
+        "eisenhower tunnel",
+        "eisenhower executive office building",
+        "eisenhower memorial",
+        "harry truman",
+        "harry s truman",
+        "truman",
+        "richard nixon",
+        "nixon",
+        "douglas macarthur",
+        "macarthur",
+        "george marshall",
+        "george c marshall",
+        "george patton",
+        "patton",
+        "omar bradley",
+        "bernard montgomery",
+        "montgomery",
+        "adlai stevenson",
+        "stevenson",
+        "john f kennedy",
+        "kennedy",
+        "earl warren",
+        "john foster dulles",
+        "dulles",
+        "nikita khrushchev",
+        "khrushchev",
+        "winston churchill",
+        "franklin roosevelt",
+        "orval faubus",
+        "faubus",
+        "robert taft"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+    "qb": {
+        "q": "Eisenhower",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "During World War I, this officer never reached the fighting in France; instead, he commanded Camp Colt, a tank training center at Gettysburg, Pennsylvania. Decades later, he retired to a farm next to the same battlefield.",
+            "r": "For 10 points, name this general who led the D-Day invasion and became the 34th president."
+        },
+        {
+            "p": "As a young officer, this man joined a 1919 Army truck convoy that took about two months to cross the country on poor roads, and in World War II he was impressed by Germany’s autobahns [“AW-toh-bahnz”].",
+            "r": "For 10 points, name this president who signed the 1956 law that created the Interstate Highway System."
+        },
+        {
+            "p": "This general commanded Operation Torch, the Allied landings in Morocco and Algeria in November 1942. After American troops lost the Battle of Kasserine [“KASS-uh-reen”] Pass in Tunisia, he went on to oversee the Allied invasions of Sicily and Italy in 1943.",
+            "r": "For 10 points, name this American who next commanded the D-Day landings in Normandy as Supreme Allied Commander."
+        },
+        {
+            "p": "Before one invasion, this general wrote a note to be released if it failed, saying the blame was “mine alone.” His order of the day for that invasion told the troops, “You are about to embark upon the Great Crusade.”",
+            "r": "For 10 points, name this Supreme Allied Commander who launched the D-Day invasion of Normandy on June 6, 1944."
+        },
+        {
+            "p": "After World War II, this general wrote the memoir _Crusade in Europe_ and served as president of Columbia University. In 1951, he became the first Supreme Allied Commander Europe of NATO.",
+            "r": "The next year, he won the presidency after promising, “I shall go to Korea.” For 10 points, name this 34th president."
+        },
+        {
+            "p": "This president signed the Civil Rights Act of 1957, the first federal civil rights law since Reconstruction, which created the U.S. Commission on Civil Rights. Senator Strom Thurmond spoke for more than 24 hours trying to block it.",
+            "r": "That year, he also sent the 101st Airborne Division to protect nine Black students at Little Rock’s Central High. For 10 points, name this president."
+        },
+        {
+            "p": "After the Soviet Union launched the satellite Sputnik in 1957, the United States answered with Explorer 1 in 1958, and this president signed the National Defense Education Act to pay for more science, math, and foreign-language teaching.",
+            "r": "In 1958, he also signed the law that created NASA. For 10 points, name this president who served from 1953 to 1961."
+        },
+        {
+            "p": "This president’s government at first claimed that a plane shot down over the Soviet Union in May 1960 was a weather research aircraft, until Nikita Khrushchev [“KROOSH-chef”] revealed that its pilot, Francis Gary Powers, had been captured alive.",
+            "r": "In his 1961 farewell address, he warned against the “military-industrial complex.” For 10 points, name this president."
+        },
+        {
+            "p": "This president proposed “Atoms for Peace” in a 1953 speech to the United Nations, and at a 1955 summit in Geneva he offered an “Open Skies” plan to let the United States and the Soviet Union fly over each other’s territory.",
+            "r": "For 10 points, name this Republican who had won the 1952 election by defeating Adlai Stevenson."
+        },
+        {
+            "p": "In 1954, this president explained his fear of communism spreading through Southeast Asia by comparing countries to a row of falling dominoes. That year, he decided not to send American forces to rescue the French at Dien Bien Phu [“DYEN BYEN FOO”].",
+            "r": "For 10 points, name this president, who was in office when a 1953 armistice stopped the fighting in Korea."
+        },
+        {
+            "p": "During the Suez Crisis of 1956, this president pressured Britain, France, and Israel to pull their forces out of Egypt, whose leader, Gamal Abdel Nasser, had taken control of the Suez Canal.",
+            "r": "The next year, he announced a doctrine promising U.S. help to Middle Eastern countries threatened by communism. For 10 points, name this president."
+        },
+        {
+            "p": "This man was born in Denison, Texas, grew up in Abilene, Kansas, and graduated from West Point in 1915, in a class later called “the class the stars fell on” because so many of its members became generals.",
+            "r": "In 1952, his supporters’ buttons rhymed his nickname with the word “like.” For 10 points, name this general who became the 34th president."
+        },
+        {
+            "p": "This president named California governor Earl Warren Chief Justice in 1953, months before the Court heard new arguments in _Brown v. Board of Education_. He later appointed William Brennan and Potter Stewart to the Supreme Court.",
+            "r": "In 1957, he sent federal troops to enforce school desegregation in Little Rock. For 10 points, name this president."
+        },
+        {
+            "p": "This president renamed the presidential retreat in Maryland’s Catoctin [“kuh-TOK-tin”] Mountains, which Franklin Roosevelt had called “Shangri-La,” in honor of his father and his grandson, both named David. He also had a putting green built near the Oval Office.",
+            "r": "His vice president for eight years was Richard Nixon. For 10 points, name this 34th president."
+        },
+        {
+            "p": "This president created the Department of Health, Education, and Welfare in 1953 and welcomed Alaska and Hawaii as the 49th and 50th states in 1959. That same year, the St. Lawrence Seaway, which he had supported, opened to ships.",
+            "r": "For 10 points, name this president who signed the 1956 Federal-Aid Highway Act creating the Interstate Highway System."
+        }
+    ],
+    "clues": [
+        {
+            "id": "thirty-fourth",
+            "tier": "giveaway",
+            "t": "34th President (1953–1961), a Republican",
+            "k": ["34th president", "1953", "republican"],
+            "n": 0
+        },
+        {
+            "id": "d-day",
+            "tier": "giveaway",
+            "t": "Supreme Allied Commander in Europe; launched the D-Day invasion of Normandy (June 6, 1944)",
+            "k": ["d-day", "normandy", "supreme allied commander"],
+            "n": 0,
+            "rabbit": "D-Day"
+        },
+        {
+            "id": "interstate",
+            "tier": "giveaway",
+            "t": "Signed the Federal-Aid Highway Act of 1956, which created the Interstate Highway System",
+            "k": ["interstate", "highway", "1956"],
+            "n": 0
+        },
+        {
+            "id": "little-rock",
+            "tier": "giveaway",
+            "t": "Sent the 101st Airborne to Little Rock, Arkansas (1957), to protect nine Black students at Central High",
+            "k": ["little rock", "101st airborne", "1957"],
+            "n": 0,
+            "rabbit": "Brown v. Board of Education"
+        },
+        {
+            "id": "farewell",
+            "tier": "giveaway",
+            "t": "His farewell address (1961) warned against the “military-industrial complex”",
+            "k": ["military-industrial complex", "farewell address", "1961"],
+            "n": 0
+        },
+        {
+            "id": "stevenson-nixon",
+            "tier": "middle",
+            "t": "Beat Adlai Stevenson in 1952 and 1956; Richard Nixon was his vice president",
+            "k": ["adlai stevenson", "stevenson", "richard nixon", "nixon"],
+            "n": 0,
+            "rabbit": "Richard Nixon"
+        },
+        {
+            "id": "slogan",
+            "tier": "middle",
+            "t": "His 1952 campaign slogan rhymed his nickname with the word “like”",
+            "k": ["slogan", "nickname", "1952"],
+            "n": 0
+        },
+        {
+            "id": "korea",
+            "tier": "middle",
+            "t": "Promised “I shall go to Korea” (1952); an armistice stopped the fighting in July 1953",
+            "k": ["i shall go to korea", "armistice", "1953"],
+            "n": 0,
+            "rabbit": "Korean War"
+        },
+        {
+            "id": "nasa-sputnik",
+            "tier": "middle",
+            "t": "Signed the law creating NASA (1958) after the Soviet Union launched Sputnik (1957)",
+            "k": ["nasa", "sputnik", "1958"],
+            "n": 0
+        },
+        {
+            "id": "abilene",
+            "tier": "middle",
+            "t": "Born in Denison, Texas (1890); grew up in Abilene, Kansas",
+            "k": ["abilene", "kansas", "denison"],
+            "n": 0
+        },
+        {
+            "id": "west-point",
+            "tier": "middle",
+            "t": "West Point class of 1915, “the class the stars fell on”",
+            "k": ["west point", "1915", "stars fell"],
+            "n": 0
+        },
+        {
+            "id": "nato",
+            "tier": "middle",
+            "t": "First Supreme Allied Commander Europe of NATO (1951–1952)",
+            "k": ["nato", "1951"],
+            "n": 0,
+            "rabbit": "NATO"
+        },
+        {
+            "id": "doctrine",
+            "tier": "middle",
+            "t": "His 1957 doctrine promised U.S. aid to Middle Eastern countries threatened by communism",
+            "k": ["doctrine", "middle eastern", "1957"],
+            "n": 0
+        },
+        {
+            "id": "u-2",
+            "tier": "middle",
+            "t": "U-2 incident (1960): pilot Francis Gary Powers was shot down over the Soviet Union",
+            "k": ["u-2", "francis gary powers", "powers"],
+            "n": 0
+        },
+        {
+            "id": "camp-david",
+            "tier": "middle",
+            "t": "Renamed FDR’s “Shangri-La” retreat Camp David, for his father and grandson; had a putting green built near the Oval Office",
+            "k": ["camp david", "grandson", "putting green"],
+            "n": 0
+        },
+        {
+            "id": "torch",
+            "tier": "power",
+            "t": "Commanded Operation Torch, the Allied landings in North Africa (November 1942)",
+            "k": ["operation torch", "torch", "north africa"],
+            "n": 0
+        },
+        {
+            "id": "kasserine",
+            "tier": "power",
+            "t": "U.S. troops lost at Kasserine Pass, Tunisia (1943); he then oversaw the invasions of Sicily and Italy",
+            "k": ["kasserine", "sicily", "italy"],
+            "n": 0
+        },
+        {
+            "id": "great-crusade",
+            "tier": "power",
+            "t": "D-Day order of the day: “You are about to embark upon the Great Crusade”; wrote a note taking the blame if it failed",
+            "k": ["great crusade", "blame", "order of the day"],
+            "n": 0
+        },
+        {
+            "id": "columbia",
+            "tier": "power",
+            "t": "President of Columbia University (1948–1953); wrote the memoir _Crusade in Europe_",
+            "k": ["columbia", "crusade in europe"],
+            "n": 0
+        },
+        {
+            "id": "camp-colt",
+            "tier": "power",
+            "t": "Ran Camp Colt, a World War I tank training center at Gettysburg; later retired to a Gettysburg farm",
+            "k": ["camp colt", "gettysburg", "tank"],
+            "n": 0
+        },
+        {
+            "id": "convoy",
+            "tier": "power",
+            "t": "Joined the 1919 Army truck convoy across the country; admired Germany’s autobahns",
+            "k": ["convoy", "autobahns", "1919"],
+            "n": 0
+        },
+        {
+            "id": "atoms-for-peace",
+            "tier": "power",
+            "t": "“Atoms for Peace” speech at the UN (1953) and “Open Skies” plan at the Geneva summit (1955)",
+            "k": ["atoms for peace", "open skies", "geneva"],
+            "n": 0
+        },
+        {
+            "id": "domino",
+            "tier": "power",
+            "t": "Compared Southeast Asian countries to falling dominoes (1954); did not send U.S. forces to help the French at Dien Bien Phu",
+            "k": ["dominoes", "dien bien phu"],
+            "n": 0
+        },
+        {
+            "id": "warren",
+            "tier": "power",
+            "t": "Named Earl Warren Chief Justice (1953); also appointed William Brennan and Potter Stewart",
+            "k": ["earl warren", "brennan", "potter stewart"],
+            "n": 0,
+            "rabbit": "Earl Warren"
+        },
+        {
+            "id": "civil-rights-1957",
+            "tier": "power",
+            "t": "Signed the Civil Rights Act of 1957, the first since Reconstruction; Strom Thurmond spoke against it for over 24 hours",
+            "k": ["civil rights act", "reconstruction", "thurmond"],
+            "n": 0
+        },
+        {
+            "id": "suez",
+            "tier": "power",
+            "t": "Suez Crisis (1956): pressured Britain, France, and Israel to pull out of Egypt",
+            "k": ["suez", "egypt"],
+            "n": 0
+        },
+        {
+            "id": "statehood",
+            "tier": "power",
+            "t": "Alaska and Hawaii became states (1959); created the Department of Health, Education, and Welfare (1953); backed the St. Lawrence Seaway",
+            "k": ["alaska", "hawaii", "seaway"],
+            "n": 0
+        },
+        {
+            "id": "ndea",
+            "tier": "power",
+            "t": "Signed the National Defense Education Act (1958) to pay for more science, math, and language teaching",
+            "k": ["national defense education act", "science"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Ike, Truman, or MacArthur?",
+        "body": "Eisenhower’s career overlaps with two other famous names. Harry Truman was president from 1945 to 1953, so the atomic bombs, the Marshall Plan, and the start of the Korean War belong to Truman, while the 1953 armistice came after Eisenhower took office. Douglas MacArthur commanded in the Pacific and Korea, while Eisenhower led in North Africa and Europe; Eisenhower had once served as MacArthur’s aide. Terms named for him, like the Eisenhower Doctrine, are separate answers.",
+        "fix": "D-Day, Operation Torch, NATO’s first commander, “I Like Ike,” the interstates, Little Rock, NASA, the U-2, and the “military-industrial complex” all mean Eisenhower. Answer “Eisenhower” or “Ike”; if the question asks for “this doctrine,” say “Eisenhower Doctrine.”",
+        "line": "Real answer line: Dwight D. <b><u>Eisenhower</u></b> (or Dwight David <b><u>Eisenhower</u></b>; accept <b><u>Ike</u></b>)"
+    },
+    "tests": {
+        "right": [
+            "Dwight D. Eisenhower",
+            "Eisenhower",
+            "Ike",
+            "Dwight David Eisenhower",
+            "General Eisenhower",
+            "Eisenhauer"
+        ],
+        "prompt": [
+            "Dwight"
+        ],
+        "wrong": [
+            "Mamie Eisenhower",
+            "Harry Truman",
+            "Richard Nixon",
+            "Douglas MacArthur",
+            "Eisenhower Doctrine",
+            "George Patton",
+            "Adlai Stevenson"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

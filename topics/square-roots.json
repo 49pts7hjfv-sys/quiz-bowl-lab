@@ -113,7 +113,7 @@
   },
   "tossups": [
     {
-      "p": "The Babylonian clay tablet YBC 7289 shows a square with its diagonals drawn in, along with a base-60 value for this function of 2 that is correct to about six digits. The tablet relies on the fact that the diagonal of a square is this function of 2 times as long as a side.",
+      "p": "The Babylonian clay tablet YBC 7289 shows a square with its diagonals drawn in, along with a base-60 value for this function of 2 that is correct to five decimal places. The tablet relies on the fact that the diagonal of a square is this function of 2 times as long as a side.",
       "r": "That value for 2 is about 1.414. For 10 points, name this operation that undoes squaring a number."
     },
     {
@@ -133,7 +133,7 @@
       "r": "That value is about 1.414. For 10 points, name this operation, which gives 6 for the number 36."
     },
     {
-      "p": "Sheets of A4 paper are this function of 2 times as long as they are wide, so cutting one in half makes two smaller sheets with exactly the same shape. That ratio, about 1.414, means each size in the series has exactly half the area of the one before it.",
+      "p": "Sheets of A4 paper are designed to be this function of 2 times as long as they are wide, so cutting one in half makes two smaller sheets with the same shape. In that paper series, built on a ratio of about 1.414, each size has half the area of the one before it.",
       "r": "For 10 points, name this operation, written with a radical sign, which gives 4 for the number 16."
     },
     {
@@ -315,7 +315,7 @@
     {
       "id": "ybc-7289",
       "tier": "power",
-      "t": "The Babylonian tablet YBC 7289 shows a square with its diagonals and a base-60 value for 2 correct to about six digits",
+      "t": "The Babylonian tablet YBC 7289 shows a square with its diagonals and a base-60 value for 2 correct to five decimal places",
       "k": [
         "ybc 7289",
         "babylonian",
@@ -369,7 +369,7 @@
     {
       "id": "a4-paper",
       "tier": "power",
-      "t": "A4 paper is this value of 2 times as long as it is wide, so cutting a sheet in half keeps its shape",
+      "t": "A4 paper is designed to be this value of 2 times as long as it is wide, so cutting a sheet in half keeps its shape",
       "k": [
         "a4 paper",
         "cutting",

@@ -40,7 +40,6 @@
     "parallel lines"
   ],
   "reject": [
-    "euclid",
     "euclid of alexandria",
     "euclids elements",
     "elements",
@@ -86,7 +85,9 @@
       "fifth postulate",
       "Playfair's axiom",
       "paralel postulate",
-      "the parallel axiom"
+      "the parallel axiom",
+      "Euclid fifth postulate",
+      "parallel postulate of Euclid"
     ],
     "prompt": [
       "postulate",
@@ -282,7 +283,7 @@
     {
       "id": "riemann",
       "tier": "middle",
-      "t": "Bernhard Riemann’s 1854 lecture, whose topic Gauss chose, inspired geometries in which no two lines avoid meeting",
+      "t": "Bernhard Riemann’s 1854 lecture, whose topic Gauss chose, inspired geometries in which every two lines meet",
       "k": [
         "riemann",
         "1854",

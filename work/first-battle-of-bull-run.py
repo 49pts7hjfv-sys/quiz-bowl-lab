@@ -23,7 +23,13 @@ data = {
         "first manassas",
         "1st manassas",
         "1st battle of manassas",
-        "battle of first manassas"
+        "battle of first manassas",
+        "bull run i",
+        "bull run 1",
+        "bull run 1861",
+        "manassas i",
+        "manassas 1",
+        "manassas 1861"
     ],
     "prompt": [
         "bull run",
@@ -31,7 +37,8 @@ data = {
         "the battle of bull run",
         "manassas",
         "battle of manassas",
-        "the battle of manassas"
+        "the battle of manassas",
+        "manassas junction"
     ],
     "reject": [
         "second battle of bull run",

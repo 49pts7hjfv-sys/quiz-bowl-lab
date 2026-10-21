@@ -1,0 +1,383 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "first-transcontinental-railroad",
+    "name": "First Transcontinental Railroad",
+    "mono": "TCR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Linked the East to California in 1869 · Finished with a golden spike",
+    "dates": "Built 1863–1869",
+    "briefing": "In 1862, with the Civil War raging, Abraham Lincoln signed a law to build a railroad linking the East to California. The Central Pacific laid track east from Sacramento, blasting through the Sierra Nevada with thousands of Chinese workers, while the Union Pacific built west from Omaha with many Irish immigrants and Civil War veterans. On May 10, 1869, the two lines met at Promontory Summit, Utah, where a golden spike was tapped in and the telegraph flashed one word: “DONE.”",
+    "answerHtml": "First <b><u>Transcontinental Railroad</u></b> (or <b><u>Pacific Railroad</u></b>; accept <u>Overland Route</u>; prompt on <u>railroad</u>, <u>transcontinental</u>, or one company’s name, such as <u>Union Pacific</u>)",
+    "accept": [
+        "first transcontinental railroad",
+        "transcontinental railroad",
+        "the transcontinental railroad",
+        "first transcontinental railway",
+        "transcontinental railway",
+        "transcontinental rail road",
+        "transcontinental rail line",
+        "transcontinental rr",
+        "pacific railroad",
+        "the pacific railroad",
+        "overland route"
+    ],
+    "prompt": [
+        "transcontinental",
+        "the transcontinental",
+        "railroad",
+        "the railroad",
+        "railway",
+        "union pacific",
+        "union pacific railroad",
+        "the union pacific railroad",
+        "central pacific",
+        "central pacific railroad",
+        "the central pacific railroad"
+    ],
+    "reject": [
+        "second transcontinental railroad",
+        "second transcontinental",
+        "northern pacific",
+        "northern pacific railroad",
+        "northern pacific railway",
+        "southern pacific",
+        "southern pacific railroad",
+        "canadian pacific",
+        "canadian pacific railway",
+        "western pacific",
+        "missouri pacific",
+        "texas and pacific",
+        "great northern railway",
+        "trans siberian railway",
+        "trans siberian railroad",
+        "panama railroad",
+        "panama railway",
+        "panama canal",
+        "erie canal",
+        "erie railroad",
+        "underground railroad",
+        "baltimore and ohio railroad",
+        "b and o railroad",
+        "pony express",
+        "oregon trail",
+        "california trail",
+        "transcontinental telegraph",
+        "pacific railway act",
+        "pacific railway acts",
+        "pacific railroad act",
+        "pacific railroad acts",
+        "golden spike",
+        "last spike",
+        "promontory summit",
+        "promontory point",
+        "credit mobilier",
+        "chinese exclusion act",
+        "transcontinental treaty",
+        "adams onis treaty",
+        "national road",
+        "cumberland road",
+        "lincoln highway"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/First_transcontinental_railroad",
+    "qb": {
+        "q": "transcontinental railroad",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "The engineer Theodore Judah, nicknamed “Crazy Judah,” surveyed a route over the Sierra Nevada for this project and lobbied Congress to support it. Judah died of yellow fever in 1863, which he caught while crossing Panama, six years before this project was finished.",
+            "r": "For 10 points, name this railroad line completed at Promontory Summit, Utah, in 1869, which linked the eastern United States to California."
+        },
+        {
+            "p": "The government lent the builders of this project bonds worth 16,000 dollars for each mile of track on flat land and up to 48,000 dollars a mile in the mountains. The builders also received millions of acres of land along the route, which they could sell to settlers.",
+            "r": "Abraham Lincoln signed the 1862 law that started it. For 10 points, name this railroad finished with a golden spike in 1869."
+        },
+        {
+            "p": "In June 1867, thousands of Chinese workers on this project went on strike, asking for the same pay as white workers and shorter workdays in the dangerous tunnels. The construction boss, Charles Crocker, cut off their food supplies, and the strike ended after about a week.",
+            "r": "Those workers built the Central Pacific line east from Sacramento. For 10 points, name this railroad completed in Utah in 1869."
+        },
+        {
+            "p": "On April 28, 1869, workers on this project laid more than ten miles of track in a single day, setting a record. That day, eight Irish rail handlers lifted every iron rail into place, working alongside crews of Chinese laborers.",
+            "r": "Less than two weeks later, this project’s two halves met in Utah. For 10 points, name this railroad completed with a golden spike in May 1869."
+        },
+        {
+            "p": "In 1872, newspapers revealed that Congressman Oakes Ames had handed out cheap shares in Crédit Mobilier [“kray-DEE moh-beel-YAY”], a company that overcharged for building part of this project, to other members of Congress. Vice President Schuyler Colfax was among the politicians caught up in the scandal.",
+            "r": "That company was set up by leaders of the Union Pacific. For 10 points, name this railroad completed at Promontory Summit in 1869."
+        },
+        {
+            "p": "At the ceremony that completed this project, the Central Pacific locomotive Jupiter and the Union Pacific’s No. 119 pulled up nose to nose. California’s former governor Leland Stanford is said to have swung at the last spike and missed.",
+            "r": "A telegraph operator then flashed one word to the nation: “DONE.” For 10 points, name this railroad completed at Promontory Summit, Utah, on May 10, 1869."
+        },
+        {
+            "p": "Andrew J. Russell’s most famous photograph of this project’s completion shows two locomotives and cheering workers, but the Chinese immigrants who did much of the hardest work are missing from the picture. Those workers had blasted tunnels through the granite of the Sierra Nevada.",
+            "r": "For 10 points, name this railroad whose eastern and western halves met at Promontory Summit, Utah, in 1869."
+        },
+        {
+            "p": "Former Union general Grenville Dodge served as chief engineer for one company building this project, while the brothers Jack and Dan Casement ran its track-laying crews. Rowdy tent towns nicknamed “Hell on Wheels” moved west along with the end of that company’s track.",
+            "r": "That company, the Union Pacific, hired many Irish immigrants and Civil War veterans and built west from Omaha. For 10 points, name this railroad completed in 1869."
+        },
+        {
+            "p": "Workers on this project spent many months drilling and blasting the Summit Tunnel through solid granite near Donner Pass, sometimes advancing less than a foot a day. To protect the tracks from deep winter snow, the builders later covered miles of them with wooden snowsheds.",
+            "r": "Those workers, many of them Chinese immigrants, built the Central Pacific line through the Sierra Nevada. For 10 points, name this railroad completed in 1869."
+        },
+        {
+            "p": "Four Sacramento merchants, including the hardware dealers Collis Huntington and Mark Hopkins, paid to start one company that built this project. Another of those “Big Four,” a former governor of California, later founded a university in memory of his son.",
+            "r": "That man, Leland Stanford, helped drive its golden spike. For 10 points, name this railroad completed at Promontory Summit, Utah, in 1869."
+        },
+        {
+            "p": "In the 1850s, Secretary of War Jefferson Davis sent army surveyors to map possible routes for this project, but Northern and Southern politicians could not agree on where it should run. Congress approved it only after Southern states seceded and their members left.",
+            "r": "Abraham Lincoln signed that law in 1862. For 10 points, name this railroad built by the Central Pacific and the Union Pacific."
+        },
+        {
+            "p": "Lakota and Cheyenne warriors attacked survey crews and work camps as this project crossed their homelands on the Great Plains. The trains it brought made it easier for hunters to reach and destroy the great bison herds that Plains nations depended on.",
+            "r": "It cut the trip across the country from months to about a week. For 10 points, name this railroad whose Union Pacific half was built west from Omaha."
+        },
+        {
+            "p": "At this project’s completion ceremony, special spikes made of precious metals were tapped into a pre-drilled tie of polished laurel wood, then removed and replaced with ordinary iron spikes. The most famous of those spikes is kept at a museum at Stanford University.",
+            "r": "That golden spike marked the joining of two lines at Promontory Summit, Utah, on May 10, 1869. For 10 points, name this railroad."
+        },
+        {
+            "p": "Thirteen years after this project was finished, Congress passed the Chinese Exclusion Act, which stopped Chinese laborers from coming to the United States. Chinese workers on this project had been paid less than white workers and had to buy their own food.",
+            "r": "They made up most of the workforce of its Central Pacific half, built east from Sacramento. For 10 points, name this railroad completed in 1869."
+        },
+        {
+            "p": "Mormon crews hired by Brigham Young graded parts of this project in Utah, though Young was disappointed that its route did not pass through Salt Lake City. Many books wrongly say this project was completed at Promontory Point, a peninsula on the Great Salt Lake.",
+            "r": "It was really completed at Promontory Summit, north of the lake. For 10 points, name this railroad finished with a golden spike in 1869."
+        }
+    ],
+    "clues": [
+        {
+            "id": "golden-spike",
+            "tier": "giveaway",
+            "t": "Completed on May 10, 1869, with a golden spike at Promontory Summit, Utah Territory",
+            "k": ["golden spike", "promontory summit", "may 10, 1869", "utah"],
+            "n": 0
+        },
+        {
+            "id": "two-companies",
+            "tier": "giveaway",
+            "t": "Built by the Central Pacific (east from Sacramento, California) and the Union Pacific (west from Omaha, Nebraska)",
+            "k": ["central pacific", "union pacific", "sacramento", "omaha"],
+            "n": 0
+        },
+        {
+            "id": "pacific-railway-act",
+            "tier": "giveaway",
+            "t": "Started by the Pacific Railway Act, signed by Abraham Lincoln in 1862",
+            "k": ["pacific railway act", "lincoln", "1862"],
+            "n": 0,
+            "rabbit": "Abraham Lincoln"
+        },
+        {
+            "id": "east-west",
+            "tier": "giveaway",
+            "t": "Linked the eastern rail network to California, cutting a cross-country trip from months to about a week",
+            "k": ["california", "week", "months"],
+            "n": 0
+        },
+        {
+            "id": "chinese-workers",
+            "tier": "middle",
+            "t": "Thousands of Chinese immigrants did most of the Central Pacific’s work, for less pay than white workers",
+            "k": ["chinese", "immigrants", "less pay"],
+            "n": 0
+        },
+        {
+            "id": "irish-veterans",
+            "tier": "middle",
+            "t": "Union Pacific crews included many Irish immigrants and Civil War veterans",
+            "k": ["irish", "veterans", "civil war"],
+            "n": 0
+        },
+        {
+            "id": "done",
+            "tier": "middle",
+            "t": "A telegraph operator sent the one-word message “DONE” when the last spike was in",
+            "k": ["done", "telegraph", "one-word"],
+            "n": 0
+        },
+        {
+            "id": "big-four",
+            "tier": "middle",
+            "t": "The Central Pacific’s “Big Four”: Leland Stanford, Collis Huntington, Mark Hopkins, and Charles Crocker",
+            "k": ["big four", "leland stanford", "huntington", "hopkins", "crocker"],
+            "n": 0
+        },
+        {
+            "id": "sierra",
+            "tier": "middle",
+            "t": "The Central Pacific blasted tunnels through the granite of the Sierra Nevada",
+            "k": ["sierra nevada", "tunnels", "granite"],
+            "n": 0
+        },
+        {
+            "id": "judah",
+            "tier": "middle",
+            "t": "Engineer Theodore Judah surveyed the route over the Sierra Nevada and lobbied Congress",
+            "k": ["theodore judah", "judah", "surveyed"],
+            "n": 0
+        },
+        {
+            "id": "ten-mile-day",
+            "tier": "middle",
+            "t": "April 28, 1869: Central Pacific crews laid more than ten miles of track in one day, a record",
+            "k": ["ten miles", "april 28", "record"],
+            "n": 0
+        },
+        {
+            "id": "locomotives",
+            "tier": "middle",
+            "t": "The locomotives Jupiter (Central Pacific) and No. 119 (Union Pacific) met nose to nose at the ceremony",
+            "k": ["jupiter", "no. 119", "locomotives"],
+            "n": 0
+        },
+        {
+            "id": "plains",
+            "tier": "middle",
+            "t": "The line crossed Lakota and Cheyenne homelands on the Great Plains, and the trains helped hunters destroy the bison herds",
+            "k": ["bison", "lakota", "cheyenne", "great plains"],
+            "n": 0
+        },
+        {
+            "id": "bonds",
+            "tier": "power",
+            "t": "Government loans in bonds: $16,000 per mile on flat land, up to $48,000 per mile in the mountains, plus huge land grants",
+            "k": ["bonds", "$16,000", "$48,000", "land grants"],
+            "n": 0
+        },
+        {
+            "id": "strike",
+            "tier": "power",
+            "t": "June 1867: thousands of Chinese workers struck for equal pay and shorter workdays; Crocker cut off their food, and the strike ended in about a week",
+            "k": ["strike", "1867", "equal pay"],
+            "n": 0
+        },
+        {
+            "id": "credit-mobilier",
+            "tier": "power",
+            "t": "Crédit Mobilier scandal (exposed 1872): a Union Pacific construction company overcharged; Oakes Ames gave its shares to congressmen, and Schuyler Colfax was implicated",
+            "k": ["crédit mobilier", "oakes ames", "colfax", "1872"],
+            "n": 0
+        },
+        {
+            "id": "dodge-casement",
+            "tier": "power",
+            "t": "Former Union general Grenville Dodge was the Union Pacific’s chief engineer; Jack and Dan Casement ran its track crews",
+            "k": ["grenville dodge", "dodge", "casement"],
+            "n": 0
+        },
+        {
+            "id": "hell-on-wheels",
+            "tier": "power",
+            "t": "Rowdy tent towns called “Hell on Wheels” followed the Union Pacific’s end of track west",
+            "k": ["hell on wheels", "tent towns"],
+            "n": 0
+        },
+        {
+            "id": "crazy-judah",
+            "tier": "power",
+            "t": "Theodore Judah, nicknamed “Crazy Judah,” died of yellow fever in 1863 after crossing Panama",
+            "k": ["crazy judah", "yellow fever", "panama"],
+            "n": 0
+        },
+        {
+            "id": "russell-photo",
+            "tier": "power",
+            "t": "Andrew J. Russell’s most famous photo of the ceremony left out the Chinese workers",
+            "k": ["andrew j. russell", "russell", "photo"],
+            "n": 0
+        },
+        {
+            "id": "summit-tunnel",
+            "tier": "power",
+            "t": "The Summit Tunnel near Donner Pass was blasted through solid granite; miles of wooden snowsheds later protected the tracks",
+            "k": ["summit tunnel", "donner pass", "snowsheds"],
+            "n": 0
+        },
+        {
+            "id": "davis-surveys",
+            "tier": "power",
+            "t": "In the 1850s, Secretary of War Jefferson Davis sent army surveyors to map possible routes, but North and South could not agree on one",
+            "k": ["jefferson davis", "surveyors", "routes"],
+            "n": 0
+        },
+        {
+            "id": "laurel-tie",
+            "tier": "power",
+            "t": "Precious-metal spikes were tapped into a polished laurel tie, then removed; the famous golden spike is kept at Stanford University",
+            "k": ["laurel", "stanford university", "precious-metal"],
+            "n": 0
+        },
+        {
+            "id": "stanford-missed",
+            "tier": "power",
+            "t": "Former California governor Leland Stanford is said to have swung at the last spike and missed",
+            "k": ["missed", "governor", "swung"],
+            "n": 0
+        },
+        {
+            "id": "exclusion",
+            "tier": "power",
+            "t": "Thirteen years later, the Chinese Exclusion Act (1882) stopped Chinese laborers from coming to the United States",
+            "k": ["chinese exclusion act", "1882", "exclusion"],
+            "n": 0,
+            "rabbit": "Chinese Exclusion Act"
+        },
+        {
+            "id": "promontory-point",
+            "tier": "power",
+            "t": "Finished at Promontory Summit, not Promontory Point, a peninsula on the Great Salt Lake; Brigham Young’s Mormon crews graded nearby",
+            "k": ["promontory point", "brigham young", "mormon"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Railroad, law, or spike?",
+        "body": "Several stock clues for this railroad are answer lines of their own: the Pacific Railway Act (the 1862 law), the Golden Spike (the ceremony at Promontory Summit), and the Crédit Mobilier scandal. Naming just one company, such as the Union Pacific or Central Pacific, earns only a prompt here. Later lines such as the Northern Pacific (1883) and the Canadian Pacific (1885) also crossed the continent, and the Underground Railroad was not a railroad at all.",
+        "fix": "Listen for the noun: “this railroad” or “this line” wants the transcontinental railroad, while “this law,” “this ceremony,” or “this scandal” wants something more specific. A golden spike, Promontory Summit, Chinese and Irish crews, and 1869 mean the first transcontinental railroad.",
+        "line": "Real answer line: First <b><u>Transcontinental Railroad</u></b> (or <b><u>Pacific Railroad</u></b>; accept <u>Overland Route</u>; prompt on <u>railroad</u>, <u>transcontinental</u>, or one company’s name, such as <u>Union Pacific</u>)"
+    },
+    "tests": {
+        "right": [
+            "First Transcontinental Railroad",
+            "Transcontinental Railroad",
+            "the transcontinental railroad",
+            "Pacific Railroad",
+            "Transcontinental Railway",
+            "Transcontinetal Railroad",
+            "Overland Route"
+        ],
+        "prompt": [
+            "railroad",
+            "Union Pacific",
+            "Central Pacific Railroad",
+            "transcontinental"
+        ],
+        "wrong": [
+            "Erie Canal",
+            "Northern Pacific Railroad",
+            "Panama Canal",
+            "Underground Railroad",
+            "Canadian Pacific Railway",
+            "Pacific Railway Act",
+            "Golden Spike",
+            "Pony Express"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

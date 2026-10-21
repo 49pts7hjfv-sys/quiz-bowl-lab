@@ -103,7 +103,7 @@
       "r": "A protractor measures these figures in degrees. For 10 points, name these figures formed by two rays that share an endpoint called the vertex."
     },
     {
-      "p": "Roger Cotes worked out the idea behind one unit for measuring these in the early 1700s, and James Thomson, the brother of Lord Kelvin, first printed that unit’s name in 1873. One of those units cuts off an arc exactly as long as a circle’s radius.",
+      "p": "Roger Cotes worked out the idea behind one unit for measuring these in the early 1700s, and James Thomson, the brother of Lord Kelvin, first used that unit’s name in print in 1873. One of those units cuts off an arc exactly as long as a circle’s radius.",
       "r": "There are 360 degrees in a full turn. For 10 points, name these figures, such as right and acute ones, which can be measured in radians."
     },
     {
@@ -127,7 +127,7 @@
       "r": "Same-side interior pairs add up to 180 degrees. For 10 points, name these figures, which are classified as acute, right, or obtuse."
     },
     {
-      "p": "An inscribed one of these figures measures exactly half of the central one that cuts off the same arc of a circle. The early Greek thinker Thales [“THAY-leez”] is traditionally credited with proving that when two lines cross, the pairs of these across from each other are equal.",
+      "p": "An inscribed one of these figures measures exactly half of the central one that cuts off the same arc of a circle. The early Greek thinker Thales [“THAY-leez”] is traditionally credited with discovering that when two lines cross, the pairs of these across from each other are equal.",
       "r": "Those pairs are called vertical. For 10 points, name these figures, which are measured in degrees with a protractor."
     },
     {
@@ -155,7 +155,7 @@
       "r": "For 10 points, name these figures, such as acute and obtuse ones, which are usually measured in degrees."
     },
     {
-      "p": "The names of two kinds of these figures come from Latin words meaning “sharp” and “blunt.” Leaves and seeds on many plants, such as sunflowers, spiral outward separated by a “golden” one of these figures, which is linked to the golden ratio.",
+      "p": "The names of two kinds of these figures come from Latin words meaning “sharp” and “blunt.” Many plants, such as sunflowers, place each new seed or leaf about 137.5 degrees around from the last, a “golden” one of these figures linked to the golden ratio.",
       "r": "An obtuse triangle has one that measures more than 90 degrees. For 10 points, name these figures, which you can measure with a protractor."
     }
   ],
@@ -261,7 +261,7 @@
     {
       "id": "vertical",
       "tier": "middle",
-      "t": "When two lines cross, the vertical pairs across from each other are equal; Thales is traditionally credited with proving it",
+      "t": "When two lines cross, the vertical pairs across from each other are equal; Thales is traditionally credited with discovering it",
       "k": [
         "vertical",
         "thales",
@@ -329,7 +329,7 @@
     {
       "id": "cotes-thomson",
       "tier": "power",
-      "t": "Roger Cotes worked out the radian idea in the early 1700s; James Thomson, Lord Kelvin’s brother, first printed the name “radian” in 1873",
+      "t": "Roger Cotes worked out the radian idea in the early 1700s; James Thomson, Lord Kelvin’s brother, first used the name “radian” in print in 1873",
       "k": [
         "cotes",
         "james thomson",
@@ -455,7 +455,7 @@
     {
       "id": "golden",
       "tier": "power",
-      "t": "Seeds and leaves on many plants, such as sunflowers, spiral outward separated by a “golden” one linked to the golden ratio",
+      "t": "Many plants, such as sunflowers, place new seeds and leaves about 137.5° around from the last, a “golden” one linked to the golden ratio",
       "k": [
         "golden",
         "sunflowers",

@@ -136,7 +136,7 @@
       "r": "Any paper loop with an odd number of half-twists is one-sided, just like this object. For 10 points, name this surface with only one edge."
     },
     {
-      "p": "This object’s namesake introduced barycentric [“bair-ih-SEN-trik”] coordinates in an 1827 book and spent his career as an astronomer in Leipzig. He wrote about this object in 1858, the same year that Johann Listing found it on his own.",
+      "p": "This object’s namesake introduced barycentric [“bair-ih-SEN-trik”] coordinates in an 1827 book and spent his career as an astronomer in Leipzig. He discovered this object in 1858, the same year that Johann Listing found it on his own.",
       "r": "For 10 points, name this surface made by giving a paper ribbon a half-twist and taping its ends together."
     },
     {
@@ -188,7 +188,7 @@
     {
       "id": "german",
       "tier": "middle",
-      "t": "Named for a German mathematician and astronomer at Leipzig who wrote about it in 1858",
+      "t": "Named for a German mathematician and astronomer at Leipzig who discovered it in 1858",
       "k": [
         "german",
         "1858",
@@ -417,6 +417,6 @@
     "title": "One edge or none?",
     "body": "The Klein bottle is the Möbius strip’s close cousin: it is also one-sided, but it has no edge at all, and it can be made by gluing two Möbius strips together along their edges. Other near-misses are the torus, a doughnut shape with an inside and an outside, and a plain paper loop with no twist. Saying only “Möbius” earns a prompt, because Möbius also names a function and a kind of transformation.",
     "fix": "If the surface has one side and one edge, or comes from a half-twisted paper loop, say “Möbius strip.” If it has one side but no edge, like a bottle that passes through itself, say “Klein bottle.” Any spelling is fine: “Mobius” and “Moebius” count.",
-    "line": "Real answer line: <b><u>Möbius strip</u></b> (or <u>Möbius band</u>; accept <u>Mobius</u> or <u>Moebius</u> spellings; prompt on <u>Möbius</u> alone; do not accept “Klein bottle”)"
+    "line": "Real answer line: <b><u>Möbius strip</u></b> (or <u>Möbius band</u> or <u>Möbius loop</u>; accept <u>Mobius</u> or <u>Moebius</u> spellings; prompt on <u>Möbius</u> alone or <u>non-orientable surface</u>; do not accept “Klein bottle”)"
   }
 }
