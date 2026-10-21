@@ -98,11 +98,11 @@ data = {
           "For 10 points, name this Union general who was removed from command of the Army of the Potomac in November 1862."),
         T("Days before one battle, Union soldiers found a copy of Robert E. Lee’s plans, Special Order 191, wrapped around three cigars, and passed it to this general. Even with that “Lost Order,” this general moved slowly, giving Lee time to gather his scattered army.",
           "He then fought Lee at Antietam. For 10 points, name this commander of the Army of the Potomac."),
-        T("During the bloodiest single day in American history, this general kept thousands of soldiers in reserve, including Fitz John Porter’s corps. Afterward, he let Robert E. Lee’s army retreat across the Potomac River into Virginia without chasing it.",
+        T("In one 1862 battle, this general kept thousands of soldiers in reserve, including Fitz John Porter’s corps. Afterward, he let Robert E. Lee’s army retreat across the Potomac River into Virginia without chasing it.",
           "For 10 points, name this Union commander at the Battle of Antietam, whom Lincoln removed weeks later."),
-        T("When this general complained that his cavalry horses were tired and had sore tongues, Abraham Lincoln asked by telegram what the horses had done since Antietam “that fatigue anything.” Lincoln also complained that this general had “the slows.”",
+        T("When this general complained that his cavalry horses were tired and had sore tongues, Abraham Lincoln asked by telegram what those horses had done since the army’s last battle “that fatigue anything.” Lincoln also complained that this general had “the slows.”",
           "Lincoln removed him from command in November 1862. For 10 points, name this general."),
-        T("Confederate cavalry leader J. E. B. Stuart twice led his horsemen in a complete circle around this general’s army, once during the Peninsula Campaign and again weeks after Antietam. The second ride took Stuart as far north as Chambersburg, Pennsylvania.",
+        T("Confederate cavalry leader J. E. B. Stuart twice led his horsemen in a complete circle around this general’s army, once during the Peninsula Campaign and again in October 1862. The second ride took Stuart as far north as Chambersburg, Pennsylvania.",
           "For 10 points, name this Union general who commanded the Army of the Potomac in 1862."),
         T("In his Harrison’s Landing letter of July 1862, this general advised Abraham Lincoln not to turn the war into a fight to end slavery. Months earlier, he had gone to bed rather than meet Lincoln, who had been waiting at his house.",
           "For 10 points, name this Union general who later ran against Lincoln for president."),
@@ -114,8 +114,8 @@ data = {
           "For 10 points, name this general who led the Union’s Army of the Potomac in 1861 and 1862."),
         T("This general was criticized for slowly sending help to John Pope before the Second Battle of Bull Run in 1862. After Pope’s defeat, Abraham Lincoln put this general back in charge of the armies around Washington.",
           "For 10 points, name this general who weeks later fought Robert E. Lee at Antietam."),
-        T("This general turned the beaten army from First Bull Run into a well-drilled force and was deeply loved by his soldiers. When Abraham Lincoln removed him in November 1862, Ambrose Burnside took his place.",
-          "For 10 points, name this first commander of the Army of the Potomac, nicknamed “Little Mac.”")
+        T("This general turned the beaten army from First Bull Run into a well-drilled force, and his soldiers deeply loved him. His replacement, Ambrose Burnside, lost at Fredericksburg about five weeks after taking command.",
+          "For 10 points, name this first commander of the Army of the Potomac, nicknamed “Little Mac,” whom Lincoln removed in November 1862.")
     ],
     "clues": [
         C("army-of-potomac", "giveaway", "Organized and commanded the Union’s Army of the Potomac early in the Civil War", ["army of the potomac", "potomac"]),

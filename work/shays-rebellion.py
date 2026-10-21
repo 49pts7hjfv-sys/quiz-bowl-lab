@@ -85,7 +85,7 @@ data = {
             "r": "It was put down by state militia in early 1787. For 10 points, name this revolt of Massachusetts farmers led by Daniel Shays."
         },
         {
-            "p": "After this uprising, voters replaced Governor James Bowdoin [“BOH-din”] with John Hancock, who pardoned many of its participants. Hancock’s government also lowered taxes and gave some relief to people in debt.",
+            "p": "After this uprising, voters replaced Governor James Bowdoin [“BOH-din”] with John Hancock, who had held the office before and who pardoned many of its participants. Hancock’s government also lowered taxes and gave some relief to people in debt.",
             "r": "For 10 points, name this revolt of Massachusetts farmers in 1786 and 1787, led by Daniel Shays."
         },
         {
@@ -106,7 +106,7 @@ data = {
         },
         {
             "p": "Partly in response to this uprising, the U.S. Constitution lets Congress call out the militia to “suppress Insurrections” and promises federal protection to the states against “domestic Violence.” Under the old system, Congress had no power to collect taxes or raise troops on its own to stop it.",
-            "r": "For 10 points, name this 1786–1787 revolt in western Massachusetts led by Daniel Shays."
+            "r": "The state militia ended it in early 1787. For 10 points, name this 1786–1787 revolt in western Massachusetts led by Daniel Shays."
         },
         {
             "p": "Unlike the later Whiskey Rebellion, this uprising was put down by state militia rather than a national army, since the Confederation Congress could not raise one. Its leaders had asked for paper money and for laws that would delay the collection of debts.",
