@@ -126,7 +126,7 @@ data = {
             "r": "For 10 points, name these series that write a function as an infinite sum built from its derivatives at a single point."
         },
         {
-            "p": "Colin Maclaurin’s 1742 _Treatise of Fluxions_ made heavy use of the special case of these series centered at zero, which is now named for him. In these series, the nth term is divided by n factorial.",
+            "p": "Colin Maclaurin’s 1742 _Treatise of Fluxions_ made heavy use of the special case of these series centered at zero, which is named for him. In these series, the nth term is divided by n factorial.",
             "r": "For 10 points, name these infinite series, named for an English mathematician, that approximate functions using derivatives at one point."
         },
         {
