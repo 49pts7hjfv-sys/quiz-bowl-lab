@@ -59,7 +59,7 @@ data = {
     },
     "tossups": [
         {
-            "p": "In 1870, Esther Hobart Morris of South Pass City became the first woman in the United States to serve as a justice of the peace, in this territory. A year earlier, its governor had signed a bill introduced by William Bright.",
+            "p": "In 1870, Esther Hobart Morris of South Pass City became the first woman in the United States to serve as a justice of the peace, in this territory. Just months earlier, its governor had signed a bill introduced by William Bright.",
             "r": "That 1869 law made it the first U.S. territory to let women vote. For 10 points, name this “Equality State.”"
         },
         {
