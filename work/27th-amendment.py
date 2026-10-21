@@ -1,0 +1,352 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+# Reject every other amendment number. Two forms are deliberately left out because they sit
+# inside this topic's own accept phrases and would break typo tolerance:
+#   "seventh amendment" (inside "twenty seventh amendment") and
+#   "amendment twenty" (inside "amendment twenty seven").
+# Both are already judged wrong by default (no accept phrase is close to them); see the tests.
+ORD = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+       "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth",
+       "eighteenth", "nineteenth", "twentieth", "twenty first", "twenty second", "twenty third",
+       "twenty fourth", "twenty fifth", "twenty sixth"]
+NUMW = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+        "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
+        "twenty", "twenty one", "twenty two", "twenty three", "twenty four", "twenty five", "twenty six"]
+ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii", "xiii", "xiv", "xv",
+         "xvi", "xvii", "xviii", "xix", "xx", "xxi", "xxii", "xxiii", "xxiv", "xxv", "xxvi"]
+SUF = {1: "st", 2: "nd", 3: "rd", 21: "st", 22: "nd", 23: "rd"}
+SKIP = {"seventh amendment", "amendment twenty"}
+other_amendments = []
+for i in range(1, 27):
+    for form in (f"{ORD[i - 1]} amendment", f"{i}{SUF.get(i, 'th')} amendment",
+                 f"amendment {ROMAN[i - 1]}", f"amendment {i}", f"amendment {NUMW[i - 1]}"):
+        if form not in SKIP:
+            other_amendments.append(form)
+
+data = {
+    "id": "27th-amendment",
+    "name": "27th Amendment",
+    "mono": "27",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Delays congressional pay changes until after an election · Ratified 1992",
+    "dates": "Proposed 1789; ratified 1992",
+    "briefing": "The 27th Amendment says that if Congress changes its own pay, the change cannot take effect until after the next election for the House of Representatives. James Madison proposed it in 1789, but it sat unratified for almost two centuries. Then in 1982, a University of Texas student named Gregory Watson wrote a paper about it, got a C, and started a letter-writing campaign. It was finally ratified in 1992, about 202 years after Congress first proposed it.",
+    "answerHtml": "<b><u>Twenty-seventh Amendment</u></b> (or <u>27th</u> Amendment or Amendment <u>XXVII</u>; accept <u>Congressional Compensation</u> Amendment)",
+    "accept": [
+        "27th amendment",
+        "twenty seventh amendment",
+        "amendment xxvii",
+        "xxvii amendment",
+        "amendment 27",
+        "amendment twenty seven",
+        "27 amendment",
+        "twenty seven amendment",
+        "the 27th amendment",
+        "the twenty seventh amendment",
+        "congressional compensation amendment",
+        "congressional pay amendment"
+    ],
+    "prompt": [
+        "27th",
+        "twenty seventh",
+        "xxvii",
+        "27",
+        "amendment",
+        "congressional pay"
+    ],
+    "reject": other_amendments + [
+        "28th amendment",
+        "twenty eighth amendment",
+        "bill of rights",
+        "equal rights amendment",
+        "congressional apportionment amendment",
+        "titles of nobility amendment",
+        "corwin amendment",
+        "child labor amendment",
+        "district of columbia voting rights amendment",
+        "salary grab act",
+        "ethics reform act"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Twenty-seventh_Amendment_to_the_United_States_Constitution",
+    "qb": {
+        "q": "27th Amendment",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1982, a University of Texas student named Gregory Watson wrote a paper arguing that this amendment, which Congress had proposed almost two centuries earlier, could still be ratified. He got a C on the paper and then launched a letter-writing campaign to state lawmakers.",
+            "r": "For 10 points, name this amendment, ratified in 1992, which delays changes in congressional pay until after the next House election."
+        },
+        {
+            "p": "When James Madison introduced his proposed amendments in the House in June 1789, he included this one. It was second on the list of twelve that Congress sent to the states that September, just ahead of the amendment protecting freedom of speech.",
+            "r": "For 10 points, name this amendment about congressional pay, which was finally ratified in 1992."
+        },
+        {
+            "p": "This amendment covers pay cuts as well as raises, because its single sentence says that “no law, varying the compensation for the services of the Senators and Representatives, shall take effect, until an election of Representatives shall have intervened.”",
+            "r": "So a raise that Congress votes for itself must wait until after the next House election. For 10 points, name this amendment ratified in 1992."
+        },
+        {
+            "p": "In 1873, Ohio’s legislature approved this long-forgotten amendment to protest the “Salary Grab Act,” under which members of Congress had given themselves a raise along with back pay for the previous two years.",
+            "r": "More than a century later, it was finally ratified. For 10 points, name this amendment that delays congressional pay changes until after the next House election."
+        },
+        {
+            "p": "In 1978, Wyoming’s legislature approved this amendment to protest a congressional pay raise, more than a century after Ohio had done the same thing for the same reason. Four years later, a college student began a national campaign for it.",
+            "r": "For 10 points, name this amendment, first proposed by James Madison, that was ratified in 1992."
+        },
+        {
+            "p": "No other amendment took nearly as long to ratify as this one, which became part of the Constitution about 202 years after Congress sent it to the states. Because it was proposed long before Congress began setting deadlines for ratification, it never expired.",
+            "r": "For 10 points, name this amendment, ratified in 1992, that deals with pay raises for members of Congress."
+        },
+        {
+            "p": "In May 1992, the Archivist of the United States, Don W. Wilson, certified this amendment as ratified, and both houses of Congress then passed resolutions, by lopsided votes, agreeing that it was valid.",
+            "r": "A college student’s letter-writing campaign had revived it. For 10 points, name this amendment that delays any congressional pay raise until after the next House election."
+        },
+        {
+            "p": "Questions about whether this amendment had taken too long to ratify recalled the 1939 case _Coleman v. Miller_, in which the Supreme Court said that Congress, not the courts, decides such questions. An earlier case, _Dillon v. Gloss_, had said amendments should be ratified within a “reasonable time.”",
+            "r": "For 10 points, name this amendment ratified in 1992, about two centuries after James Madison proposed it."
+        },
+        {
+            "p": "In 2017, the University of Texas changed a grade from a C to an A, decades after a student’s paper about this amendment launched the campaign that got it ratified. That student, Gregory Watson, had written to lawmakers in state after state.",
+            "r": "For 10 points, name this amendment, ratified in 1992, that delays changes in congressional pay."
+        },
+        {
+            "p": "Ratified more than twenty years after the amendment that lowered the voting age to 18, this amendment was the only one added to the Constitution in the 1990s. Its idea had first been proposed in 1789.",
+            "r": "For 10 points, name this amendment that stops a congressional pay raise from taking effect until after the next House election."
+        },
+        {
+            "p": "Called “Article the Second” in the list Congress sent to the states in 1789, this amendment came right after a proposal about how many people each House member should represent, which has never been ratified.",
+            "r": "For 10 points, name this amendment about congressional pay, which finally became part of the Constitution in 1992."
+        },
+        {
+            "p": "Public anger over Congress raising its own pay in the 1980s helped push dozens of state legislatures to approve this amendment, which had sat unratified for nearly two centuries. In May 1992, it reached the 38 states needed for ratification.",
+            "r": "It delays congressional pay changes until after a House election. For 10 points, name this amendment first proposed by James Madison."
+        },
+        {
+            "p": "Article I of the Constitution lets members of Congress set their own pay by law. James Madison proposed this amendment so that any change to that pay would not take effect until voters had a chance to choose a new House.",
+            "r": "It finally became part of the Constitution in 1992. For 10 points, name this amendment."
+        },
+        {
+            "p": "This amendment was one of two proposals from 1789 that were left out when ten others became the Bill of Rights in 1791. Only a handful of states had approved it by then, and it was nearly forgotten for decades.",
+            "r": "It was finally ratified in 1992. For 10 points, name this amendment about congressional pay."
+        },
+        {
+            "p": "The First Congress set its members’ pay at six dollars for each day they attended. That same year, James Madison proposed this amendment, which says that a law changing lawmakers’ pay cannot take effect until after the next election of representatives.",
+            "r": "It took about 202 years to ratify. For 10 points, name this amendment, finally ratified in 1992."
+        }
+    ],
+    "clues": [
+        {
+            "id": "pay-delay",
+            "tier": "giveaway",
+            "t": "Delays any change in congressional pay until after the next election for the House of Representatives",
+            "k": ["congressional pay", "next election"],
+            "n": 0
+        },
+        {
+            "id": "ratified-1992",
+            "tier": "giveaway",
+            "t": "Ratified in 1992, the last amendment added in the twentieth century",
+            "k": ["1992", "twentieth century"],
+            "n": 0
+        },
+        {
+            "id": "madison-1789",
+            "tier": "giveaway",
+            "t": "Proposed by James Madison in 1789, along with the amendments that became the Bill of Rights",
+            "k": ["james madison", "madison", "1789", "bill of rights"],
+            "n": 0,
+            "rabbit": "James Madison"
+        },
+        {
+            "id": "two-hundred-two-years",
+            "tier": "giveaway",
+            "t": "Took about 202 years to ratify, the longest of any amendment",
+            "k": ["202 years", "longest"],
+            "n": 0
+        },
+        {
+            "id": "watson",
+            "tier": "middle",
+            "t": "Gregory Watson, a University of Texas student, wrote a 1982 paper arguing it could still be ratified, then campaigned for it",
+            "k": ["gregory watson", "watson", "university of texas", "1982"],
+            "n": 0
+        },
+        {
+            "id": "c-grade",
+            "tier": "middle",
+            "t": "Watson’s paper earned a C grade; the university changed the grade to an A in 2017",
+            "k": ["grade", "2017"],
+            "n": 0
+        },
+        {
+            "id": "article-the-second",
+            "tier": "middle",
+            "t": "Second of the twelve amendments Congress sent to the states in 1789 (“Article the Second”)",
+            "k": ["article the second", "twelve"],
+            "n": 0
+        },
+        {
+            "id": "text",
+            "tier": "middle",
+            "t": "Text: “No law, varying the compensation for the services of the Senators and Representatives, shall take effect, until an election of Representatives shall have intervened”",
+            "k": ["varying the compensation", "compensation", "intervened"],
+            "n": 0
+        },
+        {
+            "id": "ohio-1873",
+            "tier": "middle",
+            "t": "Ohio approved it in 1873 to protest the “Salary Grab Act,” which gave Congress a raise with back pay",
+            "k": ["salary grab", "ohio", "1873"],
+            "n": 0
+        },
+        {
+            "id": "no-deadline",
+            "tier": "middle",
+            "t": "Proposed long before Congress began putting deadlines on amendments, so it never expired",
+            "k": ["deadlines", "never expired"],
+            "n": 0
+        },
+        {
+            "id": "raises-and-cuts",
+            "tier": "middle",
+            "t": "Covers pay cuts as well as raises, because it says “varying”",
+            "k": ["pay cuts", "raises", "varying"],
+            "n": 0
+        },
+        {
+            "id": "article-one",
+            "tier": "middle",
+            "t": "Article I lets Congress set its own pay by law; this change makes voters get a say first",
+            "k": ["article i", "own pay"],
+            "n": 0
+        },
+        {
+            "id": "wyoming-1978",
+            "tier": "power",
+            "t": "Wyoming approved it in 1978 to protest a congressional pay raise",
+            "k": ["wyoming", "1978"],
+            "n": 0
+        },
+        {
+            "id": "archivist",
+            "tier": "power",
+            "t": "Archivist of the United States Don W. Wilson certified it in May 1992; both houses of Congress then voted that it was valid",
+            "k": ["archivist", "don w. wilson", "may 1992"],
+            "n": 0
+        },
+        {
+            "id": "coleman",
+            "tier": "power",
+            "t": "_Coleman v. Miller_ (1939): Congress, not the courts, decides whether an amendment took too long to ratify",
+            "k": ["coleman v. miller", "coleman", "1939"],
+            "n": 0
+        },
+        {
+            "id": "dillon",
+            "tier": "power",
+            "t": "_Dillon v. Gloss_ (1921): amendments should be ratified within a “reasonable time”",
+            "k": ["dillon v. gloss", "dillon", "reasonable time"],
+            "n": 0
+        },
+        {
+            "id": "article-the-first",
+            "tier": "power",
+            "t": "“Article the First,” about how many people each House member represents, was proposed just ahead of it and never ratified",
+            "k": ["article the first", "never ratified"],
+            "n": 0
+        },
+        {
+            "id": "letters",
+            "tier": "power",
+            "t": "Watson wrote letters to state lawmakers in state after state",
+            "k": ["letters", "state lawmakers"],
+            "n": 0
+        },
+        {
+            "id": "anger-1980s",
+            "tier": "power",
+            "t": "Anger over congressional pay raises in the 1980s helped it reach 38 states, three-fourths of them, in May 1992",
+            "k": ["38 states", "three-fourths", "1980s"],
+            "n": 0
+        },
+        {
+            "id": "only-1990s",
+            "tier": "power",
+            "t": "The only amendment added in the 1990s; the one before it, the 26th (1971), lowered the voting age to 18",
+            "k": ["1990s", "26th", "voting age"],
+            "n": 0
+        },
+        {
+            "id": "left-out-1791",
+            "tier": "power",
+            "t": "One of two 1789 proposals left out when ten amendments became the Bill of Rights in 1791",
+            "k": ["left out", "1791"],
+            "n": 0,
+            "rabbit": "Bill of Rights"
+        },
+        {
+            "id": "first-amendment-third",
+            "tier": "power",
+            "t": "The proposal that became the First Amendment was third on the 1789 list, right behind it",
+            "k": ["first amendment", "third"],
+            "n": 0,
+            "rabbit": "First Amendment"
+        },
+        {
+            "id": "six-dollars",
+            "tier": "power",
+            "t": "The First Congress paid its members six dollars for each day they attended (1789)",
+            "k": ["six dollars", "each day", "first congress"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Get the number right",
+        "body": "The last few amendments blur together. The 26th Amendment (1971) lowered the voting age to 18, the 25th covers what happens if a president dies or cannot serve, the 22nd limits presidents to two terms, and the 20th moved Inauguration Day to January. Some players also say “Bill of Rights,” because this amendment was proposed in 1789 along with the first ten, but it was not ratified until 1992.",
+        "fix": "Congressional pay, Gregory Watson, a C on a college paper, 1992, and 202 years all mean the Twenty-seventh Amendment. Say the number clearly. Voting age 18 means the 26th, and two-term limits mean the 22nd.",
+        "line": "Real answer line: <b><u>Twenty-seventh Amendment</u></b> (or <u>27th</u> Amendment or Amendment <u>XXVII</u>; do not accept other numbers)"
+    },
+    "tests": {
+        "right": [
+            "27th Amendment",
+            "Twenty-seventh Amendment",
+            "the Twenty-Seventh Amendment",
+            "Amendment XXVII",
+            "27th Ammendment",
+            "Twenty-seventh Amendment to the Constitution",
+            "27 amendment"
+        ],
+        "prompt": [
+            "27th",
+            "twenty-seventh"
+        ],
+        "wrong": [
+            "26th Amendment",
+            "Twenty-sixth Amendment",
+            "17th Amendment",
+            "7th Amendment",
+            "Seventh Amendment",
+            "Amendment twenty",
+            "Twentieth Amendment",
+            "28th Amendment",
+            "Equal Rights Amendment",
+            "Bill of Rights",
+            "First Amendment"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"], "with", len(data["reject"]), "reject entries")

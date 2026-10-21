@@ -1,0 +1,436 @@
+{
+  "id": "sand",
+  "name": "Sand",
+  "mono": "SND",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Loose grains between silt and gravel in size · Mostly bits of quartz",
+  "dates": "Grain size: 1/16 to 2 mm (Wentworth scale, 1922)",
+  "briefing": "Sand is made of loose grains of rock and mineral bigger than silt but smaller than gravel, from 1/16 of a millimeter to 2 millimeters across. Most beach and desert sand is quartz, tough enough to survive after other minerals wear away, but Hawaii has black sand made of volcanic glass and Bermuda has pink sand made of tiny shells. Melt quartz sand with a few other ingredients and you get glass.",
+  "answerHtml": "<b><u>Sand</u></b> (accept <u>sands</u> or specific kinds such as beach <u>sand</u>; prompt on sediment; do not accept “quartz,” “silt,” “gravel,” or “sandstone”)",
+  "accept": [
+    "sand",
+    "sands",
+    "sand grain",
+    "sand grains",
+    "grains of sand",
+    "beach sand",
+    "desert sand",
+    "silica sand",
+    "quartz sand",
+    "singing sand"
+  ],
+  "prompt": [
+    "sediment",
+    "sediments",
+    "grains",
+    "granules"
+  ],
+  "reject": [
+    "silt",
+    "gravel",
+    "clay",
+    "soil",
+    "sandstone",
+    "quicksand",
+    "dust",
+    "mud",
+    "loess",
+    "pebbles",
+    "boulders",
+    "cobbles",
+    "glass",
+    "dune",
+    "dunes",
+    "sand dune",
+    "sand dunes",
+    "sand dollar",
+    "sand dollars",
+    "sand bar",
+    "sand bars",
+    "sandbar",
+    "sandbars"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Sand",
+  "qb": {
+    "q": "sand",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Archimedes invented a way to write enormous numbers in a work estimating how many grains of this material it would take to fill the entire universe. He arrived at a figure of about 10 to the 63rd power grains.",
+      "r": "This material’s grains are coarser than silt but finer than gravel. For 10 points, name this loose material that covers beaches and deserts."
+    },
+    {
+      "p": "In 1922, Chester Wentworth set the size range of this material’s grains at 1/16 of a millimeter to 2 millimeters across, and William Krumbein later turned that scale into simple “phi” numbers. Wentworth built on an earlier scale by Johan August Udden.",
+      "r": "Grains finer than this material are silt, and coarser ones are gravel. For 10 points, name this loose material that covers beaches and fills hourglasses."
+    },
+    {
+      "p": "Some dunes, like California’s Kelso Dunes and China’s Mingsha Shan, a ridge of dunes named for its singing, boom or hum loudly when grains of this material avalanche down their steep slopes. The effect needs dry, well-rounded, evenly sized grains.",
+      "r": "Most of this material is made of quartz. For 10 points, name this granular material that wind piles into desert dunes."
+    },
+    {
+      "p": "When lightning strikes this material, the heat can fuse it into hollow, branching tubes called fulgurites, and the 1945 Trinity atomic test in New Mexico fused it into a greenish crust called trinitite.",
+      "r": "Glassmakers melt this material, mostly silica, with soda ash and lime. For 10 points, name this granular material found on beaches and in deserts."
+    },
+    {
+      "p": "Ralph Bagnold’s 1941 book on desert dunes explained saltation, the way wind lifts grains of this material and drops them in short, bouncing hops. Bagnold had explored the deserts of Egypt and Libya by car in the 1920s and 1930s.",
+      "r": "Wind piles this material into crescent-shaped dunes called barchans. For 10 points, name this loose material whose grains are between 1/16 and 2 millimeters across."
+    },
+    {
+      "p": "Wind-blown grains of this material make poor concrete, because the wind has rounded and polished them so smooth that they do not lock together well. Some countries covered in dunes even import this material from overseas for construction.",
+      "r": "Builders mix this material with gravel, water, and cement to make concrete. For 10 points, name this granular material found on beaches."
+    },
+    {
+      "p": "Parrotfish grind up coral as they feed, and the crushed coral they leave behind makes up much of the white form of this material on tropical islands. Bermuda’s pink shores get their color from the shells of tiny red foraminifera [“fuh-ram-uh-NIF-er-uh”].",
+      "r": "On most other beaches, this material is mostly quartz. For 10 points, name this loose, grainy material that also forms desert dunes."
+    },
+    {
+      "p": "The shore at Hawaii’s Papakōlea [“pah-pah-koh-LAY-ah”] is green because its grains are olivine crystals, while black shores elsewhere in Hawaii formed when hot lava shattered into tiny bits of glass as it hit the sea.",
+      "r": "This material’s grains are coarser than silt but finer than gravel. For 10 points, name this granular material that covers beaches and fills hourglasses."
+    },
+    {
+      "p": "Arabia’s Rub’ al Khali, or Empty Quarter, is the largest continuous sea of this material on Earth, a kind of desert called an erg. Most of the Sahara, by contrast, is bare rock and gravel.",
+      "r": "Wind piles this material into dunes. For 10 points, name this loose material made mostly of quartz grains."
+    },
+    {
+      "p": "Dunes of this material in Namibia’s Namib Desert are among the tallest in the world, and a thin coating of iron oxide on each grain gives them their red-orange color. The famous red dunes around Sossusvlei, a dry clay pan, draw many visitors.",
+      "r": "Glass is made by melting this material. For 10 points, name this granular material found on beaches and in deserts."
+    },
+    {
+      "p": "William Blake’s poem “Auguries of Innocence” opens by asking readers to see a world in a single grain of this material and a heaven in a wild flower. Its next lines tell readers to hold infinity in the palm of their hand.",
+      "r": "Hourglasses measure time with falling grains of this material. For 10 points, name this loose, granular material that covers beaches."
+    },
+    {
+      "p": "When granite weathers, its feldspar breaks down into clay, but its toughest mineral grains survive, wash downstream, and pile up as this material. Grains carried far by rivers or wind become well rounded and evenly sized, or “well sorted.”",
+      "r": "Cemented grains of this material form a common sedimentary rock. For 10 points, name this material whose grains are between silt and gravel in size."
+    },
+    {
+      "p": "The Navajo formation of Utah and Arizona preserves giant ancient dunes made of this material, whose slanting layers, called cross-beds, show which way the wind blew. The rose-red city of Petra in Jordan was carved into cliffs of rock made from it.",
+      "r": "Wind and waves pile this material into dunes and beaches. For 10 points, name this loose, grainy material made mostly of quartz."
+    },
+    {
+      "p": "Longshore drift carries this material along a coastline in a zigzag path, building long spits and barrier islands, and engineers build walls called groins to trap it. In winter, big storm waves often pull it offshore.",
+      "r": "This material covers most beaches and many deserts. For 10 points, name this loose material whose grains are coarser than silt but finer than gravel."
+    },
+    {
+      "p": "Its grains are coarser than silt but finer than gravel, and builders mix it with gravel and cement to make concrete. Over time, its grains can be cemented together into a common sedimentary rock.",
+      "r": "Wind piles it into dunes, and glassmakers melt it down. For 10 points, name this granular material, mostly made of quartz, that covers beaches."
+    }
+  ],
+  "clues": [
+    {
+      "id": "beaches-deserts",
+      "tier": "giveaway",
+      "t": "Loose, grainy material covering beaches and parts of deserts",
+      "k": [
+        "beaches",
+        "deserts",
+        "grainy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glass",
+      "tier": "giveaway",
+      "t": "Glass is made by melting it (mostly silica) with soda ash and lime",
+      "k": [
+        "glass",
+        "soda ash",
+        "silica"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hourglass",
+      "tier": "giveaway",
+      "t": "Hourglasses measure time with its falling grains",
+      "k": [
+        "hourglasses",
+        "falling grains"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quartz",
+      "tier": "giveaway",
+      "t": "Most of it is grains of quartz, the tough mineral that survives weathering",
+      "k": [
+        "quartz",
+        "weathering"
+      ],
+      "n": 0,
+      "rabbit": "Quartz"
+    },
+    {
+      "id": "wentworth",
+      "tier": "middle",
+      "t": "Wentworth scale (1922): grains 1/16 mm to 2 mm across, coarser than silt and finer than gravel",
+      "k": [
+        "wentworth",
+        "silt",
+        "gravel",
+        "1/16"
+      ],
+      "n": 0
+    },
+    {
+      "id": "concrete",
+      "tier": "middle",
+      "t": "Mixed with gravel, cement, and water to make concrete",
+      "k": [
+        "concrete",
+        "cement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cemented-rock",
+      "tier": "middle",
+      "t": "Its grains cemented together make a sedimentary rock, as in Utah’s Navajo formation and Petra’s carved cliffs",
+      "k": [
+        "cemented",
+        "navajo",
+        "petra"
+      ],
+      "n": 0,
+      "rabbit": "Sedimentary rocks"
+    },
+    {
+      "id": "black-hawaii",
+      "tier": "middle",
+      "t": "Hawaii has black kinds made of volcanic glass that shattered when lava hit the sea",
+      "k": [
+        "black",
+        "hawaii",
+        "volcanic glass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dunes-barchans",
+      "tier": "middle",
+      "t": "Wind piles it into dunes, such as crescent-shaped barchans",
+      "k": [
+        "dunes",
+        "barchans",
+        "crescent"
+      ],
+      "n": 0,
+      "rabbit": "Deserts"
+    },
+    {
+      "id": "longshore",
+      "tier": "middle",
+      "t": "Longshore drift carries it along coasts to build spits and barrier islands; groins trap it",
+      "k": [
+        "longshore drift",
+        "spits",
+        "barrier islands",
+        "groins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "granite-weathering",
+      "tier": "middle",
+      "t": "When granite weathers, feldspar becomes clay, but the toughest grains survive as this material",
+      "k": [
+        "granite",
+        "feldspar",
+        "clay"
+      ],
+      "n": 0,
+      "rabbit": "Granite"
+    },
+    {
+      "id": "rounded-sorted",
+      "tier": "middle",
+      "t": "Grains carried far by wind or water become well rounded and well sorted",
+      "k": [
+        "well rounded",
+        "well sorted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "archimedes",
+      "tier": "power",
+      "t": "Archimedes estimated that about 10 to the 63rd power of its grains would fill the universe",
+      "k": [
+        "archimedes",
+        "universe",
+        "63rd"
+      ],
+      "n": 0
+    },
+    {
+      "id": "krumbein-udden",
+      "tier": "power",
+      "t": "Wentworth built on Johan August Udden’s scale; William Krumbein turned grain sizes into “phi” numbers",
+      "k": [
+        "krumbein",
+        "udden",
+        "phi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "singing",
+      "tier": "power",
+      "t": "“Singing” or booming dunes, like California’s Kelso Dunes and China’s Mingsha Shan, hum when grains avalanche",
+      "k": [
+        "singing",
+        "booming",
+        "kelso",
+        "mingsha shan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fulgurites",
+      "tier": "power",
+      "t": "Lightning fuses it into hollow, branching tubes called fulgurites",
+      "k": [
+        "fulgurites",
+        "lightning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trinitite",
+      "tier": "power",
+      "t": "The 1945 Trinity atomic test fused it into a greenish crust called trinitite",
+      "k": [
+        "trinitite",
+        "trinity",
+        "1945"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bagnold",
+      "tier": "power",
+      "t": "Ralph Bagnold’s 1941 book explained saltation, the short hops of wind-blown grains; he had explored Egypt’s and Libya’s deserts by car",
+      "k": [
+        "bagnold",
+        "saltation",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "desert-concrete",
+      "tier": "power",
+      "t": "Wind-polished desert grains are too smooth and round to make good concrete",
+      "k": [
+        "too smooth",
+        "wind-polished"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parrotfish",
+      "tier": "power",
+      "t": "Parrotfish grind coral into white grains; Bermuda’s pink beaches come from red foraminifera shells",
+      "k": [
+        "parrotfish",
+        "bermuda",
+        "foraminifera"
+      ],
+      "n": 0
+    },
+    {
+      "id": "olivine-green",
+      "tier": "power",
+      "t": "Hawaii’s Papakōlea Beach is green from olivine crystals",
+      "k": [
+        "papakōlea",
+        "papakolea",
+        "olivine",
+        "green"
+      ],
+      "n": 0,
+      "rabbit": "Olivine"
+    },
+    {
+      "id": "erg",
+      "tier": "power",
+      "t": "Arabia’s Rub’ al Khali (Empty Quarter) is the largest erg, or sea of it; most of the Sahara is rock and gravel instead",
+      "k": [
+        "rub’ al khali",
+        "empty quarter",
+        "erg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "namib",
+      "tier": "power",
+      "t": "Namibia’s Namib dunes, among the world’s tallest, are colored red-orange by iron oxide coatings",
+      "k": [
+        "namib",
+        "iron oxide",
+        "red-orange"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blake",
+      "tier": "power",
+      "t": "William Blake’s “Auguries of Innocence” asks readers to see a world in one of its grains",
+      "k": [
+        "blake",
+        "auguries of innocence",
+        "world"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ooids",
+      "tier": "power",
+      "t": "In the Bahamas, tiny round ooids of aragonite grow layer by layer to form a white kind",
+      "k": [
+        "ooids",
+        "bahamas",
+        "aragonite"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Sand, not quartz",
+    "body": "Sand tossups describe what its grains are made of, especially quartz, so players buzz with “quartz,” which names the mineral, not the loose material. Others answer with a neighboring grain size: silt is finer, and gravel is coarser. Sandstone, the rock made of cemented grains, and dunes, the hills that wind builds from it, are different answers too.",
+    "fix": "Listen for “this material” plus a grain size of 1/16 to 2 millimeters, beaches, dunes, hourglasses, or glassmaking, and answer sand. Six-sided crystals, piezoelectricity, and a Mohs hardness of 7 mean quartz. Saying only “sediment” earns a prompt.",
+    "line": "Real answer line: <b><u>Sand</u></b> (prompt on sediment; do not accept “quartz,” “silt,” or “sandstone”)"
+  },
+  "tests": {
+    "right": [
+      "Sand",
+      "sands",
+      "Beach sand",
+      "Sandz",
+      "Quartz sand",
+      "Grains of sand",
+      "Black sand"
+    ],
+    "prompt": [
+      "Sediment"
+    ],
+    "wrong": [
+      "Quartz",
+      "Silt",
+      "Gravel",
+      "Sandstone",
+      "Sand dunes",
+      "Soil"
+    ]
+  }
+}

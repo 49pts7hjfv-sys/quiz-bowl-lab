@@ -145,7 +145,7 @@
       "r": "For 10 points, name these arrangements of objects in which order matters, counted by n factorial."
     },
     {
-      "p": "All of these objects for a set of n things together form the symmetric group. Every combination of r objects corresponds to r factorial of these objects, which is why there are always more of these than combinations.",
+      "p": "All of these objects for a set of n things together form the symmetric group. Each combination of r objects matches r factorial of these objects, so there are r factorial times as many of these as there are combinations.",
       "r": "The number of them for n objects is n factorial. For 10 points, name these arrangements in which order matters."
     }
   ],
@@ -172,23 +172,23 @@
       "rabbit": "Factorial"
     },
     {
-      "id": "npr",
-      "tier": "giveaway",
-      "t": "Choosing r of n objects in order gives n!/(n − r)! of them: gold, silver, and bronze among 8 runners gives 8 × 7 × 6 = 336",
-      "k": [
-        "in order",
-        "336",
-        "runners"
-      ],
-      "n": 0
-    },
-    {
       "id": "vs-combinations",
       "tier": "giveaway",
       "t": "Combinations ignore order: each combination of r objects matches r! of these, so nCr = nPr ÷ r!",
       "k": [
         "combinations",
         "ignore order"
+      ],
+      "n": 0
+    },
+    {
+      "id": "npr",
+      "tier": "middle",
+      "t": "Choosing r of n objects in order gives n!/(n − r)! of them: gold, silver, and bronze among 8 runners gives 8 × 7 × 6 = 336",
+      "k": [
+        "in order",
+        "336",
+        "runners"
       ],
       "n": 0
     },
@@ -289,7 +289,7 @@
     },
     {
       "id": "dictionary-order",
-      "tier": "middle",
+      "tier": "power",
       "t": "In dictionary (lexicographic) order, the ones of 1, 2, 3 are 123, 132, 213, 231, 312, 321",
       "k": [
         "dictionary",

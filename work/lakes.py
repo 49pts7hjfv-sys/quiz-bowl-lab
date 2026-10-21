@@ -1,0 +1,423 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "lakes",
+    "name": "Lakes",
+    "mono": "LK",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Inland bodies of standing water · Studied in the science of limnology",
+    "dates": "Oldest and deepest: Russia’s Baikal",
+    "briefing": "A lake is a body of standing water surrounded by land, filling a low spot carved by glaciers, cracked open by moving plates, or left in a volcano’s crater. Russia’s Lake Baikal is the deepest and oldest, Lake Superior covers more area than any other freshwater lake, and the salty Caspian Sea is the largest lake of all. Scientists who study lakes are called limnologists.",
+    "answerHtml": "<b><u>Lakes</u></b> (accept <u>lake</u>; accept specific kinds such as oxbow, crater, glacial, or rift <u>lakes</u>; prompt on reservoirs; do not accept “ponds” or the name of a single lake)",
+    "accept": [
+        "lakes",
+        "lake",
+        "oxbow lake",
+        "oxbow lakes",
+        "crater lake",
+        "crater lakes",
+        "caldera lake",
+        "caldera lakes",
+        "rift lake",
+        "rift lakes",
+        "glacial lake",
+        "glacial lakes",
+        "kettle lake",
+        "kettle lakes",
+        "freshwater lake",
+        "freshwater lakes",
+        "fresh water lakes",
+        "salt lake",
+        "salt lakes",
+        "saline lake",
+        "saline lakes",
+        "artificial lake",
+        "artificial lakes"
+    ],
+    "prompt": [
+        "reservoir",
+        "reservoirs",
+        "oxbow",
+        "oxbows",
+        "tarn",
+        "tarns",
+        "kettle",
+        "kettles",
+        "kettle hole",
+        "kettle holes",
+        "loch",
+        "lochs",
+        "inland sea",
+        "inland seas",
+        "body of water",
+        "bodies of water",
+        "standing water"
+    ],
+    "reject": [
+        "pond",
+        "ponds",
+        "river",
+        "rivers",
+        "stream",
+        "streams",
+        "ocean",
+        "oceans",
+        "sea",
+        "seas",
+        "lagoon",
+        "lagoons",
+        "bay",
+        "bays",
+        "marsh",
+        "marshes",
+        "swamp",
+        "swamps",
+        "wetland",
+        "wetlands",
+        "glacier",
+        "glaciers",
+        "aquifer",
+        "aquifers",
+        "limnology",
+        "great lakes",
+        "lake superior",
+        "lake michigan",
+        "lake huron",
+        "lake erie",
+        "lake ontario",
+        "lake baikal",
+        "lake victoria",
+        "lake tanganyika",
+        "lake malawi",
+        "lake titicaca",
+        "lake geneva",
+        "lake tahoe",
+        "lake nyos",
+        "lake vostok",
+        "lake bonneville",
+        "lake agassiz",
+        "great salt lake",
+        "salt lake city",
+        "lake okeechobee",
+        "lake chad",
+        "lake mead",
+        "loch ness",
+        "caspian sea",
+        "dead sea",
+        "aral sea"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Lake",
+    "qb": {
+        "q": "lakes",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "François-Alphonse Forel [“fuh-REL”], who spent decades studying the waters of Geneva near his Swiss hometown, founded limnology, the science of these bodies of water. Forel also explained seiches [“SAYSH-iz”], the rocking standing waves that slosh back and forth across them.",
+            "r": "Russia’s Baikal is the deepest of them. For 10 points, name these inland bodies of standing water, such as Superior and Titicaca."
+        },
+        {
+            "p": "Scientists lower a black-and-white Secchi [“SEK-ee”] disk into one of these bodies of water to measure how clear it is. The shallow edge of one, where rooted plants grow, is its littoral zone, while its deep, dark bottom water is the profundal zone.",
+            "r": "Cold air crossing these bodies of water can dump heavy snow on cities downwind, like Buffalo. For 10 points, name these inland bodies of standing water, such as Superior and Victoria."
+        },
+        {
+            "p": "In summer, many of these bodies of water split into a warm upper layer called the epilimnion [“ep-ih-LIM-nee-on”] and a cold lower hypolimnion [“hy-poh-LIM-nee-on”], separated by a thermocline. In spring and fall, their layers mix in an event called turnover.",
+            "r": "Because water is densest at about 4 °C, ice forms on their surfaces first. For 10 points, name these bodies of standing water, such as Superior and Baikal."
+        },
+        {
+            "p": "In the 1960s, one of these bodies of water became so choked with algae, fed by phosphates from detergents and fertilizer, that newspapers declared it “dead,” a famous case of eutrophication. Rotting algae used up the oxygen in its deep water, leaving zones where fish could not live.",
+            "r": "That body of water, Erie, is one of five connected giants in North America, along with Superior and Michigan. For 10 points, name these inland bodies of standing water."
+        },
+        {
+            "p": "In 1986, a huge cloud of carbon dioxide burst out of Cameroon’s Nyos, one of these bodies of water, in a rare event called a limnic eruption, killing about 1,700 people nearby. Pipes were later installed to release the gas safely from its depths.",
+            "r": "Most of these bodies of water hold fresh water. For 10 points, name these inland bodies of standing water, such as Baikal and Superior."
+        },
+        {
+            "p": "In 2012, Russian drillers reached Vostok, the largest of many bodies of water hidden beneath Antarctica’s ice sheet, after boring through nearly 4 kilometers of ice. Scientists hope its dark, cold water may hold microbes sealed off for a very long time.",
+            "r": "Russia also has Baikal, the deepest of these bodies of water. For 10 points, name these inland bodies of standing water."
+        },
+        {
+            "p": "The nerpa, one of the few seals that live only in fresh water, swims in one of these bodies of water in Siberia, which holds about a fifth of the world’s unfrozen surface fresh water. It sits in a rift valley where the crust is slowly pulling apart.",
+            "r": "That body of water, Baikal, is the oldest and deepest of its kind. For 10 points, name these inland bodies of standing water, which also include Superior."
+        },
+        {
+            "p": "About 7,700 years ago, Mount Mazama in Oregon erupted and collapsed into a caldera that slowly filled with rain and snowmelt, forming the deepest of these bodies of water in the United States. No rivers flow into or out of it.",
+            "r": "That one is named for the crater-like bowl it fills. For 10 points, name these bodies of standing water, which also include oxbow and glacial types."
+        },
+        {
+            "p": "During the last ice age, Bonneville, a huge body of water covering much of western Utah, burst through Red Rock Pass in Idaho and sent a giant flood roaring down the Snake River. Its salty leftovers still lie in northern Utah.",
+            "r": "Ones with no outlet, like the Dead Sea, turn salty as their water evaporates. For 10 points, name these inland bodies of standing water."
+        },
+        {
+            "p": "As North America’s great ice sheets melted, they left behind Agassiz, a gigantic body of meltwater named for Louis Agassiz. Glacial bodies of water like it collected thin yearly layers of sediment called varves, which scientists count like tree rings.",
+            "r": "Retreating glaciers also carved out the basins of Superior and Michigan. For 10 points, name these bodies of standing water, which include kettle and oxbow types."
+        },
+        {
+            "p": "The Uros people live on floating islands made of totora [“toh-TOR-uh”] reeds in one of these bodies of water, which sits about 3,800 meters above sea level on the border of Peru and Bolivia. In Inca legend, the founders of their empire rose from its waters.",
+            "r": "That body of water, Titicaca, is often called the highest navigable one in the world. For 10 points, name these inland bodies of standing water, the deepest of which is Baikal."
+        },
+        {
+            "p": "In 1858, John Hanning Speke reached the largest of these bodies of water in Africa and named it for his queen, correctly guessing that it was the main source of the White Nile. His former traveling partner, the explorer Richard Burton, refused to accept that claim.",
+            "r": "Tanganyika and Malawi are long, deep examples of these bodies of water in Africa’s Great Rift Valley. For 10 points, name these inland bodies of standing water."
+        },
+        {
+            "p": "Gordon Lightfoot wrote a hit song about the freighter _Edmund Fitzgerald_, which sank during a November storm in 1975 while carrying iron ore across one of these bodies of water. The ship’s bell was later raised from the wreck and placed in a museum.",
+            "r": "That body of water, Superior, has the largest surface area of any freshwater one. For 10 points, name these inland bodies of standing water, whose deepest example is Russia’s Baikal."
+        },
+        {
+            "p": "Soviet irrigation projects diverted the Amu Darya and Syr Darya rivers to grow cotton, causing the Aral Sea, once one of the largest of these bodies of water, to shrink to a small fraction of its former size.",
+            "r": "The Caspian Sea, bordered by five countries including Russia and Iran, is the largest of these bodies of water. For 10 points, name these inland bodies of standing water."
+        },
+        {
+            "p": "These bodies of water can form when a winding river cuts off one of its loops, when a glacier gouges out a basin, or when rain fills a volcano’s crater. Ponds are usually smaller and shallow enough for sunlight to reach the bottom everywhere.",
+            "r": "For 10 points, name these inland bodies of standing water, such as Superior, Victoria, and Baikal."
+        }
+    ],
+    "clues": [
+        {
+            "id": "standing-water",
+            "tier": "giveaway",
+            "t": "Inland bodies of standing water surrounded by land",
+            "k": ["standing water", "inland", "surrounded by land"],
+            "n": 0
+        },
+        {
+            "id": "baikal",
+            "tier": "giveaway",
+            "t": "Russia’s Baikal, in Siberia, is the deepest and oldest, and holds the most fresh water",
+            "k": ["baikal", "deepest", "oldest", "siberia"],
+            "n": 0
+        },
+        {
+            "id": "superior",
+            "tier": "giveaway",
+            "t": "Superior is the largest freshwater one by surface area",
+            "k": ["superior", "surface area"],
+            "n": 0
+        },
+        {
+            "id": "caspian",
+            "tier": "giveaway",
+            "t": "The salty Caspian Sea is the largest of all by area",
+            "k": ["caspian sea", "largest"],
+            "n": 0
+        },
+        {
+            "id": "types",
+            "tier": "giveaway",
+            "t": "Kinds include oxbow, crater, glacial, and rift types",
+            "k": ["oxbow", "crater", "glacial", "rift"],
+            "n": 0
+        },
+        {
+            "id": "oxbow",
+            "tier": "middle",
+            "t": "Oxbow types form when a winding river cuts off one of its loops, or meanders",
+            "k": ["oxbow", "meanders", "loops"],
+            "n": 0,
+            "rabbit": "Rivers"
+        },
+        {
+            "id": "crater-mazama",
+            "tier": "middle",
+            "t": "Oregon’s deepest one fills the caldera of Mount Mazama, which collapsed about 7,700 years ago; no rivers flow in or out",
+            "k": ["mazama", "caldera", "oregon", "7,700"],
+            "n": 0,
+            "rabbit": "Volcanoes"
+        },
+        {
+            "id": "glacial-basins",
+            "tier": "middle",
+            "t": "Retreating glaciers carved the basins of Superior, Michigan, Huron, Erie, and Ontario",
+            "k": ["glaciers", "basins", "michigan", "erie"],
+            "n": 0,
+            "rabbit": "Glaciers"
+        },
+        {
+            "id": "eutrophication",
+            "tier": "middle",
+            "t": "Eutrophication: nutrient runoff feeds algae that use up the oxygen, as in Erie in the 1960s",
+            "k": ["eutrophication", "algae", "nutrient", "erie"],
+            "n": 0
+        },
+        {
+            "id": "no-outlet",
+            "tier": "middle",
+            "t": "Ones with no outlet, like the Dead Sea, turn salty as their water evaporates",
+            "k": ["no outlet", "dead sea", "evaporates", "salty"],
+            "n": 0,
+            "rabbit": "Salinity"
+        },
+        {
+            "id": "stratification",
+            "tier": "middle",
+            "t": "In summer, a warm epilimnion sits over a cold hypolimnion, split by a thermocline; spring and fall turnover mixes them",
+            "k": ["epilimnion", "hypolimnion", "thermocline", "turnover"],
+            "n": 0
+        },
+        {
+            "id": "ice-on-top",
+            "tier": "middle",
+            "t": "Water is densest at about 4 °C, so ice forms on top and life survives below",
+            "k": ["densest", "ice forms"],
+            "n": 0
+        },
+        {
+            "id": "titicaca",
+            "tier": "middle",
+            "t": "Titicaca, on the Peru–Bolivia border at about 3,800 m, has floating reed islands built by the Uros people",
+            "k": ["titicaca", "uros", "bolivia", "reed"],
+            "n": 0
+        },
+        {
+            "id": "victoria",
+            "tier": "middle",
+            "t": "Victoria, Africa’s largest, is the main source of the White Nile; John Hanning Speke named it in 1858",
+            "k": ["victoria", "white nile", "speke"],
+            "n": 0
+        },
+        {
+            "id": "snow",
+            "tier": "middle",
+            "t": "Cold air crossing their open water can dump heavy snow on cities downwind, like Buffalo",
+            "k": ["heavy snow", "buffalo", "downwind"],
+            "n": 0
+        },
+        {
+            "id": "ponds",
+            "tier": "middle",
+            "t": "Ponds are usually smaller and shallow enough for sunlight to reach the bottom everywhere",
+            "k": ["ponds", "sunlight", "shallow"],
+            "n": 0
+        },
+        {
+            "id": "forel",
+            "tier": "power",
+            "t": "François-Alphonse Forel founded limnology, their science, by studying the waters of Geneva",
+            "k": ["forel", "limnology", "geneva"],
+            "n": 0
+        },
+        {
+            "id": "seiches",
+            "tier": "power",
+            "t": "Seiches are rocking standing waves that slosh back and forth across them",
+            "k": ["seiches", "standing waves"],
+            "n": 0
+        },
+        {
+            "id": "secchi",
+            "tier": "power",
+            "t": "A Secchi disk measures their clarity; zones run from the shallow littoral to the dark, deep profundal",
+            "k": ["secchi disk", "littoral", "profundal"],
+            "n": 0
+        },
+        {
+            "id": "nyos",
+            "tier": "power",
+            "t": "In 1986, Cameroon’s Nyos released a cloud of carbon dioxide in a limnic eruption that killed about 1,700 people",
+            "k": ["nyos", "cameroon", "limnic eruption", "carbon dioxide"],
+            "n": 0
+        },
+        {
+            "id": "vostok",
+            "tier": "power",
+            "t": "Vostok is the largest one hidden under Antarctica’s ice; Russian drillers reached it in 2012",
+            "k": ["vostok", "antarctica", "2012"],
+            "n": 0
+        },
+        {
+            "id": "nerpa",
+            "tier": "power",
+            "t": "Baikal’s nerpa is one of the few seals that live only in fresh water; Baikal holds about a fifth of the world’s unfrozen surface fresh water",
+            "k": ["nerpa", "seals", "a fifth"],
+            "n": 0
+        },
+        {
+            "id": "bonneville",
+            "tier": "power",
+            "t": "Ice-age Bonneville covered much of western Utah and burst through Red Rock Pass in Idaho in a giant flood",
+            "k": ["bonneville", "red rock pass", "utah"],
+            "n": 0
+        },
+        {
+            "id": "agassiz-varves",
+            "tier": "power",
+            "t": "Melting ice sheets left the giant Agassiz; glacial ones collect yearly layers of sediment called varves",
+            "k": ["agassiz", "varves"],
+            "n": 0
+        },
+        {
+            "id": "fitzgerald",
+            "tier": "power",
+            "t": "The freighter _Edmund Fitzgerald_ sank on Superior in 1975, inspiring a Gordon Lightfoot song",
+            "k": ["edmund fitzgerald", "lightfoot", "1975"],
+            "n": 0
+        },
+        {
+            "id": "aral",
+            "tier": "power",
+            "t": "Soviet irrigation from the Amu Darya and Syr Darya rivers made the Aral Sea shrink",
+            "k": ["aral sea", "amu darya", "syr darya", "irrigation"],
+            "n": 0
+        },
+        {
+            "id": "inca",
+            "tier": "power",
+            "t": "Inca legend says the founders of their empire rose from Titicaca’s waters",
+            "k": ["inca", "legend", "founders"],
+            "n": 0
+        },
+        {
+            "id": "burton",
+            "tier": "power",
+            "t": "The explorer Richard Burton refused to accept Speke’s claim that Victoria was the source of the Nile",
+            "k": ["richard burton", "burton", "nile"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Category, not one example",
+        "body": "Lake tossups love to name famous examples, like Baikal, Superior, Titicaca, and the Caspian Sea, so players blurt out one name, which is wrong when the question wants the whole category. Neighboring answers trip players up too: ponds are smaller and shallow enough for sunlight to reach the bottom, and rivers flow while lakes stand still.",
+        "fix": "Listen for “these bodies of water” or “these features” and answer lakes. Naming a kind, like oxbow lakes or crater lakes, is fine. If the tossup says “this lake” and its clues all point to one place, it wants that specific lake instead.",
+        "line": "Real answer line: <b><u>Lakes</u></b> (accept <u>lake</u> or specific kinds such as oxbow lakes; do not accept the name of one specific lake)"
+    },
+    "tests": {
+        "right": [
+            "Lakes",
+            "lake",
+            "Oxbow lakes",
+            "Crater lake",
+            "Lakess",
+            "Glacial lakes"
+        ],
+        "prompt": [
+            "Reservoirs",
+            "Oxbows",
+            "Tarns"
+        ],
+        "wrong": [
+            "Ponds",
+            "Rivers",
+            "Great Lakes",
+            "Lake Superior",
+            "Caspian Sea",
+            "Lake Baikal"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

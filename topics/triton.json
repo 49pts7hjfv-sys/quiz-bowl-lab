@@ -1,0 +1,377 @@
+{
+  "id": "triton",
+  "name": "Triton",
+  "mono": "TRT",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Neptune’s largest moon · Orbits backward and sprays nitrogen geysers",
+  "dates": "Discovered October 10, 1846",
+  "briefing": "Triton, Neptune’s largest moon, does something no other big moon does: it orbits backward, opposite to the way its planet spins. That strange orbit suggests that Neptune captured it from the Kuiper belt long ago. When Voyager 2 flew past in 1989, it found one of the coldest surfaces in the solar system, a pinkish landscape where geysers shoot nitrogen gas several kilometers high.",
+  "answerHtml": "<b><u>Triton</u></b> (do not accept “Titan,” “Titania,” “Nereid,” or “Neptune”)",
+  "accept": [
+    "triton"
+  ],
+  "prompt": [],
+  "reject": [
+    "nereid",
+    "proteus",
+    "titania",
+    "charon",
+    "pluto",
+    "poseidon",
+    "trident",
+    "neptunium"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Triton_(moon)",
+  "qb": {
+    "q": "Triton",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The discoverer of this moon later found two moons of Uranus, Ariel and Umbriel. That discoverer, William Lassell, an English brewer who built his own telescopes, found this moon just 17 days after its planet was found in 1846.",
+      "r": "For 10 points, name this largest moon of Neptune, which orbits backward."
+    },
+    {
+      "p": "A large region of this moon is covered in dimpled, wrinkled ground nicknamed “cantaloupe terrain” because it looks like the skin of a melon. This moon has very few craters, which shows that its surface is geologically young.",
+      "r": "For 10 points, name this largest moon of Neptune, which Voyager 2 photographed in 1989."
+    },
+    {
+      "p": "In 1989, Voyager 2 spotted dark plumes rising up to about 8 kilometers above this moon’s icy surface, where geysers shoot out nitrogen gas carrying dark dust. Winds in this moon’s thin atmosphere smear that dust into long streaks.",
+      "r": "For 10 points, name this moon of Neptune, which orbits in the opposite direction from its planet’s spin."
+    },
+    {
+      "p": "Tides from its planet are slowly shrinking this moon’s orbit, so billions of years from now it may be torn apart into a ring or crash into its planet. That fate comes from the unusual direction of this moon’s orbit.",
+      "r": "It orbits opposite to its planet’s spin. For 10 points, name this backward-orbiting largest moon of Neptune."
+    },
+    {
+      "p": "One idea says this moon was once half of a pair of icy bodies that broke up when it swung close to its planet, which then captured it. That capture may have disturbed the planet’s other moons, flinging Nereid into a stretched-out orbit.",
+      "r": "It probably came from the Kuiper belt. For 10 points, name this largest moon of Neptune, which orbits backward."
+    },
+    {
+      "p": "Voyager 2 measured this moon’s surface at about minus 235 degrees Celsius, one of the coldest temperatures ever measured in the solar system. Its surface is mostly frozen nitrogen, with water ice and frozen carbon dioxide.",
+      "r": "For 10 points, name this largest moon of Neptune, discovered by William Lassell."
+    },
+    {
+      "p": "This moon is somewhat larger than Pluto, and the two worlds have similar densities and nitrogen-rich icy surfaces, which suggests that they formed in the same region of space. It is the seventh-largest moon in the solar system.",
+      "r": "For 10 points, name this moon of Neptune, which may be a captured Kuiper belt object."
+    },
+    {
+      "p": "Camille Flammarion suggested this moon’s name in 1880, borrowing it from a sea god who blew a conch shell to calm or stir up the waves.",
+      "r": "In Greek myth, that merman was a son of Poseidon. For 10 points, name this largest moon of Neptune."
+    },
+    {
+      "p": "This world’s large southern polar cap of nitrogen ice looks pinkish and is streaked with dark material blown out by geysers. Beneath its icy crust, this world is thought to have a large rocky core.",
+      "r": "Voyager 2 photographed it in August 1989, near the end of its grand tour. For 10 points, name this largest moon of Neptune."
+    },
+    {
+      "p": "Some scientists think an ocean of liquid water may lie hidden beneath this moon’s icy crust, which would make it a target in the search for life. This moon also has a very thin atmosphere of nitrogen.",
+      "r": "For 10 points, name this largest moon of Neptune, which orbits in a retrograde direction."
+    },
+    {
+      "p": "This moon holds more than 99 percent of the mass of everything orbiting its planet, and it is the only one of that planet’s moons big enough to have pulled itself into a round shape.",
+      "r": "Voyager 2 photographed it in 1989. For 10 points, name this largest moon of Neptune."
+    },
+    {
+      "p": "This moon always keeps the same face toward its planet and takes about six days to complete each orbit, which is steeply tilted compared with its planet’s equator.",
+      "r": "Its orbit runs backward. For 10 points, name this moon of Neptune, found by William Lassell in 1846."
+    },
+    {
+      "p": "The amateur astronomer who discovered this moon had made his fortune brewing beer in Liverpool, and he later moved a large telescope to the island of Malta to escape cloudy English skies.",
+      "r": "That astronomer, William Lassell, found it in 1846. For 10 points, name this largest moon of Neptune."
+    },
+    {
+      "p": "Along with Saturn’s moon Enceladus, this moon is one of the few icy worlds where spacecraft have seen active eruptions, a kind of activity called cryovolcanism. Its geysers may be powered by weak sunlight warming nitrogen ice from below, like a greenhouse.",
+      "r": "For 10 points, name this moon of Neptune where Voyager 2 spotted nitrogen geysers."
+    },
+    {
+      "p": "For about a century after its discovery, this moon was usually just called “the satellite of Neptune,” because it was that planet’s only known moon until Gerard Kuiper found Nereid in 1949.",
+      "r": "For 10 points, name this largest moon of Neptune, which has a retrograde orbit."
+    }
+  ],
+  "clues": [
+    {
+      "id": "largest-moon",
+      "tier": "giveaway",
+      "t": "The largest moon of Neptune, the eighth planet",
+      "k": [
+        "largest moon",
+        "neptune"
+      ],
+      "n": 0,
+      "rabbit": "Neptune"
+    },
+    {
+      "id": "retrograde",
+      "tier": "giveaway",
+      "t": "Orbits backward (retrograde), opposite to its planet’s spin: the only large moon in the solar system that does",
+      "k": [
+        "retrograde",
+        "backward"
+      ],
+      "n": 0
+    },
+    {
+      "id": "voyager-1989",
+      "tier": "giveaway",
+      "t": "Voyager 2 photographed it in August 1989, just after passing Neptune",
+      "k": [
+        "voyager 2",
+        "1989"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poseidon-son",
+      "tier": "giveaway",
+      "t": "Named for a sea god, the merman son of Poseidon (whose Roman name is Neptune)",
+      "k": [
+        "poseidon",
+        "sea god",
+        "merman"
+      ],
+      "n": 0,
+      "rabbit": "Poseidon"
+    },
+    {
+      "id": "geysers",
+      "tier": "middle",
+      "t": "Voyager 2 saw geysers shooting nitrogen gas; winds in its thin atmosphere smear their dust into dark streaks",
+      "k": [
+        "geysers",
+        "nitrogen gas",
+        "dark streaks"
+      ],
+      "n": 0,
+      "rabbit": "Nitrogen"
+    },
+    {
+      "id": "captured",
+      "tier": "middle",
+      "t": "Probably a captured Kuiper belt object, which explains its backward orbit",
+      "k": [
+        "captured",
+        "kuiper belt"
+      ],
+      "n": 0,
+      "rabbit": "Kuiper Belt"
+    },
+    {
+      "id": "lassell",
+      "tier": "middle",
+      "t": "Discovered by William Lassell in 1846, just 17 days after Neptune itself was found",
+      "k": [
+        "lassell",
+        "17 days",
+        "1846"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coldest",
+      "tier": "middle",
+      "t": "One of the coldest surfaces ever measured in the solar system, about −235 °C",
+      "k": [
+        "coldest",
+        "235"
+      ],
+      "n": 0
+    },
+    {
+      "id": "frozen-nitrogen",
+      "tier": "middle",
+      "t": "Its surface is mostly frozen nitrogen, with water ice and frozen carbon dioxide, over a large rocky core; its south polar cap looks pinkish",
+      "k": [
+        "frozen nitrogen",
+        "pinkish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pluto-twin",
+      "tier": "middle",
+      "t": "Somewhat larger than Pluto, with a similar density and icy surface; the seventh-largest moon in the solar system",
+      "k": [
+        "pluto",
+        "seventh-largest"
+      ],
+      "n": 0,
+      "rabbit": "Pluto"
+    },
+    {
+      "id": "few-craters",
+      "tier": "middle",
+      "t": "Has very few craters, so its surface is geologically young",
+      "k": [
+        "few craters",
+        "young"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cantaloupe",
+      "tier": "power",
+      "t": "A large region is covered in dimpled, wrinkled “cantaloupe terrain,” like the skin of a melon",
+      "k": [
+        "cantaloupe terrain",
+        "melon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brewer",
+      "tier": "power",
+      "t": "Its discoverer, Lassell, was a Liverpool brewer who built his own telescopes and later moved a large one to Malta",
+      "k": [
+        "brewer",
+        "malta",
+        "liverpool"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ariel-umbriel",
+      "tier": "power",
+      "t": "Lassell also discovered Uranus’s moons Ariel and Umbriel (1851)",
+      "k": [
+        "ariel",
+        "umbriel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spiral-in",
+      "tier": "power",
+      "t": "Tides are slowly shrinking its orbit; billions of years from now it may be torn into a ring or crash into Neptune",
+      "k": [
+        "shrinking",
+        "ring",
+        "crash"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pair-capture",
+      "tier": "power",
+      "t": "May once have been one member of a pair of Kuiper belt objects; its capture may have flung Nereid into a stretched-out orbit",
+      "k": [
+        "pair",
+        "nereid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flammarion",
+      "tier": "power",
+      "t": "Camille Flammarion suggested its name in 1880; the merman it is named for blew a conch shell to calm or stir up the waves",
+      "k": [
+        "flammarion",
+        "1880",
+        "conch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "satellite-of-neptune",
+      "tier": "power",
+      "t": "For about a century it was usually just called “the satellite of Neptune,” until Gerard Kuiper found Nereid in 1949",
+      "k": [
+        "satellite of neptune",
+        "1949",
+        "kuiper"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plumes",
+      "tier": "power",
+      "t": "Its dark plumes rise up to about 8 km above the surface",
+      "k": [
+        "plumes",
+        "8 km"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ocean",
+      "tier": "power",
+      "t": "Some scientists think an ocean of liquid water may lie beneath its icy crust",
+      "k": [
+        "ocean",
+        "liquid water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mass-round",
+      "tier": "power",
+      "t": "Holds more than 99 percent of the mass of everything orbiting Neptune, and it is Neptune’s only moon big enough to be round",
+      "k": [
+        "99 percent",
+        "round"
+      ],
+      "n": 0
+    },
+    {
+      "id": "same-face",
+      "tier": "power",
+      "t": "Always keeps the same face toward Neptune and takes about six days per orbit, which is steeply tilted to Neptune’s equator",
+      "k": [
+        "same face",
+        "six days",
+        "tilted"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cryovolcanism",
+      "tier": "power",
+      "t": "With Saturn’s Enceladus, one of the few icy worlds where spacecraft have seen active eruptions (cryovolcanism)",
+      "k": [
+        "enceladus",
+        "cryovolcanism"
+      ],
+      "n": 0
+    },
+    {
+      "id": "greenhouse",
+      "tier": "power",
+      "t": "Its geysers may be powered by weak sunlight warming nitrogen ice from below, like a greenhouse",
+      "k": [
+        "greenhouse",
+        "sunlight"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Triton, Titan, or Neptune?",
+    "body": "Triton sounds a lot like Titan, Saturn’s largest moon, and Titania, Uranus’s largest moon, and players under pressure mix them up. Neptune tossups are also full of Triton clues, so it is easy to name the moon when the question wants the planet, or the planet when it wants the moon. In mythology, Triton is Poseidon’s son, a separate answer from Poseidon himself.",
+    "fix": "A backward orbit, nitrogen geysers, cantaloupe terrain, William Lassell in 1846, or a captured Kuiper belt object means Triton. A thick orange haze, methane lakes, or the Huygens probe means Titan. Listen for the noun: “this moon” means Triton, while “this planet” means Neptune.",
+    "line": "Real answer line: <b><u>Triton</u></b> (do not accept “Titan” or “Neptune”)"
+  },
+  "tests": {
+    "right": [
+      "Triton",
+      "triton",
+      "Tritan",
+      "Triton (moon of Neptune)"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Titan",
+      "Nereid",
+      "Neptune",
+      "Charon",
+      "Titania",
+      "Proteus"
+    ]
+  }
+}

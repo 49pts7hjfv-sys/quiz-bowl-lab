@@ -1,0 +1,217 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+
+def C(cid, tier, t, k, rabbit=None):
+    d = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        d["rabbit"] = rabbit
+    return d
+
+
+data = {
+    "id": "lord-rayleigh",
+    "name": "Lord Rayleigh",
+    "mono": "LR",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "English physicist · Explained the blue sky and co-discovered argon",
+    "dates": "1842–1919",
+    "briefing": "Lord Rayleigh, born John William Strutt, was an English physicist who explained in 1871 why the sky is blue: air molecules scatter short blue waves of sunlight far more than long red ones. Years later, he noticed that a liter of nitrogen taken from the air weighed slightly more than a liter made from chemicals, a clue that led him and William Ramsay to discover argon. He won the 1904 Nobel Prize in Physics.",
+    "answerHtml": "Lord <b><u>Rayleigh</u></b> (accept John William <u>Strutt</u>; do not accept “William Ramsay”)",
+    "accept": [
+        "lord rayleigh",
+        "rayleigh",
+        "john william strutt",
+        "john strutt",
+        "j w strutt",
+        "strutt",
+        "baron rayleigh",
+        "3rd baron rayleigh",
+        "third baron rayleigh",
+        "john william strutt 3rd baron rayleigh"
+    ],
+    "prompt": [],
+    "reject": [
+        "william ramsay",
+        "ramsay",
+        "rayleigh scattering",
+        "rayleigh waves",
+        "rayleigh wave",
+        "rayleigh criterion",
+        "rayleigh jeans law",
+        "rayleigh jeans",
+        "rayleigh number",
+        "rayleigh taylor instability",
+        "rayleigh benard convection",
+        "james jeans",
+        "jeans",
+        "john tyndall",
+        "tyndall",
+        "lord kelvin",
+        "kelvin",
+        "william thomson",
+        "james clerk maxwell",
+        "maxwell",
+        "robert strutt",
+        "robert john strutt",
+        "4th baron rayleigh",
+        "fourth baron rayleigh",
+        "agnes pockels",
+        "pockels",
+        "max planck",
+        "planck",
+        "walter raleigh",
+        "argon",
+        "scattering"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/John_William_Strutt,_3rd_Baron_Rayleigh",
+    "qb": {"q": "Rayleigh", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "This scientist explained how a whisper can travel all the way around the curved wall of the gallery beneath the dome of St. Paul’s Cathedral in London. He discussed it in his two-volume book _The Theory of Sound_.",
+            "r": "For 10 points, name this English physicist who explained why the sky is blue."
+        },
+        {
+            "p": "In 1892, this scientist wrote to the journal _Nature_ asking for help with a puzzle: nitrogen taken from the air weighed slightly more than the same volume of nitrogen made from ammonia. Solving that puzzle led him and a chemist partner to a new element in 1894.",
+            "r": "That element was argon. For 10 points, name this English physicist who won the 1904 Nobel Prize in Physics."
+        },
+        {
+            "p": "A criterion named for this physicist says two points of light can just be told apart when the center of one point’s blurry image falls on the first dark ring around the other’s. He also predicted rolling surface waves from earthquakes.",
+            "r": "For 10 points, name this English physicist who explained the blue color of the sky."
+        },
+        {
+            "p": "With James Jeans, this physicist names a law for the light given off by hot objects that wrongly predicted endless energy at short wavelengths, a failure later nicknamed the “ultraviolet catastrophe.” Max Planck’s radiation law avoids that problem.",
+            "r": "For 10 points, name this English physicist who discovered argon with William Ramsay."
+        },
+        {
+            "p": "This physicist succeeded James Clerk Maxwell as the Cavendish Professor of Experimental Physics at Cambridge in 1879 and held that post until 1884. While there, he helped set accurate standards for electrical units such as the ohm.",
+            "r": "For 10 points, name this English physicist who won the 1904 Nobel Prize for discovering argon."
+        },
+        {
+            "p": "In 1890, this scientist spread tiny amounts of olive oil on water to find how thin an oil film could get, giving an early estimate of the size of molecules. He also studied how tiny particles scatter light.",
+            "r": "For 10 points, name this English physicist who explained why the sky is blue."
+        },
+        {
+            "p": "This scientist’s “duplex theory” explains that people tell where a sound comes from by comparing when it reaches each ear and how loud it is in each ear. He proposed it decades after writing a famous two-volume book about sound.",
+            "r": "That book was _The Theory of Sound_. For 10 points, name this English physicist who co-discovered argon."
+        },
+        {
+            "p": "This scientist showed that particles much smaller than a light wave scatter it by an amount that grows as one over the wavelength to the fourth power, so short waves are scattered far more than long ones. That kind of scattering is named for him.",
+            "r": "It explains why sunsets look red. For 10 points, name this English physicist who explained why the sky is blue."
+        },
+        {
+            "p": "This physicist married Evelyn Balfour, the sister of future Prime Minister Arthur Balfour, and he did much of his research in a private laboratory at his family’s estate, Terling Place, in Essex.",
+            "r": "He explained why the sky is blue. For 10 points, name this English nobleman and physicist who discovered argon with William Ramsay."
+        },
+        {
+            "p": "Born in 1842 as the son of a baron, this physicist finished first in Cambridge University’s difficult Mathematical Tripos [“TRY-poss”] exams in 1865, earning the title Senior Wrangler. He inherited his father’s title in 1873.",
+            "r": "For 10 points, name this English physicist who won the 1904 Nobel Prize in Physics for discovering argon."
+        },
+        {
+            "p": "This physicist and a Scottish chemist named a new gas from the Greek word for “lazy,” because it would not react with other substances. He won the 1904 Nobel Prize in Physics, the same year his partner won the prize in chemistry.",
+            "r": "That partner was William Ramsay. For 10 points, name this English physicist who explained why the sky is blue."
+        },
+        {
+            "p": "In 1891, this scientist sent a letter from Agnes Pockels, who had measured surface tension using a homemade trough in her kitchen, to the journal _Nature_, which published it. He had studied oil films on water himself the year before.",
+            "r": "For 10 points, name this English physicist who discovered argon with William Ramsay."
+        },
+        {
+            "p": "This physicist served as president of the Royal Society from 1905 to 1908 and as Chancellor of the University of Cambridge from 1908 until his death in 1919.",
+            "r": "For 10 points, name this English physicist who explained why the sky is blue and won the 1904 Nobel Prize in Physics."
+        },
+        {
+            "p": "This scientist predicted in 1885 that earthquakes produce a kind of wave that rolls along the ground’s surface like a wave on the ocean. Those waves, named for him, are slower than P and S waves but often do the most damage.",
+            "r": "For 10 points, name this English physicist who explained why the sky is blue."
+        },
+        {
+            "p": "This physicist began writing a famous book about sound while traveling on the Nile River in Egypt, where he had gone to recover from an illness. The book’s first volume was published in 1877.",
+            "r": "For 10 points, name this English physicist, the author of _The Theory of Sound_, who explained why the sky is blue."
+        }
+    ],
+    "clues": [
+        C("blue-sky", "giveaway", "Explained why the sky is blue (1871): air molecules scatter short blue waves of sunlight more than long red ones",
+          ["sky is blue", "1871", "scatter"], "Scattering"),
+        C("argon", "giveaway", "Discovered argon in 1894 with the Scottish chemist William Ramsay",
+          ["argon", "william ramsay", "1894"], "Noble gases"),
+        C("nobel-1904", "giveaway", "Won the 1904 Nobel Prize in Physics; Ramsay won the chemistry prize the same year",
+          ["1904", "nobel prize"]),
+        C("english-nobleman", "giveaway", "English physicist (1842–1919) and nobleman, the third holder of his family’s title as a baron",
+          ["english", "nobleman", "baron"]),
+        C("fourth-power", "middle", "Tiny particles scatter light by an amount that goes as one over the wavelength to the fourth power, so short waves scatter most; this also makes sunsets red",
+          ["fourth power", "wavelength", "sunsets"]),
+        C("nitrogen", "middle", "Noticed that nitrogen taken from the air weighed slightly more than nitrogen made from chemicals, which led to argon",
+          ["nitrogen", "weighed slightly more"]),
+        C("lazy", "middle", "Argon was named from the Greek word for “lazy” because it would not react",
+          ["lazy", "greek"]),
+        C("theory-of-sound", "middle", "Wrote the two-volume _The Theory of Sound_ (1877–1878)",
+          ["theory of sound", "two-volume"]),
+        C("criterion", "middle", "His criterion: two points of light can just be told apart when one’s image sits on the other’s first dark ring",
+          ["criterion", "dark ring"], "Diffraction"),
+        C("jeans-law", "middle", "With James Jeans, names a radiation law whose failure at short wavelengths was called the “ultraviolet catastrophe”",
+          ["james jeans", "ultraviolet catastrophe"], "Max Planck"),
+        C("surface-waves", "middle", "Predicted (1885) the rolling surface waves from earthquakes that are named for him",
+          ["surface waves", "earthquakes", "1885"], "Earthquakes"),
+        C("cavendish", "power", "Succeeded James Clerk Maxwell as Cavendish Professor of Experimental Physics at Cambridge (1879–1884)",
+          ["cavendish", "maxwell", "1879"]),
+        C("nature-1892", "power", "Asked readers of the journal _Nature_ in 1892 to help explain his nitrogen puzzle",
+          ["nature", "1892"]),
+        C("whispering", "power", "Explained the whispering gallery under the dome of St. Paul’s Cathedral in London",
+          ["whispering gallery", "dome"]),
+        C("duplex", "power", "Duplex theory: we locate a sound by comparing its timing and loudness at our two ears",
+          ["duplex theory", "two ears"]),
+        C("oil-film", "power", "Spread olive oil on water (1890) to find how thin a film could get, an early clue to the size of molecules",
+          ["olive oil", "molecules", "1890"]),
+        C("pockels", "power", "Sent Agnes Pockels’s kitchen measurements of surface tension to _Nature_, which published them (1891)",
+          ["agnes pockels", "surface tension", "1891"], "Surface tension"),
+        C("senior-wrangler", "power", "Finished first in Cambridge’s Mathematical Tripos exams in 1865, earning the title Senior Wrangler",
+          ["senior wrangler", "tripos", "1865"]),
+        C("inherited", "power", "Son of a baron; inherited his father’s title in 1873",
+          ["inherited", "1873"]),
+        C("balfour", "power", "Married Evelyn Balfour, sister of Prime Minister Arthur Balfour",
+          ["balfour", "evelyn"]),
+        C("terling", "power", "Did much research in a private laboratory at his family’s estate, Terling Place, in Essex",
+          ["terling", "essex", "private laboratory"]),
+        C("royal-society", "power", "President of the Royal Society (1905–1908) and Chancellor of the University of Cambridge (1908–1919)",
+          ["royal society", "chancellor"]),
+        C("ohm", "power", "Helped set accurate standards for electrical units such as the ohm",
+          ["electrical units", "ohm"]),
+        C("nile", "power", "Began writing _The Theory of Sound_ while traveling on the Nile in Egypt, recovering from an illness",
+          ["nile", "egypt"])
+    ],
+    "trap": {
+        "title": "The man, not the scattering",
+        "body": "Several answer lines carry this man’s name, like Rayleigh scattering, Rayleigh waves, and the Rayleigh criterion, so if a question asks for “this process” or “this type of wave,” his name alone is wrong. His partner William Ramsay shares the discovery of argon, so argon clues alone fit both men, and this page does not accept Ramsay.",
+        "fix": "Physics clues, like the blue sky, sound, earthquake waves, the Cavendish professorship, and the 1904 physics prize, point to Lord Rayleigh. Chemistry clues, like finding neon, krypton, and xenon or isolating helium on Earth, point to Ramsay.",
+        "line": "Real answer line: Lord <b><u>Rayleigh</u></b> (accept John William <u>Strutt</u>; do not accept “William Ramsay”)"
+    },
+    "tests": {
+        "right": [
+            "Lord Rayleigh",
+            "Rayleigh",
+            "John William Strutt",
+            "Lord Raleigh",
+            "Baron Rayleigh"
+        ],
+        "prompt": [],
+        "wrong": [
+            "William Ramsay",
+            "Rayleigh scattering",
+            "James Jeans",
+            "Lord Kelvin",
+            "John Tyndall"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

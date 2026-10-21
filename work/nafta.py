@@ -1,0 +1,332 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "nafta",
+    "name": "NAFTA",
+    "mono": "NF",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Trade pact of the U.S., Canada, and Mexico · In force 1994–2020",
+    "dates": "Signed 1992; in force 1994–2020",
+    "briefing": "NAFTA, the North American Free Trade Agreement, removed most tariffs, or taxes on imports, on goods traded among the United States, Canada, and Mexico. Leaders of the three countries signed it in 1992, Congress approved it in 1993, and it took effect on January 1, 1994. Supporters said it would boost trade, while critics such as Ross Perot warned that jobs would move to Mexico. In 2020, a new deal called the USMCA replaced it.",
+    "answerHtml": "<b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; do not accept “USMCA”)",
+    "accept": [
+        "nafta",
+        "n a f t a",
+        "north american free trade agreement",
+        "the north american free trade agreement",
+        "north american free trade"
+    ],
+    "prompt": [
+        "free trade agreement",
+        "trade agreement",
+        "free trade deal"
+    ],
+    "reject": [
+        "usmca",
+        "u s m c a",
+        "united states mexico canada agreement",
+        "cusma",
+        "t mec",
+        "tmec",
+        "cafta",
+        "cafta dr",
+        "central american free trade agreement",
+        "canada united states free trade agreement",
+        "canada us free trade agreement",
+        "us canada free trade agreement",
+        "cufta",
+        "gatt",
+        "general agreement on tariffs and trade",
+        "wto",
+        "world trade organization",
+        "tpp",
+        "trans pacific partnership",
+        "ftaa",
+        "free trade area of the americas",
+        "nato",
+        "naacp",
+        "european union",
+        "mercosur",
+        "asean",
+        "apec"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/North_American_Free_Trade_Agreement",
+    "qb": {
+        "q": "NAFTA",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "On the day this agreement took effect, rebels calling themselves the Zapatista [“zah-pah-TEE-stah”] Army of National Liberation launched an uprising in the Mexican state of Chiapas [“chee-AH-pahs”]. Their spokesman, Subcomandante Marcos, opposed the agreement.",
+            "r": "For 10 points, name this trade deal among the United States, Canada, and Mexico that began on January 1, 1994."
+        },
+        {
+            "p": "In November 1993, Vice President Al Gore defended this agreement in a televised debate on CNN’s _Larry King Live_ against a Texas billionaire who opposed it, about a week before the House voted on it.",
+            "r": "That opponent, Ross Perot, had warned of a “giant sucking sound” of jobs going to Mexico. For 10 points, name this trade deal with Canada and Mexico."
+        },
+        {
+            "p": "U.S. Trade Representative Carla Hills led the American side in negotiating this agreement, which was signed in December 1992 by George H. W. Bush, Brian Mulroney of Canada, and Carlos Salinas [“sah-LEE-nahs”] of Mexico.",
+            "r": "Congress approved it the next year. For 10 points, name this trade pact that took effect in 1994."
+        },
+        {
+            "p": "This agreement replaced a 1988 free-trade deal between the United States and Canada, which had been the main issue in that year’s Canadian election, won by Brian Mulroney’s Progressive Conservatives.",
+            "r": "Mexico joined the talks for this wider deal. For 10 points, name this trade agreement that took effect on January 1, 1994."
+        },
+        {
+            "p": "To win votes in Congress, Bill Clinton’s trade representative, Mickey Kantor, negotiated two side agreements to this deal in 1993, one on workers’ rights and one on the environment. The environmental side deal created the Commission for Environmental Cooperation.",
+            "r": "For 10 points, name this trade agreement that the United States, Canada, and Mexico launched in 1994."
+        },
+        {
+            "p": "In November 1993, the House approved this agreement by a vote of 234 to 200, with more Republicans than Democrats voting yes, even though House Majority Leader Dick Gephardt, a Democrat, opposed it.",
+            "r": "The Senate passed it three days later. For 10 points, name this trade deal with Canada and Mexico."
+        },
+        {
+            "p": "Chapter 11 of this agreement set up a system called investor-state dispute settlement, which let companies from one member country take another member’s government to international arbitration over unfair treatment of their investments.",
+            "r": "It phased out most tariffs among its three members. For 10 points, name this 1994 trade agreement among the U.S., Canada, and Mexico."
+        },
+        {
+            "p": "Less than a year after this agreement took effect, a sudden crash in the value of the Mexican peso led the Clinton administration to arrange billions of dollars in emergency loans for Mexico in 1995.",
+            "r": "For 10 points, name this trade pact among the United States, Canada, and Mexico, which Ross Perot had opposed."
+        },
+        {
+            "p": "Factories called maquiladoras [“mah-kee-lah-DOR-ahs”] that assemble goods in northern Mexico for export expanded quickly after this agreement took effect. The last tariffs it phased out, including Mexico’s tariffs on American corn and beans, ended in 2008.",
+            "r": "For 10 points, name this trade agreement signed by leaders of the U.S., Canada, and Mexico in 1992."
+        },
+        {
+            "p": "In 2018, at a summit in Buenos Aires, Donald Trump, Justin Trudeau, and Enrique Peña Nieto [“PAYN-yah nee-AY-toh”] signed a deal to replace this agreement; Canadians call the new deal CUSMA, and Mexicans call it T-MEC.",
+            "r": "That replacement, the USMCA, took effect on July 1, 2020. For 10 points, name this 1994 trade pact among the United States, Canada, and Mexico."
+        },
+        {
+            "p": "Congress voted on this agreement under “fast track” rules, which allowed only a yes-or-no vote with no amendments, and the Senate approved it by a vote of 61 to 38 in November 1993.",
+            "r": "It took effect at the start of the next year. For 10 points, name this trade deal among the United States, Canada, and Mexico."
+        },
+        {
+            "p": "Mexican president Carlos Salinas de Gortari [“sah-LEE-nahs day gor-TAR-ee”], who had studied at Harvard, pushed for this agreement in the early 1990s as part of his plan to open Mexico’s economy to foreign trade and investment.",
+            "r": "He signed it in 1992 with George H. W. Bush and Brian Mulroney. For 10 points, name this trade pact that took effect in 1994."
+        },
+        {
+            "p": "In September 1993, former presidents Gerald Ford, Jimmy Carter, and George H. W. Bush joined Bill Clinton at the White House to support this agreement as he signed its side deals on labor and the environment.",
+            "r": "For 10 points, name this trade pact among the United States, Canada, and Mexico that took effect on January 1, 1994."
+        },
+        {
+            "p": "Opponents of this agreement included the AFL-CIO and other labor unions, many environmental groups, and political figures as different as Pat Buchanan and Ralph Nader, while many business groups supported it.",
+            "r": "Ross Perot warned it would cause a “giant sucking sound.” For 10 points, name this trade deal among the U.S., Canada, and Mexico."
+        },
+        {
+            "p": "Although this agreement was negotiated by a Republican administration, the Democratic president who followed made passing it a top goal, even though many labor unions and many members of his own party opposed it.",
+            "r": "That president, Bill Clinton, signed it into law in December 1993. For 10 points, name this trade pact among the United States, Canada, and Mexico."
+        }
+    ],
+    "clues": [
+        {
+            "id": "three-countries",
+            "tier": "giveaway",
+            "t": "Trade agreement among the United States, Canada, and Mexico",
+            "k": ["trade agreement", "canada", "mexico"],
+            "n": 0
+        },
+        {
+            "id": "jan-1994",
+            "tier": "giveaway",
+            "t": "Took effect on January 1, 1994, and phased out most tariffs among its three members",
+            "k": ["january 1", "tariffs", "1994"],
+            "n": 0
+        },
+        {
+            "id": "bush-clinton",
+            "tier": "giveaway",
+            "t": "Negotiated under George H. W. Bush; Bill Clinton signed the law approving it in December 1993",
+            "k": ["bill clinton", "clinton", "bush"],
+            "n": 0,
+            "rabbit": "Bill Clinton"
+        },
+        {
+            "id": "usmca",
+            "tier": "giveaway",
+            "t": "Replaced by the USMCA (United States–Mexico–Canada Agreement) on July 1, 2020",
+            "k": ["usmca", "july 1", "2020"],
+            "n": 0
+        },
+        {
+            "id": "perot",
+            "tier": "middle",
+            "t": "Ross Perot warned of a “giant sucking sound” of jobs going to Mexico during his 1992 campaign",
+            "k": ["giant sucking sound", "sucking sound", "perot"],
+            "n": 0,
+            "rabbit": "Ross Perot"
+        },
+        {
+            "id": "signed-1992",
+            "tier": "middle",
+            "t": "Signed in December 1992 by George H. W. Bush, Brian Mulroney of Canada, and Carlos Salinas of Mexico",
+            "k": ["mulroney", "salinas", "december 1992"],
+            "n": 0
+        },
+        {
+            "id": "house-vote",
+            "tier": "middle",
+            "t": "The House approved it 234 to 200 in November 1993, with more Republicans than Democrats voting yes",
+            "k": ["republicans", "november 1993", "234"],
+            "n": 0
+        },
+        {
+            "id": "gore-perot",
+            "tier": "middle",
+            "t": "Vice President Al Gore debated Ross Perot about it on _Larry King Live_ (November 1993)",
+            "k": ["larry king", "al gore", "debated"],
+            "n": 0
+        },
+        {
+            "id": "fta-1988",
+            "tier": "middle",
+            "t": "Replaced a 1988 U.S.–Canada free-trade deal, the main issue of Canada’s 1988 election",
+            "k": ["1988", "canada’s 1988 election", "free-trade deal"],
+            "n": 0
+        },
+        {
+            "id": "opponents",
+            "tier": "middle",
+            "t": "Opposed by labor unions like the AFL-CIO, many environmental groups, Pat Buchanan, and Ralph Nader; many business groups supported it",
+            "k": ["labor unions", "afl-cio", "business groups"],
+            "n": 0,
+            "rabbit": "Ralph Nader"
+        },
+        {
+            "id": "side-deals",
+            "tier": "middle",
+            "t": "Clinton added side agreements on labor and the environment in 1993",
+            "k": ["side agreements", "labor", "environment"],
+            "n": 0
+        },
+        {
+            "id": "maquiladoras",
+            "tier": "middle",
+            "t": "Maquiladoras, export factories in northern Mexico, expanded quickly after it took effect",
+            "k": ["maquiladoras", "factories"],
+            "n": 0
+        },
+        {
+            "id": "zapatistas",
+            "tier": "power",
+            "t": "The Zapatista Army of National Liberation began an uprising in Chiapas, Mexico, the day it took effect; its spokesman was Subcomandante Marcos",
+            "k": ["zapatista", "chiapas", "subcomandante marcos"],
+            "n": 0
+        },
+        {
+            "id": "kantor-cec",
+            "tier": "power",
+            "t": "Trade representative Mickey Kantor negotiated the side deals; the environmental one created the Commission for Environmental Cooperation",
+            "k": ["mickey kantor", "kantor", "commission for environmental cooperation"],
+            "n": 0
+        },
+        {
+            "id": "carla-hills",
+            "tier": "power",
+            "t": "U.S. Trade Representative Carla Hills negotiated it for the Bush administration",
+            "k": ["carla hills", "trade representative"],
+            "n": 0
+        },
+        {
+            "id": "gephardt",
+            "tier": "power",
+            "t": "House Majority Leader Dick Gephardt, a Democrat, opposed it",
+            "k": ["gephardt", "majority leader"],
+            "n": 0
+        },
+        {
+            "id": "fast-track",
+            "tier": "power",
+            "t": "Passed under “fast track” rules (a yes-or-no vote with no amendments); the Senate approved it 61 to 38",
+            "k": ["fast track", "no amendments", "61 to 38"],
+            "n": 0
+        },
+        {
+            "id": "chapter-11",
+            "tier": "power",
+            "t": "Chapter 11 let companies take member governments to international arbitration (investor-state dispute settlement)",
+            "k": ["chapter 11", "arbitration", "investor-state"],
+            "n": 0
+        },
+        {
+            "id": "peso",
+            "tier": "power",
+            "t": "After the Mexican peso crashed in late 1994, the Clinton administration arranged billions in emergency loans for Mexico (1995)",
+            "k": ["peso", "emergency loans", "1995"],
+            "n": 0
+        },
+        {
+            "id": "tariffs-2008",
+            "tier": "power",
+            "t": "Its last tariffs, including Mexico’s on U.S. corn and beans, ended in 2008",
+            "k": ["2008", "corn", "beans"],
+            "n": 0
+        },
+        {
+            "id": "usmca-names",
+            "tier": "power",
+            "t": "Trump, Trudeau, and Peña Nieto signed its replacement in Buenos Aires in 2018; Canada calls it CUSMA and Mexico calls it T-MEC",
+            "k": ["cusma", "t-mec", "buenos aires", "trudeau"],
+            "n": 0,
+            "rabbit": "Donald Trump"
+        },
+        {
+            "id": "former-presidents",
+            "tier": "power",
+            "t": "Former presidents Ford, Carter, and George H. W. Bush joined Clinton at the White House to back it (September 1993)",
+            "k": ["former presidents", "carter", "ford"],
+            "n": 0
+        },
+        {
+            "id": "salinas-harvard",
+            "tier": "power",
+            "t": "Mexican president Carlos Salinas de Gortari, who studied at Harvard, pushed for it to open Mexico’s economy",
+            "k": ["salinas de gortari", "harvard"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "NAFTA or the USMCA?",
+        "body": "The USMCA (United States–Mexico–Canada Agreement) replaced NAFTA on July 1, 2020, and questions about one can sound like the other. Clues about Donald Trump, Justin Trudeau, the 2018 signing, CUSMA, or T-MEC point to the newer deal. Other trade answers include GATT and the World Trade Organization (worldwide), CAFTA (with Central America and the Dominican Republic), and the Trans-Pacific Partnership, and NATO is a military alliance, not a trade deal.",
+        "fix": "NAFTA clues: signed in 1992 by Bush, Mulroney, and Salinas; passed under Clinton in 1993; began January 1, 1994; Ross Perot’s “giant sucking sound”; and the Zapatista uprising. Listen for dates: 1992 to 1994 means NAFTA, and 2018 to 2020 means the USMCA.",
+        "line": "Real answer line: <b><u>NAFTA</u></b> (or <b><u>North American Free Trade Agreement</u></b>; do not accept “USMCA”)"
+    },
+    "tests": {
+        "right": [
+            "NAFTA",
+            "N.A.F.T.A.",
+            "North American Free Trade Agreement",
+            "naftaa",
+            "North American Free Trade Agrement",
+            "the NAFTA agreement"
+        ],
+        "prompt": [
+            "free trade agreement"
+        ],
+        "wrong": [
+            "USMCA",
+            "CAFTA",
+            "GATT",
+            "NATO",
+            "World Trade Organization",
+            "Trans-Pacific Partnership",
+            "NAACP",
+            "European Union"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

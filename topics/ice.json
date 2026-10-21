@@ -1,0 +1,490 @@
+{
+  "id": "ice",
+  "name": "Ice",
+  "mono": "ICE",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Water’s solid form · Floats because it is less dense than the liquid",
+  "dates": "Melts at 0 °C (32 °F)",
+  "briefing": "Ice is water frozen solid, and it does something few substances do: it floats on its own liquid. When water freezes, hydrogen bonds lock its molecules into an open, six-sided pattern that takes up about 9 percent more space, which is why lakes freeze from the top down and snowflakes have six sides. During the last glacial period, thick sheets of ice covered most of Canada and the northern United States.",
+  "answerHtml": "<b><u>Ice</u></b> (accept <u>frozen water</u>, <u>solid water</u>, or <u>water ice</u>; prompt on <u>water</u> or H<sub>2</sub>O; do not accept “glaciers,” “snow,” or “dry ice”)",
+  "accept": [
+    "ice",
+    "ices",
+    "frozen water",
+    "solid water",
+    "water ice",
+    "solid h2o",
+    "frozen h2o",
+    "ice crystal",
+    "ice crystals",
+    "hexagonal ice",
+    "ice ih",
+    "ice 1h",
+    "ice one h"
+  ],
+  "prompt": [
+    "water",
+    "h2o",
+    "h o"
+  ],
+  "reject": [
+    "glacier",
+    "glaciers",
+    "ice sheet",
+    "ice sheets",
+    "ice shelf",
+    "ice shelves",
+    "iceberg",
+    "icebergs",
+    "ice age",
+    "ice ages",
+    "ice cap",
+    "ice caps",
+    "dry ice",
+    "ice nine",
+    "ice 9",
+    "snow",
+    "snowflake",
+    "snowflakes",
+    "sleet",
+    "hail",
+    "hailstone",
+    "hailstones",
+    "frost",
+    "permafrost",
+    "steam",
+    "water vapor",
+    "liquid water",
+    "carbon dioxide",
+    "solid carbon dioxide",
+    "frozen carbon dioxide",
+    "co2"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ice",
+  "qb": {
+    "q": "ice",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Johannes Kepler’s 1611 booklet _The Six-Cornered Snowflake_ asked why crystals of this substance always show sixfold symmetry. That pattern comes from hydrogen bonds, which lock each water molecule to four neighbors in an open, hexagonal lattice.",
+      "r": "That open lattice makes this substance less dense than liquid water, so it floats. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "During World War II, Geoffrey Pyke proposed building enormous aircraft carriers from pykrete, a mixture of this substance and wood pulp that melts far more slowly than this substance alone. A small prototype for that plan, Project Habakkuk, was built on a lake in Canada’s Jasper National Park.",
+      "r": "Fish survive the winter in the liquid water beneath a layer of this substance on a lake. For 10 points, name this solid that water becomes at 0 degrees Celsius."
+    },
+    {
+      "p": "In 1849, James Thomson predicted that squeezing this substance lowers its melting point, and his brother William, later called Lord Kelvin, confirmed the prediction. Because of that effect, a thin wire with weights hung from both ends can slowly slice through a block of this substance, which freezes back together behind the wire.",
+      "r": "This substance melts at 0 degrees Celsius at normal air pressure. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "In 1850, Michael Faraday suggested that this substance is coated by a thin, liquid-like layer, and scientists still study that layer to explain why it is so slippery. Researchers now doubt the old idea that the pressure of skate blades alone melts this substance.",
+      "r": "Frank Zamboni invented a machine in 1949 to smooth rinks made of this substance. For 10 points, name this frozen form of water."
+    },
+    {
+      "p": "In _Walden_, Henry David Thoreau describes a crew of workers cutting blocks of this substance out of Walden Pond and pictures them being shipped as far as India. Starting in 1806, Frederic Tudor of Boston built a business shipping this substance from New England ponds to hot places like the Caribbean.",
+      "r": "Before electric refrigerators, people kept food cold with blocks of it. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "In Kurt Vonnegut’s novel _Cat’s Cradle_, the scientist Felix Hoenikker invents a fictional form of this substance, numbered nine, that stays solid at room temperature and turns any water it touches into more of itself. By the novel’s end, that form has frozen the oceans.",
+      "r": "Because liquid water is densest at about 4 degrees Celsius, this substance forms first at the top of a lake. For 10 points, name this solid that floats."
+    },
+    {
+      "p": "In 1992, Joseph Kirschvink coined the name “Snowball Earth” for times, more than 600 million years ago, when this substance may have covered nearly the entire planet. Milutin Milankovitch linked the growth and shrinking of great sheets of it over the last few million years to slow cycles in Earth’s orbit and tilt.",
+      "r": "Glaciers and the polar caps are made of this substance, which floats on liquid water. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "The Mpemba [“em-PEM-bah”] effect, named for a Tanzanian student who noticed it in 1963, is the disputed claim that hot water can turn into this substance faster than cold water. Very pure water can be supercooled far below its usual freezing point without becoming this solid, until a speck of dust or a tiny seed crystal starts the change.",
+      "r": "Salt is spread on winter roads to melt this substance. For 10 points, name this solid that forms when water freezes."
+    },
+    {
+      "p": "In the Bergeron process, tiny crystals of this substance grow by stealing water vapor from nearby supercooled droplets inside clouds, a key step in forming rain and snow. Hailstones are balls of this substance that grow in layers as strong updrafts hold them up inside thunderstorms.",
+      "r": "Frost forms when water vapor turns directly into this solid on cold surfaces. For 10 points, name this frozen form of water."
+    },
+    {
+      "p": "Melting one gram of this substance takes about 334 joules, or about 80 calories, of heat, yet a mixture of it and liquid water stays at 0 degrees Celsius until it has all melted. Its specific heat is only about half that of liquid water.",
+      "r": "Cubes of this substance cool drinks as they melt. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "Air bubbles sealed inside long cylinders of this substance, drilled out of Antarctica by a project called EPICA, record about 800,000 years of Earth’s climate. In Greenland, scientists count the yearly layers in such cylinders much like tree rings.",
+      "r": "Glaciers and the vast sheets covering Greenland and Antarctica are made of it. For 10 points, name this frozen form of water."
+    },
+    {
+      "p": "When seawater freezes, the growing crystals push out most of the salt in a process called brine rejection, which leaves the water beneath them saltier and denser. Polar explorers could melt old floes of this substance for drinking water because so much of their salt had drained away.",
+      "r": "In 1912, the _Titanic_ sank after striking a huge floating chunk of this substance. For 10 points, name this frozen form of water."
+    },
+    {
+      "p": "In 1837, Louis Agassiz [“AG-uh-see”] startled other scientists by arguing that a vast sheet of this substance had once covered much of Europe. During the most recent glacial period, thick sheets of this substance buried nearly all of Canada, then began melting back about 20,000 years ago.",
+      "r": "Glaciers are huge, slow-moving masses of this substance. For 10 points, name this solid form of water."
+    },
+    {
+      "p": "Scientists label this substance’s everyday form with a Roman numeral one and an “h” for hexagonal, and they have found more than a dozen other crystal forms of it, most of them only under high pressure. Frost wedging breaks rocks apart when water seeps into cracks and then expands as it turns into this solid.",
+      "r": "That expansion also bursts water pipes in winter. For 10 points, name this frozen form of water, which floats."
+    },
+    {
+      "p": "Saturn’s rings are made mostly of chunks of this substance, and Jupiter’s moon Europa may hide a salty ocean beneath a thick crust of it. Comets are nicknamed “dirty snowballs” because they are largely made of this substance mixed with dust and rock.",
+      "r": "About nine-tenths of a floating chunk of this substance sits below the waterline. For 10 points, name this solid form of water."
+    }
+  ],
+  "clues": [
+    {
+      "id": "solid-water",
+      "tier": "giveaway",
+      "t": "The solid form of water; water freezes into it at 0 °C (32 °F) at sea level",
+      "k": [
+        "solid form",
+        "freezes",
+        "32 °f"
+      ],
+      "n": 0,
+      "rabbit": "Water"
+    },
+    {
+      "id": "floats",
+      "tier": "giveaway",
+      "t": "Floats on liquid water, because water expands by about 9 percent when it freezes",
+      "k": [
+        "floats",
+        "expands",
+        "9 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lakes-top-down",
+      "tier": "giveaway",
+      "t": "Lakes freeze from the top down, so fish survive the winter in the liquid water below",
+      "k": [
+        "top down",
+        "lakes",
+        "fish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-sided",
+      "tier": "giveaway",
+      "t": "Its crystals are six-sided (hexagonal), which is why snowflakes have six points",
+      "k": [
+        "six-sided",
+        "hexagonal",
+        "snowflakes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glaciers-titanic",
+      "tier": "giveaway",
+      "t": "Glaciers are made of it, and the _Titanic_ sank in 1912 after hitting a huge floating chunk of it",
+      "k": [
+        "glaciers",
+        "titanic",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Glaciers"
+    },
+    {
+      "id": "salt-roads",
+      "tier": "giveaway",
+      "t": "Salt lowers its melting point, which is why trucks spread salt on winter roads",
+      "k": [
+        "salt",
+        "melting point",
+        "winter roads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrogen-bonds",
+      "tier": "middle",
+      "t": "Hydrogen bonds lock each water molecule to four neighbors in an open lattice that takes up more space than the liquid",
+      "k": [
+        "hydrogen bonds",
+        "four neighbors",
+        "lattice"
+      ],
+      "n": 0,
+      "rabbit": "Hydrogen bonds"
+    },
+    {
+      "id": "densest-4c",
+      "tier": "middle",
+      "t": "Liquid water is densest at about 4 °C, so a deep lake’s bottom stays near 4 °C while this forms on top",
+      "k": [
+        "densest",
+        "4 °c"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nine-tenths",
+      "tier": "middle",
+      "t": "About nine-tenths of a floating chunk of it sits below the waterline",
+      "k": [
+        "nine-tenths",
+        "waterline"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latent-heat",
+      "tier": "middle",
+      "t": "Melting 1 gram takes about 334 joules (about 80 calories), its latent heat of fusion, with no rise in temperature",
+      "k": [
+        "334 joules",
+        "80 calories",
+        "latent heat",
+        "fusion"
+      ],
+      "n": 0,
+      "rabbit": "Melting"
+    },
+    {
+      "id": "specific-heat",
+      "tier": "middle",
+      "t": "Its specific heat is only about half that of liquid water",
+      "k": [
+        "specific heat",
+        "half"
+      ],
+      "n": 0,
+      "rabbit": "Heat capacity"
+    },
+    {
+      "id": "frost-wedging",
+      "tier": "middle",
+      "t": "Frost wedging: water in rock cracks expands as it turns into this solid, splitting rocks; the same expansion bursts pipes",
+      "k": [
+        "frost wedging",
+        "cracks",
+        "pipes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bergeron-hail",
+      "tier": "middle",
+      "t": "In the Bergeron process, its crystals grow at the expense of supercooled cloud droplets; hailstones are layered balls of it",
+      "k": [
+        "bergeron",
+        "supercooled",
+        "hailstones"
+      ],
+      "n": 0,
+      "rabbit": "Clouds"
+    },
+    {
+      "id": "frost-deposition",
+      "tier": "middle",
+      "t": "Frost forms when water vapor turns directly into this solid on cold surfaces, a change called deposition",
+      "k": [
+        "deposition",
+        "frost",
+        "water vapor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glacial-periods",
+      "tier": "middle",
+      "t": "During glacial periods, thick sheets of it buried nearly all of Canada; the last glacial period ended about 11,700 years ago",
+      "k": [
+        "glacial periods",
+        "canada",
+        "11,700"
+      ],
+      "n": 0
+    },
+    {
+      "id": "space",
+      "tier": "middle",
+      "t": "Saturn’s rings are mostly chunks of it, Europa has a crust of it over a hidden ocean, and comets are “dirty snowballs”",
+      "k": [
+        "saturn",
+        "europa",
+        "dirty snowballs",
+        "comets"
+      ],
+      "n": 0,
+      "rabbit": "Comets"
+    },
+    {
+      "id": "kepler",
+      "tier": "power",
+      "t": "Johannes Kepler’s 1611 booklet _The Six-Cornered Snowflake_ asked why its crystals always show sixfold symmetry",
+      "k": [
+        "kepler",
+        "1611",
+        "six-cornered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roman-numeral",
+      "tier": "power",
+      "t": "Its everyday form is labeled “Ih” (h for hexagonal); more than a dozen other crystal forms exist, most only at high pressure",
+      "k": [
+        "hexagonal",
+        "dozen",
+        "high pressure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thomson-wire",
+      "tier": "power",
+      "t": "James Thomson (1849) predicted that pressure lowers its melting point and his brother, Lord Kelvin, confirmed it; a weighted wire slices through a block that refreezes behind it",
+      "k": [
+        "james thomson",
+        "kelvin",
+        "1849",
+        "wire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faraday",
+      "tier": "power",
+      "t": "Michael Faraday (1850) suggested a thin, liquid-like surface layer; skate-blade pressure alone is now doubted as the reason it is slippery",
+      "k": [
+        "faraday",
+        "1850",
+        "liquid-like",
+        "slippery"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pykrete",
+      "tier": "power",
+      "t": "Pykrete, a mix of it and wood pulp, was proposed for giant World War II aircraft carriers (Project Habakkuk)",
+      "k": [
+        "pykrete",
+        "habakkuk",
+        "wood pulp",
+        "pyke"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tudor-thoreau",
+      "tier": "power",
+      "t": "Frederic Tudor shipped it from New England to the Caribbean starting in 1806; Thoreau’s _Walden_ describes workers cutting it from Walden Pond",
+      "k": [
+        "frederic tudor",
+        "thoreau",
+        "walden",
+        "1806"
+      ],
+      "n": 0,
+      "rabbit": "Walden"
+    },
+    {
+      "id": "vonnegut",
+      "tier": "power",
+      "t": "Kurt Vonnegut’s _Cat’s Cradle_ invents a fictional form of it, numbered nine, that stays solid at room temperature and freezes the oceans",
+      "k": [
+        "vonnegut",
+        "numbered nine",
+        "felix hoenikker"
+      ],
+      "n": 0,
+      "rabbit": "Kurt Vonnegut"
+    },
+    {
+      "id": "snowball-milankovitch",
+      "tier": "power",
+      "t": "Joseph Kirschvink named “Snowball Earth” (1992); Milutin Milankovitch tied the growth of its great sheets to cycles in Earth’s orbit and tilt",
+      "k": [
+        "snowball earth",
+        "kirschvink",
+        "milankovitch"
+      ],
+      "n": 0
+    },
+    {
+      "id": "agassiz",
+      "tier": "power",
+      "t": "Louis Agassiz argued in 1837 that a vast sheet of it had once covered much of Europe",
+      "k": [
+        "agassiz",
+        "1837",
+        "europe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mpemba",
+      "tier": "power",
+      "t": "The Mpemba effect, named for a Tanzanian student (1963), is the disputed claim that hot water can freeze faster than cold",
+      "k": [
+        "mpemba",
+        "tanzanian",
+        "1963"
+      ],
+      "n": 0
+    },
+    {
+      "id": "epica-cores",
+      "tier": "power",
+      "t": "Cores drilled out of Antarctica trap air bubbles that record about 800,000 years of climate (EPICA)",
+      "k": [
+        "epica",
+        "800,000",
+        "air bubbles",
+        "cores"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brine-rejection",
+      "tier": "power",
+      "t": "Freezing seawater pushes out most of its salt (brine rejection), so old polar floes of it can be melted for drinking water",
+      "k": [
+        "brine rejection",
+        "seawater",
+        "floes"
+      ],
+      "n": 0,
+      "rabbit": "Salinity"
+    }
+  ],
+  "trap": {
+    "title": "Not glaciers or dry ice",
+    "body": "Tossups on ice borrow clues from glaciers, glacial periods, snowflakes, and hail, so players blurt out “glaciers” or “snow,” which are different answers. “Dry ice” is not this substance at all: it is frozen carbon dioxide, which turns straight into gas. Saying just “water” earns a prompt, since the question wants water’s solid form.",
+    "fix": "If the giveaway asks for a substance, or for the solid form of water, say ice. Glaciers are slow-moving masses of ice on land, with moraines and crevasses, and dry ice is solid carbon dioxide at about −78 °C.",
+    "line": "Real answer line: <b><u>Ice</u></b> (accept frozen water; prompt on water; do not accept “glaciers” or “dry ice”)"
+  },
+  "tests": {
+    "right": [
+      "Ice",
+      "frozen water",
+      "Solid water",
+      "Water ice",
+      "Frozen watter"
+    ],
+    "prompt": [
+      "Water",
+      "H2O"
+    ],
+    "wrong": [
+      "Glaciers",
+      "Snow",
+      "Dry ice",
+      "Iceberg",
+      "Ice age",
+      "Hail",
+      "Frost"
+    ]
+  }
+}

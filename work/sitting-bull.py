@@ -1,0 +1,342 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "sitting-bull",
+    "name": "Sitting Bull",
+    "mono": "SB",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Hunkpapa Lakota holy man and leader · Led resistance on the northern Plains",
+    "dates": "c. 1831–1890",
+    "briefing": "Sitting Bull was a Hunkpapa Lakota holy man and leader who refused to give up his people’s land on the northern Plains. Weeks before the Battle of the Little Bighorn in 1876, he had a vision of soldiers falling into the Lakota camp, and the Lakota and Cheyenne then defeated George Armstrong Custer’s 7th Cavalry. He later spent four years in Canada, toured with Buffalo Bill’s Wild West, and was killed in 1890 when Indian police tried to arrest him at Standing Rock.",
+    "answerHtml": "<b><u>Sitting Bull</u></b> (or <u>Tatanka Iyotake</u>)",
+    "accept": [
+        "sitting bull",
+        "chief sitting bull",
+        "tatanka iyotake",
+        "tatanka iyotanka",
+        "tatanka yotanka"
+    ],
+    "prompt": [],
+    "reject": [
+        "crazy horse",
+        "red cloud",
+        "spotted elk",
+        "big foot",
+        "bigfoot",
+        "gall",
+        "rain in the face",
+        "two moons",
+        "black elk",
+        "spotted tail",
+        "american horse",
+        "geronimo",
+        "chief joseph",
+        "cochise",
+        "standing bear",
+        "sitting bear",
+        "short bull",
+        "kicking bear",
+        "bull head",
+        "red tomahawk",
+        "crow foot",
+        "white bull",
+        "one bull",
+        "wovoka",
+        "buffalo bill",
+        "buffalo bill cody",
+        "william cody",
+        "george armstrong custer",
+        "custer",
+        "annie oakley",
+        "battle of the little bighorn",
+        "little bighorn",
+        "wounded knee",
+        "wounded knee massacre",
+        "ghost dance",
+        "tecumseh",
+        "black hawk",
+        "pontiac"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Sitting_Bull",
+    "qb": {
+        "q": "Sitting Bull",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "During a Sun Dance in June 1876, this holy man had a vision of soldiers falling upside down into his people’s camp like grasshoppers, a sign of a coming victory. Days later, Lakota and Cheyenne warriors led by Crazy Horse fought General George Crook’s army to a standstill at the Rosebud.",
+            "r": "Weeks later, this man’s followers helped defeat George Armstrong Custer at the Little Bighorn. For 10 points, name this Hunkpapa Lakota leader."
+        },
+        {
+            "p": "In July 1881, this man surrendered at Fort Buford in Dakota Territory, where his young son Crow Foot handed over his father’s rifle. He had returned from four years in Canada after hunger and the disappearance of the buffalo left his followers struggling to survive.",
+            "r": "For 10 points, name this Hunkpapa Lakota leader whose people had defeated George Custer at the Little Bighorn."
+        },
+        {
+            "p": "In 1885, the Montreal photographer William Notman took a portrait of this man standing beside a famous showman, later captioned “Foes in ’76, Friends in ’85.” That summer, this man toured for about four months with the showman’s traveling company.",
+            "r": "That showman was Buffalo Bill Cody. For 10 points, name this Hunkpapa Lakota leader who nicknamed Annie Oakley “Little Sure Shot.”"
+        },
+        {
+            "p": "Lieutenant Bull Head and Sergeant Red Tomahawk led a group of Indian agency police to this man’s cabin on the Grand River before dawn one December morning. Agent James McLaughlin had sent them because he feared this man would lead a new religious movement among his people.",
+            "r": "This man was killed during that arrest attempt on December 15, 1890. For 10 points, name this Hunkpapa Lakota leader."
+        },
+        {
+            "p": "As a boy, this man was nicknamed “Slow” because he was so careful and deliberate. At about age 14, he counted coup on a Crow warrior, and his proud father then gave his own name to his son.",
+            "r": "For 10 points, name this Hunkpapa Lakota holy man who led his people at the time of the Little Bighorn."
+        },
+        {
+            "p": "Unlike Red Cloud, this leader refused to sign the 1868 Treaty of Fort Laramie, and he kept his followers off the reservations, hunting buffalo on the northern Plains. After gold was found in the Black Hills, the U.S. ordered all Lakota bands onto reservations by January 31, 1876.",
+            "r": "This man’s refusal led to the war in which Custer was defeated. For 10 points, name this Hunkpapa Lakota leader."
+        },
+        {
+            "p": "After seeing her shoot in St. Paul, Minnesota, in 1884, this man adopted a young sharpshooter from Ohio as an honorary daughter and gave her a Lakota name. The next year, both of them performed with the same traveling show.",
+            "r": "That sharpshooter, Annie Oakley, became known by his nickname for her, “Little Sure Shot.” For 10 points, name this Hunkpapa Lakota leader."
+        },
+        {
+            "p": "After his surrender, this man was held as a prisoner of war at Fort Randall for nearly two years. In 1883, he was allowed to rejoin his people at an agency along the Missouri River, and he settled on a farm near the Grand River.",
+            "r": "For 10 points, name this Hunkpapa Lakota leader who had fled to Canada after the Battle of the Little Bighorn."
+        },
+        {
+            "p": "In 1864, this man fought against General Alfred Sully’s army at the Battle of Killdeer Mountain in Dakota Territory. He went on to become the most important leader of the Lakota bands that refused to live on reservations.",
+            "r": "For 10 points, name this Hunkpapa Lakota leader who led the great camp at the Little Bighorn in 1876."
+        },
+        {
+            "p": "In 1889, this man tried to stop his people from signing an agreement that broke the Great Sioux Reservation into six smaller reservations and opened millions of acres to white settlers. Most Lakota men signed anyway, after long pressure from a commission led by General George Crook.",
+            "r": "For 10 points, name this Hunkpapa Lakota leader who toured with Buffalo Bill’s Wild West in 1885."
+        },
+        {
+            "p": "The Lakota call a famous battle fought beside this man’s camp “the Greasy Grass,” after their name for the river there. His huge camp beside that river in Montana Territory included Lakota, Cheyenne, and Arapaho people.",
+            "r": "Americans call that 1876 battle the Little Bighorn, where Custer died. For 10 points, name this Hunkpapa Lakota holy man."
+        },
+        {
+            "p": "This man and his followers called Canada the “Grandmother’s Land,” after Queen Victoria, and there he befriended James Walsh, an officer of the North-West Mounted Police, near Wood Mountain. Canada’s government refused to give his people a reservation.",
+            "r": "For 10 points, name this Hunkpapa Lakota leader who fled north after the Battle of the Little Bighorn."
+        },
+        {
+            "p": "In 1890, this man allowed Kicking Bear to teach a new religious movement at his camp, though historians still debate how strongly he believed in it. That movement had begun with the Paiute prophet Wovoka [“woh-VOH-kuh”].",
+            "r": "Officials feared his role in that movement, the Ghost Dance, and sent police to arrest him. For 10 points, name this Lakota leader killed in December 1890."
+        },
+        {
+            "p": "At the start of a June 1876 battle, Major Marcus Reno’s soldiers charged the camp circle of this man’s own band at the southern end of the village, but warriors including Gall drove them back across the river and onto the bluffs.",
+            "r": "Later that day, Lakota and Cheyenne warriors defeated George Armstrong Custer. For 10 points, name this Hunkpapa holy man whose vision foretold that victory."
+        },
+        {
+            "p": "In 1953, some of this man’s relatives moved what they said were his remains from Fort Yates, North Dakota, to a hill near Mobridge, South Dakota. A granite bust of him there was carved by Korczak Ziolkowski [“KOR-chak jool-KOFF-skee”], the sculptor of the Crazy Horse Memorial.",
+            "r": "He had been killed in 1890 during an attempt to arrest him. For 10 points, name this Hunkpapa Lakota leader, who toured with Buffalo Bill in 1885."
+        }
+    ],
+    "clues": [
+        {
+            "id": "hunkpapa",
+            "tier": "giveaway",
+            "t": "Hunkpapa Lakota (Sioux) holy man and leader on the northern Plains (c. 1831–1890)",
+            "k": ["hunkpapa", "lakota", "holy man"],
+            "n": 0,
+            "rabbit": "Sioux"
+        },
+        {
+            "id": "little-bighorn",
+            "tier": "giveaway",
+            "t": "Led the great camp whose warriors defeated Custer at the Little Bighorn (June 25–26, 1876)",
+            "k": ["little bighorn", "custer", "1876"],
+            "n": 0,
+            "rabbit": "Battle of the Little Bighorn"
+        },
+        {
+            "id": "wild-west",
+            "tier": "giveaway",
+            "t": "Toured with Buffalo Bill’s Wild West in 1885",
+            "k": ["buffalo bill", "wild west", "1885"],
+            "n": 0
+        },
+        {
+            "id": "killed-1890",
+            "tier": "giveaway",
+            "t": "Killed on December 15, 1890, when Indian police tried to arrest him at Standing Rock",
+            "k": ["standing rock", "indian police", "december 15"],
+            "n": 0
+        },
+        {
+            "id": "vision",
+            "tier": "middle",
+            "t": "At a Sun Dance in June 1876, he had a vision of soldiers falling upside down into the Lakota camp",
+            "k": ["sun dance", "vision", "upside down"],
+            "n": 0
+        },
+        {
+            "id": "canada",
+            "tier": "middle",
+            "t": "Led his followers into Canada after the Little Bighorn (1877–1881)",
+            "k": ["canada", "1877"],
+            "n": 0
+        },
+        {
+            "id": "fort-buford",
+            "tier": "middle",
+            "t": "Surrendered at Fort Buford in July 1881; his young son Crow Foot handed over his rifle",
+            "k": ["fort buford", "crow foot", "1881"],
+            "n": 0
+        },
+        {
+            "id": "little-sure-shot",
+            "tier": "middle",
+            "t": "Adopted Annie Oakley as an honorary daughter (1884) and nicknamed her “Little Sure Shot”",
+            "k": ["annie oakley", "little sure shot"],
+            "n": 0,
+            "rabbit": "Annie Oakley"
+        },
+        {
+            "id": "ghost-dance",
+            "tier": "middle",
+            "t": "Agent James McLaughlin feared he would lead the Ghost Dance and ordered his arrest",
+            "k": ["ghost dance", "mclaughlin"],
+            "n": 0
+        },
+        {
+            "id": "wounded-knee",
+            "tier": "middle",
+            "t": "His death came two weeks before the Wounded Knee massacre (December 29, 1890)",
+            "k": ["wounded knee", "two weeks"],
+            "n": 0,
+            "rabbit": "Wounded Knee massacre"
+        },
+        {
+            "id": "fort-laramie",
+            "tier": "middle",
+            "t": "Refused to sign the 1868 Treaty of Fort Laramie, unlike Red Cloud",
+            "k": ["fort laramie", "1868", "red cloud"],
+            "n": 0
+        },
+        {
+            "id": "crazy-horse",
+            "tier": "middle",
+            "t": "Allied with the Oglala war leader Crazy Horse, who fought General George Crook at the Rosebud days after the Sun Dance",
+            "k": ["crazy horse", "oglala", "rosebud"],
+            "n": 0
+        },
+        {
+            "id": "slow",
+            "tier": "power",
+            "t": "Nicknamed “Slow” as a boy; took his father’s name after counting coup on a Crow warrior at about 14",
+            "k": ["slow", "counting coup", "crow warrior"],
+            "n": 0
+        },
+        {
+            "id": "notman",
+            "tier": "power",
+            "t": "William Notman photographed him with Buffalo Bill in Montreal (1885): “Foes in ’76, Friends in ’85”",
+            "k": ["notman", "montreal", "foes in ’76"],
+            "n": 0
+        },
+        {
+            "id": "bull-head",
+            "tier": "power",
+            "t": "Lieutenant Bull Head and Sergeant Red Tomahawk led the police sent to arrest him at his cabin on the Grand River",
+            "k": ["bull head", "red tomahawk", "grand river"],
+            "n": 0
+        },
+        {
+            "id": "walsh",
+            "tier": "power",
+            "t": "In Canada, the “Grandmother’s Land,” he befriended James Walsh of the North-West Mounted Police near Wood Mountain",
+            "k": ["walsh", "wood mountain", "grandmother’s land"],
+            "n": 0
+        },
+        {
+            "id": "fort-randall",
+            "tier": "power",
+            "t": "Held as a prisoner of war at Fort Randall (1881–1883) before moving to the Standing Rock Agency",
+            "k": ["fort randall", "prisoner of war"],
+            "n": 0
+        },
+        {
+            "id": "killdeer",
+            "tier": "power",
+            "t": "Fought General Alfred Sully’s army at Killdeer Mountain (1864)",
+            "k": ["killdeer", "sully"],
+            "n": 0
+        },
+        {
+            "id": "agreement-1889",
+            "tier": "power",
+            "t": "Opposed the 1889 agreement, pushed by George Crook’s commission, that split the Great Sioux Reservation into six smaller ones",
+            "k": ["1889", "great sioux reservation", "crook"],
+            "n": 0
+        },
+        {
+            "id": "greasy-grass",
+            "tier": "power",
+            "t": "The Lakota call the Little Bighorn the Battle of the Greasy Grass",
+            "k": ["greasy grass"],
+            "n": 0
+        },
+        {
+            "id": "kicking-bear",
+            "tier": "power",
+            "t": "Let Kicking Bear teach the Ghost Dance at his camp (1890); the movement began with the Paiute prophet Wovoka",
+            "k": ["kicking bear", "wovoka", "paiute"],
+            "n": 0
+        },
+        {
+            "id": "reno-gall",
+            "tier": "power",
+            "t": "At the Little Bighorn, Major Marcus Reno attacked his band’s camp first, and warriors including Gall drove Reno back",
+            "k": ["reno", "gall"],
+            "n": 0
+        },
+        {
+            "id": "mobridge",
+            "tier": "power",
+            "t": "First buried at Fort Yates; in 1953 relatives moved what they said were his remains near Mobridge, where Korczak Ziolkowski carved a bust",
+            "k": ["fort yates", "mobridge", "ziolkowski"],
+            "n": 0
+        },
+        {
+            "id": "black-hills",
+            "tier": "power",
+            "t": "After gold was found in the Black Hills, the Army ordered all Lakota bands onto reservations by January 31, 1876",
+            "k": ["black hills", "january 31"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Lakota leader?",
+        "body": "Several famous Lakota leaders appear in the same tossups. Sitting Bull was a Hunkpapa holy man whose vision foretold the victory at the Little Bighorn; Crazy Horse was an Oglala war leader who led warriors in the fighting there; and Red Cloud was an Oglala chief who signed the 1868 Treaty of Fort Laramie. Geronimo (Apache) and Chief Joseph (Nez Perce) led resistance in other regions.",
+        "fix": "Canada, Fort Buford, Buffalo Bill’s Wild West, “Little Sure Shot,” and the arrest at Standing Rock in 1890 mean Sitting Bull. The Rosebud, a surrender at Camp Robinson in 1877, and the unfinished mountain carving in South Dakota mean Crazy Horse.",
+        "line": "Real answer line: <b><u>Sitting Bull</u></b> (or <u>Tatanka Iyotake</u>)"
+    },
+    "tests": {
+        "right": [
+            "Sitting Bull",
+            "Chief Sitting Bull",
+            "Siting Bull",
+            "Tatanka Iyotake",
+            "sitting bul"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Crazy Horse",
+            "Red Cloud",
+            "Geronimo",
+            "Chief Joseph",
+            "Spotted Elk",
+            "Buffalo Bill",
+            "Sitting Bear",
+            "Custer"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

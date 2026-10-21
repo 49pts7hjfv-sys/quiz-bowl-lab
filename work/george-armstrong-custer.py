@@ -114,7 +114,7 @@ data = {
           "For 10 points, name this U.S. cavalry commander who was killed in that battle, the Little Bighorn.")
     ],
     "clues": [
-        C("little-bighorn", "giveaway", "Killed with all the soldiers under his direct command at the Battle of the Little Bighorn (June 25, 1876), his “Last Stand”", ["little bighorn", "last stand", "june 25, 1876"], "Battle of the Little Bighorn"),
+        C("little-bighorn", "giveaway", "Killed on June 25, 1876, with all the soldiers under his direct command, at the Battle of the Little Bighorn (his “Last Stand”)", ["little bighorn", "last stand", "june 25, 1876"], "Battle of the Little Bighorn"),
         C("seventh-cavalry", "giveaway", "Commanded the U.S. 7th Cavalry on the Great Plains", ["7th cavalry", "great plains"]),
         C("lakota-cheyenne", "giveaway", "Defeated by Lakota and Cheyenne warriors; Sitting Bull and Crazy Horse were their best-known leaders", ["sitting bull", "crazy horse", "lakota", "cheyenne"], "Sitting Bull"),
         C("boy-general", "giveaway", "Union cavalry general in the Civil War, nicknamed the “Boy General”", ["boy general", "civil war"]),

@@ -1,0 +1,432 @@
+{
+  "id": "cepheid-variables",
+  "name": "Cepheid variables",
+  "mono": "CEP",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Pulsing stars that reveal their true brightness · Yardsticks for the universe",
+  "dates": "First found 1784; Leavitt’s law 1912",
+  "briefing": "Cepheid variables are giant stars that swell and shrink like a beating heart, brightening and dimming on a regular schedule of days or weeks. In 1912, Henrietta Swan Leavitt discovered that the slower a Cepheid pulses, the more light it truly gives off, so astronomers can work out how far away it is. Edwin Hubble used that rule to show that the Andromeda “nebula” is a separate galaxy.",
+  "answerHtml": "<b><u>Cepheid</u></b> variables (accept <u>Cepheid</u>s or <u>Delta Cephei</u> variables; prompt on <u>variable star</u>s, <u>pulsating star</u>s, or <u>standard candle</u>s; do not accept “RR Lyrae” or “Polaris”)",
+  "accept": [
+    "cepheid variables",
+    "cepheid variable",
+    "cepheids",
+    "cepheid",
+    "cepheid variable stars",
+    "cepheid variable star",
+    "cepheid stars",
+    "cepheid star",
+    "classical cepheids",
+    "classical cepheid",
+    "delta cephei variables",
+    "delta cephei variable",
+    "delta cephei stars",
+    "delta cephei star"
+  ],
+  "prompt": [
+    "variable stars",
+    "variable star",
+    "variables",
+    "pulsating stars",
+    "pulsating star",
+    "pulsating variables",
+    "pulsating variable stars",
+    "standard candles",
+    "standard candle",
+    "delta cephei"
+  ],
+  "reject": [
+    "rr lyrae",
+    "rr lyrae variables",
+    "rr lyrae stars",
+    "mira variables",
+    "mira",
+    "polaris",
+    "cepheus",
+    "eclipsing binaries",
+    "eclipsing binary",
+    "type ia supernovae",
+    "type ia supernova",
+    "supernovae",
+    "supernova",
+    "pulsars",
+    "pulsar",
+    "henrietta leavitt",
+    "henrietta swan leavitt",
+    "leavitt",
+    "red giants",
+    "white dwarfs",
+    "algol",
+    "delta scuti",
+    "instability strip"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cepheid_variable",
+  "qb": {
+    "q": "Cepheid",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Edward Pigott found one of these stars, Eta Aquilae, in 1784, the same year that his deaf young friend John Goodricke noticed that a star in the constellation of a mythical king brightened and dimmed every five days or so.",
+      "r": "Goodricke’s star, Delta Cephei, names this class. For 10 points, name these pulsating stars used as standard candles."
+    },
+    {
+      "p": "While studying photographic plates of the Small Magellanic Cloud, a Harvard “computer” realized that she could compare these stars fairly, because all of them lie at about the same distance from Earth. She hinted at her famous pattern in 1908 and confirmed it in 1912.",
+      "r": "That astronomer, Henrietta Swan Leavitt [“LEV-it”], found that the longer these stars take to pulse, the brighter they are. For 10 points, name these pulsating stars."
+    },
+    {
+      "p": "In October 1923, Edwin Hubble crossed out the letter “N” on a photographic plate of the Andromeda “nebula” and wrote “VAR!” after realizing that a star he had marked as a nova was really one of these stars.",
+      "r": "That star proved that Andromeda is a separate galaxy. For 10 points, name these pulsating stars that serve as standard candles."
+    },
+    {
+      "p": "Walter Baade [“BAH-duh”] showed in 1952 that these stars come in two types that differ in brightness, which meant that distances to other galaxies were roughly twice what Edwin Hubble had measured.",
+      "r": "For 10 points, name these pulsating stars that follow Henrietta Leavitt’s period–luminosity law."
+    },
+    {
+      "p": "These stars pulse because of the kappa mechanism, in which a layer of partly ionized helium soaks up heat when it is squeezed and lets it out when it expands, working like a valve that Arthur Eddington first imagined.",
+      "r": "For 10 points, name these yellow giant stars that brighten and dim in regular cycles, named for Delta Cephei."
+    },
+    {
+      "p": "Polaris, the North Star, is the closest of these stars to Earth, though its brightness changes only slightly over a cycle of about four days.",
+      "r": "For 10 points, name these pulsating stars whose periods reveal their true brightness, named for Delta Cephei."
+    },
+    {
+      "p": "In 1914, Harlow Shapley argued that these stars change brightness because they pulse in and out, not because they are pairs of stars eclipsing each other. Shapley later used variable stars in globular clusters to show that the Sun lies far from the center of the Milky Way.",
+      "r": "For 10 points, name these pulsating stars, used as standard candles."
+    },
+    {
+      "p": "On the H–R diagram, these stars lie in a narrow region called the instability strip, which also holds RR Lyrae [“LY-ree”] stars. Classical examples of these stars are yellow supergiants, far more luminous than the Sun.",
+      "r": "For 10 points, name these pulsating stars whose periods reveal their luminosity."
+    },
+    {
+      "p": "In 1925, the Swedish mathematician Gösta Mittag-Leffler wrote to the astronomer who discovered a key rule about these stars, hoping to nominate her for a Nobel Prize, without knowing that she had died years earlier.",
+      "r": "That astronomer was Henrietta Swan Leavitt. For 10 points, name these pulsating stars used to measure distances to galaxies."
+    },
+    {
+      "p": "Expansion rates for the universe measured with these stars and supernovae disagree with values worked out from the cosmic microwave background, a puzzle called the Hubble tension. The Hubble Space Telescope’s Key Project studied these stars in galaxies millions of light-years away.",
+      "r": "For 10 points, name these pulsating stars, which work as standard candles."
+    },
+    {
+      "p": "As these stars pulse, Doppler shifts in their spectra show their surfaces moving toward and away from us, and their temperatures rise and fall along with their sizes. Their cycles range from about a day to a few months.",
+      "r": "Longer-period ones are more luminous. For 10 points, name these pulsating stars named for Delta Cephei."
+    },
+    {
+      "p": "In 1913, Ejnar Hertzsprung worked out distances to a few nearby examples of these stars, which turned Henrietta Leavitt’s rule into a tool for measuring distances across space.",
+      "r": "For 10 points, name these pulsating stars whose periods reveal how bright they truly are."
+    },
+    {
+      "p": "One astronomer who studied these stars lost much of her hearing and discovered more than 2,000 variable stars, but the 1912 report announcing her famous rule about these stars was signed by her boss at Harvard, Edward Pickering.",
+      "r": "She was Henrietta Swan Leavitt. For 10 points, name these stars, whose periods reveal how bright they truly are."
+    },
+    {
+      "p": "On the cosmic distance ladder, these stars form the rung just above parallax, and astronomers use them to check the true brightness of Type Ia supernovae in nearby galaxies.",
+      "r": "For 10 points, name these stars that brighten and dim in a regular cycle whose period reveals their luminosity."
+    },
+    {
+      "p": "The same deaf astronomer who discovered the namesake of these stars had earlier suggested that the star Algol dims because a darker companion passes in front of it.",
+      "r": "That astronomer, John Goodricke, found Delta Cephei in 1784. For 10 points, name these pulsating stars used as standard candles."
+    }
+  ],
+  "clues": [
+    {
+      "id": "pulsating",
+      "tier": "giveaway",
+      "t": "Pulsating stars that brighten and dim in a regular cycle as they swell and shrink",
+      "k": [
+        "pulsating",
+        "brighten and dim",
+        "swell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "period-luminosity",
+      "tier": "giveaway",
+      "t": "The longer one takes to pulse, the more luminous it is: the period–luminosity relation",
+      "k": [
+        "period",
+        "luminosity",
+        "longer"
+      ],
+      "n": 0,
+      "rabbit": "Luminosity"
+    },
+    {
+      "id": "standard-candles",
+      "tier": "giveaway",
+      "t": "Used as standard candles to measure distances to other galaxies",
+      "k": [
+        "standard candles",
+        "distances"
+      ],
+      "n": 0
+    },
+    {
+      "id": "delta-cephei",
+      "tier": "giveaway",
+      "t": "Named for Delta Cephei, a star in the constellation Cepheus",
+      "k": [
+        "delta cephei",
+        "constellation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leavitt",
+      "tier": "giveaway",
+      "t": "Henrietta Swan Leavitt discovered their period–luminosity rule (Leavitt’s law) in 1912",
+      "k": [
+        "leavitt",
+        "1912"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smc",
+      "tier": "middle",
+      "t": "Leavitt found the rule (hinted at in 1908, confirmed in 1912) by studying ones in the Small Magellanic Cloud, which all lie at about the same distance",
+      "k": [
+        "small magellanic cloud",
+        "same distance"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hubble-andromeda",
+      "tier": "middle",
+      "t": "Edwin Hubble found one in the Andromeda “nebula” (1923), proving it is a separate galaxy",
+      "k": [
+        "hubble",
+        "andromeda",
+        "1923"
+      ],
+      "n": 0,
+      "rabbit": "Andromeda Galaxy"
+    },
+    {
+      "id": "polaris",
+      "tier": "middle",
+      "t": "Polaris, the North Star, is the closest one to Earth",
+      "k": [
+        "polaris",
+        "north star"
+      ],
+      "n": 0
+    },
+    {
+      "id": "goodricke",
+      "tier": "middle",
+      "t": "John Goodricke discovered that Delta Cephei changes in brightness in 1784",
+      "k": [
+        "goodricke",
+        "1784"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harvard-computers",
+      "tier": "middle",
+      "t": "Leavitt was one of the women “computers” hired by Edward Pickering to study photographic plates at Harvard; he signed the 1912 report of her rule",
+      "k": [
+        "computers",
+        "pickering",
+        "harvard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yellow-supergiants",
+      "tier": "middle",
+      "t": "Classical ones are yellow giants or supergiants, far more luminous than the Sun",
+      "k": [
+        "yellow",
+        "supergiants"
+      ],
+      "n": 0
+    },
+    {
+      "id": "instability-strip",
+      "tier": "middle",
+      "t": "They lie in the instability strip of the H–R diagram, along with RR Lyrae stars",
+      "k": [
+        "instability strip",
+        "rr lyrae"
+      ],
+      "n": 0,
+      "rabbit": "Hertzsprung–Russell diagram"
+    },
+    {
+      "id": "baade",
+      "tier": "middle",
+      "t": "Walter Baade showed in 1952 that there are two types, roughly doubling Hubble’s distances to galaxies",
+      "k": [
+        "baade",
+        "1952",
+        "two types"
+      ],
+      "n": 0,
+      "rabbit": "Edwin Hubble"
+    },
+    {
+      "id": "kappa",
+      "tier": "power",
+      "t": "They pulse because of the kappa mechanism: a layer of partly ionized helium traps heat like a valve, an idea first imagined by Arthur Eddington",
+      "k": [
+        "kappa mechanism",
+        "valve",
+        "eddington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pigott",
+      "tier": "power",
+      "t": "Goodricke’s friend Edward Pigott found another one, Eta Aquilae, in the same year",
+      "k": [
+        "pigott",
+        "eta aquilae"
+      ],
+      "n": 0
+    },
+    {
+      "id": "algol",
+      "tier": "power",
+      "t": "Goodricke, who was deaf, had earlier suggested that Algol dims when a darker companion passes in front of it",
+      "k": [
+        "algol",
+        "deaf",
+        "companion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shapley",
+      "tier": "power",
+      "t": "Harlow Shapley argued in 1914 that they pulse rather than being eclipsing pairs; he later used variable stars to show the Sun is far from the Milky Way’s center",
+      "k": [
+        "shapley",
+        "1914",
+        "eclipsing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mittag-leffler",
+      "tier": "power",
+      "t": "In 1925, Gösta Mittag-Leffler hoped to nominate Leavitt for a Nobel Prize, not knowing she had died in 1921",
+      "k": [
+        "mittag-leffler",
+        "nobel",
+        "1921"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hertzsprung",
+      "tier": "power",
+      "t": "Ejnar Hertzsprung worked out distances to a few nearby ones in 1913, turning Leavitt’s rule into a measuring tool",
+      "k": [
+        "hertzsprung",
+        "1913"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hubble-tension",
+      "tier": "power",
+      "t": "Expansion rates measured with them and Type Ia supernovae disagree with rates from the cosmic microwave background: the Hubble tension",
+      "k": [
+        "hubble tension",
+        "expansion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "key-project",
+      "tier": "power",
+      "t": "The Hubble Space Telescope’s Key Project studied them in galaxies millions of light-years away to measure the universe’s expansion rate",
+      "k": [
+        "key project",
+        "millions of light-years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distance-ladder",
+      "tier": "power",
+      "t": "On the cosmic distance ladder, they form the rung just above parallax and are used to check the brightness of Type Ia supernovae",
+      "k": [
+        "distance ladder",
+        "parallax"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "periods",
+      "tier": "power",
+      "t": "Their cycles last from about a day to a few months; Delta Cephei’s takes about 5.4 days and Polaris’s about 4 days",
+      "k": [
+        "5.4 days",
+        "few months"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doppler",
+      "tier": "power",
+      "t": "Doppler shifts in their spectra show their surfaces moving toward and away from us as they pulse",
+      "k": [
+        "doppler",
+        "spectra"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-thousand",
+      "tier": "power",
+      "t": "Leavitt, who lost much of her hearing, found more than 2,000 variable stars",
+      "k": [
+        "2,000",
+        "hearing"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which variable star?",
+    "body": "Several kinds of variable stars show up in astronomy tossups. RR Lyrae stars also pulse and also work as standard candles, but their cycles last less than a day. Mira variables are cool red giants with cycles of many months, and eclipsing binaries such as Algol dim only because one star passes in front of the other. Players also blurt out “Henrietta Leavitt” or “Polaris,” a person and a single example, when the question wants the whole class of stars.",
+    "fix": "Leavitt’s period–luminosity law, Delta Cephei, John Goodricke, Hubble’s “VAR!” star in Andromeda, or Walter Baade’s two types means Cepheid variables. Cycles shorter than a day in old globular clusters point to RR Lyrae stars. Saying only “variable stars” earns a prompt, so add “Cepheid.”",
+    "line": "Real answer line: <b><u>Cepheid</u></b> variables (accept <u>Cepheid</u>s; prompt on <u>variable star</u>s; do not accept “RR Lyrae”)"
+  },
+  "tests": {
+    "right": [
+      "Cepheid variables",
+      "Cepheids",
+      "cepheid",
+      "Cepheid variable stars",
+      "Cephid variables",
+      "Delta Cephei variables"
+    ],
+    "prompt": [
+      "variable stars",
+      "standard candles"
+    ],
+    "wrong": [
+      "RR Lyrae",
+      "Polaris",
+      "Cepheus",
+      "Mira",
+      "eclipsing binaries",
+      "Type Ia supernovae"
+    ]
+  }
+}

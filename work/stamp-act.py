@@ -70,7 +70,7 @@ data = {
             "r": "In that speech, Barré called the colonists “Sons of Liberty.” For 10 points, name this 1765 British tax on newspapers, legal papers, and playing cards."
         },
         {
-            "p": "On August 14, 1765, a Boston crowd hanged an effigy of Andrew Oliver from a large elm, later called the Liberty Tree, because he had been chosen to collect this law’s tax in Massachusetts. Oliver resigned the next day, and less than two weeks later a mob wrecked the mansion of Lieutenant Governor Thomas Hutchinson.",
+            "p": "On August 14, 1765, a Boston crowd hanged an effigy of Andrew Oliver from a large elm, later called the Liberty Tree, because he had been chosen to collect this law’s tax in Massachusetts. Oliver agreed to resign the next day, and less than two weeks later a mob wrecked the mansion of Lieutenant Governor Thomas Hutchinson.",
             "r": "Parliament repealed this law in 1766. For 10 points, name this tax that required colonists to buy specially marked paper."
         },
         {

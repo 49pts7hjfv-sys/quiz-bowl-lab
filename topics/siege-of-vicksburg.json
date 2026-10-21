@@ -1,0 +1,443 @@
+{
+  "id": "siege-of-vicksburg",
+  "name": "Siege of Vicksburg",
+  "mono": "VB",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Grant’s 1863 siege on the Mississippi · Split the Confederacy in two",
+  "dates": "May 18–July 4, 1863",
+  "briefing": "In 1863, Ulysses S. Grant’s army trapped nearly 30,000 Confederate soldiers inside Vicksburg, Mississippi, a fortress city on high bluffs above the Mississippi River. For 47 days, Union cannons and gunboats shelled the city, and many families lived in caves dug into the hillsides. When it surrendered on July 4, the day after the Battle of Gettysburg ended, the Union soon controlled the whole river and split the Confederacy in two.",
+  "answerHtml": "Siege of <b><u>Vicksburg</u></b> (or <u>Vicksburg</u> Campaign; prompt on “siege” alone; do not accept “Port Hudson”)",
+  "accept": [
+    "siege of vicksburg",
+    "the siege of vicksburg",
+    "vicksburg",
+    "vicksburg campaign",
+    "battle of vicksburg",
+    "fall of vicksburg",
+    "capture of vicksburg"
+  ],
+  "prompt": [
+    "siege",
+    "the siege"
+  ],
+  "reject": [
+    "port hudson",
+    "siege of port hudson",
+    "battle of port hudson",
+    "battle of gettysburg",
+    "gettysburg",
+    "battle of shiloh",
+    "shiloh",
+    "battle of chattanooga",
+    "chattanooga",
+    "fort donelson",
+    "battle of fort donelson",
+    "siege of petersburg",
+    "petersburg",
+    "siege of yorktown",
+    "yorktown",
+    "atlanta campaign",
+    "march to the sea",
+    "anaconda plan",
+    "mississippi river",
+    "state of mississippi",
+    "battle of champion hill",
+    "champion hill",
+    "battle of chickasaw bayou",
+    "chickasaw bayou",
+    "capture of new orleans",
+    "battle of new orleans",
+    "ulysses s grant",
+    "john c pemberton",
+    "griersons raid"
+  ],
+  "tests": {
+    "right": [
+      "Siege of Vicksburg",
+      "Vicksburg",
+      "Vicksburg Campaign",
+      "Battle of Vicksburg",
+      "Vicksberg"
+    ],
+    "prompt": [
+      "siege"
+    ],
+    "wrong": [
+      "Port Hudson",
+      "Battle of Gettysburg",
+      "Mississippi River",
+      "Anaconda Plan",
+      "Shiloh",
+      "Siege of Petersburg",
+      "Chattanooga"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Siege_of_Vicksburg",
+  "qb": {
+    "q": "Vicksburg",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "After this event, Abraham Lincoln wrote to Ulysses S. Grant admitting “you were right, and I was wrong” about Grant’s decision to turn inland instead of joining Nathaniel Banks. Before this event began, Grant’s army had crossed the river south of its target and won five battles in less than three weeks.",
+      "r": "For 10 points, name this 1863 Union victory in which Grant captured a Mississippi River city on July 4."
+    },
+    {
+      "p": "The ironclad USS _Cairo_ sank in the Yazoo River after hitting a mine during an early Union attempt to reach the target of this campaign. About a century later, the ship was raised and put on display at the national military park that honors this campaign.",
+      "r": "For 10 points, name this 1863 siege in which Ulysses S. Grant captured a Mississippi city on July 4."
+    },
+    {
+      "p": "Benjamin Grierson’s cavalry raid, the basis of the John Wayne film _The Horse Soldiers_, distracted Confederate defenders during this campaign. While Grierson rode south through Mississippi, the main Union army crossed the river at Bruinsburg in one of the largest amphibious landings in U.S. history before World War II.",
+      "r": "For 10 points, name this 1863 campaign in which Ulysses S. Grant besieged and captured a Mississippi River city."
+    },
+    {
+      "p": "During this siege, many residents dug caves into the city’s hillsides to escape constant shelling, and some ate mule meat as food ran out. After 47 days, the Confederate commander surrendered his army of nearly 30,000 men.",
+      "r": "For 10 points, name this siege that ended on July 4, 1863, giving the Union control of the Mississippi River."
+    },
+    {
+      "p": "On the night of April 16, 1863, David Dixon Porter’s gunboats ran past the batteries guarding the target of this campaign, taking heavy fire from the bluffs. Those boats then helped carry Union troops across the river south of the city.",
+      "r": "For 10 points, name this campaign that ended when John C. Pemberton surrendered to Ulysses S. Grant on July 4, 1863."
+    },
+    {
+      "p": "Ulysses S. Grant’s army captured the Mississippi state capital, Jackson, and then defeated John C. Pemberton’s army at Champion Hill and the Big Black River Bridge in May 1863. Pemberton’s troops then retreated into the city whose capture was the goal of this campaign.",
+      "r": "For 10 points, name this campaign and siege that ended with the city’s surrender on July 4, 1863."
+    },
+    {
+      "p": "During the winter before this siege, Union soldiers tried to dig a canal across a peninsula so boats could bypass the city’s guns, and they also tried routes through Lake Providence and the Yazoo Pass. All of those attempts failed.",
+      "r": "For 10 points, name this Mississippi River siege won by Ulysses S. Grant in July 1863."
+    },
+    {
+      "p": "William T. Sherman’s attack at Chickasaw Bayou failed in December 1862, the same month that Earl Van Dorn’s cavalry destroyed a Union supply base at Holly Springs. Those setbacks forced Ulysses S. Grant to find a new route to the city he was trying to capture.",
+      "r": "For 10 points, name this 1863 siege of a Confederate stronghold on the Mississippi River, which ended on July 4."
+    },
+    {
+      "p": "Union soldiers dug a tunnel under the 3rd Louisiana Redan and exploded a mine there on June 25, 1863, during this siege. Ulysses S. Grant had begun the siege after two direct assaults on the city’s defenses failed in May.",
+      "r": "For 10 points, name this siege that ended on July 4, 1863, a day after the Battle of Gettysburg."
+    },
+    {
+      "p": "The Confederate commander in this siege was a Pennsylvania-born general who had sided with the South, and he hoped in vain that Joseph E. Johnston’s army would come to rescue him. That general was John C. Pemberton.",
+      "r": "For 10 points, name this siege in which Pemberton surrendered a Mississippi River city to Ulysses S. Grant in 1863."
+    },
+    {
+      "p": "Rather than send them to prison camps, Ulysses S. Grant paroled nearly 30,000 Confederate soldiers who surrendered at the end of this siege. He had first demanded an unconditional surrender, just as he had at Fort Donelson the year before.",
+      "r": "The surrender came on July 4, 1863, the day after the Battle of Gettysburg ended. For 10 points, name this siege of a Mississippi River city."
+    },
+    {
+      "p": "After this siege and the surrender of Port Hudson five days later, Abraham Lincoln wrote that “the Father of Waters again goes unvexed to the sea.” Union control of that river split the Confederacy and cut off Texas, Arkansas, and Louisiana.",
+      "r": "For 10 points, name this 1863 siege in which Ulysses S. Grant captured a key Confederate city on the Mississippi River."
+    },
+    {
+      "p": "During this siege, Ulysses S. Grant removed John McClernand from command after McClernand published an order praising his own troops and suggesting that other units had let them down in a failed assault. Grant’s other corps commanders there included William T. Sherman and James McPherson.",
+      "r": "For 10 points, name this siege that ended with John C. Pemberton’s surrender on July 4, 1863."
+    },
+    {
+      "p": "In 1862, after capturing New Orleans, David Farragut’s fleet demanded the surrender of the city targeted in this siege, but its defenders refused. Because the city’s guns controlled the river from high bluffs, people called it the “Gibraltar of the Confederacy.”",
+      "r": "For 10 points, name this 1863 siege in which Ulysses S. Grant finally captured that city."
+    },
+    {
+      "p": "The city at the center of this siege stood on high bluffs above a hairpin bend in a river, so its cannons could fire on any boat passing below. Capturing it was a key step toward the goal of Winfield Scott’s Anaconda Plan.",
+      "r": "That plan aimed to split the Confederacy in two. For 10 points, name this 1863 siege that ended with a Union victory on July 4."
+    }
+  ],
+  "clues": [
+    {
+      "id": "grant-wins",
+      "tier": "giveaway",
+      "t": "Ulysses S. Grant’s greatest Western victory: he captured the city on July 4, 1863",
+      "k": [
+        "ulysses s. grant",
+        "grant",
+        "july 4"
+      ],
+      "n": 0,
+      "rabbit": "Ulysses S. Grant"
+    },
+    {
+      "id": "river-control",
+      "tier": "giveaway",
+      "t": "Gave the Union control of the Mississippi River, splitting the Confederacy in two",
+      "k": [
+        "mississippi river",
+        "splitting",
+        "control"
+      ],
+      "n": 0,
+      "rabbit": "Mississippi River"
+    },
+    {
+      "id": "gettysburg",
+      "tier": "giveaway",
+      "t": "Ended the day after the Battle of Gettysburg, making July 1863 a turning point of the Civil War",
+      "k": [
+        "gettysburg",
+        "turning point"
+      ],
+      "n": 0,
+      "rabbit": "Battle of Gettysburg"
+    },
+    {
+      "id": "bluffs",
+      "tier": "giveaway",
+      "t": "A river city in the state of Mississippi, on high bluffs above the river",
+      "k": [
+        "bluffs",
+        "state of mississippi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pemberton",
+      "tier": "middle",
+      "t": "Confederate commander John C. Pemberton, a Pennsylvania-born general, surrendered his army",
+      "k": [
+        "pemberton",
+        "pennsylvania"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caves",
+      "tier": "middle",
+      "t": "Residents dug caves into the hillsides to escape the shelling; some ate mule meat",
+      "k": [
+        "caves",
+        "mule",
+        "shelling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "47-days",
+      "tier": "middle",
+      "t": "The siege lasted 47 days, from May 18 to July 4, 1863",
+      "k": [
+        "47 days",
+        "may 18"
+      ],
+      "n": 0
+    },
+    {
+      "id": "port-hudson",
+      "tier": "middle",
+      "t": "Port Hudson, Louisiana, surrendered five days later, giving the Union the whole river",
+      "k": [
+        "port hudson",
+        "five days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gibraltar",
+      "tier": "middle",
+      "t": "The city was nicknamed the “Gibraltar of the Confederacy”",
+      "k": [
+        "gibraltar"
+      ],
+      "n": 0
+    },
+    {
+      "id": "grierson",
+      "tier": "middle",
+      "t": "Benjamin Grierson’s cavalry raid through Mississippi distracted the defenders (the basis of _The Horse Soldiers_)",
+      "k": [
+        "grierson",
+        "horse soldiers",
+        "cavalry raid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "champion-hill",
+      "tier": "middle",
+      "t": "On the way, Grant took Jackson and won at Champion Hill and Big Black River Bridge (May 1863)",
+      "k": [
+        "champion hill",
+        "jackson",
+        "big black"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anaconda",
+      "tier": "middle",
+      "t": "A key step toward the goal of Winfield Scott’s Anaconda Plan",
+      "k": [
+        "anaconda",
+        "winfield scott"
+      ],
+      "n": 0,
+      "rabbit": "Anaconda Plan"
+    },
+    {
+      "id": "father-of-waters",
+      "tier": "middle",
+      "t": "Lincoln afterward: “The Father of Waters again goes unvexed to the sea”",
+      "k": [
+        "father of waters",
+        "unvexed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lincoln-letter",
+      "tier": "power",
+      "t": "Lincoln wrote to Grant afterward: “you were right, and I was wrong”",
+      "k": [
+        "you were right",
+        "i was wrong",
+        "letter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cairo",
+      "tier": "power",
+      "t": "The ironclad USS _Cairo_ sank on the Yazoo River (1862) and was later displayed at the national military park",
+      "k": [
+        "cairo",
+        "yazoo",
+        "ironclad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bruinsburg",
+      "tier": "power",
+      "t": "Grant’s army crossed the Mississippi at Bruinsburg (April 30, 1863)",
+      "k": [
+        "bruinsburg",
+        "april 30"
+      ],
+      "n": 0
+    },
+    {
+      "id": "porter",
+      "tier": "power",
+      "t": "David Dixon Porter’s gunboats ran past the city’s batteries at night (April 16, 1863)",
+      "k": [
+        "david dixon porter",
+        "porter",
+        "gunboats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "five-battles",
+      "tier": "power",
+      "t": "Grant won five battles in less than three weeks before the siege began",
+      "k": [
+        "five battles",
+        "three weeks"
+      ],
+      "n": 0
+    },
+    {
+      "id": "canal",
+      "tier": "power",
+      "t": "Failed winter attempts: a canal across a peninsula, Lake Providence, and the Yazoo Pass",
+      "k": [
+        "canal",
+        "lake providence",
+        "yazoo pass"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chickasaw",
+      "tier": "power",
+      "t": "William T. Sherman’s attack at Chickasaw Bayou failed (December 1862)",
+      "k": [
+        "chickasaw bayou",
+        "sherman",
+        "december 1862"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holly-springs",
+      "tier": "power",
+      "t": "Earl Van Dorn’s raid destroyed Grant’s supply base at Holly Springs (December 1862)",
+      "k": [
+        "holly springs",
+        "van dorn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "assaults",
+      "tier": "power",
+      "t": "Two Union assaults failed on May 19 and May 22, so Grant settled into a siege",
+      "k": [
+        "assaults",
+        "may 22",
+        "may 19"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mine",
+      "tier": "power",
+      "t": "Union soldiers exploded a mine under the 3rd Louisiana Redan (June 25, 1863)",
+      "k": [
+        "3rd louisiana redan",
+        "redan",
+        "mine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "johnston",
+      "tier": "power",
+      "t": "Joseph E. Johnston’s army never came to break the siege",
+      "k": [
+        "joseph e. johnston",
+        "johnston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parole",
+      "tier": "power",
+      "t": "Grant paroled nearly 30,000 surrendered Confederates instead of sending them to prison camps",
+      "k": [
+        "paroled",
+        "30,000",
+        "prison camps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mcclernand",
+      "tier": "power",
+      "t": "Grant removed John McClernand from command during the siege after McClernand published an order praising his own troops",
+      "k": [
+        "mcclernand"
+      ],
+      "n": 0
+    },
+    {
+      "id": "farragut",
+      "tier": "power",
+      "t": "David Farragut’s fleet demanded the city’s surrender in 1862 but was refused",
+      "k": [
+        "farragut",
+        "1862"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Siege, river, or Gettysburg?",
+    "body": "Tossups on this siege are full of Mississippi River clues, but the river, the Anaconda Plan, and Port Hudson are separate answer lines. And because the city fell on July 4, 1863, the day after the Battle of Gettysburg ended, players sometimes blurt out “Gettysburg” when they hear July 1863. Ulysses S. Grant’s other Western victories, Fort Donelson, Shiloh, and Chattanooga, are traps too.",
+    "fix": "Pemberton, caves, Champion Hill, Grierson’s Raid, Porter’s gunboats, and a siege of 47 days mean Vicksburg. Robert E. Lee, Pickett’s Charge, and Pennsylvania mean Gettysburg. “Vicksburg” alone is enough.",
+    "line": "Real answer line: Siege of <b><u>Vicksburg</u></b> (or <u>Vicksburg</u> Campaign)"
+  }
+}

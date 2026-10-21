@@ -1,0 +1,493 @@
+{
+  "id": "the-number-two",
+  "name": "The number two",
+  "mono": "2",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "The only even prime · The base of the binary system",
+  "dates": "Leibniz’s paper on binary arithmetic, 1703",
+  "briefing": "Two is the smallest prime number and the only even one, since every other even number can be divided by 2. It is the base of binary, the 0-and-1 system computers use, and its square root, about 1.414, is the length of the diagonal of a square with sides of 1. Legend says the Pythagoreans were so upset to learn that √2 can’t be written as a fraction that they punished the man who revealed it.",
+  "answerHtml": "<b><u>two</u></b> (or <u>2</u>)",
+  "accept": [
+    "two",
+    "2",
+    "the number two",
+    "number two",
+    "the number 2",
+    "number 2"
+  ],
+  "prompt": [],
+  "reject": [
+    "zero",
+    "0",
+    "the number zero",
+    "number zero",
+    "one",
+    "1",
+    "the number one",
+    "number one",
+    "three",
+    "3",
+    "the number three",
+    "number three",
+    "four",
+    "4",
+    "the number four",
+    "number four",
+    "six",
+    "the number six",
+    "number six",
+    "ten",
+    "the number ten",
+    "number ten",
+    "twelve",
+    "twenty",
+    "half",
+    "a half",
+    "one half",
+    "square root of two",
+    "square root of 2",
+    "binary",
+    "binary numbers",
+    "binary number",
+    "base 2",
+    "base two",
+    "even",
+    "even number",
+    "even numbers",
+    "prime",
+    "prime number",
+    "prime numbers",
+    "even prime",
+    "pair",
+    "twin primes",
+    "twin prime",
+    "helium",
+    "pi",
+    "e",
+    "i",
+    "infinity",
+    "the number 0",
+    "the number 1",
+    "the number 3",
+    "the number 4",
+    "the number 5",
+    "the number 6",
+    "the number 7",
+    "the number 8",
+    "the number 9",
+    "the number 10",
+    "the number 12",
+    "the number 20",
+    "the number 22",
+    "number 0",
+    "number 1",
+    "number 3",
+    "number 4",
+    "number 5",
+    "number 6",
+    "number 7",
+    "number 8",
+    "number 9",
+    "number 10",
+    "number 12",
+    "number 20",
+    "number 22"
+  ],
+  "tests": {
+    "right": [
+      "two",
+      "2",
+      "The number two",
+      "number 2",
+      "Two",
+      "the number 2"
+    ],
+    "prompt": [],
+    "wrong": [
+      "one",
+      "four",
+      "The number four",
+      "binary",
+      "prime number",
+      "even",
+      "three",
+      "the number three",
+      "half"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/2",
+  "qb": {
+    "q": "two",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The Babylonian clay tablet YBC 7289 shows the square root of this number, the length of the diagonal of a square with side 1, correct to about six decimal places. Legend says the Pythagorean Hippasus [“HIP-uh-sus”] was drowned at sea for revealing that the square root of this number cannot be written as a fraction.",
+      "r": "Its square root is about 1.414. For 10 points, name this smallest prime number, the only prime that is even."
+    },
+    {
+      "p": "Alfred North Whitehead and Bertrand Russell’s _Principia Mathematica_ took hundreds of pages to prove that 1 plus 1 equals this number. Aristotle wrote that, strictly speaking, this is the smallest number, since many Greek thinkers did not count 1 as a number at all.",
+      "r": "For 10 points, name this number, the base of the binary system, which uses only the digits 0 and 1."
+    },
+    {
+      "p": "Christian Goldbach’s still-unproven conjecture says that every even number greater than this number is the sum of this many primes. Primes such as 11 and 13, which differ by this number, are believed to go on forever.",
+      "r": "Such primes are called twin primes. For 10 points, name this only even prime number."
+    },
+    {
+      "p": "In 2024, the volunteer project GIMPS found a prime with more than 41 million digits that is 1 less than a power of this number. Primes of that form, named for Marin Mersenne [“mair-SEN”], require the exponent to be prime as well.",
+      "r": "Every even number is divisible by this number. For 10 points, name this number, the base of the binary system."
+    },
+    {
+      "p": "Leonhard Euler showed that for any convex polyhedron, the number of vertices minus the number of edges plus the number of faces equals this number. A cube, for example, gives 8 minus 12 plus 6.",
+      "r": "Each U.S. state elects this many senators. For 10 points, name this number, which equals 1 plus 1 and is the smallest prime."
+    },
+    {
+      "p": "Andrew Wiles proved in the 1990s that a to the n plus b to the n equals c to the n has no solutions in positive whole numbers when n is greater than this number. The Pythagorean theorem raises each side of a right triangle to this power.",
+      "r": "For 10 points, name this number, the only even prime, which is also the base of the binary system."
+    },
+    {
+      "p": "Newton’s law of gravitation and Coulomb’s law each say that a force weakens with the distance raised to this power. In Albert Einstein’s equation relating mass and energy, the speed of light is raised to this power.",
+      "r": "For 10 points, name this number, which is the smallest prime number and the only even one."
+    },
+    {
+      "p": "Each atomic orbital can hold at most this many electrons, which must have opposite spins under the Pauli exclusion principle. Helium, the noble gas right after hydrogen, has this atomic number, and each molecule of hydrogen gas contains this many atoms.",
+      "r": "For 10 points, name this number, the smallest prime and the base of the binary system."
+    },
+    {
+      "p": "In 1703, Gottfried Leibniz [“LYBE-nits”] published a paper on a number system based on this number, comparing it to the broken and solid lines of the Chinese _I Ching_. In that system, the number 5 is written 101.",
+      "r": "That system, binary, uses only the digits 0 and 1. For 10 points, name this number, the only even prime."
+    },
+    {
+      "p": "Sheets of A4 paper have sides in proportion to the square root of this number, so folding one so its short edges meet makes a smaller sheet of the same shape. That square root, about 1.414, may have been the first number shown to be irrational.",
+      "r": "For 10 points, name this number, which equals 1 plus 1 and is the only even prime number."
+    },
+    {
+      "p": "The points of a graph can be colored with just this many colors, so that no line joins points of the same color, exactly when the graph has no loops of odd length. In classical logic, every statement has one of this many truth values.",
+      "r": "A chessboard’s squares need only this many colors. For 10 points, name this number, the smallest prime."
+    },
+    {
+      "p": "The natural logarithm of this number, about 0.693, equals the sum of the alternating harmonic series. Money growing at 1 percent interest per year takes about 70 years to grow to this many times its starting amount.",
+      "r": "For 10 points, name this number, the only even prime, which is written 10 in binary."
+    },
+    {
+      "p": "By the fundamental theorem of algebra, which Carl Friedrich Gauss proved in his 1799 thesis, every quadratic polynomial has exactly this many complex roots, counting repeats. When a quadratic’s discriminant is positive, its parabola crosses the x-axis this many times.",
+      "r": "For 10 points, name this number, the degree of a quadratic equation and the smallest prime."
+    },
+    {
+      "p": "Euclid’s first postulate says that any set of this many points can be joined by a straight line. Leonhard Euler showed that 1 plus one-fourth plus one-ninth plus one-sixteenth, and so on forever, equals pi raised to this power, divided by 6.",
+      "r": "A circle’s diameter is this many times its radius. For 10 points, name this number, the smallest prime number."
+    },
+    {
+      "p": "Leonhard Euler showed in 1736 that a walk crossing every bridge exactly once is possible only if zero or this many land areas touch an odd number of bridges, which ruled out such a walk in Königsberg. This number to the tenth power is 1,024.",
+      "r": "For 10 points, name this number, the only even prime number, which is the base of the binary system."
+    }
+  ],
+  "clues": [
+    {
+      "id": "only-even-prime",
+      "tier": "giveaway",
+      "t": "The only even prime number, and the smallest prime of all",
+      "k": [
+        "only even prime",
+        "smallest prime"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "binary-base",
+      "tier": "giveaway",
+      "t": "The base of the binary number system, which uses only the digits 0 and 1; in binary it is written 10",
+      "k": [
+        "binary",
+        "digits 0 and 1",
+        "base"
+      ],
+      "n": 0,
+      "rabbit": "Binary numbers"
+    },
+    {
+      "id": "one-plus-one",
+      "tier": "giveaway",
+      "t": "1 + 1 equals it, and every even number is divisible by it",
+      "k": [
+        "1 + 1",
+        "even number",
+        "divisible"
+      ],
+      "n": 0,
+      "rabbit": "The number one"
+    },
+    {
+      "id": "plus-times-power",
+      "tier": "giveaway",
+      "t": "It plus itself, it times itself, and it raised to its own power all equal 4",
+      "k": [
+        "plus itself",
+        "times itself",
+        "own power"
+      ],
+      "n": 0,
+      "rabbit": "The number four"
+    },
+    {
+      "id": "square-root",
+      "tier": "middle",
+      "t": "Its square root, about 1.414, is the diagonal of a square with side 1 and may have been the first number shown to be irrational",
+      "k": [
+        "square root",
+        "1.414",
+        "diagonal"
+      ],
+      "n": 0,
+      "rabbit": "Square roots"
+    },
+    {
+      "id": "goldbach",
+      "tier": "middle",
+      "t": "Goldbach’s conjecture: every even number greater than it is a sum of this many primes; twin primes, like 11 and 13, differ by it",
+      "k": [
+        "goldbach",
+        "twin primes",
+        "11 and 13"
+      ],
+      "n": 0
+    },
+    {
+      "id": "euler-polyhedron",
+      "tier": "middle",
+      "t": "Euler’s polyhedron formula: vertices − edges + faces equals it for any convex polyhedron (cube: 8 − 12 + 6)",
+      "k": [
+        "vertices",
+        "edges",
+        "faces",
+        "euler"
+      ],
+      "n": 0,
+      "rabbit": "Leonhard Euler"
+    },
+    {
+      "id": "fermat-pythagoras",
+      "tier": "middle",
+      "t": "Fermat’s Last Theorem: aⁿ + bⁿ = cⁿ has no positive whole-number solutions for n greater than it, the exponent in the Pythagorean theorem",
+      "k": [
+        "fermat’s last theorem",
+        "pythagorean theorem",
+        "exponent"
+      ],
+      "n": 0,
+      "rabbit": "Fermat’s Last Theorem"
+    },
+    {
+      "id": "inverse-square",
+      "tier": "middle",
+      "t": "Gravity and Coulomb’s law weaken with the distance raised to this power, and Einstein’s mass–energy equation raises the speed of light to it",
+      "k": [
+        "coulomb",
+        "gravity",
+        "speed of light"
+      ],
+      "n": 0,
+      "rabbit": "Coulomb’s law"
+    },
+    {
+      "id": "helium-orbitals",
+      "tier": "middle",
+      "t": "Helium’s atomic number; each atomic orbital holds at most this many electrons, with opposite spins (the Pauli exclusion principle)",
+      "k": [
+        "helium",
+        "orbital",
+        "pauli"
+      ],
+      "n": 0,
+      "rabbit": "Atomic orbitals"
+    },
+    {
+      "id": "mersenne",
+      "tier": "middle",
+      "t": "Mersenne primes are 1 less than a power of it, with a prime exponent; in 2024, GIMPS found one with more than 41 million digits",
+      "k": [
+        "mersenne",
+        "gimps",
+        "41 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quadratic",
+      "tier": "middle",
+      "t": "Quadratic equations have this degree, so they have this many complex roots counting repeats; a positive discriminant means the parabola crosses the x-axis this many times",
+      "k": [
+        "quadratic",
+        "degree",
+        "discriminant"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "leibniz-binary",
+      "tier": "middle",
+      "t": "Gottfried Leibniz’s 1703 paper on the number system based on it compared that system to the broken and solid lines of the _I Ching_",
+      "k": [
+        "leibniz",
+        "1703",
+        "i ching"
+      ],
+      "n": 0,
+      "rabbit": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "circle-senate",
+      "tier": "middle",
+      "t": "A circle’s diameter is this many times its radius (circumference = this number × π × radius); each U.S. state elects this many senators",
+      "k": [
+        "diameter",
+        "radius",
+        "senators"
+      ],
+      "n": 0,
+      "rabbit": "Circles"
+    },
+    {
+      "id": "ybc-7289",
+      "tier": "power",
+      "t": "The Babylonian tablet YBC 7289 shows its square root correct to about six decimal places",
+      "k": [
+        "ybc 7289",
+        "babylonian",
+        "six decimal places"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hippasus",
+      "tier": "power",
+      "t": "Legend says the Pythagorean Hippasus was drowned at sea for revealing that its square root cannot be written as a fraction",
+      "k": [
+        "hippasus",
+        "pythagorean",
+        "fraction"
+      ],
+      "n": 0,
+      "rabbit": "Rational numbers"
+    },
+    {
+      "id": "principia",
+      "tier": "power",
+      "t": "Whitehead and Russell’s _Principia Mathematica_ took hundreds of pages to prove that 1 + 1 equals it",
+      "k": [
+        "principia mathematica",
+        "whitehead",
+        "russell"
+      ],
+      "n": 0,
+      "rabbit": "Bertrand Russell"
+    },
+    {
+      "id": "aristotle",
+      "tier": "power",
+      "t": "Aristotle wrote that, strictly speaking, it is the smallest number, since many Greek thinkers did not count 1 as a number",
+      "k": [
+        "aristotle",
+        "smallest number"
+      ],
+      "n": 0,
+      "rabbit": "Aristotle"
+    },
+    {
+      "id": "a4-paper",
+      "tier": "power",
+      "t": "A4 paper’s sides are in proportion to its square root, so folding a sheet so its short edges meet gives a smaller sheet of the same shape",
+      "k": [
+        "a4",
+        "same shape",
+        "short edges"
+      ],
+      "n": 0
+    },
+    {
+      "id": "graph-coloring",
+      "tier": "power",
+      "t": "A graph can be colored with this many colors exactly when it has no loops of odd length; a chessboard needs only this many, and classical logic has this many truth values",
+      "k": [
+        "odd length",
+        "chessboard",
+        "colored"
+      ],
+      "n": 0,
+      "rabbit": "Graph theory"
+    },
+    {
+      "id": "natural-log",
+      "tier": "power",
+      "t": "Its natural logarithm, about 0.693, is the sum of the alternating harmonic series; at 1% interest, money takes about 70 years to grow to this many times its size",
+      "k": [
+        "natural logarithm",
+        "0.693",
+        "70 years"
+      ],
+      "n": 0,
+      "rabbit": "Logarithms"
+    },
+    {
+      "id": "konigsberg",
+      "tier": "power",
+      "t": "Euler (1736): a walk crossing every bridge once needs zero or this many land areas touching an odd number of bridges, which ruled out Königsberg",
+      "k": [
+        "königsberg",
+        "1736",
+        "odd number of bridges"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tenth-power",
+      "tier": "power",
+      "t": "It raised to the tenth power is 1,024, close to a thousand",
+      "k": [
+        "tenth power",
+        "1,024"
+      ],
+      "n": 0
+    },
+    {
+      "id": "basel",
+      "tier": "power",
+      "t": "Euler’s Basel problem: 1 + 1/4 + 1/9 + 1/16 + … equals π raised to this power, divided by 6",
+      "k": [
+        "basel",
+        "1/9",
+        "divided by 6"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "euclid-postulate",
+      "tier": "power",
+      "t": "Euclid’s first postulate: any set of this many points can be joined by a straight line",
+      "k": [
+        "euclid",
+        "first postulate",
+        "straight line"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    }
+  ],
+  "trap": {
+    "title": "The number, not binary",
+    "body": "Clues about this number often name things built on it: binary numbers (base 2), the square root of 2, prime numbers, or twin primes. Those are separate answer lines, so answering “binary” or “prime” when the question asks for “this number” is wrong. And “1 + 1” clues say 1 out loud but want the result, 2.",
+    "fix": "When you hear “only even prime,” “base of binary,” “its square root is about 1.414,” or “Goldbach,” say “two.” If the question asks for “this number system,” say binary; if it asks for “these numbers” with exactly two factors, say prime numbers.",
+    "line": "Real answer line: <b><u>two</u></b> (or <u>2</u>)"
+  }
+}

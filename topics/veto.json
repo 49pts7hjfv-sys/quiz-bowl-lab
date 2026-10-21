@@ -1,0 +1,439 @@
+{
+  "id": "veto",
+  "name": "Veto",
+  "mono": "V",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "The president’s power to reject a bill · Overridden by two-thirds of Congress",
+  "dates": "Article I, Section 7; first used 1792",
+  "briefing": "When Congress passes a bill, the president can sign it into law or send it back with a veto, from the Latin for “I forbid.” Congress can still pass the bill over the president’s objection, but only with a two-thirds vote in both the House and the Senate, which rarely happens. Franklin Roosevelt holds the record, with 635 vetoes.",
+  "answerHtml": "<b><u>veto</u></b> (accept word forms like <u>vetoes</u>; accept specific kinds like the <u>pocket veto</u> or <u>line-item veto</u>; do not accept “override”)",
+  "accept": [
+    "veto",
+    "vetoes",
+    "vetos",
+    "vetoed",
+    "vetoing",
+    "veto power",
+    "veto powers",
+    "the veto",
+    "presidential veto",
+    "executive veto",
+    "pocket veto",
+    "line item veto"
+  ],
+  "prompt": [
+    "reject a bill",
+    "rejecting a bill",
+    "refusing to sign",
+    "refuse to sign a bill"
+  ],
+  "reject": [
+    "veto override",
+    "override",
+    "overrides",
+    "overriding",
+    "legislative veto",
+    "filibuster",
+    "cloture",
+    "impeachment",
+    "pardon",
+    "executive order",
+    "signing statement",
+    "judicial review",
+    "checks and balances",
+    "separation of powers",
+    "presentment clause",
+    "quorum",
+    "gerrymandering"
+  ],
+  "tests": {
+    "right": [
+      "veto",
+      "vetoes",
+      "pocket veto",
+      "line-item veto",
+      "presidential veto",
+      "vetoe"
+    ],
+    "prompt": [
+      "reject a bill"
+    ],
+    "wrong": [
+      "filibuster",
+      "veto override",
+      "override",
+      "impeachment",
+      "pardon",
+      "cloture",
+      "executive order"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Veto",
+  "qb": {
+    "q": "veto",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This word comes from the Latin for “I forbid,” which tribunes in ancient Rome could say to block the actions of other officials. Article I, Section 7 of the U.S. Constitution describes how this action works and how Congress can respond to it.",
+      "r": "For 10 points, name this power of the president to reject a bill, which Congress can override with a two-thirds vote in each house."
+    },
+    {
+      "p": "George Washington first used this power in 1792 against a bill dividing up seats in the House of Representatives, and he used it only one other time. His successors John Adams and Thomas Jefferson never used it at all.",
+      "r": "For 10 points, name this power that lets a president reject a bill passed by Congress."
+    },
+    {
+      "p": "Every member of John Tyler’s cabinet except Daniel Webster resigned in 1841 after Tyler used this power against bills creating a new national bank. In 1845, Tyler also became the first president to have Congress overturn one of these actions, on a bill about ships called revenue cutters.",
+      "r": "For 10 points, name this presidential power to reject a bill, which Congress can override by a two-thirds vote."
+    },
+    {
+      "p": "Opponents mocked one president as “King Andrew the First” because he used this power more often than all the presidents before him combined. Two of his most famous uses of it blocked money for the Maysville Road and a new charter for the Second Bank of the United States.",
+      "r": "That president was Andrew Jackson. For 10 points, name this power of the president to reject bills passed by Congress."
+    },
+    {
+      "p": "Andrew Johnson used this power against the Civil Rights Act of 1866, but Congress passed it anyway, making it the first major law ever passed over a president’s objection. Congress overturned fifteen of Johnson’s uses of this power, a record, including those on the Reconstruction Acts of 1867.",
+      "r": "For 10 points, name this presidential power to reject bills, which Congress can override with a two-thirds vote."
+    },
+    {
+      "p": "Franklin Roosevelt holds the record for using this power, with 635 uses in just over twelve years. The president in second place, Grover Cleveland, used it more than 400 times in his first term alone, often against private pension bills for Civil War veterans.",
+      "r": "For 10 points, name this power that lets a president reject a bill passed by Congress."
+    },
+    {
+      "p": "As mayor of Buffalo, one future president earned a nickname for using this power to block wasteful spending. As president, he used it on a bill to give ten thousand dollars’ worth of seed to drought-stricken Texas farmers, writing that “the Government should not support the people.”",
+      "r": "That man was Grover Cleveland. For 10 points, name this presidential power to reject a bill."
+    },
+    {
+      "p": "If Congress adjourns within ten days, not counting Sundays, after sending a bill to the president, he can kill it just by not signing it, a move known as the “pocket” form of this action. Abraham Lincoln used that form against the Wade-Davis Bill in 1864.",
+      "r": "For 10 points, name this presidential power to reject bills, which Congress can usually override with two-thirds of each house."
+    },
+    {
+      "p": "A 1996 law let the president cancel individual spending items in a bill after signing it, but the Supreme Court struck that law down in _Clinton v. City of New York_. Most state governors have that “line-item” version of this power, and so did the president of the Confederacy.",
+      "r": "For 10 points, name this power of an executive to reject a bill, which Congress can override with a two-thirds vote."
+    },
+    {
+      "p": "Harry Truman used this power against the Taft–Hartley Act, which limited labor unions, but the act became law anyway in 1947. In 1973, Richard Nixon’s use of it also failed to stop the War Powers Resolution, which limits how long troops can fight without approval from Congress.",
+      "r": "For 10 points, name this presidential power to reject bills, which can be overridden by two-thirds of each house of Congress."
+    },
+    {
+      "p": "Ronald Reagan used this power against a 1986 law placing economic sanctions on South Africa over apartheid, but Congress passed the law anyway. Back in 1919, Woodrow Wilson’s use of it failed to stop the Volstead Act, which enforced Prohibition.",
+      "r": "For 10 points, name this power of the president to reject a bill passed by Congress."
+    },
+    {
+      "p": "The five permanent members of the United Nations Security Council, including the United States, can each block a resolution by using this power. At home, a president who uses it must return the bill with written objections to the house of Congress where it began.",
+      "r": "For 10 points, name this power to reject a proposed law, which Congress can override with a two-thirds vote."
+    },
+    {
+      "p": "Just before leaving office in 1817, James Madison used this power against John C. Calhoun’s Bonus Bill for roads and canals, saying the Constitution did not allow it. Five years later, James Monroe used it to stop a bill collecting tolls on the Cumberland Road.",
+      "r": "Such projects were called internal improvements. For 10 points, name this presidential power to reject a bill passed by Congress."
+    },
+    {
+      "p": "Chester Arthur used this power against a bill banning Chinese laborers for twenty years, then signed a ten-year version. Later that year, the Rivers and Harbors Act of 1882 became law even though Arthur had used this power against it as wasteful spending.",
+      "r": "For 10 points, name this power of the president to reject a bill, which can be overridden by two-thirds of Congress."
+    },
+    {
+      "p": "To reverse this action, the House needs 290 votes if all 435 members vote, and the Senate needs 67 if all 100 senators vote. Because that takes such a large majority, Congress has reversed only a small share of these actions.",
+      "r": "For 10 points, name this power of the president to reject a bill passed by Congress."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The president’s power to reject a bill passed by Congress",
+      "k": [
+        "reject",
+        "bill",
+        "president"
+      ],
+      "n": 0
+    },
+    {
+      "id": "override",
+      "tier": "giveaway",
+      "t": "Congress can override it with a two-thirds vote in both houses",
+      "k": [
+        "override",
+        "two-thirds"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin",
+      "tier": "giveaway",
+      "t": "From the Latin for “I forbid”",
+      "k": [
+        "latin",
+        "i forbid",
+        "forbid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pocket",
+      "tier": "giveaway",
+      "t": "The “pocket” kind: if Congress adjourns within 10 days, a bill the president does not sign dies",
+      "k": [
+        "pocket",
+        "adjourns",
+        "10 days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "article-1",
+      "tier": "middle",
+      "t": "Described in Article I, Section 7 of the Constitution",
+      "k": [
+        "article i",
+        "section 7"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ten-days",
+      "tier": "middle",
+      "t": "The president has 10 days, not counting Sundays; if Congress is in session, an unsigned bill becomes law",
+      "k": [
+        "sundays",
+        "unsigned",
+        "10 days"
+      ],
+      "n": 0
+    },
+    {
+      "id": "line-item",
+      "tier": "middle",
+      "t": "A “line-item” version cancels single spending items; most governors have it, but the Supreme Court struck down the president’s in _Clinton v. City of New York_ (1998)",
+      "k": [
+        "line-item",
+        "clinton v. city of new york",
+        "governors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fdr-record",
+      "tier": "middle",
+      "t": "Franklin Roosevelt used it a record 635 times",
+      "k": [
+        "franklin roosevelt",
+        "record",
+        "635"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jackson",
+      "tier": "middle",
+      "t": "Andrew Jackson used it more than all earlier presidents combined, including on the Second Bank of the United States (1832)",
+      "k": [
+        "andrew jackson",
+        "second bank",
+        "1832"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Jackson"
+    },
+    {
+      "id": "andrew-johnson",
+      "tier": "middle",
+      "t": "Congress overrode Andrew Johnson a record 15 times, including on the Civil Rights Act of 1866",
+      "k": [
+        "andrew johnson",
+        "15 times",
+        "civil rights act of 1866"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Johnson"
+    },
+    {
+      "id": "cleveland",
+      "tier": "middle",
+      "t": "Grover Cleveland used it more than 400 times in his first term, often on private pension bills",
+      "k": [
+        "grover cleveland",
+        "cleveland",
+        "pension"
+      ],
+      "n": 0,
+      "rabbit": "Grover Cleveland"
+    },
+    {
+      "id": "wade-davis",
+      "tier": "middle",
+      "t": "Abraham Lincoln’s “pocket” use killed the Wade-Davis Bill (1864)",
+      "k": [
+        "wade-davis",
+        "lincoln",
+        "1864"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tribunes",
+      "tier": "power",
+      "t": "Roman tribunes could block other officials’ actions by saying the word",
+      "k": [
+        "tribunes",
+        "roman"
+      ],
+      "n": 0
+    },
+    {
+      "id": "washington-first",
+      "tier": "power",
+      "t": "George Washington first used it in 1792, on a bill dividing House seats; he used it only twice",
+      "k": [
+        "washington",
+        "1792",
+        "house seats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "never-used",
+      "tier": "power",
+      "t": "John Adams and Thomas Jefferson never used it",
+      "k": [
+        "john adams",
+        "thomas jefferson",
+        "never"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tyler",
+      "tier": "power",
+      "t": "Congress first overrode a president in 1845 (John Tyler, on a bill about revenue cutters); Tyler’s 1841 bank rejections emptied his cabinet except Daniel Webster",
+      "k": [
+        "john tyler",
+        "1845",
+        "revenue cutters",
+        "daniel webster"
+      ],
+      "n": 0
+    },
+    {
+      "id": "king-andrew",
+      "tier": "power",
+      "t": "Critics called Andrew Jackson “King Andrew the First”; he also blocked the Maysville Road (1830)",
+      "k": [
+        "king andrew",
+        "maysville road",
+        "1830"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seed-bill",
+      "tier": "power",
+      "t": "Cleveland’s Texas Seed Bill message: “the Government should not support the people”; he earned a nickname for it as mayor of Buffalo",
+      "k": [
+        "texas seed bill",
+        "seed",
+        "buffalo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "taft-hartley",
+      "tier": "power",
+      "t": "Overridden for Truman’s Taft–Hartley Act (1947) and Nixon’s War Powers Resolution (1973)",
+      "k": [
+        "taft–hartley",
+        "war powers resolution",
+        "1973"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apartheid",
+      "tier": "power",
+      "t": "Overridden for Reagan’s South Africa sanctions (1986) and Wilson’s Volstead Act (1919)",
+      "k": [
+        "south africa",
+        "volstead",
+        "1986"
+      ],
+      "n": 0
+    },
+    {
+      "id": "return",
+      "tier": "power",
+      "t": "The president must return the bill, with written objections, to the house where it began",
+      "k": [
+        "objections",
+        "return"
+      ],
+      "n": 0
+    },
+    {
+      "id": "security-council",
+      "tier": "power",
+      "t": "The five permanent members of the UN Security Council each have this power",
+      "k": [
+        "security council",
+        "permanent members",
+        "five"
+      ],
+      "n": 0
+    },
+    {
+      "id": "internal-improvements",
+      "tier": "power",
+      "t": "Madison used it on Calhoun’s Bonus Bill (1817); Monroe on Cumberland Road tolls (1822)",
+      "k": [
+        "bonus bill",
+        "cumberland road",
+        "madison"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arthur",
+      "tier": "power",
+      "t": "Chester Arthur used it on a 20-year Chinese exclusion bill and on the Rivers and Harbors Act of 1882, which Congress passed anyway",
+      "k": [
+        "chester arthur",
+        "rivers and harbors",
+        "chinese"
+      ],
+      "n": 0
+    },
+    {
+      "id": "override-math",
+      "tier": "power",
+      "t": "An override takes 290 House votes and 67 Senate votes when every member votes",
+      "k": [
+        "override",
+        "290",
+        "67"
+      ],
+      "n": 0
+    },
+    {
+      "id": "confederacy",
+      "tier": "power",
+      "t": "The Confederate constitution gave its president a line-item version",
+      "k": [
+        "confederate",
+        "line-item"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Power, override, or filibuster?",
+    "body": "Several lawmaking answers get mixed up. The veto is the president’s power to reject a bill; an override is how Congress fights back, with a two-thirds vote in each house; and a filibuster is a Senate tactic of endless debate. Answering “override” when the question asks for the president’s action, or “filibuster” for anything a president does, loses the tossup.",
+    "fix": "If a president (or a governor, or a UN Security Council member) blocks something, the answer is “veto,” and specific kinds like “pocket veto” and “line-item veto” count too. If Congress is pushing back with two-thirds of each house, the answer is “override.”",
+    "line": "Real answer line: <b><u>veto</u></b> (accept word forms like <u>vetoes</u>; accept specific kinds like <u>pocket veto</u> or <u>line-item veto</u>; do not accept “override”)"
+  }
+}

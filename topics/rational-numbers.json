@@ -1,0 +1,458 @@
+{
+  "id": "rational-numbers",
+  "name": "Rational numbers",
+  "mono": "Q",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Fractions of integers · Decimals that end or repeat",
+  "dates": "Egyptian fractions in the Rhind Papyrus, c. 1550 BCE",
+  "briefing": "A rational number is any number that can be written as a fraction of two integers, like ½, −7/3, or 5 (which is 5/1); the name comes from the word “ratio.” As decimals, rational numbers either stop, like 0.75, or repeat forever, like 0.333…. Numbers such as √2 and π can’t be written as fractions, and a legend says the ancient Greek Hippasus was punished for revealing that √2 is not rational.",
+  "answerHtml": "<b><u>rational number</u></b>s (accept <u>rationals</u>; prompt on <u>Q</u> or <u>fractions</u>; do not accept “irrational numbers” or “real numbers”)",
+  "accept": [
+    "rational numbers",
+    "rational number",
+    "rationals",
+    "rational",
+    "rational number system"
+  ],
+  "prompt": [
+    "q",
+    "fractions",
+    "fraction",
+    "common fractions",
+    "ratios",
+    "ratio",
+    "quotients"
+  ],
+  "reject": [
+    "irrational numbers",
+    "irrational number",
+    "irrationals",
+    "irrational",
+    "real numbers",
+    "real number",
+    "reals",
+    "integers",
+    "integer",
+    "natural numbers",
+    "natural number",
+    "whole numbers",
+    "whole number",
+    "counting numbers",
+    "complex numbers",
+    "imaginary numbers",
+    "decimals",
+    "decimal",
+    "rational functions",
+    "rational function",
+    "rational expressions",
+    "rational expression",
+    "rational exponents",
+    "rational exponent",
+    "rational root theorem",
+    "rational roots",
+    "rational root",
+    "algebraic numbers",
+    "transcendental numbers",
+    "egyptian fractions",
+    "unit fractions",
+    "continued fractions",
+    "improper fractions",
+    "mixed numbers",
+    "farey sequence",
+    "rationalism",
+    "rationale",
+    "rationalize",
+    "rationalizing",
+    "rationalization",
+    "friction",
+    "refraction",
+    "function",
+    "functions"
+  ],
+  "tests": {
+    "right": [
+      "rational numbers",
+      "Rational number",
+      "rationals",
+      "rational",
+      "rational numbrs",
+      "the rational numbers"
+    ],
+    "prompt": [
+      "fractions",
+      "Q"
+    ],
+    "wrong": [
+      "irrational numbers",
+      "irrationals",
+      "real numbers",
+      "integers",
+      "rational functions",
+      "decimals",
+      "irational numbers"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Rational_number",
+  "qb": {
+    "q": "rational numbers",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "According to legend, the Pythagorean Hippasus [“HIP-uh-sus”] was drowned at sea after revealing that the diagonal of a square with side 1 is not one of these numbers. The classic proof of that fact assumes the diagonal is one of them in lowest terms, then shows that its top and bottom would both have to be even.",
+      "r": "For 10 points, name these numbers, such as one-half and negative 3, that can be written as a fraction of two integers."
+    },
+    {
+      "p": "The Calkin–Wilf tree, described in 2000, lists every positive one of these numbers exactly once, which shows that they can be counted. Georg Cantor proved that there are exactly as many of these numbers as there are counting numbers, even though infinitely many of them lie between any two whole numbers.",
+      "r": "For 10 points, name these numbers, which can be written as one integer divided by another nonzero integer."
+    },
+    {
+      "p": "Giuseppe Peano [“pay-AH-noh”] chose a letter for the set of these numbers in 1895, taking it from the Italian word for “quotient.” In lowest terms, one of these numbers has a decimal that stops exactly when its denominator has no prime factors other than 2 and 5.",
+      "r": "For 10 points, name these numbers, written with a double-struck Q, whose decimals either end or repeat."
+    },
+    {
+      "p": "Scribes who wrote the Egyptian Rhind [“RYND”] Papyrus wrote positive numbers of this kind as sums of different unit fractions, and Fibonacci’s _Liber Abaci_ gave a method in 1202 that always works. One-seventh, written as a decimal, repeats the block 142857 forever.",
+      "r": "For 10 points, name these numbers, such as two-fifths, that can be written as a fraction of two integers."
+    },
+    {
+      "p": "A theorem says that if a polynomial with integer coefficients has a root of this type, written p over q in lowest terms, then p divides the constant term and q divides the leading coefficient. That test shows that x squared minus 2 has no roots of this type.",
+      "r": "For 10 points, name these numbers that can be written as fractions of integers, whose decimals end or repeat."
+    },
+    {
+      "p": "Thomae’s [“TOH-mayz”] “popcorn function” is continuous at every point except these numbers. The Dirichlet [“deer-ih-KLAY”] function equals 1 at each of these numbers and 0 everywhere else, so it is continuous nowhere, since every interval contains both kinds of points.",
+      "r": "For 10 points, name these numbers, like three-fourths, that can be written as a fraction of two integers."
+    },
+    {
+      "p": "In 1978, Roger Apéry [“ah-pay-REE”] proved that the sum of the reciprocals of the perfect cubes is not one of these numbers. Johann Heinrich Lambert had proved in 1761 that pi is not one of these numbers either, so it can’t be written exactly as a fraction like 22 over 7.",
+      "r": "For 10 points, name these numbers, which are quotients of two integers and whose decimals either end or repeat forever."
+    },
+    {
+      "p": "Lester Ford drew a circle touching the number line at each of these numbers, and no two of his circles ever cross. John Farey’s sequences list these numbers between 0 and 1 in order of size, using only denominators up to a fixed limit.",
+      "r": "For 10 points, name these numbers that can be written as one integer over another."
+    },
+    {
+      "p": "These are exactly the numbers whose continued fractions come to an end, while the continued fraction for phi, about 1.618, is made of 1s forever. Between any two of these numbers lies another one, such as their average.",
+      "r": "For 10 points, name these numbers, written with a double-struck Q, that include every integer and every fraction."
+    },
+    {
+      "p": "Although these numbers are crowded densely along the number line, together they take up zero total length, so almost every number on the line is not one of them. Richard Dedekind [“DAY-duh-kint”] defined the real numbers in 1872 by cutting the set of these numbers into two pieces.",
+      "r": "For 10 points, name these numbers, such as five-eighths, that can be written as a fraction of two integers."
+    },
+    {
+      "p": "Points on the unit circle whose coordinates are both numbers of this kind, such as three-fifths and four-fifths, correspond to Pythagorean triples like 3, 4, 5. Adding, subtracting, multiplying, or dividing two of these numbers, except dividing by zero, always gives another one.",
+      "r": "Every integer is one, since 5 equals 5 over 1. For 10 points, name these numbers that can be written as fractions."
+    },
+    {
+      "p": "Archimedes’ estimate 22 over 7 and Zu Chongzhi’s [“zoo chong-JUR”] even closer estimate 355 over 113 are numbers of this kind that approximate pi. Writing one of these numbers in lowest terms means dividing its top and bottom by their greatest common divisor.",
+      "r": "Any repeating decimal, like 0.0909 repeating, which equals one-eleventh, is one of these. For 10 points, name these numbers that can be written as a quotient of two integers."
+    },
+    {
+      "p": "Every positive one of these numbers appears exactly once in the Stern–Brocot tree, which is built by repeatedly adding the tops and the bottoms of two neighboring fractions. Between any two of these numbers lies another, so none of them has a “next” one.",
+      "r": "For 10 points, name these numbers, which can be written as fractions of integers and include all the integers."
+    },
+    {
+      "p": "The square root of a whole number is one of these numbers only if that whole number is a perfect square, so the square roots of 2, 3, and 5 are not. Leonhard Euler showed that the number e, about 2.718, is not one of these numbers either.",
+      "r": "For 10 points, name these numbers that can be written as fractions of integers, whose decimals end or repeat."
+    },
+    {
+      "p": "In Pythagorean tuning, the octave and the perfect fifth come from string lengths in the proportions 2 to 1 and 3 to 2, both numbers of this kind. Dividing any one of these numbers by another nonzero one always gives a number of this kind.",
+      "r": "For 10 points, name these numbers, like three-halves, that can be written as a fraction of two integers."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fraction",
+      "tier": "giveaway",
+      "t": "Numbers that can be written as a fraction p/q of two integers, with q not 0; in lowest terms, the top and bottom share no common factor",
+      "k": [
+        "fraction",
+        "integers",
+        "lowest terms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "decimals",
+      "tier": "giveaway",
+      "t": "Their decimals either end (0.75) or repeat forever (0.333…)",
+      "k": [
+        "decimals",
+        "repeat forever"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol",
+      "tier": "giveaway",
+      "t": "Written with a double-struck Q (ℚ), for “quotient”",
+      "k": [
+        "double-struck",
+        "quotient"
+      ],
+      "n": 0
+    },
+    {
+      "id": "integers-inside",
+      "tier": "giveaway",
+      "t": "Every integer is one (5 = 5/1), but √2 and π are not",
+      "k": [
+        "every integer",
+        "5/1"
+      ],
+      "n": 0,
+      "rabbit": "Integers"
+    },
+    {
+      "id": "hippasus",
+      "tier": "middle",
+      "t": "Legend says the Pythagorean Hippasus was drowned at sea for revealing that √2, the diagonal of a square with side 1, is not one of these",
+      "k": [
+        "hippasus",
+        "pythagorean",
+        "diagonal"
+      ],
+      "n": 0,
+      "rabbit": "Pythagorean theorem"
+    },
+    {
+      "id": "countable",
+      "tier": "middle",
+      "t": "Georg Cantor showed they can be listed one by one, so there are exactly as many of them as counting numbers",
+      "k": [
+        "cantor",
+        "listed",
+        "counting numbers"
+      ],
+      "n": 0,
+      "rabbit": "Set theory"
+    },
+    {
+      "id": "dense-gaps",
+      "tier": "middle",
+      "t": "Between any two lies another (such as their average), yet they leave gaps like √2; Dedekind’s 1872 cuts filled the gaps to make the real numbers",
+      "k": [
+        "average",
+        "gaps",
+        "dedekind"
+      ],
+      "n": 0,
+      "rabbit": "Real numbers"
+    },
+    {
+      "id": "field",
+      "tier": "middle",
+      "t": "Adding, subtracting, multiplying, or dividing (except by 0) two of them always gives another one",
+      "k": [
+        "dividing",
+        "except by 0"
+      ],
+      "n": 0
+    },
+    {
+      "id": "terminating",
+      "tier": "middle",
+      "t": "In lowest terms, its decimal ends exactly when the denominator has no prime factors but 2 and 5; otherwise it repeats, like 1/7 = 0.142857142857…",
+      "k": [
+        "denominator",
+        "2 and 5",
+        "142857"
+      ],
+      "n": 0
+    },
+    {
+      "id": "egyptian",
+      "tier": "middle",
+      "t": "Egyptians, as in the Rhind Papyrus, wrote positive ones as sums of different unit fractions; Fibonacci’s _Liber Abaci_ (1202) gave a method that always works",
+      "k": [
+        "rhind papyrus",
+        "unit fractions",
+        "fibonacci",
+        "1202"
+      ],
+      "n": 0,
+      "rabbit": "The number one"
+    },
+    {
+      "id": "root-theorem",
+      "tier": "middle",
+      "t": "If a polynomial with integer coefficients has a root p/q of this kind in lowest terms, p divides the constant term and q divides the leading coefficient",
+      "k": [
+        "leading coefficient",
+        "constant term",
+        "root"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "repeating-decimals",
+      "tier": "middle",
+      "t": "Every repeating decimal is one: 0.0909… is 1/11, and 0.999… is exactly 1",
+      "k": [
+        "repeating decimal",
+        "1/11",
+        "0.999"
+      ],
+      "n": 0
+    },
+    {
+      "id": "square-roots",
+      "tier": "middle",
+      "t": "The square root of a whole number is one only if that number is a perfect square; Leonhard Euler showed e is not one",
+      "k": [
+        "perfect square",
+        "square root",
+        "euler"
+      ],
+      "n": 0,
+      "rabbit": "Square roots"
+    },
+    {
+      "id": "peano",
+      "tier": "power",
+      "t": "Giuseppe Peano chose their letter in 1895 from the Italian word for “quotient”",
+      "k": [
+        "peano",
+        "1895",
+        "italian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apery",
+      "tier": "power",
+      "t": "Roger Apéry proved in 1978 that the sum of the reciprocals of the cubes (1 + 1/8 + 1/27 + …) is not one",
+      "k": [
+        "apéry",
+        "1978",
+        "cubes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lambert",
+      "tier": "power",
+      "t": "Johann Heinrich Lambert proved in 1761 that π is not one, so 22/7 is only an estimate",
+      "k": [
+        "lambert",
+        "1761",
+        "22/7"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "thomae",
+      "tier": "power",
+      "t": "Thomae’s popcorn function is continuous everywhere except at these; the Dirichlet function is 1 at these and 0 elsewhere, so it is continuous nowhere",
+      "k": [
+        "thomae",
+        "popcorn function",
+        "dirichlet"
+      ],
+      "n": 0,
+      "rabbit": "Continuity"
+    },
+    {
+      "id": "farey-ford",
+      "tier": "power",
+      "t": "Farey sequences list them between 0 and 1 in order, with denominators up to a limit; Ford circles touch the number line at each one and never cross",
+      "k": [
+        "farey",
+        "ford circles",
+        "never cross"
+      ],
+      "n": 0
+    },
+    {
+      "id": "continued-fractions",
+      "tier": "power",
+      "t": "Exactly these numbers have continued fractions that end; the continued fraction for φ (phi, about 1.618) is all 1s forever",
+      "k": [
+        "continued fractions",
+        "phi",
+        "1.618"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trees",
+      "tier": "power",
+      "t": "The Calkin–Wilf tree (2000) and the Stern–Brocot tree each list every positive one exactly once",
+      "k": [
+        "calkin–wilf",
+        "stern–brocot",
+        "tree"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zero-length",
+      "tier": "power",
+      "t": "Though crowded everywhere on the number line, they take up zero total length, so almost every number on the line is not one",
+      "k": [
+        "zero total length",
+        "almost every"
+      ],
+      "n": 0
+    },
+    {
+      "id": "even-proof",
+      "tier": "power",
+      "t": "The classic proof that √2 is not one assumes it is a fraction in lowest terms and shows its top and bottom would both be even, a contradiction",
+      "k": [
+        "contradiction",
+        "even",
+        "lowest terms"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unit-circle",
+      "tier": "power",
+      "t": "Points of this kind on the unit circle, like (3/5, 4/5), match Pythagorean triples such as 3, 4, 5",
+      "k": [
+        "unit circle",
+        "pythagorean triples",
+        "3/5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pi-estimates",
+      "tier": "power",
+      "t": "Archimedes’ 22/7 and Zu Chongzhi’s 355/113 are numbers of this kind that approximate π",
+      "k": [
+        "22/7",
+        "355/113",
+        "zu chongzhi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pythagorean-tuning",
+      "tier": "power",
+      "t": "Pythagorean tuning builds the octave and the perfect fifth from string lengths in the proportions 2 to 1 and 3 to 2",
+      "k": [
+        "pythagorean tuning",
+        "octave",
+        "perfect fifth"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Rational or irrational?",
+    "body": "Rational numbers (fractions p/q, or decimals that end or repeat) and irrational numbers (like √2, π, and e, whose decimals never end or repeat) are opposite answer lines, and together they make up the real numbers. A tossup about the Pythagoreans and √2 may want either one, depending on whether it says √2 is “not one of these” or “one of these.”",
+    "fix": "Listen to the wording: “√2 is not one of these” or “a fraction of two integers” means rational numbers; “√2 and π are examples” means irrational numbers; clues that include both kinds, or the whole number line, mean real numbers. Saying only “fractions” earns a prompt.",
+    "line": "Real answer line: <b><u>rational number</u></b>s (accept <u>rationals</u>; prompt on <u>Q</u> or <u>fractions</u>; do not accept “irrational numbers” or “real numbers”)"
+  }
+}

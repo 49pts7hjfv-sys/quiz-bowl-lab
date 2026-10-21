@@ -1,0 +1,356 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "oregon-trail",
+    "name": "Oregon Trail",
+    "mono": "OT",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "2,000-mile wagon route to the Pacific Northwest · Busiest 1840s–1860s",
+    "dates": "Main use 1843–1869",
+    "briefing": "In the 1840s and 1850s, tens of thousands of pioneers packed covered wagons in towns like Independence, Missouri, and set out on a 2,000-mile trip to Oregon’s Willamette Valley. Pulled mostly by oxen, the wagons followed the Platte River, crossed the Rockies at South Pass, and passed landmarks like Chimney Rock and Independence Rock. The journey took four to six months, and many travelers died of diseases like cholera.",
+    "answerHtml": "<b><u>Oregon Trail</u></b> (prompt on <u>Oregon</u>; do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)",
+    "accept": [
+        "oregon trail",
+        "the oregon trail",
+        "oregon national historic trail"
+    ],
+    "prompt": [
+        "oregon",
+        "oregon california trail"
+    ],
+    "reject": [
+        "santa fe trail",
+        "california trail",
+        "mormon trail",
+        "mormon pioneer trail",
+        "lewis and clark",
+        "lewis and clark expedition",
+        "lewis and clark trail",
+        "corps of discovery",
+        "trail of tears",
+        "chisholm trail",
+        "old spanish trail",
+        "natchez trace",
+        "wilderness road",
+        "national road",
+        "cumberland road",
+        "pony express",
+        "transcontinental railroad",
+        "donner party",
+        "hastings cutoff",
+        "bozeman trail",
+        "applegate trail",
+        "barlow road",
+        "oregon territory",
+        "oregon country",
+        "oregon treaty",
+        "great migration",
+        "underground railroad"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Oregon_Trail",
+    "qb": {
+        "q": "Oregon Trail",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1906, Ezra Meeker, who had traveled this route as a young man in 1852, retraced it with an ox-drawn covered wagon to campaign for marking it before it disappeared.",
+            "r": "This route began in towns like Independence, Missouri. For 10 points, name this roughly 2,000-mile trail to the Pacific Northwest."
+        },
+        {
+            "p": "Francis Parkman’s 1849 book named for this route describes his 1846 summer on the Great Plains, including weeks spent with a band of Lakota Sioux [“luh-KOH-tuh SOO”] near a fort in present-day Wyoming.",
+            "r": "That fort, Fort Laramie, was a major stop on this route. For 10 points, name this wagon trail from Missouri to Oregon."
+        },
+        {
+            "p": "In 1971, three student teachers in Minnesota created a computer game named for this route, in which players buy oxen, ford rivers, and often lose members of their party to dysentery. The Minnesota Educational Computing Consortium later sent the game to schools across the country.",
+            "r": "For 10 points, name this wagon route that ran from Independence, Missouri, to Oregon."
+        },
+        {
+            "p": "Jesse Applegate wrote “A Day with the Cow Column” about the 1843 “Great Migration,” when about a thousand pioneers and their herds of cattle traveled this route together, helped along by the missionary Marcus Whitman.",
+            "r": "For 10 points, name this trail that took pioneers from Missouri to Oregon’s Willamette [“wih-LAM-it”] Valley."
+        },
+        {
+            "p": "In 1836, Narcissa Whitman and Eliza Spalding became the first white women known to cross the Continental Divide, traveling much of this route with their missionary husbands. The Whitmans were killed at their mission near Walla Walla in 1847.",
+            "r": "For 10 points, name this trail from Independence, Missouri, to Oregon that pioneers followed in covered wagons."
+        },
+        {
+            "p": "Travelers on this route hoped to reach a huge granite landmark in Wyoming by the Fourth of July, and so many carved their names into it that it was called the “Register of the Desert.”",
+            "r": "That landmark is Independence Rock. For 10 points, name this trail that led wagon trains from Missouri to Oregon."
+        },
+        {
+            "p": "Wagons on this route crossed the Continental Divide at a broad, gentle gap in Wyoming that fur trader Robert Stuart found in 1812 and mountain man Jedediah Smith’s party crossed again in 1824.",
+            "r": "That gap is South Pass. For 10 points, name this trail that ran from Missouri to the Willamette [“wih-LAM-it”] Valley."
+        },
+        {
+            "p": "Before Sam Barlow opened a toll road around the south side of Mount Hood in 1846, travelers on this route had to float their wagons on rafts down the dangerous Columbia River from The Dalles [“DALZ”].",
+            "r": "For 10 points, name this trail whose travelers ended their trip in Oregon’s Willamette [“wih-LAM-it”] Valley."
+        },
+        {
+            "p": "Chimney Rock, a tall spire in western Nebraska, was the landmark that travelers on this route mentioned most often in their diaries. To get there, they followed the shallow Platte River, said to be “a mile wide and an inch deep.”",
+            "r": "For 10 points, name this roughly 2,000-mile trail that pioneers took to Oregon."
+        },
+        {
+            "p": "Near Fort Hall, a trading post founded by Nathaniel Wyeth [“WY-eth”] in 1834 in present-day Idaho, many travelers left this route and headed southwest toward California. Those who stayed on it followed the Snake River west.",
+            "r": "For 10 points, name this pioneer trail that ended in Oregon’s Willamette [“wih-LAM-it”] Valley."
+        },
+        {
+            "p": "John McLoughlin [“muh-KLOK-lin”], the Hudson’s Bay Company’s chief at Fort Vancouver, helped many tired and hungry American settlers who arrived at the end of this route, earning the nickname “Father of Oregon.” He later moved to Oregon City, the traditional end of this route.",
+            "r": "For 10 points, name this trail that pioneers took from Independence, Missouri, to the Pacific Northwest."
+        },
+        {
+            "p": "In the 1851 Treaty of Fort Laramie, the United States promised yearly payments to Plains nations such as the Lakota and Cheyenne in return for safe passage for travelers on this route.",
+            "r": "Most of those travelers walked beside their wagons. For 10 points, name this wagon trail that ran from Missouri to Oregon."
+        },
+        {
+            "p": "Wagon wheels on this route wore ruts several feet deep into soft sandstone near Guernsey [“GURN-zee”], Wyoming. Travelers on it burned dried buffalo dung, called “buffalo chips,” as fuel on the treeless plains.",
+            "r": "Most of them walked beside wagons pulled by oxen. For 10 points, name this roughly 2,000-mile pioneer trail to Oregon."
+        },
+        {
+            "p": "Pioneers on this route said they were going to “see the elephant,” a phrase for facing great hardship, and the most common cause of death among them was the disease cholera. Drownings at river crossings were another common danger.",
+            "r": "For 10 points, name this trail that began in Independence, Missouri, and ended in Oregon."
+        },
+        {
+            "p": "Peter Burnett, who later became the first governor of the state of California, helped lead a large wagon train along this route in 1843. Travel on this route fell off after the first transcontinental railroad was finished in 1869.",
+            "r": "For 10 points, name this pioneer trail to Oregon’s Willamette [“wih-LAM-it”] Valley."
+        }
+    ],
+    "clues": [
+        {
+            "id": "route",
+            "tier": "giveaway",
+            "t": "About 2,000-mile wagon route from Independence, Missouri, to the Willamette Valley in the Pacific Northwest",
+            "k": ["independence", "willamette valley", "pacific northwest", "2,000"],
+            "n": 0
+        },
+        {
+            "id": "wagons",
+            "tier": "giveaway",
+            "t": "Pioneer families crossed it in covered wagons, mostly pulled by oxen, from the 1840s to the 1860s",
+            "k": ["covered wagons", "oxen", "pioneer"],
+            "n": 0
+        },
+        {
+            "id": "game",
+            "tier": "giveaway",
+            "t": "A 1971 computer game named for it is famous for players dying of dysentery",
+            "k": ["computer game", "dysentery", "1971"],
+            "n": 0
+        },
+        {
+            "id": "cholera",
+            "tier": "giveaway",
+            "t": "Disease, especially cholera, was the most common cause of death on it",
+            "k": ["cholera", "disease"],
+            "n": 0
+        },
+        {
+            "id": "chimney-rock",
+            "tier": "middle",
+            "t": "Chimney Rock in western Nebraska was the landmark travelers mentioned most in their diaries",
+            "k": ["chimney rock", "nebraska", "diaries"],
+            "n": 0
+        },
+        {
+            "id": "independence-rock",
+            "tier": "middle",
+            "t": "Travelers hoped to reach Independence Rock in Wyoming by the Fourth of July and carved their names on it",
+            "k": ["independence rock", "fourth of july", "carved"],
+            "n": 0
+        },
+        {
+            "id": "south-pass",
+            "tier": "middle",
+            "t": "Crossed the Rocky Mountains at South Pass, a wide, gentle gap in Wyoming on the Continental Divide",
+            "k": ["south pass", "continental divide", "rocky mountains"],
+            "n": 0
+        },
+        {
+            "id": "fort-laramie",
+            "tier": "middle",
+            "t": "Fort Laramie, in present-day Wyoming, was a major stop",
+            "k": ["fort laramie", "wyoming"],
+            "n": 0,
+            "rabbit": "Wyoming"
+        },
+        {
+            "id": "fort-hall",
+            "tier": "middle",
+            "t": "Near Fort Hall in present-day Idaho, California-bound travelers split off; the rest followed the Snake River",
+            "k": ["fort hall", "snake river", "idaho"],
+            "n": 0
+        },
+        {
+            "id": "dalles-barlow",
+            "tier": "middle",
+            "t": "At The Dalles, travelers rafted down the Columbia River until Sam Barlow’s toll road around Mount Hood opened in 1846",
+            "k": ["the dalles", "columbia river", "mount hood", "barlow"],
+            "n": 0
+        },
+        {
+            "id": "platte",
+            "tier": "middle",
+            "t": "Followed the shallow Platte River, “a mile wide and an inch deep,” across Nebraska",
+            "k": ["platte river", "inch deep", "platte"],
+            "n": 0
+        },
+        {
+            "id": "great-migration",
+            "tier": "middle",
+            "t": "The 1843 “Great Migration” brought about a thousand settlers along it",
+            "k": ["great migration", "1843"],
+            "n": 0,
+            "rabbit": "Manifest Destiny"
+        },
+        {
+            "id": "whitmans",
+            "tier": "middle",
+            "t": "Missionaries Marcus and Narcissa Whitman traveled it in 1836 and were killed at their mission near Walla Walla in 1847",
+            "k": ["whitman", "walla walla", "1847"],
+            "n": 0
+        },
+        {
+            "id": "parkman",
+            "tier": "middle",
+            "t": "Francis Parkman’s 1849 book, named for it, describes his 1846 trip to the Great Plains",
+            "k": ["francis parkman", "parkman", "1849"],
+            "n": 0
+        },
+        {
+            "id": "meeker",
+            "tier": "power",
+            "t": "Ezra Meeker, who traveled it in 1852, retraced it with an ox-drawn wagon in 1906 to get it marked",
+            "k": ["ezra meeker", "meeker", "1906"],
+            "n": 0
+        },
+        {
+            "id": "applegate",
+            "tier": "power",
+            "t": "Jesse Applegate wrote “A Day with the Cow Column” about the 1843 migration",
+            "k": ["cow column", "applegate"],
+            "n": 0
+        },
+        {
+            "id": "first-women",
+            "tier": "power",
+            "t": "Narcissa Whitman and Eliza Spalding were the first white women known to cross the Continental Divide (1836)",
+            "k": ["eliza spalding", "spalding", "1836"],
+            "n": 0
+        },
+        {
+            "id": "stuart-smith",
+            "tier": "power",
+            "t": "Fur trader Robert Stuart found South Pass in 1812; Jedediah Smith’s party crossed it again in 1824",
+            "k": ["robert stuart", "jedediah smith", "1812"],
+            "n": 0
+        },
+        {
+            "id": "wyeth",
+            "tier": "power",
+            "t": "Nathaniel Wyeth founded the trading post of Fort Hall in 1834",
+            "k": ["nathaniel wyeth", "wyeth", "1834"],
+            "n": 0
+        },
+        {
+            "id": "mcloughlin",
+            "tier": "power",
+            "t": "John McLoughlin of the Hudson’s Bay Company at Fort Vancouver helped arriving settlers and was called the “Father of Oregon”",
+            "k": ["mcloughlin", "fort vancouver", "hudson’s bay company"],
+            "n": 0
+        },
+        {
+            "id": "treaty-1851",
+            "tier": "power",
+            "t": "The 1851 Treaty of Fort Laramie promised Plains nations yearly payments in return for safe passage for travelers",
+            "k": ["treaty of fort laramie", "safe passage", "1851"],
+            "n": 0
+        },
+        {
+            "id": "guernsey",
+            "tier": "power",
+            "t": "Wagon wheels wore ruts several feet deep into sandstone near Guernsey, Wyoming",
+            "k": ["guernsey", "ruts", "sandstone"],
+            "n": 0
+        },
+        {
+            "id": "elephant",
+            "tier": "power",
+            "t": "Pioneers called facing the hardships of the trip going to “see the elephant”",
+            "k": ["see the elephant", "elephant"],
+            "n": 0
+        },
+        {
+            "id": "buffalo-chips",
+            "tier": "power",
+            "t": "Travelers burned dried buffalo dung, or “buffalo chips,” as fuel on the treeless plains",
+            "k": ["buffalo chips", "fuel", "treeless"],
+            "n": 0
+        },
+        {
+            "id": "burnett",
+            "tier": "power",
+            "t": "Peter Burnett, later California’s first state governor, helped lead the 1843 wagon train",
+            "k": ["peter burnett", "burnett"],
+            "n": 0
+        },
+        {
+            "id": "mecc",
+            "tier": "power",
+            "t": "The game was made by three student teachers in Minnesota and spread to schools by MECC",
+            "k": ["student teachers", "minnesota", "mecc"],
+            "n": 0
+        },
+        {
+            "id": "railroad",
+            "tier": "power",
+            "t": "Wagon travel fell off after the first transcontinental railroad was finished in 1869",
+            "k": ["transcontinental railroad", "1869"],
+            "n": 0,
+            "rabbit": "First Transcontinental Railroad"
+        }
+    ],
+    "trap": {
+        "title": "Which trail west?",
+        "body": "Several westward routes are separate answer lines. The Santa Fe Trail, opened in 1821, was a trade route from Missouri to Santa Fe, New Mexico. The California Trail shared the Oregon Trail’s eastern half, including Chimney Rock, Independence Rock, and South Pass, then split off toward the Sierra Nevada, and the Donner Party was on it. The Mormon Trail ran from Nauvoo, Illinois, to the Great Salt Lake, and the Lewis and Clark Expedition (1804–1806) traveled mostly by river, decades before the wagon trains.",
+        "fix": "Oregon Trail clues: the Willamette Valley, Oregon City, The Dalles, the Barlow Road, the Columbia River, the Whitmans, Fort Vancouver, and the 1843 Great Migration. Santa Fe clues: William Becknell, trade goods, and Bent’s Fort. California clues: the Humboldt River, the Sierra Nevada, Sutter’s Fort, and the Donner Party. Brigham Young means the Mormon Trail.",
+        "line": "Real answer line: <b><u>Oregon Trail</u></b> (do not accept “Santa Fe Trail,” “California Trail,” or “Lewis and Clark”)"
+    },
+    "tests": {
+        "right": [
+            "Oregon Trail",
+            "The Oregon Trail",
+            "Oregon Trial",
+            "Oregon National Historic Trail",
+            "oregan trail"
+        ],
+        "prompt": [
+            "Oregon",
+            "Oregon-California Trail"
+        ],
+        "wrong": [
+            "Santa Fe Trail",
+            "California Trail",
+            "Mormon Trail",
+            "Lewis and Clark",
+            "Trail of Tears",
+            "Oregon Territory",
+            "Chisholm Trail",
+            "Donner Party"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

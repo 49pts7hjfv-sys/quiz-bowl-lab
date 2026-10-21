@@ -1,0 +1,347 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "xyz-affair",
+    "name": "XYZ Affair",
+    "mono": "XYZ",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "French bribery scandal of 1797–1798 · Led to the Quasi-War with France",
+    "dates": "1797–1798",
+    "briefing": "In 1797, President John Adams sent three diplomats to Paris to make peace with France, which had been seizing American ships. Agents of the French foreign minister, Talleyrand, told them that talks could not even begin without a large bribe and a loan. When Adams released the diplomats’ reports in 1798, he replaced the agents’ names with the letters X, Y, and Z, and angry Americans cheered, “Millions for defense, but not one cent for tribute!”",
+    "answerHtml": "<b><u>XYZ</u></b> Affair (do not accept “Quasi-War”)",
+    "accept": [
+        "xyz affair",
+        "xyz",
+        "x y z",
+        "x y z affair",
+        "the xyz affair",
+        "xyz affairs",
+        "xyz scandal",
+        "xyz incident"
+    ],
+    "prompt": [],
+    "reject": [
+        "quasi war",
+        "the quasi war",
+        "undeclared war",
+        "alien and sedition acts",
+        "sedition act",
+        "alien act",
+        "citizen genet affair",
+        "genet affair",
+        "citizen genet",
+        "jay treaty",
+        "jays treaty",
+        "convention of 1800",
+        "treaty of mortefontaine",
+        "haymarket affair",
+        "iran contra affair",
+        "iran contra",
+        "dreyfus affair",
+        "trent affair",
+        "chesapeake leopard affair",
+        "petticoat affair",
+        "teapot dome",
+        "watergate",
+        "watergate scandal",
+        "whiskey rebellion",
+        "louisiana purchase",
+        "talleyrand",
+        "john marshall",
+        "elbridge gerry",
+        "charles cotesworth pinckney",
+        "pinckney",
+        "pinckneys treaty",
+        "john adams",
+        "barbary wars"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/XYZ_Affair",
+    "qb": {
+        "q": "XYZ Affair",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "France refused to receive Charles Cotesworth Pinckney as the American minister in 1796, so in 1797 John Adams sent Pinckney back to Paris with John Marshall and Elbridge Gerry to try to make peace.",
+            "r": "French agents told the three men that talks could not begin without a bribe. For 10 points, name this scandal named for three letters."
+        },
+        {
+            "p": "When a French agent pressed for money, Charles Cotesworth Pinckney reportedly answered, “No, no, not a sixpence!” Pinckney and his fellow envoys refused to pay just for the chance to begin peace talks with France.",
+            "r": "Their reports identified the agents only by letters. For 10 points, name this 1797–1798 bribery scandal."
+        },
+        {
+            "p": "Democratic-Republicans in Congress, expecting proof that John Adams was unfairly hostile to France, demanded to see his diplomats’ reports from Paris. When Adams released them in April 1798, the reports set off a wave of anger against France instead.",
+            "r": "Adams had replaced the French agents’ names with letters. For 10 points, name this affair in which those agents demanded a bribe."
+        },
+        {
+            "p": "At a June 1798 dinner in Philadelphia honoring John Marshall, Congressman Robert Goodloe Harper offered a toast that became a national slogan. Marshall had just returned from Paris, where he had refused to pay for the chance to negotiate.",
+            "r": "That toast was “Millions for defense, but not one cent for tribute.” For 10 points, name this scandal in which French agents demanded a bribe."
+        },
+        {
+            "p": "After his two fellow envoys left Paris in 1798, Elbridge Gerry stayed behind, hoping to prevent a war, and angry Federalists accused him of being too friendly to France. Gerry later became James Madison’s vice president.",
+            "r": "For 10 points, name this scandal in which agents of Talleyrand [“TAL-ee-rand”] demanded a bribe from Gerry, John Marshall, and Charles Cotesworth Pinckney."
+        },
+        {
+            "p": "In the angry months after this affair became public, Congress created the Department of the Navy, and Benjamin Stoddert became the first secretary of the Navy. Congress also declared the 1778 treaties with France void.",
+            "r": "For 10 points, name this scandal in which French agents demanded a bribe from American diplomats."
+        },
+        {
+            "p": "Captain Thomas Truxtun’s frigate _Constellation_ captured the French frigate _L’Insurgente_ [“lan-sur-ZHAHNT”] in 1799, during an undeclared naval war that followed this event. American warships captured dozens of French privateers in that conflict.",
+            "r": "That conflict was the Quasi-War. For 10 points, name this 1797–1798 bribery scandal involving the diplomats John Marshall and Elbridge Gerry."
+        },
+        {
+            "p": "Riding a wave of anger at France after this event, Federalists in Congress passed laws that made it harder to become a citizen and made it a crime to publish “false, scandalous and malicious” writing against the government.",
+            "r": "Those laws were the Alien and Sedition Acts. For 10 points, name this affair in which French agents asked American diplomats for a bribe."
+        },
+        {
+            "p": "The French foreign minister at the center of this scandal later helped sell the Louisiana Territory to the United States and represented France at the Congress of Vienna. His agents had told American diplomats that he expected a payment of about $250,000.",
+            "r": "That minister was Talleyrand [“TAL-ee-rand”]. For 10 points, name this 1797–1798 bribery scandal named for three letters."
+        },
+        {
+            "p": "One diplomat came home from this scandal to a hero’s welcome in Philadelphia in 1798, won a seat in Congress, and became John Adams’s secretary of state before Adams made him Chief Justice in 1801.",
+            "r": "That man was John Marshall. For 10 points, name this scandal in which French agents demanded a bribe before they would negotiate."
+        },
+        {
+            "p": "Oliver Ellsworth, William Davie, and William Vans Murray negotiated the Convention of 1800, which ended the undeclared naval war that broke out after this scandal and formally ended the 1778 alliance with France.",
+            "r": "That naval war was the Quasi-War. For 10 points, name this 1797–1798 affair in which agents of Talleyrand [“TAL-ee-rand”] demanded a bribe."
+        },
+        {
+            "p": "As war with France seemed close after this scandal, John Adams called the retired George Washington back to command a new army, and Washington insisted that Alexander Hamilton be his second-in-command. That army never fought, because the conflict stayed at sea.",
+            "r": "For 10 points, name this affair in which French agents demanded a bribe from three American diplomats."
+        },
+        {
+            "p": "The Federalist Party later nominated one diplomat from this scandal for president in 1804 and 1808, though he lost to Thomas Jefferson and then James Madison. That South Carolinian had also signed the Constitution in 1787.",
+            "r": "That man was Charles Cotesworth Pinckney. For 10 points, name this 1797–1798 scandal in which French agents demanded a bribe."
+        },
+        {
+            "p": "French agents in this scandal said their foreign minister expected a douceur [“doo-SUR”], a French word for a “sweetener,” before any talks could begin. They also wanted a large loan to France and an apology for a speech by John Adams.",
+            "r": "For 10 points, name this affair named for the letters that replaced the agents’ names in the reports Adams sent to Congress."
+        },
+        {
+            "p": "Angry about the Jay Treaty with Britain, France let its privateers seize hundreds of American merchant ships in the mid-1790s. A peace mission that John Adams sent to Paris in 1797 ended in this scandal instead.",
+            "r": "Three French agents, later called by letters, had demanded a bribe. For 10 points, name this affair."
+        }
+    ],
+    "clues": [
+        {
+            "id": "letters",
+            "tier": "giveaway",
+            "t": "Named for the three letters John Adams used in place of the French agents’ names in his diplomats’ reports",
+            "k": ["three letters", "letters", "agents"],
+            "n": 0
+        },
+        {
+            "id": "bribe",
+            "tier": "giveaway",
+            "t": "Agents of French foreign minister Talleyrand demanded a bribe before they would negotiate (1797–1798)",
+            "k": ["talleyrand", "bribe", "1797"],
+            "n": 0
+        },
+        {
+            "id": "adams",
+            "tier": "giveaway",
+            "t": "Happened under President John Adams, who sent three diplomats to make peace with France",
+            "k": ["john adams", "adams", "france"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "millions",
+            "tier": "giveaway",
+            "t": "Inspired the slogan “Millions for defense, but not one cent for tribute”",
+            "k": ["millions for defense", "not one cent for tribute", "tribute"],
+            "n": 0
+        },
+        {
+            "id": "envoys",
+            "tier": "middle",
+            "t": "The three U.S. diplomats: Charles Cotesworth Pinckney, John Marshall, and Elbridge Gerry",
+            "k": ["pinckney", "john marshall", "elbridge gerry", "gerry"],
+            "n": 0,
+            "rabbit": "John Marshall"
+        },
+        {
+            "id": "quasi-war",
+            "tier": "middle",
+            "t": "Led to the Quasi-War, an undeclared naval war with France (1798–1800)",
+            "k": ["quasi-war", "undeclared", "naval war"],
+            "n": 0
+        },
+        {
+            "id": "alien-sedition",
+            "tier": "middle",
+            "t": "The anger at France helped Federalists pass the Alien and Sedition Acts (1798)",
+            "k": ["alien and sedition acts", "sedition", "alien"],
+            "n": 0
+        },
+        {
+            "id": "sixpence",
+            "tier": "middle",
+            "t": "Pinckney reportedly told a French agent, “No, no, not a sixpence!”",
+            "k": ["not a sixpence", "sixpence"],
+            "n": 0
+        },
+        {
+            "id": "release",
+            "tier": "middle",
+            "t": "Adams released the diplomats’ reports in April 1798, after Democratic-Republicans in Congress demanded them",
+            "k": ["april 1798", "democratic-republicans", "reports"],
+            "n": 0
+        },
+        {
+            "id": "navy",
+            "tier": "middle",
+            "t": "Congress created the Department of the Navy (1798); Benjamin Stoddert became the first secretary of the Navy",
+            "k": ["department of the navy", "benjamin stoddert", "stoddert"],
+            "n": 0
+        },
+        {
+            "id": "marshall-hero",
+            "tier": "middle",
+            "t": "John Marshall came home a hero (1798), then became secretary of state and Chief Justice (1801)",
+            "k": ["hero", "chief justice", "secretary of state"],
+            "n": 0
+        },
+        {
+            "id": "federalists",
+            "tier": "middle",
+            "t": "Boosted the Federalist Party, which gained seats in the 1798 elections",
+            "k": ["federalist party", "1798 elections"],
+            "n": 0,
+            "rabbit": "Federalist Party"
+        },
+        {
+            "id": "loan-apology",
+            "tier": "middle",
+            "t": "The French also wanted a large loan to France and an apology for a speech by Adams",
+            "k": ["loan", "apology", "speech"],
+            "n": 0
+        },
+        {
+            "id": "pinckney-refused",
+            "tier": "power",
+            "t": "France had refused to receive Pinckney as the U.S. minister (1796)",
+            "k": ["refused to receive", "minister", "1796"],
+            "n": 0
+        },
+        {
+            "id": "harper-toast",
+            "tier": "power",
+            "t": "Congressman Robert Goodloe Harper’s toast at a June 1798 dinner for John Marshall became the “Millions for defense” slogan",
+            "k": ["robert goodloe harper", "harper", "toast"],
+            "n": 0
+        },
+        {
+            "id": "gerry-stayed",
+            "tier": "power",
+            "t": "Elbridge Gerry stayed in Paris after the others left, hoping to prevent war; Federalists attacked him for it",
+            "k": ["stayed", "paris", "prevent war"],
+            "n": 0
+        },
+        {
+            "id": "douceur",
+            "tier": "power",
+            "t": "The bribe was called a douceur, or “sweetener”; Talleyrand reportedly expected about $250,000",
+            "k": ["douceur", "sweetener", "$250,000"],
+            "n": 0
+        },
+        {
+            "id": "constellation",
+            "tier": "power",
+            "t": "In the war that followed, Thomas Truxtun’s _Constellation_ captured the French frigate _L’Insurgente_ (1799)",
+            "k": ["constellation", "truxtun", "insurgente"],
+            "n": 0
+        },
+        {
+            "id": "treaties-void",
+            "tier": "power",
+            "t": "Congress declared the 1778 treaties of alliance with France void (July 1798)",
+            "k": ["1778", "void", "treaties"],
+            "n": 0
+        },
+        {
+            "id": "convention-1800",
+            "tier": "power",
+            "t": "The Convention of 1800 (Treaty of Mortefontaine), negotiated by Oliver Ellsworth, William Davie, and William Vans Murray, ended the conflict",
+            "k": ["convention of 1800", "mortefontaine", "ellsworth", "william vans murray"],
+            "n": 0
+        },
+        {
+            "id": "washington-army",
+            "tier": "power",
+            "t": "Adams called George Washington back to lead a new army, with Alexander Hamilton as second-in-command",
+            "k": ["george washington", "alexander hamilton", "second-in-command"],
+            "n": 0
+        },
+        {
+            "id": "talleyrand-later",
+            "tier": "power",
+            "t": "Talleyrand later helped sell Louisiana to the U.S. (1803) and represented France at the Congress of Vienna",
+            "k": ["louisiana", "congress of vienna"],
+            "n": 0,
+            "rabbit": "Louisiana Purchase"
+        },
+        {
+            "id": "pinckney-candidate",
+            "tier": "power",
+            "t": "Pinckney, a signer of the Constitution, later ran for president as a Federalist (1804 and 1808)",
+            "k": ["signer", "1804", "1808"],
+            "n": 0
+        },
+        {
+            "id": "privateers",
+            "tier": "power",
+            "t": "French privateers had seized hundreds of American merchant ships, partly out of anger at the Jay Treaty with Britain",
+            "k": ["privateers", "jay treaty", "merchant ships"],
+            "n": 0
+        },
+        {
+            "id": "directory",
+            "tier": "power",
+            "t": "France was then ruled by the Directory, a five-man executive",
+            "k": ["directory", "five-man"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "The scandal, not the war",
+        "body": "The XYZ Affair (1797–1798) was the bribery scandal. The Quasi-War (1798–1800) was the undeclared naval war it led to, and the Alien and Sedition Acts were laws passed in the same angry months, so all three share clues. The Citizen Genêt affair (1793) was a different clash with France, under George Washington.",
+        "fix": "Listen for the noun. “This affair,” “this scandal,” or “this incident” with bribes, Talleyrand, or the three envoys wants the XYZ Affair. “This conflict” or “this war” with frigates like the _Constellation_ wants the Quasi-War, and “these laws” wants the Alien and Sedition Acts.",
+        "line": "Real answer line: <b><u>XYZ</u></b> Affair (do not accept “Quasi-War”)"
+    },
+    "tests": {
+        "right": [
+            "XYZ Affair",
+            "XYZ",
+            "the XYZ Affair",
+            "X.Y.Z. Affair",
+            "XYZ Afair",
+            "XYZ scandal"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Quasi-War",
+            "Alien and Sedition Acts",
+            "Citizen Genet Affair",
+            "Jay Treaty",
+            "Iran-Contra Affair",
+            "Haymarket Affair",
+            "Talleyrand"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

@@ -1,0 +1,430 @@
+{
+  "id": "maxwells-demon",
+  "name": "Maxwell’s demon",
+  "mono": "MD",
+  "category": "Physics",
+  "qbCategory": "Science · Physics",
+  "kicker": "Imaginary molecule-sorter · Seems to break the second law of thermodynamics",
+  "dates": "Imagined 1867; published 1871",
+  "briefing": "Maxwell’s demon is a tiny imaginary being dreamed up by the Scottish physicist James Clerk Maxwell in 1867. It guards a little door between two boxes of gas, letting fast molecules into one side and slow ones into the other, so one side heats up and the other cools down without any work being done. That would break the second law of thermodynamics, and physicists finally found the catch in information: the demon must remember, and eventually erase, what it learns about each molecule.",
+  "answerHtml": "<b><u>Maxwell’s demon</u></b> (prompt on <u>demon</u>; do not accept “second law of thermodynamics”)",
+  "accept": [
+    "maxwells demon",
+    "maxwell demon",
+    "maxwells demons",
+    "maxwell demons",
+    "maxwells daemon",
+    "maxwell daemon",
+    "maxwells sorting demon",
+    "maxwells intelligent demon",
+    "demon of maxwell"
+  ],
+  "prompt": [
+    "demon",
+    "demons",
+    "daemon",
+    "sorting demon",
+    "intelligent demon"
+  ],
+  "reject": [
+    "second law of thermodynamics",
+    "2nd law of thermodynamics",
+    "second law",
+    "2nd law",
+    "laws of thermodynamics",
+    "thermodynamics",
+    "entropy",
+    "james clerk maxwell",
+    "james maxwell",
+    "clerk maxwell",
+    "maxwells equations",
+    "maxwell equations",
+    "maxwell boltzmann distribution",
+    "maxwell distribution",
+    "maxwell relations",
+    "laplaces demon",
+    "laplace demon",
+    "laplaces daemon",
+    "szilard engine",
+    "leo szilard",
+    "szilard",
+    "landauers principle",
+    "landauer principle",
+    "rolf landauer",
+    "landauer",
+    "charles bennett",
+    "brownian ratchet",
+    "feynman ratchet",
+    "ratchet and pawl",
+    "perpetual motion",
+    "perpetual motion machine",
+    "heat death",
+    "heat engine",
+    "carnot engine",
+    "schrodingers cat",
+    "nefastis machine",
+    "lord kelvin",
+    "kelvin",
+    "william thomson",
+    "marian smoluchowski",
+    "smoluchowski",
+    "leon brillouin",
+    "brillouin",
+    "claude shannon",
+    "shannon",
+    "clausius statement",
+    "peter guthrie tait",
+    "theory of heat"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Maxwell%27s_demon",
+  "qb": {
+    "q": "Maxwell's demon",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In a 1929 paper, Leo Szilard [“SIL-ard”] imagined a one-molecule “engine” based on this thought experiment, and argued that gaining information about the molecule’s position must create at least a tiny amount of entropy. His paper’s title mentions the “intervention of intelligent beings.”",
+      "r": "For 10 points, name this imaginary creature that sorts fast and slow gas molecules between two chambers."
+    },
+    {
+      "p": "Charles Bennett argued in 1982 that this imaginary being’s real cost comes not from measuring molecules but from eventually erasing its memory of them. By Rolf Landauer’s principle, erasing each bit of information must give off a little heat.",
+      "r": "For 10 points, name this creature that opens a tiny door to let fast molecules go one way and slow molecules the other."
+    },
+    {
+      "p": "William Thomson, later Lord Kelvin, gave this imaginary being its common name in an 1874 article. Its creator had described it as a being with senses so sharp that it could follow every molecule in its course.",
+      "r": "For 10 points, name this creature from a thought experiment about sorting gas molecules by speed."
+    },
+    {
+      "p": "In 1912, Marian Smoluchowski [“smoh-loo-KOF-skee”] showed that a spring-loaded trapdoor could not do this being’s job automatically, because random bumps from molecules would make the trapdoor itself jiggle open and shut.",
+      "r": "It seems to break the second law of thermodynamics. For 10 points, name this imaginary molecule-sorter from a thought experiment by a Scottish physicist."
+    },
+    {
+      "p": "Thomas Pynchon’s novel _The Crying of Lot 49_ features the Nefastis Machine, a box that supposedly holds one of these beings. Its inventor claims that a specially gifted person can communicate with the being inside.",
+      "r": "For 10 points, name this imaginary creature that seems to break the second law of thermodynamics by sorting fast and slow molecules."
+    },
+    {
+      "p": "In 1951, Léon Brillouin [“bree-YWAN”] argued that this being could not see the molecules it sorts unless it shone light on them, and that the light would add more entropy than its sorting removed.",
+      "r": "For 10 points, name this thought experiment in which a tiny being sorts gas molecules by speed."
+    },
+    {
+      "p": "Its creator first described this thought experiment in an 1867 letter to his friend Peter Guthrie Tait, and he later included it in his 1871 book _Theory of Heat_.",
+      "r": "In it, a tiny being lets only fast molecules through a door one way and slow ones the other way. For 10 points, name this imaginary creature."
+    },
+    {
+      "p": "This being takes advantage of the fact that molecules in a gas at one temperature move at a wide range of speeds, described by a distribution named for Ludwig Boltzmann and this being’s creator.",
+      "r": "By sorting the molecules, it would make one chamber hot and the other cold. For 10 points, name this imaginary creature."
+    },
+    {
+      "p": "If this being really worked, it would let an engine run forever on the heat of its surroundings, a so-called perpetual motion machine of the second kind. It would not break the first law of thermodynamics, since the total energy of the gas stays the same.",
+      "r": "It seems to break the second law instead. For 10 points, name this imaginary creature that sorts fast and slow molecules."
+    },
+    {
+      "p": "Physicists finally explained why this being fails by linking heat to information theory, the field that Claude Shannon founded in 1948. The being has to record which molecules it lets through, and that record cannot grow forever.",
+      "r": "For 10 points, name this imaginary creature that seems to lower entropy by sorting molecules."
+    },
+    {
+      "p": "This being would make heat flow from a colder region to a hotter one without any work being done, which the Clausius [“KLOU-zee-us”] statement of a law of thermodynamics says is impossible.",
+      "r": "That law says entropy never decreases in an isolated system. For 10 points, name this imaginary creature that guards a door between two boxes of gas."
+    },
+    {
+      "p": "In his famous lectures, Richard Feynman showed that a tiny ratchet attached to a paddle wheel could not do this being’s job, because the ratchet would be jostled by the same random molecular motion it tried to use.",
+      "r": "For 10 points, name this imaginary creature that sorts fast and slow molecules to seem to break the second law of thermodynamics."
+    },
+    {
+      "p": "Its creator compared the law this being seems to break to the fact that once you pour a glass of water into the sea, you can never get the same glass of water back out. He said that law is true only statistically.",
+      "r": "For 10 points, name this imaginary creature that sorts fast and slow molecules between two chambers."
+    },
+    {
+      "p": "In the original version of this thought experiment, a vessel full of air is divided into two portions, A and B, by a wall with a small hole in it.",
+      "r": "A tiny being opens and closes the hole so that fast molecules gather on one side and slow ones on the other. For 10 points, name this imaginary creature."
+    },
+    {
+      "p": "In the 2010s, physicists built real experiments with tiny beads and single electrons that acted like small versions of this being, turning information into a little useful energy without breaking any laws of physics.",
+      "r": "For 10 points, name this imaginary creature that sorts fast and slow molecules, seeming to break the second law of thermodynamics."
+    }
+  ],
+  "clues": [
+    {
+      "id": "sorts-molecules",
+      "tier": "giveaway",
+      "t": "An imaginary tiny being that opens a door to let fast molecules into one chamber and slow ones into the other",
+      "k": [
+        "fast molecules",
+        "door",
+        "imaginary"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-law",
+      "tier": "giveaway",
+      "t": "Seems to break the second law of thermodynamics by lowering entropy without doing work",
+      "k": [
+        "second law",
+        "entropy",
+        "without doing work"
+      ],
+      "n": 0,
+      "rabbit": "Second law of thermodynamics"
+    },
+    {
+      "id": "hot-cold",
+      "tier": "giveaway",
+      "t": "Its sorting would make one chamber hot and the other cold, starting from gas at one temperature",
+      "k": [
+        "hot",
+        "cold",
+        "one temperature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "creator",
+      "tier": "giveaway",
+      "t": "Imagined by the Scottish physicist James Clerk Maxwell",
+      "k": [
+        "james clerk",
+        "scottish"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tait-1867",
+      "tier": "middle",
+      "t": "First described in an 1867 letter to Peter Guthrie Tait; published in the 1871 book _Theory of Heat_",
+      "k": [
+        "1867",
+        "tait",
+        "theory of heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-name",
+      "tier": "middle",
+      "t": "William Thomson (later Lord Kelvin) gave it its common name in 1874",
+      "k": [
+        "william thomson",
+        "kelvin",
+        "1874"
+      ],
+      "n": 0
+    },
+    {
+      "id": "information",
+      "tier": "middle",
+      "t": "The catch involves information: the being must gather, record, and eventually erase what it knows about each molecule",
+      "k": [
+        "information",
+        "erase",
+        "record"
+      ],
+      "n": 0,
+      "rabbit": "Entropy"
+    },
+    {
+      "id": "statistical",
+      "tier": "middle",
+      "t": "Its creator used it to show that the second law is a statistical truth, not an absolute one",
+      "k": [
+        "statistical",
+        "absolute"
+      ],
+      "n": 0
+    },
+    {
+      "id": "landauer",
+      "tier": "middle",
+      "t": "Landauer’s principle: erasing one bit of information must give off a little heat",
+      "k": [
+        "landauer",
+        "bit",
+        "heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speed-spread",
+      "tier": "middle",
+      "t": "It uses the wide spread of molecular speeds in a gas, described by a distribution named for Ludwig Boltzmann and its creator",
+      "k": [
+        "boltzmann",
+        "speeds",
+        "distribution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "perpetual",
+      "tier": "middle",
+      "t": "If it worked, it could power a perpetual motion machine of the second kind",
+      "k": [
+        "perpetual motion",
+        "second kind"
+      ],
+      "n": 0
+    },
+    {
+      "id": "szilard",
+      "tier": "power",
+      "t": "Leo Szilard (1929) imagined a one-molecule “engine” version and argued that gaining information must create entropy",
+      "k": [
+        "szilard",
+        "1929",
+        "one-molecule"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bennett",
+      "tier": "power",
+      "t": "Charles Bennett (1982): the real cost is erasing the being’s memory, not measuring the molecules",
+      "k": [
+        "bennett",
+        "1982",
+        "memory"
+      ],
+      "n": 0
+    },
+    {
+      "id": "smoluchowski",
+      "tier": "power",
+      "t": "Marian Smoluchowski (1912): a spring-loaded trapdoor fails because random molecular bumps jiggle it open and shut",
+      "k": [
+        "smoluchowski",
+        "trapdoor",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Brownian motion"
+    },
+    {
+      "id": "brillouin",
+      "tier": "power",
+      "t": "Léon Brillouin (1951): the being needs light to see molecules, and the light adds more entropy than sorting removes",
+      "k": [
+        "brillouin",
+        "light",
+        "1951"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pynchon",
+      "tier": "power",
+      "t": "Thomas Pynchon’s _The Crying of Lot 49_ features the Nefastis Machine, a box said to hold one",
+      "k": [
+        "pynchon",
+        "nefastis",
+        "crying of lot 49"
+      ],
+      "n": 0
+    },
+    {
+      "id": "feynman",
+      "tier": "power",
+      "t": "Richard Feynman’s ratchet and paddle wheel fails for the same reason: random molecular motion jostles the ratchet",
+      "k": [
+        "feynman",
+        "ratchet",
+        "paddle wheel"
+      ],
+      "n": 0,
+      "rabbit": "Richard Feynman"
+    },
+    {
+      "id": "glass-of-water",
+      "tier": "power",
+      "t": "Its creator compared the second law to never getting the same glass of water back out of the sea",
+      "k": [
+        "glass of water",
+        "sea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "a-and-b",
+      "tier": "power",
+      "t": "The original version divides a vessel of air into two portions, A and B, by a wall with a small hole",
+      "k": [
+        "vessel",
+        "small hole"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shannon",
+      "tier": "power",
+      "t": "Its puzzle was solved by linking heat to information theory, which Claude Shannon founded in 1948",
+      "k": [
+        "claude shannon",
+        "information theory",
+        "1948"
+      ],
+      "n": 0
+    },
+    {
+      "id": "clausius",
+      "tier": "power",
+      "t": "It would move heat from cold to hot with no work, which the Clausius statement of the second law forbids",
+      "k": [
+        "clausius",
+        "cold to hot"
+      ],
+      "n": 0
+    },
+    {
+      "id": "first-law",
+      "tier": "power",
+      "t": "It would not break the first law of thermodynamics, since the total energy stays the same",
+      "k": [
+        "first law",
+        "total energy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "experiments",
+      "tier": "power",
+      "t": "In the 2010s, physicists built small real versions with tiny beads and single electrons, turning information into energy",
+      "k": [
+        "beads",
+        "single electrons",
+        "2010s"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The being, not the law",
+    "body": "Tossups on this thought experiment are packed with clues about entropy and the second law of thermodynamics, which are separate answer lines, so blurting the law or the quantity is wrong. Laplace’s demon is a different imaginary being, one that could predict the whole future of the universe. Saying just “demon” earns only a prompt.",
+    "fix": "If the question asks for “this being,” “this creature,” or “this thought experiment” that sorts fast and slow molecules, say “Maxwell’s demon.” Name the second law only when the question asks for “this law.”",
+    "line": "Real answer line: <b><u>Maxwell’s demon</u></b> (prompt on <u>demon</u>; do not accept “second law of thermodynamics”)"
+  },
+  "tests": {
+    "right": [
+      "Maxwell's demon",
+      "Maxwell’s demon",
+      "Maxwell demon",
+      "Maxwel's demon",
+      "Maxwell's daemon"
+    ],
+    "prompt": [
+      "Demon"
+    ],
+    "wrong": [
+      "Second law of thermodynamics",
+      "Laplace's demon",
+      "Entropy",
+      "James Clerk Maxwell",
+      "Szilard engine"
+    ]
+  }
+}
