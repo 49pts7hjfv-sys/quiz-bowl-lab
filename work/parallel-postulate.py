@@ -137,7 +137,7 @@ data = {
             "r": "It is about lines that never cross. For 10 points, name this postulate, the last of the five in Euclid’s _Elements_."
         },
         {
-            "p": "Bernhard Riemann’s [“REE-mahnz”] 1854 lecture, whose topic was chosen by Gauss, inspired a geometry with no lines that never meet, like geometry on the surface of a sphere. On a globe, every line of longitude crosses the equator at a right angle, yet all of them still meet at the poles.",
+            "p": "Bernhard Riemann’s [“REE-mahnz”] 1854 lecture, whose topic was chosen by Gauss, inspired a geometry, like geometry on the surface of a sphere, in which every two lines meet. On a globe, every line of longitude crosses the equator at a right angle, yet all of them still meet at the poles.",
             "r": "Geometries without it are called non-Euclidean. For 10 points, name this postulate of Euclid, which fails on a sphere."
         },
         {

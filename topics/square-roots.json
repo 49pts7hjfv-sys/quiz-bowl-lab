@@ -121,7 +121,7 @@
       "r": "For 10 points, name this operation, written with a radical sign, which gives 7 for the number 49."
     },
     {
-      "p": "Plato’s dialogue _Theaetetus_ [“thee-ee-TEE-tus”] says that Theodorus of Cyrene [“sy-REE-nee”] proved that this function of 3, 5, and other whole numbers up to 17 that are not perfect squares is irrational. A spiral named for Theodorus is built from right triangles whose longest sides equal this function of 2, 3, 4, and so on.",
+      "p": "Plato’s dialogue _Theaetetus_ [“thee-ee-TEE-tus”] says that Theodorus of Cyrene [“sy-REE-nee”] proved that this function of 3, of 5, and of several other whole numbers up to 17 is irrational. A spiral named for Theodorus is built from right triangles whose longest sides equal this function of 2, 3, 4, and so on.",
       "r": "Perfect squares such as 25 have whole-number values. For 10 points, name this operation, which gives 5 for 25."
     },
     {
@@ -133,7 +133,7 @@
       "r": "That value is about 1.414. For 10 points, name this operation, which gives 6 for the number 36."
     },
     {
-      "p": "Sheets of A4 paper are this function of 2 times as long as they are wide, so cutting one in half makes two smaller sheets with exactly the same shape. The side length of any square equals this function of its area.",
+      "p": "Sheets of A4 paper are this function of 2 times as long as they are wide, so cutting one in half makes two smaller sheets with exactly the same shape. That ratio, about 1.414, means each size in the series has exactly half the area of the one before it.",
       "r": "For 10 points, name this operation, written with a radical sign, which gives 4 for the number 16."
     },
     {
@@ -369,11 +369,11 @@
     {
       "id": "a4-paper",
       "tier": "power",
-      "t": "A4 paper is this value of 2 times as long as it is wide, so cutting a sheet in half keeps its shape; a square’s side is this value of its area",
+      "t": "A4 paper is this value of 2 times as long as it is wide, so cutting a sheet in half keeps its shape",
       "k": [
         "a4 paper",
         "cutting",
-        "area"
+        "shape"
       ],
       "n": 0
     },

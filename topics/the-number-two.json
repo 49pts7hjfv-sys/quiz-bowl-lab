@@ -130,7 +130,7 @@
   },
   "tossups": [
     {
-      "p": "The Babylonian clay tablet YBC 7289 shows the square root of this number, the length of the diagonal of a square with side 1, correct to about six decimal places. Legend says the Pythagorean Hippasus [“HIP-uh-sus”] was drowned at sea for revealing that the square root of this number cannot be written as a fraction.",
+      "p": "The Babylonian clay tablet YBC 7289 shows the square root of this number, the length of the diagonal of a square with side 1, correct to five decimal places. Legend says the Pythagorean Hippasus [“HIP-uh-sus”] was drowned at sea for revealing that the square root of this number cannot be written as a fraction.",
       "r": "Its square root is about 1.414. For 10 points, name this smallest prime number, the only prime that is even."
     },
     {
@@ -360,11 +360,11 @@
     {
       "id": "ybc-7289",
       "tier": "power",
-      "t": "The Babylonian tablet YBC 7289 shows its square root correct to about six decimal places",
+      "t": "The Babylonian tablet YBC 7289 shows its square root correct to five decimal places (1.41421)",
       "k": [
         "ybc 7289",
         "babylonian",
-        "six decimal places"
+        "five decimal places"
       ],
       "n": 0
     },

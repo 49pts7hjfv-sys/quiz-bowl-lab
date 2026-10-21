@@ -4,7 +4,7 @@
   "mono": "PRM",
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
-  "kicker": "Arrangements where order matters · n objects line up in n! ways",
+  "kicker": "Arrangements where order matters · There are n! ways to line up n objects",
   "dates": "Bell-ringing orders described by Fabian Stedman, 1677",
   "briefing": "A permutation is an arrangement of things in a particular order, so ABC and CBA are different permutations of the same three letters. There are n! ways to arrange n different objects, so three friends can line up in 6 ways, and a shuffled deck of 52 cards has a 68-digit number of possible orders. When order doesn’t matter, as when picking a team, you are counting combinations instead.",
   "answerHtml": "<b><u>permutation</u></b>s (prompt on <u>arrangement</u>s or <u>ordering</u>s; do not accept “combinations”)",
@@ -41,6 +41,8 @@
     "partitions",
     "partition",
     "symmetric group",
+    "permutation group",
+    "permutation groups",
     "group theory",
     "groups",
     "transpositions",
@@ -72,7 +74,8 @@
       "combinatorics",
       "symmetric group",
       "n choose k",
-      "anagrams"
+      "anagrams",
+      "permutation group"
     ]
   },
   "media": [],

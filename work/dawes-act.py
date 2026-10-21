@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "dawes-act",
+    "name": "Dawes Act",
+    "mono": "DA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Broke reservations into family plots · Native land fell by two-thirds",
+    "dates": "Signed February 8, 1887",
+    "briefing": "In 1887, Congress decided to break up Native American reservations into private farms. The Dawes Act, sponsored by Senator Henry Dawes of Massachusetts, gave 160 acres to each head of a family and sold the leftover “surplus” land to white settlers. Supporters claimed it would help Native Americans by making them farmers, but by 1934 Native nations had lost about 90 million acres, roughly two-thirds of their land.",
+    "answerHtml": "<b><u>Dawes</u></b> Act (or <u>Dawes Severalty</u> Act or <u>General Allotment</u> Act; prompt on <u>allotment</u>; do not accept “Dawes Plan”)",
+    "accept": [
+        "dawes act",
+        "the dawes act",
+        "dawes",
+        "dawes act of 1887",
+        "dawes law",
+        "dawes severalty act",
+        "dawes severalty law",
+        "dawes general allotment act",
+        "dawes allotment act",
+        "general allotment act",
+        "the general allotment act",
+        "general allotment act of 1887",
+        "indian general allotment act",
+        "allotment act",
+        "severalty act"
+    ],
+    "prompt": [
+        "allotment",
+        "allotments",
+        "allotment policy",
+        "indian allotment",
+        "henry dawes",
+        "senator dawes",
+        "senator henry dawes"
+    ],
+    "reject": [
+        "dawes plan",
+        "the dawes plan",
+        "charles dawes",
+        "charles g dawes",
+        "william dawes",
+        "dawes commission",
+        "dawes rolls",
+        "indian reorganization act",
+        "wheeler howard act",
+        "indian new deal",
+        "indian removal act",
+        "indian citizenship act",
+        "snyder act",
+        "homestead act",
+        "curtis act",
+        "burke act",
+        "meriam report",
+        "indian appropriations act",
+        "indian relocation act",
+        "trail of tears",
+        "interstate commerce act",
+        "morrill act",
+        "pacific railway act"
+    ],
+    "tests": {
+        "right": [
+            "Dawes Act",
+            "Dawes Severalty Act",
+            "General Allotment Act",
+            "Dawes",
+            "Daws Act",
+            "the Dawes Act of 1887"
+        ],
+        "prompt": [
+            "allotment",
+            "Henry Dawes"
+        ],
+        "wrong": [
+            "Dawes Plan",
+            "Indian Reorganization Act",
+            "Indian Removal Act",
+            "Homestead Act",
+            "Charles Dawes",
+            "Curtis Act",
+            "Indian Citizenship Act"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Dawes_Act",
+    "qb": {
+        "q": "Dawes Act",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Theodore Roosevelt praised this law in 1901 as “a mighty pulverizing engine to break up the tribal mass.” Over the 47 years after this law passed, Native American landholdings shrank from about 138 million acres to about 48 million acres.",
+            "r": "For 10 points, name this 1887 law that divided reservation land into plots for individual Native American families."
+        },
+        {
+            "p": "John Collier, Franklin Roosevelt’s Commissioner of Indian Affairs, pushed for a 1934 law that ended the policy begun by this earlier law. That 1934 law, the Indian Reorganization Act, encouraged Native nations to write constitutions and rebuild their own governments.",
+            "r": "For 10 points, name this 1887 law, signed by Grover Cleveland, that broke up reservations into individual plots."
+        },
+        {
+            "p": "In 1928, the Meriam Report described deep poverty on many reservations and criticized the land policy begun by this law. That report helped lead to a major change in federal policy toward Native Americans six years later.",
+            "r": "For 10 points, name this 1887 law that split up reservations into plots of up to 160 acres."
+        },
+        {
+            "p": "Reformers who called themselves “Friends of the Indian” and met each year at Lake Mohonk in New York backed this law. Helen Hunt Jackson’s book _A Century of Dishonor_ had earlier stirred calls to change the government’s treatment of Native peoples.",
+            "r": "Supporters hoped this law would turn Native Americans into individual farmers. For 10 points, name this 1887 law that divided reservations into family plots."
+        },
+        {
+            "p": "This law gave 80 acres to each single adult and to each orphan under 18, and 40 acres to each other single person under 18. The federal government then sold off much of the reservation land left over after those plots were handed out.",
+            "r": "Heads of families received 160 acres. For 10 points, name this 1887 law that broke up Native American reservations."
+        },
+        {
+            "p": "The federal government held each plot created by this law in trust for 25 years, and during that time the owner could not sell it. Native Americans who accepted plots under this law were also declared citizens of the United States.",
+            "r": "For 10 points, name this 1887 law that divided reservation land among individual Native American families."
+        },
+        {
+            "p": "The government labeled the reservation land it did not hand out under this law as “surplus” and opened it to white settlers. By the 1930s, Native nations had lost about two-thirds of the land they had held before this law passed.",
+            "r": "For 10 points, name this 1887 law, signed by Grover Cleveland, that split reservations into individual plots."
+        },
+        {
+            "p": "This law at first exempted the Cherokee, the Creek, and the rest of the “Five Civilized Tribes” in Indian Territory. Congress extended its policy to those nations with the Curtis Act of 1898, and a federal commission drew up membership rolls that those nations have used to decide citizenship.",
+            "r": "For 10 points, name this 1887 law that broke up Native American reservations into individual plots."
+        },
+        {
+            "p": "Because land was sold to outsiders under this law, many reservations became a “checkerboard” of Native-owned and non-Native-owned plots. Over generations, the plots created by this law were divided among so many heirs that some owners held only tiny shares.",
+            "r": "For 10 points, name this 1887 law that split reservation land into plots for individual families."
+        },
+        {
+            "p": "This law gave each Native American head of a family the same amount of land that a settler could claim under the Homestead Act of 1862. Much of the land handed out under this law was too dry to farm, and many owners later lost their plots to taxes, debts, or fraud.",
+            "r": "That amount was 160 acres. For 10 points, name this 1887 law that divided reservations into individual plots."
+        },
+        {
+            "p": "The Massachusetts senator who sponsored this law chaired the Senate’s Committee on Indian Affairs. After leaving the Senate in 1893, he led a federal commission that pressed the Five Civilized Tribes to accept the policy of this law.",
+            "r": "For 10 points, name this 1887 law, named for that senator, that broke up reservations into individual plots."
+        },
+        {
+            "p": "The Burke Act of 1906 changed this law so that Native Americans who received plots became citizens only when the plot’s trust period ended, unless officials declared them “competent” sooner. Many owners who gained full control of their plots early soon lost them.",
+            "r": "For 10 points, name this 1887 law that split Native American reservations into individual plots."
+        },
+        {
+            "p": "In 1903, the Kiowa leader Lone Wolf lost a Supreme Court case against the breakup of his people’s reservation under the policy of this law. In _Lone Wolf v. Hitchcock_, the Court ruled that Congress could override promises made in treaties.",
+            "r": "For 10 points, name this 1887 law that divided reservations into plots for individual Native American families."
+        },
+        {
+            "p": "Native Americans who had not gained citizenship by accepting plots under this law were made citizens by the Indian Citizenship Act of 1924. A decade later, the Indian Reorganization Act stopped any further dividing of reservations under this law.",
+            "r": "For 10 points, name this 1887 law, signed by Grover Cleveland, that broke up reservations into individual plots."
+        },
+        {
+            "p": "This law was signed just four days after the Interstate Commerce Act, which created the first federal agency to regulate railroads. A former governor of New York signed both laws in February 1887.",
+            "r": "That president was Grover Cleveland. For 10 points, name this law that aimed to turn Native Americans into individual farmers by dividing up reservations."
+        }
+    ],
+    "clues": [
+        {
+            "id": "law-1887",
+            "tier": "giveaway",
+            "t": "An 1887 law that divided (allotted) reservation land into plots for individual Native American families",
+            "k": ["1887", "reservation", "plots", "allotted"],
+            "n": 0
+        },
+        {
+            "id": "cleveland",
+            "tier": "giveaway",
+            "t": "Signed by President Grover Cleveland in February 1887",
+            "k": ["grover cleveland", "cleveland", "february 1887"],
+            "n": 0,
+            "rabbit": "Grover Cleveland"
+        },
+        {
+            "id": "farmers",
+            "tier": "giveaway",
+            "t": "Aimed to turn Native Americans into individual farmers and end tribes’ holding of land in common (assimilation)",
+            "k": ["farmers", "assimilation", "in common"],
+            "n": 0
+        },
+        {
+            "id": "acres-160",
+            "tier": "middle",
+            "t": "Each head of a family received 160 acres",
+            "k": ["160 acres", "head of a family"],
+            "n": 0
+        },
+        {
+            "id": "surplus",
+            "tier": "middle",
+            "t": "Leftover “surplus” reservation land was sold to white settlers",
+            "k": ["surplus", "settlers"],
+            "n": 0
+        },
+        {
+            "id": "acreage",
+            "tier": "middle",
+            "t": "Native landholdings fell from about 138 million acres (1887) to about 48 million acres (1934), a loss of about two-thirds",
+            "k": ["138 million", "48 million", "two-thirds"],
+            "n": 0
+        },
+        {
+            "id": "trust",
+            "tier": "middle",
+            "t": "Each plot was held in trust by the government for 25 years and could not be sold during that time",
+            "k": ["trust", "25 years"],
+            "n": 0
+        },
+        {
+            "id": "citizenship",
+            "tier": "middle",
+            "t": "Native Americans who accepted plots were declared U.S. citizens",
+            "k": ["citizens", "accepted plots"],
+            "n": 0
+        },
+        {
+            "id": "ira",
+            "tier": "middle",
+            "t": "Ended by the Indian Reorganization Act of 1934, pushed by Commissioner of Indian Affairs John Collier",
+            "k": ["indian reorganization act", "john collier", "collier", "1934"],
+            "n": 0
+        },
+        {
+            "id": "five-tribes",
+            "tier": "middle",
+            "t": "At first did not apply to the “Five Civilized Tribes” in Indian Territory; the Curtis Act (1898) extended the policy to them",
+            "k": ["five civilized tribes", "curtis act", "1898"],
+            "n": 0,
+            "rabbit": "Cherokee"
+        },
+        {
+            "id": "pulverizing",
+            "tier": "power",
+            "t": "Theodore Roosevelt (1901): “a mighty pulverizing engine to break up the tribal mass”",
+            "k": ["pulverizing", "theodore roosevelt", "tribal mass"],
+            "n": 0,
+            "rabbit": "Theodore Roosevelt"
+        },
+        {
+            "id": "meriam",
+            "tier": "power",
+            "t": "The Meriam Report (1928) described deep poverty on reservations and criticized the allotment policy",
+            "k": ["meriam", "1928", "poverty"],
+            "n": 0
+        },
+        {
+            "id": "mohonk",
+            "tier": "power",
+            "t": "Reformers who called themselves “Friends of the Indian” supported it at their yearly Lake Mohonk conferences in New York",
+            "k": ["mohonk", "lake mohonk", "reformers"],
+            "n": 0
+        },
+        {
+            "id": "century-of-dishonor",
+            "tier": "power",
+            "t": "Helen Hunt Jackson’s _A Century of Dishonor_ (1881) had stirred calls to reform federal policy toward Native peoples",
+            "k": ["century of dishonor", "helen hunt jackson"],
+            "n": 0
+        },
+        {
+            "id": "single-plots",
+            "tier": "power",
+            "t": "Single adults and orphans under 18 got 80 acres; other single people under 18 got 40 acres",
+            "k": ["80 acres", "orphans", "40 acres"],
+            "n": 0
+        },
+        {
+            "id": "burke",
+            "tier": "power",
+            "t": "The Burke Act (1906) delayed citizenship until a plot’s trust period ended, unless officials declared the owner “competent”",
+            "k": ["burke act", "1906", "competent"],
+            "n": 0
+        },
+        {
+            "id": "checkerboard",
+            "tier": "power",
+            "t": "Left many reservations a “checkerboard” of Native and non-Native land; over generations, plots were split among many heirs",
+            "k": ["checkerboard", "heirs"],
+            "n": 0
+        },
+        {
+            "id": "homestead",
+            "tier": "power",
+            "t": "Its 160 acres matched a settler’s claim under the Homestead Act of 1862; much of the land was too dry to farm",
+            "k": ["homestead act", "1862", "too dry"],
+            "n": 0,
+            "rabbit": "Homestead Act"
+        },
+        {
+            "id": "lone-wolf",
+            "tier": "power",
+            "t": "_Lone Wolf v. Hitchcock_ (1903): a Kiowa leader lost, and the Court ruled Congress could override treaty promises",
+            "k": ["lone wolf", "kiowa", "1903"],
+            "n": 0
+        },
+        {
+            "id": "sponsor",
+            "tier": "power",
+            "t": "Its sponsor, a Massachusetts senator, chaired the Committee on Indian Affairs and later led a commission to the Five Civilized Tribes (from 1893)",
+            "k": ["massachusetts", "committee on indian affairs", "commission"],
+            "n": 0
+        },
+        {
+            "id": "rolls",
+            "tier": "power",
+            "t": "That commission drew up membership rolls of the Five Tribes, which those nations have used to decide citizenship",
+            "k": ["membership rolls", "rolls"],
+            "n": 0
+        },
+        {
+            "id": "citizenship-1924",
+            "tier": "power",
+            "t": "Native Americans who were not yet citizens became citizens under the Indian Citizenship Act of 1924",
+            "k": ["indian citizenship act", "1924"],
+            "n": 0
+        },
+        {
+            "id": "interstate-commerce",
+            "tier": "power",
+            "t": "Signed four days after the Interstate Commerce Act, which created the first federal agency to regulate railroads",
+            "k": ["interstate commerce act", "four days", "railroads"],
+            "n": 0
+        },
+        {
+            "id": "lost-plots",
+            "tier": "power",
+            "t": "Many owners later lost their plots to taxes, debts, or fraud",
+            "k": ["taxes", "fraud", "debts"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Act, not Plan",
+        "body": "Several famous Daweses show up in history questions. Senator Henry Dawes of Massachusetts sponsored this 1887 law about Native American land, while Charles Dawes, a banker who later became Calvin Coolidge’s vice president, led the committee behind the 1924 Dawes Plan for Germany’s World War I reparations. William Dawes rode with Paul Revere in 1775. Saying “Dawes Plan” for this law is wrong, and so is the Indian Reorganization Act of 1934, which ended allotment.",
+        "fix": "Native American land, 160-acre plots, “surplus” land sold to settlers, and 1887 mean the Dawes Act; Germany, reparations, and the 1920s mean the Dawes Plan. “Dawes” or “General Allotment Act” is fine, but “allotment” alone may earn only a prompt.",
+        "line": "Real answer line: <b><u>Dawes</u></b> Act (or <u>Dawes Severalty</u> Act or <u>General Allotment</u> Act; prompt on <u>allotment</u>; do not accept “Dawes Plan”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

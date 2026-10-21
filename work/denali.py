@@ -1,0 +1,342 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "denali",
+    "name": "Denali",
+    "mono": "DN",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Tallest mountain in North America · Alaska’s “high one,” 20,310 feet",
+    "dates": "First climbed June 7, 1913",
+    "briefing": "Denali, in Alaska, is the tallest mountain in North America at 20,310 feet, and its name comes from a Koyukon Athabaskan word meaning “the high one.” In 1913, Walter Harper, a young Alaska Native man, became the first person to stand on its summit. The federal government called it Mount McKinley until 2015, when it officially became Denali, and a 2025 executive order restored “Mount McKinley” for federal use.",
+    "answerHtml": "<b><u>Denali</u></b> (or <b><u>Mount McKinley</u></b>; prompt on <u>McKinley</u>)",
+    "accept": [
+        "denali",
+        "mount denali",
+        "mt denali",
+        "denali mountain",
+        "denali peak",
+        "mount mckinley",
+        "mt mckinley",
+        "mount mc kinley",
+        "mckinley mountain"
+    ],
+    "prompt": [
+        "mckinley",
+        "mc kinley",
+        "denali national park",
+        "denali national park and preserve",
+        "mount mckinley national park"
+    ],
+    "reject": [
+        "william mckinley",
+        "president mckinley",
+        "president william mckinley",
+        "mount everest",
+        "everest",
+        "mount logan",
+        "aconcagua",
+        "mount saint elias",
+        "mount st elias",
+        "mount rainier",
+        "rainier",
+        "mount whitney",
+        "whitney",
+        "mount foraker",
+        "foraker",
+        "mount hunter",
+        "mount kilimanjaro",
+        "kilimanjaro",
+        "mount elbrus",
+        "mount vinson",
+        "vinson massif",
+        "pikes peak",
+        "mount hood",
+        "mount shasta",
+        "mount saint helens",
+        "mount st helens",
+        "mount olympus",
+        "mount rushmore",
+        "mount katmai",
+        "alaska range",
+        "brooks range",
+        "rocky mountains",
+        "kahiltna glacier",
+        "talkeetna"
+    ],
+    "tests": {
+        "right": [
+            "Denali",
+            "Mount McKinley",
+            "Mt. McKinley",
+            "Mount Denali",
+            "Denalli"
+        ],
+        "prompt": [
+            "McKinley",
+            "Denali National Park"
+        ],
+        "wrong": [
+            "William McKinley",
+            "Mount Everest",
+            "Mount Logan",
+            "Mount Whitney",
+            "Aconcagua",
+            "Mount Rainier",
+            "Alaska Range"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Denali",
+    "qb": {
+        "q": "Denali",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "On June 7, 1913, Walter Harper became the first person to stand on this mountain’s summit. He climbed with Harry Karstens, Robert Tatum, and Hudson Stuck, an Episcopal archdeacon who later wrote a book about their climb.",
+            "r": "Harper was a young Alaska Native man. For 10 points, name this mountain, the tallest peak in North America."
+        },
+        {
+            "p": "In 1906, Frederick Cook claimed to have made the first climb of this mountain, but his “summit” photograph was later shown to have been taken on a much smaller peak miles away. Two years later, Cook made another disputed claim, that he had reached the North Pole.",
+            "r": "For 10 points, name this mountain in Alaska, the highest point in North America."
+        },
+        {
+            "p": "In 1910, four gold miners from Fairbanks set out to climb this mountain, and two of them reached its lower North Peak, where they planted a tall spruce pole. Climbers who reached the higher South Peak three years later said they could see the pole.",
+            "r": "For 10 points, name this peak in the Alaska Range, the highest mountain in North America."
+        },
+        {
+            "p": "The name that this mountain’s Koyukon Athabaskan [“ath-uh-BASS-kun”] neighbors gave it means “the high one.” Its state government adopted that name for the mountain in 1975, but federal maps kept using a name chosen by a gold prospector.",
+            "r": "The federal government switched to the Native name in 2015. For 10 points, name this mountain, the tallest in North America."
+        },
+        {
+            "p": "For decades, members of Congress from Ohio blocked efforts to change this mountain’s official name. In 1980, Congress renamed and greatly enlarged the national park around it, which had been created in 1917.",
+            "r": "The mountain itself got a new official name in 2015. For 10 points, name this mountain in Alaska, the tallest in North America."
+        },
+        {
+            "p": "In 1951, Bradford Washburn led the first climb of this mountain by its West Buttress, which became its most popular route. Four years earlier, his wife, Barbara Washburn, had become the first woman to reach its summit.",
+            "r": "For 10 points, name this mountain in the Alaska Range, the highest point in North America."
+        },
+        {
+            "p": "Most climbers of this mountain fly in small planes from the town of Talkeetna [“tal-KEET-nuh”] to a base camp on the Kahiltna [“kuh-HILT-nuh”] Glacier. From there, most expeditions spend weeks working their way up to its summit.",
+            "r": "For 10 points, name this mountain in the Alaska Range, the tallest peak in North America."
+        },
+        {
+            "p": "This mountain rises about 18,000 feet from its base, a bigger rise than Mount Everest’s from the high plateau around it. Only Everest and Aconcagua [“ah-kon-KAH-gwuh”] stand out more from their surroundings, a measure called prominence.",
+            "r": "It is one of the “Seven Summits,” the highest peaks on each continent. For 10 points, name this mountain, the highest in North America."
+        },
+        {
+            "p": "The photographer Ansel Adams took famous pictures of this mountain from Wonder Lake in 1947. Visitors to the national park around it hope to spot its “Big Five” animals: grizzly bears, moose, caribou, wolves, and Dall sheep.",
+            "r": "For 10 points, name this mountain in Alaska, the tallest in North America."
+        },
+        {
+            "p": "The naturalist Charles Sheldon campaigned for a national park around this mountain to protect its Dall sheep from market hunters. Congress created that park in 1917, and Harry Karstens, who had climbed this mountain, later became its first superintendent.",
+            "r": "For 10 points, name this mountain, the highest peak in North America."
+        },
+        {
+            "p": "A long fault named for this mountain slipped in a magnitude 7.9 earthquake in 2002. A major oil pipeline that crosses the fault survived that earthquake because engineers had set it on sliding supports, letting the ground shift beneath it.",
+            "r": "For 10 points, name this mountain in the Alaska Range, the tallest in North America."
+        },
+        {
+            "p": "Hudson Stuck, who organized the first successful climb of this mountain, used its Native name in the title of his 1914 book about that climb. Stuck argued that the name prospectors had given this mountain should be dropped.",
+            "r": "For 10 points, name this Alaskan mountain, the tallest peak in North America."
+        },
+        {
+            "p": "In 1896, a gold prospector named William Dickey renamed this mountain to honor a presidential candidate who supported the gold standard. In 1917, Congress gave that name to the new national park around this mountain.",
+            "r": "That candidate later became the 25th president. For 10 points, name this mountain, the highest in North America."
+        },
+        {
+            "p": "Because it lies at about 63 degrees north latitude, this mountain is one of the coldest big peaks on Earth, and the air pressure near its summit is lower than on peaks of similar height nearer the equator. Its national park covers about six million acres.",
+            "r": "For 10 points, name this peak in the Alaska Range, the tallest mountain in North America."
+        },
+        {
+            "p": "A 2015 survey using GPS equipment lowered this mountain’s official height by ten feet, from the figure of 20,320 feet that had been used for decades. Survey teams carried their instruments all the way to its summit.",
+            "r": "Its height is now listed as 20,310 feet. For 10 points, name this mountain, the tallest in North America, first climbed in 1913."
+        }
+    ],
+    "clues": [
+        {
+            "id": "tallest",
+            "tier": "giveaway",
+            "t": "The tallest mountain in North America, at 20,310 feet",
+            "k": ["tallest", "north america", "20,310"],
+            "n": 0
+        },
+        {
+            "id": "alaska",
+            "tier": "giveaway",
+            "t": "In the Alaska Range in south-central Alaska",
+            "k": ["alaska range", "alaska"],
+            "n": 0
+        },
+        {
+            "id": "names",
+            "tier": "giveaway",
+            "t": "Officially given its Native name in 2015; a 2025 executive order restored the 25th president’s name for federal use",
+            "k": ["2015", "2025", "executive order", "25th president"],
+            "n": 0
+        },
+        {
+            "id": "national-park",
+            "tier": "middle",
+            "t": "Centerpiece of a national park created in 1917 and renamed and enlarged in 1980",
+            "k": ["national park", "1917", "1980"],
+            "n": 0
+        },
+        {
+            "id": "high-one",
+            "tier": "middle",
+            "t": "Its name comes from a Koyukon Athabaskan word meaning “the high one”",
+            "k": ["high one", "koyukon", "athabaskan"],
+            "n": 0
+        },
+        {
+            "id": "harper",
+            "tier": "middle",
+            "t": "First climbed on June 7, 1913; Walter Harper, a young Alaska Native man, was the first to reach the top",
+            "k": ["walter harper", "harper", "1913"],
+            "n": 0
+        },
+        {
+            "id": "stuck",
+            "tier": "middle",
+            "t": "Hudson Stuck, an Episcopal archdeacon, organized the 1913 climb with Harry Karstens and Robert Tatum",
+            "k": ["hudson stuck", "stuck", "karstens", "tatum"],
+            "n": 0
+        },
+        {
+            "id": "cook",
+            "tier": "middle",
+            "t": "Frederick Cook falsely claimed the first climb in 1906",
+            "k": ["frederick cook", "cook", "1906"],
+            "n": 0
+        },
+        {
+            "id": "mckinley-name",
+            "tier": "middle",
+            "t": "Renamed in 1896 for presidential candidate William McKinley by gold prospector William Dickey",
+            "k": ["william mckinley", "dickey", "1896", "prospector"],
+            "n": 0,
+            "rabbit": "William McKinley"
+        },
+        {
+            "id": "seven-summits",
+            "tier": "middle",
+            "t": "One of the “Seven Summits,” the highest peaks on each of the seven continents",
+            "k": ["seven summits", "continents"],
+            "n": 0
+        },
+        {
+            "id": "ohio",
+            "tier": "middle",
+            "t": "Alaska adopted its Native name in 1975, but Ohio’s members of Congress blocked a federal change for decades",
+            "k": ["ohio", "1975"],
+            "n": 0
+        },
+        {
+            "id": "sourdoughs",
+            "tier": "power",
+            "t": "1910: four miners from Fairbanks (the “Sourdoughs”) tried it; two reached the lower North Peak and planted a spruce pole",
+            "k": ["sourdoughs", "north peak", "spruce pole", "fairbanks"],
+            "n": 0
+        },
+        {
+            "id": "fake-peak",
+            "tier": "power",
+            "t": "Cook’s “summit” photo was taken on a much smaller peak miles away; he later made a disputed North Pole claim (1908)",
+            "k": ["north pole", "smaller peak", "photo"],
+            "n": 0
+        },
+        {
+            "id": "washburn",
+            "tier": "power",
+            "t": "Bradford Washburn led the first climb by the West Buttress (1951), which became the most popular route",
+            "k": ["bradford washburn", "west buttress", "1951"],
+            "n": 0
+        },
+        {
+            "id": "barbara",
+            "tier": "power",
+            "t": "Barbara Washburn was the first woman to reach the summit (1947)",
+            "k": ["barbara washburn", "first woman", "1947"],
+            "n": 0
+        },
+        {
+            "id": "talkeetna",
+            "tier": "power",
+            "t": "Climbers fly from Talkeetna to a base camp on the Kahiltna Glacier",
+            "k": ["talkeetna", "kahiltna"],
+            "n": 0
+        },
+        {
+            "id": "base-to-peak",
+            "tier": "power",
+            "t": "Rises about 18,000 feet from its base, more than Everest’s rise from its high plateau; third in prominence after Everest and Aconcagua",
+            "k": ["18,000", "prominence", "aconcagua"],
+            "n": 0
+        },
+        {
+            "id": "sheldon",
+            "tier": "power",
+            "t": "Naturalist Charles Sheldon pushed for its national park to protect Dall sheep; climber Harry Karstens became the park’s first superintendent",
+            "k": ["charles sheldon", "sheldon", "dall sheep", "first superintendent"],
+            "n": 0
+        },
+        {
+            "id": "ansel-adams",
+            "tier": "power",
+            "t": "Ansel Adams photographed it from Wonder Lake (1947); the park’s “Big Five” are grizzlies, moose, caribou, wolves, and Dall sheep",
+            "k": ["ansel adams", "wonder lake", "big five"],
+            "n": 0
+        },
+        {
+            "id": "fault",
+            "tier": "power",
+            "t": "The fault named for it slipped in a magnitude 7.9 earthquake (2002); the Trans-Alaska Pipeline survived on sliding supports",
+            "k": ["pipeline", "2002", "earthquake"],
+            "n": 0
+        },
+        {
+            "id": "stuck-book",
+            "tier": "power",
+            "t": "Hudson Stuck used its Native name in the title of his 1914 book about the first climb",
+            "k": ["1914", "native name"],
+            "n": 0
+        },
+        {
+            "id": "latitude",
+            "tier": "power",
+            "t": "At about 63° north, it is one of the coldest big mountains, with lower air pressure than peaks nearer the equator",
+            "k": ["coldest", "air pressure", "latitude"],
+            "n": 0
+        },
+        {
+            "id": "survey-2015",
+            "tier": "power",
+            "t": "A 2015 GPS survey set its height at 20,310 feet, ten feet lower than the old figure of 20,320",
+            "k": ["gps", "20,320", "survey"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Mountain or president?",
+        "body": "This mountain has two names, and both count: Denali, from its Koyukon name, and Mount McKinley, after the 25th president. The federal government officially renamed it Denali in 2015, and a 2025 executive order restored “Mount McKinley” for federal use, so tossups may use either name. Saying just “McKinley” earns a prompt, and naming the president himself on a mountain question is wrong.",
+        "fix": "If the question asks for “this mountain” or “this peak,” say “Denali” or “Mount McKinley.” If it asks for “this president,” the answer is William McKinley. Don’t mix it up with Mount Logan, the tallest peak in Canada, or Mount Whitney, the tallest in the lower 48 states.",
+        "line": "Real answer line: <b><u>Denali</u></b> (or <b><u>Mount McKinley</u></b>; prompt on <u>McKinley</u>)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

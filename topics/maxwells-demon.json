@@ -6,7 +6,7 @@
   "qbCategory": "Science · Physics",
   "kicker": "Imaginary molecule-sorter · Seems to break the second law of thermodynamics",
   "dates": "Imagined 1867; published 1871",
-  "briefing": "Maxwell’s demon is a tiny imaginary being dreamed up by the Scottish physicist James Clerk Maxwell in 1867. It guards a little door between two boxes of gas, letting fast molecules into one side and slow ones into the other, so one side heats up and the other cools down without any work being done. That would break the second law of thermodynamics, and physicists finally found the catch in information: the demon must remember, and eventually erase, what it learns about each molecule.",
+  "briefing": "Maxwell’s demon is a tiny imaginary being dreamed up by the Scottish physicist James Clerk Maxwell in 1867. It guards a little door between two boxes of gas, letting fast molecules into one side and slow ones into the other, so one side heats up and the other cools down without any work being done. That would break the second law of thermodynamics, but most physicists say the catch lies in information: the demon must remember, and eventually erase, what it learns about each molecule.",
   "answerHtml": "<b><u>Maxwell’s demon</u></b> (prompt on <u>demon</u>; do not accept “second law of thermodynamics”)",
   "accept": [
     "maxwells demon",
@@ -98,7 +98,7 @@
       "r": "For 10 points, name this creature that opens a tiny door to let fast molecules go one way and slow molecules the other."
     },
     {
-      "p": "William Thomson, later Lord Kelvin, gave this imaginary being its common name in an 1874 article. Its creator had described it as a being with senses so sharp that it could follow every molecule in its course.",
+      "p": "William Thomson, later Lord Kelvin, whose title names a temperature scale, gave this imaginary being its common name in an 1874 article. Its creator had described it as a being with senses so sharp that it could follow every molecule in its course.",
       "r": "For 10 points, name this creature from a thought experiment about sorting gas molecules by speed."
     },
     {
@@ -126,7 +126,7 @@
       "r": "It seems to break the second law instead. For 10 points, name this imaginary creature that sorts fast and slow molecules."
     },
     {
-      "p": "Physicists finally explained why this being fails by linking heat to information theory, the field that Claude Shannon founded in 1948. The being has to record which molecules it lets through, and that record cannot grow forever.",
+      "p": "Physicists have explained why this being fails by linking heat to information theory, the field that Claude Shannon founded in 1948. The being has to record which molecules it lets through, and that record cannot grow forever.",
       "r": "For 10 points, name this imaginary creature that seems to lower entropy by sorting molecules."
     },
     {
@@ -146,7 +146,7 @@
       "r": "A tiny being opens and closes the hole so that fast molecules gather on one side and slow ones on the other. For 10 points, name this imaginary creature."
     },
     {
-      "p": "In the 2010s, physicists built real experiments with tiny beads and single electrons that acted like small versions of this being, turning information into a little useful energy without breaking any laws of physics.",
+      "p": "A refrigerator can move heat from its cold inside to a warmer kitchen only by using electricity, but this imaginary being would seem to do the same job for free. Its creator, a Scottish physicist, is better known for his equations of electricity and magnetism.",
       "r": "For 10 points, name this imaginary creature that sorts fast and slow molecules, seeming to break the second law of thermodynamics."
     }
   ],
@@ -188,10 +188,10 @@
     {
       "id": "creator",
       "tier": "giveaway",
-      "t": "Imagined by the Scottish physicist James Clerk Maxwell",
+      "t": "Imagined by a Scottish physicist best known for his equations of electricity and magnetism",
       "k": [
-        "james clerk",
-        "scottish"
+        "scottish physicist",
+        "equations"
       ],
       "n": 0
     },
@@ -391,13 +391,13 @@
       "n": 0
     },
     {
-      "id": "experiments",
+      "id": "refrigerator",
       "tier": "power",
-      "t": "In the 2010s, physicists built small real versions with tiny beads and single electrons, turning information into energy",
+      "t": "Would seem to move heat from cold to hot for free, a job a refrigerator can do only by using electricity",
       "k": [
-        "beads",
-        "single electrons",
-        "2010s"
+        "refrigerator",
+        "electricity",
+        "for free"
       ],
       "n": 0
     }

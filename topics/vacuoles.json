@@ -1,0 +1,439 @@
+{
+  "id": "vacuoles",
+  "name": "Vacuoles",
+  "mono": "VAC",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Membrane-bound storage sacs · Keep plant cells firm with turgor pressure",
+  "dates": "Can fill about 90 percent of a plant cell",
+  "briefing": "Vacuoles are membrane-bound sacs that cells use like storage closets for water, food, pigments, and waste. In a plant cell, one huge central vacuole can fill about 90 percent of the space, and its water pushes outward against the cell wall to keep the plant firm; when it runs low, the plant wilts. Some single-celled organisms use contractile vacuoles to pump out extra water so they don’t burst.",
+  "answerHtml": "<b><u>Vacuoles</u></b> (accept central <u>vacuole</u>, contractile <u>vacuole</u>, or food <u>vacuole</u>; do not accept “vesicles” or “lysosomes”)",
+  "accept": [
+    "vacuoles",
+    "vacuole",
+    "central vacuole",
+    "central vacuoles",
+    "large central vacuole",
+    "contractile vacuole",
+    "contractile vacuoles",
+    "food vacuole",
+    "food vacuoles",
+    "lytic vacuole",
+    "storage vacuole",
+    "plant vacuole"
+  ],
+  "prompt": [],
+  "reject": [
+    "vesicles",
+    "vesicle",
+    "lysosomes",
+    "lysosome",
+    "tonoplast",
+    "tonoplasts",
+    "cell sap",
+    "cell wall",
+    "cell walls",
+    "cell membrane",
+    "plasma membrane",
+    "chloroplasts",
+    "chloroplast",
+    "plastids",
+    "plastid",
+    "amyloplasts",
+    "golgi apparatus",
+    "golgi",
+    "endoplasmic reticulum",
+    "peroxisomes",
+    "peroxisome",
+    "mitochondria",
+    "nucleus",
+    "ribosomes",
+    "cytoplasm",
+    "endosomes",
+    "phagosomes"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Vacuole",
+  "qb": {
+    "q": "vacuole",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Yoshinori Ohsumi [“oh-SOO-mee”] won the 2016 Nobel Prize in Physiology or Medicine after watching yeast cells send worn-out parts into this organelle to be broken down, a process called autophagy [“aw-TOFF-uh-jee”]. In plants and fungi, this organelle does much of the digesting that lysosomes do in animal cells.",
+      "r": "In plant cells, a large central one stores water. For 10 points, name this membrane-bound storage organelle."
+    },
+    {
+      "p": "Pumps called V-type ATPases in the tonoplast [“TOH-nuh-plast”], the membrane around this organelle, push hydrogen ions inside and keep this organelle acidic. Water channels called aquaporins in the tonoplast let water flow quickly into and out of this organelle.",
+      "r": "A plant cell’s large central one pushes water against the cell wall. For 10 points, name this storage organelle."
+    },
+    {
+      "p": "The leaves of the sensitive plant Mimosa pudica [“mih-MOH-suh PYOO-dih-kuh”] fold up when touched because cells at their bases quickly lose water from this organelle. Plant cells grow larger cheaply by filling this organelle with water instead of building more cytoplasm.",
+      "r": "For 10 points, name this organelle, which in plant cells is a large central sac that creates turgor pressure."
+    },
+    {
+      "p": "Cacti and pineapples, which use CAM photosynthesis, store carbon dioxide overnight as malic acid inside this organelle. The purple pigment in red cabbage that students use to test acids and bases is also stored in this organelle.",
+      "r": "Its large central version in plant cells pushes against the cell wall, creating turgor pressure. For 10 points, name this storage organelle."
+    },
+    {
+      "p": "In Paramecium [“pair-uh-MEE-see-um”], star-shaped versions of this organelle collect extra water through canals that spread out like spokes, then squeeze it out of the cell so the cell does not burst. An amoeba forms another kind of this organelle around each bit of food it swallows.",
+      "r": "For 10 points, name these membrane-bound sacs, including the large central one that stores water in plant cells."
+    },
+    {
+      "p": "Lazzaro Spallanzani [“spahl-lahn-TSAH-nee”] saw star-shaped examples of this structure in single-celled organisms in 1776 but mistook them for breathing organs, and Félix Dujardin [“doo-zhar-DAN”] named them in 1841. In 1885, Hugo de Vries named this structure’s membrane the tonoplast.",
+      "r": "Its name comes from the Latin for “empty.” For 10 points, name this organelle, which in plant cells is a large central water-filled sac."
+    },
+    {
+      "p": "When a plant cell sits in very salty water, this organelle loses water by osmosis and shrinks, so the cell membrane pulls away from the cell wall in a process called plasmolysis [“plaz-MOL-ih-sis”]. Students often watch this happen in red onion skin cells, whose purple pigment sits inside this organelle.",
+      "r": "When it runs low on water, a plant wilts. For 10 points, name this organelle, which is large and central in plant cells."
+    },
+    {
+      "p": "Needle-shaped crystals of calcium oxalate, which make some plants painful to chew, often form inside this organelle. In seeds, special versions of this organelle hold stored proteins that a sprouting seedling breaks down for food.",
+      "r": "For 10 points, name this membrane-bound storage organelle, which in plant cells is a large central sac full of water."
+    },
+    {
+      "p": "When guard cells pump potassium ions into this organelle, water follows by osmosis, the guard cells swell, and the stoma between them opens. When the guard cells lose water from this organelle, they go limp and the stoma closes.",
+      "r": "In a mature plant cell, the central one can fill about 90 percent of the space. For 10 points, name this organelle."
+    },
+    {
+      "p": "When an amoeba engulfs a meal by phagocytosis [“fag-oh-sy-TOH-sis”], the food ends up inside one of these organelles, which then fuses with lysosomes that digest it. Freshwater protists use a contractile kind of this organelle to pump out extra water.",
+      "r": "For 10 points, name these organelles, whose large central version stores water in plant cells."
+    },
+    {
+      "p": "Many plants that grow in salty soil pump extra sodium ions into this organelle, keeping the salt away from the enzymes in the rest of the cell. Yeast cells use their version of this organelle to store amino acids and phosphate.",
+      "r": "A plant cell’s large central one keeps the plant firm. For 10 points, name this membrane-bound storage organelle."
+    },
+    {
+      "p": "Cassava and many other plants keep defense chemicals inside this organelle, away from the enzymes that turn them poisonous, so the poison forms only when an animal chews the plant. Proteins headed for this organelle are sorted in the Golgi apparatus.",
+      "r": "Water flowing back into the central one makes wilted lettuce crisp again. For 10 points, name this organelle."
+    },
+    {
+      "p": "Sugarcane and sugar beets store the sucrose that people turn into table sugar inside this organelle. Grapes and other fruits also keep their sugars and acids dissolved in this organelle’s watery fluid, called cell sap.",
+      "r": "Its central version can fill most of a plant cell. For 10 points, name this membrane-bound storage organelle."
+    },
+    {
+      "p": "Lemons taste sour because their juice cells store citric acid inside this organelle, making it one of the most acidic spaces found in any plant. This organelle also holds digestive enzymes that break down worn-out cell parts, much like a lysosome.",
+      "r": "For 10 points, name this organelle, which in plant cells is a large central sac that stores water."
+    },
+    {
+      "p": "Gardeners can turn some hydrangea flowers blue by making the soil more acidic, which lets aluminum reach the pigments stored in this organelle. Some morning glory flowers turn from purple to blue as they open, because the inside of this organelle becomes less acidic.",
+      "r": "Its central version in plant cells creates turgor pressure. For 10 points, name this membrane-bound storage organelle."
+    }
+  ],
+  "clues": [
+    {
+      "id": "storage-sac",
+      "tier": "giveaway",
+      "t": "A membrane-bound sac that stores water, food, pigments, and wastes",
+      "k": [
+        "membrane-bound",
+        "stores water",
+        "wastes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "central",
+      "tier": "giveaway",
+      "t": "Plant cells have one large central one that can fill about 90 percent of the cell",
+      "k": [
+        "central",
+        "90 percent",
+        "plant cells"
+      ],
+      "n": 0
+    },
+    {
+      "id": "turgor",
+      "tier": "giveaway",
+      "t": "Its water pushes against the cell wall, creating turgor pressure that keeps plants firm",
+      "k": [
+        "turgor pressure",
+        "cell wall"
+      ],
+      "n": 0,
+      "rabbit": "Cell wall"
+    },
+    {
+      "id": "wilting",
+      "tier": "giveaway",
+      "t": "When it loses water, the plant wilts",
+      "k": [
+        "wilts",
+        "loses water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "animal-cells",
+      "tier": "giveaway",
+      "t": "Animal cells have only small ones, if any",
+      "k": [
+        "animal cells",
+        "small"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tonoplast",
+      "tier": "middle",
+      "t": "Its membrane is called the tonoplast",
+      "k": [
+        "tonoplast",
+        "membrane"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cell-sap",
+      "tier": "middle",
+      "t": "Its watery fluid is called cell sap, which holds sugars, salts, acids, and pigments",
+      "k": [
+        "cell sap",
+        "sugars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "contractile",
+      "tier": "middle",
+      "t": "Contractile ones in freshwater protists, like _Paramecium_, pump out extra water so the cell does not burst",
+      "k": [
+        "contractile",
+        "paramecium",
+        "freshwater"
+      ],
+      "n": 0
+    },
+    {
+      "id": "food",
+      "tier": "middle",
+      "t": "Food ones form when an amoeba engulfs food by phagocytosis, then fuse with lysosomes for digestion",
+      "k": [
+        "food",
+        "amoeba",
+        "phagocytosis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plasmolysis",
+      "tier": "middle",
+      "t": "In salty water it loses water and shrinks, and the cell membrane pulls away from the wall: plasmolysis",
+      "k": [
+        "plasmolysis",
+        "salty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lysosome-job",
+      "tier": "middle",
+      "t": "In plants and fungi it does much of the digesting that lysosomes do in animal cells, and its inside is acidic",
+      "k": [
+        "digesting",
+        "lysosomes",
+        "acidic"
+      ],
+      "n": 0,
+      "rabbit": "Lysosomes"
+    },
+    {
+      "id": "osmosis",
+      "tier": "middle",
+      "t": "Water moves into and out of it by osmosis, which is why wilted lettuce gets crisp again in water",
+      "k": [
+        "osmosis",
+        "lettuce"
+      ],
+      "n": 0
+    },
+    {
+      "id": "latin-empty",
+      "tier": "middle",
+      "t": "Its name comes from the Latin word for “empty”",
+      "k": [
+        "latin",
+        "empty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ohsumi",
+      "tier": "power",
+      "t": "Yoshinori Ohsumi won the 2016 Nobel Prize for studying autophagy, in which yeast send worn-out parts into it to be broken down",
+      "k": [
+        "ohsumi",
+        "autophagy",
+        "2016"
+      ],
+      "n": 0,
+      "rabbit": "Apoptosis"
+    },
+    {
+      "id": "v-atpase",
+      "tier": "power",
+      "t": "V-type ATPase pumps in the tonoplast push hydrogen ions in; aquaporins let water through",
+      "k": [
+        "v-type atpase",
+        "aquaporins",
+        "hydrogen ions"
+      ],
+      "n": 0,
+      "rabbit": "Active transport"
+    },
+    {
+      "id": "mimosa",
+      "tier": "power",
+      "t": "_Mimosa pudica_ leaves fold when touched because cells at their bases lose water from it",
+      "k": [
+        "mimosa pudica",
+        "fold"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guard-cells",
+      "tier": "power",
+      "t": "Guard cells pump potassium ions into it; water follows, the guard cells swell, and the stoma opens",
+      "k": [
+        "guard cells",
+        "potassium",
+        "stoma"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cam",
+      "tier": "power",
+      "t": "CAM plants like cacti and pineapples store carbon dioxide in it overnight as malic acid",
+      "k": [
+        "malic acid",
+        "cam",
+        "pineapples"
+      ],
+      "n": 0,
+      "rabbit": "Calvin cycle"
+    },
+    {
+      "id": "anthocyanins",
+      "tier": "power",
+      "t": "It stores anthocyanins, the red, purple, and blue pigments of red cabbage, red onions, and many flowers",
+      "k": [
+        "anthocyanins",
+        "red cabbage"
+      ],
+      "n": 0
+    },
+    {
+      "id": "history",
+      "tier": "power",
+      "t": "Spallanzani saw star-shaped ones in 1776; Félix Dujardin named them in 1841; Hugo de Vries named the tonoplast in 1885",
+      "k": [
+        "spallanzani",
+        "dujardin",
+        "de vries",
+        "1841"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crystals-seeds",
+      "tier": "power",
+      "t": "Needle-like calcium oxalate crystals often form in it; seeds keep stored proteins in special ones",
+      "k": [
+        "calcium oxalate",
+        "seeds",
+        "proteins"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cheap-growth",
+      "tier": "power",
+      "t": "Plant cells grow larger cheaply by filling it with water instead of building more cytoplasm",
+      "k": [
+        "grow larger",
+        "cytoplasm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salt-yeast",
+      "tier": "power",
+      "t": "Many salt-tolerant plants pump sodium ions into it; yeast store amino acids and phosphate in theirs",
+      "k": [
+        "sodium ions",
+        "yeast",
+        "phosphate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cassava",
+      "tier": "power",
+      "t": "Cassava keeps defense chemicals in it, apart from the enzymes that make them poisonous; its proteins are sorted in the Golgi",
+      "k": [
+        "cassava",
+        "defense chemicals",
+        "golgi"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sugar-acids",
+      "tier": "power",
+      "t": "Sugarcane and sugar beets store sucrose in it; lemons store citric acid in it, making it extremely acidic",
+      "k": [
+        "sugarcane",
+        "sucrose",
+        "citric acid",
+        "lemons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hydrangea",
+      "tier": "power",
+      "t": "Blue hydrangeas get their color when aluminum reaches pigments in it; morning glories turn blue as it becomes less acidic",
+      "k": [
+        "hydrangeas",
+        "aluminum",
+        "morning glories"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Vacuole, vesicle, or lysosome?",
+    "body": "Vacuoles, vesicles, and lysosomes are all membrane-wrapped sacs, so their clues overlap. Vesicles are tiny shipping bubbles that carry materials between organelles, and lysosomes are digestive sacs in animal cells. Plant vacuoles even do a lysosome’s digesting job, so clues about breaking down old cell parts can point either way.",
+    "fix": "Plants, the cell wall, turgor pressure, wilting, the tonoplast, or Paramecium pumping out water mean vacuoles. Tiny bubbles moving between the ER and the Golgi are vesicles; digestive sacs in animal cells, with clues about Christian de Duve, mean lysosomes.",
+    "line": "Real answer line: <b><u>Vacuoles</u></b> (accept central <u>vacuole</u> or contractile <u>vacuole</u>; do not accept “vesicles” or “lysosomes”)"
+  },
+  "tests": {
+    "right": [
+      "Vacuoles",
+      "vacuole",
+      "Central vacuole",
+      "Contractile vacuole",
+      "vacuols",
+      "Food vacuole"
+    ],
+    "prompt": [],
+    "wrong": [
+      "Vesicles",
+      "Lysosomes",
+      "Cell wall",
+      "Tonoplast",
+      "Chloroplast",
+      "Vacuum",
+      "Golgi apparatus"
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "deserts",
+    "name": "Deserts",
+    "mono": "DES",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Places that get very little rain · Cover about a third of Earth’s land",
+    "dates": "Get less than about 25 cm (10 in) of precipitation a year",
+    "briefing": "A desert is any place that gets very little precipitation, usually less than about 25 centimeters (10 inches) a year, so it can be scorching like the Sahara or freezing like Antarctica, the largest desert of all. Cacti store water in their thick stems, camels can go days without drinking, and winds pile sand into towering dunes. In Chile’s Atacama, some weather stations have never recorded rain.",
+    "answerHtml": "<b><u>Deserts</u></b> (accept <u>desert</u> biome; accept hot, cold, or polar deserts; prompt on <u>arid</u> lands; do not accept “Sahara,” another single desert, “dunes,” or “tundra”)",
+    "accept": [
+        "deserts",
+        "desert",
+        "desert biome",
+        "desert biomes",
+        "hot desert",
+        "hot deserts",
+        "cold desert",
+        "cold deserts",
+        "polar desert",
+        "polar deserts",
+        "rain shadow desert",
+        "rain shadow deserts",
+        "subtropical desert",
+        "subtropical deserts",
+        "coastal desert",
+        "coastal deserts",
+        "desert regions"
+    ],
+    "prompt": [
+        "arid",
+        "arid land",
+        "arid lands",
+        "arid region",
+        "arid regions",
+        "drylands",
+        "dryland",
+        "biome",
+        "biomes"
+    ],
+    "reject": [
+        "sahara",
+        "the sahara",
+        "sahara desert",
+        "gobi",
+        "gobi desert",
+        "atacama",
+        "atacama desert",
+        "kalahari",
+        "kalahari desert",
+        "namib",
+        "namib desert",
+        "mojave",
+        "mojave desert",
+        "sonoran desert",
+        "chihuahuan desert",
+        "great basin desert",
+        "arabian desert",
+        "thar desert",
+        "great victoria desert",
+        "antarctica",
+        "antarctic",
+        "arctic",
+        "dune",
+        "dunes",
+        "sand dune",
+        "sand dunes",
+        "sand",
+        "erg",
+        "ergs",
+        "oasis",
+        "oases",
+        "tundra",
+        "steppe",
+        "steppes",
+        "savanna",
+        "savannas",
+        "savannah",
+        "grassland",
+        "grasslands",
+        "chaparral",
+        "badlands",
+        "desertification",
+        "dust bowl",
+        "drought",
+        "droughts",
+        "cactus",
+        "cacti",
+        "camel",
+        "camels"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Desert",
+    "qb": {"q": "desert", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "In the Köppen climate system, these places get the code BW, from the German word Wüste [“VOO-stuh”], with an h added for hot ones and a k, for kalt, for cold ones. Steppes, which get a bit more rain, are labeled BS instead.",
+            "r": "These places are often defined as getting less than about 25 centimeters of precipitation a year. For 10 points, name these very dry regions, like the Sahara."
+        },
+        {
+            "p": "Fog-basking beetles in the Namib [“NAH-mib”] tilt their bodies into the morning fog so that droplets roll down their backs into their mouths. The Namib, along Africa’s southwest coast, is often called the oldest of these places, and it is home to _Welwitschia_ [“wel-WITCH-ee-uh”], a plant that grows only two leaves in its whole life.",
+            "r": "Cold ocean currents help create these dry places along some coasts. For 10 points, name these regions that get very little rain."
+        },
+        {
+            "p": "Astronomers built the ALMA radio telescope array high in Chile’s Atacama because the air there is so dry, and NASA has tested Mars rovers in its barren soil. Some weather stations in the Atacama have never recorded rain, making it the driest of these places outside the poles.",
+            "r": "The largest of these places is Antarctica, and the largest hot one is the Sahara. For 10 points, name these very dry regions."
+        },
+        {
+            "p": "A thin, dark coating of manganese and iron oxides called rock varnish builds up on stones in these places over thousands of years, and ancient people scratched pictures called petroglyphs into it. Winds sandblast some rocks in these places into faceted shapes called ventifacts.",
+            "r": "Sand dunes cover parts of these places, though many are mostly rock and gravel. For 10 points, name these dry regions, like the Mojave and the Sahara."
+        },
+        {
+            "p": "The highest air temperature ever officially recorded, 134 degrees Fahrenheit, was measured in 1913 at Furnace Creek in Death Valley, part of the Mojave, one of these places. Death Valley’s Badwater Basin is the lowest point in North America.",
+            "r": "Saguaro cacti grow in the nearby Sonoran, another of these places. For 10 points, name these dry regions that get very little rain."
+        },
+        {
+            "p": "Prehistoric rock paintings of swimmers in southwestern Egypt and of cattle herds in Algeria’s Tassili n’Ajjer show that a huge region of North Africa was green and wet until about 5,000 years ago. Dust from that region blows across the Atlantic and helps fertilize the Amazon rainforest.",
+            "r": "That region, the Sahara, is the largest hot one of these places. For 10 points, name these regions that get very little rain."
+        },
+        {
+            "p": "The Rub’ al Khali, or “Empty Quarter,” of the Arabian Peninsula is the largest unbroken sand sea, or erg, of any of these places. Crescent-shaped barchan [“bar-KAHN”] dunes point their horns downwind, while star dunes form where winds blow from many directions.",
+            "r": "Cacti and camels are adapted to life in these places. For 10 points, name these dry regions, like the Sahara and the Gobi."
+        },
+        {
+            "p": "Kangaroo rats in these places can survive without ever drinking, getting the water they need from the seeds they eat, and fennec foxes shed body heat through their enormous ears. Many animals in these places hunt at night to avoid the heat.",
+            "r": "Camels, which store fat in their humps, can go days without water in these places. For 10 points, name these very dry regions."
+        },
+        {
+            "p": "Moist air drops its rain as it rises over a mountain range, so the far side, in the rain shadow, often becomes one of these places, like the Great Basin behind California’s Sierra Nevada. Others form near 30 degrees latitude, where dry air sinks in giant loops called Hadley cells.",
+            "r": "The Sahara is the largest hot one of these places. For 10 points, name these regions that get very little precipitation."
+        },
+        {
+            "p": "In 1935, the pilot Antoine de Saint-Exupéry crashed in one of these places in Egypt and nearly died of thirst before a Bedouin rescued him. That crash inspired the narrator of his book _The Little Prince_, a pilot whose plane breaks down in one of these places.",
+            "r": "Frank Herbert’s novel _Dune_ is set on a planet that is almost entirely one of these places. For 10 points, name these dry regions, including the Sahara."
+        },
+        {
+            "p": "Australia’s thorny devil lizard survives in these places by letting water creep along tiny grooves between its scales to the corners of its mouth. The Gila [“HEE-luh”] monster, a venomous lizard of these places in the American Southwest, stores fat in its thick tail.",
+            "r": "Cacti and other succulents store water in their thick stems in these places. For 10 points, name these very dry regions."
+        },
+        {
+            "p": "Antarctica’s McMurdo Dry Valleys, where fierce winds sweep away snow and almost none falls, are so dry that NASA studies them as a model for Mars. Polar examples of these places also cover much of the Arctic.",
+            "r": "Because it gets so little precipitation, Antarctica is the largest of these places. For 10 points, name these dry regions, whose largest hot example is the Sahara."
+        },
+        {
+            "p": "The Gobi of Mongolia and China, a cold example of these places, lies in the rain shadow of the Himalayas and the Tibetan Plateau, and its winter temperatures can drop far below freezing. In 1923, Roy Chapman Andrews found nests of fossil eggs at its Flaming Cliffs.",
+            "r": "Hot examples of these places include the Sahara and the Kalahari. For 10 points, name these regions that get very little rain."
+        },
+        {
+            "p": "On hot days in these places, light bends as it passes through layers of air at different temperatures, creating mirages that look like pools of water on the ground. Because their dry air and clear skies let heat escape quickly, temperatures in these places can drop sharply after sunset.",
+            "r": "Cacti, camels, and sand dunes are found in many of these places. For 10 points, name these very dry regions."
+        },
+        {
+            "p": "The Great Green Wall, an African Union project launched in 2007, aims to plant trees and restore land across the Sahel so that these places stop spreading. That spread of dry, barren land is often worsened by drought, overgrazing, and cutting down trees.",
+            "r": "The largest hot one of these places, the Sahara, lies just north of the Sahel. For 10 points, name these regions that get very little rain."
+        }
+    ],
+    "clues": [
+        {"id": "little-rain", "tier": "giveaway",
+         "t": "Regions that get very little precipitation, usually less than about 25 centimeters (10 inches) a year",
+         "k": ["precipitation", "25 centimeters", "10 inches"], "n": 0},
+        {"id": "sahara", "tier": "giveaway",
+         "t": "The Sahara, in North Africa, is the largest hot one",
+         "k": ["sahara", "largest hot", "north africa"], "n": 0},
+        {"id": "antarctica", "tier": "giveaway",
+         "t": "Antarctica, which gets very little precipitation, is the largest one of all",
+         "k": ["antarctica", "largest"], "n": 0},
+        {"id": "cacti-camels", "tier": "giveaway",
+         "t": "Home to cacti, which store water in thick stems, and camels, which store fat in their humps",
+         "k": ["cacti", "camels", "humps"], "n": 0},
+        {"id": "dunes", "tier": "giveaway",
+         "t": "Winds pile sand into dunes, though many of these places are mostly rock and gravel",
+         "k": ["dunes", "sand", "gravel"], "n": 0},
+        {"id": "third-of-land", "tier": "giveaway",
+         "t": "Together they cover about one-third of Earth’s land surface",
+         "k": ["one-third", "land surface"], "n": 0},
+        {"id": "atacama", "tier": "middle",
+         "t": "Chile’s Atacama is the driest one outside the poles; some of its weather stations have never recorded rain",
+         "k": ["atacama", "driest", "chile"], "n": 0},
+        {"id": "rain-shadow", "tier": "middle",
+         "t": "Rain-shadow ones form on the dry side of mountains, like the Great Basin east of the Sierra Nevada",
+         "k": ["rain-shadow", "great basin", "sierra nevada"], "n": 0},
+        {"id": "hadley-cells", "tier": "middle",
+         "t": "Many hot ones lie near 30 degrees latitude, where dry air sinks in Hadley cells",
+         "k": ["hadley cells", "30 degrees", "sinks"], "n": 0, "rabbit": "Troposphere"},
+        {"id": "cold-currents", "tier": "middle",
+         "t": "Cold ocean currents help make coastal ones, like the Atacama and the Namib, extremely dry",
+         "k": ["cold ocean currents", "coastal", "namib"], "n": 0, "rabbit": "Ocean currents"},
+        {"id": "cam-plants", "tier": "middle",
+         "t": "Cacti and other succulents use CAM photosynthesis, opening their pores only at night to save water",
+         "k": ["succulents", "cam", "night"], "n": 0, "rabbit": "Photosynthesis"},
+        {"id": "animals", "tier": "middle",
+         "t": "Kangaroo rats never need to drink, fennec foxes shed heat through huge ears, and many animals come out only at night",
+         "k": ["kangaroo rats", "fennec foxes", "ears"], "n": 0},
+        {"id": "landforms", "tier": "middle",
+         "t": "Their landforms include oases, mesas and buttes, playas (dry lake beds), and dry riverbeds called wadis or arroyos",
+         "k": ["oases", "playas", "wadis", "arroyos"], "n": 0},
+        {"id": "temperature-swings", "tier": "middle",
+         "t": "Dry air and clear skies let heat escape at night, so temperatures can drop sharply after sunset",
+         "k": ["after sunset", "clear skies"], "n": 0},
+        {"id": "mirages", "tier": "middle",
+         "t": "Layers of hot and cooler air bend light into mirages that look like pools of water",
+         "k": ["mirages", "bend light"], "n": 0},
+        {"id": "death-valley", "tier": "middle",
+         "t": "Death Valley in the Mojave holds the official world record high, 134 °F (1913); its Badwater Basin is North America’s lowest point",
+         "k": ["death valley", "mojave", "badwater"], "n": 0},
+        {"id": "koppen", "tier": "power",
+         "t": "The Köppen climate system labels them BW, from the German word Wüste; BWh means hot and BWk means cold",
+         "k": ["köppen", "wüste", "bw"], "n": 0},
+        {"id": "namib", "tier": "power",
+         "t": "Fog-basking beetles drink fog in Africa’s Namib, often called the oldest one, where _Welwitschia_ grows only two leaves in its life",
+         "k": ["fog-basking", "namib", "oldest", "welwitschia"], "n": 0},
+        {"id": "alma-mars", "tier": "power",
+         "t": "Astronomers built the ALMA telescope array in the dry Atacama, and NASA has tested Mars rovers there",
+         "k": ["alma", "mars rovers"], "n": 0},
+        {"id": "rock-varnish", "tier": "power",
+         "t": "Dark rock varnish of manganese and iron oxides coats their stones, and ancient people carved petroglyphs into it; wind-sandblasted rocks are ventifacts",
+         "k": ["rock varnish", "petroglyphs", "ventifacts"], "n": 0},
+        {"id": "empty-quarter", "tier": "power",
+         "t": "Arabia’s Rub’ al Khali (“Empty Quarter”) is the largest unbroken sand sea, or erg; barchan dunes point their horns downwind",
+         "k": ["empty quarter", "erg", "barchan"], "n": 0},
+        {"id": "green-sahara", "tier": "power",
+         "t": "Rock paintings of swimmers and cattle show the Sahara was green until about 5,000 years ago; its dust helps fertilize the Amazon",
+         "k": ["swimmers", "5,000 years", "amazon"], "n": 0},
+        {"id": "little-prince", "tier": "power",
+         "t": "Antoine de Saint-Exupéry’s 1935 crash in Egypt inspired _The Little Prince_; Frank Herbert’s _Dune_ is set on a very dry planet",
+         "k": ["saint-exupéry", "little prince", "1935"], "n": 0},
+        {"id": "thorny-devil", "tier": "power",
+         "t": "Australia’s thorny devil drinks through grooves between its scales, and the Gila monster stores fat in its tail",
+         "k": ["thorny devil", "gila monster", "grooves"], "n": 0},
+        {"id": "mcmurdo", "tier": "power",
+         "t": "Antarctica’s McMurdo Dry Valleys are so dry that NASA studies them as a model for Mars; the Arctic has polar ones too",
+         "k": ["mcmurdo", "dry valleys", "arctic"], "n": 0},
+        {"id": "gobi", "tier": "power",
+         "t": "The Gobi of Mongolia and China is a cold one in the rain shadow of the Himalayas and the Tibetan Plateau",
+         "k": ["gobi", "mongolia", "himalayas"], "n": 0},
+        {"id": "great-green-wall", "tier": "power",
+         "t": "The African Union’s Great Green Wall (2007) plants trees across the Sahel to keep dry, barren land from spreading",
+         "k": ["great green wall", "sahel", "2007"], "n": 0}
+    ],
+    "trap": {
+        "title": "Not the Sahara",
+        "body": "Desert tossups often end with the Sahara, Antarctica, or the Atacama, and players who recognize one example blurt it out, but the question asks for the whole kind of place. Naming one desert, or a feature like “dunes” or “oasis,” is wrong. Remember that the largest desert is icy Antarctica; the Sahara is only the largest hot one.",
+        "fix": "Listen for “these places” or “these regions”: the answer is deserts. Rain shadows, cacti, camels, Köppen’s BW code, and less than about 25 centimeters of rain a year all point to deserts, not to any single example.",
+        "line": "Real answer line: <b><u>Deserts</u></b> (accept desert biome; do not accept “Sahara” or another single desert)"
+    },
+    "tests": {
+        "right": ["Deserts", "desert", "Hot deserts", "Polar desert", "Desserts"],
+        "prompt": ["Arid lands", "Biome"],
+        "wrong": ["Sahara", "Sahara Desert", "Dunes", "Antarctica", "Tundra", "Oasis", "Gobi Desert"]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

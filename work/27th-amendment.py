@@ -93,8 +93,8 @@ data = {
             "r": "For 10 points, name this amendment about congressional pay, which was finally ratified in 1992."
         },
         {
-            "p": "This amendment covers pay cuts as well as raises, because its single sentence says that “no law, varying the compensation for the services of the Senators and Representatives, shall take effect, until an election of Representatives shall have intervened.”",
-            "r": "So a raise that Congress votes for itself must wait until after the next House election. For 10 points, name this amendment ratified in 1992."
+            "p": "The word “varying” in this amendment means it covers pay cuts as well as raises. Its single sentence was first proposed by James Madison, who also drafted the amendments that became the Bill of Rights.",
+            "r": "It says such a change cannot “take effect, until an election of Representatives shall have intervened.” For 10 points, name this amendment ratified in 1992."
         },
         {
             "p": "In 1873, Ohio’s legislature approved this long-forgotten amendment to protest the “Salary Grab Act,” under which members of Congress had given themselves a raise along with back pay for the previous two years.",
@@ -133,16 +133,16 @@ data = {
             "r": "It delays congressional pay changes until after a House election. For 10 points, name this amendment first proposed by James Madison."
         },
         {
-            "p": "Article I of the Constitution lets members of Congress set their own pay by law. James Madison proposed this amendment so that any change to that pay would not take effect until voters had a chance to choose a new House.",
-            "r": "It finally became part of the Constitution in 1992. For 10 points, name this amendment."
+            "p": "Article I of the Constitution says members of Congress shall be paid an amount “to be ascertained by law,” which means Congress sets its own salaries. The First Congress paid its members six dollars for each day they attended.",
+            "r": "James Madison proposed this amendment so that a pay change would have to wait until after the next House election. For 10 points, name this amendment ratified in 1992."
         },
         {
             "p": "This amendment was one of two proposals from 1789 that were left out when ten others became the Bill of Rights in 1791. Only a handful of states had approved it by then, and it was nearly forgotten for decades.",
             "r": "It was finally ratified in 1992. For 10 points, name this amendment about congressional pay."
         },
         {
-            "p": "The First Congress set its members’ pay at six dollars for each day they attended. That same year, James Madison proposed this amendment, which says that a law changing lawmakers’ pay cannot take effect until after the next election of representatives.",
-            "r": "It took about 202 years to ratify. For 10 points, name this amendment, finally ratified in 1992."
+            "p": "Federal courts ruled that the automatic yearly cost-of-living increases for members of Congress, set up by a 1989 ethics law, do not violate this amendment, which was ratified just a few years after that law passed.",
+            "r": "It delays any other change in congressional pay until after the next House election. For 10 points, name this amendment, finally ratified after about 202 years."
         }
     ],
     "clues": [
@@ -308,6 +308,13 @@ data = {
             "tier": "power",
             "t": "The First Congress paid its members six dollars for each day they attended (1789)",
             "k": ["six dollars", "each day", "first congress"],
+            "n": 0
+        },
+        {
+            "id": "cost-of-living",
+            "tier": "power",
+            "t": "Courts ruled that automatic yearly cost-of-living increases for Congress, set up by a 1989 ethics law, do not violate it",
+            "k": ["cost-of-living", "1989", "ethics law"],
             "n": 0
         }
     ],

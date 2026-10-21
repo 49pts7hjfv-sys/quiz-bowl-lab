@@ -25,7 +25,31 @@
     "federalist number 51",
     "federalist no 78",
     "federalist 78",
-    "federalist number 78"
+    "federalist number 78",
+    "federalist no 1",
+    "federalist 1",
+    "federalist number 1",
+    "federalist no 2",
+    "federalist 2",
+    "federalist number 2",
+    "federalist no 45",
+    "federalist 45",
+    "federalist number 45",
+    "federalist no 47",
+    "federalist 47",
+    "federalist number 47",
+    "federalist no 64",
+    "federalist 64",
+    "federalist number 64",
+    "federalist no 68",
+    "federalist 68",
+    "federalist number 68",
+    "federalist no 70",
+    "federalist 70",
+    "federalist number 70",
+    "federalist no 84",
+    "federalist 84",
+    "federalist number 84"
   ],
   "reject": [
     "federalist party",
@@ -64,7 +88,8 @@
     ],
     "prompt": [
       "Federalist No. 10",
-      "Federalist 51"
+      "Federalist 51",
+      "Federalist No. 70"
     ],
     "wrong": [
       "Anti-Federalist Papers",
@@ -129,7 +154,7 @@
       "r": "That author, John Jay, wrote only five of these essays. For 10 points, name this series, mostly written by Alexander Hamilton and James Madison."
     },
     {
-      "p": "In a song that closes the first act of a 2015 Broadway musical, Aaron Burr counts how many of these essays each writer produced: five, twenty-nine, and fifty-one. That song, “Non-Stop,” asks the title character why he writes “like you’re running out of time.”",
+      "p": "In a song that closes the first act of a 2015 Broadway musical, Aaron Burr counts how many of these essays each writer produced: five, twenty-nine, and fifty-one. That song, “Non-Stop,” marvels that the title character writes “like you’re running out of time.”",
       "r": "That musical is _Hamilton_. For 10 points, name this series of essays signed “Publius” that defended the Constitution."
     },
     {
@@ -137,7 +162,7 @@
       "r": "That author was Alexander Hamilton. For 10 points, name this series of essays that urged the people of New York to ratify the Constitution."
     },
     {
-      "p": "Opponents of the Constitution answered these essays with their own, written under pen names such as “Brutus” and “Cato.” These essays were aimed at New York, which ratified the Constitution by a vote of 30 to 27 at Poughkeepsie [“puh-KIP-see”] in July 1788.",
+      "p": "Opponents of the Constitution made their case in essays of their own, written under pen names such as “Brutus” and “Cato.” These essays were aimed at New York, which ratified the Constitution by a vote of 30 to 27 at Poughkeepsie [“puh-KIP-see”] in July 1788.",
       "r": "For 10 points, name these 85 essays by Alexander Hamilton, James Madison, and John Jay."
     },
     {
@@ -393,7 +418,7 @@
     {
       "id": "brutus-cato",
       "tier": "power",
-      "t": "Opponents of the Constitution answered with essays signed “Brutus” and “Cato”",
+      "t": "Opponents of the Constitution wrote their own essays, signed with pen names like “Brutus” and “Cato”",
       "k": [
         "brutus",
         "cato"

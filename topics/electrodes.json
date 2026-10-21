@@ -1,0 +1,450 @@
+{
+  "id": "electrodes",
+  "name": "Electrodes",
+  "mono": "ELD",
+  "category": "Chemistry",
+  "qbCategory": "Science · Chemistry",
+  "kicker": "Where current enters and leaves · Every cell’s anode and cathode",
+  "dates": "Named by Michael Faraday, 1834",
+  "briefing": "Electrodes are the conductors where electric current enters or leaves a battery, an electrolysis tank, or even a patient’s skin during a heart test. An electrochemical cell needs two: oxidation happens at the anode and reduction at the cathode, and positive ions drift toward the cathode. Michael Faraday introduced the word in 1834 from Greek roots meaning “amber” and “way.”",
+  "answerHtml": "<b><u>Electrode</u></b>s (accept <u>electrode</u>; prompt on <u>terminal</u>s or <u>conductor</u>s; do not accept “anode,” “cathode,” “electrons,” or “electrolytes”)",
+  "accept": [
+    "electrode",
+    "electrodes",
+    "inert electrode",
+    "inert electrodes"
+  ],
+  "prompt": [
+    "terminal",
+    "terminals",
+    "conductor",
+    "conductors",
+    "electrical conductor",
+    "electrical conductors"
+  ],
+  "reject": [
+    "anode",
+    "anodes",
+    "cathode",
+    "cathodes",
+    "electron",
+    "electrons",
+    "electrolyte",
+    "electrolytes",
+    "electrolysis",
+    "electrolytic cell",
+    "electrode potential",
+    "electrode potentials",
+    "standard electrode potential",
+    "salt bridge",
+    "battery",
+    "batteries",
+    "electrochemical cell",
+    "galvanic cell",
+    "voltaic cell",
+    "fuel cell",
+    "capacitor",
+    "capacitors",
+    "diode",
+    "diodes",
+    "transistor",
+    "resistor",
+    "semiconductor",
+    "wire",
+    "wires",
+    "ion",
+    "ions",
+    "cation",
+    "cations",
+    "anion",
+    "anions",
+    "redox",
+    "oxidation",
+    "reduction",
+    "cathode ray",
+    "cathode rays",
+    "cathode ray tube",
+    "electricity",
+    "electric current",
+    "current",
+    "voltage"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Electrode",
+  "qb": {
+    "q": "electrode",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Willem Einthoven [“AYNT-hoh-ven”] won the 1924 Nobel Prize in Medicine for recording the heart’s electrical activity, and a triangle named for him connects three of these conductors placed on the right arm, left arm, and left leg. A standard 12-lead heart tracing uses ten of them.",
+      "r": "For 10 points, name these conductors, which come in anode and cathode types, where current enters or leaves a battery or a solution."
+    },
+    {
+      "p": "In 1924, Hans Berger recorded the first human brain waves by attaching these conductors to a person’s head, inventing the EEG. Defibrillator pads, which deliver a shock that can reset a dangerous heart rhythm, are also large versions of these conductors.",
+      "r": "For 10 points, name these conductors where electric current enters or leaves, called anodes and cathodes in batteries."
+    },
+    {
+      "p": "Chemists assign exactly zero volts to a standard hydrogen one of these, made of platinum dipped in an acid solution with hydrogen gas bubbling over it. Other half-cells are ranked by comparing their voltages to it.",
+      "r": "Oxidation happens at one kind of them and reduction at the other. For 10 points, name these conductors, such as the anode and cathode of a battery."
+    },
+    {
+      "p": "The saturated calomel [“KAL-uh-mel”] type of these conductors uses mercury in contact with mercury(I) chloride, while a silver–silver chloride type is a common mercury-free choice. Both are used as references against which other voltages are measured.",
+      "r": "For 10 points, name these conductors, called anodes and cathodes, through which current enters or leaves an electrolyte."
+    },
+    {
+      "p": "In 1909, Fritz Haber and Zygmunt Klemensiewicz [“kleh-men-SHEH-vich”] built an early glass one of these conductors, the kind still used in pH meters. A pH meter compares the voltage of that glass one with the voltage of a reference one.",
+      "r": "Michael Faraday introduced their name in 1834. For 10 points, name these conductors, such as the anode and cathode in a battery."
+    },
+    {
+      "p": "John Goodenough shared the 2019 Nobel Prize in Chemistry partly for finding that lithium cobalt oxide makes an excellent positive one of these in rechargeable batteries. In a lithium-ion battery, the negative one is usually made of graphite.",
+      "r": "For 10 points, name these conductors, called anodes and cathodes, where current enters or leaves a battery."
+    },
+    {
+      "p": "In John Frederic Daniell’s 1836 cell, a zinc one of these sits in zinc sulfate solution and a copper one sits in copper(II) sulfate solution, with a porous barrier between them. The zinc one slowly dissolves as it gives up electrons.",
+      "r": "The zinc one is the anode, and the copper one is the cathode. For 10 points, name these conductors where current enters or leaves an electrochemical cell."
+    },
+    {
+      "p": "In 1859, Gaston Planté [“plahn-TAY”] invented the first rechargeable battery, using two lead sheets as these conductors in sulfuric acid. In a car battery of that type, one set of these plates is lead and the other is lead dioxide.",
+      "r": "For 10 points, name these conductors, which include the anode and cathode of a battery."
+    },
+    {
+      "p": "Michael Faraday introduced this word in 1834, building it from Greek roots meaning “amber” and “way,” and with help from William Whewell [“HYOO-el”] he named its two kinds. Faraday’s laws say the mass of metal deposited on one of these depends on the charge that flows.",
+      "r": "Those two kinds are the anode and cathode. For 10 points, name these conductors where current enters or leaves a solution during electrolysis."
+    },
+    {
+      "p": "Electric arc furnaces melt scrap steel with giant arcs that jump from huge graphite versions of these conductors into the metal. In aluminum smelters, the positive carbon ones slowly burn away as they react with oxygen.",
+      "r": "For 10 points, name these conductors, the anodes and cathodes where current enters or leaves."
+    },
+    {
+      "p": "Blocks of zinc or magnesium bolted to ship hulls act as “sacrificial” versions of these conductors, corroding in place of the steel, a method called cathodic protection. Many home water heaters hold a magnesium rod that works the same way.",
+      "r": "For 10 points, name these conductors, called anodes or cathodes depending on whether oxidation or reduction happens at them."
+    },
+    {
+      "p": "Lee de Forest added a third one of these conductors, a wire grid, to a vacuum tube to create the Audion, which could amplify signals. In such tubes, a heated one of these conductors gives off electrons that fly toward a positive plate.",
+      "r": "For 10 points, name these conductors, such as anodes and cathodes, where current enters or leaves a device."
+    },
+    {
+      "p": "A car’s spark plug has two of these conductors with a tiny gap between them, where a spark lights the fuel mixture. In arc welding, a metal rod that serves as one of these melts to help join two pieces of metal.",
+      "r": "For 10 points, name these conductors, called anodes and cathodes in batteries and in electrolysis."
+    },
+    {
+      "p": "In electroplating, the object to be coated is made the negative one of these conductors, so metal ions in the solution gain electrons and coat it. Platinum and graphite are popular choices for these conductors because they do not react.",
+      "r": "For 10 points, name these conductors, the anode and cathode, where current enters or leaves an electrolyte."
+    },
+    {
+      "p": "In a hydrogen fuel cell, hydrogen gas gives up electrons at one of these conductors, while oxygen gas takes in electrons at the other, and a plastic membrane between them lets only protons through. Both of these conductors are usually coated with a platinum catalyst.",
+      "r": "In any cell, positive ions drift toward the cathode. For 10 points, name these conductors, called the anode and the cathode."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Conductors through which electric current enters or leaves a battery, an electrolyte, or a device",
+      "k": [
+        "conductors",
+        "enters or leaves",
+        "current"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anode-cathode",
+      "tier": "giveaway",
+      "t": "Come in two kinds: the anode, where oxidation happens, and the cathode, where reduction happens (“An Ox, Red Cat”)",
+      "k": [
+        "anode",
+        "cathode",
+        "oxidation",
+        "reduction"
+      ],
+      "n": 0,
+      "rabbit": "Redox"
+    },
+    {
+      "id": "batteries",
+      "tier": "giveaway",
+      "t": "Every battery has two of them, one positive and one negative",
+      "k": [
+        "battery",
+        "positive",
+        "negative"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heart-brain",
+      "tier": "giveaway",
+      "t": "Stuck on the skin to record the electrical activity of the heart (ECG) or the brain (EEG)",
+      "k": [
+        "skin",
+        "heart",
+        "brain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faraday-1834",
+      "tier": "middle",
+      "t": "Michael Faraday introduced the word in 1834 from Greek roots meaning “amber” and “way”; William Whewell helped name the anode and cathode",
+      "k": [
+        "faraday",
+        "1834",
+        "whewell",
+        "amber"
+      ],
+      "n": 0,
+      "rabbit": "Michael Faraday"
+    },
+    {
+      "id": "ions-move",
+      "tier": "middle",
+      "t": "Positive ions (cations) drift toward the cathode, and negative ions (anions) drift toward the anode",
+      "k": [
+        "cations",
+        "anions",
+        "drift"
+      ],
+      "n": 0,
+      "rabbit": "Ions"
+    },
+    {
+      "id": "signs",
+      "tier": "middle",
+      "t": "In a battery (galvanic cell), the anode is negative; in electrolysis, the anode is positive",
+      "k": [
+        "galvanic",
+        "negative",
+        "positive"
+      ],
+      "n": 0,
+      "rabbit": "Electrolysis"
+    },
+    {
+      "id": "hydrogen-zero",
+      "tier": "middle",
+      "t": "The standard hydrogen one, platinum in acid with hydrogen gas bubbling over it, is set at exactly 0 volts",
+      "k": [
+        "standard hydrogen",
+        "0 volts",
+        "platinum"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inert",
+      "tier": "middle",
+      "t": "Platinum and graphite are popular choices because they do not react",
+      "k": [
+        "platinum",
+        "graphite",
+        "do not react"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electroplating",
+      "tier": "middle",
+      "t": "In electroplating, the object being coated is the negative one, where metal ions gain electrons",
+      "k": [
+        "electroplating",
+        "coated",
+        "metal ions"
+      ],
+      "n": 0
+    },
+    {
+      "id": "daniell",
+      "tier": "middle",
+      "t": "Daniell cell (1836): a zinc one in zinc sulfate and a copper one in copper(II) sulfate; the zinc one is the anode and dissolves",
+      "k": [
+        "daniell",
+        "zinc",
+        "copper"
+      ],
+      "n": 0,
+      "rabbit": "Copper"
+    },
+    {
+      "id": "car-battery",
+      "tier": "middle",
+      "t": "Car batteries use plates of lead and lead dioxide in sulfuric acid",
+      "k": [
+        "car batteries",
+        "lead dioxide",
+        "sulfuric acid"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sacrificial",
+      "tier": "middle",
+      "t": "Sacrificial blocks of zinc or magnesium on ship hulls corrode in place of steel (cathodic protection); water heaters use magnesium rods",
+      "k": [
+        "sacrificial",
+        "ship hulls",
+        "cathodic protection"
+      ],
+      "n": 0
+    },
+    {
+      "id": "einthoven",
+      "tier": "power",
+      "t": "Willem Einthoven (1924 Nobel Prize) recorded the heart’s activity; his triangle links ones on the right arm, left arm, and left leg",
+      "k": [
+        "einthoven",
+        "triangle",
+        "1924"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelve-lead",
+      "tier": "power",
+      "t": "A standard 12-lead heart tracing uses ten of them",
+      "k": [
+        "12-lead",
+        "heart tracing"
+      ],
+      "n": 0
+    },
+    {
+      "id": "berger",
+      "tier": "power",
+      "t": "Hans Berger recorded the first human brain waves (EEG) in 1924; defibrillator pads are large ones",
+      "k": [
+        "berger",
+        "brain waves",
+        "defibrillator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calomel",
+      "tier": "power",
+      "t": "Reference types: the saturated calomel one (mercury with mercury(I) chloride) and the mercury-free silver–silver chloride one",
+      "k": [
+        "calomel",
+        "reference",
+        "silver chloride"
+      ],
+      "n": 0
+    },
+    {
+      "id": "glass-ph",
+      "tier": "power",
+      "t": "Fritz Haber and Zygmunt Klemensiewicz built an early glass one (1909), the kind used in pH meters",
+      "k": [
+        "glass",
+        "klemensiewicz",
+        "ph meters",
+        "1909"
+      ],
+      "n": 0,
+      "rabbit": "pH"
+    },
+    {
+      "id": "goodenough",
+      "tier": "power",
+      "t": "John Goodenough (2019 Nobel Prize) found that lithium cobalt oxide makes an excellent positive one; the negative one in lithium-ion batteries is usually graphite",
+      "k": [
+        "goodenough",
+        "lithium cobalt oxide",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "plante",
+      "tier": "power",
+      "t": "Gaston Planté’s 1859 lead–acid battery, the first rechargeable battery, used two lead sheets in sulfuric acid",
+      "k": [
+        "planté",
+        "1859",
+        "rechargeable"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arc-furnace",
+      "tier": "power",
+      "t": "Electric arc furnaces melt scrap steel with arcs from huge graphite ones; positive carbon ones in aluminum smelters burn away",
+      "k": [
+        "arc furnaces",
+        "scrap steel",
+        "aluminum smelters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triode",
+      "tier": "power",
+      "t": "Lee de Forest added a third one, a wire grid, to a vacuum tube to make the Audion, which could amplify signals",
+      "k": [
+        "de forest",
+        "audion",
+        "grid"
+      ],
+      "n": 0,
+      "rabbit": "Diodes"
+    },
+    {
+      "id": "spark-plug",
+      "tier": "power",
+      "t": "A spark plug has two with a tiny gap between them; in arc welding, a metal rod serving as one melts to join metal",
+      "k": [
+        "spark plug",
+        "welding",
+        "gap"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fuel-cell",
+      "tier": "power",
+      "t": "In a hydrogen fuel cell, hydrogen gives up electrons at one and oxygen takes them in at the other; both are coated with platinum",
+      "k": [
+        "fuel cell",
+        "hydrogen",
+        "oxygen"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Electrodes, not electrons",
+    "body": "“Electrodes” sounds almost like “electrons,” and both show up in battery clues, but electrons are the particles that flow, while electrodes are the conductors they flow into and out of. Electrolytes are the substances between the electrodes, and electrolysis is the process some electrodes drive. Naming just one kind, “anode” or “cathode,” is wrong when the question asks for the whole group.",
+    "fix": "If the question asks for “these conductors” that come in anode and cathode types, say electrodes. “These particles” with a negative charge are electrons; “these substances” that conduct when dissolved are electrolytes; “this process” that splits compounds with electricity is electrolysis.",
+    "line": "Real answer line: <b><u>Electrode</u></b>s (accept <u>electrode</u>; prompt on <u>terminal</u>s or <u>conductor</u>s; do not accept “anode,” “cathode,” “electrons,” or “electrolytes”)"
+  },
+  "tests": {
+    "right": [
+      "Electrodes",
+      "electrode",
+      "Elektrodes",
+      "inert electrodes",
+      "an electrode"
+    ],
+    "prompt": [
+      "Terminals",
+      "Conductors"
+    ],
+    "wrong": [
+      "Electrons",
+      "Anode",
+      "Cathode",
+      "Electrolytes",
+      "Electrolysis",
+      "Electron",
+      "Salt bridge",
+      "Diodes"
+    ]
+  }
+}

@@ -143,7 +143,7 @@ data = {
             "r": "For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state."
         },
         {
-            "p": "Gold-rush settlers wrote a state constitution banning slavery in 1849, and their request to join the Union threatened the Senate’s even split of fifteen free states and fifteen slave states. That request set off the long debate that produced this plan.",
+            "p": "Before this plan passed, the Senate was evenly split between fifteen free states and fifteen slave states, and Southern senators feared that adding one more free state would give the North a lasting majority. That fear set off the long debate that produced this plan.",
             "r": "This plan admitted California as a free state. For 10 points, name this set of laws proposed by Henry Clay."
         },
         {

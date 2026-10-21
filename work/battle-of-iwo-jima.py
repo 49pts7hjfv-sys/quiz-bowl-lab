@@ -1,0 +1,361 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "battle-of-iwo-jima",
+    "name": "Battle of Iwo Jima",
+    "mono": "IWO",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1945 Marine battle south of Japan · Flag raising on Mount Suribachi",
+    "dates": "Fought February 19–March 26, 1945",
+    "briefing": "Iwo Jima, a tiny volcanic island south of Japan that Japan renamed Iōtō in 2007, is covered in black sand and smells of sulfur. In February 1945, U.S. Marines landed to capture its airfields, and on the fifth day Joe Rosenthal photographed six men raising an American flag on Mount Suribachi, one of the most famous photos ever taken. The battle lasted more than a month; nearly 7,000 Americans and almost all of about 21,000 Japanese defenders died.",
+    "answerHtml": "Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; accept <u>Iōtō</u>; prompt on Mount <u>Suribachi</u>)",
+    "accept": [
+        "iwo jima",
+        "battle of iwo jima",
+        "the battle of iwo jima",
+        "battle for iwo jima",
+        "invasion of iwo jima",
+        "operation detachment",
+        "ioto",
+        "iwo to"
+    ],
+    "prompt": [
+        "mount suribachi",
+        "suribachi",
+        "volcano islands"
+    ],
+    "reject": [
+        "okinawa",
+        "battle of okinawa",
+        "operation iceberg",
+        "guadalcanal",
+        "battle of guadalcanal",
+        "tarawa",
+        "battle of tarawa",
+        "saipan",
+        "battle of saipan",
+        "peleliu",
+        "battle of peleliu",
+        "midway",
+        "battle of midway",
+        "pearl harbor",
+        "attack on pearl harbor",
+        "leyte gulf",
+        "battle of leyte gulf",
+        "coral sea",
+        "battle of the coral sea",
+        "philippine sea",
+        "hiroshima",
+        "nagasaki",
+        "raising the flag on iwo jima",
+        "flag raising on iwo jima",
+        "iwo jima flag raising",
+        "iwo jima memorial",
+        "marine corps war memorial",
+        "flags of our fathers",
+        "letters from iwo jima",
+        "sands of iwo jima",
+        "world war ii",
+        "world war 2",
+        "pacific war",
+        "kuribayashi",
+        "joe rosenthal",
+        "ira hayes",
+        "chester nimitz",
+        "nimitz"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima",
+    "qb": {
+        "q": "Iwo Jima",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Staff Sergeant Louis Lowery of _Leatherneck_ magazine photographed an earlier, smaller version of this battle’s most famous moment, but his pictures were overshadowed by ones taken a few hours later on the same summit.",
+            "r": "Those later pictures, by Joe Rosenthal, show Marines raising a large flag on Mount Suribachi. For 10 points, name this February 1945 battle."
+        },
+        {
+            "p": "Marine cameraman Bill Genaust shot color film of this battle’s most famous moment while standing just a few feet from a photographer whose still picture of it became famous. Genaust was killed in the fighting days later, and his body was never found.",
+            "r": "That photographer, Joe Rosenthal, won a Pulitzer Prize for his picture of a flag raising on Mount Suribachi. For 10 points, name this February 1945 battle."
+        },
+        {
+            "p": "Navy Secretary James Forrestal came ashore during this battle with Lieutenant General Holland Smith and reportedly told him that a sight on a nearby mountaintop meant “a Marine Corps for the next five hundred years.”",
+            "r": "That sight was a U.S. flag flying over Mount Suribachi. For 10 points, name this 1945 battle on a volcanic island south of Japan."
+        },
+        {
+            "p": "Sculptor Felix de Weldon worked for years to turn a photograph from this battle into a huge bronze statue, which was dedicated in Arlington, Virginia, on November 10, 1954, the Marine Corps’ birthday. Its base quotes Admiral Chester Nimitz: “Uncommon valor was a common virtue.”",
+            "r": "That statue, the Marine Corps War Memorial, shows Marines raising a flag on Mount Suribachi. For 10 points, name this 1945 battle."
+        },
+        {
+            "p": "Gunnery Sergeant John Basilone, who had already won the Medal of Honor at Guadalcanal, was killed on the first day of this battle, February 19, 1945, while leading his men inland from the beach.",
+            "r": "Four days later, Marines raised a flag atop Mount Suribachi. For 10 points, name this battle on an island south of Japan."
+        },
+        {
+            "p": "Johnny Cash recorded a 1964 ballad about Ira Hayes, a Pima [“PEE-muh”] Marine from Arizona who came home a hero after this battle but struggled for the rest of his short life.",
+            "r": "Hayes was one of the men in Joe Rosenthal’s photo of a flag raising in this battle. For 10 points, name this 1945 battle."
+        },
+        {
+            "p": "James Bradley’s book _Flags of Our Fathers_ is about his father, a Navy medical corpsman long believed to appear in a famous photo from this battle. Clint Eastwood turned that book into a 2006 film and made a companion film the same year about the Japanese defenders.",
+            "r": "For 10 points, name this battle, where Marines raised the U.S. flag on Mount Suribachi in February 1945."
+        },
+        {
+            "p": "Japanese general Tadamichi Kuribayashi [“koo-ree-bah-YAH-shee”] had his troops dig miles of tunnels and hidden bunkers before this battle, and he ordered them not to waste their lives in mass charges. Nearly all of his roughly 21,000 men died.",
+            "r": "For 10 points, name this 1945 battle in which U.S. Marines raised a flag on Mount Suribachi."
+        },
+        {
+            "p": "After this battle, P-51 Mustang fighters flying from its island escorted B-29 bombers on raids over Japan, and thousands of crewmen in damaged B-29s made emergency landings on its airfields.",
+            "r": "For 10 points, name this February 1945 battle, famous for a photo of Marines raising a flag on Mount Suribachi."
+        },
+        {
+            "p": "A Marine signal officer said that the Marines would never have taken this battle’s island without six Navajo code talkers, who sent more than 800 messages without an error during its first two days.",
+            "r": "For 10 points, name this 1945 battle in which Marines raised a flag on Mount Suribachi."
+        },
+        {
+            "p": "Twenty-seven Medals of Honor were awarded for actions in this battle, and Admiral Chester Nimitz said that among the Americans who served there, “uncommon valor was a common virtue.”",
+            "r": "For 10 points, name this battle that began on February 19, 1945, and is remembered for a flag raising on Mount Suribachi."
+        },
+        {
+            "p": "This battle’s island is part of Japan’s Volcano Islands, about 750 miles south of Tokyo, and its name means “Sulfur Island.” Its soft black volcanic sand made it hard for Marines to dig foxholes or move vehicles off the beaches.",
+            "r": "For 10 points, name this February 1945 battle, famous for a photo of Marines raising a flag on Mount Suribachi."
+        },
+        {
+            "p": "Marine commanders asked for ten days of naval shelling before this battle but received only three, so most of the enemy’s hidden guns survived to fire on the landing beaches.",
+            "r": "Marines came ashore on February 19, 1945. For 10 points, name this battle, where a famous photo showed Marines raising a flag."
+        },
+        {
+            "p": "Major General Harry Schmidt led the 3rd, 4th, and 5th Marine Divisions of the V Amphibious Corps in this battle, which lasted more than a month on an island of only about eight square miles.",
+            "r": "For 10 points, name this battle, fought from February to March 1945, which is honored by the Marine Corps War Memorial."
+        },
+        {
+            "p": "John Wayne earned an Oscar nomination for playing a tough sergeant in a 1949 film about this battle, in which three men then believed to be in a famous photograph from it made brief appearances.",
+            "r": "For 10 points, name this February 1945 battle, where Marines raised a flag on Mount Suribachi."
+        }
+    ],
+    "clues": [
+        {
+            "id": "flag-photo",
+            "tier": "giveaway",
+            "t": "Joe Rosenthal’s photo shows six Marines raising a U.S. flag on Mount Suribachi (February 23, 1945)",
+            "k": ["joe rosenthal", "rosenthal", "mount suribachi", "february 23"],
+            "n": 0
+        },
+        {
+            "id": "dates",
+            "tier": "giveaway",
+            "t": "Fought February 19–March 26, 1945, on a small volcanic island south of Japan",
+            "k": ["volcanic island", "february 19", "1945"],
+            "n": 0
+        },
+        {
+            "id": "marines",
+            "tier": "giveaway",
+            "t": "One of the deadliest battles in U.S. Marine Corps history",
+            "k": ["marine corps", "deadliest"],
+            "n": 0
+        },
+        {
+            "id": "memorial",
+            "tier": "giveaway",
+            "t": "The Marine Corps War Memorial in Arlington, Virginia, is based on the flag-raising photo",
+            "k": ["marine corps war memorial", "memorial", "flag-raising"],
+            "n": 0
+        },
+        {
+            "id": "airfields",
+            "tier": "middle",
+            "t": "The U.S. wanted its airfields as an emergency landing place for B-29 bombers flying to and from Japan",
+            "k": ["airfields", "b-29", "emergency landing"],
+            "n": 0
+        },
+        {
+            "id": "kuribayashi",
+            "tier": "middle",
+            "t": "Japanese commander Tadamichi Kuribayashi had his men dig tunnels and bunkers instead of defending the beaches",
+            "k": ["kuribayashi", "tunnels", "bunkers"],
+            "n": 0
+        },
+        {
+            "id": "nimitz",
+            "tier": "middle",
+            "t": "Admiral Chester Nimitz: “Uncommon valor was a common virtue”",
+            "k": ["nimitz", "uncommon valor", "common virtue"],
+            "n": 0
+        },
+        {
+            "id": "ira-hayes",
+            "tier": "middle",
+            "t": "Ira Hayes, a Pima Marine from Arizona, was one of the six men in Rosenthal’s photo",
+            "k": ["ira hayes", "pima", "arizona"],
+            "n": 0
+        },
+        {
+            "id": "casualties",
+            "tier": "middle",
+            "t": "Nearly 7,000 Americans were killed, and almost all of the roughly 21,000 Japanese defenders died",
+            "k": ["7,000", "21,000", "defenders"],
+            "n": 0
+        },
+        {
+            "id": "pulitzer",
+            "tier": "middle",
+            "t": "Rosenthal’s photo won the 1945 Pulitzer Prize for Photography",
+            "k": ["pulitzer", "photography"],
+            "n": 0
+        },
+        {
+            "id": "sulfur",
+            "tier": "middle",
+            "t": "The island’s name means “Sulfur Island”; its black volcanic sand made digging and driving hard",
+            "k": ["sulfur island", "black volcanic sand", "sulfur"],
+            "n": 0
+        },
+        {
+            "id": "code-talkers",
+            "tier": "middle",
+            "t": "Navajo code talkers sent hundreds of messages; an officer said the Marines could not have won without them",
+            "k": ["navajo", "code talkers", "messages"],
+            "n": 0
+        },
+        {
+            "id": "three-killed",
+            "tier": "middle",
+            "t": "Three of the six men in Rosenthal’s photo were killed later in the battle",
+            "k": ["three", "six men", "killed"],
+            "n": 0
+        },
+        {
+            "id": "lowery",
+            "tier": "power",
+            "t": "Louis Lowery of _Leatherneck_ magazine photographed the first, smaller flag on Suribachi; the larger second flag went up hours later",
+            "k": ["louis lowery", "lowery", "first", "leatherneck"],
+            "n": 0
+        },
+        {
+            "id": "genaust",
+            "tier": "power",
+            "t": "Marine cameraman Bill Genaust filmed the second flag raising in color, a few feet from Rosenthal",
+            "k": ["bill genaust", "genaust", "color"],
+            "n": 0
+        },
+        {
+            "id": "forrestal",
+            "tier": "power",
+            "t": "Navy Secretary James Forrestal: the flag on Suribachi meant “a Marine Corps for the next five hundred years”",
+            "k": ["james forrestal", "forrestal", "five hundred years"],
+            "n": 0
+        },
+        {
+            "id": "de-weldon",
+            "tier": "power",
+            "t": "Felix de Weldon sculpted the Marine Corps War Memorial, dedicated November 10, 1954, the Marine Corps’ birthday",
+            "k": ["felix de weldon", "de weldon", "1954"],
+            "n": 0
+        },
+        {
+            "id": "medals",
+            "tier": "power",
+            "t": "Twenty-seven Medals of Honor were awarded for actions there",
+            "k": ["twenty-seven", "medals of honor"],
+            "n": 0
+        },
+        {
+            "id": "basilone",
+            "tier": "power",
+            "t": "John Basilone, a Medal of Honor hero of Guadalcanal, was killed on the first day",
+            "k": ["john basilone", "basilone", "guadalcanal"],
+            "n": 0
+        },
+        {
+            "id": "ballad",
+            "tier": "power",
+            "t": "Johnny Cash recorded “The Ballad of Ira Hayes” (1964) about the Pima Marine’s hard life after the war",
+            "k": ["johnny cash", "ballad of ira hayes", "1964"],
+            "n": 0
+        },
+        {
+            "id": "bradley",
+            "tier": "power",
+            "t": "James Bradley’s _Flags of Our Fathers_ became a 2006 Clint Eastwood film; Eastwood also made a companion film from the Japanese side",
+            "k": ["flags of our fathers", "clint eastwood", "james bradley"],
+            "n": 0
+        },
+        {
+            "id": "mustangs",
+            "tier": "power",
+            "t": "After the battle, P-51 Mustangs flying from the island escorted B-29s on raids over Japan",
+            "k": ["p-51", "mustangs", "escorted"],
+            "n": 0
+        },
+        {
+            "id": "volcano-islands",
+            "tier": "power",
+            "t": "Part of Japan’s Volcano Islands, about 750 miles south of Tokyo; the island covers only about 8 square miles",
+            "k": ["volcano islands", "750 miles", "8 square miles"],
+            "n": 0
+        },
+        {
+            "id": "shelling",
+            "tier": "power",
+            "t": "Marine commanders asked for ten days of naval shelling before the landing but got only three",
+            "k": ["naval shelling", "ten days", "three"],
+            "n": 0
+        },
+        {
+            "id": "schmidt",
+            "tier": "power",
+            "t": "Harry Schmidt’s V Amphibious Corps landed the 3rd, 4th, and 5th Marine Divisions; Holland Smith led the landing force",
+            "k": ["harry schmidt", "v amphibious corps", "holland smith"],
+            "n": 0
+        },
+        {
+            "id": "wayne",
+            "tier": "power",
+            "t": "John Wayne was nominated for an Oscar for a 1949 film about the battle",
+            "k": ["john wayne", "1949", "oscar"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Iwo Jima or Okinawa?",
+        "body": "The two biggest Marine battles of 1945 are easy to mix up. Iwo Jima (February–March 1945) was a small volcanic island captured for its airfields, with the famous flag raising on Mount Suribachi. Okinawa (April–June 1945) was a much larger island and the last major battle of the Pacific war, where kamikaze planes attacked U.S. ships.",
+        "fix": "Suribachi, Rosenthal’s photo, Kuribayashi, black volcanic sand, and B-29 emergency landings mean Iwo Jima; kamikazes and an April 1945 invasion mean Okinawa. Saying “Mount Suribachi” alone earns only a prompt.",
+        "line": "Real answer line: Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; prompt on Mount <u>Suribachi</u>; do not accept “Okinawa”)"
+    },
+    "tests": {
+        "right": [
+            "Iwo Jima",
+            "Battle of Iwo Jima",
+            "Iwo Jma",
+            "Operation Detachment",
+            "Iwo Jimma"
+        ],
+        "prompt": [
+            "Mount Suribachi",
+            "Suribachi"
+        ],
+        "wrong": [
+            "Okinawa",
+            "Battle of Okinawa",
+            "Guadalcanal",
+            "Midway",
+            "Raising the Flag on Iwo Jima",
+            "Pearl Harbor",
+            "Iwo Jima Memorial"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

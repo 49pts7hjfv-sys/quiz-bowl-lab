@@ -116,7 +116,7 @@ data = {
             "r": "On a coordinate grid, the x-values to the left of the y-axis are these numbers. For 10 points, name these numbers, which are less than zero."
         },
         {
-            "p": "Johannes Widmann’s [“VIT-mahnz”] 1489 arithmetic book is credited with the first printed use of the plus sign and the sign now used for these numbers, though Widmann used them to mark extra and missing amounts rather than for arithmetic. Accountants often show these numbers inside parentheses.",
+            "p": "The Kelvin temperature scale starts at absolute zero, so ordinary temperatures measured on it are never these numbers. A football play that loses 5 yards is recorded as one of these numbers, and accountants often show these numbers inside parentheses.",
             "r": "For 10 points, name these numbers, which are written with a minus sign and are less than zero."
         },
         {
@@ -278,10 +278,10 @@ data = {
             "n": 0
         },
         {
-            "id": "widmann",
+            "id": "kelvin",
             "tier": "power",
-            "t": "Johannes Widmann’s 1489 arithmetic book is credited with first printing the plus sign and their sign, to mark extra and missing amounts",
-            "k": ["widmann", "1489"],
+            "t": "The Kelvin scale starts at absolute zero, so ordinary temperatures on it are never these numbers",
+            "k": ["kelvin", "absolute zero"],
             "n": 0
         },
         {
@@ -294,8 +294,8 @@ data = {
         {
             "id": "golf",
             "tier": "power",
-            "t": "Golf scores under par and overdrawn bank balances are written with them",
-            "k": ["golf", "under par", "overdrawn"],
+            "t": "Golf scores under par, football plays that lose yards, and overdrawn bank balances are written with them",
+            "k": ["golf", "under par", "football", "overdrawn"],
             "n": 0
         },
         {

@@ -179,7 +179,7 @@ data = {
         },
         {
             "id": "first-four",
-            "tier": "giveaway",
+            "tier": "middle",
             "t": "The first four, 6, 28, 496, and 8,128, were known to the ancient Greeks",
             "k": ["first four", "496", "8,128", "ancient greeks"],
             "n": 0

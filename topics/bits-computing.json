@@ -1,0 +1,451 @@
+{
+  "id": "bits-computing",
+  "name": "Bits (computing)",
+  "mono": "BIT",
+  "category": "Computer Science",
+  "qbCategory": "Science · Other Science (Computer Science)",
+  "kicker": "A single 0 or 1 · The smallest unit of digital information",
+  "dates": "Name coined by John Tukey; popularized by Claude Shannon, 1948",
+  "briefing": "A bit, short for “binary digit,” is the smallest unit of information a computer stores: a single 0 or 1, like a switch that is either off or on. Eight bits make a byte, enough to store one letter of text in ASCII, and four bits make a nibble. The statistician John Tukey came up with the word, and Claude Shannon’s famous 1948 paper made the bit the basic unit for measuring information.",
+  "answerHtml": "<b><u>bit</u></b>s (accept <u>binary digit</u>s; prompt on <u>digit</u>s; do not accept “bytes” or “binary numbers”)",
+  "accept": [
+    "bit",
+    "bits",
+    "binary digit",
+    "binary digits",
+    "bits computing",
+    "bit computing"
+  ],
+  "prompt": [
+    "digit",
+    "digits"
+  ],
+  "reject": [
+    "byte",
+    "bytes",
+    "nibble",
+    "nibbles",
+    "nybble",
+    "nybbles",
+    "kilobyte",
+    "kilobytes",
+    "megabyte",
+    "megabytes",
+    "gigabyte",
+    "gigabytes",
+    "terabyte",
+    "kilobit",
+    "kilobits",
+    "megabit",
+    "megabits",
+    "gigabit",
+    "8 bits",
+    "eight bits",
+    "4 bits",
+    "four bits",
+    "bits per second",
+    "qubit",
+    "qubits",
+    "quantum bit",
+    "quantum bits",
+    "binary numbers",
+    "binary number",
+    "binary system",
+    "binary code",
+    "base 2",
+    "base two",
+    "decimal digit",
+    "decimal digits",
+    "hexadecimal",
+    "hex digit",
+    "word",
+    "baud",
+    "bitcoin",
+    "pixel",
+    "pixels",
+    "transistor",
+    "transistors",
+    "boolean"
+  ],
+  "tests": {
+    "right": [
+      "bit",
+      "Bits",
+      "binary digit",
+      "binary digts",
+      "Bits (computing)"
+    ],
+    "prompt": [
+      "digit"
+    ],
+    "wrong": [
+      "byte",
+      "bytes",
+      "nibble",
+      "qubit",
+      "binary numbers",
+      "megabyte",
+      "8 bits"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Bit",
+  "qb": {
+    "q": "bit",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The statistician John Tukey [“TOO-kee”] coined this word by squeezing together a two-word phrase, and Claude Shannon’s 1948 paper “A Mathematical Theory of Communication” made it the standard unit for measuring information. Shannon gave Tukey credit for the word.",
+      "r": "For 10 points, name this smallest unit of computer data, a single 0 or 1."
+    },
+    {
+      "p": "In 1956, Werner Buchholz [“BOOK-holts”] of IBM coined a deliberately misspelled word for a group of these units, so that it would not be confused with the word for a single one. Half of that group is sometimes jokingly called a nibble.",
+      "r": "Eight of these units make a byte. For 10 points, name this smallest unit of digital information."
+    },
+    {
+      "p": "Learning the result of one fair coin flip gives exactly one of these units of information. In the game Twenty Questions, each yes-or-no answer gives at most one of them, so twenty questions can pick out one thing from about a million possibilities.",
+      "r": "Eight of them make a byte. For 10 points, name this unit, a single 0 or 1 in a computer."
+    },
+    {
+      "p": "An extra one of these, called a parity check, is often added to each small group of them so that a computer can notice when a single one has gone wrong. Richard Hamming’s 1950 codes go further, finding and fixing any one of these that gets flipped.",
+      "r": "A byte is a group of eight. For 10 points, name these units, the 0s and 1s of computer data."
+    },
+    {
+      "p": "Rolf Landauer [“LAN-dow-er”] of IBM argued in 1961 that erasing one of these units of information must always release a tiny minimum amount of heat. John Archibald Wheeler summed up his idea that the physical world arises from information with a slogan pairing the word “it” with this unit’s name.",
+      "r": "A byte holds eight. For 10 points, name this basic unit of information, a choice between 0 and 1."
+    },
+    {
+      "p": "A common screen format stores each pixel’s color with 24 of these units, 8 each for red, green, and blue, allowing more than 16 million colors. Music on an audio CD uses 16 of them for each sound sample, with 44,100 samples taken every second in each stereo channel.",
+      "r": "A group of eight is a byte. For 10 points, name these units, each of which is a 0 or a 1."
+    },
+    {
+      "p": "The Nintendo Entertainment System is often described by how many of these units its processor handled at a time, eight, while the Super Nintendo is described by sixteen. Many later processors work with data in chunks of 64 of these units.",
+      "r": "Eight of them make a byte. For 10 points, name these units, the 0s and 1s of digital data."
+    },
+    {
+      "p": "Internet speeds are usually given in millions of these units per second, written with a lowercase b, while file sizes use a capital B for a larger unit. As a result, a connection rated at 80 million of these units per second downloads about 10 megabytes each second.",
+      "r": "Each one is a 0 or a 1. For 10 points, name these units, eight of which make a byte."
+    },
+    {
+      "p": "Shifting all of these units in a binary number one place to the left doubles the number, and a shift to the right halves it, dropping any remainder. The AND, OR, and XOR operations in programming can work on these units one pair at a time.",
+      "r": "For 10 points, name these units, each a 0 or a 1, eight of which form a byte."
+    },
+    {
+      "p": "High-energy particles from cosmic rays can occasionally flip one of these units stored in a computer’s memory, so some computers use error-correcting memory to catch such flips. In many memory chips, each of these units is stored as a tiny electric charge in a capacitor.",
+      "r": "Eight of them make a byte. For 10 points, name these units, the 0s and 1s of digital information."
+    },
+    {
+      "p": "Each IPv4 internet address is made of 32 of these units, allowing about 4.3 billion addresses, so the newer IPv6 system uses 128 of them instead. A flip-flop circuit is built to store exactly one of these units.",
+      "r": "A nibble is four of them. For 10 points, name these units, each a single 0 or 1."
+    },
+    {
+      "p": "Ralph Hartley measured information with logarithms in 1928, and a unit based on base-10 logarithms is named for him. A unit based on natural logarithms is called the nat, while this unit uses base-2 logarithms.",
+      "r": "Claude Shannon made it famous. For 10 points, name this unit, a single 0 or 1."
+    },
+    {
+      "p": "In a binary number, the most significant one of these units is on the far left, and the least significant is on the far right. In two’s complement, the leftmost of them shows whether a stored whole number is below zero.",
+      "r": "Each one is a 0 or a 1. For 10 points, name these units, eight of which make up a byte."
+    },
+    {
+      "p": "Each extra one of these units doubles the number of different values that can be stored, so seven of them give 128 values, enough for the original ASCII code. The UTF-8 system stores each character with between 8 and 32 of them.",
+      "r": "Eight of them make a byte. For 10 points, name these units of digital data, each a 0 or 1."
+    },
+    {
+      "p": "Claude Shannon’s formula for entropy tells how many of these units, on average, are needed to send each symbol of a message, which sets a limit on how much a file can be compressed. A message saying which of 8 equally likely outcomes happened carries 3 of these units.",
+      "r": "Eight make a byte. For 10 points, name this basic unit of information, a single 0 or 1."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "The smallest unit of digital data: a single 0 or 1",
+      "k": [
+        "smallest unit",
+        "0 or 1"
+      ],
+      "n": 0
+    },
+    {
+      "id": "byte",
+      "tier": "giveaway",
+      "t": "Eight of them make a byte",
+      "k": [
+        "eight",
+        "byte"
+      ],
+      "n": 0
+    },
+    {
+      "id": "name",
+      "tier": "giveaway",
+      "t": "Its name squeezes together the words “binary” and “digit”",
+      "k": [
+        "binary",
+        "squeezes",
+        "digit"
+      ],
+      "n": 0,
+      "rabbit": "Binary numbers"
+    },
+    {
+      "id": "switch",
+      "tier": "giveaway",
+      "t": "Like a switch that is either off or on",
+      "k": [
+        "switch",
+        "off or on"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tukey-shannon",
+      "tier": "middle",
+      "t": "John Tukey coined the word; Claude Shannon’s 1948 paper “A Mathematical Theory of Communication” made it famous and credited Tukey",
+      "k": [
+        "tukey",
+        "shannon",
+        "1948"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nibble",
+      "tier": "middle",
+      "t": "Four of them make a nibble, half of a byte",
+      "k": [
+        "nibble",
+        "four"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coin-flip",
+      "tier": "middle",
+      "t": "The result of one fair coin flip is exactly one unit of information",
+      "k": [
+        "coin flip",
+        "fair"
+      ],
+      "n": 0
+    },
+    {
+      "id": "doubling",
+      "tier": "middle",
+      "t": "Each extra one doubles the number of possible values: 8 of them give 256 values, from 0 to 255",
+      "k": [
+        "doubles",
+        "256",
+        "255"
+      ],
+      "n": 0
+    },
+    {
+      "id": "speeds",
+      "tier": "middle",
+      "t": "Internet speeds count millions of them per second (lowercase b); file sizes use bytes (capital B)",
+      "k": [
+        "internet speeds",
+        "lowercase b",
+        "capital b"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parity",
+      "tier": "middle",
+      "t": "A parity check adds one extra so that the number of 1s is even, which reveals a single error",
+      "k": [
+        "parity",
+        "even",
+        "error"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ascii",
+      "tier": "middle",
+      "t": "Seven of them give 128 values, enough for the original ASCII code",
+      "k": [
+        "ascii",
+        "128",
+        "seven"
+      ],
+      "n": 0
+    },
+    {
+      "id": "significant",
+      "tier": "middle",
+      "t": "The most significant one is on the far left and the least significant on the far right; in two’s complement, the leftmost shows whether a number is below zero",
+      "k": [
+        "most significant",
+        "least significant",
+        "two’s complement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "buchholz",
+      "tier": "power",
+      "t": "Werner Buchholz of IBM coined “byte” in 1956, spelling it oddly so it would not be confused with this word",
+      "k": [
+        "buchholz",
+        "1956",
+        "ibm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hamming",
+      "tier": "power",
+      "t": "Richard Hamming’s 1950 codes find and fix any single one that gets flipped",
+      "k": [
+        "hamming",
+        "1950",
+        "flipped"
+      ],
+      "n": 0
+    },
+    {
+      "id": "landauer",
+      "tier": "power",
+      "t": "Rolf Landauer (1961) argued that erasing one must release a tiny minimum amount of heat",
+      "k": [
+        "landauer",
+        "1961",
+        "heat"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wheeler",
+      "tier": "power",
+      "t": "John Archibald Wheeler’s slogan pairs the word “it” with this word, meaning the physical world arises from information",
+      "k": [
+        "wheeler",
+        "slogan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "color",
+      "tier": "power",
+      "t": "24 of them per pixel (8 each for red, green, and blue) give more than 16 million colors",
+      "k": [
+        "pixel",
+        "16 million",
+        "24"
+      ],
+      "n": 0
+    },
+    {
+      "id": "audio-cd",
+      "tier": "power",
+      "t": "Audio CDs use 16 of them per sound sample, with 44,100 samples every second in each stereo channel",
+      "k": [
+        "audio cds",
+        "44,100",
+        "sample"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nintendo",
+      "tier": "power",
+      "t": "The Nintendo Entertainment System is described by its processor handling 8 of them at a time, and the Super Nintendo by 16",
+      "k": [
+        "nintendo",
+        "super nintendo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twenty-questions",
+      "tier": "power",
+      "t": "In Twenty Questions, each yes-or-no answer gives at most one, so 20 questions can pick from about a million possibilities",
+      "k": [
+        "twenty questions",
+        "yes-or-no",
+        "million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cosmic-rays",
+      "tier": "power",
+      "t": "Cosmic rays can flip one in memory, and error-correcting memory catches such flips; many memory chips store each as a charge in a capacitor",
+      "k": [
+        "cosmic rays",
+        "capacitor",
+        "error-correcting"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ip-address",
+      "tier": "power",
+      "t": "IPv4 addresses use 32 of them (about 4.3 billion addresses), and IPv6 uses 128; a flip-flop circuit stores exactly one",
+      "k": [
+        "ipv4",
+        "ipv6",
+        "flip-flop"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hartley-nat",
+      "tier": "power",
+      "t": "Base-10 information units are named for Ralph Hartley (1928) and natural-log units are called nats; this unit uses base 2",
+      "k": [
+        "hartley",
+        "nats",
+        "base 2"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shifts",
+      "tier": "power",
+      "t": "Shifting them one place left doubles a number; AND, OR, and XOR can work on them one pair at a time",
+      "k": [
+        "shifting",
+        "xor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "entropy",
+      "tier": "power",
+      "t": "Shannon’s entropy gives the average number needed per symbol, which limits compression; 8 equally likely outcomes need 3",
+      "k": [
+        "entropy",
+        "compression"
+      ],
+      "n": 0,
+      "rabbit": "Entropy"
+    },
+    {
+      "id": "utf-8",
+      "tier": "power",
+      "t": "UTF-8 stores each character in 8 to 32 of them",
+      "k": [
+        "utf-8",
+        "character"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "One digit or eight?",
+    "body": "A bit is one binary digit, a 0 or a 1, and a byte is a group of eight bits; the two are separate answer lines, and so is a nibble (four bits). Binary numbers, the whole base-2 number system, are another answer line, and a qubit is the quantum version of a bit. Saying only “digit” earns a prompt.",
+    "fix": "If the clues describe a single 0 or 1, a coin flip, or Shannon’s unit of information, say “bit.” If they describe a group of eight, such as one ASCII character or values up to 255, say “byte.” If they describe a whole number system with place values 1, 2, 4, 8, and so on, say “binary.”",
+    "line": "Real answer line: <b><u>bit</u></b>s (accept <u>binary digit</u>s; prompt on <u>digit</u>s; do not accept “bytes” or “binary numbers”)"
+  }
+}

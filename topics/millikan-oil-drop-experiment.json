@@ -6,7 +6,7 @@
   "qbCategory": "Science · Physics",
   "kicker": "The 1909 measurement of the electron’s charge · Proved charge comes in units",
   "dates": "First performed 1909",
-  "briefing": "In 1909, Robert Millikan and his student Harvey Fletcher sprayed a fine mist of oil between two metal plates at the University of Chicago. By adjusting the voltage on the plates until a charged droplet hung still in midair, they could work out the electric charge it carried. Every charge they measured was a whole-number multiple of one tiny amount, about 1.6 × 10⁻¹⁹ coulombs: the charge of a single electron.",
+  "briefing": "In 1909, Robert Millikan and his student Harvey Fletcher sprayed a fine mist of oil into a chamber holding two metal plates at the University of Chicago. By adjusting the voltage on the plates until a charged droplet hung still in midair, they could work out the electric charge it carried. Every charge they measured was a whole-number multiple of one tiny amount, about 1.6 × 10⁻¹⁹ coulombs: the charge of a single electron.",
   "answerHtml": "<b><u>Millikan oil drop</u></b> experiment (accept <u>oil drop</u> experiment; prompt on <u>Millikan</u>; do not accept “cathode ray tube” or “J. J. Thomson”)",
   "accept": [
     "millikan oil drop experiment",
@@ -115,7 +115,7 @@
       "r": "For 10 points, name this 1909 experiment that measured the elementary charge using tiny charged droplets between two plates."
     },
     {
-      "p": "The scientist who led this experiment won the 1923 Nobel Prize in Physics, partly for this work and partly for testing Albert Einstein’s equation for the photoelectric effect. He had expected those tests to prove Einstein wrong.",
+      "p": "The scientist who led this experiment won the 1923 Nobel Prize in Physics, partly for this work and partly for testing Albert Einstein’s equation for the photoelectric effect. He later wrote that confirming Einstein’s equation went against all his own expectations.",
       "r": "For 10 points, name this experiment that measured the charge of the electron by balancing tiny charged droplets."
     },
     {
@@ -139,7 +139,7 @@
       "r": "For 10 points, name this experiment that showed electric charge comes in units of about 1.6 times ten to the minus nineteen coulombs."
     },
     {
-      "p": "This experiment’s leader first tried water, but the tiny water droplets evaporated too quickly to be timed for long, so he switched to a liquid that evaporates very slowly.",
+      "p": "This experiment’s leader first tried water, but the tiny water droplets evaporated too quickly to be timed for long, so the team switched to a liquid that evaporates very slowly.",
       "r": "For 10 points, name this experiment that measured the charge of the electron, performed at the University of Chicago in 1909."
     }
   ],
@@ -159,7 +159,7 @@
     {
       "id": "chicago-1909",
       "tier": "giveaway",
-      "t": "Performed in 1909 at the University of Chicago by Robert Millikan and his student Harvey Fletcher",
+      "t": "Performed starting in 1909 at the University of Chicago, with the help of graduate student Harvey Fletcher",
       "k": [
         "1909",
         "university of chicago",
@@ -278,7 +278,7 @@
     {
       "id": "slow-evaporating",
       "tier": "power",
-      "t": "Water droplets evaporated too fast, so its leader switched to a slowly evaporating liquid",
+      "t": "Water droplets evaporated too fast, so the team switched to a slowly evaporating liquid",
       "k": [
         "evaporated",
         "slowly evaporating",

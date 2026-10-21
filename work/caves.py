@@ -1,0 +1,261 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "caves",
+    "name": "Caves",
+    "mono": "CAV",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Natural underground hollows · Most are dissolved out of limestone by acidic water",
+    "dates": "Dissolved out of rock over many thousands of years",
+    "briefing": "Most caves form when rainwater, made slightly acidic by carbon dioxide, seeps into cracks in limestone and slowly dissolves the rock away. Inside, dripping water leaves behind stony icicles: stalactites hang from the ceiling and stalagmites rise from the floor. Kentucky’s Mammoth Cave is the longest known cave system on Earth, and France’s Lascaux Cave holds paintings of animals made about 17,000 years ago.",
+    "answerHtml": "<b><u>Caves</u></b> (accept <u>cave</u>, <u>caverns</u>, or <u>grottoes</u>; accept kinds like limestone caves or sea caves; prompt on <u>holes</u> or <u>chambers</u>; do not accept “karst,” “sinkholes,” “stalactites,” or a single named cave)",
+    "accept": [
+        "caves",
+        "cave",
+        "caverns",
+        "cavern",
+        "grotto",
+        "grottoes",
+        "grottos",
+        "cave system",
+        "cave systems",
+        "limestone cave",
+        "limestone caves",
+        "solution cave",
+        "solution caves",
+        "karst cave",
+        "karst caves",
+        "sea cave",
+        "sea caves"
+    ],
+    "prompt": [
+        "hole",
+        "holes",
+        "underground hole",
+        "underground holes",
+        "hollow",
+        "hollows",
+        "chamber",
+        "chambers",
+        "underground chamber",
+        "underground chambers",
+        "tunnel",
+        "tunnels"
+    ],
+    "reject": [
+        "karst topography",
+        "sinkhole",
+        "sinkholes",
+        "doline",
+        "dolines",
+        "cenote",
+        "cenotes",
+        "stalactite",
+        "stalactites",
+        "stalagmite",
+        "stalagmites",
+        "speleothem",
+        "speleothems",
+        "speleology",
+        "spelunking",
+        "caving",
+        "aquifer",
+        "aquifers",
+        "mammoth cave",
+        "carlsbad caverns",
+        "lascaux",
+        "lascaux cave",
+        "altamira",
+        "chauvet",
+        "chauvet cave",
+        "cave painting",
+        "cave paintings",
+        "cave art",
+        "fingals cave",
+        "allegory of the cave",
+        "platos cave",
+        "cave man",
+        "cave men",
+        "canyon",
+        "canyons",
+        "mine",
+        "mines",
+        "geode",
+        "geodes",
+        "crater",
+        "craters",
+        "volcano",
+        "volcanoes",
+        "wave",
+        "waves"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Cave",
+    "qb": {"q": "caves", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "The Frenchman Édouard-Alfred Martel, often called the father of modern speleology, explored hundreds of these features starting in the late 1880s and helped turn their study into a science. Mineral deposits that grow inside them are called speleothems, from Greek words for one of these features and for a deposit.",
+            "r": "Stalactites and stalagmites grow inside these features. For 10 points, name these natural underground openings, often dissolved out of limestone."
+        },
+        {
+            "p": "In the late 1830s, an enslaved guide named Stephen Bishop began exploring and mapping miles of Kentucky’s Mammoth system of these features, where miners had dug saltpeter for gunpowder during the War of 1812. In 1972, explorers linked that system to the nearby Flint Ridge system, confirming it as the longest known example on Earth.",
+            "r": "These features often form when acidic groundwater dissolves limestone. For 10 points, name these underground openings, where stalactites hang from the ceiling."
+        },
+        {
+            "p": "A cowboy named Jim White began exploring one of these features near Carlsbad, New Mexico, around 1898, after seeing a huge cloud of bats rising from the ground. Unlike most of these features, that one and nearby Lechuguilla [“leh-chuh-GEE-yuh”] were dissolved mostly by sulfuric acid rather than carbonic acid.",
+            "r": "Its Big Room is a vast chamber decorated with stalactites and stalagmites. For 10 points, name these underground openings, whose study is called speleology."
+        },
+        {
+            "p": "In 1940, four teenagers in southwestern France found one of these features at Lascaux [“lass-KOH”], whose walls are covered with paintings of horses, bulls, and deer made about 17,000 years ago. It was closed to visitors in 1963 because their breath was damaging the paintings, and copies were built nearby.",
+            "r": "Prehistoric people painted on the walls of many of these features. For 10 points, name these natural underground chambers."
+        },
+        {
+            "p": "In 1879, eight-year-old María Sanz de Sautuola looked up and spotted paintings of bison on the ceiling of Altamira, one of these features in northern Spain. Many experts at first refused to believe that Stone Age people could have made such skillful art.",
+            "r": "Stalactites hang from the ceilings of these features. For 10 points, name these natural underground openings."
+        },
+        {
+            "p": "Werner Herzog filmed a 3D documentary inside Chauvet [“shoh-VAY”], one of these features in southern France whose charcoal drawings of lions, rhinoceroses, and horses are more than 30,000 years old. Jean-Marie Chauvet and two fellow explorers discovered it in 1994.",
+            "r": "Many of these features form when water dissolves limestone. For 10 points, name these underground openings, home to stalactites and stalagmites."
+        },
+        {
+            "p": "A local man named Ho Khanh found the entrance to Vietnam’s Son Doong, and British explorers who mapped it in 2009 showed that it has the largest known passage of any of these features. Parts of its roof have collapsed, letting in enough sunlight for a jungle to grow inside.",
+            "r": "Explorers of these features are sometimes called spelunkers. For 10 points, name these natural underground hollows, often dissolved out of limestone."
+        },
+        {
+            "p": "In 2000, miners in Mexico’s Naica [“nah-EE-kah”] mine broke into one of these features filled with gypsum crystals up to about 12 meters long, so hot and humid that explorers needed cooling suits. The crystals had grown slowly in hot, mineral-rich water that once filled the chamber.",
+            "r": "Limestone examples of these features are often decorated with stalactites. For 10 points, name these natural underground openings."
+        },
+        {
+            "p": "The olm, a pale, nearly blind salamander from Slovenia, is a troglobite, an animal that can survive only in these dark places. Eyeless forms of the Mexican tetra fish, which lost their eyes over many generations, also live only in these places.",
+            "r": "Bats often roost in these features, where stalactites hang from the ceiling. For 10 points, name these natural underground hollows."
+        },
+        {
+            "p": "In 1938, Nathaniel Kleitman and a colleague spent 32 days deep inside Kentucky’s Mammoth system of these features, trying to live on a 28-hour day. Blind fish and white, eyeless shrimp in that system have adapted to its total darkness.",
+            "r": "That system is the longest known on Earth. For 10 points, name these underground openings, often carved out of limestone."
+        },
+        {
+            "p": "Thin, hollow tubes called soda straws are young versions of a formation that hangs in these places, while twisting helictites [“HEL-ik-tites”] seem to grow sideways or even upward against gravity. Sheets of calcite called flowstone coat their walls and floors.",
+            "r": "Stalactites hang from their ceilings, while stalagmites rise from their floors. For 10 points, name these natural underground openings."
+        },
+        {
+            "p": "Visitors to Waitomo [“wy-TOH-moh”] in New Zealand ride boats through one of these features lit by thousands of glowworms, the glowing larvae of a kind of fly. On the Scottish island of Staffa, Fingal’s, a sea-carved example lined with basalt columns, inspired Felix Mendelssohn’s overture _The Hebrides_.",
+            "r": "Most of these features form when rainwater dissolves limestone. For 10 points, name these underground hollows, studied in speleology."
+        },
+        {
+            "p": "In 2018, international divers rescued twelve boys from a youth soccer team and their coach after monsoon floodwaters trapped them for more than two weeks inside Tham Luang, one of these features in northern Thailand. A former Thai Navy SEAL diver died during the rescue.",
+            "r": "Stalactites and stalagmites form inside many of these features. For 10 points, name these natural underground openings, explored by spelunkers."
+        },
+        {
+            "p": "Scientists date the growth layers of speleothems from these places using uranium and thorium, and the mix of oxygen atoms in those layers records rainfall from thousands of years ago. Those formations grow when dripping water loses carbon dioxide and leaves calcium carbonate behind.",
+            "r": "Formations that hang from the ceilings of these places are called stalactites. For 10 points, name these natural underground openings."
+        },
+        {
+            "p": "In 2010, scientists identified the Denisovans, close relatives of Neanderthals, from DNA in a finger bone found in one of these features in Siberia. Lava tubes are hollow examples of these features that form when the outside of a lava flow hardens while molten rock drains out from inside.",
+            "r": "Most of these features form when carbonic acid in groundwater dissolves limestone. For 10 points, name these natural underground openings."
+        }
+    ],
+    "clues": [
+        {"id": "definition", "tier": "giveaway",
+         "t": "Natural underground openings or chambers, often large enough for a person to enter",
+         "k": ["underground", "openings", "chambers"], "n": 0},
+        {"id": "limestone-acid", "tier": "giveaway",
+         "t": "Most form when rainwater, made slightly acidic by carbon dioxide (carbonic acid), dissolves limestone along cracks",
+         "k": ["carbonic acid", "limestone", "dissolves"], "n": 0, "rabbit": "Limestone"},
+        {"id": "stalactites-stalagmites", "tier": "giveaway",
+         "t": "Stalactites hang from the ceiling (they hold on “tight”); stalagmites rise from the ground (they “might” reach the top)",
+         "k": ["stalactites", "stalagmites", "ceiling"], "n": 0},
+        {"id": "mammoth", "tier": "giveaway",
+         "t": "Kentucky’s Mammoth system is the longest known on Earth, with more than 400 miles mapped",
+         "k": ["mammoth", "kentucky", "400 miles"], "n": 0},
+        {"id": "speleology", "tier": "giveaway",
+         "t": "Their scientific study is called speleology; exploring them for fun is called spelunking",
+         "k": ["speleology", "spelunking"], "n": 0},
+        {"id": "karst", "tier": "middle",
+         "t": "Part of karst landscapes, along with sinkholes, springs, and streams that disappear underground",
+         "k": ["karst", "sinkholes", "springs"], "n": 0},
+        {"id": "dripping-co2", "tier": "middle",
+         "t": "Formations grow when dripping water loses carbon dioxide and leaves calcium carbonate behind",
+         "k": ["carbon dioxide", "calcium carbonate", "dripping"], "n": 0, "rabbit": "Carbon dioxide"},
+        {"id": "speleothems", "tier": "middle",
+         "t": "Mineral formations inside them are called speleothems; a stalactite and stalagmite that meet form a column",
+         "k": ["speleothems", "column"], "n": 0},
+        {"id": "soda-straws", "tier": "middle",
+         "t": "Hollow soda straws are young stalactites, twisting helictites seem to defy gravity, and flowstone coats walls and floors",
+         "k": ["soda straws", "helictites", "flowstone"], "n": 0},
+        {"id": "carlsbad", "tier": "middle",
+         "t": "New Mexico’s Carlsbad system has the huge Big Room and summer evening flights of free-tailed bats",
+         "k": ["carlsbad", "big room", "bats"], "n": 0},
+        {"id": "lascaux", "tier": "middle",
+         "t": "France’s Lascaux has paintings of horses and bulls about 17,000 years old; four teenagers found it in 1940",
+         "k": ["lascaux", "17,000", "1940"], "n": 0},
+        {"id": "troglobites", "tier": "middle",
+         "t": "Troglobites, like the pale olm salamander and eyeless Mexican tetras, can live only in them",
+         "k": ["troglobites", "olm", "eyeless"], "n": 0},
+        {"id": "other-kinds", "tier": "middle",
+         "t": "Other kinds include lava tubes, sea-cliff hollows carved by waves, and tunnels melted inside glaciers",
+         "k": ["lava tubes", "waves", "glaciers"], "n": 0},
+        {"id": "martel", "tier": "power",
+         "t": "Édouard-Alfred Martel of France, the father of modern speleology, began exploring them in the late 1880s",
+         "k": ["martel", "father"], "n": 0},
+        {"id": "stephen-bishop", "tier": "power",
+         "t": "Stephen Bishop, an enslaved guide, explored and mapped much of Mammoth starting in the late 1830s; saltpeter was mined there for War of 1812 gunpowder",
+         "k": ["stephen bishop", "saltpeter", "1812"], "n": 0},
+        {"id": "flint-ridge", "tier": "power",
+         "t": "In 1972, explorers connected Mammoth to the Flint Ridge system, confirming it as the longest known",
+         "k": ["flint ridge", "1972"], "n": 0},
+        {"id": "kleitman", "tier": "power",
+         "t": "Nathaniel Kleitman spent 32 days inside Mammoth in 1938 testing a 28-hour day",
+         "k": ["kleitman", "1938", "28-hour"], "n": 0, "rabbit": "Sleep"},
+        {"id": "sulfuric-acid", "tier": "power",
+         "t": "Jim White explored Carlsbad’s around 1898; it and Lechuguilla were dissolved mainly by sulfuric acid, not carbonic acid",
+         "k": ["jim white", "lechuguilla", "sulfuric acid"], "n": 0},
+        {"id": "altamira", "tier": "power",
+         "t": "In 1879, eight-year-old María Sanz de Sautuola spotted bison painted on the ceiling of Spain’s Altamira",
+         "k": ["altamira", "bison", "1879"], "n": 0},
+        {"id": "chauvet", "tier": "power",
+         "t": "France’s Chauvet, discovered in 1994, has drawings of lions and rhinoceroses more than 30,000 years old",
+         "k": ["chauvet", "1994", "30,000"], "n": 0},
+        {"id": "son-doong", "tier": "power",
+         "t": "Vietnam’s Son Doong, mapped in 2009, has the largest known passage, with a jungle growing under holes in its roof",
+         "k": ["son doong", "vietnam", "2009"], "n": 0},
+        {"id": "naica", "tier": "power",
+         "t": "In 2000, Mexico’s Naica mine broke into a hot chamber full of gypsum crystals up to about 12 meters long",
+         "k": ["naica", "gypsum crystals", "12 meters"], "n": 0},
+        {"id": "waitomo-fingal", "tier": "power",
+         "t": "New Zealand’s Waitomo is lit by glowworms; Scotland’s basalt-lined Fingal’s inspired Mendelssohn’s _The Hebrides_",
+         "k": ["waitomo", "glowworms", "fingal", "mendelssohn"], "n": 0, "rabbit": "Basalt"},
+        {"id": "tham-luang", "tier": "power",
+         "t": "In 2018, divers rescued twelve boys and their soccer coach from flooded Tham Luang in Thailand",
+         "k": ["tham luang", "thailand", "2018"], "n": 0},
+        {"id": "uranium-thorium", "tier": "power",
+         "t": "Growth layers in their speleothems, dated with uranium and thorium, record past rainfall",
+         "k": ["uranium", "thorium", "rainfall"], "n": 0},
+        {"id": "denisova", "tier": "power",
+         "t": "A finger bone found in Siberia’s Denisova revealed the Denisovans, Neanderthal relatives, in 2010",
+         "k": ["denisova", "siberia", "2010"], "n": 0, "rabbit": "Neanderthals"}
+    ],
+    "trap": {
+        "title": "Not stalactites, not karst",
+        "body": "Tossups on caves are full of stalactites, stalagmites, sinkholes, and limestone, so players blurt out one of those words instead of the feature itself. Those are separate answers here. Famous examples like Mammoth Cave or Lascaux are wrong too, because the question wants the general feature.",
+        "fix": "Wait for “name these underground openings” and answer caves (caverns is fine too). Stalactites hang from the ceiling and stalagmites rise from the floor, and karst is the whole landscape of dissolved limestone, including sinkholes and springs.",
+        "line": "Real answer line: <b><u>Caves</u></b> (accept caverns; do not accept “stalactites,” “stalagmites,” or “karst”)"
+    },
+    "tests": {
+        "right": ["Caves", "cave", "Caverns", "Limestone caves", "Cavez"],
+        "prompt": ["Holes", "Chambers"],
+        "wrong": ["Stalactites", "Karst", "Sinkholes", "Mammoth Cave", "Limestone", "Cave paintings"]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

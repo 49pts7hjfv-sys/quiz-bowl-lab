@@ -77,15 +77,15 @@ data = {
             "r": "French agents told the three men that talks could not begin without a bribe. For 10 points, name this scandal named for three letters."
         },
         {
-            "p": "When a French agent pressed for money, Charles Cotesworth Pinckney reportedly answered, “No, no, not a sixpence!” Pinckney and his fellow envoys refused to pay just for the chance to begin peace talks with France.",
-            "r": "Their reports identified the agents only by letters. For 10 points, name this 1797–1798 bribery scandal."
+            "p": "When a French agent pressed for money, Charles Cotesworth Pinckney reportedly answered, “No, no, not a sixpence!” Pinckney had been sent to Paris along with John Marshall and Elbridge Gerry.",
+            "r": "Their reports, which John Adams later sent to Congress, identified the French agents only by letters. For 10 points, name this 1797–1798 bribery scandal."
         },
         {
             "p": "Democratic-Republicans in Congress, expecting proof that John Adams was unfairly hostile to France, demanded to see his diplomats’ reports from Paris. When Adams released them in April 1798, the reports set off a wave of anger against France instead.",
             "r": "Adams had replaced the French agents’ names with letters. For 10 points, name this affair in which those agents demanded a bribe."
         },
         {
-            "p": "At a June 1798 dinner in Philadelphia honoring John Marshall, Congressman Robert Goodloe Harper offered a toast that became a national slogan. Marshall had just returned from Paris, where he had refused to pay for the chance to negotiate.",
+            "p": "At a June 1798 dinner in Philadelphia honoring John Marshall, Congressman Robert Goodloe Harper offered a toast that became a national slogan. Marshall had just returned from a failed peace mission to Paris.",
             "r": "That toast was “Millions for defense, but not one cent for tribute.” For 10 points, name this scandal in which French agents demanded a bribe."
         },
         {
@@ -105,8 +105,8 @@ data = {
             "r": "Those laws were the Alien and Sedition Acts. For 10 points, name this affair in which French agents asked American diplomats for a bribe."
         },
         {
-            "p": "The French foreign minister at the center of this scandal later helped sell the Louisiana Territory to the United States and represented France at the Congress of Vienna. His agents had told American diplomats that he expected a payment of about $250,000.",
-            "r": "That minister was Talleyrand [“TAL-ee-rand”]. For 10 points, name this 1797–1798 bribery scandal named for three letters."
+            "p": "The French foreign minister at the center of this scandal later helped sell the Louisiana Territory to the United States and represented France at the Congress of Vienna after Napoleon’s defeat.",
+            "r": "His agents had asked American diplomats for a payment of about $250,000. For 10 points, name this 1797–1798 scandal involving Talleyrand [“TAL-ee-rand”]."
         },
         {
             "p": "One diplomat came home from this scandal to a hero’s welcome in Philadelphia in 1798, won a seat in Congress, and became John Adams’s secretary of state before Adams made him Chief Justice in 1801.",
@@ -125,7 +125,7 @@ data = {
             "r": "That man was Charles Cotesworth Pinckney. For 10 points, name this 1797–1798 scandal in which French agents demanded a bribe."
         },
         {
-            "p": "French agents in this scandal said their foreign minister expected a douceur [“doo-SUR”], a French word for a “sweetener,” before any talks could begin. They also wanted a large loan to France and an apology for a speech by John Adams.",
+            "p": "French agents in this scandal said their foreign minister expected a douceur [“doo-SUR”], French for a “sweetener.” They also wanted a large loan to France and an apology for a speech by John Adams.",
             "r": "For 10 points, name this affair named for the letters that replaced the agents’ names in the reports Adams sent to Congress."
         },
         {

@@ -7,7 +7,7 @@
   "kicker": "Enslaved people taking up arms for freedom · Stono, Vesey, Nat Turner",
   "dates": "Major U.S. examples, 1739–1841",
   "briefing": "Enslaved people resisted slavery in many ways, and sometimes they took up arms. In 1739, men near South Carolina’s Stono River marched toward Spanish Florida, which promised them freedom, and in 1831 the preacher Nat Turner led a revolt in Virginia that terrified slaveholders, who answered with harsher laws. The most successful began in 1791 in Haiti, where formerly enslaved people won their independence in 1804.",
-  "answerHtml": "<b><u>slave rebellions</u></b> (or slave <u>revolts</u>, <u>uprisings</u>, or <u>insurrections</u>; prompt on <u>rebellions</u> or <u>revolts</u> alone)",
+  "answerHtml": "<b><u>slave rebellions</u></b> (or <u>slave revolts</u>, <u>slave uprisings</u>, or <u>slave insurrections</u>; prompt on <u>rebellions</u> or <u>revolts</u> alone)",
   "accept": [
     "slave rebellions",
     "slave rebellion",
@@ -106,7 +106,7 @@
       "r": "Its leader was a blacksmith named Gabriel. For 10 points, name these events, such as Nat Turner’s in 1831, in which enslaved people took up arms."
     },
     {
-      "p": "After a plan to capture Richmond fell apart, the leader of one of these events escaped on a ship sailing down the James River, but he was turned in and captured at Norfolk. That leader, a blacksmith enslaved on Thomas Prosser’s plantation, was executed along with about two dozen of his followers in 1800.",
+      "p": "After a plan to capture Richmond fell apart, the leader of one of these events escaped on a ship sailing down the James River, but he was turned in and captured at Norfolk. That leader, a blacksmith enslaved on Thomas Prosser’s plantation, was executed along with about 25 of his followers in 1800.",
       "r": "For 10 points, name these events, also including Denmark Vesey’s planned one and Nat Turner’s, in which enslaved people fought for freedom."
     },
     {
@@ -126,7 +126,7 @@
       "r": "That leader was Nat Turner. For 10 points, name these events, also including Denmark Vesey’s planned one in Charleston, in which enslaved people took up arms."
     },
     {
-      "p": "A solar eclipse in February 1831 convinced a preacher that God was signaling him to prepare for one of these events. After it was put down, that preacher hid for about two months near the farm where he had lived before he was captured, tried, and executed.",
+      "p": "A solar eclipse in February 1831 convinced a preacher that God was signaling him to prepare for one of these events. After it was put down, that preacher hid for about two months before he was captured, tried, and executed.",
       "r": "The event took place in Southampton County, Virginia. For 10 points, name these events, such as the one led by Nat Turner, in which enslaved people fought for their freedom."
     },
     {
@@ -138,7 +138,7 @@
       "r": "John Quincy Adams helped win their freedom. For 10 points, name these events, such as the one aboard the _Amistad_, in which enslaved people fought for freedom."
     },
     {
-      "p": "Justice Joseph Story wrote an 1841 Supreme Court decision that freed the survivors of one of these events, and they sailed home to Sierra Leone the next year. Their leader, Sengbe Pieh, was known in the United States as Joseph Cinqué [“sin-KAY”].",
+      "p": "Justice Joseph Story wrote an 1841 Supreme Court decision that freed the survivors of one of these events, and late that year they sailed home to Sierra Leone. Their leader, Sengbe Pieh, was known in the United States as Joseph Cinqué [“sin-KAY”].",
       "r": "Their ship was the _Amistad_. For 10 points, name these events, also including Nat Turner’s, in which enslaved people took up arms for their freedom."
     },
     {
@@ -318,11 +318,12 @@
     {
       "id": "negro-act",
       "tier": "power",
-      "t": "South Carolina’s Negro Act of 1740 banned enslaved people from gathering in groups or learning to write",
+      "t": "South Carolina’s Negro Act of 1740 banned enslaved people from gathering in groups and made it illegal to teach them to write",
       "k": [
         "negro act",
         "1740",
-        "learning to write"
+        "gathering",
+        "teach them to write"
       ],
       "n": 0
     },
@@ -426,7 +427,7 @@
     {
       "id": "story-sierra-leone",
       "tier": "power",
-      "t": "Justice Joseph Story wrote the 1841 _Amistad_ ruling; the survivors sailed home to Sierra Leone in 1842",
+      "t": "Justice Joseph Story wrote the 1841 _Amistad_ ruling; late that year, the survivors sailed home to Sierra Leone",
       "k": [
         "joseph story",
         "sierra leone"
@@ -461,6 +462,6 @@
     "title": "The kind, not one",
     "body": "Tossups on this answer line march through famous examples (Stono, Gabriel, Denmark Vesey, Nat Turner, the _Amistad_), but they ask for the whole category: “these events.” Answering with one example, like “Nat Turner’s Rebellion,” or with a related answer line, like the Haitian Revolution, John Brown’s raid, or the Underground Railroad, loses the tossup. Saying just “rebellion” or “revolt” earns a prompt.",
     "fix": "When you hear “these events” or “this kind of event,” say “slave rebellions” (or “slave revolts”). Save the leaders’ names for questions that ask for “this man,” like Nat Turner, Denmark Vesey, or Gabriel.",
-    "line": "Real answer line: <b><u>slave rebellions</u></b> (or slave <u>revolts</u>; accept slave <u>uprisings</u> or slave <u>insurrections</u>; prompt on <u>rebellions</u> or <u>revolts</u> alone)"
+    "line": "Real answer line: <b><u>slave rebellions</u></b> (or <u>slave revolts</u>; accept <u>slave uprisings</u> or <u>slave insurrections</u>; prompt on <u>rebellions</u> or <u>revolts</u> alone)"
   }
 }

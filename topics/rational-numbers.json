@@ -119,7 +119,7 @@
       "r": "For 10 points, name these numbers, written with a double-struck Q, whose decimals either end or repeat."
     },
     {
-      "p": "Scribes who wrote the Egyptian Rhind [“RYND”] Papyrus wrote positive numbers of this kind as sums of different unit fractions, and Fibonacci’s _Liber Abaci_ gave a method in 1202 that always works. One-seventh, written as a decimal, repeats the block 142857 forever.",
+      "p": "Egyptian scribes, as in the Rhind [“RYND”] Papyrus, wrote positive numbers of this kind as sums of different unit fractions, and Fibonacci’s _Liber Abaci_ gave a method in 1202 that always works. One-seventh, written as a decimal, repeats the block 142857 forever.",
       "r": "For 10 points, name these numbers, such as two-fifths, that can be written as a fraction of two integers."
     },
     {
@@ -155,7 +155,7 @@
       "r": "Any repeating decimal, like 0.0909 repeating, which equals one-eleventh, is one of these. For 10 points, name these numbers that can be written as a quotient of two integers."
     },
     {
-      "p": "Every positive one of these numbers appears exactly once in the Stern–Brocot tree, which is built by repeatedly adding the tops and the bottoms of two neighboring fractions. Between any two of these numbers lies another, so none of them has a “next” one.",
+      "p": "Multiplying 0.2727 repeating by 100 and then subtracting the original decimal shows that it equals 27 over 99, or 3 over 11, so it is one of these numbers. Between any two of these numbers lies another, so none of them has a “next” one.",
       "r": "For 10 points, name these numbers, which can be written as fractions of integers and include all the integers."
     },
     {
@@ -295,11 +295,12 @@
     {
       "id": "repeating-decimals",
       "tier": "middle",
-      "t": "Every repeating decimal is one: 0.0909… is 1/11, and 0.999… is exactly 1",
+      "t": "Every repeating decimal is one: 0.0909… is 1/11, 0.2727… is 27/99 = 3/11 (multiply by 100 and subtract), and 0.999… is exactly 1",
       "k": [
         "repeating decimal",
         "1/11",
-        "0.999"
+        "0.999",
+        "subtract"
       ],
       "n": 0
     },
@@ -386,11 +387,11 @@
     {
       "id": "trees",
       "tier": "power",
-      "t": "The Calkin–Wilf tree (2000) and the Stern–Brocot tree each list every positive one exactly once",
+      "t": "The Calkin–Wilf tree (2000) lists every positive one exactly once, which shows that they can be counted",
       "k": [
         "calkin–wilf",
-        "stern–brocot",
-        "tree"
+        "tree",
+        "counted"
       ],
       "n": 0
     },

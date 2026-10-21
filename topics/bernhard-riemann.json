@@ -4,7 +4,7 @@
   "mono": "BR",
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
-  "kicker": "Gauss’s student who reshaped geometry · His hypothesis is math’s great open problem",
+  "kicker": "Gauss’s student who reshaped geometry · His hypothesis is still unproven",
   "dates": "1826–1866",
   "briefing": "Bernhard Riemann was a shy German mathematician, a student of Carl Friedrich Gauss, who died of tuberculosis at just 39 but changed math forever. His 1854 lecture on the geometry of curved spaces later gave Albert Einstein the tools for general relativity, and Riemann sums estimate the area under a curve with rectangles. His 1859 guess about the zeros of the zeta function, the Riemann hypothesis, is still unproven, and proving it would win a $1 million prize.",
   "answerHtml": "<b><u>Bernhard Riemann</u></b> (accept <u>Riemann</u> or Georg Friedrich Bernhard Riemann)",
@@ -122,11 +122,11 @@
       "r": "For 10 points, name this German mathematician whose namesake sums use thin rectangles to estimate the area under a curve."
     },
     {
-      "p": "This man and his student Gustav Roch [“ROKH”] name a theorem about the functions that can be defined on a curved surface. This man’s mapping theorem says that any region of the plane with no holes, other than the whole plane, can be mapped onto a disk without changing any angles.",
+      "p": "The function in this man’s most famous conjecture starts from the endless sum 1, plus 1 over 2 to the s, plus 1 over 3 to the s, and so on. When s equals 1, that sum becomes the harmonic series, which grows without limit.",
       "r": "For 10 points, name this German mathematician whose hypothesis about the zeta function is a Millennium Prize Problem."
     },
     {
-      "p": "In 1914, G. H. Hardy proved that infinitely many of the zeros of a function named for this man lie on a “critical line,” where their real part is one-half. In 1900, David Hilbert included this man’s conjecture about those zeros in the eighth of his 23 famous problems.",
+      "p": "In 1914, G. H. Hardy proved that infinitely many of the zeros of a function named for this man lie on a “critical line,” where their real part is one-half. In 1900, David Hilbert grouped this man’s conjecture about those zeros with the Goldbach and twin prime conjectures in the eighth of his 23 famous problems.",
       "r": "A proof of that conjecture would win a $1 million Millennium Prize. For 10 points, name this German mathematician."
     },
     {
@@ -154,8 +154,8 @@
       "r": "For 10 points, name this mathematician whose hypothesis about the zeros of the zeta function is unproven."
     },
     {
-      "p": "Thomas Stieltjes and Henri Lebesgue [“luh-BEG”] each created more general versions of an integral named for this man. Gaston Darboux [“dar-BOO”] gave an equivalent definition of that integral by squeezing it between upper and lower sums.",
-      "r": "For 10 points, name this German mathematician whose namesake sums use thin rectangles to estimate the area under a curve."
+      "p": "Henri Lebesgue [“luh-BEG”] later created a more general kind of integral than the one named for this man, which is the limit of sums of the areas of thinner and thinner rectangles. Those sums, named for him, can set each rectangle’s height at the left end, the right end, or the midpoint of its base.",
+      "r": "For 10 points, name this German mathematician whose namesake sums estimate the area under a curve."
     },
     {
       "p": "This man’s 1859 paper gave an exact formula connecting the count of prime numbers to the zeros of a certain function, and computers have since checked trillions of those zeros without finding any off a single “critical line.”",
@@ -277,11 +277,12 @@
     {
       "id": "hilbert-eighth",
       "tier": "middle",
-      "t": "David Hilbert put his hypothesis in the eighth of his 23 problems (1900)",
+      "t": "David Hilbert put his hypothesis in the eighth of his 23 problems (1900), together with the Goldbach and twin prime conjectures",
       "k": [
         "hilbert",
         "eighth",
-        "23 problems"
+        "23 problems",
+        "goldbach"
       ],
       "n": 0,
       "rabbit": "David Hilbert"
@@ -333,6 +334,18 @@
       "rabbit": "Parallel postulate"
     },
     {
+      "id": "sum-heights",
+      "tier": "middle",
+      "t": "His namesake sums can set each rectangle’s height at its left end, right end, or midpoint; as the rectangles get thinner, the sums approach the exact area",
+      "k": [
+        "left end",
+        "midpoint",
+        "exact area"
+      ],
+      "n": 0,
+      "rabbit": "Integrals"
+    },
+    {
       "id": "rearrangement",
       "tier": "power",
       "t": "Rearrangement theorem: the terms of 1 − 1/2 + 1/3 − 1/4 + … can be reordered to add up to any number at all",
@@ -345,24 +358,12 @@
       "rabbit": "Convergence (series)"
     },
     {
-      "id": "roch",
+      "id": "zeta-sum",
       "tier": "power",
-      "t": "Shares a theorem about the functions on a curved surface with his student Gustav Roch",
+      "t": "The zeta function in his hypothesis starts from the endless sum 1 + 1/2ˢ + 1/3ˢ + …; at s = 1 that sum is the harmonic series, which grows without limit",
       "k": [
-        "gustav roch",
-        "student",
-        "curved surface"
-      ],
-      "n": 0
-    },
-    {
-      "id": "mapping",
-      "tier": "power",
-      "t": "His mapping theorem: any region of the plane with no holes, other than the whole plane, maps onto a disk without changing angles",
-      "k": [
-        "mapping theorem",
-        "disk",
-        "angles"
+        "endless sum",
+        "harmonic series"
       ],
       "n": 0
     },
@@ -421,12 +422,11 @@
     {
       "id": "integral",
       "tier": "power",
-      "t": "His 1854 qualifying thesis on trigonometric series defined the integral as a limit of sums; Stieltjes and Lebesgue later generalized it, and Darboux’s upper and lower sums match it",
+      "t": "His 1854 qualifying thesis on trigonometric series defined the integral as a limit of sums; Henri Lebesgue later created a more general kind of integral",
       "k": [
         "trigonometric series",
         "lebesgue",
-        "darboux",
-        "stieltjes"
+        "limit of sums"
       ],
       "n": 0
     },
@@ -444,7 +444,7 @@
     {
       "id": "euler-zeta",
       "tier": "power",
-      "t": "Leonhard Euler studied the zeta function first: its value at 2 is π²/6, and it equals a product over all primes",
+      "t": "Leonhard Euler studied the zeta function before him: its value at 2 is π²/6, and it equals a product over all primes",
       "k": [
         "euler",
         "π²/6",

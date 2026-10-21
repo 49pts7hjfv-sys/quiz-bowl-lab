@@ -1,0 +1,439 @@
+{
+  "id": "linked-lists",
+  "name": "Linked lists",
+  "mono": "LL",
+  "category": "Computer Science",
+  "qbCategory": "Science · Other Science (Computer Science)",
+  "kicker": "Nodes chained together by pointers · Easy to insert, slow to search",
+  "dates": "Invented by Newell, Shaw, and Simon, 1955–1956",
+  "briefing": "A linked list stores data in a chain of nodes, where each node holds a piece of data and a pointer to the next node, like a scavenger hunt in which each clue tells you where to find the next one. The first node is called the head, and the last node points to nothing, often called null. Unlike an array, a linked list can grow and shrink easily, but finding its 500th item means walking through the first 499.",
+  "answerHtml": "<b><u>linked list</u></b>s (accept <u>singly linked list</u>s, <u>doubly linked list</u>s, or <u>circular linked list</u>s; prompt on <u>list</u>s or <u>data structure</u>s; do not accept “arrays” or “stacks”)",
+  "accept": [
+    "linked list",
+    "linked lists",
+    "singly linked list",
+    "singly linked lists",
+    "doubly linked list",
+    "doubly linked lists",
+    "circular linked list",
+    "circular linked lists",
+    "linkedlist",
+    "link list",
+    "link lists"
+  ],
+  "prompt": [
+    "list",
+    "lists",
+    "data structure",
+    "data structures",
+    "linear data structure",
+    "chain of nodes"
+  ],
+  "reject": [
+    "array",
+    "arrays",
+    "dynamic array",
+    "dynamic arrays",
+    "array list",
+    "arraylist",
+    "vector",
+    "vectors",
+    "stack",
+    "stacks",
+    "queue",
+    "queues",
+    "deque",
+    "tree",
+    "trees",
+    "binary tree",
+    "binary trees",
+    "binary search tree",
+    "hash table",
+    "hash tables",
+    "hash map",
+    "graph",
+    "graphs",
+    "heap",
+    "heaps",
+    "skip list",
+    "skip lists",
+    "node",
+    "nodes",
+    "pointer",
+    "pointers",
+    "null",
+    "null pointer",
+    "lisp",
+    "recursion",
+    "blockchain"
+  ],
+  "tests": {
+    "right": [
+      "linked list",
+      "Linked lists",
+      "doubly linked list",
+      "linkd list",
+      "singly-linked list"
+    ],
+    "prompt": [
+      "list",
+      "data structure"
+    ],
+    "wrong": [
+      "array",
+      "stack",
+      "queue",
+      "binary tree",
+      "hash table",
+      "pointers"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Linked_list",
+  "qb": {
+    "q": "linked list",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Allen Newell, Cliff Shaw, and Herbert Simon created this data structure at the RAND Corporation in the mid-1950s for their Information Processing Language, which they used to write their Logic Theorist program. Simon later won a Nobel Prize in Economics.",
+      "r": "For 10 points, name this data structure made of nodes, each holding data and a pointer to the next node."
+    },
+    {
+      "p": "John McCarthy’s programming language Lisp was built around this data structure, whose cells are taken apart with the operations car and cdr [“COULD-er”], names that came from parts of a register on the IBM 704 computer. A Lisp “cons” cell holds one item and a pointer to the rest of the structure.",
+      "r": "Its first node is called the head. For 10 points, name this data structure, in which each node points to the next one."
+    },
+    {
+      "p": "Robert Floyd’s “tortoise and hare” method finds out whether this data structure loops back on itself by moving one pointer one step at a time and another pointer two steps at a time. If the two pointers ever meet, there is a cycle.",
+      "r": "For 10 points, name this data structure, a chain of nodes that each point to the next."
+    },
+    {
+      "p": "William Pugh [“PYOO”] invented the “skip” version of this data structure in 1989, adding express lanes of extra pointers so that searching it can be almost as fast as searching a balanced tree. Without such tricks, finding one item in this structure means checking nodes one by one from the start.",
+      "r": "Each node points to the next one. For 10 points, name this data structure whose first node is called the head."
+    },
+    {
+      "p": "Donald Knuth [“kuh-NOOTH”] popularized a “dancing” technique for solving puzzles like sudoku that quickly removes and restores nodes in circular, two-way versions of this data structure. The technique works because a removed node still remembers its neighbors, so it can be put back.",
+      "r": "Its last node points to null. For 10 points, name this data structure, in which each node points to the next."
+    },
+    {
+      "p": "The last node of this data structure usually points to null, a value that Tony Hoare [“HOR”] later called his “billion-dollar mistake” because null pointers have caused so many program crashes. Programmers sometimes add a dummy “sentinel” node at the start so that their code needs fewer special cases.",
+      "r": "Its first node is the head. For 10 points, name this data structure, a chain of nodes connected by pointers."
+    },
+    {
+      "p": "Unlike an array, this data structure does not store its items side by side in memory, so reaching its thousandth item means following pointers through the first 999. On the other hand, adding or removing an item in the middle only requires changing a pointer or two.",
+      "r": "It is often used to build stacks and queues. For 10 points, name this data structure built from nodes, each pointing to the next."
+    },
+    {
+      "p": "In C, a programmer might define this data structure’s basic unit with a struct that contains an integer and a pointer to another struct of the very same type. Each such unit is allocated separately, so the units can sit anywhere in memory.",
+      "r": "The first node is the head, and the last points to null. For 10 points, name this data structure, whose units are called nodes."
+    },
+    {
+      "p": "In a hash table that uses separate chaining, each bucket holds one of these data structures to store all the keys that land in the same spot. Binary search works poorly on this data structure, because you cannot jump straight to its middle item.",
+      "r": "Its end is marked by a null pointer. For 10 points, name this data structure made of nodes connected by pointers."
+    },
+    {
+      "p": "A blockchain resembles this data structure, because each block stores a cryptographic hash of the block before it instead of an ordinary pointer. Memory managers often keep track of unused pieces of memory by storing them in one of these data structures.",
+      "r": "Its first node is called the head. For 10 points, name this data structure in which each node points to the next."
+    },
+    {
+      "p": "Reversing this data structure by turning every pointer around is a classic job-interview question. The Josephus problem, a counting-out game in which people standing in a circle drop out one by one, can be acted out with a circular version of this data structure.",
+      "r": "It is often compared to a scavenger hunt in which each clue tells you where to find the next one. For 10 points, name this data structure whose first node is called the head."
+    },
+    {
+      "p": "A memory-saving “XOR” version of this data structure stores, in each node, a single value that combines the addresses of the nodes on either side of it. Deleting a node from the ordinary one-way version requires knowing the node just before it.",
+      "r": "It can be built in one-way or two-way versions. For 10 points, name this data structure, whose nodes each point to the next one."
+    },
+    {
+      "p": "In the circular version of this data structure, the last node points back to the first instead of to null, which makes it handy for taking turns in a round-robin schedule. A music player’s “previous” and “next” buttons can be modeled with the two-way version.",
+      "r": "Each node points to the next. For 10 points, name this data structure, whose first node is called the head."
+    },
+    {
+      "p": "A cache that throws out the least recently used item often pairs a hash table with a two-way version of this data structure. Adding a new item at the front of this data structure takes the same short time no matter how long it is.",
+      "r": "It usually ends with a null pointer. For 10 points, name this data structure made of nodes connected by pointers."
+    },
+    {
+      "p": "An “unrolled” version of this data structure stores a small array in each node, which works better with a computer’s memory cache. Because its nodes are scattered around memory, walking through this data structure is often slower than scanning an array of the same length.",
+      "r": "For 10 points, name this data structure, in which each node holds data and a pointer to the next node."
+    }
+  ],
+  "clues": [
+    {
+      "id": "nodes",
+      "tier": "giveaway",
+      "t": "A chain of nodes, each holding a piece of data and a pointer to the next node",
+      "k": [
+        "nodes",
+        "pointer",
+        "next node"
+      ],
+      "n": 0
+    },
+    {
+      "id": "head",
+      "tier": "giveaway",
+      "t": "Its first node is called the head",
+      "k": [
+        "head",
+        "first node"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scavenger-hunt",
+      "tier": "giveaway",
+      "t": "Often compared to a scavenger hunt, where each clue tells you where the next one is, or to train cars hooked together",
+      "k": [
+        "scavenger hunt",
+        "train cars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "null",
+      "tier": "middle",
+      "t": "The last node usually points to null (nothing); some versions also keep a pointer to the tail",
+      "k": [
+        "null",
+        "last node",
+        "tail"
+      ],
+      "n": 0
+    },
+    {
+      "id": "arrays",
+      "tier": "middle",
+      "t": "Unlike an array, its items aren’t side by side in memory, so reaching the 1,000th item means following 999 pointers",
+      "k": [
+        "array",
+        "side by side",
+        "following"
+      ],
+      "n": 0
+    },
+    {
+      "id": "insert-delete",
+      "tier": "middle",
+      "t": "Adding or removing an item only means changing a pointer or two; adding at the front takes the same time at any length",
+      "k": [
+        "adding",
+        "removing",
+        "front"
+      ],
+      "n": 0
+    },
+    {
+      "id": "singly-doubly",
+      "tier": "middle",
+      "t": "Singly (one-way) versions point only forward, so deleting a node requires knowing the one before it; doubly (two-way) versions also point back",
+      "k": [
+        "singly",
+        "doubly",
+        "one-way",
+        "two-way"
+      ],
+      "n": 0
+    },
+    {
+      "id": "circular",
+      "tier": "middle",
+      "t": "In a circular version, the last node points back to the first, which is handy for taking turns",
+      "k": [
+        "circular",
+        "points back"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stacks-queues",
+      "tier": "middle",
+      "t": "Often used to build stacks and queues",
+      "k": [
+        "stacks",
+        "queues"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lisp",
+      "tier": "middle",
+      "t": "John McCarthy’s Lisp is built on it; its cells are taken apart with car and cdr, named for parts of an IBM 704 register",
+      "k": [
+        "lisp",
+        "mccarthy",
+        "ibm 704"
+      ],
+      "n": 0,
+      "rabbit": "Recursion"
+    },
+    {
+      "id": "reversing",
+      "tier": "middle",
+      "t": "Reversing one by turning every pointer around is a classic job-interview question",
+      "k": [
+        "reversing",
+        "interview"
+      ],
+      "n": 0
+    },
+    {
+      "id": "newell-simon",
+      "tier": "power",
+      "t": "Allen Newell, Cliff Shaw, and Herbert Simon created it at the RAND Corporation (1955–1956) for their Information Processing Language, used to write the Logic Theorist",
+      "k": [
+        "newell",
+        "simon",
+        "rand",
+        "logic theorist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "floyd",
+      "tier": "power",
+      "t": "Robert Floyd’s “tortoise and hare” method finds a loop using one pointer that moves one step at a time and another that moves two",
+      "k": [
+        "floyd",
+        "tortoise and hare",
+        "loop"
+      ],
+      "n": 0
+    },
+    {
+      "id": "skip",
+      "tier": "power",
+      "t": "William Pugh invented the “skip” version in 1989, adding express lanes of extra pointers for faster searching",
+      "k": [
+        "pugh",
+        "skip",
+        "1989",
+        "express lanes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "knuth",
+      "tier": "power",
+      "t": "Donald Knuth popularized a “dancing” technique for puzzles like sudoku that removes and restores nodes in circular two-way versions",
+      "k": [
+        "knuth",
+        "dancing",
+        "sudoku"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hoare",
+      "tier": "power",
+      "t": "Tony Hoare called the null reference his “billion-dollar mistake”",
+      "k": [
+        "hoare",
+        "billion-dollar mistake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sentinel",
+      "tier": "power",
+      "t": "A dummy “sentinel” node at the start means the code needs fewer special cases",
+      "k": [
+        "sentinel",
+        "dummy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "c-struct",
+      "tier": "power",
+      "t": "In C, a node is a struct holding data and a pointer to another struct of the very same type",
+      "k": [
+        "struct",
+        "same type"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hash-chaining",
+      "tier": "power",
+      "t": "Hash tables that use separate chaining keep one in each bucket for keys that land in the same spot",
+      "k": [
+        "hash tables",
+        "separate chaining",
+        "bucket"
+      ],
+      "n": 0
+    },
+    {
+      "id": "binary-search",
+      "tier": "power",
+      "t": "Binary search works poorly on it, because you can’t jump straight to the middle item",
+      "k": [
+        "binary search",
+        "middle item"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blockchain",
+      "tier": "power",
+      "t": "A blockchain resembles one, since each block stores a cryptographic hash of the block before it",
+      "k": [
+        "blockchain",
+        "cryptographic hash"
+      ],
+      "n": 0
+    },
+    {
+      "id": "xor",
+      "tier": "power",
+      "t": "An “XOR” version saves memory by storing one value that combines the addresses of a node’s two neighbors",
+      "k": [
+        "xor",
+        "neighbors",
+        "addresses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lru-cache",
+      "tier": "power",
+      "t": "Caches that throw out the least recently used item often pair a hash table with a two-way version",
+      "k": [
+        "least recently used",
+        "cache"
+      ],
+      "n": 0
+    },
+    {
+      "id": "josephus",
+      "tier": "power",
+      "t": "The Josephus problem, a counting-out game in a circle, can be acted out with a circular version",
+      "k": [
+        "josephus",
+        "counting-out"
+      ],
+      "n": 0
+    },
+    {
+      "id": "unrolled",
+      "tier": "power",
+      "t": "An “unrolled” version stores a small array in each node to work better with the memory cache",
+      "k": [
+        "unrolled",
+        "memory cache"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Chain or block of memory?",
+    "body": "Linked lists and arrays both store a sequence of items, so tossups often compare them, and “arrays” is a separate answer line: arrays keep items side by side in memory and allow instant jumps to any position, while linked lists don’t. Stacks, queues, and hash tables can be built from linked lists, and trees also use nodes and pointers, but each of those is its own answer line.",
+    "fix": "If the clues mention nodes that each point to the next one, a head, null at the end, or singly and doubly linked versions, say “linked list.” If they mention one block of memory with numbered positions, like a[5], say “array.” Saying only “list” earns a prompt.",
+    "line": "Real answer line: <b><u>linked list</u></b>s (accept <u>singly linked list</u>s, <u>doubly linked list</u>s, or <u>circular linked list</u>s; prompt on <u>list</u>s or <u>data structure</u>s; do not accept “arrays” or “stacks”)"
+  }
+}

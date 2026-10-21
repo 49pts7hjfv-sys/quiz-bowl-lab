@@ -1,0 +1,349 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "camp-david-accords",
+    "name": "Camp David Accords",
+    "mono": "CDA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1978 Egypt–Israel peace framework · Brokered by Jimmy Carter in Maryland",
+    "dates": "Signed September 17, 1978",
+    "briefing": "For 13 days in September 1978, President Jimmy Carter hosted Egypt’s Anwar Sadat and Israel’s Menachem Begin at Camp David, the presidential retreat in Maryland’s mountains, and pushed them toward peace. The Camp David Accords led to a 1979 treaty in which Israel agreed to return the Sinai Peninsula and Egypt became the first Arab country to recognize Israel. Sadat and Begin shared the 1978 Nobel Peace Prize.",
+    "answerHtml": "<b><u>Camp David</u></b> Accords (accept <u>Framework for Peace in the Middle East</u>; prompt on <u>Egypt–Israel Peace Treaty</u>; do not accept “Oslo Accords”)",
+    "accept": [
+        "camp david accords",
+        "camp david accord",
+        "the camp david accords",
+        "camp david",
+        "camp david agreements",
+        "camp david agreement",
+        "camp david peace accords",
+        "camp david peace agreement",
+        "camp david frameworks",
+        "framework for peace in the middle east"
+    ],
+    "prompt": [
+        "egypt israel peace treaty",
+        "egyptian israeli peace treaty",
+        "israel egypt peace treaty",
+        "israeli egyptian peace treaty",
+        "egypt israel treaty",
+        "egypt israel peace treaty of 1979",
+        "1979 egypt israel peace treaty",
+        "peace treaty",
+        "framework for peace"
+    ],
+    "reject": [
+        "oslo accords",
+        "oslo accord",
+        "oslo",
+        "abraham accords",
+        "dayton accords",
+        "dayton agreement",
+        "helsinki accords",
+        "geneva accords",
+        "geneva conventions",
+        "sykes picot agreement",
+        "balfour declaration",
+        "six day war",
+        "yom kippur war",
+        "suez crisis",
+        "panama canal treaties",
+        "torrijos carter treaties",
+        "salt ii",
+        "iran hostage crisis",
+        "anwar sadat",
+        "sadat",
+        "menachem begin",
+        "begin",
+        "jimmy carter",
+        "carter",
+        "hosni mubarak",
+        "king david"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Camp_David_Accords",
+    "qb": {
+        "q": "Camp David",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "During the talks that produced these agreements, the host took the other two leaders to tour the Gettysburg battlefield. Those talks lasted thirteen days in September 1978, at a presidential retreat in Maryland’s mountains.",
+            "r": "For 10 points, name these 1978 agreements between Anwar Sadat of Egypt and Menachem Begin of Israel, brokered by Jimmy Carter."
+        },
+        {
+            "p": "On the last day of the talks that produced these agreements, the American president gave one leader signed photographs, each addressed by name to one of that leader’s grandchildren. The gift moved the leader at a moment when the talks seemed close to collapse.",
+            "r": "That leader was Menachem Begin of Israel. For 10 points, name these 1978 agreements that Begin made with Anwar Sadat of Egypt."
+        },
+        {
+            "p": "Secretary of State Cyrus Vance and National Security Adviser Zbigniew Brzezinski [“ZBIG-nyev breh-ZIN-skee”] were on the American team that negotiated these agreements. American officials kept rewriting a single draft text and carrying it between the two other delegations.",
+            "r": "These agreements are named for the Maryland retreat where the talks took place. For 10 points, name these 1978 accords negotiated by Jimmy Carter, Anwar Sadat, and Menachem Begin."
+        },
+        {
+            "p": "Israel’s Foreign Minister Moshe Dayan and Defense Minister Ezer Weizman took part in the talks that led to these agreements. One of these agreements set out a plan for a peace treaty in which Israel would give back land it had taken in 1967.",
+            "r": "That land was the Sinai Peninsula. For 10 points, name these 1978 agreements between Egypt and Israel."
+        },
+        {
+            "p": "Lawrence Wright’s 2014 book _Thirteen Days in September_ tells the story of the talks that produced these agreements. During those talks, the host kept the leaders and their teams together, away from reporters, at a guarded retreat in the Catoctin Mountains.",
+            "r": "For 10 points, name these 1978 Middle East peace agreements, named for a presidential retreat in Maryland."
+        },
+        {
+            "p": "The site of the talks that produced these agreements was called “Shangri-La” by Franklin Roosevelt, after a hidden paradise in James Hilton’s novel _Lost Horizon_. In 1953, Dwight Eisenhower renamed that presidential retreat in honor of his father and his grandson.",
+            "r": "For 10 points, name these 1978 agreements between Egypt and Israel, named for that Maryland retreat."
+        },
+        {
+            "p": "The talks that produced these agreements took place at a presidential retreat run by the U.S. Navy, which is officially named Naval Support Facility Thurmont, inside Maryland’s Catoctin Mountain Park. The leaders and their teams stayed in cabins there for thirteen days in September 1978.",
+            "r": "For 10 points, name these 1978 agreements reached by Jimmy Carter, Anwar Sadat of Egypt, and Menachem Begin of Israel."
+        },
+        {
+            "p": "In November 1977, one leader who later signed these agreements flew to Jerusalem and spoke to the Knesset [“kuh-NESS-it”], becoming the first Arab head of state to visit Israel. Less than a year later, he met the Israeli prime minister in Maryland.",
+            "r": "That leader was Anwar Sadat of Egypt. For 10 points, name these 1978 agreements brokered by Jimmy Carter."
+        },
+        {
+            "p": "One of these agreements called for Palestinian self-government in the West Bank and Gaza during a five-year transition period, but that plan was never carried out. The other set the terms for a peace treaty between two neighboring countries.",
+            "r": "For 10 points, name these 1978 accords between Egypt and Israel, signed after talks at a Maryland retreat."
+        },
+        {
+            "p": "After one country signed a treaty based on these agreements, the Arab League suspended it and moved the league’s headquarters out of that country’s capital to Tunis. That country was not readmitted until 1989.",
+            "r": "That country was Egypt. For 10 points, name these 1978 accords brokered by Jimmy Carter between Egypt and Israel."
+        },
+        {
+            "p": "On October 6, 1981, one leader who signed these agreements was assassinated by extremists while watching a military parade in Cairo. His vice president, Hosni Mubarak, took over and kept the peace that these agreements had begun.",
+            "r": "That leader was Anwar Sadat. For 10 points, name these 1978 accords that Sadat reached with Menachem Begin."
+        },
+        {
+            "p": "In 1982, an international force called the Multinational Force and Observers began patrolling a desert peninsula to support a treaty that grew out of these agreements. That year, Israel finished handing the peninsula back to Egypt.",
+            "r": "That peninsula was the Sinai. For 10 points, name these 1978 accords brokered by Jimmy Carter."
+        },
+        {
+            "p": "Israel had captured a large desert peninsula from Egypt in the Six-Day War of 1967, and Egypt tried to win it back in the 1973 Yom Kippur War. These agreements led Israel to promise to return that land in exchange for peace and recognition.",
+            "r": "For 10 points, name these 1978 accords, signed after Jimmy Carter hosted Anwar Sadat and Menachem Begin in Maryland."
+        },
+        {
+            "p": "On March 26, 1979, leaders shook hands on the White House lawn after signing a peace treaty that grew out of these agreements. With that treaty, Egypt became the first Arab country to officially recognize Israel.",
+            "r": "For 10 points, name these 1978 accords negotiated at a Maryland retreat by Jimmy Carter, Anwar Sadat, and Menachem Begin."
+        },
+        {
+            "p": "Nikita Khrushchev [“KROOSH-chef”] met Dwight Eisenhower in 1959 at the retreat that names these agreements, and in 2000, Bill Clinton hosted talks there with Ehud Barak and Yasser Arafat that ended without a deal. These agreements came out of an earlier summit there, in September 1978.",
+            "r": "For 10 points, name these accords between Egypt and Israel, brokered by Jimmy Carter for Anwar Sadat and Menachem Begin."
+        }
+    ],
+    "clues": [
+        {
+            "id": "carter-sadat-begin",
+            "tier": "giveaway",
+            "t": "Brokered by President Jimmy Carter between Egypt’s Anwar Sadat and Israel’s Menachem Begin",
+            "k": ["anwar sadat", "menachem begin", "jimmy carter", "sadat"],
+            "n": 0,
+            "rabbit": "Jimmy Carter"
+        },
+        {
+            "id": "september-1978",
+            "tier": "giveaway",
+            "t": "Signed in September 1978 after 13 days of talks at the presidential retreat in Maryland",
+            "k": ["september 1978", "13 days", "maryland", "retreat"],
+            "n": 0
+        },
+        {
+            "id": "nobel-1978",
+            "tier": "giveaway",
+            "t": "Sadat and Begin shared the 1978 Nobel Peace Prize",
+            "k": ["nobel peace prize", "nobel", "1978"],
+            "n": 0
+        },
+        {
+            "id": "sinai",
+            "tier": "giveaway",
+            "t": "Led Israel to return the Sinai Peninsula to Egypt",
+            "k": ["sinai peninsula", "sinai"],
+            "n": 0
+        },
+        {
+            "id": "treaty-1979",
+            "tier": "middle",
+            "t": "Led to the Egypt–Israel Peace Treaty, signed at the White House on March 26, 1979",
+            "k": ["peace treaty", "march 26", "1979", "white house"],
+            "n": 0
+        },
+        {
+            "id": "first-arab",
+            "tier": "middle",
+            "t": "With the 1979 treaty, Egypt became the first Arab country to officially recognize Israel",
+            "k": ["first arab", "recognize"],
+            "n": 0
+        },
+        {
+            "id": "six-day-war",
+            "tier": "middle",
+            "t": "Israel had taken the Sinai in the Six-Day War (1967); it finished handing the land back in 1982",
+            "k": ["six-day war", "1967", "1982"],
+            "n": 0
+        },
+        {
+            "id": "jerusalem-1977",
+            "tier": "middle",
+            "t": "In November 1977, Sadat flew to Jerusalem and spoke to Israel’s parliament, the Knesset, the first Arab leader to visit Israel",
+            "k": ["knesset", "jerusalem", "november 1977"],
+            "n": 0
+        },
+        {
+            "id": "sadat-killed",
+            "tier": "middle",
+            "t": "Sadat was assassinated on October 6, 1981, at a military parade in Cairo; Hosni Mubarak succeeded him",
+            "k": ["military parade", "hosni mubarak", "assassinated", "1981"],
+            "n": 0
+        },
+        {
+            "id": "arab-league",
+            "tier": "middle",
+            "t": "The Arab League suspended Egypt (1979–1989) and moved its headquarters from Cairo to Tunis",
+            "k": ["arab league", "tunis", "suspended"],
+            "n": 0
+        },
+        {
+            "id": "two-frameworks",
+            "tier": "middle",
+            "t": "Made up of two frameworks: one for an Egypt–Israel peace treaty and a broader one for peace in the Middle East",
+            "k": ["two frameworks", "frameworks"],
+            "n": 0
+        },
+        {
+            "id": "west-bank-gaza",
+            "tier": "middle",
+            "t": "Called for Palestinian self-government in the West Bank and Gaza during a five-year transition, a plan never carried out",
+            "k": ["self-government", "west bank", "gaza", "palestinian"],
+            "n": 0
+        },
+        {
+            "id": "gettysburg",
+            "tier": "power",
+            "t": "During the talks, Carter took Sadat and Begin to tour the Gettysburg battlefield",
+            "k": ["gettysburg", "battlefield"],
+            "n": 0
+        },
+        {
+            "id": "grandchildren",
+            "tier": "power",
+            "t": "On the last day, Carter gave Begin signed photos, each addressed by name to one of Begin’s grandchildren",
+            "k": ["grandchildren", "photos", "signed"],
+            "n": 0
+        },
+        {
+            "id": "vance-brzezinski",
+            "tier": "power",
+            "t": "U.S. team: Secretary of State Cyrus Vance and National Security Adviser Zbigniew Brzezinski; they kept revising one draft text",
+            "k": ["cyrus vance", "brzezinski", "vance", "draft text"],
+            "n": 0
+        },
+        {
+            "id": "dayan-weizman",
+            "tier": "power",
+            "t": "Israel’s team included Foreign Minister Moshe Dayan and Defense Minister Ezer Weizman",
+            "k": ["moshe dayan", "ezer weizman", "dayan", "weizman"],
+            "n": 0
+        },
+        {
+            "id": "thurmont",
+            "tier": "power",
+            "t": "The retreat is a Navy base, officially Naval Support Facility Thurmont, in Maryland’s Catoctin Mountains",
+            "k": ["thurmont", "catoctin", "navy"],
+            "n": 0
+        },
+        {
+            "id": "shangri-la",
+            "tier": "power",
+            "t": "Franklin Roosevelt called the retreat “Shangri-La,” after the hidden paradise in James Hilton’s novel _Lost Horizon_",
+            "k": ["shangri-la", "lost horizon", "james hilton", "roosevelt"],
+            "n": 0,
+            "rabbit": "Franklin Delano Roosevelt"
+        },
+        {
+            "id": "eisenhower-1953",
+            "tier": "power",
+            "t": "Dwight Eisenhower renamed the retreat in 1953 to honor his father and grandson, both named David",
+            "k": ["eisenhower", "grandson", "1953"],
+            "n": 0,
+            "rabbit": "Dwight D. Eisenhower"
+        },
+        {
+            "id": "mfo",
+            "tier": "power",
+            "t": "The Multinational Force and Observers began patrolling the Sinai in 1982",
+            "k": ["multinational force", "observers", "1982"],
+            "n": 0
+        },
+        {
+            "id": "wright-book",
+            "tier": "power",
+            "t": "Lawrence Wright’s 2014 book _Thirteen Days in September_ tells the story of the talks",
+            "k": ["thirteen days in september", "lawrence wright", "2014"],
+            "n": 0
+        },
+        {
+            "id": "other-summits",
+            "tier": "power",
+            "t": "The same retreat hosted Eisenhower and Nikita Khrushchev (1959) and failed 2000 talks with Bill Clinton, Ehud Barak, and Yasser Arafat",
+            "k": ["khrushchev", "yasser arafat", "ehud barak", "1959"],
+            "n": 0
+        },
+        {
+            "id": "carter-nobel",
+            "tier": "power",
+            "t": "Carter won his own Nobel Peace Prize in 2002, decades after the talks",
+            "k": ["2002", "decades"],
+            "n": 0
+        },
+        {
+            "id": "us-aid",
+            "tier": "power",
+            "t": "Egypt and Israel became two of the largest receivers of U.S. foreign aid after the treaty",
+            "k": ["foreign aid", "largest"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Accords, retreat, or treaty?",
+        "body": "This answer line has close neighbors. Camp David is the presidential retreat in Maryland, which also hosted Eisenhower and Khrushchev (1959) and a failed 2000 summit with Bill Clinton, Ehud Barak, and Yasser Arafat. The accords (1978) were frameworks for peace, and the actual Egypt–Israel Peace Treaty was signed in 1979. The Oslo Accords (1993) were a different agreement, between Israel and the Palestine Liberation Organization.",
+        "fix": "For “these agreements” or “these accords,” say “Camp David Accords” in full, since some answer lines only prompt on “Camp David.” If the question asks for “this treaty,” it may want the 1979 Egypt–Israel Peace Treaty; if it asks for “this retreat,” say Camp David.",
+        "line": "Real answer line: <b><u>Camp David</u></b> Accords (accept <u>Framework for Peace in the Middle East</u>; prompt on <u>Egypt–Israel Peace Treaty</u>; do not accept “Oslo Accords”)"
+    },
+    "tests": {
+        "right": [
+            "Camp David Accords",
+            "Camp David",
+            "the Camp David Accords",
+            "Camp David Accord",
+            "Camp Davd Accords",
+            "Framework for Peace in the Middle East",
+            "Camp David agreements"
+        ],
+        "prompt": [
+            "Egypt-Israel Peace Treaty",
+            "peace treaty"
+        ],
+        "wrong": [
+            "Oslo Accords",
+            "Abraham Accords",
+            "Dayton Accords",
+            "Jimmy Carter",
+            "Anwar Sadat",
+            "Menachem Begin",
+            "Six-Day War",
+            "Helsinki Accords"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

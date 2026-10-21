@@ -1,0 +1,364 @@
+import json
+
+data = {
+    "id": "quantum-computing",
+    "name": "Quantum computing",
+    "mono": "QC",
+    "category": "Computer Science",
+    "qbCategory": "Science · Other Science (Computer Science)",
+    "kicker": "Computers built on qubits · Superposition and entanglement do the work",
+    "dates": "Proposed by Richard Feynman and others, early 1980s",
+    "briefing": "A quantum computer stores information in qubits, which, unlike ordinary bits, can be in a superposition of 0 and 1 at once and can be linked through entanglement. Richard Feynman suggested building such machines in 1981 to simulate nature, and in 1994 Peter Shor showed that a large one could break common codes such as RSA by quickly factoring huge numbers. In 2019, Google claimed its machine had reached “quantum supremacy” by beating the fastest ordinary supercomputers at one special task.",
+    "answerHtml": "<b><u>quantum computing</u></b> (accept <u>quantum computer</u>s or <u>quantum computation</u>; prompt on <u>quantum</u> alone; do not accept “quantum mechanics,” “qubits,” or “supercomputers”)",
+    "accept": [
+        "quantum computing",
+        "quantum computer",
+        "quantum computers",
+        "quantum computation",
+        "quantum computations",
+        "quantum processor",
+        "quantum processors",
+        "quantum information processing"
+    ],
+    "prompt": [
+        "quantum",
+        "quantum information",
+        "quantum information science",
+        "quantum technology"
+    ],
+    "reject": [
+        "quantum mechanics",
+        "quantum physics",
+        "quantum theory",
+        "quantum entanglement",
+        "entanglement",
+        "superposition",
+        "quantum superposition",
+        "qubit",
+        "qubits",
+        "quantum bit",
+        "quantum bits",
+        "quantum cryptography",
+        "quantum key distribution",
+        "quantum teleportation",
+        "quantum supremacy",
+        "quantum advantage",
+        "quantum tunneling",
+        "quantum field theory",
+        "quantum electrodynamics",
+        "quantum dot",
+        "quantum dots",
+        "shors algorithm",
+        "grovers algorithm",
+        "schrodingers cat",
+        "uncertainty principle",
+        "pauli exclusion principle",
+        "classical computing",
+        "supercomputer",
+        "supercomputers",
+        "artificial intelligence",
+        "machine learning",
+        "cloud computing",
+        "parallel computing",
+        "dna computing",
+        "optical computing",
+        "encryption",
+        "bit",
+        "bits",
+        "transistors"
+    ],
+    "tests": {
+        "right": [
+            "quantum computing",
+            "Quantum computers",
+            "quantum computation",
+            "quantum computng",
+            "a quantum computer"
+        ],
+        "prompt": [
+            "quantum"
+        ],
+        "wrong": [
+            "quantum mechanics",
+            "qubits",
+            "supercomputers",
+            "quantum entanglement",
+            "encryption",
+            "quantum supremacy"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "qb": {
+        "q": "quantum computer",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In a 1981 talk, Richard Feynman argued that ordinary machines would struggle to simulate nature and suggested building devices that follow nature’s own strange rules. A year earlier, Paul Benioff [“BEN-ee-off”] had described a version of Alan Turing’s idealized computing machine that obeys those rules.",
+            "r": "For 10 points, name this kind of computing that uses qubits, which can be in a superposition of 0 and 1."
+        },
+        {
+            "p": "In 1994, Peter Shor of Bell Labs found a method that would let one of these machines factor huge numbers into primes far faster than any known ordinary method. A large enough machine running his algorithm could break the RSA system that is widely used to protect online data.",
+            "r": "Their basic units can be in a superposition of 0 and 1. For 10 points, name these machines that store information in qubits."
+        },
+        {
+            "p": "Lov Grover’s 1996 algorithm lets one of these machines search an unsorted list of a million items in roughly a thousand steps, about the square root of the number of items. Grover, like Peter Shor, worked at Bell Labs when he made his discovery.",
+            "r": "An ordinary computer might need up to a million checks. For 10 points, name this kind of computing based on qubits, superposition, and entanglement."
+        },
+        {
+            "p": "In 2019, Google claimed that its Sycamore processor had finished in about 200 seconds a task that would take the world’s fastest supercomputer about 10,000 years. IBM disputed that claim, arguing that its supercomputer could do the job in a few days.",
+            "r": "Such a milestone is called “supremacy.” For 10 points, name this kind of computing that uses qubits."
+        },
+        {
+            "p": "Benjamin Schumacher [“SHOO-mah-ker”] coined the name of this technology’s basic unit of information, and the state of one such unit can be pictured as a point on a sphere named for Felix Bloch. Measuring that unit forces it to give a plain answer of 0 or 1.",
+            "r": "That unit is called a qubit. For 10 points, name this kind of computing, whose machines use superposition and entanglement."
+        },
+        {
+            "p": "In 2001, researchers at IBM used a small machine of this kind, built from specially designed molecules, to run Shor’s algorithm and factor the number 15 into 3 times 5. Such machines must be protected from decoherence, in which outside disturbances destroy their delicate states.",
+            "r": "Large versions could break RSA encryption. For 10 points, name this kind of computing that uses qubits instead of ordinary bits."
+        },
+        {
+            "p": "In 1985, Oxford physicist David Deutsch [“DOYCH”] described a universal version of this kind of machine, and the Deutsch–Jozsa [“YOH-zhuh”] algorithm became one of the first problems it could solve in far fewer steps than an ordinary computer that must be certain of its answer. Yuri Manin [“MAH-neen”] had floated a similar idea in 1980.",
+            "r": "For 10 points, name this kind of computing, which uses qubits that can be in a superposition of 0 and 1."
+        },
+        {
+            "p": "Programs for these machines are built from gates such as the Hadamard [“ah-dah-MAR”] gate, which gives a unit of information an equal chance of reading 0 or 1, and the controlled-NOT gate, which flips one unit only if another reads 1. Unlike most ordinary logic gates, these gates are all reversible.",
+            "r": "Measuring a qubit gives 0 or 1. For 10 points, name this kind of computing that runs on qubits."
+        },
+        {
+            "p": "The no-cloning theorem of 1982 says that the unknown state of one of this technology’s units cannot be copied, so its data cannot simply be copied for backup. In 1993, Charles Bennett and others showed how such a state could be “teleported” using a shared, linked pair of units and an ordinary message.",
+            "r": "Its machines use qubits instead of bits. For 10 points, name this kind of computing, which relies on superposition."
+        },
+        {
+            "p": "Erwin Schrödinger’s [“SHROH-ding-erz”] thought experiment about a cat that is somehow both alive and dead illustrates one key idea these machines rely on. Albert Einstein dismissed another idea they use as “spooky action at a distance.”",
+            "r": "Those ideas are superposition and entanglement. For 10 points, name this kind of computing, which stores information in qubits."
+        },
+        {
+            "p": "Some of these machines use superconducting circuits that must be chilled to a tiny fraction of a degree above absolute zero, colder than outer space. Others store information in single trapped ions held in place by electric and magnetic fields, or in particles of light.",
+            "r": "Their units can hold a superposition of 0 and 1. For 10 points, name this kind of computing that uses qubits."
+        },
+        {
+            "p": "Worries that these machines could someday break RSA led the U.S. agency NIST to publish its first standards for encryption designed to resist them in 2024. Such machines would not speed up every task, only certain problems such as factoring huge numbers and simulating molecules.",
+            "r": "Its units can be entangled with each other. For 10 points, name this kind of computing, built on qubits."
+        },
+        {
+            "p": "In 1995, Peter Shor showed how to protect one unit of this technology’s information by spreading it across nine physical units, the first error-correcting code of its kind. Superdense coding lets one such unit, helped by a linked partner, carry two ordinary bits of information.",
+            "r": "Measuring those units gives 0 or 1. For 10 points, name this kind of computing, whose basic units are called qubits."
+        },
+        {
+            "p": "Three of this technology’s basic units can represent all eight possible three-digit binary patterns at the same time, and each added unit doubles that number. Algorithms for these machines use interference to make wrong answers cancel out and right answers grow stronger.",
+            "r": "For 10 points, name this kind of computing that uses qubits rather than ordinary bits."
+        },
+        {
+            "p": "In 2016, IBM let members of the public run programs on a small machine of this kind over the internet. Shor’s algorithm for these machines finds the repeating pattern hidden in a sequence of numbers using a special version of the Fourier transform.",
+            "r": "For 10 points, name this kind of computing, which uses qubits that can be entangled."
+        }
+    ],
+    "clues": [
+        {
+            "id": "qubits",
+            "tier": "giveaway",
+            "t": "Computers that store information in qubits instead of ordinary bits",
+            "k": ["qubits", "ordinary bits"],
+            "n": 0
+        },
+        {
+            "id": "superposition",
+            "tier": "giveaway",
+            "t": "A qubit can be in a superposition of 0 and 1 until it is measured, when it gives a plain 0 or 1",
+            "k": ["superposition", "measured"],
+            "n": 0
+        },
+        {
+            "id": "entanglement",
+            "tier": "giveaway",
+            "t": "Qubits can be entangled, so measuring one tells you about its partner",
+            "k": ["entangled", "partner"],
+            "n": 0
+        },
+        {
+            "id": "feynman",
+            "tier": "middle",
+            "t": "Richard Feynman suggested building such machines in a 1981 talk, to simulate nature",
+            "k": ["feynman", "1981", "simulate nature"],
+            "n": 0,
+            "rabbit": "Richard Feynman"
+        },
+        {
+            "id": "shor",
+            "tier": "middle",
+            "t": "Peter Shor’s 1994 algorithm could let a large one factor huge numbers quickly and break RSA encryption",
+            "k": ["shor", "1994", "rsa", "factor"],
+            "n": 0,
+            "rabbit": "Encryption"
+        },
+        {
+            "id": "google",
+            "tier": "middle",
+            "t": "In 2019, Google claimed its Sycamore processor did in about 200 seconds a task that would take a top supercomputer about 10,000 years; IBM disputed it",
+            "k": ["google", "sycamore", "2019", "10,000 years"],
+            "n": 0
+        },
+        {
+            "id": "supremacy",
+            "tier": "middle",
+            "t": "John Preskill coined the name “supremacy” for the milestone of beating the best ordinary computers at some task",
+            "k": ["preskill", "supremacy", "milestone"],
+            "n": 0
+        },
+        {
+            "id": "grover",
+            "tier": "middle",
+            "t": "Lov Grover’s 1996 algorithm searches an unsorted list in about the square root of the usual number of steps",
+            "k": ["grover", "1996", "unsorted"],
+            "n": 0
+        },
+        {
+            "id": "decoherence",
+            "tier": "middle",
+            "t": "Decoherence, when outside disturbances destroy fragile states, is a main obstacle; error correction fights it",
+            "k": ["decoherence", "error correction"],
+            "n": 0
+        },
+        {
+            "id": "cat-spooky",
+            "tier": "middle",
+            "t": "Schrödinger’s cat illustrates superposition; Einstein dismissed entanglement as “spooky action at a distance”",
+            "k": ["schrödinger", "spooky action", "cat"],
+            "n": 0,
+            "rabbit": "Albert Einstein"
+        },
+        {
+            "id": "hardware",
+            "tier": "middle",
+            "t": "Some designs use superconducting circuits chilled close to absolute zero; others use trapped ions or particles of light",
+            "k": ["superconducting", "absolute zero", "trapped ions"],
+            "n": 0
+        },
+        {
+            "id": "doubling",
+            "tier": "middle",
+            "t": "Each added qubit doubles the number of patterns a superposition can hold: three qubits cover all 8 three-digit binary patterns",
+            "k": ["doubles", "three qubits"],
+            "n": 0,
+            "rabbit": "Binary numbers"
+        },
+        {
+            "id": "benioff-manin",
+            "tier": "power",
+            "t": "Paul Benioff described a Turing machine that follows these rules in 1980; Yuri Manin floated a similar idea the same year",
+            "k": ["benioff", "1980", "manin"],
+            "n": 0,
+            "rabbit": "Alan Turing"
+        },
+        {
+            "id": "deutsch",
+            "tier": "power",
+            "t": "David Deutsch of Oxford described a universal one in 1985; the Deutsch–Jozsa algorithm was an early example of a speedup",
+            "k": ["deutsch", "1985", "jozsa"],
+            "n": 0
+        },
+        {
+            "id": "schumacher",
+            "tier": "power",
+            "t": "Benjamin Schumacher coined the word “qubit”",
+            "k": ["schumacher", "coined"],
+            "n": 0
+        },
+        {
+            "id": "bloch",
+            "tier": "power",
+            "t": "A single qubit’s state can be pictured as a point on the Bloch sphere, named for Felix Bloch",
+            "k": ["bloch sphere", "felix bloch"],
+            "n": 0
+        },
+        {
+            "id": "ibm-15",
+            "tier": "power",
+            "t": "In 2001, IBM researchers used a small machine built from specially designed molecules to run Shor’s algorithm and factor 15 into 3 × 5",
+            "k": ["ibm", "2001", "molecules"],
+            "n": 0
+        },
+        {
+            "id": "gates",
+            "tier": "power",
+            "t": "Its gates include the Hadamard gate (gives an equal chance of 0 or 1) and the controlled-NOT gate (flips one unit if another reads 1); all are reversible",
+            "k": ["hadamard", "controlled-not", "reversible"],
+            "n": 0
+        },
+        {
+            "id": "no-cloning",
+            "tier": "power",
+            "t": "The no-cloning theorem (1982) says an unknown qubit state can’t be copied",
+            "k": ["no-cloning", "1982", "copied"],
+            "n": 0
+        },
+        {
+            "id": "teleportation",
+            "tier": "power",
+            "t": "In 1993, Charles Bennett and others showed how entanglement can “teleport” a qubit’s state",
+            "k": ["teleport", "charles bennett", "1993"],
+            "n": 0
+        },
+        {
+            "id": "shor-code",
+            "tier": "power",
+            "t": "Peter Shor’s 1995 code protected one qubit by spreading it across nine, the first error-correcting code of its kind",
+            "k": ["nine", "1995", "error-correcting"],
+            "n": 0
+        },
+        {
+            "id": "superdense",
+            "tier": "power",
+            "t": "Superdense coding lets one entangled qubit carry two ordinary bits of information",
+            "k": ["superdense coding", "two ordinary bits"],
+            "n": 0
+        },
+        {
+            "id": "interference",
+            "tier": "power",
+            "t": "Its algorithms use interference so wrong answers cancel out and right answers grow stronger",
+            "k": ["interference", "cancel"],
+            "n": 0
+        },
+        {
+            "id": "nist",
+            "tier": "power",
+            "t": "Worries about such machines breaking RSA led NIST to publish its first encryption standards designed to resist them in 2024",
+            "k": ["nist", "2024", "resist"],
+            "n": 0
+        },
+        {
+            "id": "ibm-cloud",
+            "tier": "power",
+            "t": "In 2016, IBM let members of the public run programs on a small one over the internet",
+            "k": ["2016", "internet", "public"],
+            "n": 0
+        },
+        {
+            "id": "fourier",
+            "tier": "power",
+            "t": "Shor’s algorithm finds a repeating pattern in a sequence of numbers using a special version of the Fourier transform",
+            "k": ["fourier transform", "repeating pattern"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Machine or the physics?",
+        "body": "Quantum computing borrows its ideas from quantum mechanics, so its clues mention superposition, entanglement, Schrödinger’s cat, and qubits, and each of those can be a separate answer line. A tossup on the physics itself wants “quantum mechanics,” and one on the basic unit wants “qubit.” Ordinary supercomputers are a different answer too: even the fastest one uses regular bits.",
+        "fix": "If the clues describe machines, algorithms (Shor’s, Grover’s), processors, or milestones like Google’s 2019 claim, say “quantum computing” or “quantum computers.” If they describe only the unit that holds a superposition of 0 and 1, say “qubit.” Saying only “quantum” earns a prompt.",
+        "line": "Real answer line: <b><u>quantum computing</u></b> (accept <u>quantum computer</u>s or <u>quantum computation</u>; prompt on <u>quantum</u> alone; do not accept “quantum mechanics,” “qubits,” or “supercomputers”)"
+    }
+}
+
+with open("topics/quantum-computing.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote topics/quantum-computing.json")

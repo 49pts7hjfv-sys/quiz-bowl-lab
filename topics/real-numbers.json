@@ -106,7 +106,7 @@
       "r": "For 10 points, name these numbers, which include every rational and irrational number on the number line."
     },
     {
-      "p": "Georg Cantor’s 1874 paper showed that the algebraic numbers can be listed one by one but these numbers cannot, which proved that transcendental numbers exist. Later, his diagonal argument built a new decimal that differs from the first listed number in its first digit, the second in its second digit, and so on.",
+      "p": "Georg Cantor’s 1874 paper showed that the algebraic numbers can be listed one by one but these numbers cannot, which proved that transcendental numbers exist. His later diagonal argument, usually told with decimals, builds a new number that differs from the first listed number in its first digit, the second in its second digit, and so on.",
       "r": "For 10 points, name these uncountable numbers, made up of all the rational and irrational numbers, that fill the number line."
     },
     {
@@ -122,7 +122,7 @@
       "r": "For 10 points, name these numbers, which include all the rational and irrational numbers on the number line."
     },
     {
-      "p": "Computers usually store approximations of these numbers in a floating-point format that the IEEE standardized in 1985, which is why adding 0.1 and 0.2 on many computers gives 0.30000000000000004. Unlike the complex numbers, these numbers can all be put in order from least to greatest.",
+      "p": "Computers usually store approximations of these numbers in a floating-point format that the IEEE standardized in 1985, which is why adding 0.1 and 0.2 on many computers gives 0.30000000000000004. Unlike the complex numbers, these numbers can be put in order from least to greatest in a way that fits with arithmetic.",
       "r": "Each one can be written as a decimal that ends, repeats, or goes on forever without repeating. For 10 points, name these numbers that make up the entire number line."
     },
     {
@@ -130,7 +130,7 @@
       "r": "For 10 points, name these numbers, which include zero, negative 5, one-half, the square root of 2, and pi."
     },
     {
-      "p": "By the Archimedean [“ar-kih-MEE-dee-un”] property of these numbers, some counting number is bigger than any one of them. Between any two different numbers of this kind lie both a fraction and an irrational number, so none of them has a “next” number.",
+      "p": "By the Archimedean [“ar-kih-MEE-dee-un”] property of these numbers, no matter which one of them you pick, some counting number is bigger. Between any two different numbers of this kind lie both a fraction and an irrational number, so none of them has a “next” number.",
       "r": "For 10 points, name these numbers, which fill the number line and include both pi and two-thirds."
     },
     {
@@ -393,7 +393,7 @@
     {
       "id": "archimedean",
       "tier": "power",
-      "t": "Archimedean property: some counting number is bigger than any one of them",
+      "t": "Archimedean property: no matter which one of them you pick, some counting number is bigger",
       "k": [
         "archimedean",
         "counting number"

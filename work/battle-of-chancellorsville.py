@@ -1,0 +1,344 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "battle-of-chancellorsville",
+    "name": "Battle of Chancellorsville",
+    "mono": "CHV",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Lee’s great 1863 victory over Hooker · Stonewall Jackson shot by his own men",
+    "dates": "Fought April 30–May 6, 1863",
+    "briefing": "In May 1863, Robert E. Lee faced a Union army more than twice the size of his own near a crossroads in the Virginia woods called Chancellorsville. Lee boldly split his army and sent Stonewall Jackson on a secret march around the Union flank, and the surprise attack sent Joseph Hooker’s army reeling. But that night, Jackson was accidentally shot by his own men, and he died eight days later.",
+    "answerHtml": "Battle of <b><u>Chancellorsville</u></b>",
+    "accept": [
+        "chancellorsville",
+        "battle of chancellorsville",
+        "the battle of chancellorsville",
+        "chancellorsville campaign"
+    ],
+    "prompt": [],
+    "reject": [
+        "fredericksburg",
+        "battle of fredericksburg",
+        "first battle of fredericksburg",
+        "second battle of fredericksburg",
+        "salem church",
+        "battle of salem church",
+        "wilderness",
+        "the wilderness",
+        "battle of the wilderness",
+        "spotsylvania",
+        "spotsylvania court house",
+        "battle of spotsylvania court house",
+        "gettysburg",
+        "battle of gettysburg",
+        "antietam",
+        "battle of antietam",
+        "bull run",
+        "second bull run",
+        "manassas",
+        "seven days battles",
+        "cold harbor",
+        "brandy station",
+        "stonewall jackson",
+        "thomas jackson",
+        "joseph hooker",
+        "hooker",
+        "robert e lee",
+        "the red badge of courage",
+        "red badge of courage"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Battle_of_Chancellorsville",
+    "qb": {
+        "q": "Chancellorsville",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "On the night of May 2, 1863, during this battle, soldiers of the 18th North Carolina Infantry fired into a group of riders returning from a scouting trip in the dark, mistaking them for Union cavalry.",
+            "r": "That volley badly wounded their own general, Stonewall Jackson. For 10 points, name this May 1863 battle in Virginia, a victory for Robert E. Lee."
+        },
+        {
+            "p": "Ernest Hemingway took the title of his 1950 novel _Across the River and into the Trees_ from the last words of a general who was wounded in this battle. That general said, “Let us cross over the river and rest under the shade of the trees.”",
+            "r": "That general, Stonewall Jackson, died of pneumonia eight days after he was shot by his own men. For 10 points, name this May 1863 battle won by Robert E. Lee."
+        },
+        {
+            "p": "On the night of May 1, 1863, two generals sat on empty cracker boxes and planned a daring march after cavalry under Fitzhugh Lee found that the Union right flank was “in the air,” protected by no river or hill.",
+            "r": "The next day, Stonewall Jackson’s men marched around that flank and attacked. For 10 points, name this battle in which Robert E. Lee defeated Joseph Hooker."
+        },
+        {
+            "p": "During this battle, a cannonball struck a porch pillar that a Union commander was leaning against at a brick house, leaving him dazed. Earlier that morning, May 3, he had ordered his troops to give up Hazel Grove, a clearing where Confederate cannons soon set up.",
+            "r": "That commander was Joseph Hooker. For 10 points, name this battle in Virginia, Robert E. Lee’s greatest victory."
+        },
+        {
+            "p": "While the main armies fought to the west during this battle, John Sedgwick’s Union corps captured Marye’s Heights at Fredericksburg, but it was stopped at Salem Church and had to retreat across the Rappahannock River.",
+            "r": "For 10 points, name this May 1863 battle where Stonewall Jackson was accidentally shot by his own troops, a loss Lee compared to losing his own right arm."
+        },
+        {
+            "p": "Before this battle, the Union commander sent most of his cavalry under George Stoneman on a raid toward Richmond, which left him with little information about the enemy’s movements.",
+            "r": "That commander, Joseph Hooker, was then surprised by Stonewall Jackson’s flank attack. For 10 points, name this May 1863 battle in Virginia."
+        },
+        {
+            "p": "Before this battle, a Union general reportedly boasted that his plans were perfect and “may God have mercy on General Lee, for I will have none.” That general marched most of his army across the Rappahannock and Rapidan Rivers to get behind Lee, then pulled back to defend.",
+            "r": "For 10 points, name this May 1863 battle in which Joseph Hooker lost to Robert E. Lee and Stonewall Jackson."
+        },
+        {
+            "p": "According to the journalist Noah Brooks, Abraham Lincoln paced the room after hearing the news of this battle, crying out, “My God! My God! What will the country say?” The defeated Union army had outnumbered its enemy by more than two to one.",
+            "r": "For 10 points, name this May 1863 Union defeat, in which Stonewall Jackson was mortally wounded by his own men."
+        },
+        {
+            "p": "Cavalry general Jeb Stuart temporarily led an infantry corps on May 3, 1863, during this battle, after its commander was wounded and the next general in line, A. P. Hill, was also hurt.",
+            "r": "The wounded commander was Stonewall Jackson, who died on May 10. For 10 points, name this battle in which Robert E. Lee defeated Joseph Hooker."
+        },
+        {
+            "p": "The winning general in this battle fought without James Longstreet, who had taken two divisions to gather supplies near Suffolk in southeastern Virginia. Even so, that general split his outnumbered army twice during this battle and won.",
+            "r": "That general was Robert E. Lee. For 10 points, name this May 1863 battle where Lee beat Joseph Hooker."
+        },
+        {
+            "p": "Historians usually identify this battle as the one fought by the unnamed regiment in Stephen Crane’s novel _The Red Badge of Courage_, whose young soldier Henry Fleming runs from the fighting and later returns to his regiment.",
+            "r": "In real life, this battle was a victory for Robert E. Lee, though Stonewall Jackson was shot by his own men. For 10 points, name this 1863 battle."
+        },
+        {
+            "p": "The losing general in this battle disliked his nickname, “Fighting Joe,” which came from a newspaper headline that left out a dash. Months before this battle, Abraham Lincoln’s letter giving him command warned, “What I now ask of you is military success, and I will risk the dictatorship.”",
+            "r": "That general was Joseph Hooker. For 10 points, name this May 1863 battle in which Hooker lost to Robert E. Lee."
+        },
+        {
+            "p": "Late on the afternoon of May 2, 1863, during this battle, deer and rabbits burst out of the woods toward Union soldiers, many of whom were cooking supper. Moments later, thousands of enemy troops came charging out of the trees behind the animals.",
+            "r": "That surprise attack by Stonewall Jackson routed Oliver O. Howard’s XI Corps. For 10 points, name this battle, Robert E. Lee’s greatest victory."
+        },
+        {
+            "p": "This battle’s site is one of four battlefields preserved in the Fredericksburg and Spotsylvania National Military Park. It was named for a large brick house and inn at a crossroads in a scrubby forest called the Wilderness, not for a town.",
+            "r": "For 10 points, name this May 1863 battle in Virginia, where Robert E. Lee defeated Joseph Hooker."
+        },
+        {
+            "p": "Historians often call this battle Robert E. Lee’s “perfect battle,” though he lost more than one-fifth of his army in it. Afterward, Lee marched north toward Pennsylvania, and George Meade replaced the losing Union commander just days before the armies met again.",
+            "r": "That next meeting came at Gettysburg. For 10 points, name this May 1863 battle where Stonewall Jackson was mortally wounded."
+        }
+    ],
+    "clues": [
+        {
+            "id": "lee-victory",
+            "tier": "giveaway",
+            "t": "Robert E. Lee’s greatest victory, won over Joseph Hooker in Virginia in May 1863",
+            "k": ["robert e. lee", "joseph hooker", "hooker", "may 1863"],
+            "n": 0,
+            "rabbit": "Robert E. Lee"
+        },
+        {
+            "id": "jackson-shot",
+            "tier": "giveaway",
+            "t": "Stonewall Jackson was accidentally shot by his own men there and died on May 10, 1863",
+            "k": ["stonewall jackson", "own men", "may 10"],
+            "n": 0
+        },
+        {
+            "id": "flank-attack",
+            "tier": "giveaway",
+            "t": "Jackson’s surprise march around the Union right flank routed part of Hooker’s army",
+            "k": ["flank", "surprise", "march"],
+            "n": 0
+        },
+        {
+            "id": "gettysburg",
+            "tier": "middle",
+            "t": "The win encouraged Lee to invade the North, leading to Gettysburg two months later",
+            "k": ["gettysburg", "invade the north", "two months"],
+            "n": 0,
+            "rabbit": "Battle of Gettysburg"
+        },
+        {
+            "id": "outnumbered",
+            "tier": "middle",
+            "t": "Lee was outnumbered more than two to one but split his army twice",
+            "k": ["outnumbered", "two to one", "split his army"],
+            "n": 0
+        },
+        {
+            "id": "lost-my-right",
+            "tier": "middle",
+            "t": "Lee said Jackson “has lost his left arm, but I have lost my right”",
+            "k": ["left arm", "lost my right"],
+            "n": 0
+        },
+        {
+            "id": "pneumonia",
+            "tier": "middle",
+            "t": "Jackson’s left arm was amputated, and he died of pneumonia eight days after he was shot",
+            "k": ["pneumonia", "amputated", "eight days"],
+            "n": 0
+        },
+        {
+            "id": "xi-corps",
+            "tier": "middle",
+            "t": "Jackson’s attack late on May 2 routed Oliver O. Howard’s Union XI Corps",
+            "k": ["xi corps", "oliver o. howard", "howard", "may 2"],
+            "n": 0
+        },
+        {
+            "id": "wilderness",
+            "tier": "middle",
+            "t": "Fought in a scrubby forest called the Wilderness, west of Fredericksburg, Virginia",
+            "k": ["wilderness", "fredericksburg", "forest"],
+            "n": 0
+        },
+        {
+            "id": "crossroads",
+            "tier": "middle",
+            "t": "Named for a large brick house and inn at a crossroads, not a town",
+            "k": ["brick house", "crossroads", "not a town"],
+            "n": 0
+        },
+        {
+            "id": "hooker-plan",
+            "tier": "middle",
+            "t": "Hooker crossed the Rappahannock and Rapidan Rivers to get behind Lee, then pulled back to defend",
+            "k": ["rappahannock", "rapidan", "pulled back"],
+            "n": 0
+        },
+        {
+            "id": "longstreet-away",
+            "tier": "middle",
+            "t": "Lee fought without James Longstreet, who had taken two divisions to Suffolk, Virginia",
+            "k": ["longstreet", "suffolk", "two divisions"],
+            "n": 0
+        },
+        {
+            "id": "red-badge",
+            "tier": "middle",
+            "t": "Usually identified as the unnamed battle in Stephen Crane’s _The Red Badge of Courage_",
+            "k": ["red badge of courage", "stephen crane", "crane"],
+            "n": 0,
+            "rabbit": "The Red Badge of Courage"
+        },
+        {
+            "id": "last-words",
+            "tier": "power",
+            "t": "Jackson’s last words: “Let us cross over the river and rest under the shade of the trees”",
+            "k": ["cross over the river", "shade of the trees", "last words"],
+            "n": 0
+        },
+        {
+            "id": "hemingway",
+            "tier": "power",
+            "t": "Ernest Hemingway’s novel _Across the River and into the Trees_ (1950) takes its title from Jackson’s last words",
+            "k": ["hemingway", "across the river and into the trees", "1950"],
+            "n": 0
+        },
+        {
+            "id": "18th-nc",
+            "tier": "power",
+            "t": "Men of the 18th North Carolina fired on Jackson’s party in the dark, mistaking it for Union cavalry",
+            "k": ["18th north carolina", "north carolina", "dark"],
+            "n": 0
+        },
+        {
+            "id": "stuart-command",
+            "tier": "power",
+            "t": "Cavalry leader Jeb Stuart took over Jackson’s corps on May 3 after A. P. Hill was also wounded",
+            "k": ["jeb stuart", "stuart", "a. p. hill"],
+            "n": 0
+        },
+        {
+            "id": "cracker-boxes",
+            "tier": "power",
+            "t": "On May 1, Lee and Jackson planned the flank march sitting on cracker boxes, after Fitzhugh Lee’s cavalry found the Union right flank “in the air”",
+            "k": ["cracker boxes", "fitzhugh lee", "in the air"],
+            "n": 0
+        },
+        {
+            "id": "pillar",
+            "tier": "power",
+            "t": "On May 3, a cannonball hit a porch pillar Hooker was leaning against; he had just given up Hazel Grove, where Confederate cannons then set up",
+            "k": ["pillar", "cannonball", "hazel grove"],
+            "n": 0
+        },
+        {
+            "id": "sedgwick",
+            "tier": "power",
+            "t": "John Sedgwick’s Union corps took Marye’s Heights at Fredericksburg but was stopped at Salem Church",
+            "k": ["sedgwick", "marye’s heights", "salem church"],
+            "n": 0
+        },
+        {
+            "id": "stoneman",
+            "tier": "power",
+            "t": "Hooker sent most of his cavalry under George Stoneman on a raid toward Richmond",
+            "k": ["stoneman", "raid", "richmond"],
+            "n": 0
+        },
+        {
+            "id": "perfect-plans",
+            "tier": "power",
+            "t": "Hooker reportedly boasted, “May God have mercy on General Lee, for I will have none”",
+            "k": ["may god have mercy", "boasted", "have none"],
+            "n": 0
+        },
+        {
+            "id": "lincoln-my-god",
+            "tier": "power",
+            "t": "Lincoln on hearing the news: “My God! My God! What will the country say?” (reported by Noah Brooks)",
+            "k": ["what will the country say", "noah brooks", "my god"],
+            "n": 0
+        },
+        {
+            "id": "fighting-joe",
+            "tier": "power",
+            "t": "Hooker’s nickname “Fighting Joe” came from a headline missing a dash; Lincoln’s letter to him said, “I will risk the dictatorship”",
+            "k": ["fighting joe", "dictatorship", "headline"],
+            "n": 0
+        },
+        {
+            "id": "park",
+            "tier": "power",
+            "t": "Preserved in the Fredericksburg and Spotsylvania National Military Park, with three other battlefields",
+            "k": ["spotsylvania", "national military park", "battlefields"],
+            "n": 0
+        },
+        {
+            "id": "perfect-battle",
+            "tier": "power",
+            "t": "Often called Lee’s “perfect battle,” though he lost more than a fifth of his army; Meade replaced Hooker before Gettysburg",
+            "k": ["perfect battle", "fifth", "meade"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Chancellorsville or the Wilderness?",
+        "body": "Chancellorsville (May 1863) and the Battle of the Wilderness (May 1864) were fought in the same tangled Virginia forest, a year apart. Chancellorsville was Lee’s win over Joseph Hooker, where Stonewall Jackson was shot; the Wilderness was Lee against Ulysses S. Grant. The first Battle of Fredericksburg (December 1862) was fought just a few miles east, and Gettysburg came two months after Chancellorsville.",
+        "fix": "Hooker, Jackson’s flank march, and Jackson’s death mean Chancellorsville. Grant and 1864 mean the Wilderness; Ambrose Burnside’s failed charges in December 1862 mean Fredericksburg.",
+        "line": "Real answer line: Battle of <b><u>Chancellorsville</u></b> (do not accept “Battle of the Wilderness” or “Fredericksburg”)"
+    },
+    "tests": {
+        "right": [
+            "Chancellorsville",
+            "Battle of Chancellorsville",
+            "Chancelorsville",
+            "Chancellorsville Campaign",
+            "Chancellorville"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Fredericksburg",
+            "Battle of the Wilderness",
+            "Gettysburg",
+            "Stonewall Jackson",
+            "Antietam",
+            "Second Battle of Fredericksburg",
+            "Spotsylvania"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

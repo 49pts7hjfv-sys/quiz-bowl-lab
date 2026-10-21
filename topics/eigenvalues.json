@@ -5,9 +5,9 @@
   "category": "Math",
   "qbCategory": "Science · Other Science (Math)",
   "kicker": "How much a matrix stretches its special vectors · Named for German “own”",
-  "dates": "German name first used by David Hilbert, 1904",
+  "dates": "German name used by David Hilbert from 1904",
   "briefing": "When a matrix acts on most arrows, it turns them off their lines, but a few special arrows, called eigenvectors, only get stretched, shrunk, or flipped. The number that says how much is the eigenvalue, from the German word _eigen_, meaning “own.” Eigenvalues tell engineers how bridges vibrate and tell physicists which energies an atom can have, and Google’s original PageRank method ranked web pages using the eigenvector whose eigenvalue is 1.",
-  "answerHtml": "<b><u>eigenvalue</u></b>s (accept <u>characteristic value</u>s or <u>characteristic root</u>s; prompt on <u>lambda</u>; do not accept “eigenvectors”)",
+  "answerHtml": "<b><u>eigenvalue</u></b>s (accept <u>characteristic value</u>s, <u>characteristic root</u>s, <u>proper value</u>s, or <u>latent root</u>s; prompt on <u>lambda</u>; do not accept “eigenvectors”)",
   "accept": [
     "eigenvalues",
     "eigenvalue",
@@ -51,12 +51,6 @@
     "determinant",
     "determinants",
     "trace",
-    "matrix",
-    "matrices",
-    "vector",
-    "vectors",
-    "scalar",
-    "scalars",
     "pagerank",
     "principal component analysis",
     "principal components"
@@ -104,7 +98,7 @@
       "r": "For 10 points, name these numbers that tell how much a matrix stretches its special vectors without turning them."
     },
     {
-      "p": "Semyon Gershgorin’s circle theorem draws a disc around each diagonal entry of a matrix and guarantees that every one of these numbers lies inside at least one of those discs. For a triangular matrix, these numbers are simply the entries on the main diagonal.",
+      "p": "Every rotation of three-dimensional space has 1 as one of these numbers, because the points on its axis, like the poles of a spinning globe, stay where they are. For a triangular matrix, these numbers are simply the entries on the main diagonal.",
       "r": "For 10 points, name these numbers λ that solve A v equals λ v for a matrix A."
     },
     {
@@ -128,7 +122,7 @@
       "r": "For 10 points, name these numbers, which tell how much a matrix stretches the special vectors it does not turn."
     },
     {
-      "p": "The Perron–Frobenius theorem says that a matrix whose entries are all positive has a positive one of these numbers that is bigger in size than all the others. The power method finds the largest of these numbers by multiplying a starting vector by the matrix over and over.",
+      "p": "The Cayley–Hamilton theorem says that every square matrix satisfies its own characteristic equation, the equation whose solutions are these numbers. The power method finds the one of these numbers that is largest in size by multiplying a starting vector by the matrix over and over.",
       "r": "For 10 points, name these numbers λ for which a matrix times a nonzero vector v equals λ times v."
     },
     {
@@ -140,7 +134,7 @@
       "r": "For 10 points, name these numbers λ that say how much a matrix stretches a vector that stays on its own line."
     },
     {
-      "p": "Because every polynomial is the characteristic polynomial of some matrix, the Abel–Ruffini theorem implies that no general formula can find these numbers for 5-by-5 matrices, so computers estimate them instead. For a 2-by-2 matrix, these numbers solve a quadratic equation built from the trace and the determinant.",
+      "p": "By the fundamental theorem of algebra, every n-by-n matrix has exactly n of these numbers, counting repeats, though some may be complex numbers. Every one of these numbers for the identity matrix, which leaves every vector unchanged, equals 1.",
       "r": "For 10 points, name these numbers λ, from a German word meaning “own,” that solve A v equals λ v."
     },
     {
@@ -315,13 +309,13 @@
       "rabbit": "Augustin-Louis Cauchy"
     },
     {
-      "id": "gershgorin",
+      "id": "rotation-axis",
       "tier": "power",
-      "t": "Gershgorin’s circle theorem: every one lies inside at least one disc centered on a diagonal entry of the matrix",
+      "t": "Every rotation of three-dimensional space has 1 as one of them, because the points on its axis (like the poles of a spinning globe) stay where they are",
       "k": [
-        "gershgorin",
-        "circle theorem",
-        "disc"
+        "rotation",
+        "axis",
+        "spinning globe"
       ],
       "n": 0
     },
@@ -394,7 +388,7 @@
     {
       "id": "power-method",
       "tier": "power",
-      "t": "The power method finds the largest one by multiplying a starting vector by the matrix over and over",
+      "t": "The power method finds the one largest in size by multiplying a starting vector by the matrix over and over",
       "k": [
         "power method",
         "largest",
@@ -403,15 +397,15 @@
       "n": 0
     },
     {
-      "id": "perron-frobenius",
+      "id": "cayley-hamilton",
       "tier": "power",
-      "t": "Perron–Frobenius theorem: a matrix whose entries are all positive has a positive one that is bigger in size than all the others",
+      "t": "Cayley–Hamilton theorem: every square matrix satisfies its own characteristic equation, the equation whose solutions are these numbers",
       "k": [
-        "perron",
-        "frobenius",
-        "all positive"
+        "cayley–hamilton",
+        "satisfies"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Matrices"
     },
     {
       "id": "pca",
@@ -425,13 +419,13 @@
       "n": 0
     },
     {
-      "id": "abel-ruffini",
+      "id": "identity-matrix",
       "tier": "power",
-      "t": "Every polynomial is the characteristic polynomial of some matrix, so by the Abel–Ruffini theorem no general formula finds them for 5 × 5 matrices",
+      "t": "For the identity matrix, which leaves every vector unchanged, every one of them is 1; for a matrix that doubles every vector, every one is 2",
       "k": [
-        "abel–ruffini",
-        "no general formula",
-        "5 × 5"
+        "identity matrix",
+        "unchanged",
+        "doubles"
       ],
       "n": 0
     }
@@ -440,6 +434,6 @@
     "title": "Value or vector?",
     "body": "Every eigenvalue comes with eigenvectors, and the two are separate answer lines: the eigenvalue is the number λ (how much the arrow gets stretched), while the eigenvector is the arrow v itself. A typical answer line says “do not accept eigenvectors.” Clues about the determinant (the product of all the eigenvalues) and the trace (their sum) can also tempt you to name the wrong quantity.",
     "fix": "Listen for the noun: “these numbers,” “these scalars,” “λ,” or “how much it is stretched” means eigenvalues; “these vectors” or “this direction” means eigenvectors. If the question wants “this quantity,” a single number for the whole matrix, it may be the determinant or the trace instead.",
-    "line": "Real answer line: <b><u>eigenvalue</u></b>s (accept <u>characteristic value</u>s or <u>characteristic root</u>s; prompt on <u>lambda</u>; do not accept “eigenvectors”)"
+    "line": "Real answer line: <b><u>eigenvalue</u></b>s (accept <u>characteristic value</u>s, <u>characteristic root</u>s, <u>proper value</u>s, or <u>latent root</u>s; prompt on <u>lambda</u>; do not accept “eigenvectors”)"
   }
 }

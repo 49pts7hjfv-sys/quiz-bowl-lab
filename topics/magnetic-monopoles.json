@@ -108,8 +108,8 @@
       "r": "For 10 points, name these never-confirmed particles, each of which would have a single magnetic pole."
     },
     {
-      "p": "In 1974, Gerard ’t Hooft [“ut HOHFT”] and Alexander Polyakov [“pull-YAH-koff”] independently showed that grand unified theories of particle physics predict these particles. Such particles would be far heavier than anything ever made in a particle accelerator.",
-      "r": "For 10 points, name these hypothetical particles that would act as isolated north or south magnetic poles."
+      "p": "In 1932, Carl Anderson discovered the positron, the antimatter twin of the electron. Paul Dirac had predicted that particle a year earlier, in the same paper in which he argued that these particles could exist.",
+      "r": "No one has ever confirmed finding one of these. For 10 points, name these hypothetical particles that would act as isolated north or south magnetic poles."
     },
     {
       "p": "The MoEDAL experiment at CERN’s Large Hadron Collider was built mainly to search for these particles in the debris of proton collisions. Part of the experiment is designed to trap any that are made, so they can be studied later.",
@@ -128,7 +128,7 @@
       "r": "Each one would be a lone north or south pole. For 10 points, name these never-confirmed particles that would carry magnetic charge."
     },
     {
-      "p": "In 1894, Pierre Curie suggested that free magnetic charges might exist in nature. His paper discussed the possible existence of “free magnetism.” Decades later, Paul Dirac gave the first strong argument from quantum theory that they could exist.",
+      "p": "In 1894, Pierre Curie, who later shared a Nobel Prize with his wife, Marie, suggested that free magnetic charges might exist in nature. His paper discussed the possible existence of “free magnetism.” Decades later, Paul Dirac gave the first strong argument from quantum theory that they could exist.",
       "r": "For 10 points, name these hypothetical particles that would each have just a north or just a south pole."
     },
     {
@@ -140,11 +140,11 @@
       "r": "Cutting a bar magnet in half never produces one of these. For 10 points, name these hypothetical particles with a single magnetic pole."
     },
     {
-      "p": "Physicists have searched moon rocks brought back by Apollo astronauts and ancient minerals for trapped examples of these particles, without success. In one search, samples were passed through a superconducting coil to look for a sudden jump in current.",
+      "p": "Physicists searched moon rocks brought back by Apollo astronauts for trapped examples of these particles, without success. In that search, the samples were passed through a superconducting coil to look for a sudden, lasting jump in current.",
       "r": "For 10 points, name these hypothetical particles, each a lone north or south magnetic pole."
     },
     {
-      "p": "In 1975, scientists claimed to have spotted the track of one of these particles in a detector carried by a high-altitude balloon, but most physicists concluded that the track came from an ordinary heavy atomic nucleus.",
+      "p": "Because of a property called spin, a single electron acts like a tiny bar magnet with both a north and a south pole. That is one reason why breaking a magnet into smaller and smaller pieces never produces one of these objects.",
       "r": "For 10 points, name these hypothetical particles that would be single north or south magnetic poles."
     },
     {
@@ -292,14 +292,16 @@
       "n": 0
     },
     {
-      "id": "thooft-polyakov",
+      "id": "antielectron",
       "tier": "power",
-      "t": "Gerard ’t Hooft and Alexander Polyakov (1974) showed that grand unified theories predict them",
+      "t": "Dirac’s 1931 paper on them also predicted the antielectron (positron), which Carl Anderson discovered in 1932",
       "k": [
-        "polyakov",
-        "1974"
+        "antielectron",
+        "positron",
+        "carl anderson"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Antimatter"
     },
     {
       "id": "moedal",
@@ -345,24 +347,25 @@
     {
       "id": "moon-rocks",
       "tier": "power",
-      "t": "Apollo moon rocks and ancient minerals have been searched for trapped ones, without success",
+      "t": "Apollo moon rocks were passed through a superconducting coil to search for trapped ones, without success",
       "k": [
         "moon rocks",
         "apollo",
-        "minerals"
+        "superconducting coil"
       ],
       "n": 0
     },
     {
-      "id": "balloon",
+      "id": "electron-magnet",
       "tier": "power",
-      "t": "A 1975 claim from a balloon-borne detector was later explained as an ordinary heavy nucleus",
+      "t": "Because of its spin, even a single electron acts like a tiny bar magnet with both poles, so breaking magnets never makes one",
       "k": [
-        "balloon",
-        "1975",
-        "heavy nucleus"
+        "spin",
+        "tiny bar magnet",
+        "single electron"
       ],
-      "n": 0
+      "n": 0,
+      "rabbit": "Spin (physics)"
     },
     {
       "id": "macro",

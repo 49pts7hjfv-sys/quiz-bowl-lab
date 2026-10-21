@@ -1,0 +1,375 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "battles-of-lexington-and-concord",
+    "name": "Battles of Lexington and Concord",
+    "mono": "LC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "First battles of the Revolution, 1775 · “The shot heard round the world”",
+    "dates": "Fought April 19, 1775",
+    "briefing": "On the night of April 18, 1775, Paul Revere and William Dawes rode out of Boston to warn that British troops were marching to seize the colonists’ gunpowder and weapons. At dawn the next day, shots rang out on the town green at Lexington, and later that morning militiamen drove the British back at Concord’s North Bridge, firing Emerson’s famous “shot heard round the world.” The redcoats retreated to Boston under fire, and the American Revolution had begun.",
+    "answerHtml": "Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; prompt on <u>North Bridge</u>)",
+    "accept": [
+        "lexington and concord",
+        "battles of lexington and concord",
+        "battle of lexington and concord",
+        "the battles of lexington and concord",
+        "concord and lexington",
+        "lexington concord",
+        "lexington",
+        "concord",
+        "battle of lexington",
+        "battle of concord"
+    ],
+    "prompt": [
+        "north bridge",
+        "old north bridge"
+    ],
+    "reject": [
+        "bunker hill",
+        "battle of bunker hill",
+        "breeds hill",
+        "siege of boston",
+        "boston massacre",
+        "boston tea party",
+        "paul revere",
+        "paul reveres ride",
+        "midnight ride",
+        "midnight ride of paul revere",
+        "william dawes",
+        "samuel prescott",
+        "ralph waldo emerson",
+        "emerson",
+        "concord hymn",
+        "henry wadsworth longfellow",
+        "longfellow",
+        "old north church",
+        "american revolutionary war",
+        "revolutionary war",
+        "american revolution",
+        "saratoga",
+        "battle of saratoga",
+        "yorktown",
+        "battle of yorktown",
+        "trenton",
+        "battle of trenton",
+        "fort ticonderoga",
+        "dorchester heights",
+        "uss lexington",
+        "lexington kentucky",
+        "concord new hampshire",
+        "thomas gage",
+        "john parker",
+        "minutemen",
+        "patriots day"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Battles_of_Lexington_and_Concord",
+    "qb": {
+        "q": "Lexington and Concord",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Prince Estabrook, an enslaved Black man serving in Captain John Parker’s militia company, was wounded in the first clash of this pair of battles. That clash took place around sunrise on a town green, where eight militiamen were killed.",
+            "r": "For 10 points, name these battles of April 19, 1775, that began the American Revolution."
+        },
+        {
+            "p": "Captain Isaac Davis of Acton was killed leading his company toward a bridge during this pair of battles, and Major John Buttrick then ordered the militia to return fire. The British soldiers guarding the bridge soon fell back toward the town.",
+            "r": "Ralph Waldo Emerson called that volley “the shot heard round the world.” For 10 points, name these April 1775 battles."
+        },
+        {
+            "p": "Daniel Chester French, who later designed the seated statue in the Lincoln Memorial, made his first major work, a farmer-soldier holding a musket beside a plow, for the 100th anniversary of this pair of battles in 1875.",
+            "r": "That statue, _The Minute Man_, stands near the North Bridge. For 10 points, name these battles that began the Revolution in April 1775."
+        },
+        {
+            "p": "At the dedication of a battle monument on July 4, 1837, townspeople sang a hymn by a local writer whose grandfather had been the town’s minister in 1775. That hymn says the “embattled farmers” stood by “the rude bridge that arched the flood.”",
+            "r": "Its writer, Ralph Waldo Emerson, called their first volley “the shot heard round the world.” For 10 points, name these April 1775 battles."
+        },
+        {
+            "p": "Lord Hugh Percy led about 1,000 British reinforcements out of Boston during this pair of battles, bringing cannons to rescue an exhausted column that was retreating under fire. Percy’s men met that column in the early afternoon, near the site of the morning’s first shots.",
+            "r": "Afterward, militiamen surrounded Boston, beginning a long siege. For 10 points, name these battles of April 19, 1775, the first fighting of the American Revolution."
+        },
+        {
+            "p": "On the night before this pair of battles, two men quietly rowed a silversmith across the Charles River, past the British warship HMS _Somerset_. In Charlestown, the silversmith borrowed a horse and rode off to spread the alarm.",
+            "r": "That rider was Paul Revere, sent by Dr. Joseph Warren. For 10 points, name these April 1775 battles that started the American Revolution."
+        },
+        {
+            "p": "Sexton Robert Newman climbed a church steeple on the night before this pair of battles to hang a signal meant for patriots across the river in Charlestown, in case the man who arranged it was caught.",
+            "r": "That signal was two lanterns in Boston’s Old North Church, meaning the British were crossing by water. For 10 points, name these April 1775 battles."
+        },
+        {
+            "p": "Lieutenant Colonel Francis Smith commanded the British troops sent out during this pair of battles, and Major John Pitcairn of the Royal Marines led the advance companies that met the first militiamen.",
+            "r": "General Thomas Gage had sent those troops to seize colonial weapons and gunpowder. For 10 points, name these battles of April 19, 1775."
+        },
+        {
+            "p": "Words carved on a boulder at the site of this pair of battles’ first clash, credited to a militia captain, read: “Stand your ground. Don’t fire unless fired upon, but if they mean to have a war, let it begin here.”",
+            "r": "That captain was John Parker. For 10 points, name these battles of April 19, 1775, in which minutemen faced British redcoats."
+        },
+        {
+            "p": "British soldiers searched Colonel James Barrett’s farm for hidden cannons during this pair of battles. When smoke rose from the town where soldiers were burning captured supplies, militiamen on a nearby hill feared the town was on fire and marched toward a bridge.",
+            "r": "For 10 points, name these April 1775 battles in Massachusetts, where Emerson’s “shot heard round the world” was fired."
+        },
+        {
+            "p": "During the night before this pair of battles, a British patrol captured a famous rider near the town of Lincoln, but Samuel Prescott, a young doctor riding with him, jumped his horse over a stone wall and escaped.",
+            "r": "Prescott carried the alarm on to the second town, which Paul Revere never reached. For 10 points, name these April 1775 battles."
+        },
+        {
+            "p": "Samuel Adams and John Hancock were staying at minister Jonas Clarke’s house when riders arrived around midnight to warn them, hours before this pair of battles began. One rider had taken the long way out of Boston, over the narrow neck of land, while the other crossed the river by boat.",
+            "r": "Those riders were Paul Revere and William Dawes. For 10 points, name these April 1775 battles that began the Revolutionary War."
+        },
+        {
+            "p": "Fighting broke out again at Meriam’s Corner during this pair of battles, as militiamen from many towns fired from behind stone walls, trees, and houses at a column marching back toward Boston.",
+            "r": "By nightfall, more than 70 British soldiers and about 50 colonists had been killed. For 10 points, name these April 1775 battles."
+        },
+        {
+            "p": "Massachusetts and Maine honor this pair of battles with a state holiday on the third Monday in April, the same day the Boston Marathon is run. Reenactors gather on a town green at dawn that day to recreate the first shots.",
+            "r": "That holiday is Patriots’ Day. For 10 points, name these battles fought on April 19, 1775."
+        },
+        {
+            "p": "Historians say a famous rider before this pair of battles probably warned that “the Regulars are coming out,” not that “the British are coming,” since most colonists still thought of themselves as British. A Henry Wadsworth Longfellow poem later made that rider a national hero.",
+            "r": "That rider was Paul Revere. For 10 points, name these April 1775 battles that began the American Revolution."
+        }
+    ],
+    "clues": [
+        {
+            "id": "april-19",
+            "tier": "giveaway",
+            "t": "Fought April 19, 1775, in Massachusetts: the first battles of the American Revolution",
+            "k": ["april 19", "1775", "first battles", "massachusetts"],
+            "n": 0,
+            "rabbit": "American Revolutionary War"
+        },
+        {
+            "id": "shot-heard",
+            "tier": "giveaway",
+            "t": "Ralph Waldo Emerson called the first volley at the North Bridge “the shot heard round the world”",
+            "k": ["shot heard round the world", "emerson", "north bridge"],
+            "n": 0,
+            "rabbit": "Ralph Waldo Emerson"
+        },
+        {
+            "id": "revere",
+            "tier": "giveaway",
+            "t": "Paul Revere and William Dawes rode out the night before to warn that British troops were coming",
+            "k": ["paul revere", "revere", "william dawes", "dawes"],
+            "n": 0,
+            "rabbit": "Paul Revere"
+        },
+        {
+            "id": "minutemen",
+            "tier": "giveaway",
+            "t": "Colonial militiamen called minutemen fought British regulars (redcoats)",
+            "k": ["minutemen", "militiamen", "redcoats"],
+            "n": 0
+        },
+        {
+            "id": "lanterns",
+            "tier": "middle",
+            "t": "Two lanterns in Boston’s Old North Church meant the British were crossing by water (“one if by land, and two if by sea”)",
+            "k": ["old north church", "lanterns", "two if by sea"],
+            "n": 0
+        },
+        {
+            "id": "gage",
+            "tier": "middle",
+            "t": "General Thomas Gage sent about 700 soldiers to seize colonial weapons and gunpowder",
+            "k": ["thomas gage", "gage", "gunpowder", "700"],
+            "n": 0
+        },
+        {
+            "id": "parker",
+            "tier": "middle",
+            "t": "Captain John Parker’s militia faced the British on a town green at dawn; eight militiamen were killed",
+            "k": ["john parker", "parker", "town green", "eight"],
+            "n": 0
+        },
+        {
+            "id": "retreat",
+            "tier": "middle",
+            "t": "Militiamen fired from behind stone walls and trees as the British marched back to Boston",
+            "k": ["stone walls", "marched back", "boston"],
+            "n": 0
+        },
+        {
+            "id": "prescott",
+            "tier": "middle",
+            "t": "Revere was captured on the way; Samuel Prescott escaped and carried the warning on",
+            "k": ["samuel prescott", "prescott", "captured"],
+            "n": 0
+        },
+        {
+            "id": "patriots-day",
+            "tier": "middle",
+            "t": "Remembered each April on Patriots’ Day, the day of the Boston Marathon",
+            "k": ["patriots’ day", "boston marathon"],
+            "n": 0
+        },
+        {
+            "id": "longfellow",
+            "tier": "middle",
+            "t": "Henry Wadsworth Longfellow’s poem “Paul Revere’s Ride” made the ride famous",
+            "k": ["longfellow", "paul revere’s ride", "poem"],
+            "n": 0,
+            "rabbit": "Paul Revere’s Ride"
+        },
+        {
+            "id": "adams-hancock",
+            "tier": "middle",
+            "t": "The riders warned Samuel Adams and John Hancock, who were staying at minister Jonas Clarke’s house",
+            "k": ["samuel adams", "john hancock", "jonas clarke"],
+            "n": 0,
+            "rabbit": "John Hancock"
+        },
+        {
+            "id": "siege",
+            "tier": "middle",
+            "t": "Afterward, thousands of militiamen surrounded Boston, starting the Siege of Boston; Bunker Hill came two months later",
+            "k": ["siege of boston", "surrounded", "bunker hill"],
+            "n": 0,
+            "rabbit": "Battle of Bunker Hill"
+        },
+        {
+            "id": "smith-pitcairn",
+            "tier": "power",
+            "t": "Lieutenant Colonel Francis Smith led the British column; Major John Pitcairn of the Royal Marines led the advance companies",
+            "k": ["francis smith", "pitcairn", "royal marines"],
+            "n": 0
+        },
+        {
+            "id": "stand-your-ground",
+            "tier": "power",
+            "t": "Boulder inscription credited to Parker: “Stand your ground. Don’t fire unless fired upon, but if they mean to have a war, let it begin here”",
+            "k": ["stand your ground", "let it begin here", "fired upon"],
+            "n": 0
+        },
+        {
+            "id": "regulars",
+            "tier": "power",
+            "t": "Historians say Revere probably warned that “the Regulars are coming out,” not “the British are coming”",
+            "k": ["regulars are coming out", "british are coming", "historians"],
+            "n": 0
+        },
+        {
+            "id": "buttrick-davis",
+            "tier": "power",
+            "t": "Captain Isaac Davis of Acton was killed near the bridge; Major John Buttrick ordered the militia to return fire",
+            "k": ["isaac davis", "acton", "buttrick"],
+            "n": 0
+        },
+        {
+            "id": "minute-man-statue",
+            "tier": "power",
+            "t": "Daniel Chester French’s statue _The Minute Man_ (1875) stands by the North Bridge",
+            "k": ["daniel chester french", "minute man", "1875"],
+            "n": 0
+        },
+        {
+            "id": "hymn-1837",
+            "tier": "power",
+            "t": "Emerson’s hymn was sung at the dedication of a battle monument on July 4, 1837; it praises the “embattled farmers”",
+            "k": ["1837", "embattled farmers", "hymn"],
+            "n": 0
+        },
+        {
+            "id": "newman",
+            "tier": "power",
+            "t": "Sexton Robert Newman hung the lanterns; the signal was meant for patriots in Charlestown, not for Revere",
+            "k": ["robert newman", "sexton", "charlestown"],
+            "n": 0
+        },
+        {
+            "id": "somerset",
+            "tier": "power",
+            "t": "Revere was rowed across the Charles River past the British warship HMS _Somerset_, then borrowed a horse",
+            "k": ["somerset", "charles river", "rowed"],
+            "n": 0
+        },
+        {
+            "id": "barrett",
+            "tier": "power",
+            "t": "British soldiers searched Colonel James Barrett’s farm; smoke from burning supplies made militiamen think the town was on fire",
+            "k": ["james barrett", "barrett", "smoke"],
+            "n": 0
+        },
+        {
+            "id": "percy",
+            "tier": "power",
+            "t": "Lord Hugh Percy’s 1,000 reinforcements, with cannons, rescued the retreating British column",
+            "k": ["hugh percy", "percy", "reinforcements"],
+            "n": 0
+        },
+        {
+            "id": "estabrook",
+            "tier": "power",
+            "t": "Prince Estabrook, an enslaved Black militiaman, was wounded in the first clash",
+            "k": ["prince estabrook", "estabrook", "enslaved"],
+            "n": 0
+        },
+        {
+            "id": "meriams-corner",
+            "tier": "power",
+            "t": "Fighting broke out again at Meriam’s Corner as the British began their march back",
+            "k": ["meriam’s corner", "meriam", "march back"],
+            "n": 0
+        },
+        {
+            "id": "warren",
+            "tier": "power",
+            "t": "Dr. Joseph Warren, later killed at Bunker Hill, sent Revere and Dawes on their rides",
+            "k": ["joseph warren", "warren"],
+            "n": 0
+        },
+        {
+            "id": "casualties",
+            "tier": "power",
+            "t": "By nightfall, more than 70 British soldiers and about 50 colonists had been killed",
+            "k": ["70 british", "50 colonists", "nightfall"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not Bunker Hill!",
+        "body": "These battles happened in two towns on one day, April 19, 1775: the first shots came at dawn on the town green in Lexington, and Emerson’s “shot heard round the world” came later that morning at the North Bridge in Concord. Bunker Hill was a separate, bigger battle two months later, in June 1775. And Paul Revere never reached Concord: a British patrol captured him, and Samuel Prescott carried the warning the rest of the way.",
+        "fix": "Revere and Dawes, the two lanterns, John Parker, the North Bridge, and Patriots’ Day mean Lexington and Concord. “The whites of their eyes,” Breed’s Hill, and William Howe mean Bunker Hill. This answer line accepts either town alone.",
+        "line": "Real answer line: Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; do not accept “Bunker Hill”)"
+    },
+    "tests": {
+        "right": [
+            "Lexington and Concord",
+            "Battles of Lexington and Concord",
+            "Battle of Lexington",
+            "Concord",
+            "Lexington",
+            "Lexinton and Concord"
+        ],
+        "prompt": [
+            "North Bridge",
+            "Old North Bridge"
+        ],
+        "wrong": [
+            "Bunker Hill",
+            "Battle of Bunker Hill",
+            "Paul Revere",
+            "Paul Revere's Ride",
+            "Concord Hymn",
+            "Boston Massacre",
+            "Siege of Boston",
+            "Saratoga"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

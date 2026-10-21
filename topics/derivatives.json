@@ -116,11 +116,11 @@
   },
   "tossups": [
     {
-      "p": "Gottfried Leibniz [“LYBE-nits”] first published his calculus in a 1684 paper whose title promised “a new method for maxima and minima, and also tangents.” Joseph-Louis Lagrange [“luh-GRAHNZH”] later introduced the notation that writes this concept with a prime mark after the name of a function.",
+      "p": "Gottfried Leibniz [“LYBE-nits”] first published his calculus in a 1684 paper whose title promised “a new method for maxima and minima, and also tangents.” The notation that writes this concept with a prime mark after the name of a function is named for Joseph-Louis Lagrange [“luh-GRAHNZH”].",
       "r": "Leibniz wrote it as d y over d x. For 10 points, name this calculus concept that gives the slope of the tangent line to a curve at a point."
     },
     {
-      "p": "Isaac Newton called this concept a “fluxion” and wrote it with a dot above a letter in his _Method of Fluxions_, which he wrote in 1671 but which was not published until 1736. Bishop George Berkeley’s book _The Analyst_ mocked the vanishing quantities used to define this concept as “ghosts of departed quantities.”",
+      "p": "Isaac Newton called this concept a “fluxion” and marked it with a dot above a letter; his _Method of Fluxions_ was written in 1671 but not published until 1736. Bishop George Berkeley’s book _The Analyst_ mocked the vanishing quantities used to define this concept as “ghosts of departed quantities.”",
       "r": "For 10 points, name this calculus concept, the instantaneous rate of change of a function, which is the reverse of integration."
     },
     {
@@ -136,7 +136,7 @@
       "r": "For 10 points, name this quantity from calculus, which equals the slope of the tangent line to a graph."
     },
     {
-      "p": "Michel Rolle proved in 1691 that if a smooth curve starts and ends at the same height, this quantity must equal zero somewhere in between. The mean value theorem generalizes that result: somewhere in between, this quantity equals the slope of the straight line joining the two endpoints.",
+      "p": "A theorem named for Michel Rolle, who proved a version of it for polynomials in 1691, says that if a smooth curve starts and ends at the same height, this quantity must equal zero somewhere in between. The mean value theorem generalizes that result: somewhere in between, this quantity equals the slope of the straight line joining the two endpoints.",
       "r": "For 10 points, name this calculus concept, written d y over d x, that gives a function’s instantaneous rate of change."
     },
     {
@@ -148,7 +148,7 @@
       "r": "For 10 points, name this calculus concept, developed independently by Isaac Newton and Gottfried Leibniz, that gives the slope of a curve."
     },
     {
-      "p": "The power rule says that this concept of x to the n equals n times x to the n minus 1, so for x cubed it is 3 x squared. This concept of any constant is zero, since a flat line has no slope.",
+      "p": "The power rule says that this concept of x to the n equals n times x to the n minus 1, so for x cubed it is 3 x squared. This concept of any constant is zero, since the graph of a constant is a horizontal line with slope zero.",
       "r": "For 10 points, name this calculus concept, which gives the instantaneous rate of change of a function and the slope of its tangent line."
     },
     {
@@ -160,7 +160,7 @@
       "r": "For 10 points, name this calculus concept that gives the slope of the tangent line, developed by both Isaac Newton and Gottfried Leibniz."
     },
     {
-      "p": "Newton’s method finds a root of an equation by repeatedly subtracting the function’s value divided by this concept, which amounts to following tangent lines down to the x-axis. A point where this concept changes from positive to negative marks a local maximum.",
+      "p": "Newton’s method finds a root of an equation by repeatedly subtracting the function’s value divided by this concept, which amounts to following tangent lines to where they cross the x-axis. A point where this concept changes from positive to negative marks a local maximum.",
       "r": "For 10 points, name this calculus concept that gives the slope of a curve at a single point."
     },
     {
@@ -284,7 +284,7 @@
     {
       "id": "extrema",
       "tier": "middle",
-      "t": "At a smooth function’s maximum or minimum it equals 0, so setting it to 0 solves optimization problems",
+      "t": "At a peak or valley of a smooth curve (a local maximum or minimum) it equals 0, so setting it to 0 solves optimization problems",
       "k": [
         "maximum",
         "minimum",
@@ -406,7 +406,7 @@
     {
       "id": "rolle-mvt",
       "tier": "power",
-      "t": "Rolle’s theorem (Michel Rolle, 1691) and the mean value theorem: somewhere between two endpoints, it equals the slope of the line joining them",
+      "t": "Rolle’s theorem (a version proved by Michel Rolle in 1691) and the mean value theorem: somewhere between two endpoints, it equals the slope of the line joining them",
       "k": [
         "rolle",
         "1691",
@@ -449,7 +449,7 @@
     {
       "id": "cauchy",
       "tier": "power",
-      "t": "Augustin-Louis Cauchy made it rigorous by defining it as a limit of difference quotients",
+      "t": "Augustin-Louis Cauchy helped make it rigorous by defining it as a limit of difference quotients",
       "k": [
         "cauchy",
         "rigorous"

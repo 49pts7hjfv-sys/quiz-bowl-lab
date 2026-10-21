@@ -70,7 +70,9 @@ data = {
         "metamorphic rock",
         "metamorphic rocks",
         "basalt",
-        "granite"
+        "granite",
+        "black hole",
+        "black holes"
     ],
     "media": [],
     "mediaPending": True,
