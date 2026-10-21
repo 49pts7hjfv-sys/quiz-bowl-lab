@@ -77,7 +77,7 @@
       "r": "For 10 points, name this element with atomic number 13, used in soda cans and kitchen foil."
     },
     {
-      "p": "In the Bayer process, hot sodium hydroxide dissolves this element’s oxide out of crushed ore, leaving impurities such as iron oxide behind as “red mud.” The purified oxide, called alumina, is then dissolved in molten cryolite so that electricity can pull out this element.",
+      "p": "In the Bayer process, hot sodium hydroxide dissolves this element’s oxide out of crushed ore, leaving impurities such as iron oxide behind as “red mud.” The purified oxide is then dissolved in molten cryolite so that electricity can pull out this element.",
       "r": "That ore is bauxite. For 10 points, name this light metal with atomic number 13, used in airplanes."
     },
     {
@@ -255,7 +255,7 @@
     {
       "id": "reactive",
       "tier": "middle",
-      "t": "Too reactive to be found as a pure metal in nature",
+      "t": "So reactive that it is almost never found as a pure metal in nature",
       "k": [
         "reactive",
         "pure metal"
@@ -323,12 +323,11 @@
     {
       "id": "bayer",
       "tier": "power",
-      "t": "The Bayer process dissolves its oxide (alumina) out of bauxite with hot sodium hydroxide, leaving “red mud”",
+      "t": "The Bayer process dissolves its oxide out of bauxite with hot sodium hydroxide, leaving “red mud”",
       "k": [
         "bayer process",
         "sodium hydroxide",
-        "red mud",
-        "alumina"
+        "red mud"
       ],
       "n": 0
     },

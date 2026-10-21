@@ -66,7 +66,7 @@
   },
   "tossups": [
     {
-      "p": "Joseph Wright of Derby painted a kneeling alchemist gazing at a glowing flask as he discovers this element. In real life, Hennig Brand first made it in 1669 by boiling down large amounts of urine while searching for the philosopher’s stone.",
+      "p": "Joseph Wright of Derby painted an alchemist kneeling beside a glowing flask as he discovers this element. In real life, Hennig Brand first made it in 1669 by boiling down large amounts of urine while searching for the philosopher’s stone.",
       "r": "For 10 points, name this element with atomic number 15, whose red form is used on the strips for striking matches."
     },
     {
@@ -106,7 +106,7 @@
       "r": "For 10 points, name this element, number 15, whose red form coats the strips used to strike safety matches."
     },
     {
-      "p": "In the late 1700s, chemists learned to make this element from bone ash, a far richer source than the urine it was first found in. Bones and teeth get their hardness from a calcium mineral called hydroxyapatite [“hy-DROK-see-AP-uh-tite”], which contains this element.",
+      "p": "About a century after this element was first found, Johan Gahn and Carl Wilhelm Scheele [“SHAY-luh”] learned to make it from bone ash, a far richer source than urine. Bones and teeth get their hardness from a calcium mineral called hydroxyapatite [“hy-DROK-see-AP-uh-tite”], which contains this element.",
       "r": "Phosphate groups containing it link the sugars in DNA. For 10 points, name this element with atomic number 15."
     },
     {
@@ -279,7 +279,7 @@
     {
       "id": "wright",
       "tier": "power",
-      "t": "Joseph Wright of Derby painted an alchemist kneeling before a glowing flask as he discovers it",
+      "t": "Joseph Wright of Derby painted an alchemist kneeling beside a glowing flask as he discovers it",
       "k": [
         "joseph wright",
         "derby",
@@ -370,10 +370,12 @@
     {
       "id": "bone-ash",
       "tier": "power",
-      "t": "In the late 1700s, chemists learned to make it from bone ash instead of urine",
+      "t": "About a century after its discovery, Johan Gahn and Carl Wilhelm Scheele learned to make it from bone ash instead of urine",
       "k": [
         "bone ash",
-        "late 1700s"
+        "scheele",
+        "gahn",
+        "century"
       ],
       "n": 0
     },

@@ -6,7 +6,7 @@
   "qbCategory": "Science · Chemistry",
   "kicker": "Speed up reactions without being used up · From enzymes to car exhaust",
   "dates": "Named by Jöns Jacob Berzelius, 1835",
-  "briefing": "A catalyst speeds up a chemical reaction without being used up, so a tiny amount can work again and again. It gives the reaction an easier path with a lower activation energy, like a tunnel through a mountain instead of a climb over it. Your body runs on biological catalysts called enzymes, iron catalysts help make the world’s fertilizer, and the platinum, palladium, and rhodium in a car’s catalytic converter clean up its exhaust.",
+  "briefing": "A catalyst speeds up a chemical reaction without being used up, so a tiny amount can work again and again. It gives the reaction an easier path with a lower activation energy, like a tunnel through a mountain instead of a climb over it. Your body runs on biological catalysts called enzymes, iron catalysts help make much of the world’s fertilizer, and the platinum, palladium, and rhodium in a car’s catalytic converter clean up its exhaust.",
   "answerHtml": "<b><u>Catalyst</u></b>s (or <u>catalysis</u>; accept word forms like <u>catalyze</u>; do not accept “enzymes,” “inhibitors,” or “activation energy”)",
   "accept": [
     "catalysts",
@@ -126,7 +126,7 @@
       "r": "On Earth, enzymes are biological examples of these substances. For 10 points, name these substances that speed up reactions without being consumed."
     },
     {
-      "p": "The Monsanto process makes acetic acid from methanol and carbon monoxide using rhodium as one of these substances, while BP’s newer Cativa [“kuh-TEE-vuh”] process uses iridium instead. Aluminum chloride plays a similar role in Friedel–Crafts [“free-DEL CRAFTS”] reactions, which attach carbon groups to benzene rings.",
+      "p": "Concentrated sulfuric acid acts as one of these substances when a carboxylic acid and an alcohol combine to form an ester and water. In chemical equations, these substances are often written above the reaction arrow instead of with the reactants, because they come out of the reaction unchanged.",
       "r": "For 10 points, name these substances that speed up chemical reactions and can be used over and over."
     },
     {
@@ -185,6 +185,17 @@
         "palladium",
         "rhodium",
         "car exhaust"
+      ],
+      "n": 0
+    },
+    {
+      "id": "above-arrow",
+      "tier": "middle",
+      "t": "In chemical equations they are often written above the arrow, because they come out unchanged",
+      "k": [
+        "above the arrow",
+        "arrow",
+        "unchanged"
       ],
       "n": 0
     },
@@ -423,17 +434,16 @@
       "rabbit": "Nuclear fusion"
     },
     {
-      "id": "monsanto",
+      "id": "esterification",
       "tier": "power",
-      "t": "Rhodium (Monsanto process) and iridium (Cativa process) help make acetic acid",
+      "t": "Concentrated sulfuric acid acts as one when a carboxylic acid and an alcohol combine into an ester",
       "k": [
-        "rhodium",
-        "monsanto",
-        "iridium",
-        "cativa"
+        "sulfuric acid",
+        "ester",
+        "alcohol"
       ],
       "n": 0,
-      "rabbit": "Acetic acid"
+      "rabbit": "Esters"
     }
   ],
   "trap": {
