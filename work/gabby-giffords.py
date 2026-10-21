@@ -1,0 +1,320 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "gabby-giffords",
+    "name": "Gabby Giffords",
+    "mono": "GG",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "U.S. Representative from Arizona, 2007–2012 · Survived the 2011 Tucson shooting",
+    "dates": "Born 1970",
+    "briefing": "Gabby Giffords grew up in Tucson, Arizona, ran her family’s tire business, and served in the Arizona Legislature before winning a seat in the U.S. House of Representatives in 2006. On January 8, 2011, she was seriously wounded when a gunman opened fire at a meeting she was holding with constituents near Tucson; six people were killed. She resigned from Congress in 2012 to focus on her recovery, and in 2022 she received the Presidential Medal of Freedom.",
+    "answerHtml": "Gabby <b><u>Giffords</u></b> (or Gabrielle <b><u>Giffords</u></b>; prompt on <u>Gabby</u> or <u>Gabrielle</u>)",
+    "accept": [
+        "gabby giffords",
+        "gabrielle giffords",
+        "giffords",
+        "gabrielle dee giffords",
+        "gabrielle gabby giffords",
+        "congresswoman giffords",
+        "representative giffords",
+        "rep giffords"
+    ],
+    "prompt": [
+        "gabby",
+        "gabrielle"
+    ],
+    "reject": [
+        "mark kelly",
+        "scott kelly",
+        "jesse kelly",
+        "gabby douglas",
+        "gabrielle douglas",
+        "kyrsten sinema",
+        "john mccain",
+        "sandra day oconnor",
+        "ron barber",
+        "john roll",
+        "daniel hernandez",
+        "nancy pelosi"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Gabby_Giffords",
+    "qb": {
+        "q": "Giffords",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Ron Barber, this politician’s former district director, won a June 2012 special election to finish her term in the U.S. House. Months earlier, she had resigned from Congress, saying she needed to focus on her recovery.",
+            "r": "Barber had also been wounded in the January 2011 shooting near Tucson where she was seriously hurt. For 10 points, name this Arizona congresswoman."
+        },
+        {
+            "p": "Daniel Hernández, a 20-year-old intern in this politician’s office, was praised as a hero for staying at her side and helping keep her alive until paramedics arrived. President Barack Obama honored Hernández by name at a memorial service in Tucson days later.",
+            "r": "Six people were killed in that January 2011 shooting. For 10 points, name this Arizona congresswoman who was seriously wounded."
+        },
+        {
+            "p": "At a January 2011 memorial service at the University of Arizona, Barack Obama told the crowd that this politician had opened her eyes for the first time since she was hurt, a few minutes after he had visited her hospital room.",
+            "r": "She had been seriously wounded in a shooting at a meeting with her constituents near Tucson. For 10 points, name this Arizona congresswoman."
+        },
+        {
+            "p": "On August 1, 2011, this lawmaker made a surprise return to the floor of the U.S. House to vote for a bill raising the debt limit, and members of both parties rose to applaud her. It was her first vote since she was hurt in January.",
+            "r": "For 10 points, name this Arizona Democrat who served in the U.S. House from 2007 until she resigned in 2012."
+        },
+        {
+            "p": "In May 2011, this person traveled to Florida’s Kennedy Space Center to watch her husband command the last mission of the space shuttle _Endeavour_. Her husband’s identical twin brother, Scott, was also a NASA astronaut and later spent nearly a year aboard the International Space Station.",
+            "r": "Her husband, Mark Kelly, retired from the Navy and NASA later that year. For 10 points, name this congresswoman wounded in a 2011 shooting near Tucson."
+        },
+        {
+            "p": "The U.S. Navy named a littoral combat ship, commissioned in 2017, after this person, who had served on the House Armed Services Committee. Her husband was a retired Navy captain who had flown combat missions in the Gulf War before becoming an astronaut.",
+            "r": "That husband, Mark Kelly, co-founded a gun violence prevention group with her. For 10 points, name this former Arizona congresswoman."
+        },
+        {
+            "p": "Before entering politics, this person returned to her hometown to run El Campo Tire, her family’s chain of tire stores. She then served in both houses of the Arizona Legislature before winning a seat in the U.S. House in 2006.",
+            "r": "Her hometown was Tucson, where she was seriously wounded in a 2011 shooting. For 10 points, name this congresswoman."
+        },
+        {
+            "p": "In 2006, this Democrat won the southern Arizona seat in the U.S. House left open when longtime Republican congressman Jim Kolbe retired. She had earlier earned a master’s degree in regional planning from Cornell University.",
+            "r": "She resigned from Congress in 2012 to focus on her recovery after being seriously wounded in a shooting. For 10 points, name this Arizona politician."
+        },
+        {
+            "p": "This politician’s staff set up a “Congress on Your Corner” event outside a Safeway supermarket north of Tucson, where voters could meet her and ask questions. Federal judge John Roll stopped by that Saturday morning to say hello.",
+            "r": "Roll was among six people killed when a gunman opened fire at that January 2011 event, where she was seriously wounded. For 10 points, name this Arizona congresswoman."
+        },
+        {
+            "p": "On the second anniversary of the day she was hurt, this person and her husband founded Americans for Responsible Solutions, a group formed to prevent gun violence. That group later merged with a law center and was renamed after her.",
+            "r": "Her co-founder was her husband, the astronaut Mark Kelly. For 10 points, name this former Arizona congresswoman."
+        },
+        {
+            "p": "Julie Cohen and Betsy West, who had earlier made a documentary about Ruth Bader Ginsburg, released a 2022 film about this person’s life and her years of therapy to relearn how to walk and talk. That July, she received the Presidential Medal of Freedom from Joe Biden.",
+            "r": "She had been seriously wounded in a 2011 shooting while serving in Congress. For 10 points, name this former Arizona congresswoman."
+        },
+        {
+            "p": "In 2020, this person’s husband won a special election for the Arizona U.S. Senate seat once held by John McCain, and he was sworn in that December. Her husband had earlier flown four space shuttle missions as a NASA astronaut.",
+            "r": "Her husband, Mark Kelly, had supported her recovery after a 2011 shooting near Tucson. For 10 points, name this former Arizona congresswoman."
+        },
+        {
+            "p": "Jeffrey Zaslow, who had co-written _The Last Lecture_ with Randy Pausch, helped this politician and her husband write a 2011 memoir about her recovery. The book describes the long months of therapy she needed after she was hurt.",
+            "r": "She had been seriously wounded in a January 2011 shooting near Tucson. For 10 points, name this Arizona congresswoman."
+        },
+        {
+            "p": "In November 2010, this Democrat narrowly won a third term in the U.S. House over Republican Jesse Kelly, a Marine veteran who was no relation to her husband. Two months later, she held one of her regular outdoor meetings with voters.",
+            "r": "A gunman opened fire at that January 2011 event near Tucson, and she was seriously wounded. For 10 points, name this Arizona congresswoman."
+        },
+        {
+            "p": "Before going into business and politics, this person studied at Scripps College in California and then went to Mexico on a Fulbright scholarship. Years later, she won her first election to the U.S. House of Representatives in 2006.",
+            "r": "In 2022, she received the Presidential Medal of Freedom. For 10 points, name this Arizona politician who survived a 2011 shooting near Tucson."
+        }
+    ],
+    "clues": [
+        {
+            "id": "arizona-rep",
+            "tier": "giveaway",
+            "t": "U.S. Representative from Arizona (2007–2012), a Democrat",
+            "k": ["arizona", "representative", "democrat", "2007–2012"],
+            "n": 0
+        },
+        {
+            "id": "tucson-shooting",
+            "tier": "giveaway",
+            "t": "Seriously wounded on January 8, 2011, when a gunman opened fire at her meeting with constituents near Tucson; six people were killed",
+            "k": ["january 8, 2011", "tucson", "constituents", "six people"],
+            "n": 0
+        },
+        {
+            "id": "resigned",
+            "tier": "giveaway",
+            "t": "Resigned from Congress in January 2012 to focus on her recovery",
+            "k": ["resigned", "2012", "recovery"],
+            "n": 0
+        },
+        {
+            "id": "mark-kelly",
+            "tier": "giveaway",
+            "t": "Her husband, astronaut Mark Kelly, was elected a U.S. senator from Arizona in 2020",
+            "k": ["mark kelly", "astronaut", "senator", "2020"],
+            "n": 0
+        },
+        {
+            "id": "medal",
+            "tier": "giveaway",
+            "t": "Received the Presidential Medal of Freedom from Joe Biden in 2022",
+            "k": ["presidential medal of freedom", "medal of freedom", "2022", "biden"],
+            "n": 0
+        },
+        {
+            "id": "ars",
+            "tier": "middle",
+            "t": "Co-founded Americans for Responsible Solutions with Mark Kelly (2013), a group formed to prevent gun violence; it was later renamed after her",
+            "k": ["americans for responsible solutions", "gun violence", "2013"],
+            "n": 0
+        },
+        {
+            "id": "congress-corner",
+            "tier": "middle",
+            "t": "The shooting happened at a “Congress on Your Corner” event outside a Safeway supermarket",
+            "k": ["congress on your corner", "safeway", "supermarket"],
+            "n": 0
+        },
+        {
+            "id": "roll",
+            "tier": "middle",
+            "t": "Federal judge John Roll was among the six people killed",
+            "k": ["john roll", "judge"],
+            "n": 0
+        },
+        {
+            "id": "eyes",
+            "tier": "middle",
+            "t": "At a memorial in Tucson, President Obama announced that she had opened her eyes for the first time",
+            "k": ["opened her eyes", "obama", "memorial"],
+            "n": 0
+        },
+        {
+            "id": "return-vote",
+            "tier": "middle",
+            "t": "Returned to the House floor on August 1, 2011, to vote on raising the debt limit, to applause from both parties",
+            "k": ["august 1, 2011", "debt limit", "applause"],
+            "n": 0
+        },
+        {
+            "id": "relearn",
+            "tier": "middle",
+            "t": "Worked for years with therapists to relearn how to walk and talk",
+            "k": ["therapists", "relearn", "walk and talk"],
+            "n": 0
+        },
+        {
+            "id": "legislature",
+            "tier": "middle",
+            "t": "Served in both houses of the Arizona Legislature before winning a U.S. House seat in 2006",
+            "k": ["arizona legislature", "legislature", "both houses"],
+            "n": 0
+        },
+        {
+            "id": "barber",
+            "tier": "power",
+            "t": "Her former district director, Ron Barber, also wounded in the shooting, won a June 2012 special election to finish her term",
+            "k": ["ron barber", "barber", "district director"],
+            "n": 0
+        },
+        {
+            "id": "hernandez",
+            "tier": "power",
+            "t": "Intern Daniel Hernández, 20, was praised as a hero for staying at her side; Obama honored him at the memorial",
+            "k": ["daniel hernández", "hernández", "intern"],
+            "n": 0
+        },
+        {
+            "id": "endeavour",
+            "tier": "power",
+            "t": "Watched her husband command the last mission of the space shuttle _Endeavour_ (May 2011)",
+            "k": ["endeavour", "space shuttle", "may 2011"],
+            "n": 0
+        },
+        {
+            "id": "scott-kelly",
+            "tier": "power",
+            "t": "Her husband’s identical twin, Scott Kelly, was also an astronaut and spent nearly a year on the International Space Station",
+            "k": ["scott kelly", "identical twin", "international space station"],
+            "n": 0
+        },
+        {
+            "id": "navy-ship",
+            "tier": "power",
+            "t": "The Navy named a littoral combat ship after her (commissioned 2017); she had served on the House Armed Services Committee",
+            "k": ["littoral combat ship", "armed services", "navy"],
+            "n": 0
+        },
+        {
+            "id": "el-campo",
+            "tier": "power",
+            "t": "Ran her family’s tire business, El Campo Tire, in Tucson",
+            "k": ["el campo tire", "el campo", "tire"],
+            "n": 0
+        },
+        {
+            "id": "kolbe",
+            "tier": "power",
+            "t": "Won the House seat left open when Republican Jim Kolbe retired (2006)",
+            "k": ["jim kolbe", "kolbe", "2006"],
+            "n": 0
+        },
+        {
+            "id": "education",
+            "tier": "power",
+            "t": "Studied at Scripps College, went to Mexico on a Fulbright scholarship, and earned a master’s in regional planning from Cornell",
+            "k": ["scripps", "fulbright", "cornell", "regional planning"],
+            "n": 0
+        },
+        {
+            "id": "zaslow",
+            "tier": "power",
+            "t": "Wrote a 2011 memoir with Mark Kelly and Jeffrey Zaslow, the co-author of _The Last Lecture_",
+            "k": ["jeffrey zaslow", "zaslow", "memoir", "last lecture"],
+            "n": 0
+        },
+        {
+            "id": "jesse-kelly",
+            "tier": "power",
+            "t": "Narrowly beat Republican Jesse Kelly (no relation to her husband) in 2010 to win a third term",
+            "k": ["jesse kelly", "third term", "2010"],
+            "n": 0
+        },
+        {
+            "id": "documentary",
+            "tier": "power",
+            "t": "Subject of a 2022 documentary by Julie Cohen and Betsy West, who had also made a film about Ruth Bader Ginsburg",
+            "k": ["documentary", "julie cohen", "betsy west", "ruth bader ginsburg"],
+            "n": 0
+        },
+        {
+            "id": "mccain-seat",
+            "tier": "power",
+            "t": "Mark Kelly won the 2020 special election for the Senate seat once held by John McCain",
+            "k": ["john mccain", "mccain", "special election"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Giffords or Kelly?",
+        "body": "Many tossups about her mention her husband, the Navy pilot and astronaut Mark Kelly, who was elected a U.S. senator from Arizona in 2020, and his identical twin, Scott Kelly, also an astronaut. Buzzing with “Kelly” when the question wants “this congresswoman” loses the tossup. Saying only “Gabby” earns a prompt, and the gymnast Gabby Douglas is a different person.",
+        "fix": "Listen for the noun: “this congresswoman,” “this politician,” or “this woman” wants Gabby Giffords, while “this astronaut” or “this senator” wants Mark Kelly. Tucson, Ron Barber, Daniel Hernández, and the 2022 Medal of Freedom mean Giffords.",
+        "line": "Real answer line: Gabby <b><u>Giffords</u></b> (or Gabrielle <b><u>Giffords</u></b>; prompt on <u>Gabby</u> or <u>Gabrielle</u>)"
+    },
+    "tests": {
+        "right": [
+            "Gabby Giffords",
+            "Gabrielle Giffords",
+            "Giffords",
+            "Gabby Gifords",
+            "Congresswoman Giffords",
+            "Gabrielle Dee Giffords"
+        ],
+        "prompt": [
+            "Gabby",
+            "Gabrielle"
+        ],
+        "wrong": [
+            "Mark Kelly",
+            "Gabby Douglas",
+            "Kyrsten Sinema",
+            "Scott Kelly",
+            "Sandra Day O'Connor",
+            "John McCain"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])
