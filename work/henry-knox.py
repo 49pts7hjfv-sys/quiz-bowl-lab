@@ -104,7 +104,7 @@ data = {
             "r": "This man was the first Secretary of War. For 10 points, name this general whose name is on a famous Army post in Kentucky."
         },
         {
-            "p": "In the winter of 1775–1776, this man’s convoy of ox-drawn sleds crossed the frozen Hudson River near Albany and struggled over the snowy Berkshire Mountains. He hired local farmers and their oxen and horses for the trip, which took about two months.",
+            "p": "In the winter of 1775–1776, this man’s convoy of ox-drawn sleds crossed the frozen Hudson River near Albany and struggled over the snowy Berkshire Mountains. He hired local farmers and their oxen and horses for the trip of nearly 300 miles.",
             "r": "He called that convoy a “noble train of artillery.” For 10 points, name this man who brought the cannons of Fort Ticonderoga to Boston."
         },
         {

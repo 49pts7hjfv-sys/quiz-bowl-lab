@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "herbert-hoover",
+    "name": "Herbert Hoover",
+    "mono": "HH",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "31st U.S. President (1929–1933) · In office when the Great Depression began",
+    "dates": "1874–1964",
+    "briefing": "Herbert Hoover was an orphan from Iowa who became a world-famous mining engineer and then the “Great Humanitarian,” organizing food for millions of hungry people in Belgium during World War I. He became the 31st president in 1929, but the stock market crashed months later, and the Great Depression began. Homeless camps were nicknamed “Hoovervilles,” and he lost the 1932 election to Franklin Roosevelt in a landslide.",
+    "answerHtml": "Herbert <b><u>Hoover</u></b> (accept Herbert Clark <b><u>Hoover</u></b>; prompt on <u>Herbert</u>; do not accept “J. Edgar Hoover” or “Hoover Dam”)",
+    "accept": [
+        "herbert hoover",
+        "hoover",
+        "herbert clark hoover",
+        "herbert c hoover",
+        "president hoover",
+        "h hoover"
+    ],
+    "prompt": [
+        "herbert",
+        "herbert clark"
+    ],
+    "reject": [
+        "j edgar hoover",
+        "j edgar",
+        "edgar hoover",
+        "john edgar hoover",
+        "hoover dam",
+        "boulder dam",
+        "lou henry hoover",
+        "lou hoover",
+        "herbert hoover jr",
+        "hoover institution",
+        "hoovervilles",
+        "hooverville",
+        "hoover moratorium",
+        "hoover commission",
+        "great depression",
+        "franklin roosevelt",
+        "franklin d roosevelt",
+        "franklin delano roosevelt",
+        "fdr",
+        "calvin coolidge",
+        "coolidge",
+        "warren harding",
+        "warren g harding",
+        "al smith",
+        "alfred e smith",
+        "charles curtis",
+        "andrew mellon",
+        "woodrow wilson",
+        "hooker",
+        "joseph hooker",
+        "herbert spencer"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Herbert_Hoover",
+    "qb": {
+        "q": "Herbert Hoover",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "With his wife, Lou, this man translated _De re metallica_ [“day ray meh-TAL-ih-kuh”], a 1556 Latin book about mining by Georgius Agricola, into English. He and Lou had met in a geology lab at Stanford University, where he was a member of the school’s very first class.",
+            "r": "He later became the 31st president. For 10 points, name this president in office when the Great Depression began."
+        },
+        {
+            "p": "In 1900, this mining engineer and his wife were trapped in the Chinese city of Tianjin [“tyen-JIN”] during the Boxer Rebellion, where he helped build barricades. Earlier, he had worked at gold mines in the deserts of Western Australia.",
+            "r": "He later became the only president born in Iowa. For 10 points, name this 31st president, who lost to Franklin Roosevelt in 1932."
+        },
+        {
+            "p": "From 1921 to 1923, this man’s American Relief Administration fed millions of people during a famine in Soviet Russia, even though the United States did not recognize the Soviet government. Earlier, he had led a famous relief effort in German-occupied Belgium.",
+            "r": "Nicknamed the “Great Humanitarian,” he later became president in 1929. For 10 points, name this president when the Great Depression began."
+        },
+        {
+            "p": "This man called Prohibition “a great social and economic experiment, noble in motive and far-reaching in purpose.” As president, he set up the Wickersham Commission, which reported in 1931 that Prohibition was not being enforced well.",
+            "r": "His presidency began in 1929, months before the stock market crash. For 10 points, name this 31st president."
+        },
+        {
+            "p": "In 1931, this president proposed a one-year pause on payments of World War I debts and German reparations to ease a worldwide financial crisis. After Japan seized Manchuria, his secretary of state announced that the United States would not recognize territory taken by force.",
+            "r": "That policy was the Stimson Doctrine. For 10 points, name this president who lost the 1932 election to Franklin Roosevelt."
+        },
+        {
+            "p": "In 1928, a Republican newspaper ad promised “a chicken in every pot,” and this candidate, whose running mate was Charles Curtis of the Kaw Nation, easily defeated Al Smith, the first Catholic nominated for president by a major party.",
+            "r": "This candidate had been Secretary of Commerce. For 10 points, name this Republican who became the 31st president."
+        },
+        {
+            "p": "To keep this president fit, his White House doctor invented a game in which players threw a heavy medicine ball over a high net. On weekends, this president often escaped to Rapidan [“RAP-ih-dan”] Camp, a fishing retreat he built in Virginia’s Blue Ridge Mountains.",
+            "r": "That game is named for this president, as are shantytowns of the Great Depression. For 10 points, name this 31st president."
+        },
+        {
+            "p": "In 1947, Harry Truman asked this former president to lead a commission to reorganize the executive branch, and Dwight Eisenhower later asked him to lead a second one. This man also founded a library on war and peace at Stanford University in 1919 that grew into a famous research institution.",
+            "r": "Born to a Quaker family in West Branch, Iowa, he served one term as president, from 1929 to 1933. For 10 points, name this Republican, the 31st president."
+        },
+        {
+            "p": "As Secretary of Commerce, this man led the talks that produced the 1922 Colorado River Compact, which divided that river’s water among seven western states. The compact split those states into an upper basin and a lower basin.",
+            "r": "A huge dam on that river, finished in 1936, was officially named for him in 1947. For 10 points, name this president when the Great Depression began."
+        },
+        {
+            "p": "During World War I, this man ran the U.S. Food Administration, which urged Americans to observe “Meatless Mondays” and “Wheatless Wednesdays” so more food could go to soldiers and Allies. Saving food in this way became known by a verb made from this man’s last name.",
+            "r": "He later became the 31st president. For 10 points, name this man whose name was given to Depression-era shantytowns."
+        },
+        {
+            "p": "After German armies overran Belgium in 1914, this American organized the Commission for Relief in Belgium, which shipped food to millions of Belgian and French civilians cut off by the war. That work made him famous as the “Great Humanitarian.”",
+            "r": "He became the 31st president in 1929. For 10 points, name this president who was defeated by Franklin Roosevelt in 1932."
+        },
+        {
+            "p": "As Secretary of Commerce, this man directed relief efforts during the Great Mississippi Flood of 1927, which drove hundreds of thousands of people from their homes. His work there made him even more famous, and the next year his party nominated him for president.",
+            "r": "In 1928, he was elected the 31st president. For 10 points, name this Republican in office when the Great Depression began."
+        },
+        {
+            "p": "In 1932, this president ordered the Army to remove protesting World War I veterans from buildings near the Capitol, and troops under Douglas MacArthur then drove them from their camp at Anacostia [“an-uh-KOSS-tee-uh”] Flats. Those veterans, called the Bonus Army, wanted early payment of bonuses due in 1945.",
+            "r": "Months later, this president lost the 1932 election to Franklin Roosevelt. For 10 points, name this 31st president."
+        },
+        {
+            "p": "More than a thousand economists asked this president to veto a 1930 tariff that raised taxes on imports, but he signed it. In 1932, he created the Reconstruction Finance Corporation to lend money to banks, railroads, and other businesses.",
+            "r": "That tariff was the Smoot–Hawley Tariff. For 10 points, name this president during the first years of the Great Depression."
+        },
+        {
+            "p": "This president signed the 1931 law that made “The Star-Spangled Banner” the national anthem. In his 1929 inaugural address, he said, “I have no fears for the future of our country. It is bright with hope.”",
+            "r": "Seven months later, the stock market crashed. For 10 points, name this president, whose name was given to shantytowns during the Great Depression."
+        }
+    ],
+    "clues": [
+        {
+            "id": "thirty-first",
+            "tier": "giveaway",
+            "t": "31st President (1929–1933), a Republican",
+            "k": ["31st president", "1929", "republican"],
+            "n": 0
+        },
+        {
+            "id": "depression",
+            "tier": "giveaway",
+            "t": "President when the stock market crashed in 1929 and the Great Depression began",
+            "k": ["great depression", "stock market", "crashed"],
+            "n": 0,
+            "rabbit": "Great Depression"
+        },
+        {
+            "id": "shantytowns",
+            "tier": "giveaway",
+            "t": "Homeless camps of the Great Depression were mockingly nicknamed after him",
+            "k": ["homeless camps", "shantytowns", "nicknamed"],
+            "n": 0
+        },
+        {
+            "id": "lost-1932",
+            "tier": "giveaway",
+            "t": "Lost the 1932 election to Franklin Roosevelt in a landslide",
+            "k": ["franklin roosevelt", "1932", "landslide"],
+            "n": 0,
+            "rabbit": "Franklin Delano Roosevelt"
+        },
+        {
+            "id": "dam",
+            "tier": "giveaway",
+            "t": "A giant dam on the Colorado River, finished in 1936, is named for him",
+            "k": ["colorado river", "dam", "1936"],
+            "n": 0
+        },
+        {
+            "id": "iowa-quaker",
+            "tier": "middle",
+            "t": "Born to a Quaker family in West Branch, Iowa (1874); the first president born west of the Mississippi River",
+            "k": ["west branch", "iowa", "quaker", "mississippi"],
+            "n": 0,
+            "rabbit": "Quakers"
+        },
+        {
+            "id": "engineer",
+            "tier": "middle",
+            "t": "An orphan who studied geology in Stanford’s first class and became a wealthy mining engineer, the “Great Engineer”",
+            "k": ["mining engineer", "stanford", "geology", "orphan"],
+            "n": 0
+        },
+        {
+            "id": "belgium",
+            "tier": "middle",
+            "t": "Led the Commission for Relief in Belgium in World War I, earning the nickname “Great Humanitarian”",
+            "k": ["belgium", "great humanitarian", "commission for relief"],
+            "n": 0
+        },
+        {
+            "id": "food-administration",
+            "tier": "middle",
+            "t": "Ran the U.S. Food Administration in World War I: “Meatless Mondays,” “Wheatless Wednesdays,” and a verb made from his name for saving food",
+            "k": ["food administration", "meatless mondays", "wheatless"],
+            "n": 0
+        },
+        {
+            "id": "commerce",
+            "tier": "middle",
+            "t": "Secretary of Commerce under Warren Harding and Calvin Coolidge (1921–1928)",
+            "k": ["secretary of commerce", "harding", "coolidge"],
+            "n": 0
+        },
+        {
+            "id": "flood-1927",
+            "tier": "middle",
+            "t": "Directed relief during the Great Mississippi Flood of 1927",
+            "k": ["1927", "flood", "relief"],
+            "n": 0,
+            "rabbit": "Mississippi River"
+        },
+        {
+            "id": "bonus-army",
+            "tier": "middle",
+            "t": "Bonus Army (1932): troops under Douglas MacArthur drove protesting World War I veterans from Anacostia Flats",
+            "k": ["bonus army", "macarthur", "anacostia"],
+            "n": 0
+        },
+        {
+            "id": "smoot-hawley-rfc",
+            "tier": "middle",
+            "t": "Signed the Smoot–Hawley Tariff (1930) despite a petition from more than 1,000 economists; created the Reconstruction Finance Corporation (1932)",
+            "k": ["smoot", "hawley", "reconstruction finance", "economists"],
+            "n": 0
+        },
+        {
+            "id": "al-smith",
+            "tier": "middle",
+            "t": "Defeated Al Smith, the first Catholic major-party nominee, in 1928; a Republican ad promised “a chicken in every pot”",
+            "k": ["al smith", "chicken in every pot", "1928"],
+            "n": 0
+        },
+        {
+            "id": "de-re-metallica",
+            "tier": "power",
+            "t": "With his wife, Lou Henry, translated Agricola’s Latin mining book _De re metallica_ into English (1912)",
+            "k": ["de re metallica", "agricola", "lou henry"],
+            "n": 0
+        },
+        {
+            "id": "boxer",
+            "tier": "power",
+            "t": "Trapped in Tianjin, China, during the Boxer Rebellion (1900), where he helped build barricades",
+            "k": ["tianjin", "boxer rebellion", "barricades"],
+            "n": 0
+        },
+        {
+            "id": "ara",
+            "tier": "power",
+            "t": "His American Relief Administration fed millions during the Russian famine of 1921–1923",
+            "k": ["american relief administration", "russian famine", "famine"],
+            "n": 0
+        },
+        {
+            "id": "noble-experiment",
+            "tier": "power",
+            "t": "Called Prohibition an experiment “noble in motive”; his Wickersham Commission studied how well it was enforced",
+            "k": ["noble in motive", "wickersham", "prohibition"],
+            "n": 0
+        },
+        {
+            "id": "moratorium",
+            "tier": "power",
+            "t": "Proposed a one-year pause (1931) on World War I debt and German reparation payments",
+            "k": ["one-year pause", "reparation", "1931"],
+            "n": 0
+        },
+        {
+            "id": "stimson",
+            "tier": "power",
+            "t": "His secretary of state, Henry Stimson, refused to recognize Japan’s seizure of Manchuria (the Stimson Doctrine, 1932)",
+            "k": ["stimson doctrine", "stimson", "manchuria"],
+            "n": 0
+        },
+        {
+            "id": "curtis",
+            "tier": "power",
+            "t": "His vice president, Charles Curtis, was a member of the Kaw Nation",
+            "k": ["charles curtis", "kaw", "curtis"],
+            "n": 0
+        },
+        {
+            "id": "medicine-ball",
+            "tier": "power",
+            "t": "His White House doctor invented a game with a heavy medicine ball thrown over a high net to keep him fit",
+            "k": ["medicine ball", "high net", "doctor"],
+            "n": 0
+        },
+        {
+            "id": "rapidan",
+            "tier": "power",
+            "t": "Built Rapidan Camp, a fishing retreat in Virginia’s Blue Ridge Mountains",
+            "k": ["rapidan camp", "rapidan", "blue ridge"],
+            "n": 0
+        },
+        {
+            "id": "commissions",
+            "tier": "power",
+            "t": "Led commissions to reorganize the executive branch for Truman (1947) and Eisenhower; founded a war-and-peace library at Stanford (1919)",
+            "k": ["reorganize", "truman", "eisenhower", "war-and-peace"],
+            "n": 0
+        },
+        {
+            "id": "colorado-compact",
+            "tier": "power",
+            "t": "As Commerce Secretary, led the talks for the Colorado River Compact (1922); the dam was called Boulder Dam until Congress named it for him in 1947",
+            "k": ["colorado river compact", "boulder dam", "1922", "1947"],
+            "n": 0
+        },
+        {
+            "id": "anthem",
+            "tier": "power",
+            "t": "Signed the 1931 law making “The Star-Spangled Banner” the national anthem",
+            "k": ["star-spangled banner", "national anthem", "1931"],
+            "n": 0
+        },
+        {
+            "id": "bright-with-hope",
+            "tier": "power",
+            "t": "1929 inaugural address: “I have no fears for the future of our country. It is bright with hope.”",
+            "k": ["bright with hope", "no fears", "inaugural"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Hoover?",
+        "body": "J. Edgar Hoover, the longtime director of the FBI, is a completely different man with his own answer line, and naming him on a question about the president is wrong. Hoover Dam, the “Hoovervilles,” and the Great Depression all show up in this president’s tossups, but each is a separate answer when the question asks for “this dam,” “these shantytowns,” or “this economic crisis.”",
+        "fix": "“This president” or “this man” with Belgian relief, the Food Administration, the 1927 flood, the Bonus Army, or the 1929 crash means Herbert Hoover; “this FBI director” with G-men and gangsters means J. Edgar Hoover. Saying just “Hoover” is fine for the president.",
+        "line": "Real answer line: Herbert Clark <b><u>Hoover</u></b> (do not accept “J. Edgar Hoover”)"
+    },
+    "tests": {
+        "right": [
+            "Herbert Hoover",
+            "Hoover",
+            "Herbert Clark Hoover",
+            "President Hoover",
+            "Herbert Hover",
+            "Herbert C. Hoover"
+        ],
+        "prompt": [
+            "Herbert"
+        ],
+        "wrong": [
+            "J. Edgar Hoover",
+            "Hoover Dam",
+            "Hoovervilles",
+            "Franklin Roosevelt",
+            "Calvin Coolidge",
+            "Al Smith",
+            "Herbert Hoover Jr.",
+            "Joseph Hooker"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

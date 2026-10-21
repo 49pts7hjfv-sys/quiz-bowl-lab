@@ -49,7 +49,9 @@ data = {
         "antihydrogen",
         "anti hydrogen",
         "antiatom",
-        "antiatoms"
+        "antiatoms",
+        "antiquark",
+        "antiquarks"
     ],
     "reject": [
         "dark matter",

@@ -52,13 +52,9 @@ data = {
         "waimangu",
         "pohutu",
         "el tatio",
-        "yellowstone",
-        "yellowstone national park",
         "sinter",
         "geyserite",
-        "artesian well",
-        "magma",
-        "steam"
+        "artesian well"
     ],
     "media": [],
     "mediaPending": True,
@@ -106,8 +102,8 @@ data = {
             "r": "They need underground heat, water, and narrow passages that trap pressure. For 10 points, name these hot springs that erupt periodically, including Old Faithful."
         },
         {
-            "p": "A pale crust of silica called sinter builds up around the openings of these features, and heat-loving microbes living in their runoff can paint the ground orange and green.",
-            "r": "Cone types shoot narrow jets, while fountain types burst out of pools. For 10 points, name these hot springs that periodically erupt, like Old Faithful."
+            "p": "A pale crust of silica called sinter builds up around the openings of these features, and heat-loving microbes living in their runoff can paint the ground orange and green. Cone types shoot narrow jets of water.",
+            "r": "Fountain types burst out of pools instead. For 10 points, name these hot springs that periodically erupt, like Old Faithful."
         },
         {
             "p": "Yellowstone’s Grand, the tallest of these features whose eruptions can be predicted, bursts out of a pool, making it a fountain type rather than a cone type. Steamboat, also in Yellowstone, can shoot water more than 90 meters high.",
@@ -331,7 +327,8 @@ data = {
             "geyser",
             "Gyser",
             "Cone geyser",
-            "fountain geysers"
+            "fountain geysers",
+            "Yellowstone geysers"
         ],
         "prompt": [],
         "wrong": [

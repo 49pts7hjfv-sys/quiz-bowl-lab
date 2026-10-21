@@ -191,7 +191,7 @@ data = {
         {
             "id": "loop-current",
             "tier": "middle",
-            "t": "Its warm Loop Current enters through the Yucatán Channel, exits through the Straits of Florida, and feeds the Gulf Stream",
+            "t": "Its warm Loop Current enters through the Yucatán Channel and exits through the Straits of Florida as the Florida Current",
             "k": ["loop current", "yucatán channel", "straits of florida"],
             "n": 0,
             "rabbit": "Ocean currents"

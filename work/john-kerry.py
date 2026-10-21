@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "john-kerry",
     "name": "John Kerry",
-    "mono": "JFK",
+    "mono": "JK",
     "category": "American History",
     "qbCategory": "History · American History",
     "kicker": "Secretary of State, 2013–2017 · 2004 Democratic presidential nominee",
@@ -87,7 +87,7 @@ data = {
             "r": "For 10 points, name this Massachusetts senator who was the Democratic nominee for president in 2004."
         },
         {
-            "p": "Like George W. Bush, this man belonged to the Yale secret society Skull and Bones, and both men graduated from Yale in the 1960s. After graduating in 1966, this man joined the Navy.",
+            "p": "Like George W. Bush, this man belonged to the Yale secret society Skull and Bones, and both men graduated from Yale in the 1960s. After graduating in 1966, this man went on active duty in the Navy.",
             "r": "In 2004, he lost the presidential election to Bush. For 10 points, name this Massachusetts Democrat who later served as Secretary of State."
         },
         {
@@ -104,7 +104,7 @@ data = {
         },
         {
             "p": "From 1983 to 1985, this man served as lieutenant governor of Massachusetts under Michael Dukakis, the Democrats’ 1988 presidential nominee. In 1984, he won the U.S. Senate seat left open when Paul Tsongas retired.",
-            "r": "For 10 points, name this senator who became the Democrats’ presidential nominee himself in 2004."
+            "r": "For 10 points, name this senator who became the Democrats’ presidential nominee himself in 2004, losing to George W. Bush."
         },
         {
             "p": "In the early 1990s, this senator chaired a committee that found no compelling evidence that American prisoners of war were still alive in Southeast Asia. He and fellow Vietnam veteran John McCain then pushed for normal relations with Vietnam, which began in 1995.",

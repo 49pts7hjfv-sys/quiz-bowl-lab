@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 data = {
     "id": "strom-thurmond",
     "name": "Strom Thurmond",
-    "mono": "ST",
+    "mono": "JST",
     "category": "American History",
     "qbCategory": "History · American History",
     "kicker": "South Carolina senator (1954–2003) · 1948 Dixiecrat presidential nominee",
