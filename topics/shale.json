@@ -1,0 +1,463 @@
+{
+  "id": "shale",
+  "name": "Shale",
+  "mono": "SH",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Fine-grained rock of hardened mud · Splits into thin, flat layers",
+  "dates": "The most common sedimentary rock",
+  "briefing": "Shale is a soft, fine-grained rock made of mud: tiny flakes of clay and grains of silt that settled in quiet water and were pressed into thin layers. It is the most common sedimentary rock, and it splits easily into sheets. Dark shales rich in ancient plankton are the source of much of the world’s oil and natural gas, and Canada’s Burgess Shale preserves some of the most famous fossils on Earth.",
+  "answerHtml": "<b><u>Shale</u></b> (accept <u>oil shale</u> or <u>black shale</u>; prompt on <u>mudstone</u>, <u>mudrock</u>, or <u>sedimentary rock</u>; do not accept “slate,” “schist,” or “shale gas”)",
+  "accept": [
+    "shale",
+    "shales",
+    "shale rock",
+    "shale rocks",
+    "oil shale",
+    "oil shales",
+    "black shale",
+    "black shales",
+    "gas shale"
+  ],
+  "prompt": [
+    "mudstone",
+    "mudstones",
+    "mudrock",
+    "mudrocks",
+    "mud rock",
+    "claystone",
+    "sedimentary rock",
+    "sedimentary rocks",
+    "sedimentary",
+    "clastic rock",
+    "clastic rocks",
+    "clastic sedimentary rock",
+    "detrital rock"
+  ],
+  "reject": [
+    "slate",
+    "schist",
+    "phyllite",
+    "gneiss",
+    "sandstone",
+    "siltstone",
+    "limestone",
+    "conglomerate",
+    "breccia",
+    "coal",
+    "chert",
+    "marble",
+    "clay",
+    "mud",
+    "silt",
+    "shale gas",
+    "shale oil",
+    "natural gas",
+    "oil",
+    "petroleum",
+    "kerogen",
+    "fracking",
+    "hydraulic fracturing",
+    "igneous rock",
+    "igneous rocks",
+    "metamorphic rock",
+    "metamorphic rocks",
+    "basalt",
+    "granite"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Shale",
+  "qb": {
+    "q": "shale",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1909, Charles Walcott discovered a layer of this rock high in British Columbia’s Yoho National Park that preserves soft-bodied Cambrian animals like five-eyed Opabinia. Stephen Jay Gould’s book _Wonderful Life_ describes the strange creatures from that layer, which is named for nearby Mount Burgess.",
+      "r": "This rock splits easily into thin sheets. For 10 points, name this common sedimentary rock made of hardened mud."
+    },
+    {
+      "p": "Fossils from this rock near Holzmaden, Germany, show that Jurassic ichthyosaurs gave birth to live young, and some even preserve the outline of their skin. Germany’s Messel Pit, an old quarry of an oil-rich kind of this rock, holds fossils of tiny early horses from about 47 million years ago.",
+      "r": "Heat and pressure turn this rock into slate. For 10 points, name this fine-grained sedimentary rock that splits into thin layers."
+    },
+    {
+      "p": "The Green River Formation of Colorado, Utah, and Wyoming holds the world’s largest known deposits of the oil-rich kind of this rock, along with huge numbers of fossil fish such as Knightia, Wyoming’s state fossil. Heating that kind of this rock releases oil from a solid organic material called kerogen.",
+      "r": "This rock forms from mud that settles in quiet water. For 10 points, name this most common sedimentary rock."
+    },
+    {
+      "p": "In the late 1990s, George Mitchell’s company found a cheaper way to crack Texas’s Barnett formation of this rock with high-pressure water, sand, and chemicals, starting a boom in natural gas. Combining that method with horizontal drilling later opened up Pennsylvania’s Marcellus formation of this rock.",
+      "r": "That process, hydraulic fracturing, is nicknamed fracking. For 10 points, name this fine-grained sedimentary rock that holds trapped natural gas."
+    },
+    {
+      "p": "China’s Chengjiang [“chung-jyahng”] fossils, found in layers of this rock in Yunnan Province, preserve soft-bodied animals about 10 million years older than Canada’s Burgess fossils. Mud buried those animals so quickly that even their soft parts were preserved.",
+      "r": "This rock forms from compacted clay and silt. For 10 points, name this rock that splits into thin layers and turns into slate under heat and pressure."
+    },
+    {
+      "p": "Geologists call this rock’s habit of splitting along thin, parallel layers fissility, and that property separates it from mudstone, a similar rock that breaks into blocky chunks. Its grains, mostly flakes of clay minerals with some silt, are too small to see with the naked eye.",
+      "r": "It is the most common sedimentary rock on Earth. For 10 points, name this rock made of compacted mud."
+    },
+    {
+      "p": "Slate made from this rock splits along a new direction called slaty cleavage, which often cuts across this rock’s original layers. With more heat and pressure, this rock can keep changing into phyllite [“FILL-ite”], then schist [“SHIST”], and finally gneiss [“NICE”].",
+      "r": "Before it changes, this rock splits easily along its own thin layers. For 10 points, name this most common sedimentary rock, made of hardened mud."
+    },
+    {
+      "p": "This rock is black when it holds lots of carbon from ancient plankton and plants, and red or purple when it holds rusty iron minerals like hematite. Its dark, carbon-rich kinds are the source rocks for much of the world’s oil and natural gas.",
+      "r": "It forms from mud that settles slowly in calm water, such as lake bottoms and deep seafloors. For 10 points, name this fine-grained sedimentary rock."
+    },
+    {
+      "p": "Because oil and water cannot easily flow through its tightly packed clay flakes, this rock often acts as a seal, or cap rock, that traps oil and natural gas in more porous sandstone beneath it. Weathering breaks this rock down into clay-rich soil.",
+      "r": "Heat and pressure turn this rock into slate. For 10 points, name this common sedimentary rock made of compacted mud."
+    },
+    {
+      "p": "Marrella, a small arthropod with long sweeping spines, is the most common animal in a famous fossil bed made of this rock, where underwater mudflows buried creatures so quickly that even their soft parts were preserved. The early chordate Pikaia also comes from that fossil bed in the Canadian Rockies.",
+      "r": "That fossil bed is named for Mount Burgess. For 10 points, name this dark, fine-grained rock that splits into thin layers."
+    },
+    {
+      "p": "This rock belongs to the mudrocks, whose grains are finer than about one-sixteenth of a millimeter, the boundary between silt and sand on the Wentworth scale. Its tiny clay flakes settle only in quiet water, so it often forms on deep seafloors, lake bottoms, and river floodplains.",
+      "r": "Sandstone forms from coarser grains, but this rock forms from mud. For 10 points, name this rock that splits easily into thin layers."
+    },
+    {
+      "p": "In the Grand Canyon, the soft, greenish Bright Angel layer of this rock holds Cambrian trilobite fossils and burrows. Because this rock crumbles more easily than the sandstone and limestone around it, its layers wear back into gentle slopes between steep cliffs.",
+      "r": "Its grains are tiny flakes of clay pressed together. For 10 points, name this most common sedimentary rock."
+    },
+    {
+      "p": "North Dakota’s Bakken formation, which includes two dark layers of this rock, became one of the biggest oil-producing areas in the United States during the 2010s. Supporters of drilling in this rock point to cheaper energy and jobs, while critics worry about water supplies and earthquakes linked to disposing of wastewater underground.",
+      "r": "Hydraulic fracturing, or fracking, cracks this rock to free trapped oil and natural gas. For 10 points, name this fine-grained sedimentary rock."
+    },
+    {
+      "p": "Colorado’s Florissant Fossil Beds preserve delicate insects, spiders, and leaves in paper-thin layers of this rock that formed in an ancient lake about 34 million years ago. Estonia burned an oil-rich kind of this rock for decades to make most of its electricity.",
+      "r": "This rock splits easily into thin sheets, a property called fissility. For 10 points, name this most common sedimentary rock."
+    },
+    {
+      "p": "Clay minerals such as illite [“ILL-ite”] and kaolinite [“KAY-uh-lih-nite”] make up much of this rock, along with tiny grains of quartz. Ground up and mixed with limestone, this rock helps make Portland cement, and it is also fired to make bricks.",
+      "r": "This rock forms from hardened mud and splits into thin layers. For 10 points, name this most common sedimentary rock."
+    }
+  ],
+  "clues": [
+    {
+      "id": "hardened-mud",
+      "tier": "giveaway",
+      "t": "A fine-grained sedimentary rock made of compacted mud: tiny flakes of clay and grains of silt",
+      "k": [
+        "fine-grained",
+        "mud",
+        "clay",
+        "silt"
+      ],
+      "n": 0
+    },
+    {
+      "id": "most-common",
+      "tier": "giveaway",
+      "t": "The most common sedimentary rock on Earth",
+      "k": [
+        "most common"
+      ],
+      "n": 0,
+      "rabbit": "Sedimentary rocks"
+    },
+    {
+      "id": "fissility",
+      "tier": "giveaway",
+      "t": "Splits easily into thin, flat layers, a property called fissility",
+      "k": [
+        "fissility",
+        "thin",
+        "layers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slate",
+      "tier": "giveaway",
+      "t": "Heat and pressure metamorphose it into slate",
+      "k": [
+        "slate",
+        "metamorphose"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fracking",
+      "tier": "giveaway",
+      "t": "Hydraulic fracturing (fracking) cracks it with high-pressure water and sand to free trapped natural gas and oil",
+      "k": [
+        "fracking",
+        "hydraulic fracturing",
+        "natural gas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mudstone",
+      "tier": "middle",
+      "t": "Unlike mudstone, which breaks into blocky chunks, it splits along its layers",
+      "k": [
+        "mudstone",
+        "blocky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calm-water",
+      "tier": "middle",
+      "t": "Forms where mud settles slowly in calm water: deep seafloors, lake bottoms, lagoons, and floodplains",
+      "k": [
+        "calm water",
+        "seafloors",
+        "floodplains"
+      ],
+      "n": 0
+    },
+    {
+      "id": "metamorphic-series",
+      "tier": "middle",
+      "t": "With more and more heat and pressure it becomes slate, then phyllite, then schist, and finally gneiss",
+      "k": [
+        "phyllite",
+        "schist",
+        "gneiss"
+      ],
+      "n": 0
+    },
+    {
+      "id": "black-red",
+      "tier": "middle",
+      "t": "Black kinds are rich in carbon from ancient plankton and are source rocks for oil and gas; red kinds hold rusty iron minerals",
+      "k": [
+        "source rocks",
+        "plankton",
+        "black",
+        "iron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cap-rock",
+      "tier": "middle",
+      "t": "Fluids pass through it only very slowly, so it acts as a seal, or cap rock, trapping oil and gas below",
+      "k": [
+        "cap rock",
+        "seal",
+        "trapping"
+      ],
+      "n": 0
+    },
+    {
+      "id": "burgess",
+      "tier": "middle",
+      "t": "The Burgess fossil bed, in British Columbia’s Yoho National Park, is a famous Cambrian example full of soft-bodied animals",
+      "k": [
+        "burgess",
+        "yoho",
+        "cambrian"
+      ],
+      "n": 0,
+      "rabbit": "Cambrian period"
+    },
+    {
+      "id": "kerogen",
+      "tier": "middle",
+      "t": "Oil-rich kinds hold kerogen, a solid organic material that heating turns into liquid fuel",
+      "k": [
+        "kerogen",
+        "oil-rich",
+        "heating"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bricks-cement",
+      "tier": "middle",
+      "t": "Ground up and fired to make bricks, and mixed with limestone to make Portland cement",
+      "k": [
+        "bricks",
+        "portland cement"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walcott",
+      "tier": "power",
+      "t": "Charles Walcott discovered the Burgess fossil bed in 1909; its animals include five-eyed Opabinia",
+      "k": [
+        "walcott",
+        "1909",
+        "opabinia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wonderful-life",
+      "tier": "power",
+      "t": "Stephen Jay Gould’s book _Wonderful Life_ (1989) is about the Burgess fossils",
+      "k": [
+        "gould",
+        "wonderful life",
+        "1989"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marrella-pikaia",
+      "tier": "power",
+      "t": "Marrella is the most common Burgess animal, and the early chordate Pikaia also comes from there",
+      "k": [
+        "marrella",
+        "pikaia"
+      ],
+      "n": 0,
+      "rabbit": "Chordates"
+    },
+    {
+      "id": "chengjiang",
+      "tier": "power",
+      "t": "China’s Chengjiang fossils, in Yunnan, are preserved in it and are about 10 million years older than the Burgess fossils",
+      "k": [
+        "chengjiang",
+        "yunnan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "holzmaden",
+      "tier": "power",
+      "t": "Fossils in it near Holzmaden, Germany, show Jurassic ichthyosaurs giving birth to live young",
+      "k": [
+        "holzmaden",
+        "ichthyosaurs"
+      ],
+      "n": 0,
+      "rabbit": "Jurassic period"
+    },
+    {
+      "id": "messel",
+      "tier": "power",
+      "t": "Germany’s Messel Pit, an old quarry of an oil-rich kind, holds 47-million-year-old fossils such as tiny early horses",
+      "k": [
+        "messel",
+        "early horses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "green-river",
+      "tier": "power",
+      "t": "The Green River Formation (Colorado, Utah, Wyoming) has the largest known oil-rich deposits of it, plus fossil fish like Knightia",
+      "k": [
+        "green river",
+        "knightia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mitchell-barnett",
+      "tier": "power",
+      "t": "George Mitchell’s company made fracking cheaper in Texas’s Barnett formation in the late 1990s; Pennsylvania’s Marcellus formation followed",
+      "k": [
+        "mitchell",
+        "barnett",
+        "marcellus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bakken-debate",
+      "tier": "power",
+      "t": "North Dakota’s Bakken formation boomed in the 2010s; supporters cite cheaper energy, critics cite water and earthquake worries",
+      "k": [
+        "bakken",
+        "north dakota",
+        "earthquake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "florissant-estonia",
+      "tier": "power",
+      "t": "Colorado’s Florissant Fossil Beds keep insects in paper-thin layers of it; Estonia burned an oil-rich kind for most of its electricity",
+      "k": [
+        "florissant",
+        "paper-thin",
+        "estonia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bright-angel",
+      "tier": "power",
+      "t": "The Grand Canyon’s greenish Bright Angel layer of it holds Cambrian trilobites and wears back into gentle slopes",
+      "k": [
+        "bright angel",
+        "trilobites",
+        "slopes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "illite",
+      "tier": "power",
+      "t": "Its clay minerals include illite and kaolinite, mixed with tiny quartz grains",
+      "k": [
+        "illite",
+        "kaolinite",
+        "quartz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mudrock-size",
+      "tier": "power",
+      "t": "A mudrock: its grains are finer than about 1/16 millimeter, the silt–sand boundary on the Wentworth scale",
+      "k": [
+        "mudrock",
+        "wentworth",
+        "millimeter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slaty-cleavage",
+      "tier": "power",
+      "t": "Slate made from it splits along slaty cleavage, which often cuts across the original layers",
+      "k": [
+        "slaty cleavage",
+        "original layers"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Shale, slate, or schist?",
+    "body": "Shale’s stock clue is that heat and pressure turn it into slate, so players who hear “slate” or “thin sheets” sometimes answer with the metamorphic rock instead. Slate, phyllite, schist, and gneiss are all different answer lines. Saying only “sedimentary rock” or “mudstone” earns a prompt, because the question wants this one rock.",
+    "fix": "Mud, clay, fissility, fracking for natural gas, black source rocks, and the Burgess fossils mean shale. Metamorphism, roofing tiles, chalkboards, and slaty cleavage mean slate. If you are prompted, say “shale.”",
+    "line": "Real answer line: <b><u>Shale</u></b> (accept oil shale; prompt on mudstone or sedimentary rock; do not accept “slate”)"
+  },
+  "tests": {
+    "right": [
+      "Shale",
+      "shale",
+      "Oil shale",
+      "Black shale",
+      "Shalle"
+    ],
+    "prompt": [
+      "Mudstone",
+      "Sedimentary rock"
+    ],
+    "wrong": [
+      "Slate",
+      "Schist",
+      "Sandstone",
+      "Shale gas",
+      "Natural gas",
+      "Clay"
+    ]
+  }
+}

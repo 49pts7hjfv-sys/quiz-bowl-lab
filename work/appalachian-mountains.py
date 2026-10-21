@@ -192,7 +192,7 @@ data = {
         {
             "id": "coal",
             "tier": "middle",
-            "t": "Rich coal deposits made mining the great industry of West Virginia, eastern Kentucky, and western Pennsylvania",
+            "t": "Rich coal deposits made mining a leading industry in West Virginia, eastern Kentucky, and western Pennsylvania",
             "k": ["coal", "mining", "west virginia"],
             "n": 0
         },
@@ -292,7 +292,7 @@ data = {
         {
             "id": "inez",
             "tier": "power",
-            "t": "Lyndon Johnson launched his War on Poverty in Inez, Kentucky (1964); a regional commission named for the range followed in 1965",
+            "t": "Lyndon Johnson visited Inez, Kentucky, to promote his War on Poverty (1964); a regional commission named for the range followed in 1965",
             "k": ["war on poverty", "inez", "lyndon johnson", "1965"],
             "n": 0
         },
