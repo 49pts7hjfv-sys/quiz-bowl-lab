@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Branch that carries out the laws · Led by the president under Article II",
   "dates": "Since 1789",
-  "briefing": "Congress writes the nation’s laws, but the executive branch carries them out. Article II of the Constitution puts the president in charge of it as commander in chief, with power to veto bills, make treaties with the Senate’s approval, grant pardons, and issue executive orders. The vice president, the 15 departments whose heads make up the Cabinet, and agencies from NASA to the FBI all belong to it.",
+  "briefing": "Congress writes the nation’s laws, but the executive branch carries them out. Article II of the Constitution puts the president in charge of it and makes the president commander in chief; the president can also veto bills, make treaties with the Senate’s approval, grant pardons, and issue executive orders. The vice president, the 15 departments whose heads make up most of the Cabinet, and agencies from NASA to the FBI all belong to it.",
   "answerHtml": "<b><u>Executive</u></b> branch (accept the <u>executive</u>; prompt on the <u>president</u> or <u>presidency</u>; do not accept “legislative branch,” “judicial branch,” or “Cabinet”)",
   "accept": [
     "executive branch",
@@ -81,7 +81,7 @@
       "r": "Article II of the Constitution created this branch. For 10 points, name this branch of government headed by the president."
     },
     {
-      "p": "A 1937 report by the Brownlow Committee declared that “the President needs help.” Two years later, Franklin Roosevelt created a new office of advisers for the leader of this branch, including the Bureau of the Budget.",
+      "p": "A 1937 report by the Brownlow Committee declared that “the President needs help.” Two years later, Franklin Roosevelt created a new office of advisers for the leader of this branch and moved the Bureau of the Budget into it.",
       "r": "That bureau later became the Office of Management and Budget. For 10 points, name this branch of government that carries out the laws."
     },
     {
@@ -113,7 +113,7 @@
       "r": "Ford had taken over this branch’s top job when Nixon resigned. For 10 points, name this branch of government that carries out the laws."
     },
     {
-      "p": "The Articles of Confederation created no separate branch of this kind, so the national government had no one to carry out its laws. At the Constitutional Convention, delegates argued over whether this branch should be led by one person or by a council of several people.",
+      "p": "The Articles of Confederation created no separate branch of this kind, so no single leader was in charge of carrying out the national government’s laws. At the Constitutional Convention, delegates argued over whether this branch should be led by one person or by a council of several people.",
       "r": "They chose one person, the president. For 10 points, name this branch created by Article II."
     },
     {
@@ -274,11 +274,11 @@
     {
       "id": "advisers-1939",
       "tier": "middle",
-      "t": "In 1939, Franklin Roosevelt created a new office of advisers for the president, which holds the White House staff and the budget office",
+      "t": "In 1939, Franklin Roosevelt created a new office of advisers for the president and moved the Bureau of the Budget (later the Office of Management and Budget) into it",
       "k": [
         "1939",
         "advisers",
-        "white house"
+        "bureau of the budget"
       ],
       "n": 0
     },
@@ -298,11 +298,10 @@
     {
       "id": "brownlow",
       "tier": "power",
-      "t": "Brownlow Committee (1937): “the President needs help”; its Bureau of the Budget later became the Office of Management and Budget",
+      "t": "Brownlow Committee report (1937): “the President needs help”",
       "k": [
         "brownlow",
-        "needs help",
-        "bureau of the budget"
+        "needs help"
       ],
       "n": 0
     },

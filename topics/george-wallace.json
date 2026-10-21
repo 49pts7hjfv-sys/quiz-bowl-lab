@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Alabama governor who fought desegregation · Ran for president four times",
   "dates": "1919–1998",
-  "briefing": "George Wallace became governor of Alabama in 1963 and promised “segregation now, segregation tomorrow, segregation forever,” and that June he stood in a doorway at the University of Alabama to block two Black students until federalized National Guard troops arrived. He ran for president four times, and in 1972 a gunman shot him in Maryland, leaving him paralyzed. In his later years, he said he had been wrong about segregation and asked for forgiveness.",
+  "briefing": "George Wallace became governor of Alabama in 1963 vowing to defend segregation, and that June he stood in a doorway at the University of Alabama to block two Black students until federalized National Guard troops arrived. He ran for president four times, and in 1972 a gunman shot him in Maryland, leaving him paralyzed. In his later years, he said he had been wrong about segregation and asked for forgiveness.",
   "answerHtml": "George <b><u>Wallace</u></b> (accept George Corley <u>Wallace</u> Jr.; do not accept “Lurleen Wallace”)",
   "accept": [
     "george wallace",
@@ -77,7 +77,7 @@
   "tossups": [
     {
       "p": "As a teenager, this man won a state Golden Gloves boxing championship. After earning a law degree from the University of Alabama in 1942, he served as a flight engineer on B-29 bombers in the Pacific during World War II.",
-      "r": "For 10 points, name this Alabama governor who promised “segregation now, segregation tomorrow, segregation forever.”"
+      "r": "For 10 points, name this Alabama governor who ran for president as a third-party candidate in 1968."
     },
     {
       "p": "In June 1963, Deputy Attorney General Nicholas Katzenbach [“KATS-en-bahk”] confronted this man outside Foster Auditorium in Tuscaloosa, where he was trying to keep two Black students, Vivian Malone and James Hood, from enrolling.",
@@ -97,10 +97,10 @@
     },
     {
       "p": "In March 1965, this governor ordered Alabama state troopers to stop a voting rights march from Selma to Montgomery, and the troopers attacked the marchers at the Edmund Pettus Bridge on “Bloody Sunday.” Later that month, the march went ahead under federal protection.",
-      "r": "For 10 points, name this Alabama governor who had promised “segregation now, segregation tomorrow, segregation forever.”"
+      "r": "For 10 points, name this Alabama governor, who had made the “Stand in the Schoolhouse Door” two years earlier."
     },
     {
-      "p": "Federal judge Frank Johnson, who had been this man’s classmate at the University of Alabama’s law school, ruled in a 1965 case bearing this man’s name that the Selma-to-Montgomery march could go forward.",
+      "p": "Federal judge Frank Johnson, who had been in law school with this man at the University of Alabama, ruled in a 1965 case bearing this man’s name that the Selma-to-Montgomery march could go forward.",
       "r": "The march ended at the state capitol in Montgomery. For 10 points, name this Alabama governor who had tried to stop it."
     },
     {
@@ -109,14 +109,14 @@
     },
     {
       "p": "This former state circuit judge lost the 1958 race for governor of Alabama to John Patterson. After that defeat, he took a hard-line stand for segregation and won the governorship four years later.",
-      "r": "For 10 points, name this man who became Alabama’s governor in January 1963 and promised “segregation now, segregation tomorrow, segregation forever.”"
+      "r": "For 10 points, name this man who became Alabama’s governor in January 1963 and later ran for president four times."
     },
     {
       "p": "On the evening of June 11, 1963, hours after this man ended a standoff with federal officials, President John F. Kennedy gave a televised speech calling for a new civil rights law. That law, the Civil Rights Act, was signed the next year by Lyndon Johnson.",
       "r": "For 10 points, name this governor who had tried to block two Black students from enrolling at the University of Alabama."
     },
     {
-      "p": "In 1964, this man made his first run for president, winning roughly a third of the vote in the Democratic primaries in Wisconsin and Indiana and even more in Maryland. Those results showed that his message had support outside the South.",
+      "p": "In 1964, this man made his first run for president, winning close to a third of the vote in the Democratic primaries in Wisconsin and Indiana and even more in Maryland. Those results showed that his message had support outside the South.",
       "r": "For 10 points, name this Alabama governor who later ran for president in 1968, 1972, and 1976."
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "p": "In January 1963, this man gave his first inaugural address as governor at the state capitol in Montgomery, standing on a star that marked the spot where Jefferson Davis had been sworn in as Confederate president.",
-      "r": "In that speech, he promised “segregation now, segregation tomorrow, segregation forever.” For 10 points, name this governor."
+      "r": "In that speech, he vowed to defend segregation. That June, he made the “Stand in the Schoolhouse Door.” For 10 points, name this Alabama governor."
     },
     {
       "p": "Brigadier General Henry Graham of the Alabama National Guard asked this man to step aside after President Kennedy placed the Guard under federal control. This man then left the doorway he had been blocking at Foster Auditorium.",
@@ -140,10 +140,10 @@
     {
       "id": "segregation-forever",
       "tier": "giveaway",
-      "t": "Governor of Alabama whose 1963 inaugural address promised “segregation now, segregation tomorrow, segregation forever”",
+      "t": "Governor of Alabama whose 1963 inaugural address declared “segregation now, segregation tomorrow, segregation forever”",
       "k": [
-        "segregation forever",
-        "inaugural",
+        "inaugural address",
+        "1963",
         "alabama"
       ],
       "n": 0
@@ -339,17 +339,17 @@
     {
       "id": "frank-johnson",
       "tier": "power",
-      "t": "Judge Frank Johnson, his law school classmate, ruled in a 1965 case bearing his name that the Selma march could go on",
+      "t": "Judge Frank Johnson, who had been in law school with him, ruled in a 1965 case bearing his name that the Selma march could go on",
       "k": [
         "frank johnson",
-        "classmate"
+        "law school"
       ],
       "n": 0
     },
     {
       "id": "jfk-speech",
       "tier": "power",
-      "t": "That same evening (June 11, 1963), President Kennedy gave a televised speech calling for a civil rights law",
+      "t": "On the evening of his stand (June 11, 1963), President Kennedy gave a televised speech calling for a civil rights law",
       "k": [
         "june 11, 1963",
         "televised",
@@ -380,7 +380,7 @@
     {
       "id": "primaries-1964",
       "tier": "power",
-      "t": "In 1964, won roughly a third of the vote in the Wisconsin and Indiana Democratic primaries",
+      "t": "In 1964, won close to a third of the vote in the Wisconsin and Indiana Democratic primaries",
       "k": [
         "wisconsin",
         "indiana"

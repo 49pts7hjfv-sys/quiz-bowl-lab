@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Senate Majority Leader (2007–2015) · Nevada Democrat from Searchlight",
   "dates": "1939–2021",
-  "briefing": "Harry Reid grew up in Searchlight, a tiny Nevada mining town, boxed as an amateur, and worked as a U.S. Capitol Police officer to help pay for law school. He represented Nevada in the U.S. Senate from 1987 to 2017 and was Senate Majority Leader from 2007 to 2015. In 2013 he led the “nuclear option” rules change for nominations, and in 2021, shortly before his death, Las Vegas renamed its airport Harry Reid International Airport.",
-  "answerHtml": "Harry <b><u>Reid</u></b> (accept Harry Mason <u>Reid</u>; prompt on “Harry” alone)",
+  "briefing": "Harry Reid grew up in Searchlight, a tiny Nevada mining town, boxed as an amateur, and worked as a U.S. Capitol Police officer to help pay for law school. He represented Nevada in the U.S. Senate from 1987 to 2017 and was Senate Majority Leader from 2007 to 2015. In 2013 he led the “nuclear option” rules change for nominations, and in 2021, shortly before his death, Las Vegas’s main airport was renamed Harry Reid International Airport.",
+  "answerHtml": "Harry <b><u>Reid</u></b> (accept Harry Mason <u>Reid</u>)",
   "accept": [
     "harry reid",
     "harry mason reid",
@@ -16,9 +16,7 @@
     "senator reid",
     "senator harry reid"
   ],
-  "prompt": [
-    "harry"
-  ],
+  "prompt": [],
   "reject": [
     "harry s truman",
     "harry truman",
@@ -89,7 +87,7 @@
     },
     {
       "p": "In January 2022, this former senator lay in state in the Rotunda of the U.S. Capitol, the building where he had once worked as a police officer. He had died in December 2021 in Henderson, Nevada.",
-      "r": "Weeks earlier, Las Vegas had renamed its main airport for him. For 10 points, name this Senate Majority Leader from 2007 to 2015."
+      "r": "Weeks earlier, the main Las Vegas airport had been renamed for him. For 10 points, name this Senate Majority Leader from 2007 to 2015."
     },
     {
       "p": "This man served as Nevada’s lieutenant governor from 1971 to 1975, and in 1974 he narrowly lost a U.S. Senate race to Republican Paul Laxalt. He won that same Senate seat in 1986, after Laxalt retired.",
@@ -396,8 +394,8 @@
   ],
   "trap": {
     "title": "Which Senate leader?",
-    "body": "Several modern Senate leaders show up in quiz bowl, and their clues blur together. Harry Reid of Nevada led Senate Democrats from 2005 to 2017; Mitch McConnell of Kentucky, his Republican counterpart, took over as Majority Leader in 2015; and Chuck Schumer of New York followed Reid as Democratic leader in 2017. Nancy Pelosi, who was Speaker of the House while Reid was Majority Leader, led the other chamber of Congress.",
-    "fix": "Nevada, Searchlight, boxing, Yucca Mountain, the Capitol Police, and the Las Vegas airport mean Reid. If a question asks for the 2013 rules change, the answer is the “nuclear option,” and if it asks for the delaying tactic that change limited, the answer is the filibuster. Don’t confuse him with Harry Truman or with Senator Jack Reed of Rhode Island.",
+    "body": "Several modern Senate leaders show up in quiz bowl, and their clues blur together. Harry Reid of Nevada led Senate Democrats from 2005 to 2017; Mitch McConnell of Kentucky, his Republican counterpart, took over as Majority Leader in 2015; and Chuck Schumer of New York followed Reid as Democratic leader in 2017. Nancy Pelosi, who was Speaker of the House from 2007 to 2011 while Reid was Majority Leader, led the other chamber of Congress.",
+    "fix": "Nevada, Searchlight, boxing, Yucca Mountain, the Capitol Police, and the Las Vegas airport mean Reid. If a question asks for the 2013 rules change, the answer is the “nuclear option,” and if it asks for the delaying tactic that change limited, the answer is the filibuster. Don’t confuse him with Harry Truman or with Jack Reed, who became a senator from Rhode Island in 1997.",
     "line": "Real answer line: Harry <b><u>Reid</u></b> (accept Harry Mason <u>Reid</u>)"
   },
   "tests": {
@@ -408,9 +406,7 @@
       "Harry Mason Reid",
       "Harry Reed"
     ],
-    "prompt": [
-      "Harry"
-    ],
+    "prompt": [],
     "wrong": [
       "Harry Truman",
       "Mitch McConnell",

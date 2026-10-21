@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Union general nicknamed the “Young Napoleon” · Lost to Lincoln in 1864",
   "dates": "1826–1885",
-  "briefing": "George McClellan was skilled at building an army: after the Union defeat at Bull Run in 1861, he turned thousands of raw recruits into the well-trained Army of the Potomac, and his soldiers loved him. But he was so cautious that Abraham Lincoln complained he had “the slows.” After McClellan failed to chase Robert E. Lee’s army following Antietam, Lincoln removed him, and in 1864 McClellan ran against Lincoln for president and lost.",
-  "answerHtml": "George B. <b><u>McClellan</u></b> (accept George Brinton <u>McClellan</u>; prompt on “Little Mac”)",
+  "briefing": "George McClellan was skilled at building an army: after the Union defeat at Bull Run in 1861, he turned thousands of raw recruits into the well-trained Army of the Potomac, and his soldiers loved him. But he was so cautious that Abraham Lincoln reportedly complained he had “the slows.” After McClellan failed to chase Robert E. Lee’s army following Antietam, Lincoln removed him, and in 1864 McClellan ran against Lincoln for president and lost.",
+  "answerHtml": "George B. <b><u>McClellan</u></b> (accept George Brinton <u>McClellan</u>; prompt on “Little Mac” or “Young Napoleon”)",
   "accept": [
     "george mcclellan",
     "george b mcclellan",
@@ -98,7 +98,7 @@
       "r": "For 10 points, name this Union commander at the Battle of Antietam, whom Lincoln removed weeks later."
     },
     {
-      "p": "When this general complained that his cavalry horses were tired and had sore tongues, Abraham Lincoln asked by telegram what those horses had done since the army’s last battle “that fatigue anything.” Lincoln also complained that this general had “the slows.”",
+      "p": "When this general complained that his cavalry horses were tired and had sore tongues, Abraham Lincoln asked by telegram what those horses had done since the army’s last battle “that fatigue anything.” Lincoln is also said to have complained that this general had “the slows.”",
       "r": "Lincoln removed him from command in November 1862. For 10 points, name this general."
     },
     {
@@ -209,7 +209,7 @@
     {
       "id": "slows",
       "tier": "middle",
-      "t": "Lincoln complained that he had “the slows”",
+      "t": "Lincoln reportedly complained that he had “the slows”",
       "k": [
         "the slows",
         "slows"
@@ -416,7 +416,7 @@
     "title": "Which Union general?",
     "body": "Abraham Lincoln went through several top generals in the East, and their clues blur together. Irvin McDowell lost at First Bull Run; McClellan led the Peninsula Campaign and fought at Antietam; John Pope lost at Second Bull Run; Ambrose Burnside lost at Fredericksburg; Joseph Hooker lost at Chancellorsville; and George Meade won at Gettysburg.",
     "fix": "“The slows,” the Peninsula Campaign, Pinkerton, the Lost Order, Antietam, and the 1864 Democratic nomination mean McClellan. Fredericksburg means Burnside, Chancellorsville means Hooker, and Gettysburg means Meade. His son, George B. McClellan Jr., a mayor of New York City, is a different person.",
-    "line": "Real answer line: George B. <b><u>McClellan</u></b> (accept George Brinton <u>McClellan</u>)"
+    "line": "Real answer line: George B. <b><u>McClellan</u></b> (accept George Brinton <u>McClellan</u>; prompt on “Little Mac” or “Young Napoleon”)"
   },
   "tests": {
     "right": [

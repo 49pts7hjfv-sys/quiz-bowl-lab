@@ -68,7 +68,7 @@
       "r": "For 10 points, name this January 1918 plan for peace after World War I, presented by Woodrow Wilson."
     },
     {
-      "p": "Before the Allies accepted these proposals as the basis for an armistice, Britain rejected their call for “freedom of the seas,” and France insisted that Germany pay for damage done to civilians. Germany’s new chancellor, Prince Max of Baden, had asked for peace on these terms in October 1918.",
+      "p": "Before the Allies accepted these proposals as the basis for an armistice, Britain rejected their call for “freedom of the seas,” and the Allies added that Germany must pay for damage done to civilians. Germany’s new chancellor, Prince Max of Baden, had asked for peace on these terms in October 1918.",
       "r": "For 10 points, name this peace program that Woodrow Wilson announced to Congress in January 1918."
     },
     {
@@ -353,7 +353,7 @@
     {
       "id": "damage",
       "tier": "power",
-      "t": "Before accepting it as the basis for peace, France insisted that Germany pay for damage done to civilians",
+      "t": "Before accepting it as the basis for peace, the Allies added that Germany must pay for damage done to civilians",
       "k": [
         "damage",
         "civilians"
@@ -405,7 +405,7 @@
     "title": "Speech, treaty, or league?",
     "body": "Three answer lines share Woodrow Wilson, Henry Cabot Lodge, and the Senate fight of 1919–1920. The Fourteen Points were Wilson’s January 1918 speech listing his goals for peace; the League of Nations was the organization his last point called for; and the Treaty of Versailles was the 1919 peace treaty with Germany that created the League. Answering “League of Nations” or “Versailles” here is wrong, and so is mixing it up with the Fourteenth Amendment.",
     "fix": "Listen for the noun. “This speech,” “this plan,” or “these proposals,” with numbered items such as freedom of the seas or an independent Poland, means the Fourteen Points. “This organization,” Geneva, or Article X means the League; “this treaty,” the war guilt clause, or the Hall of Mirrors means Versailles.",
-    "line": "Real answer line: <b><u>Fourteen Points</u></b> (accept <u>14 Points</u>; do not accept “League of Nations” or “Treaty of Versailles”)"
+    "line": "Real answer line: <b><u>Fourteen Points</u></b> (accept <u>14 Points</u>; prompt on <u>Points</u> alone; do not accept “League of Nations” or “Treaty of Versailles”)"
   },
   "tests": {
     "right": [
