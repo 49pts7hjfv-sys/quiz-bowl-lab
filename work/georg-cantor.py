@@ -108,7 +108,7 @@ data = {
             "r": "For 10 points, name this founder of set theory, who showed that there are more real numbers than counting numbers."
         },
         {
-            "p": "In 1890, this man helped found the German Mathematical Society and became its first president. He spent his whole career at the University of Halle and never won the job in Berlin that he hoped for.",
+            "p": "In 1890, this man helped found the German Mathematical Society and became its first president. He spent his whole university career at Halle and never won the job in Berlin that he hoped for.",
             "r": "For 10 points, name this German mathematician whose diagonal argument proved that the real numbers are uncountable."
         },
         {

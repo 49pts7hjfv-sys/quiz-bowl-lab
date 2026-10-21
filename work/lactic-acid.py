@@ -56,6 +56,8 @@ data = {
         "lactate dehydrogenase",
         "ldh",
         "lactate threshold",
+        "sodium lactate",
+        "calcium lactate",
         "polylactic acid",
         "pla",
         "glucose",
