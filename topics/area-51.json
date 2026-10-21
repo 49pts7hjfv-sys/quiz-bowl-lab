@@ -6,7 +6,7 @@
   "qbCategory": "History · American History",
   "kicker": "Secret Air Force test site in Nevada · Spy planes, stealth jets, UFO legends",
   "dates": "Established 1955",
-  "briefing": "Out in the Nevada desert, beside a dry lakebed called Groom Lake, sits a base so secret that the U.S. government did not openly acknowledge it for decades. Starting in 1955, the CIA tested the U-2 spy plane there, and later the A-12 and stealth jets. All that secrecy made Area 51 the star of countless stories about UFOs and aliens, though no evidence supports them.",
+  "briefing": "Out in the Nevada desert, beside a dry lakebed called Groom Lake, sits a base so secret that the U.S. government did not openly acknowledge it for decades. Starting in 1955, the CIA tested the U-2 spy plane there; later came the A-12 and stealth jets. All that secrecy made Area 51 the star of countless stories about UFOs and aliens, though no evidence supports them.",
   "answerHtml": "<b><u>Area 51</u></b> (accept <u>Homey Airport</u>; prompt on <u>Groom Lake</u> or <u>Nevada</u>; do not accept “Roswell”)",
   "accept": [
     "area 51",
@@ -93,7 +93,7 @@
       "r": "Other secret planes, like the U-2, were also tested here. For 10 points, name this secret base near Groom Lake, Nevada."
     },
     {
-      "p": "In 1996, Nevada officially named State Route 375 the “Extraterrestrial Highway” because it runs near this site. Along that road, the tiny town of Rachel welcomes tourists who hope to catch a glimpse of this site.",
+      "p": "In 1996, Nevada officially named State Route 375 the “Extraterrestrial Highway” because it runs near this site. Along that road, the tiny town of Rachel welcomes tourists drawn by stories about this site.",
       "r": "Rachel’s diner and motel have a UFO theme. For 10 points, name this secret Air Force base in Nevada, a favorite subject of UFO believers."
     },
     {
@@ -374,7 +374,7 @@
   ],
   "trap": {
     "title": "Not Roswell!",
-    "body": "UFO stories often tie this base to the 1947 Roswell incident, but Roswell is a town in New Mexico where debris was found that the Air Force later said came from a secret balloon project, and the base in Nevada was not set up until 1955. Saying “Roswell” loses the tossup. Also, Groom Lake is the dry lakebed beside the base, so naming it earns only a prompt here.",
+    "body": "UFO stories often tie this base to the 1947 Roswell incident, but Roswell is a town in New Mexico near where debris was found that the Air Force later said came from a secret balloon project, and the base in Nevada was not set up until 1955. Saying “Roswell” loses the tossup. Also, Groom Lake is the dry lakebed beside the base, so naming it earns only a prompt here.",
     "fix": "Nevada, Groom Lake, the U-2, the A-12, stealth jets, and the 2019 “storm” event mean Area 51; New Mexico and a 1947 crash mean Roswell. If you are prompted after saying “Groom Lake,” say “Area 51.”",
     "line": "Real answer line: <b><u>Area 51</u></b> (accept <u>Homey Airport</u>; prompt on <u>Groom Lake</u> or <u>Nevada</u>; do not accept “Roswell”)"
   },

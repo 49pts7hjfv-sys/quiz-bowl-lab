@@ -7,7 +7,7 @@
   "kicker": "First battles of the Revolution, 1775 · “The shot heard round the world”",
   "dates": "Fought April 19, 1775",
   "briefing": "On the night of April 18, 1775, Paul Revere and William Dawes rode out of Boston to warn that British troops were marching to seize the colonists’ gunpowder and weapons. At dawn the next day, shots rang out on the town green at Lexington, and later that morning militiamen drove the British back at Concord’s North Bridge, firing Emerson’s famous “shot heard round the world.” The redcoats retreated to Boston under fire, and the American Revolution had begun.",
-  "answerHtml": "Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; prompt on <u>North Bridge</u>)",
+  "answerHtml": "Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; prompt on <u>North Bridge</u>; do not accept “Bunker Hill”)",
   "accept": [
     "lexington and concord",
     "battles of lexington and concord",
@@ -391,7 +391,7 @@
     {
       "id": "percy",
       "tier": "power",
-      "t": "Lord Hugh Percy’s 1,000 reinforcements, with cannons, rescued the retreating British column",
+      "t": "Lord Hugh Percy’s roughly 1,000 reinforcements, with cannons, rescued the retreating British column",
       "k": [
         "hugh percy",
         "percy",
@@ -447,7 +447,7 @@
     "title": "Not Bunker Hill!",
     "body": "These battles happened in two towns on one day, April 19, 1775: the first shots came at dawn on the town green in Lexington, and Emerson’s “shot heard round the world” came later that morning at the North Bridge in Concord. Bunker Hill was a separate, bigger battle two months later, in June 1775. And Paul Revere never reached Concord: a British patrol captured him, and Samuel Prescott carried the warning the rest of the way.",
     "fix": "Revere and Dawes, the two lanterns, John Parker, the North Bridge, and Patriots’ Day mean Lexington and Concord. “The whites of their eyes,” Breed’s Hill, and William Howe mean Bunker Hill. This answer line accepts either town alone.",
-    "line": "Real answer line: Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; do not accept “Bunker Hill”)"
+    "line": "Real answer line: Battles of <b><u>Lexington</u></b> and <b><u>Concord</u></b> (accept either underlined part; prompt on <u>North Bridge</u>; do not accept “Bunker Hill”)"
   },
   "tests": {
     "right": [

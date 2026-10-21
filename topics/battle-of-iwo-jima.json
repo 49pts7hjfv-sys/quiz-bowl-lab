@@ -7,7 +7,7 @@
   "kicker": "1945 Marine battle south of Japan · Flag raising on Mount Suribachi",
   "dates": "Fought February 19–March 26, 1945",
   "briefing": "Iwo Jima, a tiny volcanic island south of Japan that Japan renamed Iōtō in 2007, is covered in black sand and smells of sulfur. In February 1945, U.S. Marines landed to capture its airfields, and on the fifth day Joe Rosenthal photographed six men raising an American flag on Mount Suribachi, one of the most famous photos ever taken. The battle lasted more than a month; nearly 7,000 Americans and almost all of about 21,000 Japanese defenders died.",
-  "answerHtml": "Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; accept <u>Iōtō</u>; prompt on Mount <u>Suribachi</u>)",
+  "answerHtml": "Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; accept <u>Iōtō</u>; prompt on Mount <u>Suribachi</u>; do not accept “Okinawa”)",
   "accept": [
     "iwo jima",
     "battle of iwo jima",
@@ -20,8 +20,7 @@
   ],
   "prompt": [
     "mount suribachi",
-    "suribachi",
-    "volcano islands"
+    "suribachi"
   ],
   "reject": [
     "okinawa",
@@ -113,7 +112,7 @@
       "r": "For 10 points, name this February 1945 battle, famous for a photo of Marines raising a flag on Mount Suribachi."
     },
     {
-      "p": "A Marine signal officer said that the Marines would never have taken this battle’s island without six Navajo code talkers, who sent more than 800 messages without an error during its first two days.",
+      "p": "A Marine signal officer said that the Marines would never have taken this battle’s island without the Navajo code talkers; six of them sent more than 800 messages without an error during its first two days.",
       "r": "For 10 points, name this 1945 battle in which Marines raised a flag on Mount Suribachi."
     },
     {
@@ -130,7 +129,7 @@
     },
     {
       "p": "Major General Harry Schmidt led the 3rd, 4th, and 5th Marine Divisions of the V Amphibious Corps in this battle, which lasted more than a month on an island of only about eight square miles.",
-      "r": "For 10 points, name this battle, fought from February to March 1945, which is honored by the Marine Corps War Memorial."
+      "r": "For 10 points, name this battle, fought from February to March 1945, whose flag raising inspired the Marine Corps War Memorial."
     },
     {
       "p": "John Wayne earned an Oscar nomination for playing a tough sergeant in a 1949 film about this battle, in which three men then believed to be in a famous photograph from it made brief appearances.",
@@ -306,7 +305,7 @@
     {
       "id": "forrestal",
       "tier": "power",
-      "t": "Navy Secretary James Forrestal: the flag on Suribachi meant “a Marine Corps for the next five hundred years”",
+      "t": "Navy Secretary James Forrestal reportedly said the flag on Suribachi meant “a Marine Corps for the next five hundred years”",
       "k": [
         "james forrestal",
         "forrestal",
@@ -382,7 +381,7 @@
     {
       "id": "volcano-islands",
       "tier": "power",
-      "t": "Part of Japan’s Volcano Islands, about 750 miles south of Tokyo; the island covers only about 8 square miles",
+      "t": "Part of Japan’s Volcano Islands, about 750 miles south of Tokyo; in 1945 the island covered only about 8 square miles",
       "k": [
         "volcano islands",
         "750 miles",
@@ -404,7 +403,7 @@
     {
       "id": "schmidt",
       "tier": "power",
-      "t": "Harry Schmidt’s V Amphibious Corps landed the 3rd, 4th, and 5th Marine Divisions; Holland Smith led the landing force",
+      "t": "Harry Schmidt’s V Amphibious Corps landed the 3rd, 4th, and 5th Marine Divisions; Holland Smith commanded all the expeditionary troops",
       "k": [
         "harry schmidt",
         "v amphibious corps",
@@ -428,7 +427,7 @@
     "title": "Iwo Jima or Okinawa?",
     "body": "The two biggest Marine battles of 1945 are easy to mix up. Iwo Jima (February–March 1945) was a small volcanic island captured for its airfields, with the famous flag raising on Mount Suribachi. Okinawa (April–June 1945) was a much larger island and the last major battle of the Pacific war, where kamikaze planes attacked U.S. ships.",
     "fix": "Suribachi, Rosenthal’s photo, Kuribayashi, black volcanic sand, and B-29 emergency landings mean Iwo Jima; kamikazes and an April 1945 invasion mean Okinawa. Saying “Mount Suribachi” alone earns only a prompt.",
-    "line": "Real answer line: Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; prompt on Mount <u>Suribachi</u>; do not accept “Okinawa”)"
+    "line": "Real answer line: Battle of <b><u>Iwo Jima</u></b> (or Operation <b><u>Detachment</u></b>; accept <u>Iōtō</u>; prompt on Mount <u>Suribachi</u>; do not accept “Okinawa”)"
   },
   "tests": {
     "right": [

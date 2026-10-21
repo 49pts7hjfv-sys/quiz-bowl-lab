@@ -7,7 +7,7 @@
   "kicker": "Sam Houston’s 18-minute victory, 1836 · Won independence for Texas",
   "dates": "Fought April 21, 1836",
   "briefing": "On the afternoon of April 21, 1836, Sam Houston’s ragged Texian army charged across an open field into Santa Anna’s Mexican camp, shouting “Remember the Alamo! Remember Goliad!” The surprise attack was over in about 18 minutes. The next day, Texians captured Santa Anna, who was hiding in a common soldier’s clothes, and Texas won its independence from Mexico.",
-  "answerHtml": "Battle of <b><u>San Jacinto</u></b> (prompt on <u>Texas Revolution</u>)",
+  "answerHtml": "Battle of <b><u>San Jacinto</u></b> (prompt on <u>Texas Revolution</u>; do not accept “Alamo” or “Goliad”)",
   "accept": [
     "san jacinto",
     "battle of san jacinto",
@@ -123,7 +123,7 @@
       "r": "That general was Sam Houston. For 10 points, name this 1836 battle where Houston defeated Santa Anna."
     },
     {
-      "p": "This battle took place on a plain where Buffalo Bayou meets a river, near present-day La Porte, Texas. The attack came in the middle of the afternoon, catching the enemy camp off guard while many soldiers rested.",
+      "p": "This battle took place on a plain where Buffalo Bayou meets a river, near present-day La Porte, Texas. The attack came late in the afternoon, catching the enemy camp off guard while many soldiers rested.",
       "r": "The fighting lasted about 18 minutes. For 10 points, name this April 21, 1836, battle that won independence for Texas."
     }
   ],
@@ -199,9 +199,9 @@
     {
       "id": "afternoon",
       "tier": "middle",
-      "t": "Houston attacked in mid-afternoon, catching the Mexican camp off guard while many soldiers rested",
+      "t": "Houston attacked late in the afternoon, catching the Mexican camp off guard while many soldiers rested",
       "k": [
-        "mid-afternoon",
+        "afternoon",
         "off guard",
         "rested"
       ],
