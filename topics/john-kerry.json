@@ -1,0 +1,442 @@
+{
+  "id": "john-kerry",
+  "name": "John Kerry",
+  "mono": "JFK",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Secretary of State, 2013–2017 · 2004 Democratic presidential nominee",
+  "dates": "Born 1943",
+  "briefing": "John Kerry commanded small Navy patrol boats in the Vietnam War, then came home and spoke out against the war before the Senate in 1971. He represented Massachusetts in the U.S. Senate from 1985 to 2013 and won the 2004 Democratic presidential nomination, losing to George W. Bush. As Secretary of State from 2013 to 2017, he helped negotiate the 2015 Iran nuclear deal and signed the Paris climate agreement in 2016.",
+  "answerHtml": "John <b><u>Kerry</u></b> (accept John Forbes <u>Kerry</u>; do not accept “Bob Kerrey”)",
+  "accept": [
+    "john kerry",
+    "kerry",
+    "john forbes kerry",
+    "john f kerry",
+    "secretary kerry",
+    "secretary john kerry",
+    "senator kerry",
+    "senator john kerry",
+    "secretary of state kerry"
+  ],
+  "prompt": [],
+  "reject": [
+    "bob kerrey",
+    "robert kerrey",
+    "teresa heinz kerry",
+    "teresa heinz",
+    "teresa kerry",
+    "heinz kerry",
+    "kerry washington",
+    "county kerry",
+    "kerry james marshall",
+    "kerry wood",
+    "john edwards",
+    "edwards",
+    "john mccain",
+    "mccain",
+    "ted kennedy",
+    "edward kennedy",
+    "teddy kennedy",
+    "john f kennedy",
+    "jfk",
+    "howard dean",
+    "al gore",
+    "michael dukakis",
+    "dukakis",
+    "paul tsongas",
+    "george w bush",
+    "hillary clinton",
+    "rex tillerson",
+    "tillerson",
+    "john heinz",
+    "joe biden",
+    "barack obama",
+    "joe lieberman",
+    "john podesta",
+    "mohammad javad zarif",
+    "javad zarif",
+    "zarif",
+    "sergey lavrov",
+    "lavrov",
+    "antony blinken",
+    "madeleine albright",
+    "colin powell",
+    "condoleezza rice"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/John_Kerry",
+  "qb": {
+    "q": "John Kerry",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This politician was born in 1943 at an Army hospital in Aurora, Colorado, and spent part of his childhood in Europe because his father was a Foreign Service officer. He attended St. Paul’s School in New Hampshire before going to Yale.",
+      "r": "For 10 points, name this Massachusetts senator who was the Democratic nominee for president in 2004."
+    },
+    {
+      "p": "Like George W. Bush, this man belonged to the Yale secret society Skull and Bones, and both men graduated from Yale in the 1960s. After graduating in 1966, this man joined the Navy.",
+      "r": "In 2004, he lost the presidential election to Bush. For 10 points, name this Massachusetts Democrat who later served as Secretary of State."
+    },
+    {
+      "p": "In the Vietnam War, this naval officer commanded small patrol boats called Swift boats on the rivers of the Mekong Delta and earned a Silver Star, a Bronze Star, and three Purple Hearts.",
+      "r": "For 10 points, name this veteran who later represented Massachusetts in the Senate and served as Secretary of State."
+    },
+    {
+      "p": "During a 1971 protest in Washington called Dewey Canyon III, this veteran threw his service ribbons over a fence at the U.S. Capitol. That week, he asked the Senate Foreign Relations Committee, “How do you ask a man to be the last man to die for a mistake?”",
+      "r": "For 10 points, name this Vietnam veteran who later became a senator from Massachusetts and Secretary of State."
+    },
+    {
+      "p": "After losing a 1972 race for a House seat based in Lowell, Massachusetts, this man earned a law degree from Boston College and worked as a prosecutor in Middlesex County.",
+      "r": "He later spent 28 years in the U.S. Senate. For 10 points, name this Massachusetts Democrat who was his party’s presidential nominee in 2004."
+    },
+    {
+      "p": "From 1983 to 1985, this man served as lieutenant governor of Massachusetts under Michael Dukakis, the Democrats’ 1988 presidential nominee. In 1984, he won the U.S. Senate seat left open when Paul Tsongas retired.",
+      "r": "For 10 points, name this senator who became the Democrats’ presidential nominee himself in 2004."
+    },
+    {
+      "p": "In the early 1990s, this senator chaired a committee that found no compelling evidence that American prisoners of war were still alive in Southeast Asia. He and fellow Vietnam veteran John McCain then pushed for normal relations with Vietnam, which began in 1995.",
+      "r": "For 10 points, name this Massachusetts senator who later became Secretary of State under Barack Obama."
+    },
+    {
+      "p": "This candidate won the 2004 Iowa caucuses, overtaking the early front-runner, former Vermont governor Howard Dean, and wrapped up the nomination by March. That July, he chose North Carolina senator John Edwards as his running mate.",
+      "r": "That November, he lost to George W. Bush. For 10 points, name this Democratic presidential nominee from Massachusetts."
+    },
+    {
+      "p": "At the 2004 Democratic National Convention in Boston, this nominee saluted and opened his acceptance speech by saying that he was “reporting for duty.” A little-known Illinois state senator, Barack Obama, gave the keynote address at that convention.",
+      "r": "For 10 points, name this Massachusetts senator who lost the 2004 election to George W. Bush."
+    },
+    {
+      "p": "During the 2004 campaign, a group called Swift Boat Veterans for Truth ran television ads questioning this candidate’s record in Vietnam, where he had commanded a patrol boat. Many of the men who had served on his boats defended him.",
+      "r": "For 10 points, name this Democratic nominee who lost the 2004 presidential election to George W. Bush."
+    },
+    {
+      "p": "In 1995, this senator married Teresa Heinz, the widow of Pennsylvania senator John Heinz. Years later, as chairman of the Senate Foreign Relations Committee, he led the 2010 effort to approve the New START nuclear arms treaty with Russia.",
+      "r": "For 10 points, name this Massachusetts senator who served as Secretary of State from 2013 to 2017."
+    },
+    {
+      "p": "In September 2013, this diplomat and Russian Foreign Minister Sergey Lavrov reached a deal in Geneva to remove and destroy Syria’s chemical weapons. Earlier that year, he had replaced Hillary Clinton in his cabinet post.",
+      "r": "For 10 points, name this Secretary of State from 2013 to 2017, who had been a senator from Massachusetts."
+    },
+    {
+      "p": "This diplomat spent many hours negotiating with Iran’s foreign minister, Mohammad Javad Zarif [“zuh-REEF”], before Iran and six world powers reached a nuclear agreement in Vienna in July 2015. The deal limited Iran’s nuclear program in exchange for easing economic sanctions.",
+      "r": "For 10 points, name this Secretary of State who had been the Democratic nominee for president in 2004."
+    },
+    {
+      "p": "In August 2015, this official traveled to Havana to watch the American flag raised over the reopened U.S. embassy, the first visit to Cuba by an American official of his rank in 70 years. The two countries had restored diplomatic relations that July.",
+      "r": "For 10 points, name this Secretary of State under Barack Obama, a former senator from Massachusetts."
+    },
+    {
+      "p": "On Earth Day in 2016, this official signed the Paris climate agreement at the United Nations with his granddaughter on his lap. From 2021 to 2024, he served as Joe Biden’s special presidential envoy for climate.",
+      "r": "For 10 points, name this former Secretary of State who had been the Democratic presidential nominee in 2004."
+    }
+  ],
+  "clues": [
+    {
+      "id": "secretary-of-state",
+      "tier": "giveaway",
+      "t": "Secretary of State under Barack Obama, 2013–2017",
+      "k": [
+        "secretary of state",
+        "barack obama",
+        "2013"
+      ],
+      "n": 0,
+      "rabbit": "Secretary of State"
+    },
+    {
+      "id": "nominee-2004",
+      "tier": "giveaway",
+      "t": "Democratic presidential nominee in 2004; lost to George W. Bush",
+      "k": [
+        "2004",
+        "george w. bush",
+        "nominee"
+      ],
+      "n": 0,
+      "rabbit": "George W. Bush"
+    },
+    {
+      "id": "massachusetts",
+      "tier": "giveaway",
+      "t": "U.S. senator from Massachusetts, 1985–2013",
+      "k": [
+        "massachusetts",
+        "senator",
+        "1985"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vietnam",
+      "tier": "giveaway",
+      "t": "Navy veteran of the Vietnam War who later protested against it",
+      "k": [
+        "vietnam",
+        "navy",
+        "veteran"
+      ],
+      "n": 0,
+      "rabbit": "Vietnam War"
+    },
+    {
+      "id": "testimony",
+      "tier": "middle",
+      "t": "1971 Senate testimony: “How do you ask a man to be the last man to die for a mistake?”",
+      "k": [
+        "last man to die",
+        "mistake",
+        "1971"
+      ],
+      "n": 0
+    },
+    {
+      "id": "swift-boats",
+      "tier": "middle",
+      "t": "Commanded Swift boats in the Mekong Delta; earned a Silver Star, a Bronze Star, and three Purple Hearts",
+      "k": [
+        "swift boats",
+        "silver star",
+        "purple hearts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iran-deal",
+      "tier": "middle",
+      "t": "Negotiated the 2015 Iran nuclear deal with Iran’s foreign minister, Mohammad Javad Zarif",
+      "k": [
+        "iran",
+        "nuclear deal",
+        "zarif"
+      ],
+      "n": 0
+    },
+    {
+      "id": "paris",
+      "tier": "middle",
+      "t": "Signed the Paris climate agreement at the United Nations on Earth Day 2016",
+      "k": [
+        "paris",
+        "climate agreement",
+        "earth day"
+      ],
+      "n": 0
+    },
+    {
+      "id": "edwards",
+      "tier": "middle",
+      "t": "His 2004 running mate was North Carolina senator John Edwards",
+      "k": [
+        "john edwards",
+        "edwards",
+        "running mate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "climate-envoy",
+      "tier": "middle",
+      "t": "Joe Biden’s special presidential envoy for climate (2021–2024)",
+      "k": [
+        "envoy",
+        "joe biden",
+        "climate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "vvaw",
+      "tier": "middle",
+      "t": "Spoke for the group Vietnam Veterans Against the War",
+      "k": [
+        "vietnam veterans against the war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "aurora",
+      "tier": "power",
+      "t": "Born at an Army hospital in Aurora, Colorado (1943); his father was a Foreign Service officer",
+      "k": [
+        "aurora",
+        "colorado",
+        "foreign service"
+      ],
+      "n": 0
+    },
+    {
+      "id": "skull-bones",
+      "tier": "power",
+      "t": "Like George W. Bush, a Yale graduate and member of Skull and Bones",
+      "k": [
+        "skull and bones",
+        "yale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dewey-canyon",
+      "tier": "power",
+      "t": "Threw his service ribbons over a Capitol fence during the April 1971 protest Dewey Canyon III",
+      "k": [
+        "dewey canyon",
+        "ribbons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lowell",
+      "tier": "power",
+      "t": "Lost a 1972 House race in Lowell; became a Middlesex County prosecutor after Boston College Law School",
+      "k": [
+        "lowell",
+        "middlesex",
+        "boston college"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dukakis",
+      "tier": "power",
+      "t": "Lieutenant governor under Michael Dukakis (1983–1985); won Paul Tsongas’s open Senate seat (1984)",
+      "k": [
+        "michael dukakis",
+        "dukakis",
+        "lieutenant governor",
+        "tsongas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pow-mia",
+      "tier": "power",
+      "t": "Chaired the Senate committee on prisoners of war and the missing (1991–1993); with John McCain, pushed for normal ties with Vietnam (1995)",
+      "k": [
+        "prisoners of war",
+        "john mccain",
+        "mccain"
+      ],
+      "n": 0,
+      "rabbit": "John McCain"
+    },
+    {
+      "id": "iowa-dean",
+      "tier": "power",
+      "t": "Won the 2004 Iowa caucuses, overtaking front-runner Howard Dean",
+      "k": [
+        "iowa caucuses",
+        "howard dean",
+        "dean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reporting-for-duty",
+      "tier": "power",
+      "t": "Opened his 2004 convention speech in Boston by saluting and saying he was “reporting for duty”",
+      "k": [
+        "reporting for duty",
+        "saluting",
+        "boston"
+      ],
+      "n": 0
+    },
+    {
+      "id": "swift-vets",
+      "tier": "power",
+      "t": "Swift Boat Veterans for Truth ran 2004 TV ads questioning his war record; many of his own crewmen defended him",
+      "k": [
+        "swift boat veterans for truth",
+        "ads"
+      ],
+      "n": 0
+    },
+    {
+      "id": "heinz",
+      "tier": "power",
+      "t": "Married Teresa Heinz (1995), the widow of Pennsylvania senator John Heinz",
+      "k": [
+        "teresa heinz",
+        "heinz"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-start",
+      "tier": "power",
+      "t": "As Foreign Relations Committee chairman (2009–2013), led Senate approval of the New START treaty (2010)",
+      "k": [
+        "new start",
+        "foreign relations committee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lavrov",
+      "tier": "power",
+      "t": "With Russia’s Sergey Lavrov, reached a 2013 deal to remove and destroy Syria’s chemical weapons",
+      "k": [
+        "sergey lavrov",
+        "lavrov",
+        "chemical weapons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "havana",
+      "tier": "power",
+      "t": "Watched the U.S. flag raised over the reopened embassy in Havana, Cuba (August 2015)",
+      "k": [
+        "havana",
+        "cuba",
+        "embassy"
+      ],
+      "n": 0,
+      "rabbit": "Cuba"
+    },
+    {
+      "id": "memoir",
+      "tier": "power",
+      "t": "Wrote the memoir _Every Day Is Extra_ (2018)",
+      "k": [
+        "every day is extra"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which Vietnam veteran senator?",
+    "body": "Several senators of the same era share clues with John Kerry. John McCain of Arizona was also a Vietnam veteran, but he was a prisoner of war and the Republican nominee in 2008; Bob Kerrey of Nebraska, whose last name sounds just like Kerry’s, was another Vietnam veteran senator. John Edwards was Kerry’s 2004 running mate, and Ted Kennedy was the other senator from Massachusetts for most of Kerry’s Senate career.",
+    "fix": "The 1971 “last man to die for a mistake” testimony, Swift boats, the 2004 Democratic nomination, the Iran nuclear deal, and signing the Paris climate agreement mean Kerry. A prisoner of war and the 2008 election mean McCain; the running mate on the 2004 ticket means Edwards.",
+    "line": "Real answer line: John <b><u>Kerry</u></b> (accept John Forbes <u>Kerry</u>)"
+  },
+  "tests": {
+    "right": [
+      "John Kerry",
+      "Kerry",
+      "John Forbes Kerry",
+      "Secretary Kerry",
+      "John Kery",
+      "Senator John Kerry"
+    ],
+    "prompt": [],
+    "wrong": [
+      "John Edwards",
+      "John McCain",
+      "Ted Kennedy",
+      "Bob Kerrey",
+      "Teresa Heinz Kerry",
+      "Al Gore",
+      "Hillary Clinton",
+      "Rex Tillerson"
+    ]
+  }
+}
