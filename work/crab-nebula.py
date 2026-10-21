@@ -130,7 +130,7 @@ data = {
             "r": "For 10 points, name this nebula left behind by a supernova that Chinese astronomers recorded in 1054."
         },
         {
-            "p": "The explosion that made this object stayed visible in the daytime sky for 23 days and in the night sky for almost two years. Song dynasty astronomers in China recorded it as a “guest star” near a star now called Zeta Tauri.",
+            "p": "The explosion that made this object stayed visible in the daytime sky for 23 days and in the night sky for almost two years. Song dynasty astronomers in China recorded it as a “guest star” near the star that Western astronomers call Zeta Tauri.",
             "r": "For 10 points, name this supernova remnant in Taurus, whose central pulsar spins about 30 times per second."
         },
         {
