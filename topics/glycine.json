@@ -1,12 +1,12 @@
 {
   "id": "glycine",
   "name": "Glycine",
-  "mono": "GLY",
+  "mono": "GLI",
   "category": "Biology",
   "qbCategory": "Science · Biology",
   "kicker": "Simplest amino acid · Its side chain is a single hydrogen atom",
   "dates": "First isolated 1820",
-  "briefing": "Glycine is the simplest of the 20 amino acids that build your proteins: where the others carry a bulky side chain, glycine has just a single hydrogen atom. Its name comes from the Greek word for “sweet,” because it tastes sugary. Every third building block in collagen is glycine, it helps quiet nerve signals in your spinal cord, and NASA scientists even found it in dust brought back from a comet.",
+  "briefing": "Glycine is the simplest of the 20 amino acids that build your proteins: where the others carry bigger side chains, glycine has just a single hydrogen atom. Its name comes from the Greek word for “sweet,” because it tastes sugary. Every third building block in collagen is glycine, it helps quiet nerve signals in your spinal cord, and NASA scientists even found it in dust brought back from a comet.",
   "answerHtml": "<b><u>Glycine</u></b> (accept <u>Gly</u> or aminoacetic acid; prompt on <u>amino acid</u>; do not accept other amino acids)",
   "accept": [
     "glycine",
@@ -90,7 +90,7 @@
       "r": "Gelatin is rich in it, since every third amino acid in collagen is this one. For 10 points, name this simplest amino acid."
     },
     {
-      "p": "The first step in building heme, the iron-holding part of hemoglobin, joins this amino acid to succinyl-CoA [“SUK-sih-nil koh-AY”] to make a compound called ALA. Its carbon and nitrogen atoms are also built into the rings of the purine bases adenine and guanine.",
+      "p": "The body uses this amino acid as a starting material for heme, the iron-holding part of hemoglobin in red blood cells. Its carbon and nitrogen atoms are also built into the rings of the purine bases adenine and guanine.",
       "r": "It is the only standard amino acid that has no chiral carbon. For 10 points, name this simplest amino acid."
     },
     {
@@ -102,15 +102,15 @@
       "r": "Its side chain is just a hydrogen atom. For 10 points, name this simplest amino acid, which also works as a neurotransmitter."
     },
     {
-      "p": "NMDA receptors in the brain cannot open unless glutamate and a partner molecule, either D-serine or this amino acid, are both bound to them. In the spinal cord, this amino acid acts as an inhibitory neurotransmitter, quieting the nerve cells that control muscles.",
+      "p": "Replacing one of the two hydrogen atoms on this amino acid’s central carbon with a methyl group turns it into alanine, the next-simplest amino acid. In the spinal cord, this amino acid acts as an inhibitory neurotransmitter, quieting the nerve cells that control muscles.",
       "r": "It has no L or D form because it is not chiral. For 10 points, name this simplest amino acid."
     },
     {
-      "p": "Stanley Miller’s 1953 experiment, which sent electric sparks through methane, ammonia, hydrogen, and water vapor, made large amounts of this amino acid. Chemists describe it as acetic acid, the acid in vinegar, with an amine group added.",
+      "p": "This compound was one of the most plentiful amino acids made in Stanley Miller’s 1953 experiment, which sent electric sparks through methane, ammonia, hydrogen, and water vapor. Chemists describe it as acetic acid, the acid in vinegar, with an amino group in place of one hydrogen atom.",
       "r": "Its side chain is a single hydrogen atom. For 10 points, name this simplest amino acid, which makes up about a third of collagen."
     },
     {
-      "p": "On a Ramachandran [“RAH-muh-CHUN-drun”] plot of the angles a protein’s backbone can take, this amino acid covers the widest area, since it has no bulky side chain to bump into its neighbors. That flexibility lets it sit in tight turns, and like proline, it tends to break up alpha helices.",
+      "p": "Because it has no bulky side chain to bump into its neighbors, this amino acid lets a protein’s backbone twist and bend more freely than any other amino acid does. That flexibility lets it sit in tight turns, and like proline, it tends to break up alpha helices.",
       "r": "Its central carbon holds two hydrogen atoms, so it is not chiral. For 10 points, name this simplest amino acid."
     },
     {
@@ -280,35 +280,35 @@
       "n": 0
     },
     {
-      "id": "murchison-miller",
+      "id": "murchison",
       "tier": "power",
-      "t": "Found in the Murchison meteorite (Australia, 1969); Stanley Miller’s 1953 spark experiment made large amounts of it",
+      "t": "Found in the Murchison meteorite, which fell in Australia in 1969",
       "k": [
         "murchison",
-        "miller",
-        "1953"
+        "meteorite",
+        "1969"
       ],
       "n": 0
     },
     {
       "id": "heme-purines",
       "tier": "power",
-      "t": "Heme building starts by joining it to succinyl-CoA to make ALA; its carbons and nitrogen are built into purine rings",
+      "t": "A starting material for heme, the iron-holding part of hemoglobin; its carbons and nitrogen are built into purine rings",
       "k": [
         "heme",
-        "succinyl-coa",
+        "hemoglobin",
         "purine"
       ],
       "n": 0
     },
     {
-      "id": "nmda",
+      "id": "miller",
       "tier": "power",
-      "t": "NMDA receptors cannot open unless glutamate and a partner (it or D-serine) are both bound",
+      "t": "One of the most plentiful amino acids made in Stanley Miller’s 1953 spark experiment",
       "k": [
-        "nmda",
-        "glutamate",
-        "d-serine"
+        "miller",
+        "1953",
+        "spark experiment"
       ],
       "n": 0
     },
@@ -338,21 +338,22 @@
     {
       "id": "formula",
       "tier": "power",
-      "t": "Formula C2H5NO2: acetic acid (the acid in vinegar) with an amine group added",
+      "t": "Formula C2H5NO2: acetic acid (the acid in vinegar) with an amino group in place of one hydrogen",
       "k": [
         "c2h5no2",
         "acetic acid",
-        "amine group"
+        "amino group"
       ],
       "n": 0
     },
     {
-      "id": "ramachandran",
+      "id": "alanine-methyl",
       "tier": "power",
-      "t": "Covers the widest area on a Ramachandran plot of the angles a protein’s backbone can take",
+      "t": "Swapping one of the two hydrogens on its central carbon for a methyl group gives alanine, the next-simplest amino acid",
       "k": [
-        "ramachandran",
-        "backbone"
+        "alanine",
+        "methyl group",
+        "next-simplest"
       ],
       "n": 0
     },

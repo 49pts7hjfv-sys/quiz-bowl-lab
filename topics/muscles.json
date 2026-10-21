@@ -99,7 +99,7 @@
       "r": "Its skeletal type is controlled voluntarily. For 10 points, name this tissue that contracts to move the body."
     },
     {
-      "p": "When a nerve signal races down the T-tubules of this tissue, a network called the sarcoplasmic reticulum releases calcium ions. The calcium binds to troponin, which shifts tropomyosin aside so that myosin heads can grab actin and pull.",
+      "p": "When an electrical signal races down the T-tubules of this tissue, a network called the sarcoplasmic reticulum releases calcium ions. The calcium binds to troponin, which shifts tropomyosin aside so that myosin heads can grab actin and pull.",
       "r": "For 10 points, name this tissue that contracts to move the body, found in skeletal, smooth, and cardiac forms."
     },
     {
@@ -115,7 +115,7 @@
       "r": "The gluteus maximus is usually called the largest. For 10 points, name these organs that are attached to bones by tendons."
     },
     {
-      "p": "Titin, the largest known protein, acts like a spring that lets this tissue bounce back after being stretched. Dystrophin [“dis-TROH-fin”], a protein missing in people with Duchenne [“doo-SHEN”] dystrophy, links the filaments inside this tissue’s cells to their outer membrane.",
+      "p": "Titin, the largest known protein in the human body, acts like a spring that lets this tissue bounce back after being stretched. Dystrophin [“dis-TROH-fin”], a protein missing in people with Duchenne [“doo-SHEN”] dystrophy, links the filaments inside this tissue’s cells to their outer membrane.",
       "r": "Actin and myosin filaments slide past each other inside it. For 10 points, name this tissue that contracts to move the body."
     },
     {
@@ -380,7 +380,7 @@
     {
       "id": "titin-dystrophin",
       "tier": "power",
-      "t": "Titin, the largest known protein, acts as a spring; dystrophin, missing in Duchenne dystrophy, anchors their filaments",
+      "t": "Titin, the largest known human protein, acts as a spring; dystrophin, missing in Duchenne dystrophy, anchors their filaments",
       "k": [
         "titin",
         "dystrophin",
