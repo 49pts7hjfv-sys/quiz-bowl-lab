@@ -100,7 +100,7 @@ data = {
             "r": "For 10 points, name this 2005 hurricane that devastated the Gulf Coast of Mississippi and flooded New Orleans."
         },
         {
-            "p": "During this disaster, floodwalls along the 17th Street and London Avenue Canals gave way, letting Lake Pontchartrain [“PONCH-er-train”] pour into the city, and a breach in the Industrial Canal flooded the Lower Ninth Ward.",
+            "p": "During this disaster, floodwalls along the 17th Street and London Avenue Canals gave way, letting Lake Pontchartrain [“PONCH-er-train”] pour into the city, and a breach in the Industrial Canal flooded the Lower Ninth Ward. The U.S. Army Corps of Engineers had built those floodwalls.",
             "r": "About 80 percent of New Orleans ended up underwater. For 10 points, name this 2005 hurricane."
         },
         {
@@ -132,7 +132,7 @@ data = {
             "r": "For 10 points, name this 2005 hurricane that flooded about 80 percent of New Orleans."
         },
         {
-            "p": "An NFL team played its 2005 home games in San Antonio, Baton Rouge, and New Jersey after this disaster damaged its stadium. That team’s return home in September 2006 was a celebrated Monday night game against the Atlanta Falcons.",
+            "p": "An NFL team played its 2005 home games in San Antonio, Baton Rouge, and New Jersey after this disaster damaged its stadium. That team’s return home in September 2006 was a nationally televised Monday night game against the Atlanta Falcons.",
             "r": "That team, the Saints, plays in New Orleans. For 10 points, name this 2005 hurricane."
         },
         {
@@ -211,7 +211,7 @@ data = {
         {
             "id": "nagin",
             "tier": "middle",
-            "t": "Mayor Ray Nagin ordered the city’s first mandatory evacuation (August 28, 2005)",
+            "t": "Mayor Ray Nagin ordered the first mandatory evacuation in New Orleans history (August 28, 2005)",
             "k": ["nagin", "mandatory evacuation"],
             "n": 0
         },
@@ -225,7 +225,7 @@ data = {
         {
             "id": "rita",
             "tier": "middle",
-            "t": "Hurricane Rita struck less than a month later (September 24, 2005) and re-flooded parts of the city",
+            "t": "Hurricane Rita struck less than a month later (September 24, 2005) and re-flooded parts of New Orleans",
             "k": ["rita", "september 24"],
             "n": 0
         },
