@@ -1,0 +1,468 @@
+{
+  "id": "oceans",
+  "name": "Oceans",
+  "mono": "OCN",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Five connected bodies of salt water · Cover about 71 percent of Earth",
+  "dates": "Cover about 71 percent of Earth’s surface",
+  "briefing": "Earth’s oceans cover about 71 percent of the planet and hold about 97 percent of its water, all in one connected body of salt water split into five named oceans: the Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific alone is bigger than all the land on Earth put together, and its Mariana Trench plunges nearly 11 kilometers down, deeper than Mount Everest is tall.",
+  "answerHtml": "<b><u>Ocean</u></b>s (accept <u>World Ocean</u>; do not accept “seas,” “lakes,” or the name of a single ocean such as “Pacific Ocean”)",
+  "accept": [
+    "ocean",
+    "oceans",
+    "the ocean",
+    "the oceans",
+    "world ocean",
+    "world oceans",
+    "the world ocean",
+    "global ocean"
+  ],
+  "prompt": [
+    "body of water",
+    "bodies of water",
+    "body of salt water",
+    "bodies of salt water",
+    "large bodies of water",
+    "hydrosphere"
+  ],
+  "reject": [
+    "sea",
+    "seas",
+    "the seas",
+    "seven seas",
+    "lake",
+    "lakes",
+    "great lakes",
+    "ocean current",
+    "ocean currents",
+    "ocean floor",
+    "ocean trench",
+    "ocean trenches",
+    "mid ocean ridge",
+    "mid ocean ridges",
+    "ocean ridge",
+    "ocean waves",
+    "ocean acidification",
+    "pacific",
+    "pacific ocean",
+    "atlantic",
+    "atlantic ocean",
+    "indian ocean",
+    "southern ocean",
+    "antarctic ocean",
+    "arctic",
+    "arctic ocean",
+    "panthalassa",
+    "tethys",
+    "tethys ocean",
+    "mariana trench",
+    "challenger deep",
+    "seawater",
+    "gulf",
+    "gulfs",
+    "bay",
+    "bays",
+    "river",
+    "rivers",
+    "continent",
+    "continents",
+    "pangaea",
+    "mediterranean",
+    "mediterranean sea",
+    "caribbean sea",
+    "sargasso sea",
+    "dead sea",
+    "caspian sea",
+    "salinity"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Ocean",
+  "qb": {
+    "q": "ocean",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "About 250 million years ago, a single gigantic body of water called Panthalassa [“pan-thuh-LASS-uh”], whose name means “all sea,” surrounded the supercontinent Pangaea. A smaller one, the Tethys [“TEE-thiss”], lay between the landmasses Laurasia and Gondwana.",
+      "r": "Today there are five of these bodies of water, including the Pacific. For 10 points, name these huge bodies of salt water that cover most of Earth."
+    },
+    {
+      "p": "In 1855, U.S. Navy officer Matthew Fontaine Maury published _The Physical Geography of the Sea_, often called the first modern textbook about these bodies of water. He also charted their winds and currents to help sailing ships make faster voyages.",
+      "r": "For 10 points, name these bodies of salt water, such as the Atlantic and Pacific, that hold about 97 percent of Earth’s water."
+    },
+    {
+      "p": "While mapping the seafloor with Bruce Heezen in the 1950s, Marie Tharp noticed a deep valley running down the middle of the Mid-Atlantic Ridge, an undersea mountain chain that slowly widens one of these bodies of water.",
+      "r": "For 10 points, name these five huge bodies of salt water, which also include the Pacific."
+    },
+    {
+      "p": "In 1960, Jacques Piccard [“pee-KAR”] and Don Walsh rode the bathyscaphe _Trieste_ [“tree-EST”] down to the Challenger Deep, the deepest known point in any of these bodies of water, nearly 11 kilometers down in the Mariana Trench.",
+      "r": "For 10 points, name these bodies of salt water, the largest of which is the Pacific."
+    },
+    {
+      "p": "From 1872 to 1876, the British ship HMS _Challenger_ sailed around the world to study these bodies of water, dredging up thousands of new species and measuring depths by lowering long weighted ropes.",
+      "r": "Its name lives on in the Challenger Deep. For 10 points, name these huge bodies of salt water that cover about 71 percent of Earth’s surface."
+    },
+    {
+      "p": "In 2021, the National Geographic Society began officially recognizing a fifth one of these bodies of water, the one surrounding Antarctica, which is defined by a current that flows all the way around that continent.",
+      "r": "That one, the Southern, joined the Pacific, Atlantic, Indian, and Arctic. For 10 points, name these huge bodies of salt water."
+    },
+    {
+      "p": "Point Nemo, named for the submarine captain in Jules Verne’s _Twenty Thousand Leagues Under the Seas_, is the spot in these bodies of water farthest from any land, and many old spacecraft have been crashed into the water near it.",
+      "r": "It lies in the largest of them, the Pacific. For 10 points, name these huge bodies of salt water."
+    },
+    {
+      "p": "In 1520, after a stormy trip through the strait at the tip of South America, Ferdinand Magellan named the calm waters he entered with a word meaning “peaceful.” Another of these bodies of water, the Atlantic, is named for the Titan Atlas.",
+      "r": "For 10 points, name these five bodies of salt water, the largest of which is the Pacific."
+    },
+    {
+      "p": "Explorer Sylvia Earle, nicknamed “Her Deepness,” once walked on the seafloor off Hawaii in a pressurized diving suit, and she later became the first woman to serve as chief scientist of NOAA.",
+      "r": "Phytoplankton in these bodies of water make roughly half of the oxygen produced on Earth. For 10 points, name these huge bodies of salt water."
+    },
+    {
+      "p": "Jacques Cousteau [“koo-STOH”] and Émile Gagnan [“ay-MEEL gahn-YAHN”] invented the Aqua-Lung in 1943, letting divers breathe while exploring these bodies of water, and Cousteau later starred in TV documentaries about them.",
+      "r": "Their average depth is about 3.7 kilometers. For 10 points, name these bodies of salt water, such as the Pacific and Atlantic."
+    },
+    {
+      "p": "Below a sunlit top layer, these bodies of water hold a dim twilight zone and a pitch-black midnight zone, followed by the abyss and, in the deepest trenches, the hadal zone, named for the Greek underworld god Hades.",
+      "r": "For 10 points, name these bodies of salt water, which cover about 71 percent of Earth’s surface."
+    },
+    {
+      "p": "In 2012, filmmaker James Cameron piloted the _Deepsea Challenger_ on the first solo dive to the deepest spot in these bodies of water. Much of their floor is covered by abyssal plains, among the flattest places on Earth.",
+      "r": "For 10 points, name these bodies of salt water, which hold about 97 percent of Earth’s water."
+    },
+    {
+      "p": "A 1982 United Nations treaty about these bodies of water lets each coastal country control fishing and mining in an exclusive economic zone stretching 200 nautical miles from its shore.",
+      "r": "Smaller, partly enclosed bodies of water, like the Mediterranean, are called seas. For 10 points, name these five largest bodies of salt water."
+    },
+    {
+      "p": "Cold, salty water sinking near Greenland and Antarctica drives a slow, deep circulation through all of these bodies of water, nicknamed the “global conveyor belt,” which takes many centuries to complete one loop.",
+      "r": "Their water averages about 3.5 percent salt. For 10 points, name these huge bodies of salt water, such as the Pacific."
+    },
+    {
+      "p": "Volcanoes and frequent earthquakes ring one of these bodies of water in a horseshoe called the Ring of Fire, and that one is slowly shrinking while the Atlantic grows wider.",
+      "r": "That one, the Pacific, covers about a third of Earth’s surface. For 10 points, name these five huge bodies of salt water."
+    }
+  ],
+  "clues": [
+    {
+      "id": "five",
+      "tier": "giveaway",
+      "t": "Five are usually recognized: the Pacific, Atlantic, Indian, Southern, and Arctic",
+      "k": [
+        "pacific",
+        "atlantic",
+        "indian",
+        "southern",
+        "arctic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cover-71",
+      "tier": "giveaway",
+      "t": "Cover about 71 percent of Earth’s surface and hold about 97 percent of its water",
+      "k": [
+        "71 percent",
+        "97 percent"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pacific-largest",
+      "tier": "giveaway",
+      "t": "The Pacific is the largest and deepest; the Arctic is the smallest and shallowest",
+      "k": [
+        "largest",
+        "deepest",
+        "smallest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "salty",
+      "tier": "giveaway",
+      "t": "Their water is salty, averaging about 3.5 percent salt (35 parts per thousand)",
+      "k": [
+        "salty",
+        "3.5 percent",
+        "35 parts per thousand"
+      ],
+      "n": 0,
+      "rabbit": "Salinity"
+    },
+    {
+      "id": "challenger-deep",
+      "tier": "middle",
+      "t": "The deepest point, the Challenger Deep in the Mariana Trench, is nearly 11 km down",
+      "k": [
+        "challenger deep",
+        "mariana trench",
+        "11 km"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trieste",
+      "tier": "middle",
+      "t": "Jacques Piccard and Don Walsh reached the Challenger Deep in the bathyscaphe _Trieste_ in 1960",
+      "k": [
+        "trieste",
+        "piccard",
+        "1960"
+      ],
+      "n": 0
+    },
+    {
+      "id": "southern-2021",
+      "tier": "middle",
+      "t": "In 2021, National Geographic began recognizing the Southern, around Antarctica, as the fifth",
+      "k": [
+        "national geographic",
+        "2021",
+        "antarctica"
+      ],
+      "n": 0
+    },
+    {
+      "id": "conveyor",
+      "tier": "middle",
+      "t": "Thermohaline circulation, the “global conveyor belt,” slowly moves deep water through all of them",
+      "k": [
+        "thermohaline",
+        "global conveyor belt"
+      ],
+      "n": 0,
+      "rabbit": "Ocean currents"
+    },
+    {
+      "id": "hms-challenger",
+      "tier": "middle",
+      "t": "The HMS _Challenger_ expedition (1872–1876) was the first great voyage to study them around the world",
+      "k": [
+        "hms challenger",
+        "1872"
+      ],
+      "n": 0
+    },
+    {
+      "id": "zones",
+      "tier": "middle",
+      "t": "Zones from top to bottom: sunlit, twilight, midnight, the abyss, and the hadal zone in trenches, named for Hades",
+      "k": [
+        "twilight",
+        "midnight",
+        "hadal zone",
+        "hades"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seas",
+      "tier": "middle",
+      "t": "Seas are smaller and partly enclosed by land, like the Mediterranean",
+      "k": [
+        "seas",
+        "mediterranean",
+        "enclosed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magellan",
+      "tier": "middle",
+      "t": "Ferdinand Magellan named the Pacific in 1520 with a word meaning “peaceful”; the Atlantic is named for the Titan Atlas",
+      "k": [
+        "magellan",
+        "peaceful",
+        "atlas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ring-of-fire",
+      "tier": "middle",
+      "t": "Volcanoes and earthquakes ring the Pacific in the Ring of Fire; the Pacific is shrinking while the Atlantic widens",
+      "k": [
+        "ring of fire",
+        "shrinking",
+        "widens"
+      ],
+      "n": 0,
+      "rabbit": "Volcanoes"
+    },
+    {
+      "id": "phytoplankton",
+      "tier": "middle",
+      "t": "Phytoplankton in them make roughly half of the oxygen produced on Earth",
+      "k": [
+        "phytoplankton",
+        "oxygen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "panthalassa",
+      "tier": "power",
+      "t": "Panthalassa (“all sea”) was the giant one that surrounded the supercontinent Pangaea",
+      "k": [
+        "panthalassa",
+        "all sea",
+        "pangaea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tethys",
+      "tier": "power",
+      "t": "The ancient Tethys lay between the landmasses Laurasia and Gondwana",
+      "k": [
+        "tethys",
+        "laurasia",
+        "gondwana"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maury",
+      "tier": "power",
+      "t": "Matthew Fontaine Maury wrote _The Physical Geography of the Sea_ (1855), often called the first modern textbook about them",
+      "k": [
+        "maury",
+        "physical geography of the sea",
+        "1855"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tharp",
+      "tier": "power",
+      "t": "Marie Tharp and Bruce Heezen mapped the seafloor; Tharp found the valley running down the Mid-Atlantic Ridge",
+      "k": [
+        "marie tharp",
+        "heezen",
+        "mid-atlantic ridge"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cameron",
+      "tier": "power",
+      "t": "James Cameron made the first solo dive to the Challenger Deep in 2012, in the _Deepsea Challenger_",
+      "k": [
+        "james cameron",
+        "2012",
+        "deepsea challenger"
+      ],
+      "n": 0
+    },
+    {
+      "id": "point-nemo",
+      "tier": "power",
+      "t": "Point Nemo, in the South Pacific, is the spot farthest from any land; old spacecraft are crashed near it",
+      "k": [
+        "point nemo",
+        "farthest from any land",
+        "spacecraft"
+      ],
+      "n": 0
+    },
+    {
+      "id": "earle",
+      "tier": "power",
+      "t": "Sylvia Earle, “Her Deepness,” walked on the seafloor off Hawaii and became the first woman to be NOAA’s chief scientist",
+      "k": [
+        "sylvia earle",
+        "her deepness",
+        "noaa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cousteau",
+      "tier": "power",
+      "t": "Jacques Cousteau and Émile Gagnan invented the Aqua-Lung for divers in 1943",
+      "k": [
+        "cousteau",
+        "aqua-lung",
+        "1943"
+      ],
+      "n": 0
+    },
+    {
+      "id": "abyssal-plains",
+      "tier": "power",
+      "t": "Abyssal plains, among the flattest places on Earth, cover much of their floors",
+      "k": [
+        "abyssal plains",
+        "flattest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "law-of-the-sea",
+      "tier": "power",
+      "t": "A 1982 UN treaty, the Law of the Sea, gives coastal countries exclusive economic zones reaching 200 nautical miles",
+      "k": [
+        "law of the sea",
+        "exclusive economic zones",
+        "1982"
+      ],
+      "n": 0
+    },
+    {
+      "id": "average-depth",
+      "tier": "power",
+      "t": "Their average depth is about 3.7 km",
+      "k": [
+        "average depth",
+        "3.7 km"
+      ],
+      "n": 0
+    },
+    {
+      "id": "circumpolar",
+      "tier": "power",
+      "t": "The Southern is defined by the Antarctic Circumpolar Current, which flows all the way around Antarctica",
+      "k": [
+        "antarctic circumpolar current",
+        "circumpolar"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not one ocean",
+    "body": "Ocean tossups love to name famous examples, like the Pacific, the Mariana Trench, or the Mid-Atlantic Ridge, so players blurt one ocean’s name, which is wrong when the question wants all of them. Neighbors are traps too: seas are smaller and partly enclosed by land, lakes are surrounded by land, and ocean currents are flows inside the oceans.",
+    "fix": "Listen for “these bodies of water” and answer oceans. If the tossup says “this ocean” and every clue points to one place, it wants that ocean by name, like the Pacific.",
+    "line": "Real answer line: <b><u>Ocean</u></b>s (accept World Ocean; do not accept “seas,” “lakes,” or one named ocean such as the “Pacific”)"
+  },
+  "tests": {
+    "right": [
+      "Oceans",
+      "ocean",
+      "Oceons",
+      "World Ocean",
+      "the oceans"
+    ],
+    "prompt": [
+      "bodies of water",
+      "hydrosphere"
+    ],
+    "wrong": [
+      "Seas",
+      "Pacific Ocean",
+      "Lakes",
+      "Ocean currents",
+      "Atlantic",
+      "Mariana Trench",
+      "Panthalassa"
+    ]
+  }
+}
