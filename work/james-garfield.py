@@ -133,7 +133,7 @@ data = {
             "r": "Anger over this president’s death helped pass the Pendleton Civil Service Reform Act. For 10 points, name this president killed by Charles Guiteau."
         },
         {
-            "p": "This man’s killer had written a campaign speech supporting him and believed it entitled him to be named U.S. consul in Paris. After the shooting, the killer shouted, “I am a Stalwart of the Stalwarts,” and said Chester Arthur would now be president.",
+            "p": "This man’s killer had written a campaign speech supporting him and believed it entitled him to be named U.S. consul in Paris. After the shooting, the killer shouted, “I am a Stalwart of the Stalwarts,” and announced that Chester Arthur would take over as president.",
             "r": "For 10 points, name this president, who was shot in a Washington train station in July 1881 and died that September."
         }
     ],
@@ -184,7 +184,7 @@ data = {
         {
             "id": "stalwart",
             "tier": "middle",
-            "t": "Guiteau shouted, “I am a Stalwart of the Stalwarts,” and said Chester Arthur would now be president",
+            "t": "Guiteau shouted, “I am a Stalwart of the Stalwarts,” and announced that Chester Arthur would take over as president",
             "k": ["stalwart", "stalwarts"],
             "n": 0
         },
