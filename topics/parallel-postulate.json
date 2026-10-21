@@ -1,0 +1,435 @@
+{
+  "id": "parallel-postulate",
+  "name": "Parallel postulate",
+  "mono": "P5",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "Euclid’s fifth postulate · Rejecting it led to non-Euclidean geometry",
+  "dates": "Stated in Euclid’s _Elements_, c. 300 BCE",
+  "briefing": "Euclid built geometry on five basic assumptions, and the fifth, the parallel postulate, was so long and awkward that mathematicians spent centuries trying to prove it from the other four. In its best-known modern form, it says that through a point not on a line, exactly one line can be drawn parallel to the first. In the 1820s and 1830s, Nikolai Lobachevsky and János Bolyai built whole new geometries in which it is false, launching non-Euclidean geometry.",
+  "answerHtml": "<b><u>parallel postulate</u></b> (or Euclid’s <u>fifth postulate</u>; accept <u>parallel axiom</u> or <u>Playfair’s axiom</u>; prompt on <u>postulate</u>; do not accept “Euclid”)",
+  "accept": [
+    "parallel postulate",
+    "parallel postulates",
+    "parallels postulate",
+    "fifth postulate",
+    "5th postulate",
+    "euclids fifth postulate",
+    "euclids 5th postulate",
+    "euclids parallel postulate",
+    "euclids fifth",
+    "postulate 5",
+    "postulate five",
+    "fifth axiom",
+    "parallel axiom",
+    "axiom of parallels",
+    "playfairs axiom",
+    "playfair axiom",
+    "playfairs postulate"
+  ],
+  "prompt": [
+    "postulate",
+    "postulates",
+    "euclids postulate",
+    "euclids postulates",
+    "axiom",
+    "axioms",
+    "euclids axioms",
+    "parallel",
+    "parallels",
+    "parallel lines"
+  ],
+  "reject": [
+    "euclid",
+    "euclid of alexandria",
+    "euclids elements",
+    "elements",
+    "the elements",
+    "geometry",
+    "euclidean geometry",
+    "non euclidean geometry",
+    "noneuclidean geometry",
+    "hyperbolic geometry",
+    "elliptic geometry",
+    "spherical geometry",
+    "riemannian geometry",
+    "absolute geometry",
+    "neutral geometry",
+    "first postulate",
+    "second postulate",
+    "third postulate",
+    "fourth postulate",
+    "euclids fourth postulate",
+    "common notions",
+    "pythagorean theorem",
+    "triangle sum theorem",
+    "parallelogram",
+    "parallelograms",
+    "transversal",
+    "john playfair",
+    "nikolai lobachevsky",
+    "lobachevsky",
+    "janos bolyai",
+    "bolyai",
+    "carl friedrich gauss",
+    "gauss",
+    "bernhard riemann",
+    "riemann",
+    "parallel circuit",
+    "parallel computing",
+    "parallel universe"
+  ],
+  "tests": {
+    "right": [
+      "parallel postulate",
+      "Euclid's fifth postulate",
+      "fifth postulate",
+      "Playfair's axiom",
+      "paralel postulate",
+      "the parallel axiom"
+    ],
+    "prompt": [
+      "postulate",
+      "parallel lines"
+    ],
+    "wrong": [
+      "Euclid",
+      "non-Euclidean geometry",
+      "Euclid's fourth postulate",
+      "parallelogram",
+      "Pythagorean theorem",
+      "hyperbolic geometry"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Parallel_postulate",
+  "qb": {
+    "q": "parallel postulate",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The first 28 propositions in Book I of Euclid’s _Elements_ are proved without this statement, which Euclid first needed in Proposition 29. Proclus [“PROH-klus”] later argued that this statement should have been proved as a theorem instead of being assumed.",
+      "r": "One version says that through a point off a line, exactly one line never meets the first. For 10 points, name this last of Euclid’s five postulates."
+    },
+    {
+      "p": "In a 1733 book titled _Euclid Freed of Every Flaw_, the Jesuit priest Girolamo Saccheri [“sah-KAIR-ee”] tried to prove this statement by contradiction, studying four-sided figures with two right angles at their base. He dismissed the strange results he found as “repugnant to the nature of the straight line.”",
+      "r": "Those results turned out to be true theorems of a new geometry. For 10 points, name this postulate of Euclid that non-Euclidean geometries deny."
+    },
+    {
+      "p": "William Kingdon Clifford called a professor at Kazan University the “Copernicus of Geometry” for building a geometry in which this statement is false. That professor, Nikolai Lobachevsky [“loh-buh-CHEF-skee”], published his new geometry in 1829, in a journal called the _Kazan Messenger_.",
+      "r": "In that geometry, the angles of a triangle add up to less than 180 degrees. For 10 points, name this postulate from Euclid’s _Elements_."
+    },
+    {
+      "p": "János Bolyai [“BOH-yoy”] wrote to his father that he had created “a strange new universe” out of nothing by denying this statement, even though his father had begged him to stay away from the problem. Bolyai’s work appeared in 1832 as an appendix to his father’s textbook.",
+      "r": "It concerns lines that never meet. For 10 points, name this postulate of Euclid, whose rejection led to non-Euclidean geometry."
+    },
+    {
+      "p": "When Farkas Bolyai [“BOH-yoy”] sent him his son’s new geometry, Carl Friedrich Gauss replied that praising it would mean praising himself, since he had privately reached the same ideas years earlier. Gauss never published his own work on geometries that reject this statement.",
+      "r": "It is about lines that never cross. For 10 points, name this postulate, the last of the five in Euclid’s _Elements_."
+    },
+    {
+      "p": "Bernhard Riemann’s [“REE-mahnz”] 1854 lecture, whose topic was chosen by Gauss, inspired a geometry with no lines that never meet, like geometry on the surface of a sphere. On a globe, every line of longitude crosses the equator at a right angle, yet all of them still meet at the poles.",
+      "r": "Geometries without it are called non-Euclidean. For 10 points, name this postulate of Euclid, which fails on a sphere."
+    },
+    {
+      "p": "Also known for explaining James Hutton’s ideas about geology, the Scottish mathematician John Playfair popularized a simpler version of this statement in a 1795 geometry textbook. Proclus had stated a similar version more than a thousand years earlier.",
+      "r": "That version says exactly one line through a point off a given line never meets it. For 10 points, name this postulate from Euclid’s _Elements_."
+    },
+    {
+      "p": "Given the rest of Euclid’s geometry, this statement is equivalent to the claim that the angles of every triangle add up to exactly 180 degrees. John Wallis showed that it also follows from assuming that any triangle can be enlarged to any size without changing its shape.",
+      "r": "For 10 points, name this postulate, the last of Euclid’s five, which concerns lines that never meet."
+    },
+    {
+      "p": "The Persian poet and astronomer Omar Khayyam [“ky-YAHM”] studied four-sided figures while trying to prove this statement, and Nasir al-Din al-Tusi [“TOO-see”] later tried as well. A quadrilateral with two equal sides standing at right angles on a base is named for Khayyam and Saccheri.",
+      "r": "For 10 points, name this postulate from Euclid’s _Elements_, which mathematicians tried for centuries to prove from his other four."
+    },
+    {
+      "p": "In 1868, Eugenio Beltrami [“bel-TRAH-mee”] used models, including a trumpet-shaped surface called the pseudosphere, to show that a geometry denying this statement is just as consistent as Euclid’s. That work showed that this statement can never be proved from Euclid’s other assumptions.",
+      "r": "Rejecting it gives non-Euclidean geometry. For 10 points, name this postulate, the last of the five in Euclid’s _Elements_."
+    },
+    {
+      "p": "M. C. Escher’s [“ESH-erz”] _Circle Limit_ woodcuts, inspired by a drawing from H. S. M. Coxeter, show fish and other figures shrinking toward the edge of a disk that models a geometry where this statement fails. That disk model is named for Henri Poincaré [“pwan-kah-RAY”].",
+      "r": "This statement concerns lines that never meet. For 10 points, name this postulate of Euclid, which hyperbolic geometry rejects."
+    },
+    {
+      "p": "Any three points not on one line lie on a single circle if and only if this statement holds. David Hilbert’s 1899 book _Foundations of Geometry_ includes a version of this statement among its axioms.",
+      "r": "Geometers tried to prove it for centuries. For 10 points, name this postulate from Euclid’s _Elements_, which non-Euclidean geometries reject."
+    },
+    {
+      "p": "This statement says that if a line crossing two other lines makes interior angles on one side that add up to less than two right angles, then those two lines meet on that side when extended far enough. It is much longer and wordier than Euclid’s other postulates.",
+      "r": "It comes from Euclid’s _Elements_. For 10 points, name this postulate, whose rejection gave rise to non-Euclidean geometry."
+    },
+    {
+      "p": "In the hyperbolic geometry that results from rejecting this statement, the angles of a triangle add up to less than 180 degrees, and bigger triangles fall even further short. Albert Einstein’s general theory of relativity describes gravity with curved geometries in which this statement need not hold.",
+      "r": "For 10 points, name this postulate of Euclid, which says that through a point off a line, only one line never meets the given line."
+    },
+    {
+      "p": "Johann Heinrich Lambert, who proved that pi is irrational, studied four-sided figures with three right angles while trying to prove this statement. Proclus [“PROH-klus”] reported that the astronomer Ptolemy had also tried, and failed, to prove it.",
+      "r": "Non-Euclidean geometries reject it. For 10 points, name this postulate from Euclid’s _Elements_ about lines that never meet."
+    }
+  ],
+  "clues": [
+    {
+      "id": "last-postulate",
+      "tier": "giveaway",
+      "t": "The last of the five postulates in Euclid’s _Elements_ (c. 300 BCE)",
+      "k": [
+        "last",
+        "five postulates",
+        "euclid"
+      ],
+      "n": 0,
+      "rabbit": "Euclid"
+    },
+    {
+      "id": "modern-form",
+      "tier": "giveaway",
+      "t": "Best-known form: through a point not on a line, exactly one line can be drawn that never meets the given line",
+      "k": [
+        "exactly one line",
+        "never meets",
+        "point not on a line"
+      ],
+      "n": 0
+    },
+    {
+      "id": "non-euclidean",
+      "tier": "giveaway",
+      "t": "Geometries that reject it are called non-Euclidean",
+      "k": [
+        "non-euclidean",
+        "reject"
+      ],
+      "n": 0
+    },
+    {
+      "id": "triangle-sum",
+      "tier": "middle",
+      "t": "Given the rest of Euclid’s geometry, it is equivalent to the angles of every triangle adding up to exactly 180°",
+      "k": [
+        "equivalent",
+        "triangle",
+        "180"
+      ],
+      "n": 0,
+      "rabbit": "Triangles"
+    },
+    {
+      "id": "hyperbolic",
+      "tier": "middle",
+      "t": "Hyperbolic geometry: infinitely many lines through the point never meet the given line, and a triangle’s angles add up to less than 180°",
+      "k": [
+        "hyperbolic",
+        "infinitely many",
+        "less than 180"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elliptic",
+      "tier": "middle",
+      "t": "Elliptic (spherical) geometry: every two lines meet, as lines of longitude meet at the poles, and a triangle’s angles add up to more than 180°",
+      "k": [
+        "elliptic",
+        "spherical",
+        "longitude",
+        "more than 180"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lobachevsky",
+      "tier": "middle",
+      "t": "Nikolai Lobachevsky of Kazan University published a geometry rejecting it in 1829; Clifford called him the “Copernicus of Geometry”",
+      "k": [
+        "lobachevsky",
+        "kazan",
+        "1829",
+        "copernicus of geometry"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bolyai",
+      "tier": "middle",
+      "t": "János Bolyai rejected it in an appendix to his father’s textbook (1832), writing that he had created “a strange new universe” out of nothing",
+      "k": [
+        "bolyai",
+        "appendix",
+        "1832",
+        "strange new universe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gauss",
+      "tier": "middle",
+      "t": "Gauss said praising Bolyai’s work would mean praising himself, since he had privately reached the same ideas earlier but never published them",
+      "k": [
+        "gauss",
+        "praising"
+      ],
+      "n": 0,
+      "rabbit": "Carl Friedrich Gauss"
+    },
+    {
+      "id": "riemann",
+      "tier": "middle",
+      "t": "Bernhard Riemann’s 1854 lecture, whose topic Gauss chose, inspired geometries in which no two lines avoid meeting",
+      "k": [
+        "riemann",
+        "1854",
+        "lecture"
+      ],
+      "n": 0,
+      "rabbit": "Bernhard Riemann"
+    },
+    {
+      "id": "euclid-wording",
+      "tier": "middle",
+      "t": "Euclid’s wording: if a line crossing two lines makes interior angles on one side adding to less than two right angles, those two lines meet on that side",
+      "k": [
+        "interior angles",
+        "two right angles",
+        "wording"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proposition-29",
+      "tier": "power",
+      "t": "Euclid proved the first 28 propositions of Book I without it and first used it in Proposition 29",
+      "k": [
+        "proposition 29",
+        "28 propositions",
+        "book i"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proclus",
+      "tier": "power",
+      "t": "Proclus argued it should be proved as a theorem and reported that the astronomer Ptolemy had tried and failed to prove it",
+      "k": [
+        "proclus",
+        "ptolemy",
+        "theorem"
+      ],
+      "n": 0
+    },
+    {
+      "id": "playfair",
+      "tier": "power",
+      "t": "Its best-known form was popularized by Scottish mathematician John Playfair in a 1795 textbook; Playfair also explained James Hutton’s geology",
+      "k": [
+        "john playfair",
+        "1795",
+        "hutton"
+      ],
+      "n": 0
+    },
+    {
+      "id": "saccheri",
+      "tier": "power",
+      "t": "Girolamo Saccheri’s 1733 book _Euclid Freed of Every Flaw_ tried to prove it by contradiction and called his results “repugnant to the nature of the straight line”",
+      "k": [
+        "saccheri",
+        "1733",
+        "repugnant"
+      ],
+      "n": 0
+    },
+    {
+      "id": "khayyam",
+      "tier": "power",
+      "t": "Omar Khayyam and later Nasir al-Din al-Tusi tried to prove it; the Khayyam–Saccheri quadrilateral has two equal sides at right angles to a base",
+      "k": [
+        "khayyam",
+        "al-tusi",
+        "quadrilateral"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lambert",
+      "tier": "power",
+      "t": "Johann Heinrich Lambert, who proved pi irrational, studied quadrilaterals with three right angles while trying to prove it",
+      "k": [
+        "lambert",
+        "three right angles"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "wallis",
+      "tier": "power",
+      "t": "John Wallis showed it follows from assuming that any triangle can be enlarged to any size without changing its shape",
+      "k": [
+        "wallis",
+        "enlarged"
+      ],
+      "n": 0
+    },
+    {
+      "id": "beltrami",
+      "tier": "power",
+      "t": "Eugenio Beltrami (1868) used models such as the trumpet-shaped pseudosphere to show that rejecting it is as consistent as Euclid’s geometry, so it can’t be proved from the other postulates",
+      "k": [
+        "beltrami",
+        "pseudosphere",
+        "1868"
+      ],
+      "n": 0
+    },
+    {
+      "id": "escher",
+      "tier": "power",
+      "t": "M. C. Escher’s _Circle Limit_ woodcuts, inspired by H. S. M. Coxeter, show Henri Poincaré’s disk model of a geometry where it fails",
+      "k": [
+        "circle limit",
+        "coxeter",
+        "poincare",
+        "escher"
+      ],
+      "n": 0
+    },
+    {
+      "id": "circle-hilbert",
+      "tier": "power",
+      "t": "Equivalent to “any three points not on one line lie on a circle”; David Hilbert’s _Foundations of Geometry_ (1899) includes a version of it as an axiom",
+      "k": [
+        "three points",
+        "hilbert",
+        "1899"
+      ],
+      "n": 0,
+      "rabbit": "David Hilbert"
+    },
+    {
+      "id": "relativity",
+      "tier": "power",
+      "t": "Einstein’s general relativity describes gravity with curved geometries in which it need not hold",
+      "k": [
+        "einstein",
+        "general relativity",
+        "curved"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    }
+  ],
+  "trap": {
+    "title": "The postulate, not Euclid",
+    "body": "Parallel postulate tossups are full of names that are their own answer lines: Euclid and his _Elements_, the new geometries (non-Euclidean, hyperbolic, or elliptic), and the people who rejected the postulate, such as Lobachevsky, Bolyai, Gauss, and Riemann. Answering “Euclid” on a tossup about his fifth postulate is wrong, and so is naming the geometry when the question wants the statement.",
+    "fix": "Listen for “this postulate,” “this statement,” or “this axiom”: say “parallel postulate” or “Euclid’s fifth postulate.” If the question asks for “this man,” “this book,” or “this geometry,” name the person, the _Elements_, or the geometry instead. Saying only “postulate” earns a prompt.",
+    "line": "Real answer line: <b><u>parallel postulate</u></b> (or Euclid’s <u>fifth postulate</u>; accept <u>parallel axiom</u> or <u>Playfair’s axiom</u>; prompt on <u>postulate</u>; do not accept “Euclid”)"
+  }
+}
