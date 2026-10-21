@@ -1,0 +1,324 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "secretary-of-war",
+    "name": "Secretary of War",
+    "mono": "SW",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Cabinet officer in charge of the Army, 1789–1947 · First held by Henry Knox",
+    "dates": "Cabinet office 1789–1947",
+    "briefing": "From 1789 until 1947, the Secretary of War ran the U.S. Army as one of the president’s original cabinet officers, and for the first nine years the job covered the Navy too. The first was Henry Knox, George Washington’s artillery chief; later holders included Jefferson Davis, Edwin Stanton, and future president William Howard Taft. In 1947, a new law turned the War Department into the Department of the Army and put all the armed forces under a single Secretary of Defense.",
+    "answerHtml": "<b><u>Secretary of War</u></b> (accept <u>War Secretary</u>; prompt on <u>Secretary</u> or <u>War Department</u>; do not accept “Secretary of Defense” or “Secretary of State”)",
+    "accept": [
+        "secretary of war",
+        "the secretary of war",
+        "war secretary",
+        "us secretary of war",
+        "united states secretary of war",
+        "american secretary of war",
+        "secretaries of war",
+        "sec of war"
+    ],
+    "prompt": [
+        "secretary",
+        "war department",
+        "department of war",
+        "the war department",
+        "us department of war",
+        "united states department of war"
+    ],
+    "reject": [
+        "secretary of defense",
+        "defense secretary",
+        "department of defense",
+        "secretary of the army",
+        "army secretary",
+        "department of the army",
+        "secretary of the navy",
+        "navy secretary",
+        "secretary of state",
+        "secretary of the treasury",
+        "treasury secretary",
+        "secretary of the interior",
+        "secretary of homeland security",
+        "attorney general",
+        "postmaster general",
+        "pentagon",
+        "joint chiefs of staff",
+        "chairman of the joint chiefs of staff",
+        "chief of staff of the army",
+        "national security adviser",
+        "national security advisor",
+        "vice president",
+        "cabinet"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/United_States_Secretary_of_War",
+    "qb": {
+        "q": "Secretary of War",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1876, William Belknap resigned from this post just hours before the House voted to impeach him anyway over payments connected to a trading post at Fort Sill. The Senate later acquitted Belknap, partly because many senators said they could not convict an official who had already left office.",
+            "r": "For 10 points, name this cabinet post, first held by Henry Knox, whose holder ran the U.S. Army."
+        },
+        {
+            "p": "John C. Calhoun created the Bureau of Indian Affairs in 1824 while holding this post under James Monroe, since relations with Native nations were then handled by his department. That bureau moved to the new Department of the Interior in 1849.",
+            "r": "For 10 points, name this cabinet post, held by Henry Knox under George Washington, that ran the Army until 1947."
+        },
+        {
+            "p": "The Baltimore fort whose defense in 1814 inspired “The Star-Spangled Banner” was named for James McHenry, who held this post under George Washington and John Adams. Adams forced McHenry to resign in 1800 because he was more loyal to Alexander Hamilton.",
+            "r": "The first holder of this post was Henry Knox. For 10 points, name this cabinet office that ran the Army until 1947."
+        },
+        {
+            "p": "Joel Poinsett [“POYN-set”], who brought home from Mexico a red-leaved plant that now carries his name, held this post under Martin Van Buren during the Second Seminole War. Lewis Cass held this post under Andrew Jackson while the Black Hawk War was fought.",
+            "r": "For 10 points, name this cabinet office that ran the U.S. Army, first held by Henry Knox."
+        },
+        {
+            "p": "In the 1850s, the holder of this office imported camels so the Army could test them for hauling supplies across the deserts of the Southwest. The man who held this office then, Jefferson Davis, later became president of the Confederacy.",
+            "r": "For 10 points, name this cabinet office that Davis held under Franklin Pierce, first held by Henry Knox."
+        },
+        {
+            "p": "In 1868, the holder of this post refused to leave and barricaded himself inside his office after President Andrew Johnson tried to replace him with Lorenzo Thomas. The House then impeached Johnson for violating the Tenure of Office Act, which was meant to protect that official.",
+            "r": "That official was Edwin Stanton. For 10 points, name this cabinet office that ran the Army."
+        },
+        {
+            "p": "Henry Stimson, who held this office under both William Howard Taft and Franklin Roosevelt, oversaw the Manhattan Project during World War II and briefed Harry Truman about the atomic bomb after Roosevelt died. Stimson had also served as Herbert Hoover’s Secretary of State.",
+            "r": "In 1947, this office was replaced by the Secretary of the Army, under a new Secretary of Defense. For 10 points, name this cabinet office."
+        },
+        {
+            "p": "Robert Todd Lincoln, the only child of Abraham Lincoln to live to adulthood, held this office under James Garfield and Chester Arthur. Robert Lincoln was at the Washington train station in 1881 when Garfield was shot.",
+            "r": "The first person to hold this office was Henry Knox. For 10 points, name this cabinet post that headed the Army."
+        },
+        {
+            "p": "After serving as the first civilian governor of the Philippines, William Howard Taft held this office under Theodore Roosevelt, who backed Taft to succeed him as president in 1908. In that job, Taft oversaw the building of the Panama Canal.",
+            "r": "For 10 points, name this cabinet post, replaced after 1947 by the Secretary of the Army and the Secretary of Defense."
+        },
+        {
+            "p": "John Armstrong resigned from this office after he was blamed for the American defeat at Bladensburg, which let the British burn Washington in 1814. Secretary of State James Monroe then took over this office’s duties too, holding both jobs at once.",
+            "r": "This office oversaw the Army until 1947. For 10 points, name this cabinet post first held by Henry Knox."
+        },
+        {
+            "p": "Until Congress created the Department of the Navy in 1798, the holder of this office was in charge of building the first frigates of the U.S. Navy, including the USS _Constitution_. The first holder of this office had earlier hauled cannons from Fort Ticonderoga to Boston.",
+            "r": "That man, Henry Knox, is the namesake of Fort Knox. For 10 points, name this cabinet office that ran the Army."
+        },
+        {
+            "p": "Newton Baker held this office during World War I and chose John J. Pershing to command the American Expeditionary Forces in France. In 1917, a blindfolded Baker drew the first number in the lottery for the military draft.",
+            "r": "For 10 points, name this cabinet post that ran the U.S. Army from 1789 to 1947."
+        },
+        {
+            "p": "Russell Alger was pushed out of this office in 1899 after critics blamed his department for spoiled canned beef, disease in army camps, and supply problems during the Spanish-American War. His successor, Elihu Root, reorganized the Army and founded the Army War College.",
+            "r": "For 10 points, name this cabinet post, which was replaced after 1947 by the Secretary of the Army."
+        },
+        {
+            "p": "Simon Cameron of Pennsylvania resigned from this office in January 1862 amid charges of corruption in army contracts, and Abraham Lincoln sent him to be minister to Russia. Lincoln replaced him with Edwin Stanton, who had been James Buchanan’s attorney general.",
+            "r": "Stanton kept this job under Andrew Johnson. For 10 points, name this cabinet office that ran the Army during the Civil War."
+        },
+        {
+            "p": "Kenneth Royall held this office briefly before his job was renamed, making him the first holder of the new title. The same law gave James Forrestal, a former Secretary of the Navy, a new post overseeing all of the armed forces.",
+            "r": "That 1947 law turned this office into the Secretary of the Army, under the Secretary of Defense. For 10 points, name this cabinet office, first held by Henry Knox."
+        }
+    ],
+    "clues": [
+        {
+            "id": "knox-first",
+            "tier": "giveaway",
+            "t": "First held by Henry Knox (1789–1794), George Washington’s artillery chief; Fort Knox is named for him",
+            "k": ["henry knox", "knox", "fort knox"],
+            "n": 0,
+            "rabbit": "Henry Knox"
+        },
+        {
+            "id": "ran-army",
+            "tier": "giveaway",
+            "t": "Cabinet officer who ran the U.S. Army, and the Navy too until 1798",
+            "k": ["army", "navy", "1798"],
+            "n": 0
+        },
+        {
+            "id": "replaced-1947",
+            "tier": "giveaway",
+            "t": "In 1947, a new law turned it into the Secretary of the Army, under a new Secretary of Defense",
+            "k": ["1947", "secretary of the army", "secretary of defense"],
+            "n": 0
+        },
+        {
+            "id": "original-cabinet",
+            "tier": "middle",
+            "t": "One of George Washington’s four original cabinet posts, with State, Treasury, and Attorney General",
+            "k": ["original", "cabinet", "attorney general"],
+            "n": 0,
+            "rabbit": "Cabinet of the United States"
+        },
+        {
+            "id": "stanton",
+            "tier": "middle",
+            "t": "Edwin Stanton held it under Lincoln and Andrew Johnson; Johnson’s attempt to remove him, despite the Tenure of Office Act, led to his impeachment (1868)",
+            "k": ["edwin stanton", "stanton", "tenure of office"],
+            "n": 0,
+            "rabbit": "Andrew Johnson"
+        },
+        {
+            "id": "jefferson-davis",
+            "tier": "middle",
+            "t": "Jefferson Davis held it under Franklin Pierce (1853–1857) and brought camels to the Army",
+            "k": ["jefferson davis", "camels", "pierce"],
+            "n": 0,
+            "rabbit": "Jefferson Davis"
+        },
+        {
+            "id": "taft",
+            "tier": "middle",
+            "t": "William Howard Taft held it under Theodore Roosevelt (1904–1908) after governing the Philippines; he oversaw the Panama Canal",
+            "k": ["taft", "philippines", "panama canal"],
+            "n": 0
+        },
+        {
+            "id": "calhoun",
+            "tier": "middle",
+            "t": "John C. Calhoun held it under James Monroe and created the Bureau of Indian Affairs (1824)",
+            "k": ["calhoun", "indian affairs", "1824"],
+            "n": 0
+        },
+        {
+            "id": "stimson",
+            "tier": "middle",
+            "t": "Henry Stimson held it under Taft and again under Franklin Roosevelt and Truman; he oversaw the Manhattan Project",
+            "k": ["stimson", "manhattan project"],
+            "n": 0
+        },
+        {
+            "id": "monroe",
+            "tier": "middle",
+            "t": "After John Armstrong resigned (1814), Secretary of State James Monroe held both jobs at once",
+            "k": ["monroe", "armstrong", "both jobs"],
+            "n": 0
+        },
+        {
+            "id": "robert-lincoln",
+            "tier": "middle",
+            "t": "Robert Todd Lincoln held it under James Garfield and Chester Arthur (1881–1885); he was at the train station when Garfield was shot",
+            "k": ["robert todd lincoln", "garfield", "chester arthur"],
+            "n": 0
+        },
+        {
+            "id": "belknap",
+            "tier": "power",
+            "t": "William Belknap resigned (1876) hours before the House impeached him over payments tied to a Fort Sill trading post; the Senate acquitted him",
+            "k": ["belknap", "fort sill", "impeached"],
+            "n": 0
+        },
+        {
+            "id": "mchenry",
+            "tier": "power",
+            "t": "Fort McHenry is named for James McHenry, who held it under Washington and John Adams; Adams forced him out (1800)",
+            "k": ["mchenry", "fort mchenry"],
+            "n": 0
+        },
+        {
+            "id": "poinsett",
+            "tier": "power",
+            "t": "Joel Poinsett, namesake of the poinsettia, held it under Martin Van Buren",
+            "k": ["poinsett", "poinsettia", "van buren"],
+            "n": 0
+        },
+        {
+            "id": "cass",
+            "tier": "power",
+            "t": "Lewis Cass held it under Andrew Jackson during the Black Hawk War (1832)",
+            "k": ["lewis cass", "cass", "black hawk"],
+            "n": 0
+        },
+        {
+            "id": "root",
+            "tier": "power",
+            "t": "Elihu Root reorganized the Army and founded the Army War College",
+            "k": ["elihu root", "root", "war college"],
+            "n": 0
+        },
+        {
+            "id": "alger",
+            "tier": "power",
+            "t": "Russell Alger was pushed out (1899) after spoiled canned beef, disease, and supply failures in the Spanish-American War",
+            "k": ["alger", "canned beef", "spanish-american war"],
+            "n": 0
+        },
+        {
+            "id": "baker",
+            "tier": "power",
+            "t": "Newton Baker chose John J. Pershing to lead U.S. troops in World War I and drew the first number in the 1917 draft lottery",
+            "k": ["newton baker", "pershing", "draft lottery"],
+            "n": 0
+        },
+        {
+            "id": "cameron",
+            "tier": "power",
+            "t": "Simon Cameron resigned in 1862 amid corruption charges and became minister to Russia; Edwin Stanton replaced him",
+            "k": ["simon cameron", "cameron", "russia"],
+            "n": 0
+        },
+        {
+            "id": "royall-forrestal",
+            "tier": "power",
+            "t": "Kenneth Royall became the first Secretary of the Army when his title changed (1947); James Forrestal became the first Secretary of Defense",
+            "k": ["royall", "forrestal"],
+            "n": 0
+        },
+        {
+            "id": "frigates",
+            "tier": "power",
+            "t": "Before 1798, its department oversaw building the Navy’s first frigates, including the USS _Constitution_",
+            "k": ["frigates", "constitution"],
+            "n": 0
+        },
+        {
+            "id": "barricade",
+            "tier": "power",
+            "t": "Stanton barricaded himself in his office when Andrew Johnson named Lorenzo Thomas to replace him (1868)",
+            "k": ["barricaded", "lorenzo thomas"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "War, Army, or Defense?",
+        "body": "This office ran the Army from 1789 until 1947, when a new law turned it into the Secretary of the Army and placed all the armed forces under a new Secretary of Defense. Because those offices replaced it, real answer lines say not to accept “Secretary of Defense.” The Secretary of State, the Secretary of the Navy, and the Cabinet as a whole are separate answer lines too.",
+        "fix": "Clues from 1789 to 1947, like Henry Knox, Jefferson Davis, Edwin Stanton, William Howard Taft, and Henry Stimson, mean the Secretary of War. James Forrestal, Robert McNamara, the Pentagon after 1947, or Donald Rumsfeld mean the Secretary of Defense.",
+        "line": "Real answer line: <b><u>Secretary of War</u></b> (prompt on <u>Secretary</u>; do not accept “Secretary of Defense” or “Secretary of State”)"
+    },
+    "tests": {
+        "right": [
+            "Secretary of War",
+            "War Secretary",
+            "Secratary of War",
+            "US Secretary of War",
+            "the Secretary of War"
+        ],
+        "prompt": [
+            "Secretary",
+            "War Department"
+        ],
+        "wrong": [
+            "Secretary of Defense",
+            "Secretary of State",
+            "Secretary of the Army",
+            "Secretary of the Navy",
+            "Attorney General",
+            "Pentagon"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

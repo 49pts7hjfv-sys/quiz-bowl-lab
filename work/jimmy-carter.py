@@ -1,0 +1,368 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "jimmy-carter",
+    "name": "Jimmy Carter",
+    "mono": "JEC",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "39th U.S. President · Camp David Accords and the 2002 Nobel Peace Prize",
+    "dates": "1924–2024",
+    "briefing": "Jimmy Carter grew up on a farm in tiny Plains, Georgia, served on Navy submarines, and ran his family’s peanut business before becoming governor of Georgia and then the 39th president. He helped Egypt and Israel make peace at Camp David, but the Iran hostage crisis and high inflation troubled his presidency, and he lost reelection in 1980. Afterward, he built homes with Habitat for Humanity, won the 2002 Nobel Peace Prize, and died in 2024 at age 100, the longest-lived U.S. president.",
+    "answerHtml": "Jimmy <b><u>Carter</u></b> (or James Earl <b><u>Carter</u></b> Jr.)",
+    "accept": [
+        "jimmy carter",
+        "carter",
+        "james carter",
+        "james earl carter",
+        "james earl carter jr",
+        "james earl jimmy carter",
+        "james e carter",
+        "president carter",
+        "governor carter",
+        "jimmy carter jr"
+    ],
+    "prompt": [
+        "jimmy",
+        "james earl"
+    ],
+    "reject": [
+        "rosalynn carter",
+        "rosalyn carter",
+        "billy carter",
+        "amy carter",
+        "lillian carter",
+        "howard carter",
+        "carter g woodson",
+        "carter center",
+        "the carter center",
+        "carter doctrine",
+        "carter harrison",
+        "walter mondale",
+        "mondale",
+        "gerald ford",
+        "ronald reagan",
+        "reagan",
+        "anwar sadat",
+        "sadat",
+        "menachem begin",
+        "ted kennedy",
+        "edward kennedy",
+        "bill clinton",
+        "james monroe",
+        "james madison",
+        "james garfield",
+        "jimmy hoffa"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Jimmy_Carter",
+    "qb": {
+        "q": "Jimmy Carter",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "As a young officer in Hyman Rickover’s nuclear submarine program, this man helped clean up after a 1952 accident at a nuclear reactor at Chalk River, Canada. Years later, as president, he toured the Three Mile Island plant after its 1979 accident.",
+            "r": "He had left the Navy to run his family’s peanut business in Georgia. For 10 points, name this 39th president."
+        },
+        {
+            "p": "In a July 1979 television address that critics nicknamed the “malaise speech,” this president warned of a “crisis of confidence” among Americans, though he never actually used the word “malaise.” Days later, he asked his whole cabinet to offer their resignations.",
+            "r": "The next year, he lost his reelection race to Ronald Reagan. For 10 points, name this 39th president."
+        },
+        {
+            "p": "Secretary of State Cyrus Vance resigned in protest over Operation Eagle Claw, an April 1980 mission that ended in disaster when a helicopter crashed into a transport plane in the Iranian desert, killing eight U.S. servicemen.",
+            "r": "That mission had tried to rescue Americans held hostage in Tehran. For 10 points, name this president during the Iran hostage crisis."
+        },
+        {
+            "p": "This president and Leonid Brezhnev signed the SALT II arms treaty in Vienna in 1979, but he pulled it from Senate consideration after the Soviet Union invaded Afghanistan. He then announced that American athletes would skip the 1980 Moscow Olympics.",
+            "r": "For 10 points, name this Georgia Democrat who served as the 39th president of the United States from 1977 to 1981."
+        },
+        {
+            "p": "On his first full day in office, this president pardoned men who had evaded the draft during the Vietnam War. The day before, he and his family had walked down Pennsylvania Avenue during his inaugural parade instead of riding the whole way in a limousine.",
+            "r": "He served one term, from 1977 to 1981. For 10 points, name this president, a former peanut farmer from Plains, Georgia."
+        },
+        {
+            "p": "This president established full diplomatic relations with the People’s Republic of China on January 1, 1979, and soon welcomed Deng Xiaoping [“DUNG shyow-PING”] to the White House. That year, he also appointed Paul Volcker to lead the Federal Reserve as prices kept rising.",
+            "r": "For 10 points, name this president whose term was troubled by the Iran hostage crisis."
+        },
+        {
+            "p": "In his 1980 State of the Union address, this president declared that the United States would use military force if necessary to keep any outside power from controlling the Persian Gulf region. That namesake doctrine answered the Soviet invasion of Afghanistan.",
+            "r": "For 10 points, name this president who brought Anwar Sadat and Menachem Begin together at Camp David."
+        },
+        {
+            "p": "Calling the energy crisis “the moral equivalent of war,” this president wore a cardigan sweater in a televised talk urging Americans to turn down their thermostats. He later had solar panels installed on the White House roof.",
+            "r": "He also created the Department of Energy in 1977. For 10 points, name this 39th president."
+        },
+        {
+            "p": "During this president’s term, about 125,000 Cubans sailed to Florida in the Mariel boatlift after Fidel Castro opened a port to anyone who wanted to leave. A year earlier, this president had created FEMA to lead the federal response to disasters.",
+            "r": "For 10 points, name this president who lost the 1980 election to Ronald Reagan."
+        },
+        {
+            "p": "Senator Ted Kennedy challenged this sitting president for the 1980 Democratic nomination, but this president won enough delegates to be renominated. In the general election, he carried only six states and Washington, D.C.",
+            "r": "He lost to Ronald Reagan, whose inauguration came minutes before Iran freed 52 American hostages. For 10 points, name this 39th president."
+        },
+        {
+            "p": "Shortly before leaving office, this president signed the Alaska National Interest Lands Conservation Act, which more than doubled the size of the national park system. He had earlier served one term as governor of Georgia.",
+            "r": "He defeated Gerald Ford in 1976. For 10 points, name this Democrat who was president from 1977 to 1981."
+        },
+        {
+            "p": "Starting in 1984, this former president and his wife, Rosalynn, spent a week almost every year building homes with volunteers for Habitat for Humanity. In 1982, they founded a center in Atlanta that went on to monitor elections and fight diseases such as Guinea worm.",
+            "r": "He won the 2002 Nobel Peace Prize. For 10 points, name this former president, who lived to be 100."
+        },
+        {
+            "p": "For thirteen days in September 1978, this president hosted talks in Maryland’s Catoctin Mountains that led Israel to agree to return the Sinai Peninsula to Egypt. The two other leaders at those talks shared that year’s Nobel Peace Prize.",
+            "r": "Those talks produced the Camp David Accords. For 10 points, name this president who helped make peace between Anwar Sadat and Menachem Begin."
+        },
+        {
+            "p": "This president and Omar Torrijos [“tor-EE-hohs”] signed treaties in 1977 that promised to hand the Panama Canal over to Panama by the end of 1999. The Senate approved those treaties in 1978 by just one vote more than the two-thirds needed.",
+            "r": "He also created the Department of Education. For 10 points, name this president from Plains, Georgia."
+        },
+        {
+            "p": "This man titled his 1975 campaign autobiography _Why Not the Best?_, inspired by a question Admiral Hyman Rickover once asked him. He was the first president born in a hospital, and he taught Sunday school for decades at a Baptist church in his hometown.",
+            "r": "He died in 2024 at age 100, the longest-lived U.S. president. For 10 points, name this 39th president."
+        }
+    ],
+    "clues": [
+        {
+            "id": "39th",
+            "tier": "giveaway",
+            "t": "39th President (1977–1981), a Democrat from Georgia",
+            "k": ["39th", "georgia", "democrat"],
+            "n": 0
+        },
+        {
+            "id": "peanut-plains",
+            "tier": "giveaway",
+            "t": "A peanut farmer from Plains, Georgia",
+            "k": ["peanut", "plains"],
+            "n": 0
+        },
+        {
+            "id": "camp-david",
+            "tier": "giveaway",
+            "t": "Brought Egypt’s Anwar Sadat and Israel’s Menachem Begin together for the Camp David Accords (1978); a peace treaty followed in 1979",
+            "k": ["camp david", "sadat", "begin", "1978"],
+            "n": 0,
+            "rabbit": "Camp David Accords"
+        },
+        {
+            "id": "hostages",
+            "tier": "giveaway",
+            "t": "The Iran hostage crisis (1979–1981): 52 Americans were held for 444 days",
+            "k": ["iran", "hostage", "444 days"],
+            "n": 0
+        },
+        {
+            "id": "nobel",
+            "tier": "giveaway",
+            "t": "Won the Nobel Peace Prize in 2002 for decades of work for peace, democracy, and human rights",
+            "k": ["nobel peace prize", "nobel", "2002"],
+            "n": 0
+        },
+        {
+            "id": "age-100",
+            "tier": "giveaway",
+            "t": "Died on December 29, 2024, at age 100, the longest-lived U.S. president",
+            "k": ["longest-lived", "december 29, 2024", "100"],
+            "n": 0
+        },
+        {
+            "id": "habitat",
+            "tier": "middle",
+            "t": "Spent decades building homes with Habitat for Humanity alongside his wife, Rosalynn",
+            "k": ["habitat for humanity", "habitat", "rosalynn"],
+            "n": 0
+        },
+        {
+            "id": "panama-treaties",
+            "tier": "middle",
+            "t": "Signed treaties with Omar Torrijos (1977) to hand the Panama Canal to Panama at the end of 1999",
+            "k": ["torrijos", "panama canal", "1977"],
+            "n": 0,
+            "rabbit": "Panama Canal"
+        },
+        {
+            "id": "energy-education",
+            "tier": "middle",
+            "t": "Created the Department of Energy (1977) and the Department of Education (1979)",
+            "k": ["department of energy", "department of education"],
+            "n": 0
+        },
+        {
+            "id": "olympic-boycott",
+            "tier": "middle",
+            "t": "Led a U.S. boycott of the 1980 Moscow Olympics after the Soviet Union invaded Afghanistan",
+            "k": ["boycott", "moscow", "olympics", "afghanistan"],
+            "n": 0
+        },
+        {
+            "id": "ford-1976",
+            "tier": "middle",
+            "t": "Beat President Gerald Ford in 1976, with Walter Mondale as his running mate",
+            "k": ["gerald ford", "1976", "mondale"],
+            "n": 0
+        },
+        {
+            "id": "reagan-1980",
+            "tier": "middle",
+            "t": "Lost the 1980 election to Ronald Reagan, carrying only six states and Washington, D.C.",
+            "k": ["reagan", "1980", "six states"],
+            "n": 0,
+            "rabbit": "Ronald Reagan"
+        },
+        {
+            "id": "center",
+            "tier": "middle",
+            "t": "Founded a center in Atlanta (1982) that went on to monitor elections and fight diseases such as Guinea worm",
+            "k": ["atlanta", "guinea worm", "elections", "1982"],
+            "n": 0
+        },
+        {
+            "id": "governor",
+            "tier": "middle",
+            "t": "Governor of Georgia (1971–1975) before becoming president",
+            "k": ["governor", "1971"],
+            "n": 0
+        },
+        {
+            "id": "eagle-claw",
+            "tier": "power",
+            "t": "Operation Eagle Claw (April 1980), a failed hostage rescue, ended with eight U.S. servicemen dead; Cyrus Vance resigned over it",
+            "k": ["eagle claw", "cyrus vance", "rescue"],
+            "n": 0
+        },
+        {
+            "id": "malaise",
+            "tier": "power",
+            "t": "His July 1979 “crisis of confidence” speech became known as the “malaise speech,” though he never said “malaise”",
+            "k": ["crisis of confidence", "malaise", "1979"],
+            "n": 0
+        },
+        {
+            "id": "rickover",
+            "tier": "power",
+            "t": "Navy officer in Hyman Rickover’s nuclear submarine program; a Rickover question inspired the title of his 1975 autobiography, _Why Not the Best?_",
+            "k": ["rickover", "submarine", "why not the best"],
+            "n": 0
+        },
+        {
+            "id": "chalk-river",
+            "tier": "power",
+            "t": "Helped clean up after a 1952 nuclear reactor accident at Chalk River, Canada; later toured Three Mile Island (1979)",
+            "k": ["chalk river", "reactor", "three mile island"],
+            "n": 0
+        },
+        {
+            "id": "salt-ii",
+            "tier": "power",
+            "t": "Signed the SALT II arms treaty with Leonid Brezhnev (1979), but the Senate never ratified it",
+            "k": ["salt ii", "brezhnev"],
+            "n": 0
+        },
+        {
+            "id": "draft-pardon",
+            "tier": "power",
+            "t": "Pardoned Vietnam War draft evaders on his first full day in office (1977)",
+            "k": ["pardoned", "draft", "vietnam"],
+            "n": 0
+        },
+        {
+            "id": "china",
+            "tier": "power",
+            "t": "Established full diplomatic relations with the People’s Republic of China (1979) and hosted Deng Xiaoping",
+            "k": ["diplomatic relations", "deng xiaoping", "china"],
+            "n": 0
+        },
+        {
+            "id": "doctrine",
+            "tier": "power",
+            "t": "His doctrine (1980): the U.S. would use force to keep outside powers from controlling the Persian Gulf",
+            "k": ["persian gulf", "doctrine"],
+            "n": 0
+        },
+        {
+            "id": "volcker",
+            "tier": "power",
+            "t": "Appointed Paul Volcker to lead the Federal Reserve (1979) as inflation rose",
+            "k": ["volcker", "federal reserve", "inflation"],
+            "n": 0
+        },
+        {
+            "id": "energy-crisis",
+            "tier": "power",
+            "t": "Called the energy crisis “the moral equivalent of war,” wore a cardigan on TV to urge saving energy, and put solar panels on the White House",
+            "k": ["moral equivalent of war", "cardigan", "solar panels"],
+            "n": 0
+        },
+        {
+            "id": "firsts",
+            "tier": "power",
+            "t": "First president born in a hospital; walked down Pennsylvania Avenue in his 1977 inaugural parade; taught Sunday school for decades in Plains",
+            "k": ["hospital", "pennsylvania avenue", "sunday school"],
+            "n": 0
+        },
+        {
+            "id": "ted-kennedy",
+            "tier": "power",
+            "t": "Beat a challenge from Senator Ted Kennedy for the 1980 Democratic nomination",
+            "k": ["ted kennedy", "kennedy"],
+            "n": 0
+        },
+        {
+            "id": "alaska",
+            "tier": "power",
+            "t": "Signed the Alaska National Interest Lands Conservation Act (1980), which more than doubled the national park system",
+            "k": ["alaska", "national park"],
+            "n": 0
+        },
+        {
+            "id": "mariel-fema",
+            "tier": "power",
+            "t": "Created FEMA (1979); about 125,000 Cubans reached Florida in the Mariel boatlift (1980)",
+            "k": ["fema", "mariel", "boatlift"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Ford, Carter, or Reagan?",
+        "body": "Carter’s single term sits between Gerald Ford, whom he beat in 1976, and Ronald Reagan, who beat him in 1980. The Iran hostage crisis began under Carter, but the hostages were freed minutes after Reagan took the oath in January 1981, so hostage clues can show up in Reagan questions too. The Camp David Accords and the 1977 canal treaties are also answer lines of their own.",
+        "fix": "Plains, peanuts, Camp David, the malaise speech, the 1980 Olympic boycott, Habitat for Humanity, and the 2002 Nobel Peace Prize mean Carter. The Iran-Contra affair (secret arms sales to Iran in the 1980s) means Reagan. The pardon of Richard Nixon means Ford.",
+        "line": "Real answer line: Jimmy <b><u>Carter</u></b> (or James Earl <b><u>Carter</u></b> Jr.)"
+    },
+    "tests": {
+        "right": [
+            "Jimmy Carter",
+            "Carter",
+            "James Earl Carter Jr.",
+            "President Carter",
+            "Jimmy Cater"
+        ],
+        "prompt": [
+            "Jimmy"
+        ],
+        "wrong": [
+            "Rosalynn Carter",
+            "Gerald Ford",
+            "Ronald Reagan",
+            "Walter Mondale",
+            "Anwar Sadat",
+            "Carter Center"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

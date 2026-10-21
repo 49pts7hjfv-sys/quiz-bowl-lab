@@ -1,0 +1,364 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "james-garfield",
+    "name": "James Garfield",
+    "mono": "JAG",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "20th U.S. President · Shot just four months into his term (1881)",
+    "dates": "1831–1881",
+    "briefing": "James Garfield was born in a log cabin in Ohio, drove canal-boat mules as a teenager, and grew up to be a college leader, a Union general, and a congressman who even invented his own proof of the Pythagorean theorem. Elected president in 1880, he served only about six and a half months. In July 1881, a disappointed office-seeker named Charles Guiteau shot him at a Washington train station, and he died that September from infections his doctors failed to stop.",
+    "answerHtml": "James <b><u>Garfield</u></b> (or James Abram <b><u>Garfield</u></b>; do not accept “Chester A. Arthur”)",
+    "accept": [
+        "james garfield",
+        "garfield",
+        "james a garfield",
+        "james abram garfield",
+        "president garfield",
+        "president james garfield",
+        "general garfield"
+    ],
+    "prompt": [
+        "james",
+        "james a",
+        "james abram"
+    ],
+    "reject": [
+        "chester a arthur",
+        "chester alan arthur",
+        "chester arthur",
+        "arthur",
+        "charles guiteau",
+        "guiteau",
+        "rutherford b hayes",
+        "rutherford hayes",
+        "hayes",
+        "james g blaine",
+        "blaine",
+        "roscoe conkling",
+        "conkling",
+        "winfield scott hancock",
+        "hancock",
+        "william mckinley",
+        "mckinley",
+        "abraham lincoln",
+        "lincoln",
+        "john f kennedy",
+        "james buchanan",
+        "james k polk",
+        "james madison",
+        "james monroe",
+        "lucretia garfield",
+        "ulysses s grant",
+        "john sherman",
+        "benjamin harrison",
+        "william henry harrison",
+        "grover cleveland",
+        "alexander graham bell",
+        "arthur garfield hays"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/James_A._Garfield",
+    "qb": {
+        "q": "Garfield",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This future president arranged three right triangles to form a trapezoid in a new proof of the Pythagorean theorem, which he published in the _New-England Journal of Education_ in 1876 while serving in Congress.",
+            "r": "He was shot just four months into his presidency. For 10 points, name this 20th president, who was assassinated by Charles Guiteau."
+        },
+        {
+            "p": "As a teenager, this man worked on the Ohio and Erie Canal, driving the horses and mules that towed boats along the towpath. He later graduated from Williams College in Massachusetts and became a Union general during the Civil War.",
+            "r": "He was the last president born in a log cabin. For 10 points, name this Ohioan who was shot in 1881."
+        },
+        {
+            "p": "This man taught Latin and Greek at the Western Reserve Eclectic Institute in Ohio and later became its head; the school was renamed Hiram College. He also preached sermons for the Disciples of Christ church.",
+            "r": "For 10 points, name this Ohio Republican who became the 20th president in 1881 and was assassinated months later."
+        },
+        {
+            "p": "This congressman was one of fifteen members of the Electoral Commission that settled the disputed presidential election of 1876. In January 1880, the Ohio legislature chose him for the U.S. Senate, but he never took that seat.",
+            "r": "He succeeded Rutherford B. Hayes as president but was shot by Charles Guiteau in 1881. For 10 points, name this 20th president."
+        },
+        {
+            "p": "This candidate greeted visitors from the front porch of his farmhouse in Mentor, Ohio, which reporters nicknamed “Lawnfield.” He then narrowly defeated Winfield Scott Hancock, another former Union general, in the 1880 election.",
+            "r": "The next year, he was shot by Charles Guiteau. For 10 points, name this 20th president of the United States."
+        },
+        {
+            "p": "This man went to the 1880 Republican convention to nominate John Sherman, but the delegates deadlocked between Sherman, James G. Blaine, and Ulysses S. Grant. On the 36th ballot, the convention chose this man as a dark-horse nominee instead.",
+            "r": "His running mate was Chester Arthur. For 10 points, name this president who was shot in 1881."
+        },
+        {
+            "p": "This president named William Robertson as Collector of the Port of New York, a choice that led New York senators Roscoe Conkling and Thomas Platt to resign their Senate seats in protest. The New York legislature refused to send either man back to the Senate.",
+            "r": "Months later, a supporter of Conkling’s Stalwart faction shot this president. For 10 points, name this man who was killed by Charles Guiteau."
+        },
+        {
+            "p": "This president backed an investigation of the Star Route frauds, in which officials and contractors cheated the Post Office on mail-delivery routes in the West. His Postmaster General, Thomas James, helped expose the scheme.",
+            "r": "For 10 points, name this president who served only about six and a half months before he died in 1881, weeks after he was shot."
+        },
+        {
+            "p": "Secretary of State James G. Blaine was walking beside this president through the Baltimore and Potomac Railroad Station when the president was shot. The two men had been about to board a train for a summer trip to New England.",
+            "r": "The shooter, Charles Guiteau, was a disappointed office-seeker. For 10 points, name this 20th president."
+        },
+        {
+            "p": "Dr. Willard Bliss, the physician in charge of this president’s care, let doctors search for a bullet without washing their hands or instruments. Alexander Graham Bell built a metal detector to find that bullet, but the device was confused by the metal springs in the president’s bed.",
+            "r": "For 10 points, name this president who died of infection in September 1881, weeks after Charles Guiteau shot him."
+        },
+        {
+            "p": "Navy engineers kept this wounded president’s room cool during a hot Washington summer with an early air-conditioning machine that blew air over cloths soaked in ice water. In September, he was moved by train to Elberon, a town on the New Jersey shore, where he died.",
+            "r": "For 10 points, name this president who had been shot by Charles Guiteau that July."
+        },
+        {
+            "p": "This man is the only person ever elected president while serving in the House of Representatives, where he had represented an Ohio district for nearly eighteen years. Before entering Congress, he rose to major general in the Union army and fought at Shiloh and Chickamauga.",
+            "r": "For 10 points, name this Ohio Republican who became the 20th president in 1881 and was shot that July."
+        },
+        {
+            "p": "When this man took the oath of office in March 1881, his mother, Eliza, became the first mother of a president to attend her son’s inauguration. His father had died when he was a baby, leaving the family poor.",
+            "r": "He was born in a log cabin in Ohio. For 10 points, name this president, who served only a few months before he was assassinated."
+        },
+        {
+            "p": "At his trial, this president’s killer claimed that God had told him to act and that the doctors, not he, had caused the death. The jury rejected his insanity defense, and he was executed in June 1882.",
+            "r": "Anger over this president’s death helped pass the Pendleton Civil Service Reform Act. For 10 points, name this president killed by Charles Guiteau."
+        },
+        {
+            "p": "This man’s killer had written a campaign speech supporting him and believed it entitled him to be named U.S. consul in Paris. After the shooting, the killer shouted, “I am a Stalwart of the Stalwarts,” and said Chester Arthur would now be president.",
+            "r": "For 10 points, name this president, who was shot in a Washington train station in July 1881 and died that September."
+        }
+    ],
+    "clues": [
+        {
+            "id": "20th-president",
+            "tier": "giveaway",
+            "t": "20th President (1881), a Republican from Ohio; served only about six and a half months",
+            "k": ["20th president", "ohio", "1881"],
+            "n": 0
+        },
+        {
+            "id": "guiteau",
+            "tier": "giveaway",
+            "t": "Shot by Charles Guiteau, a disappointed office-seeker, on July 2, 1881",
+            "k": ["guiteau", "office-seeker", "july 2"],
+            "n": 0,
+            "rabbit": "Chester A. Arthur"
+        },
+        {
+            "id": "infection",
+            "tier": "giveaway",
+            "t": "Died on September 19, 1881, from infections that his doctors failed to stop",
+            "k": ["september 19", "infections", "doctors"],
+            "n": 0
+        },
+        {
+            "id": "pendleton",
+            "tier": "giveaway",
+            "t": "His death led to the Pendleton Civil Service Reform Act (1883), signed by his successor, Chester Arthur",
+            "k": ["pendleton", "civil service", "1883"],
+            "n": 0
+        },
+        {
+            "id": "log-cabin",
+            "tier": "giveaway",
+            "t": "The last president born in a log cabin (Ohio, 1831)",
+            "k": ["log cabin", "1831"],
+            "n": 0
+        },
+        {
+            "id": "station",
+            "tier": "middle",
+            "t": "Shot at the Baltimore and Potomac Railroad Station in Washington, D.C.",
+            "k": ["baltimore and potomac", "railroad station"],
+            "n": 0
+        },
+        {
+            "id": "stalwart",
+            "tier": "middle",
+            "t": "Guiteau shouted, “I am a Stalwart of the Stalwarts,” and said Chester Arthur would now be president",
+            "k": ["stalwart", "stalwarts"],
+            "n": 0
+        },
+        {
+            "id": "dark-horse",
+            "tier": "middle",
+            "t": "A dark-horse nominee, chosen on the 36th ballot at the 1880 Republican convention",
+            "k": ["dark-horse", "36th ballot", "1880"],
+            "n": 0
+        },
+        {
+            "id": "bell",
+            "tier": "middle",
+            "t": "Alexander Graham Bell built a metal detector to find the bullet, but it failed",
+            "k": ["alexander graham bell", "metal detector", "bullet"],
+            "n": 0
+        },
+        {
+            "id": "hancock",
+            "tier": "middle",
+            "t": "Narrowly beat Democrat Winfield Scott Hancock, another former Union general, in the 1880 election",
+            "k": ["winfield scott hancock", "hancock"],
+            "n": 0
+        },
+        {
+            "id": "general",
+            "tier": "middle",
+            "t": "Rose to major general in the Union army, fighting at Shiloh and Chickamauga",
+            "k": ["major general", "shiloh", "chickamauga"],
+            "n": 0
+        },
+        {
+            "id": "pythagorean",
+            "tier": "middle",
+            "t": "Published his own proof of the Pythagorean theorem in 1876, while serving in Congress",
+            "k": ["pythagorean", "proof", "1876"],
+            "n": 0,
+            "rabbit": "Pythagorean theorem"
+        },
+        {
+            "id": "guiteau-trial",
+            "tier": "middle",
+            "t": "Guiteau thought his campaign speech had earned him a post as consul in Paris; his insanity defense failed, and he was executed in 1882",
+            "k": ["consul", "insanity", "1882"],
+            "n": 0
+        },
+        {
+            "id": "conkling",
+            "tier": "power",
+            "t": "Named William Robertson Collector of the Port of New York; senators Roscoe Conkling and Thomas Platt resigned in protest (1881)",
+            "k": ["conkling", "platt", "collector", "robertson"],
+            "n": 0
+        },
+        {
+            "id": "blaine",
+            "tier": "power",
+            "t": "Secretary of State James G. Blaine was walking beside him when he was shot",
+            "k": ["blaine", "secretary of state"],
+            "n": 0
+        },
+        {
+            "id": "trapezoid",
+            "tier": "power",
+            "t": "His Pythagorean proof arranged three right triangles into a trapezoid",
+            "k": ["trapezoid", "three right triangles"],
+            "n": 0
+        },
+        {
+            "id": "bliss",
+            "tier": "power",
+            "t": "Dr. Willard Bliss led doctors who searched for the bullet without washing their hands or tools",
+            "k": ["willard bliss", "bliss", "washing"],
+            "n": 0
+        },
+        {
+            "id": "cooling",
+            "tier": "power",
+            "t": "Navy engineers cooled his sickroom with an early air conditioner that blew air over cloths soaked in ice water",
+            "k": ["air conditioner", "ice water", "navy engineers"],
+            "n": 0
+        },
+        {
+            "id": "elberon",
+            "tier": "power",
+            "t": "Was moved by train to Elberon, on the New Jersey shore, where he died",
+            "k": ["elberon", "new jersey"],
+            "n": 0
+        },
+        {
+            "id": "williams",
+            "tier": "power",
+            "t": "Graduated from Williams College in Massachusetts (1856)",
+            "k": ["williams college", "1856"],
+            "n": 0
+        },
+        {
+            "id": "hiram",
+            "tier": "power",
+            "t": "Taught at and then led the Western Reserve Eclectic Institute (later Hiram College); preached for the Disciples of Christ",
+            "k": ["hiram", "eclectic institute", "disciples of christ"],
+            "n": 0
+        },
+        {
+            "id": "canal",
+            "tier": "power",
+            "t": "As a teenager, drove the animals that towed boats on the Ohio and Erie Canal",
+            "k": ["ohio and erie", "canal", "towed"],
+            "n": 0
+        },
+        {
+            "id": "electoral-commission",
+            "tier": "power",
+            "t": "Served on the 15-member Electoral Commission that settled the disputed 1876 election",
+            "k": ["electoral commission", "1876"],
+            "n": 0
+        },
+        {
+            "id": "sitting-house",
+            "tier": "power",
+            "t": "The only person elected president while serving in the House of Representatives; Ohio had also just chosen him for the Senate",
+            "k": ["house of representatives", "senate"],
+            "n": 0
+        },
+        {
+            "id": "front-porch",
+            "tier": "power",
+            "t": "Greeted visitors from the porch of his farm in Mentor, Ohio, nicknamed “Lawnfield,” during the 1880 campaign",
+            "k": ["porch", "mentor", "lawnfield"],
+            "n": 0
+        },
+        {
+            "id": "star-route",
+            "tier": "power",
+            "t": "Backed an investigation of the Star Route frauds in mail-delivery contracts; Postmaster General Thomas James helped expose them",
+            "k": ["star route", "postmaster general", "mail-delivery"],
+            "n": 0
+        },
+        {
+            "id": "mother",
+            "tier": "power",
+            "t": "His mother, Eliza, was the first mother of a president to attend her son’s inauguration",
+            "k": ["eliza", "mother", "inauguration"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Garfield or his successor?",
+        "body": "Many Garfield clues also appear in tossups about Chester A. Arthur, his vice president, who took over in September 1881 and signed the Pendleton Act. Garfield is also easy to mix up with William McKinley, another Ohio Republican president who was shot and later died of infection, in Buffalo in 1901. Real answer lines for Arthur say “do not accept James Garfield,” so the reverse mistake costs points too.",
+        "fix": "Charles Guiteau, the Baltimore and Potomac station, Alexander Graham Bell’s metal detector, and 1881 mean Garfield. Signing the Pendleton Act, the Chinese Exclusion Act, and the “Gentleman Boss” nickname mean Arthur. Leon Czolgosz, Buffalo, and the Pan-American Exposition mean McKinley.",
+        "line": "Real answer line: James <b><u>Garfield</u></b> (or James Abram <b><u>Garfield</u></b>; do not accept “Chester A. Arthur”)"
+    },
+    "tests": {
+        "right": [
+            "James Garfield",
+            "Garfield",
+            "James A. Garfield",
+            "James Abram Garfield",
+            "Garfeild"
+        ],
+        "prompt": [
+            "James"
+        ],
+        "wrong": [
+            "Chester A. Arthur",
+            "Charles Guiteau",
+            "Rutherford B. Hayes",
+            "James G. Blaine",
+            "William McKinley",
+            "Lucretia Garfield"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

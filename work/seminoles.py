@@ -1,0 +1,363 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "seminoles",
+    "name": "Seminoles",
+    "mono": "SEM",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Native nation of Florida · Fought three wars against U.S. removal",
+    "dates": "Wars 1817–1818, 1835–1842, 1855–1858",
+    "briefing": "In the 1700s, Creek families and other Native people moved into Spanish Florida and formed a new nation, the Seminoles, who were allied with communities of Black people who had escaped slavery. They fought three wars against the United States, and the longest, in which Osceola was a famous war leader, lasted from 1835 to 1842. Most Seminoles were forced west to Indian Territory, but a few hundred stayed in the Everglades, and their descendants still live in Florida.",
+    "answerHtml": "<b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; accept <u>Seminole Tribe of Florida</u>; prompt on <u>Miccosukee</u> or <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)",
+    "accept": [
+        "seminole",
+        "seminoles",
+        "the seminoles",
+        "the seminole",
+        "seminole nation",
+        "seminole tribe",
+        "seminole people",
+        "seminole indians",
+        "seminole tribe of florida",
+        "seminole nation of oklahoma"
+    ],
+    "prompt": [
+        "miccosukee",
+        "mikasuki",
+        "miccosukee tribe",
+        "five civilized tribes",
+        "civilized tribes",
+        "five tribes",
+        "black seminoles",
+        "black seminole",
+        "the black seminoles",
+        "seminole maroons"
+    ],
+    "reject": [
+        "cherokee",
+        "cherokees",
+        "creek",
+        "creeks",
+        "muscogee",
+        "muskogee",
+        "muscogee creek",
+        "choctaw",
+        "chickasaw",
+        "calusa",
+        "timucua",
+        "apalachee",
+        "yamasee",
+        "seminole war",
+        "seminole wars",
+        "first seminole war",
+        "second seminole war",
+        "third seminole war",
+        "osceola",
+        "trail of tears",
+        "indian removal",
+        "indian removal act"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Seminole",
+    "qb": {
+        "q": "Seminole",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This people’s name is often traced to the Spanish word cimarrón [“see-mah-ROHN”], meaning “wild” or “runaway,” because their ancestors broke away from other nations and moved into Spanish lands. Many of those ancestors were Creek people from Georgia and Alabama who moved south in the 1700s.",
+            "r": "Osceola was one of their most famous war leaders. For 10 points, name this Native nation of Florida."
+        },
+        {
+            "p": "In 1818, a U.S. general who had invaded Spanish Florida to fight this people captured St. Marks and Pensacola and executed two British subjects, Alexander Arbuthnot [“ar-BUTH-not”] and Robert Ambrister, whom he accused of helping them. The next year, Spain agreed to give Florida to the United States.",
+            "r": "That general was Andrew Jackson. For 10 points, name this Native nation that fought three wars against the United States in Florida."
+        },
+        {
+            "p": "On December 28, 1835, warriors of this nation ambushed Major Francis Dade’s column of about 110 soldiers, and only a few soldiers survived. On the same day, a war leader of this nation killed the Indian agent Wiley Thompson outside Fort King.",
+            "r": "That leader was Osceola. Those attacks began the second of three wars between this nation and the United States. For 10 points, name this nation of Florida."
+        },
+        {
+            "p": "In 1837, soldiers acting on General Thomas Jesup’s orders seized a war leader of this nation when he came to talk under a white flag of truce, and many Americans condemned the act. That leader, whose portrait was painted by George Catlin, died a few months later at Fort Moultrie in South Carolina.",
+            "r": "That leader was Osceola. For 10 points, name this Native nation that fought the United States in Florida in the 1800s."
+        },
+        {
+            "p": "Under the 1823 Treaty of Moultrie Creek, this nation moved onto an inland reservation, but a later treaty signed at Payne’s Landing in 1832 called for its people to move west of the Mississippi River. Many of them said the leaders who signed that second treaty had no right to do so.",
+            "r": "The dispute led to a long war. For 10 points, name this nation that resisted removal in Florida, led partly by Osceola."
+        },
+        {
+            "p": "John Horse, also called Juan Caballo [“HWAHN kah-BAH-yoh”], was a leader of this nation’s Black allies, many of whom had escaped slavery in Georgia and the Carolinas. In 1849 and 1850, he and the leader Wild Cat led a group of this nation’s people and their Black allies to northern Mexico.",
+            "r": "Osceola fought for this nation in the 1830s. For 10 points, name this Native nation of Florida."
+        },
+        {
+            "p": "On Christmas Day 1837, Colonel Zachary Taylor’s army fought warriors of this nation at the Battle of Lake Okeechobee [“oh-kee-CHOH-bee”], one of the largest battles of a seven-year war. Leaders on the other side included Alligator and Abiaka [“ah-bee-AH-kah”], a medicine man also called Sam Jones.",
+            "r": "Taylor later became president. For 10 points, name this nation of Florida, whose war leaders included Osceola."
+        },
+        {
+            "p": "The medicine man Abiaka [“ah-bee-AH-kah”], also called Sam Jones, never surrendered and led his followers deep into the Everglades, where soldiers could not catch them. This nation’s tribe there calls itself “unconquered,” and it is often said that it never signed a peace treaty with the United States.",
+            "r": "For 10 points, name this Native nation of Florida, which fought three wars against the United States."
+        },
+        {
+            "p": "In 1858, Billy Bowlegs, also known as Holata Micco [“hoh-LAH-tah MIK-oh”], agreed to move west with many of his followers, ending the last of three wars between his nation and the United States. That war had begun in 1855, after army surveyors damaged crops belonging to his band.",
+            "r": "A few hundred of his people stayed in the Everglades. For 10 points, name this Native nation of Florida, whose war leaders included Osceola."
+        },
+        {
+            "p": "In November 1837, the war leader Wild Cat, also called Coacoochee [“koh-uh-KOO-chee”], and other prisoners from this nation squeezed through a narrow opening high in a wall of Fort Marion in St. Augustine and escaped. A more famous leader of this nation, who was held in the same fort, did not go with them.",
+            "r": "That leader was Osceola. For 10 points, name this Native nation that resisted removal in the 1830s."
+        },
+        {
+            "p": "After their removal west, this nation’s people were at first made to settle on Creek land, but in 1856 they received a separate reservation of their own. Their nation’s capital in Oklahoma is Wewoka [“wee-WOH-kuh”].",
+            "r": "Others stayed in Florida. For 10 points, name this nation, one of the “Five Civilized Tribes,” that was once led in war by Osceola."
+        },
+        {
+            "p": "In 2007, a tribe of this nation bought the Hard Rock Cafe company, a deal often described as the first purchase of a major international company by a Native American tribe. The separate Miccosukee [“mik-uh-SOO-kee”] Tribe, whose members share much of this nation’s history, was recognized by the U.S. government in 1962.",
+            "r": "Florida State University’s teams use this nation’s name, with the tribe’s approval. For 10 points, name this Native nation, which fought three wars against the United States."
+        },
+        {
+            "p": "Members of this nation are known for colorful patchwork clothing sewn from narrow strips of cloth, and for chickees [“CHICK-eez”], open-sided houses with roofs thatched with palmetto leaves. Many of its people speak Mikasuki [“mih-KAH-soo-kee”] or the Muscogee language.",
+            "r": "Their 1830s war leaders included Osceola. For 10 points, name this Native nation of Florida."
+        },
+        {
+            "p": "In 1816, U.S. forces destroyed a fort on the Apalachicola [“ap-uh-lach-ih-KOH-luh”] River that had been held by Black people who had escaped slavery, along with some Native allies. That attack, and clashes over the next year, helped lead to the first of three wars between this nation and the United States.",
+            "r": "For 10 points, name this Native nation, later led in war by Osceola, that lived in Florida."
+        },
+        {
+            "p": "Generals including Winfield Scott and Thomas Jesup commanded U.S. forces against this nation in a war from 1835 to 1842, often called the longest and costliest war the United States ever fought against a Native nation. That war followed the Indian Removal Act of 1830.",
+            "r": "Osceola led many of its warriors. For 10 points, name this Native nation that resisted removal from Florida."
+        }
+    ],
+    "clues": [
+        {
+            "id": "florida",
+            "tier": "giveaway",
+            "t": "Native nation of Florida, formed in the 1700s mostly by Creek people who moved south",
+            "k": ["florida", "creek", "1700s"],
+            "n": 0
+        },
+        {
+            "id": "osceola",
+            "tier": "giveaway",
+            "t": "Osceola was a famous war leader in their fight against removal",
+            "k": ["osceola"],
+            "n": 0
+        },
+        {
+            "id": "three-wars",
+            "tier": "giveaway",
+            "t": "Fought three wars against the United States (1817–1818, 1835–1842, 1855–1858)",
+            "k": ["three wars", "1835", "1842"],
+            "n": 0
+        },
+        {
+            "id": "removal",
+            "tier": "giveaway",
+            "t": "Most were forced west to Indian Territory (Oklahoma); one of the “Five Civilized Tribes”",
+            "k": ["indian territory", "five civilized tribes", "oklahoma"],
+            "n": 0,
+            "rabbit": "Trail of Tears"
+        },
+        {
+            "id": "jackson-1818",
+            "tier": "middle",
+            "t": "Andrew Jackson invaded Spanish Florida in the first war (1818), capturing St. Marks and Pensacola",
+            "k": ["andrew jackson", "pensacola", "spanish florida"],
+            "n": 0,
+            "rabbit": "Andrew Jackson"
+        },
+        {
+            "id": "arbuthnot",
+            "tier": "middle",
+            "t": "Jackson executed two Britons, Alexander Arbuthnot and Robert Ambrister, accusing them of helping this people",
+            "k": ["arbuthnot", "ambrister"],
+            "n": 0
+        },
+        {
+            "id": "adams-onis",
+            "tier": "middle",
+            "t": "Soon after, Spain gave Florida to the United States in the Adams–Onís Treaty (1819)",
+            "k": ["spain", "1819", "adams"],
+            "n": 0
+        },
+        {
+            "id": "dade",
+            "tier": "middle",
+            "t": "The second war began when they attacked Major Francis Dade’s soldiers (December 28, 1835)",
+            "k": ["francis dade", "dade"],
+            "n": 0
+        },
+        {
+            "id": "black-allies",
+            "tier": "middle",
+            "t": "Allied with Black communities of people who had escaped slavery; John Horse was a leader",
+            "k": ["escaped slavery", "john horse", "black"],
+            "n": 0
+        },
+        {
+            "id": "flag-of-truce",
+            "tier": "middle",
+            "t": "Osceola was seized under a flag of truce (1837) on General Thomas Jesup’s orders and died at Fort Moultrie (1838)",
+            "k": ["flag of truce", "jesup", "fort moultrie"],
+            "n": 0
+        },
+        {
+            "id": "everglades",
+            "tier": "middle",
+            "t": "A few hundred stayed hidden in the Everglades; their Florida tribe calls itself “unconquered”",
+            "k": ["everglades", "unconquered"],
+            "n": 0
+        },
+        {
+            "id": "okeechobee",
+            "tier": "middle",
+            "t": "Zachary Taylor fought them at the Battle of Lake Okeechobee (Christmas Day 1837)",
+            "k": ["okeechobee", "zachary taylor", "christmas"],
+            "n": 0
+        },
+        {
+            "id": "paynes-landing",
+            "tier": "middle",
+            "t": "The Treaty of Payne’s Landing (1832) called for their removal west; many of them rejected it",
+            "k": ["payne’s landing", "1832"],
+            "n": 0
+        },
+        {
+            "id": "fsu",
+            "tier": "middle",
+            "t": "Florida State University’s teams use their name, with the Florida tribe’s approval",
+            "k": ["florida state", "university"],
+            "n": 0
+        },
+        {
+            "id": "cimarron",
+            "tier": "power",
+            "t": "Their name is often traced to the Spanish word cimarrón, meaning “wild” or “runaway”",
+            "k": ["cimarrón", "cimarron", "runaway"],
+            "n": 0
+        },
+        {
+            "id": "moultrie-creek",
+            "tier": "power",
+            "t": "The Treaty of Moultrie Creek (1823) moved them onto an inland reservation",
+            "k": ["moultrie creek", "1823", "inland"],
+            "n": 0
+        },
+        {
+            "id": "wiley-thompson",
+            "tier": "power",
+            "t": "Osceola killed Indian agent Wiley Thompson outside Fort King on the day of Dade’s battle",
+            "k": ["wiley thompson", "fort king"],
+            "n": 0
+        },
+        {
+            "id": "catlin",
+            "tier": "power",
+            "t": "George Catlin painted Osceola’s portrait at Fort Moultrie shortly before he died",
+            "k": ["catlin", "portrait"],
+            "n": 0
+        },
+        {
+            "id": "wild-cat",
+            "tier": "power",
+            "t": "Wild Cat (Coacoochee) and other prisoners escaped from Fort Marion in St. Augustine (1837)",
+            "k": ["wild cat", "coacoochee", "fort marion"],
+            "n": 0
+        },
+        {
+            "id": "mexico",
+            "tier": "power",
+            "t": "John Horse and Wild Cat led a group to northern Mexico (1849–1850)",
+            "k": ["mexico", "1849"],
+            "n": 0
+        },
+        {
+            "id": "abiaka",
+            "tier": "power",
+            "t": "The medicine man Abiaka (Sam Jones) never surrendered",
+            "k": ["abiaka", "sam jones"],
+            "n": 0
+        },
+        {
+            "id": "bowlegs",
+            "tier": "power",
+            "t": "Billy Bowlegs (Holata Micco) agreed to move west in 1858, ending the third war",
+            "k": ["billy bowlegs", "bowlegs", "1858"],
+            "n": 0
+        },
+        {
+            "id": "wewoka",
+            "tier": "power",
+            "t": "In the West they were first placed on Creek land; in 1856 they got their own reservation, and their capital is Wewoka, Oklahoma",
+            "k": ["wewoka", "1856"],
+            "n": 0
+        },
+        {
+            "id": "hard-rock",
+            "tier": "power",
+            "t": "Their Florida tribe bought the Hard Rock Cafe company (2007); the separate Miccosukee Tribe was recognized in 1962",
+            "k": ["hard rock", "miccosukee", "2007"],
+            "n": 0
+        },
+        {
+            "id": "patchwork",
+            "tier": "power",
+            "t": "Known for colorful patchwork clothing and chickees, open-sided houses thatched with palmetto leaves",
+            "k": ["patchwork", "chickees", "palmetto"],
+            "n": 0
+        },
+        {
+            "id": "apalachicola",
+            "tier": "power",
+            "t": "In 1816, U.S. forces destroyed a fort on the Apalachicola River held by people who had escaped slavery, a step toward the first war",
+            "k": ["apalachicola", "1816"],
+            "n": 0
+        },
+        {
+            "id": "costliest",
+            "tier": "power",
+            "t": "The 1835–1842 war is often called the longest and costliest U.S. war against a Native nation; Winfield Scott and Thomas Jesup commanded in it",
+            "k": ["costliest", "longest", "winfield scott"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Southeastern nation?",
+        "body": "The Seminole, Cherokee, Creek, Choctaw, and Chickasaw were all called the “Five Civilized Tribes,” and all were forced west in the 1800s, so their clues blur together. The Seminoles grew partly out of the Creek, but answering “Creek” or “Cherokee” is wrong when the clues point to Florida. The three wars are separate answer lines, so naming the people when a question asks for “this war” loses the tossup.",
+        "fix": "Florida, the Everglades, Osceola, Dade’s battle, Billy Bowlegs, and Andrew Jackson’s 1818 invasion mean the Seminoles. Sequoyah, John Ross, and New Echota mean the Cherokee; the Red Sticks and Horseshoe Bend mean the Creek. Listen for “this nation” versus “this war.”",
+        "line": "Real answer line: <b><u>Seminole</u></b>s (or <u>Seminole</u> Nation; prompt on <u>Five Civilized Tribes</u>; do not accept “Cherokee” or “Creek”)"
+    },
+    "tests": {
+        "right": [
+            "Seminoles",
+            "Seminole",
+            "Seminole Nation",
+            "Seminole Tribe of Florida",
+            "Seminols"
+        ],
+        "prompt": [
+            "Miccosukee",
+            "Five Civilized Tribes"
+        ],
+        "wrong": [
+            "Cherokee",
+            "Creek",
+            "Second Seminole War",
+            "Osceola",
+            "Choctaw",
+            "Trail of Tears",
+            "Muscogee"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

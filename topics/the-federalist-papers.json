@@ -1,0 +1,430 @@
+{
+  "id": "the-federalist-papers",
+  "name": "The Federalist Papers",
+  "mono": "FP",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "85 essays signed “Publius” · Urged New York to ratify the Constitution",
+  "dates": "Published 1787–1788",
+  "briefing": "To persuade New Yorkers to ratify the new Constitution, Alexander Hamilton, James Madison, and John Jay wrote 85 essays in 1787 and 1788, all signed with the pen name “Publius.” Hamilton wrote 51, Madison 29, and Jay 5. Essays like No. 10, on the dangers of factions, and No. 51, which says “if men were angels, no government would be necessary,” are still quoted by Supreme Court justices.",
+  "answerHtml": "The <b><u>Federalist</u></b> Papers (or <u>The Federalist</u>; prompt on one numbered essay, such as <u>Federalist No. 10</u>; do not accept “Anti-Federalist Papers” or “Federalist Party”)",
+  "accept": [
+    "the federalist papers",
+    "federalist papers",
+    "the federalist",
+    "federalist",
+    "federalist essays",
+    "the federalist essays"
+  ],
+  "prompt": [
+    "federalist no 10",
+    "federalist 10",
+    "federalist number 10",
+    "federalist no 51",
+    "federalist 51",
+    "federalist number 51",
+    "federalist no 78",
+    "federalist 78",
+    "federalist number 78"
+  ],
+  "reject": [
+    "federalist party",
+    "the federalist party",
+    "federalists",
+    "the federalists",
+    "anti federalist papers",
+    "antifederalist papers",
+    "anti federalists papers",
+    "anti federalist",
+    "anti federalists",
+    "antifederalist",
+    "antifederalists",
+    "federalism",
+    "federalist society",
+    "democratic republican party",
+    "democratic republicans",
+    "the constitution",
+    "us constitution",
+    "united states constitution",
+    "articles of confederation",
+    "bill of rights",
+    "declaration of independence",
+    "common sense",
+    "federal farmer",
+    "letters from a federal farmer"
+  ],
+  "tests": {
+    "right": [
+      "The Federalist Papers",
+      "Federalist Papers",
+      "The Federalist",
+      "Federalist",
+      "Federalist essays",
+      "Fedralist Papers"
+    ],
+    "prompt": [
+      "Federalist No. 10",
+      "Federalist 51"
+    ],
+    "wrong": [
+      "Anti-Federalist Papers",
+      "Federalist Party",
+      "Federalists",
+      "Federalism",
+      "Common Sense",
+      "Articles of Confederation"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/The_Federalist_Papers",
+  "qb": {
+    "q": "Federalist Papers",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In the 1960s, statisticians Frederick Mosteller and David Wallace counted how often words like “upon” and “whilst” appeared in these works to figure out who wrote twelve of them whose authorship was disputed.",
+      "r": "Their counts pointed to James Madison rather than Alexander Hamilton. For 10 points, name these 85 essays, all signed “Publius,” that defended the U.S. Constitution."
+    },
+    {
+      "p": "Montesquieu [“MON-tes-kyoo”] is called “the oracle” on the separation of powers in one of these essays. A later one argues that “ambition must be made to counteract ambition” and that “if men were angels, no government would be necessary.”",
+      "r": "James Madison wrote both of those essays, Nos. 47 and 51. For 10 points, name this series of essays that urged New Yorkers to ratify the Constitution."
+    },
+    {
+      "p": "One of these essays claims that “the most common and durable source” of political divisions “has been the various and unequal distribution of property.” That essay argues that a large republic is the best way to control the dangers of “faction.”",
+      "r": "That essay, No. 10, was written by James Madison. For 10 points, name this series of 85 essays published under the pen name “Publius.”"
+    },
+    {
+      "p": "Courts have “neither force nor will, but merely judgment,” according to one of these essays, which calls them “the least dangerous” branch. That essay, No. 78, also defends letting judges serve during “good behaviour” and supports the idea later called judicial review.",
+      "r": "Its author, Alexander Hamilton, wrote 51 of these essays. For 10 points, name this series written to defend the new Constitution."
+    },
+    {
+      "p": "“Energy in the executive is a leading character in the definition of good government,” declares one of these essays, which argues for a single president instead of a council. Another, No. 68, defends the system of electors that chooses the president.",
+      "r": "Alexander Hamilton wrote both. For 10 points, name this series of essays by Hamilton, James Madison, and John Jay."
+    },
+    {
+      "p": "In one of these essays, the author argued that a bill of rights was unnecessary and might even be dangerous, because it would seem to limit powers the new government had never been given. That essay, No. 84, was one of the last in the series.",
+      "r": "Its author, Alexander Hamilton, wrote most of these essays. For 10 points, name these 85 essays that defended the Constitution in 1787 and 1788."
+    },
+    {
+      "p": "The pen name on these essays honored a Roman leader who helped found the Roman Republic after its last king was overthrown. Three different men wrote these essays, but every one of them was signed with that single name.",
+      "r": "That name was “Publius.” For 10 points, name these essays by Alexander Hamilton, James Madison, and John Jay."
+    },
+    {
+      "p": "The first of these essays appeared in New York’s _Independent Journal_ on October 27, 1787, and others soon ran in the _New-York Packet_ and the _Daily Advertiser_. Each essay was addressed “To the People of the State of New York.”",
+      "r": "For 10 points, name this series of essays signed “Publius,” which urged New Yorkers to ratify the Constitution."
+    },
+    {
+      "p": "In 1788, the New York printers John and Archibald McLean collected these essays into a two-volume book, including some that had not yet appeared in any newspaper. That book’s title described the essays as a collection written “in favour of the new Constitution.”",
+      "r": "For 10 points, name this series of 85 essays by Alexander Hamilton, James Madison, and John Jay."
+    },
+    {
+      "p": "One author of these essays wrote No. 64, which defends giving the president and the Senate the power to make treaties. That same author argued in No. 2 that Providence had given “this one connected country to one united people.”",
+      "r": "That author, John Jay, wrote only five of these essays. For 10 points, name this series, mostly written by Alexander Hamilton and James Madison."
+    },
+    {
+      "p": "In a song that closes the first act of a 2015 Broadway musical, Aaron Burr counts how many of these essays each writer produced: five, twenty-nine, and fifty-one. That song, “Non-Stop,” asks the title character why he writes “like you’re running out of time.”",
+      "r": "That musical is _Hamilton_. For 10 points, name this series of essays signed “Publius” that defended the Constitution."
+    },
+    {
+      "p": "The first of these essays asks whether societies can set up good government “from reflection and choice,” or whether they must always depend on “accident and force.” Its author went on to write 51 of the 85 essays in the series.",
+      "r": "That author was Alexander Hamilton. For 10 points, name this series of essays that urged the people of New York to ratify the Constitution."
+    },
+    {
+      "p": "Opponents of the Constitution answered these essays with their own, written under pen names such as “Brutus” and “Cato.” These essays were aimed at New York, which ratified the Constitution by a vote of 30 to 27 at Poughkeepsie [“puh-KIP-see”] in July 1788.",
+      "r": "For 10 points, name these 85 essays by Alexander Hamilton, James Madison, and John Jay."
+    },
+    {
+      "p": "A promise that the national government’s powers would be “few and defined,” while those left to the states would be “numerous and indefinite,” appears in one of these essays. That essay, No. 45, came from the same author as the famous essays on factions and on angels.",
+      "r": "That author was James Madison. For 10 points, name this series of essays defending the Constitution, all signed “Publius.”"
+    },
+    {
+      "p": "Shortly before his fatal duel in 1804, one writer left a friend a list of which of these essays he had written. That list claimed some essays that his co-author, the future fourth president, later said were his own.",
+      "r": "That writer was Alexander Hamilton. For 10 points, name this series of 85 essays that defended the Constitution."
+    }
+  ],
+  "clues": [
+    {
+      "id": "85-essays",
+      "tier": "giveaway",
+      "t": "85 essays (1787–1788) urging Americans, especially New Yorkers, to ratify the Constitution",
+      "k": [
+        "85 essays",
+        "ratify",
+        "constitution"
+      ],
+      "n": 0
+    },
+    {
+      "id": "authors",
+      "tier": "giveaway",
+      "t": "Written by Alexander Hamilton, James Madison, and John Jay",
+      "k": [
+        "alexander hamilton",
+        "james madison",
+        "john jay"
+      ],
+      "n": 0,
+      "rabbit": "Alexander Hamilton"
+    },
+    {
+      "id": "publius",
+      "tier": "giveaway",
+      "t": "All signed with one pen name: “Publius”",
+      "k": [
+        "publius",
+        "pen name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "counts",
+      "tier": "giveaway",
+      "t": "Hamilton wrote 51 essays, Madison wrote 29, and Jay wrote only five",
+      "k": [
+        "only five",
+        "51",
+        "29"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-10",
+      "tier": "middle",
+      "t": "No. 10 (Madison): a large republic is the best way to control the dangers of “faction”",
+      "k": [
+        "faction",
+        "large republic",
+        "no. 10"
+      ],
+      "n": 0,
+      "rabbit": "James Madison"
+    },
+    {
+      "id": "no-51",
+      "tier": "middle",
+      "t": "No. 51 (Madison): “If men were angels, no government would be necessary”; “ambition must be made to counteract ambition”",
+      "k": [
+        "angels",
+        "ambition",
+        "no. 51"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-78",
+      "tier": "middle",
+      "t": "No. 78 (Hamilton): the courts are “the least dangerous” branch, with “neither force nor will, but merely judgment”",
+      "k": [
+        "least dangerous",
+        "judgment",
+        "no. 78"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-70",
+      "tier": "middle",
+      "t": "No. 70 (Hamilton): “energy in the executive” is key to good government",
+      "k": [
+        "energy in the executive",
+        "executive",
+        "no. 70"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-york-papers",
+      "tier": "middle",
+      "t": "First printed in New York newspapers, starting with the _Independent Journal_ on October 27, 1787",
+      "k": [
+        "independent journal",
+        "newspapers",
+        "october 27"
+      ],
+      "n": 0
+    },
+    {
+      "id": "to-the-people",
+      "tier": "middle",
+      "t": "Each essay was addressed “To the People of the State of New York”",
+      "k": [
+        "to the people",
+        "state of new york"
+      ],
+      "n": 0,
+      "rabbit": "New York"
+    },
+    {
+      "id": "hamilton-musical",
+      "tier": "middle",
+      "t": "In the musical _Hamilton_, the song “Non-Stop” counts the essays: five by Jay, 29 by Madison, 51 by Hamilton",
+      "k": [
+        "non-stop",
+        "musical"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-84",
+      "tier": "middle",
+      "t": "No. 84 (Hamilton): argued a bill of rights was unnecessary and could even be dangerous",
+      "k": [
+        "bill of rights",
+        "unnecessary",
+        "no. 84"
+      ],
+      "n": 0,
+      "rabbit": "Bill of Rights"
+    },
+    {
+      "id": "publicola",
+      "tier": "power",
+      "t": "“Publius” honored Publius Valerius Publicola, a founder of the Roman Republic",
+      "k": [
+        "publicola",
+        "roman republic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mosteller-wallace",
+      "tier": "power",
+      "t": "In the 1960s, Frederick Mosteller and David Wallace counted words like “upon” and “whilst” and credited Madison with all 12 disputed essays",
+      "k": [
+        "mosteller",
+        "wallace",
+        "whilst",
+        "upon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hamilton-list",
+      "tier": "power",
+      "t": "Shortly before his fatal 1804 duel, Hamilton left a list claiming essays that Madison later claimed too",
+      "k": [
+        "duel",
+        "list",
+        "1804"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-47",
+      "tier": "power",
+      "t": "No. 47 (Madison) calls Montesquieu “the oracle” on the separation of powers",
+      "k": [
+        "montesquieu",
+        "oracle",
+        "separation of powers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-1",
+      "tier": "power",
+      "t": "No. 1 (Hamilton) asks whether good government can come from “reflection and choice” rather than “accident and force”",
+      "k": [
+        "reflection and choice",
+        "accident and force"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-68",
+      "tier": "power",
+      "t": "No. 68 (Hamilton) defends the Electoral College, the system of electors that chooses the president",
+      "k": [
+        "electoral college",
+        "electors",
+        "no. 68"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-64",
+      "tier": "power",
+      "t": "John Jay wrote Nos. 2–5 and No. 64, which defends giving the president and Senate the treaty power",
+      "k": [
+        "treaty",
+        "no. 64",
+        "senate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-2",
+      "tier": "power",
+      "t": "No. 2 (Jay): Providence gave “this one connected country to one united people”",
+      "k": [
+        "one united people",
+        "connected country",
+        "providence"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-45",
+      "tier": "power",
+      "t": "No. 45 (Madison): national powers are “few and defined,” state powers “numerous and indefinite”",
+      "k": [
+        "few and defined",
+        "numerous and indefinite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mclean",
+      "tier": "power",
+      "t": "Printers John and Archibald McLean collected them in a two-volume book (1788)",
+      "k": [
+        "mclean",
+        "two-volume"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brutus-cato",
+      "tier": "power",
+      "t": "Opponents of the Constitution answered with essays signed “Brutus” and “Cato”",
+      "k": [
+        "brutus",
+        "cato"
+      ],
+      "n": 0
+    },
+    {
+      "id": "poughkeepsie",
+      "tier": "power",
+      "t": "Aimed at New York, which ratified at Poughkeepsie by 30 to 27 (July 1788)",
+      "k": [
+        "poughkeepsie",
+        "30 to 27"
+      ],
+      "n": 0
+    },
+    {
+      "id": "other-papers",
+      "tier": "power",
+      "t": "Also ran in the _New-York Packet_ and the _Daily Advertiser_",
+      "k": [
+        "packet",
+        "daily advertiser"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Essays, not the party",
+    "body": "“Federalist” is part of several answer lines. _The Federalist Papers_ are the 85 essays of 1787–1788; the Federalist Party was the party of Alexander Hamilton and John Adams in the 1790s; and the Anti-Federalists were the Constitution’s opponents, who wrote essays of their own under names like “Brutus.” Saying the party, “Federalists,” or “Anti-Federalist Papers” loses the tossup.",
+    "fix": "Listen for the noun: “these essays,” “this series,” or numbered essays like No. 10 and No. 51 mean _The Federalist Papers_, and plain “The Federalist” is fine too. “This party,” with John Adams or the Alien and Sedition Acts, means the Federalist Party.",
+    "line": "Real answer line: The <b><u>Federalist</u></b> Papers (or <u>The Federalist</u>; do not accept “Anti-Federalist Papers” or “Federalist Party”)"
+  }
+}

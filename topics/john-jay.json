@@ -181,29 +181,6 @@
       "rabbit": "The Federalist Papers"
     },
     {
-      "id": "paris",
-      "tier": "giveaway",
-      "t": "Helped negotiate the Treaty of Paris (1783) that ended the Revolution, with Benjamin Franklin and John Adams",
-      "k": [
-        "treaty of paris",
-        "1783",
-        "franklin"
-      ],
-      "n": 0,
-      "rabbit": "Treaty of Paris"
-    },
-    {
-      "id": "governor",
-      "tier": "giveaway",
-      "t": "Governor of New York (1795–1801), elected while he was negotiating in England",
-      "k": [
-        "governor",
-        "new york",
-        "1795"
-      ],
-      "n": 0
-    },
-    {
       "id": "chisholm",
       "tier": "middle",
       "t": "_Chisholm v. Georgia_ (1793): his Court let a citizen sue another state, which led to the 11th Amendment",
@@ -289,6 +266,29 @@
       ],
       "n": 0,
       "rabbit": "John Marshall"
+    },
+    {
+      "id": "paris",
+      "tier": "middle",
+      "t": "Helped negotiate the Treaty of Paris (1783) that ended the Revolution, with Benjamin Franklin and John Adams",
+      "k": [
+        "treaty of paris",
+        "1783",
+        "franklin"
+      ],
+      "n": 0,
+      "rabbit": "Treaty of Paris"
+    },
+    {
+      "id": "governor",
+      "tier": "middle",
+      "t": "Governor of New York (1795–1801), elected while he was negotiating in England",
+      "k": [
+        "governor",
+        "new york",
+        "1795"
+      ],
+      "n": 0
     },
     {
       "id": "gardoqui",

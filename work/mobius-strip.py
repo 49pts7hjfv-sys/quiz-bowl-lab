@@ -1,0 +1,338 @@
+import json
+
+data = {
+    "id": "mobius-strip",
+    "name": "Möbius strip",
+    "mono": "MS",
+    "category": "Math",
+    "qbCategory": "Science · Other Science (Math)",
+    "kicker": "A surface with one side and one edge · Made with a half-twist",
+    "dates": "Found independently by Listing and Möbius, 1858",
+    "briefing": "Take a long strip of paper, give one end a half-twist, and tape the ends together: you have made a Möbius strip, a surface with only one side and only one edge. An ant crawling along its middle would visit both “sides” and return to its start without ever stepping over an edge. Two German mathematicians, August Möbius and Johann Listing, found it independently in 1858, and the three-arrow recycling symbol is based on its shape.",
+    "answerHtml": "<b><u>Möbius strip</u></b> (or <u>Möbius band</u> or <u>Möbius loop</u>; accept <u>Mobius</u> or <u>Moebius</u> spellings; prompt on <u>Möbius</u> alone or <u>non-orientable surface</u>; do not accept “Klein bottle”)",
+    "accept": [
+        "mobius strip",
+        "mobius strips",
+        "moebius strip",
+        "moebius strips",
+        "mobius band",
+        "mobius bands",
+        "moebius band",
+        "moebius bands",
+        "mobius loop",
+        "mobius loops",
+        "moebius loop",
+        "moebius loops",
+        "mobius surface",
+        "mobius ribbon"
+    ],
+    "prompt": [
+        "mobius",
+        "moebius",
+        "non orientable surface",
+        "nonorientable surface",
+        "one sided surface"
+    ],
+    "reject": [
+        "klein bottle",
+        "klein bottles",
+        "torus",
+        "tori",
+        "cylinder",
+        "cylinders",
+        "annulus",
+        "mobius function",
+        "mobius transformation",
+        "mobius transformations",
+        "mobius inversion",
+        "august mobius",
+        "august ferdinand mobius",
+        "johann listing",
+        "johann benedict listing",
+        "projective plane",
+        "real projective plane",
+        "lemniscate",
+        "infinity",
+        "infinity symbol",
+        "penrose triangle",
+        "penrose stairs",
+        "trefoil knot",
+        "topology",
+        "recycling symbol"
+    ],
+    "tests": {
+        "right": [
+            "Möbius strip",
+            "Mobius strip",
+            "Moebius band",
+            "mobious strip",
+            "Möbius loop"
+        ],
+        "prompt": [
+            "Möbius"
+        ],
+        "wrong": [
+            "Klein bottle",
+            "torus",
+            "Möbius function",
+            "infinity",
+            "August Möbius",
+            "cylinder"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/M%C3%B6bius_strip",
+    "qb": {
+        "q": "Mobius",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In an old magic trick, a performer cuts three paper loops down the middle. A loop with no twist splits into two separate loops, a loop with a full twist becomes two linked loops, and a loop shaped like this object becomes one loop twice as long.",
+            "r": "For 10 points, name this surface with only one side, made by giving a paper ribbon a half-twist before taping its ends together."
+        },
+        {
+            "p": "Johann Listing, who coined the word “topology,” found this object in 1858, the same year that a German astronomer at Leipzig found it on his own. That astronomer, its namesake, also gave his name to a function used in number theory.",
+            "r": "It is made with a half-twist. For 10 points, name this surface that has only one side and only one edge."
+        },
+        {
+            "p": "In 1970, Gary Anderson, a student at the University of Southern California, won a design contest held by the Container Corporation of America with three folded, chasing arrows that form this shape. An ant walking once along this object’s center line ends up on the “other side.”",
+            "r": "Anderson’s arrows became the universal recycling symbol. For 10 points, name this surface that has just one side and one edge."
+        },
+        {
+            "p": "M. C. Escher [“ESH-er”] made a woodcut of red ants crawling endlessly around this object, visiting both of its apparent sides without ever stepping over an edge. A pencil line drawn down the middle of this object meets up with itself only after going around twice.",
+            "r": "It has only one edge. For 10 points, name this one-sided surface, made by giving a paper ribbon a half-twist."
+        },
+        {
+            "p": "Felix Klein described a famous bottle in 1882 that can be made by gluing two of these objects together along their edges. That bottle, unlike this object, can only be built in three dimensions by letting it pass through itself.",
+            "r": "Like the bottle, it is one-sided. For 10 points, name this surface made by giving a paper ribbon a half-twist."
+        },
+        {
+            "p": "Some conveyor belts and typewriter ribbons have been made in this shape so that wear spreads over their whole surface instead of just one face. If you trace the boundary of this object with a finger, you travel around the loop twice before returning to your starting point.",
+            "r": "It is named for a German mathematician. For 10 points, name this surface with one side and one edge."
+        },
+        {
+            "p": "Surprisingly, cutting this object lengthwise down its middle does not produce two pieces, but a single loop twice as long, with two full twists. This object’s namesake also gave his name to a type of transformation of the complex plane.",
+            "r": "This object has just one side and one edge. For 10 points, name this surface named for a German mathematician."
+        },
+        {
+            "p": "In a square diagram used to build this surface, the arrows on two opposite sides point in opposite directions, meaning those sides are glued together after a flip. This surface is often called the simplest example of a non-orientable surface.",
+            "r": "For 10 points, name this surface, which has only one side and can be made by giving a paper ribbon a half-twist."
+        },
+        {
+            "p": "Six countries drawn on this surface can each share a border with all five of the others, so maps on it can need six colors instead of the four that are always enough on a flat page. Coloring one face of a paper model of this surface ends up coloring the whole thing.",
+            "r": "It has only one edge. For 10 points, name this one-sided surface made by twisting a paper ribbon halfway before joining its ends."
+        },
+        {
+            "p": "A flat, two-dimensional creature that slid all the way around this surface would come back as its own mirror image, with its left and right sides swapped. For that reason, mathematicians call this surface non-orientable.",
+            "r": "A paper cylinder has two sides and two edges, but this surface has only one of each. For 10 points, name this surface made with a half-twist."
+        },
+        {
+            "p": "Like a pair of gloves, this object comes in left-handed and right-handed versions that are mirror images of each other. Maps drawn on this surface can need as many as six colors, two more than a flat map ever needs.",
+            "r": "Any paper loop with an odd number of half-twists is one-sided, just like this object. For 10 points, name this surface with only one edge."
+        },
+        {
+            "p": "This object’s namesake introduced barycentric [“bair-ih-SEN-trik”] coordinates in an 1827 book and spent his career as an astronomer in Leipzig. He wrote about this object in 1858, the same year that Johann Listing found it on his own.",
+            "r": "For 10 points, name this surface made by giving a paper ribbon a half-twist and taping its ends together."
+        },
+        {
+            "p": "A riddle asks why the chicken crossed this surface, and answers “To get to the same side.” Two beetles starting on what look like opposite faces of a paper model of this surface can walk to meet each other without stepping over an edge.",
+            "r": "It is made by giving a paper ribbon a half-twist. For 10 points, name this one-sided surface, named for a German mathematician."
+        },
+        {
+            "p": "In topology, sometimes called “rubber-sheet geometry,” this object can be bent and stretched as much as you like, but it can never be turned into a plain cylinder without cutting it. Topology’s name was coined by Johann Listing, one of the two Germans who found this object in 1858.",
+            "r": "It can be made from a paper ribbon. For 10 points, name this surface with only one side and only one edge."
+        },
+        {
+            "p": "Cutting this object lengthwise one-third of the way in from its edge produces two linked loops: a thinner copy of this object and a longer loop that has two sides. Cutting it straight down the middle instead leaves it in one piece.",
+            "r": "For 10 points, name this one-sided surface, which you can make by giving a paper ribbon a half-twist."
+        }
+    ],
+    "clues": [
+        {
+            "id": "one-side",
+            "tier": "giveaway",
+            "t": "A surface with only one side and only one edge",
+            "k": ["one side", "one edge", "surface"],
+            "n": 0
+        },
+        {
+            "id": "half-twist",
+            "tier": "giveaway",
+            "t": "Made by giving a paper ribbon a half-twist and taping its ends together",
+            "k": ["half-twist", "paper ribbon", "taping"],
+            "n": 0
+        },
+        {
+            "id": "recycling",
+            "tier": "giveaway",
+            "t": "The three-arrow universal recycling symbol is based on its shape",
+            "k": ["recycling", "three-arrow"],
+            "n": 0
+        },
+        {
+            "id": "german",
+            "tier": "middle",
+            "t": "Named for a German mathematician and astronomer at Leipzig who wrote about it in 1858",
+            "k": ["german", "1858", "leipzig"],
+            "n": 0
+        },
+        {
+            "id": "ant",
+            "tier": "middle",
+            "t": "An ant walking once along its center line ends up on the “other side” without stepping over an edge",
+            "k": ["ant", "center line", "other side"],
+            "n": 0
+        },
+        {
+            "id": "center-cut",
+            "tier": "middle",
+            "t": "Cutting it lengthwise down the middle gives one loop twice as long, with two full twists and two sides, instead of two pieces",
+            "k": ["lengthwise", "twice as long", "cutting"],
+            "n": 0
+        },
+        {
+            "id": "third-cut",
+            "tier": "middle",
+            "t": "Cutting it one-third of the way in from the edge gives two linked loops: a thinner copy and a longer two-sided loop",
+            "k": ["one-third", "linked", "thinner copy"],
+            "n": 0
+        },
+        {
+            "id": "listing",
+            "tier": "middle",
+            "t": "Johann Listing, who coined the word “topology,” found it independently in 1858",
+            "k": ["johann listing", "listing", "topology"],
+            "n": 0
+        },
+        {
+            "id": "klein",
+            "tier": "middle",
+            "t": "Gluing two of them together along their edges makes a Klein bottle (Felix Klein, 1882), which can be built in 3D only by passing through itself",
+            "k": ["klein bottle", "felix klein", "1882"],
+            "n": 0
+        },
+        {
+            "id": "non-orientable",
+            "tier": "middle",
+            "t": "Non-orientable: a flat creature sliding all the way around it comes back as its own mirror image",
+            "k": ["non-orientable", "mirror image"],
+            "n": 0
+        },
+        {
+            "id": "escher",
+            "tier": "middle",
+            "t": "M. C. Escher made a woodcut of red ants crawling endlessly around it",
+            "k": ["escher", "red ants", "woodcut"],
+            "n": 0
+        },
+        {
+            "id": "full-twist",
+            "tier": "middle",
+            "t": "A loop with a full twist has two sides; loops with an odd number of half-twists are one-sided, and even numbers give two sides",
+            "k": ["full twist", "odd number", "even"],
+            "n": 0
+        },
+        {
+            "id": "magic-trick",
+            "tier": "power",
+            "t": "An old magic trick: cut down the middle, an untwisted loop makes two loops, a full twist makes two linked loops, and this shape makes one big loop",
+            "k": ["magic trick", "untwisted"],
+            "n": 0
+        },
+        {
+            "id": "anderson",
+            "tier": "power",
+            "t": "Gary Anderson, a University of Southern California student, designed the recycling symbol in 1970 for a contest held by the Container Corporation of America",
+            "k": ["gary anderson", "1970", "container corporation"],
+            "n": 0
+        },
+        {
+            "id": "conveyor",
+            "tier": "power",
+            "t": "Some conveyor belts and typewriter ribbons have been made in this shape so wear spreads over their whole surface",
+            "k": ["conveyor belts", "typewriter ribbons", "wear"],
+            "n": 0
+        },
+        {
+            "id": "edge-twice",
+            "tier": "power",
+            "t": "Tracing its boundary with a finger, you go around the loop twice before returning to the start",
+            "k": ["boundary", "finger", "twice"],
+            "n": 0
+        },
+        {
+            "id": "pencil",
+            "tier": "power",
+            "t": "A pencil line drawn down its middle meets itself only after going around twice, covering both apparent sides",
+            "k": ["pencil line", "around twice"],
+            "n": 0
+        },
+        {
+            "id": "square-diagram",
+            "tier": "power",
+            "t": "In its square diagram, arrows on two opposite sides point opposite ways, so those sides are glued after a flip; it is often called the simplest non-orientable surface",
+            "k": ["square diagram", "arrows", "flip"],
+            "n": 0
+        },
+        {
+            "id": "six-colors",
+            "tier": "power",
+            "t": "Six countries drawn on it can all border each other, so its maps can need six colors instead of four",
+            "k": ["six colors", "six countries", "maps"],
+            "n": 0
+        },
+        {
+            "id": "chirality",
+            "tier": "power",
+            "t": "Like a pair of gloves, it comes in left-handed and right-handed mirror-image versions",
+            "k": ["left-handed", "right-handed", "gloves"],
+            "n": 0
+        },
+        {
+            "id": "barycentric",
+            "tier": "power",
+            "t": "Its namesake introduced barycentric coordinates in an 1827 book and also names a number-theory function and a type of transformation of the complex plane",
+            "k": ["barycentric", "1827", "transformation"],
+            "n": 0
+        },
+        {
+            "id": "rubber-sheet",
+            "tier": "power",
+            "t": "In topology (“rubber-sheet geometry”), it can never be stretched into a plain cylinder without cutting",
+            "k": ["rubber-sheet", "cylinder", "stretched"],
+            "n": 0
+        },
+        {
+            "id": "riddle",
+            "tier": "power",
+            "t": "Riddle: why did the chicken cross it? “To get to the same side”",
+            "k": ["chicken", "same side", "riddle"],
+            "n": 0
+        },
+        {
+            "id": "coloring",
+            "tier": "power",
+            "t": "Coloring one face of a paper model ends up coloring the whole thing without crossing the edge",
+            "k": ["coloring", "paper model"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "One edge or none?",
+        "body": "The Klein bottle is the Möbius strip’s close cousin: it is also one-sided, but it has no edge at all, and it can be made by gluing two Möbius strips together along their edges. Other near-misses are the torus, a doughnut shape with an inside and an outside, and a plain paper loop with no twist. Saying only “Möbius” earns a prompt, because Möbius also names a function and a kind of transformation.",
+        "fix": "If the surface has one side and one edge, or comes from a half-twisted paper loop, say “Möbius strip.” If it has one side but no edge, like a bottle that passes through itself, say “Klein bottle.” Any spelling is fine: “Mobius” and “Moebius” count.",
+        "line": "Real answer line: <b><u>Möbius strip</u></b> (or <u>Möbius band</u>; accept <u>Mobius</u> or <u>Moebius</u> spellings; prompt on <u>Möbius</u> alone; do not accept “Klein bottle”)"
+    }
+}
+
+with open("topics/mobius-strip.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote topics/mobius-strip.json")

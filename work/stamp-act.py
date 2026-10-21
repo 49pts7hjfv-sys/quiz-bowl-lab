@@ -1,0 +1,350 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "stamp-act",
+    "name": "Stamp Act",
+    "mono": "SA",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "1765 British tax on printed paper · “No taxation without representation”",
+    "dates": "Passed 1765; repealed 1766",
+    "briefing": "In 1765, Parliament ordered American colonists to use specially marked, taxed paper for newspapers, legal documents, pamphlets, and even playing cards, to help pay for British troops in America. The colonies exploded in protest: crowds hanged tax collectors in effigy, the Sons of Liberty organized, nine colonies sent delegates to a special congress, and merchants stopped buying British goods. Parliament repealed the Stamp Act in 1766 but passed the Declaratory Act the same day, insisting it could still make laws for the colonies “in all cases whatsoever.”",
+    "answerHtml": "<b><u>Stamp Act</u></b> of 1765 (accept Duties in American Colonies Act; prompt on <u>stamp tax</u>; do not accept “Sugar Act,” “Townshend Acts,” or “Tea Act”)",
+    "accept": [
+        "stamp act",
+        "the stamp act",
+        "stamp act of 1765",
+        "stamp act 1765",
+        "1765 stamp act",
+        "stamp acts",
+        "duties in american colonies act",
+        "duties in american colonies act 1765"
+    ],
+    "prompt": [
+        "stamp tax",
+        "stamp taxes",
+        "stamp duty",
+        "stamp duties",
+        "stamps",
+        "stamp"
+    ],
+    "reject": [
+        "sugar act",
+        "american revenue act",
+        "revenue act",
+        "townshend acts",
+        "townshend act",
+        "townshend duties",
+        "townshend revenue act",
+        "tea act",
+        "declaratory act",
+        "quartering act",
+        "currency act",
+        "intolerable acts",
+        "coercive acts",
+        "navigation acts",
+        "molasses act",
+        "proclamation of 1763",
+        "stamp act congress",
+        "sons of liberty",
+        "boston tea party"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Stamp_Act_1765",
+    "qb": {
+        "q": "Stamp Act",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "During a debate over this law, Isaac Barré [“bah-RAY”], a member of Parliament who had fought in the French and Indian War, defended the colonists by saying that British oppression, not British care, had planted them in America. The city of Wilkes-Barre, Pennsylvania, is named partly for him.",
+            "r": "In that speech, Barré called the colonists “Sons of Liberty.” For 10 points, name this 1765 British tax on newspapers, legal papers, and playing cards."
+        },
+        {
+            "p": "On August 14, 1765, a Boston crowd hanged an effigy of Andrew Oliver from a large elm, later called the Liberty Tree, because he had been chosen to collect this law’s tax in Massachusetts. Oliver resigned the next day, and less than two weeks later a mob wrecked the mansion of Lieutenant Governor Thomas Hutchinson.",
+            "r": "Parliament repealed this law in 1766. For 10 points, name this tax that required colonists to buy specially marked paper."
+        },
+        {
+            "p": "In May 1765, a new member of Virginia’s House of Burgesses introduced resolutions declaring that only Virginia’s own assembly could tax Virginians. In a speech against this law, he reportedly warned that “Caesar had his Brutus” and that King George III might “profit by their example.”",
+            "r": "That burgess was Patrick Henry. For 10 points, name this 1765 tax on printed paper, which led to the cry “No taxation without representation.”"
+        },
+        {
+            "p": "In October 1765, delegates from nine colonies met at New York’s City Hall to protest this law, and they approved a Declaration of Rights and Grievances written mostly by John Dickinson. That meeting took its name from this law.",
+            "r": "For 10 points, name this 1765 law, proposed by George Grenville, that taxed newspapers and legal documents."
+        },
+        {
+            "p": "People accused of breaking this law could be tried in vice-admiralty courts, which had no juries, and its tax had to be paid in British coins rather than colonial paper money. Prime Minister George Grenville proposed it to help pay for about 10,000 British soldiers kept in North America.",
+            "r": "Colonists protested it with the slogan “No taxation without representation.” For 10 points, name this 1765 tax on printed paper."
+        },
+        {
+            "p": "In February 1766, Benjamin Franklin told the House of Commons that the colonists would never pay this law’s tax unless they were forced to by arms. William Pitt also urged Parliament to repeal it, telling members that he rejoiced that America had resisted.",
+            "r": "For 10 points, name this tax that Parliament repealed in March 1766, the same day it passed the Declaratory Act."
+        },
+        {
+            "p": "On the same day in March 1766 that Parliament repealed this law, it passed an act declaring that it could make laws binding the colonies “in all cases whatsoever.” The government of the Marquess of Rockingham [“ROCK-ing-um”] carried out that repeal.",
+            "r": "That act was the Declaratory Act. For 10 points, name this 1765 tax law, which sparked the cry “No taxation without representation.”"
+        },
+        {
+            "p": "This law taxed dice and playing cards, along with diplomas, ship’s papers, almanacs, and pamphlets. It angered lawyers, printers, and merchants most of all, since their work used so much paper.",
+            "r": "Newspapers and legal documents needed specially marked paper too. For 10 points, name this 1765 law proposed by George Grenville."
+        },
+        {
+            "p": "Merchants in New York, Philadelphia, and Boston agreed to stop importing British goods until this law was repealed, and British merchants who lost business then lobbied Parliament against it. Almost every official chosen to distribute this law’s specially marked paper resigned before it took effect on November 1, 1765.",
+            "r": "Groups called the Sons of Liberty formed to fight it. For 10 points, name this 1765 British tax on printed paper."
+        },
+        {
+            "p": "Thomas Whately, a British official, defended this law by arguing that the colonists were “virtually represented” in Parliament even though they elected no members to it. In Massachusetts, John Adams wrote instructions for the town of Braintree protesting this law.",
+            "r": "For 10 points, name this 1765 law that colonists opposed with the cry “No taxation without representation.”"
+        },
+        {
+            "p": "In Boston, a secret club of artisans and shopkeepers called the Loyal Nine organized the first protests against this law. A shoemaker named Ebenezer Mackintosh led the crowds that attacked the property of royal officials.",
+            "r": "Groups called the Sons of Liberty soon formed in other colonies. For 10 points, name this 1765 tax on printed paper, repealed in 1766."
+        },
+        {
+            "p": "One year after the Sugar Act lowered the tax on molasses but enforced it more strictly, Parliament passed this law, the first direct tax it ever placed on the American colonies. A Quartering Act passed soon afterward required colonies to supply British troops with housing and supplies.",
+            "r": "Colonists protested this law by boycotting British goods. For 10 points, name this 1765 tax on newspapers and legal documents."
+        },
+        {
+            "p": "Timothy Ruggles of Massachusetts presided over a congress that met to oppose this law, but he refused to sign its petitions, and his colony’s legislature later scolded him for it. James Otis had proposed calling that congress.",
+            "r": "For 10 points, name this 1765 British tax law, whose repeal came with the Declaratory Act."
+        },
+        {
+            "p": "Benjamin Franklin hurt his reputation at home by recommending his friend John Hughes to distribute this law’s specially marked paper in Pennsylvania. In September 1765, Franklin’s wife, Deborah, refused to leave their Philadelphia house and prepared to defend it when an angry crowd threatened it.",
+            "r": "Franklin later testified against this law in Parliament. For 10 points, name this 1765 tax on printed paper."
+        },
+        {
+            "p": "Grateful New Yorkers voted to put up statues of King George III and William Pitt after Parliament repealed this law. Years later, after the Declaration of Independence was read in the city in July 1776, a crowd pulled down the king’s statue at Bowling Green.",
+            "r": "For 10 points, name this 1765 British tax on newspapers, legal documents, and playing cards."
+        }
+    ],
+    "clues": [
+        {
+            "id": "year-1765",
+            "tier": "giveaway",
+            "t": "Passed by Parliament in 1765 to raise money from the American colonies",
+            "k": ["1765", "parliament", "colonies"],
+            "n": 0
+        },
+        {
+            "id": "printed-paper",
+            "tier": "giveaway",
+            "t": "Taxed printed paper, such as newspapers and legal documents",
+            "k": ["printed paper", "newspapers", "legal documents"],
+            "n": 0
+        },
+        {
+            "id": "no-taxation",
+            "tier": "giveaway",
+            "t": "Protested with the cry “No taxation without representation”",
+            "k": ["no taxation", "representation"],
+            "n": 0
+        },
+        {
+            "id": "sons-of-liberty",
+            "tier": "giveaway",
+            "t": "Sons of Liberty groups formed to fight it",
+            "k": ["sons of liberty"],
+            "n": 0,
+            "rabbit": "Sons of Liberty"
+        },
+        {
+            "id": "grenville",
+            "tier": "middle",
+            "t": "Proposed by Prime Minister George Grenville, who had also passed the Sugar Act (1764)",
+            "k": ["grenville", "george grenville", "sugar act"],
+            "n": 0
+        },
+        {
+            "id": "declaratory",
+            "tier": "middle",
+            "t": "Repealed in March 1766, the same day Parliament passed the Declaratory Act, claiming power over the colonies “in all cases whatsoever”",
+            "k": ["declaratory act", "declaratory", "in all cases whatsoever"],
+            "n": 0
+        },
+        {
+            "id": "congress-1765",
+            "tier": "middle",
+            "t": "Delegates from nine colonies met in New York (October 1765) and approved a Declaration of Rights and Grievances",
+            "k": ["nine colonies", "rights and grievances", "october 1765"],
+            "n": 0
+        },
+        {
+            "id": "patrick-henry",
+            "tier": "middle",
+            "t": "Patrick Henry’s Virginia Resolves (May 1765); he reportedly warned that “Caesar had his Brutus”",
+            "k": ["patrick henry", "virginia resolves", "brutus"],
+            "n": 0,
+            "rabbit": "Patrick Henry"
+        },
+        {
+            "id": "troops",
+            "tier": "middle",
+            "t": "Meant to help pay for about 10,000 British troops kept in America after the French and Indian (Seven Years’) War",
+            "k": ["troops", "french and indian", "seven years"],
+            "n": 0,
+            "rabbit": "French and Indian War"
+        },
+        {
+            "id": "boycott",
+            "tier": "middle",
+            "t": "Merchants boycotted British goods with nonimportation agreements",
+            "k": ["boycotted", "nonimportation", "british goods"],
+            "n": 0
+        },
+        {
+            "id": "oliver",
+            "tier": "middle",
+            "t": "Boston crowds hanged an effigy of tax collector Andrew Oliver from the Liberty Tree (August 1765)",
+            "k": ["andrew oliver", "liberty tree", "effigy"],
+            "n": 0
+        },
+        {
+            "id": "franklin",
+            "tier": "middle",
+            "t": "Benjamin Franklin told the House of Commons (1766) that colonists would never pay it unless forced",
+            "k": ["franklin", "house of commons"],
+            "n": 0,
+            "rabbit": "Benjamin Franklin"
+        },
+        {
+            "id": "first-direct",
+            "tier": "middle",
+            "t": "The first direct tax Parliament placed on the colonies",
+            "k": ["direct tax", "first direct"],
+            "n": 0
+        },
+        {
+            "id": "barre",
+            "tier": "power",
+            "t": "Isaac Barré called the colonists “Sons of Liberty” in a 1765 speech in Parliament; Wilkes-Barre, Pennsylvania, is partly named for him",
+            "k": ["barré", "wilkes-barre"],
+            "n": 0
+        },
+        {
+            "id": "hutchinson",
+            "tier": "power",
+            "t": "A mob wrecked Lieutenant Governor Thomas Hutchinson’s Boston mansion (August 26, 1765)",
+            "k": ["hutchinson", "mansion"],
+            "n": 0
+        },
+        {
+            "id": "dickinson",
+            "tier": "power",
+            "t": "John Dickinson wrote most of the Declaration of Rights and Grievances; the congress met at New York’s City Hall",
+            "k": ["dickinson", "city hall"],
+            "n": 0
+        },
+        {
+            "id": "vice-admiralty",
+            "tier": "power",
+            "t": "Accused violators faced vice-admiralty courts without juries; the tax had to be paid in British coins",
+            "k": ["vice-admiralty", "juries", "coins"],
+            "n": 0
+        },
+        {
+            "id": "pitt-rockingham",
+            "tier": "power",
+            "t": "William Pitt said he rejoiced that America had resisted; the Marquess of Rockingham’s government repealed it",
+            "k": ["pitt", "rockingham"],
+            "n": 0
+        },
+        {
+            "id": "items",
+            "tier": "power",
+            "t": "Also taxed dice, playing cards, diplomas, almanacs, pamphlets, and ship’s papers",
+            "k": ["dice", "playing cards", "diplomas", "almanacs"],
+            "n": 0
+        },
+        {
+            "id": "distributors",
+            "tier": "power",
+            "t": "Almost every chosen tax distributor resigned before it took effect on November 1, 1765",
+            "k": ["distributor", "november 1"],
+            "n": 0
+        },
+        {
+            "id": "whately",
+            "tier": "power",
+            "t": "Thomas Whately argued colonists were “virtually represented” in Parliament; John Adams wrote the Braintree Instructions against it",
+            "k": ["virtually represented", "whately", "braintree"],
+            "n": 0,
+            "rabbit": "John Adams"
+        },
+        {
+            "id": "loyal-nine",
+            "tier": "power",
+            "t": "Boston’s Loyal Nine organized the first protests; shoemaker Ebenezer Mackintosh led the crowds",
+            "k": ["loyal nine", "mackintosh"],
+            "n": 0
+        },
+        {
+            "id": "ruggles-otis",
+            "tier": "power",
+            "t": "Timothy Ruggles presided over the 1765 congress but refused to sign; James Otis had proposed it",
+            "k": ["ruggles", "otis"],
+            "n": 0
+        },
+        {
+            "id": "hughes",
+            "tier": "power",
+            "t": "Franklin’s friend John Hughes was named a distributor; Deborah Franklin defended their Philadelphia house (1765)",
+            "k": ["john hughes", "deborah"],
+            "n": 0
+        },
+        {
+            "id": "statues",
+            "tier": "power",
+            "t": "Grateful New Yorkers voted for statues of George III and William Pitt; the king’s statue at Bowling Green was pulled down in 1776",
+            "k": ["bowling green", "statues"],
+            "n": 0
+        },
+        {
+            "id": "quartering",
+            "tier": "power",
+            "t": "A Quartering Act (1765), passed soon after, required colonies to house and supply British troops",
+            "k": ["quartering act", "quartering"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which British tax?",
+        "body": "Parliament taxed the colonies several times before the Revolution. The Sugar Act (1764) taxed molasses, the Stamp Act (1765) taxed printed paper, the Townshend Acts (1767) taxed glass, lead, paint, paper, and tea brought into the colonies, and the Tea Act (1773) led to the Boston Tea Party. The Stamp Act Congress is its own answer line, so answering with the law when a question asks for “this meeting” or “this congress” is wrong.",
+        "fix": "Grenville, 1765, newspapers, playing cards, Andrew Oliver, Patrick Henry’s Virginia Resolves, and repeal alongside the Declaratory Act mean the Stamp Act. Molasses and 1764 mean the Sugar Act; glass, paint, and Charles Townshend mean the Townshend Acts.",
+        "line": "Real answer line: <b><u>Stamp Act</u></b> (do not accept “Sugar Act,” “Townshend Acts,” or “Tea Act”)"
+    },
+    "tests": {
+        "right": [
+            "Stamp Act",
+            "the Stamp Act",
+            "Stamp Act of 1765",
+            "Stamp Akt",
+            "Stamp Acts"
+        ],
+        "prompt": [
+            "stamp tax",
+            "stamps"
+        ],
+        "wrong": [
+            "Sugar Act",
+            "Townshend Acts",
+            "Tea Act",
+            "Declaratory Act",
+            "Stamp Act Congress",
+            "Quartering Act",
+            "Intolerable Acts"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

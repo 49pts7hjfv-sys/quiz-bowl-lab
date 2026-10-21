@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "income-tax",
+    "name": "Income tax",
+    "mono": "TAX",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Tax on what people earn · Allowed by the 16th Amendment in 1913",
+    "dates": "First U.S. version 1861; permanent since 1913",
+    "briefing": "Every spring, millions of Americans fill out forms to figure out how much income tax they owe on the money they earned. The federal government first taxed incomes to help pay for the Civil War, but after the Supreme Court struck down a later income tax in 1895, the country added the 16th Amendment in 1913 to allow it. It became the federal government’s biggest source of money during World War II.",
+    "answerHtml": "<b><u>income tax</u></b> (accept <u>income taxes</u>; prompt on <u>tax</u> or <u>taxes</u>)",
+    "accept": [
+        "income tax",
+        "income taxes",
+        "federal income tax",
+        "federal income taxes",
+        "individual income tax",
+        "personal income tax",
+        "graduated income tax",
+        "progressive income tax",
+        "tax on income",
+        "tax on incomes",
+        "taxes on income",
+        "income taxation",
+        "us income tax"
+    ],
+    "prompt": [
+        "tax",
+        "taxes",
+        "taxation",
+        "federal tax",
+        "federal taxes"
+    ],
+    "reject": [
+        "sales tax",
+        "property tax",
+        "poll tax",
+        "poll taxes",
+        "tariff",
+        "tariffs",
+        "excise tax",
+        "estate tax",
+        "inheritance tax",
+        "payroll tax",
+        "social security tax",
+        "capital gains tax",
+        "corporate tax",
+        "value added tax",
+        "whiskey tax",
+        "stamp act",
+        "stamp tax",
+        "tea tax",
+        "tax evasion",
+        "negative income tax",
+        "earned income tax credit",
+        "sixteenth amendment",
+        "16th amendment",
+        "internal revenue service",
+        "irs"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Income_tax_in_the_United_States",
+    "qb": {
+        "q": "income tax",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "To pay for Britain’s war against Revolutionary France, Prime Minister William Pitt the Younger introduced this kind of tax in 1799. Britain dropped it after the Napoleonic Wars, but Robert Peel brought it back for good in 1842.",
+            "r": "In the United States, the 16th Amendment allowed Congress to collect it. For 10 points, name this tax on people’s earnings."
+        },
+        {
+            "p": "In _Springer v. United States_, the Supreme Court ruled in 1881 that a wartime version of this tax had been constitutional. An 1862 law that expanded that version also created the office of Commissioner of Internal Revenue.",
+            "r": "For 10 points, name this tax, which Abraham Lincoln first signed into law in 1861 to help pay for the Civil War."
+        },
+        {
+            "p": "In _Pollock v. Farmers’ Loan & Trust Co._, the Supreme Court struck down this tax in 1895, ruling that it was a direct tax that had to be divided among the states by population. The version it struck down had been part of a tariff law passed the year before.",
+            "r": "The 16th Amendment later overcame that ruling. For 10 points, name this tax collected by the IRS."
+        },
+        {
+            "p": "Grover Cleveland let the Wilson–Gorman Tariff of 1894 become law without his signature, and that law included a 2 percent version of this tax on high earners. Two years earlier, the Populist Party’s Omaha Platform had demanded a graduated version of this tax.",
+            "r": "For 10 points, name this tax that the federal government has collected every year since 1913."
+        },
+        {
+            "p": "Tennessee congressman Cordell Hull wrote the section of the 1913 Underwood Tariff that brought back this tax, which began at just 1 percent on earnings above $3,000. Woodrow Wilson signed that law months after a new constitutional amendment allowed it.",
+            "r": "That amendment was the 16th. For 10 points, name this tax that most Americans file by April 15."
+        },
+        {
+            "p": "President William Howard Taft supported a constitutional amendment, passed by Congress in 1909, that let the federal government collect this tax without dividing it among the states by population. The amendment was ratified four years later.",
+            "r": "That amendment was the 16th. For 10 points, name this tax on wages and other earnings."
+        },
+        {
+            "p": "Beardsley Ruml, the treasurer of Macy’s department store, pushed for a pay-as-you-go system for this tax, which Congress adopted in the Current Tax Payment Act of 1943. Since then, employers have taken this tax out of each paycheck, a practice called withholding.",
+            "r": "Workers get a W-2 form showing how much was withheld. For 10 points, name this tax that Americans report on Form 1040."
+        },
+        {
+            "p": "In the 1942 Disney cartoon _The New Spirit_, Donald Duck learns that paying this tax on time will help win World War II. That year’s Revenue Act turned this tax into a “mass tax” paid by most working Americans.",
+            "r": "For 10 points, name this federal tax on people’s earnings, collected by the IRS."
+        },
+        {
+            "p": "In 1953, the federal bureau that collects this tax got a new name, replacing the word “Bureau” with “Service.” Before 1955, Americans had to file their returns for this tax by March 15.",
+            "r": "Since then, the usual deadline has been April 15. For 10 points, name this tax collected by the IRS."
+        },
+        {
+            "p": "In _United States v. Sullivan_, the Supreme Court ruled in 1927 that money earned illegally is still subject to this tax. That decision helped prosecutors convict a Chicago gang boss who had not filed returns for years.",
+            "r": "That gangster, Al Capone, was convicted of evading this tax in 1931. For 10 points, name this tax allowed by the 16th Amendment."
+        },
+        {
+            "p": "The Tax Reform Act of 1986, signed by Ronald Reagan, cut the top rate of this tax to 28 percent and removed millions of poorer families from its rolls. Five years earlier, Reagan’s first big tax law had cut its top rate from 70 to 50 percent.",
+            "r": "For 10 points, name this tax that Americans pay on their wages and other earnings, collected by the IRS."
+        },
+        {
+            "p": "Alaska, Florida, Nevada, South Dakota, Texas, and Wyoming are among the states that do not have a state version of this tax on wages, so workers there pay it only to the federal government.",
+            "r": "Federal returns for this tax are filed on Form 1040. For 10 points, name this tax on earnings."
+        },
+        {
+            "p": "The first federal version of this tax in the United States charged 3 percent on yearly earnings over $800, and the next year Congress added a 5 percent rate for higher earners. That wartime version ended in 1872.",
+            "r": "It had been passed in 1861 to pay for the Civil War. For 10 points, name this tax revived after the 16th Amendment."
+        },
+        {
+            "p": "The first Form 1040 was filed in 1914, for money earned in 1913, and fewer than one in a hundred Americans had to fill it out. Like most later versions, it charged higher rates to people who earned more.",
+            "r": "That idea is called a progressive tax. For 10 points, name this tax collected by the IRS."
+        },
+        {
+            "p": "The amendment that lets Congress collect this tax is a single sentence, which says Congress may tax earnings “from whatever source derived.” That amendment was the first of four ratified between 1913 and 1920, during the Progressive Era.",
+            "r": "That amendment is the 16th. For 10 points, name this tax that Al Capone was convicted of evading."
+        }
+    ],
+    "clues": [
+        {
+            "id": "sixteenth",
+            "tier": "giveaway",
+            "t": "The 16th Amendment (1913) clearly allowed Congress to collect it without dividing it among the states",
+            "k": ["16th amendment", "1913"],
+            "n": 0
+        },
+        {
+            "id": "april-15",
+            "tier": "giveaway",
+            "t": "Federal returns are usually due on April 15, “Tax Day” (the deadline since 1955)",
+            "k": ["april 15", "tax day", "1955"],
+            "n": 0
+        },
+        {
+            "id": "irs",
+            "tier": "giveaway",
+            "t": "Collected by the Internal Revenue Service (IRS)",
+            "k": ["internal revenue service", "irs"],
+            "n": 0
+        },
+        {
+            "id": "capone",
+            "tier": "giveaway",
+            "t": "Gangster Al Capone was convicted of evading it in 1931",
+            "k": ["al capone", "capone", "evading", "1931"],
+            "n": 0,
+            "rabbit": "Al Capone"
+        },
+        {
+            "id": "civil-war",
+            "tier": "giveaway",
+            "t": "First passed in 1861, signed by Abraham Lincoln, to help pay for the Civil War",
+            "k": ["civil war", "lincoln", "1861"],
+            "n": 0
+        },
+        {
+            "id": "pollock",
+            "tier": "middle",
+            "t": "_Pollock v. Farmers’ Loan & Trust Co._ (1895): the Supreme Court struck down the 1894 version as a direct tax not divided among the states",
+            "k": ["pollock", "1895", "direct tax"],
+            "n": 0
+        },
+        {
+            "id": "withholding",
+            "tier": "middle",
+            "t": "Since 1943, employers withhold it from each paycheck (“pay-as-you-go”)",
+            "k": ["withhold", "1943", "paycheck", "pay-as-you-go"],
+            "n": 0
+        },
+        {
+            "id": "progressive",
+            "tier": "middle",
+            "t": "Progressive: people who earn more pay higher rates, using tax brackets",
+            "k": ["progressive", "higher rates", "brackets"],
+            "n": 0
+        },
+        {
+            "id": "form-1040",
+            "tier": "middle",
+            "t": "Filed on Form 1040, first used in 1914 for money earned in 1913",
+            "k": ["form 1040", "1040"],
+            "n": 0
+        },
+        {
+            "id": "underwood",
+            "tier": "middle",
+            "t": "Brought back by the Underwood Tariff (1913), signed by Woodrow Wilson; it began at 1% on earnings over $3,000",
+            "k": ["underwood", "woodrow wilson", "$3,000"],
+            "n": 0
+        },
+        {
+            "id": "wilson-gorman",
+            "tier": "middle",
+            "t": "The Wilson–Gorman Tariff (1894) included a 2% version; Grover Cleveland let it become law without signing it",
+            "k": ["wilson–gorman", "cleveland", "without signing"],
+            "n": 0
+        },
+        {
+            "id": "populists",
+            "tier": "middle",
+            "t": "The Populist Party’s Omaha Platform (1892) demanded a graduated version",
+            "k": ["populist", "omaha platform", "1892", "graduated"],
+            "n": 0
+        },
+        {
+            "id": "pitt",
+            "tier": "power",
+            "t": "Britain’s first: William Pitt the Younger (1799), to pay for war with France; Robert Peel brought it back for good (1842)",
+            "k": ["pitt", "1799", "peel", "1842"],
+            "n": 0
+        },
+        {
+            "id": "springer",
+            "tier": "power",
+            "t": "_Springer v. United States_ (1881) upheld the Civil War version",
+            "k": ["springer", "1881"],
+            "n": 0
+        },
+        {
+            "id": "commissioner",
+            "tier": "power",
+            "t": "The Revenue Act of 1862 created the Commissioner of Internal Revenue and added a 5% rate for higher earners; the wartime tax ended in 1872",
+            "k": ["commissioner of internal revenue", "1862", "1872"],
+            "n": 0
+        },
+        {
+            "id": "rate-1861",
+            "tier": "power",
+            "t": "The 1861 law charged 3% on yearly earnings over $800",
+            "k": ["$800", "3%"],
+            "n": 0
+        },
+        {
+            "id": "hull",
+            "tier": "power",
+            "t": "Congressman Cordell Hull of Tennessee wrote the tax section of the 1913 Underwood Tariff",
+            "k": ["cordell hull", "hull", "tennessee"],
+            "n": 0
+        },
+        {
+            "id": "taft",
+            "tier": "power",
+            "t": "William Howard Taft backed the amendment, which Congress passed in 1909 and the states ratified in 1913",
+            "k": ["taft", "1909"],
+            "n": 0
+        },
+        {
+            "id": "ruml",
+            "tier": "power",
+            "t": "Beardsley Ruml of Macy’s championed pay-as-you-go collection: the Current Tax Payment Act of 1943",
+            "k": ["ruml", "current tax payment act", "macy’s"],
+            "n": 0
+        },
+        {
+            "id": "new-spirit",
+            "tier": "power",
+            "t": "In Disney’s _The New Spirit_ (1942), Donald Duck learns that paying it on time helps win World War II",
+            "k": ["new spirit", "donald duck", "disney", "1942"],
+            "n": 0
+        },
+        {
+            "id": "mass-tax",
+            "tier": "power",
+            "t": "The Revenue Act of 1942 made it a “mass tax” paid by most working Americans",
+            "k": ["mass tax", "revenue act of 1942"],
+            "n": 0
+        },
+        {
+            "id": "irs-1953",
+            "tier": "power",
+            "t": "The Bureau of Internal Revenue became the Internal Revenue Service in 1953",
+            "k": ["bureau of internal revenue", "1953"],
+            "n": 0
+        },
+        {
+            "id": "sullivan",
+            "tier": "power",
+            "t": "_United States v. Sullivan_ (1927): money earned illegally must be reported and taxed too",
+            "k": ["sullivan", "1927", "illegally"],
+            "n": 0
+        },
+        {
+            "id": "reagan",
+            "tier": "power",
+            "t": "Ronald Reagan cut the top rate from 70% to 50% (1981), then to 28% in the Tax Reform Act of 1986",
+            "k": ["tax reform act", "1986", "28%", "70%"],
+            "n": 0
+        },
+        {
+            "id": "no-state",
+            "tier": "power",
+            "t": "Alaska, Florida, Nevada, South Dakota, Texas, and Wyoming have no state version of it on wages",
+            "k": ["texas", "florida", "no state version"],
+            "n": 0
+        },
+        {
+            "id": "whatever-source",
+            "tier": "power",
+            "t": "The 16th Amendment lets Congress tax earnings “from whatever source derived”; it was the first of four Progressive Era amendments (1913–1920)",
+            "k": ["whatever source derived", "progressive era"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Tax, tariff, or amendment?",
+        "body": "Income tax questions are packed with clues that are answer lines of their own. The 16th Amendment is the 1913 change to the Constitution that allowed the tax, and the IRS is the agency that collects it. Before 1913, the federal government got much of its money from tariffs, which are taxes on imported goods. Poll taxes, which kept many Black Southerners from voting until the 24th Amendment banned them in federal elections, are a different tax altogether.",
+        "fix": "Listen for the noun: “this amendment” wants the 16th Amendment, “this agency” wants the IRS, and “this tax” on wages and earnings wants the income tax. Saying just “taxes” earns a prompt, so add the word “income.”",
+        "line": "Real answer line: <b><u>income tax</u></b> (accept <u>income taxes</u>; prompt on <u>tax</u> or <u>taxes</u>)"
+    },
+    "tests": {
+        "right": [
+            "income tax",
+            "Income Taxes",
+            "federal income tax",
+            "incom tax",
+            "graduated income tax"
+        ],
+        "prompt": [
+            "taxes",
+            "Taxation"
+        ],
+        "wrong": [
+            "sales tax",
+            "tariff",
+            "poll tax",
+            "16th Amendment",
+            "property tax",
+            "IRS"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

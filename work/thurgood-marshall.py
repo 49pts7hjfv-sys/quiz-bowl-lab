@@ -1,0 +1,355 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "thurgood-marshall",
+    "name": "Thurgood Marshall",
+    "mono": "TM",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "First African American Supreme Court justice · Led the NAACP’s legal fight",
+    "dates": "1908–1993",
+    "briefing": "As the NAACP’s top lawyer, Thurgood Marshall traveled the country fighting segregation in court, and in 1954 he won _Brown v. Board of Education_, which struck down segregated public schools. In 1967, President Lyndon Johnson made him the first African American justice on the Supreme Court, where he served for 24 years. The main airport serving his hometown, Baltimore, is named for him.",
+    "answerHtml": "Thurgood <b><u>Marshall</u></b> (prompt on <u>Thurgood</u> alone; do not accept “John Marshall” or “George Marshall”)",
+    "accept": [
+        "thurgood marshall",
+        "marshall",
+        "justice marshall",
+        "justice thurgood marshall",
+        "thoroughgood marshall"
+    ],
+    "prompt": [
+        "thurgood",
+        "mr civil rights"
+    ],
+    "reject": [
+        "john marshall",
+        "chief justice john marshall",
+        "chief justice marshall",
+        "george marshall",
+        "george c marshall",
+        "marshall plan",
+        "john marshall harlan",
+        "harlan",
+        "james marshall",
+        "clarence thomas",
+        "earl warren",
+        "charles hamilton houston",
+        "charles houston",
+        "thurgood marshall school of law",
+        "brown v board of education",
+        "brown v board",
+        "naacp",
+        "martin luther king jr",
+        "martin luther king",
+        "lyndon b johnson",
+        "lyndon johnson",
+        "william brennan"
+    ],
+    "tests": {
+        "right": [
+            "Thurgood Marshall",
+            "Marshall",
+            "Justice Thurgood Marshall",
+            "Thurgood Marshal",
+            "Thurgod Marshall"
+        ],
+        "prompt": [
+            "Thurgood",
+            "Mr. Civil Rights"
+        ],
+        "wrong": [
+            "John Marshall",
+            "Clarence Thomas",
+            "George Marshall",
+            "Marshall Plan",
+            "Earl Warren",
+            "Charles Hamilton Houston",
+            "John Marshall Harlan"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+    "qb": {
+        "q": "Thurgood Marshall",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This lawyer and his mentor won a 1936 case, _Murray v. Pearson_, that forced the University of Maryland’s law school to admit a Black student. That school’s segregation policy had kept this man from studying there, so he earned his law degree at Howard University instead.",
+            "r": "He later argued _Brown v. Board of Education_. For 10 points, name this lawyer who became the first African American Supreme Court justice."
+        },
+        {
+            "p": "This lawyer helped a Houston dentist, Lonnie Smith, win a 1944 Supreme Court case that struck down Texas’s all-white Democratic primary elections. Two years later, he won _Morgan v. Virginia_, which struck down a state law segregating passengers on buses that crossed state lines.",
+            "r": "For 10 points, name this NAACP lawyer who argued _Brown v. Board of Education_ and later became the first African American Supreme Court justice."
+        },
+        {
+            "p": "Texas set up a separate law school for Black students to keep Heman Sweatt out of the University of Texas, but this lawyer convinced the Supreme Court in 1950 that it was not equal. The law school at Houston’s Texas Southern University was later named for this man.",
+            "r": "For 10 points, name this NAACP lawyer who argued _Brown v. Board of Education_ and became the first Black Supreme Court justice."
+        },
+        {
+            "p": "In 1965, this man became the first African American to serve as Solicitor General, the lawyer who argues cases for the federal government before the Supreme Court. Four years earlier, John F. Kennedy had named him to a federal appeals court in New York.",
+            "r": "For 10 points, name this man whom Lyndon Johnson appointed in 1967 as the first Black justice on the Supreme Court."
+        },
+        {
+            "p": "In a 1987 speech marking the Constitution’s 200th anniversary, this justice said the government the framers designed was “defective from the start” because it accepted slavery. He retired from the Court in 1991 and was replaced by Clarence Thomas.",
+            "r": "For 10 points, name this justice who had argued _Brown v. Board of Education_ and became the first African American on the Supreme Court."
+        },
+        {
+            "p": "In _Furman v. Georgia_ (1972), this justice wrote that the death penalty always violates the Eighth Amendment’s ban on “cruel and unusual punishments.” He and William Brennan often wrote dissents together in his later years on the Court.",
+            "r": "For 10 points, name this first African American Supreme Court justice, who had argued _Brown v. Board of Education_ as a lawyer."
+        },
+        {
+            "p": "This man was born “Thoroughgood” in Baltimore in 1908 but shortened his first name in second grade. As a boy, he was punished for misbehaving at school by having to memorize parts of the U.S. Constitution.",
+            "r": "He later led the NAACP’s legal fight against segregation. For 10 points, name this first African American Supreme Court justice."
+        },
+        {
+            "p": "This lawyer, nicknamed “Mr. Civil Rights,” founded the NAACP Legal Defense and Educational Fund in 1940 and led it for more than twenty years. His team traveled across the South to challenge segregated schools, buses, and voting rules in court.",
+            "r": "For 10 points, name this lawyer who argued _Brown v. Board of Education_ and became a Supreme Court justice in 1967."
+        },
+        {
+            "p": "The Senate confirmed this man to his most famous job by a vote of 69 to 11 in 1967, after Tom C. Clark retired because his son had become attorney general. Earlier, this man had argued the government’s cases as Solicitor General.",
+            "r": "He was appointed by Lyndon Johnson. For 10 points, name this first African American Supreme Court justice."
+        },
+        {
+            "p": "In 2005, the main airport serving Baltimore was renamed in honor of this man, who grew up in that city. A 2017 film named for him starred Chadwick Boseman and showed him defending a man in a Connecticut trial early in his career.",
+            "r": "For 10 points, name this NAACP lawyer who argued _Brown v. Board of Education_ and became the first Black Supreme Court justice."
+        },
+        {
+            "p": "In the 1958 case _Cooper v. Aaron_, this lawyer argued that Arkansas officials could not delay the integration of Little Rock’s Central High School, and all nine justices signed an opinion agreeing with him.",
+            "r": "Four years earlier, he had won _Brown v. Board of Education_. For 10 points, name this lawyer who became the first African American Supreme Court justice."
+        },
+        {
+            "p": "To show that segregation harmed children, this lawyer’s team presented psychologists Kenneth and Mamie Clark’s studies in which many Black children preferred white dolls. In that case, this lawyer faced John W. Davis, a former presidential nominee who argued for South Carolina.",
+            "r": "That case was _Brown v. Board of Education_. For 10 points, name this NAACP lawyer who later became the first African American Supreme Court justice."
+        },
+        {
+            "p": "This man graduated in 1930 from Lincoln University in Pennsylvania, then finished first in his class at Howard University’s law school, where he studied under Charles Hamilton Houston. He joined Houston on the NAACP’s legal staff in the 1930s.",
+            "r": "For 10 points, name this lawyer who argued _Brown v. Board of Education_ and became the first Black Supreme Court justice."
+        },
+        {
+            "p": "In _McLaurin v. Oklahoma State Regents_, this lawyer’s NAACP team challenged rules that made a Black graduate student sit apart from his classmates, even in the cafeteria and library. The Supreme Court ruled for that student in 1950, on the same day as a Texas law school case.",
+            "r": "Four years later, this lawyer won _Brown v. Board of Education_. For 10 points, name this first African American Supreme Court justice."
+        },
+        {
+            "p": "When this man died in 1993, his body lay in repose in the Great Hall of the Supreme Court building, and thousands of mourners filed past. Two years earlier, he had retired after 24 years on the Court.",
+            "r": "For 10 points, name this justice appointed by Lyndon Johnson, the first African American on the Supreme Court."
+        }
+    ],
+    "clues": [
+        {
+            "id": "first-black-justice",
+            "tier": "giveaway",
+            "t": "First African American Supreme Court justice (1967–1991)",
+            "k": ["first african american", "supreme court", "1967"],
+            "n": 0,
+            "rabbit": "U.S. Supreme Court"
+        },
+        {
+            "id": "brown",
+            "tier": "giveaway",
+            "t": "Argued and won _Brown v. Board of Education_ (1954), which struck down school segregation",
+            "k": ["brown v. board", "brown", "school segregation"],
+            "n": 0,
+            "rabbit": "Brown v. Board of Education"
+        },
+        {
+            "id": "lbj",
+            "tier": "giveaway",
+            "t": "Appointed to the Supreme Court by Lyndon B. Johnson in 1967",
+            "k": ["lyndon b. johnson", "johnson", "appointed"],
+            "n": 0,
+            "rabbit": "Lyndon B. Johnson"
+        },
+        {
+            "id": "naacp",
+            "tier": "giveaway",
+            "t": "The NAACP’s chief lawyer in its legal fight against segregation",
+            "k": ["naacp", "chief lawyer", "segregation"],
+            "n": 0,
+            "rabbit": "NAACP"
+        },
+        {
+            "id": "solicitor-general",
+            "tier": "middle",
+            "t": "First African American Solicitor General (1965), arguing the federal government’s cases before the Supreme Court",
+            "k": ["solicitor general", "1965"],
+            "n": 0
+        },
+        {
+            "id": "howard",
+            "tier": "middle",
+            "t": "Finished first in his class at Howard University’s law school (1933)",
+            "k": ["howard", "first in his class", "1933"],
+            "n": 0
+        },
+        {
+            "id": "houston",
+            "tier": "middle",
+            "t": "Mentored by Charles Hamilton Houston, who planned the NAACP’s legal attack on segregation",
+            "k": ["charles hamilton houston", "houston", "mentored"],
+            "n": 0
+        },
+        {
+            "id": "ldf",
+            "tier": "middle",
+            "t": "Founded the NAACP Legal Defense and Educational Fund (1940) and led it until 1961",
+            "k": ["legal defense", "educational fund", "1940"],
+            "n": 0
+        },
+        {
+            "id": "mr-civil-rights",
+            "tier": "middle",
+            "t": "Nicknamed “Mr. Civil Rights”",
+            "k": ["mr. civil rights", "civil rights"],
+            "n": 0
+        },
+        {
+            "id": "sweatt",
+            "tier": "middle",
+            "t": "_Sweatt v. Painter_ (1950): a separate Texas law school for Black students was not equal to the University of Texas",
+            "k": ["sweatt", "painter", "university of texas"],
+            "n": 0
+        },
+        {
+            "id": "clarence-thomas",
+            "tier": "middle",
+            "t": "Retired in 1991; replaced by Clarence Thomas, the second African American justice",
+            "k": ["clarence thomas", "1991", "retired"],
+            "n": 0
+        },
+        {
+            "id": "baltimore",
+            "tier": "middle",
+            "t": "Born in Baltimore (1908); the Baltimore/Washington airport was renamed for him in 2005",
+            "k": ["baltimore", "airport", "2005"],
+            "n": 0
+        },
+        {
+            "id": "tsu",
+            "tier": "middle",
+            "t": "Texas Southern University’s law school in Houston is named for him",
+            "k": ["texas southern", "law school"],
+            "n": 0
+        },
+        {
+            "id": "murray",
+            "tier": "power",
+            "t": "_Murray v. Pearson_ (1936): he and Houston forced the University of Maryland’s law school, whose segregation had kept him out, to admit a Black student",
+            "k": ["murray v. pearson", "murray", "university of maryland"],
+            "n": 0
+        },
+        {
+            "id": "smith-allwright",
+            "tier": "power",
+            "t": "_Smith v. Allwright_ (1944): struck down Texas’s all-white primary; the plaintiff was Houston dentist Lonnie Smith",
+            "k": ["smith v. allwright", "allwright", "white primary", "lonnie smith"],
+            "n": 0
+        },
+        {
+            "id": "morgan",
+            "tier": "power",
+            "t": "_Morgan v. Virginia_ (1946): struck down a state law segregating passengers on interstate buses",
+            "k": ["morgan", "interstate buses", "buses"],
+            "n": 0
+        },
+        {
+            "id": "mclaurin",
+            "tier": "power",
+            "t": "_McLaurin v. Oklahoma State Regents_ (1950): a Black graduate student could not be forced to sit apart from classmates",
+            "k": ["mclaurin", "oklahoma", "sit apart"],
+            "n": 0
+        },
+        {
+            "id": "cooper",
+            "tier": "power",
+            "t": "_Cooper v. Aaron_ (1958): argued that Arkansas could not delay integrating Little Rock’s Central High School",
+            "k": ["cooper v. aaron", "little rock", "central high"],
+            "n": 0
+        },
+        {
+            "id": "doll-tests",
+            "tier": "power",
+            "t": "In _Brown_, his team used Kenneth and Mamie Clark’s doll studies and faced John W. Davis, who argued for South Carolina",
+            "k": ["doll", "kenneth and mamie clark", "john w. davis"],
+            "n": 0
+        },
+        {
+            "id": "second-circuit",
+            "tier": "power",
+            "t": "John F. Kennedy named him to a federal appeals court, the Second Circuit, in 1961",
+            "k": ["second circuit", "kennedy", "1961"],
+            "n": 0
+        },
+        {
+            "id": "confirmation",
+            "tier": "power",
+            "t": "Confirmed 69–11 in 1967, replacing Tom C. Clark, who retired when his son became attorney general",
+            "k": ["69–11", "tom c. clark", "attorney general"],
+            "n": 0
+        },
+        {
+            "id": "thoroughgood",
+            "tier": "power",
+            "t": "Born “Thoroughgood” and shortened the name in second grade; as a punishment at school, he had to memorize parts of the Constitution",
+            "k": ["thoroughgood", "second grade", "memorize"],
+            "n": 0
+        },
+        {
+            "id": "defective",
+            "tier": "power",
+            "t": "1987 bicentennial speech: the framers’ government was “defective from the start” because it accepted slavery",
+            "k": ["defective from the start", "defective", "1987"],
+            "n": 0
+        },
+        {
+            "id": "furman",
+            "tier": "power",
+            "t": "_Furman v. Georgia_ (1972): wrote that the death penalty always violates the Eighth Amendment",
+            "k": ["furman", "death penalty", "eighth amendment"],
+            "n": 0
+        },
+        {
+            "id": "film",
+            "tier": "power",
+            "t": "Played by Chadwick Boseman in a 2017 film about an early Connecticut trial",
+            "k": ["chadwick boseman", "boseman", "connecticut"],
+            "n": 0
+        },
+        {
+            "id": "lincoln-university",
+            "tier": "power",
+            "t": "Graduated from Lincoln University in Pennsylvania (1930)",
+            "k": ["lincoln university", "pennsylvania", "1930"],
+            "n": 0
+        },
+        {
+            "id": "repose",
+            "tier": "power",
+            "t": "Lay in repose in the Supreme Court’s Great Hall after his death in 1993",
+            "k": ["great hall", "repose", "1993"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Marshall?",
+        "body": "Three famous Marshalls show up in American history questions. Thurgood Marshall argued _Brown v. Board of Education_ and became the first African American Supreme Court justice in 1967; John Marshall was the fourth Chief Justice (1801–1835), who wrote _Marbury v. Madison_; and George C. Marshall was the World War II general behind the Marshall Plan. Real answer lines say “do not accept John Marshall.”",
+        "fix": "Thurgood clues: the NAACP, _Brown v. Board_, Howard University, Charles Hamilton Houston, Solicitor General, and Lyndon Johnson. John Marshall clues: judicial review, _Marbury v. Madison_, and the early 1800s. “Marshall” alone is fine, but say “Thurgood” if you have time.",
+        "line": "Real answer line: Thurgood <b><u>Marshall</u></b> (do not accept “John Marshall”)"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

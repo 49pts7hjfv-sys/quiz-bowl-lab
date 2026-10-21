@@ -1,0 +1,153 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ceres",
+    "name": "Ceres",
+    "mono": "CER",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Biggest body in the asteroid belt · Found in 1801, a dwarf planet since 2006",
+    "dates": "Discovered January 1, 1801; a dwarf planet since 2006",
+    "briefing": "On January 1, 1801, the first night of the 19th century, the Italian astronomer Giuseppe Piazzi, working in Palermo, Sicily, spotted a moving dot that turned out to be Ceres, the first object ever found in the asteroid belt. It was called a planet, then an asteroid, and since 2006 a dwarf planet. In 2015, NASA’s Dawn spacecraft arrived and found mysterious bright spots in a crater, made of salt left behind by salty water.",
+    "answerHtml": "<b><u>Ceres</u></b> (accept <u>1 Ceres</u>; do not accept “Vesta,” “Pluto,” or “asteroids”)",
+    "accept": [
+        "ceres",
+        "1 ceres",
+        "dwarf planet ceres",
+        "planet ceres",
+        "ceres ferdinandea",
+    ],
+    "prompt": [],
+    "reject": [
+        "vesta",
+        "pallas",
+        "juno",
+        "hygiea",
+        "eris",
+        "pluto",
+        "makemake",
+        "haumea",
+        "demeter",
+        "cerium",
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+    "qb": {
+        "q": "Ceres",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Cerealia Facula and Vinalia Faculae, the brightest spots on this world, are deposits of salt left behind by salty water that rose from below into the crater Occator. Those spots puzzled scientists when a spacecraft first approached this world in 2015.",
+            "r": "For 10 points, name this dwarf planet, the largest object in the asteroid belt.",
+        },
+        {
+            "p": "While checking star positions for a catalog, a Theatine priest in Palermo spotted this object, which he cautiously reported as a possible comet. He named it for the patron goddess of Sicily.",
+            "r": "That priest, Giuseppe Piazzi [“pee-AHT-see”], found it on January 1, 1801. For 10 points, name this first object discovered in the asteroid belt.",
+        },
+        {
+            "p": "After this object disappeared into the Sun’s glare, a 24-year-old mathematician worked out its orbit so well that Franz Xaver von Zach and Heinrich Olbers found it again about a year after its discovery. That mathematician later explained his methods in an 1809 book on the motion of heavenly bodies.",
+            "r": "He was Carl Friedrich Gauss. For 10 points, name this dwarf planet discovered in 1801.",
+        },
+        {
+            "p": "In March 2015, a NASA spacecraft driven by xenon ion engines made this world the first dwarf planet ever orbited by a probe. That spacecraft had already spent more than a year orbiting Vesta.",
+            "r": "That spacecraft was Dawn. For 10 points, name this dwarf planet, the largest object in the asteroid belt.",
+        },
+        {
+            "p": "Ahuna Mons, a lone, steep-sided mountain on this world, is thought to be an ice volcano that pushed up icy, salty mud instead of molten rock. Ammonia-rich clays on this world’s surface hint that it may have formed farther from the Sun.",
+            "r": "For 10 points, name this dwarf planet in the asteroid belt, which NASA’s Dawn probe orbited.",
+        },
+        {
+            "p": "In 2014, the European Space Agency’s Herschel Space Observatory detected water vapor coming from this world. Scientists think a layer of salty water, or brine, may still lie deep beneath its crater Occator.",
+            "r": "For 10 points, name this dwarf planet, the only one in the inner solar system.",
+        },
+        {
+            "p": "This object turned up close to where the Titius–Bode rule predicted a missing planet between Mars and Jupiter, just as a team nicknamed the “Celestial Police” was organizing a search for one. That team went on to find Pallas, Juno, and Vesta.",
+            "r": "For 10 points, name this first asteroid to be discovered, found in 1801.",
+        },
+        {
+            "p": "This object was listed as a planet for decades after its discovery, until so many similar bodies turned up that astronomers began calling them all asteroids instead. Unlike most of those bodies, it is massive enough to have pulled itself into a nearly round shape.",
+            "r": "In 2006, the same vote that took away Pluto’s planet status made it a dwarf planet. For 10 points, name this largest object in the asteroid belt.",
+        },
+        {
+            "p": "In 1803, the element cerium was named for this object, which had been discovered two years earlier. The word “cereal” comes from the same source as this object’s name.",
+            "r": "This object is named for the Roman goddess of grain and farming. For 10 points, name this dwarf planet that Giuseppe Piazzi discovered in 1801.",
+        },
+        {
+            "p": "Features on this world are named for farming gods and harvest festivals, and its famous crater Occator is named for a Roman god of harrowing, the breaking up of plowed soil. This world’s astronomical symbol is a sickle.",
+            "r": "For 10 points, name this dwarf planet, named for the Roman goddess of agriculture.",
+        },
+        {
+            "p": "About 940 kilometers across, this world is the smallest object officially recognized as a dwarf planet, yet it is massive enough that its own gravity has pulled it into a nearly round shape. Unlike Pluto, it orbits inside the orbit of Jupiter.",
+            "r": "For 10 points, name this dwarf planet, the largest object in the asteroid belt between Mars and Jupiter.",
+        },
+        {
+            "p": "This object’s discoverer first wanted to add “Ferdinandea” to its name to honor King Ferdinand of Sicily, but only the first part stuck. That part honors the patron goddess of Sicily, where the discovery was made.",
+            "r": "This object was found from Palermo in 1801. For 10 points, name this dwarf planet in the asteroid belt.",
+        },
+        {
+            "p": "A NASA spacecraft ran out of fuel in 2018 while orbiting this world, after becoming the first spacecraft to orbit two different worlds beyond Earth. That probe was named for its goal of studying leftovers from the dawn of the solar system.",
+            "r": "That probe, Dawn, had visited Vesta first. For 10 points, name this largest object in the asteroid belt.",
+        },
+        {
+            "p": "This world takes about four and a half years to orbit the Sun and spins once about every nine hours. It is far more massive than Vesta, the second-most massive object in its region, but Vesta usually looks brighter in our sky.",
+            "r": "For 10 points, name this dwarf planet in the asteroid belt, discovered by Giuseppe Piazzi.",
+        },
+        {
+            "p": "William Herschel saw that this object and Pallas looked like mere points of light even in his best telescopes, so in 1802 he gave them a new group name from a Greek word meaning “star-like.”",
+            "r": "That name is “asteroids.” For 10 points, name this object, the biggest asteroid, which is also a dwarf planet.",
+        },
+    ],
+    "clues": [
+        {"id": "largest-belt", "tier": "giveaway", "t": "The largest object in the asteroid belt, between Mars and Jupiter", "k": ["largest object", "asteroid belt"], "n": 0, "rabbit": "Asteroids"},
+        {"id": "dwarf-planet", "tier": "giveaway", "t": "Called a dwarf planet since 2006: the only one in the inner solar system", "k": ["dwarf planet", "2006", "inner solar system"], "n": 0},
+        {"id": "piazzi", "tier": "giveaway", "t": "Discovered by Giuseppe Piazzi from Palermo, Sicily, on January 1, 1801", "k": ["piazzi", "palermo", "1801"], "n": 0},
+        {"id": "goddess", "tier": "giveaway", "t": "Named for the Roman goddess of agriculture and grain, the counterpart of the Greek Demeter", "k": ["goddess", "agriculture", "demeter"], "n": 0, "rabbit": "Demeter"},
+        {"id": "dawn", "tier": "giveaway", "t": "NASA’s Dawn spacecraft orbited it from 2015 to 2018", "k": ["dawn", "2015"], "n": 0},
+        {"id": "first-asteroid", "tier": "middle", "t": "The first asteroid ever discovered; it was counted as a planet for decades", "k": ["first asteroid", "decades"], "n": 0},
+        {"id": "gauss", "tier": "middle", "t": "When it vanished into the Sun’s glare, Carl Friedrich Gauss calculated its orbit so astronomers could find it again", "k": ["gauss", "glare"], "n": 0, "rabbit": "Carl Friedrich Gauss"},
+        {"id": "occator", "tier": "middle", "t": "Bright spots in the crater Occator are salt deposits left by salty water (brine) that rose from below", "k": ["occator", "bright spots", "salt"], "n": 0},
+        {"id": "round", "tier": "middle", "t": "About 940 km across; its own gravity has pulled it into a nearly round shape", "k": ["940", "round"], "n": 0},
+        {"id": "same-vote", "tier": "middle", "t": "The same 2006 vote that made Pluto a dwarf planet gave it that title too", "k": ["pluto", "vote"], "n": 0, "rabbit": "Pluto"},
+        {"id": "titius-bode", "tier": "middle", "t": "Found close to where the Titius–Bode rule predicted a missing planet between Mars and Jupiter", "k": ["titius", "missing planet"], "n": 0},
+        {"id": "vesta", "tier": "middle", "t": "Dawn orbited Vesta first; Vesta is the belt’s second-most massive object and usually looks brighter in our sky", "k": ["vesta", "brighter"], "n": 0},
+        {"id": "ion-engines", "tier": "middle", "t": "Dawn reached it using ion engines that fire xenon", "k": ["ion engines", "xenon"], "n": 0},
+        {"id": "cereal-cerium", "tier": "middle", "t": "Its name gave us the word “cereal,” and the element cerium was named for it in 1803", "k": ["cereal", "cerium", "1803"], "n": 0},
+        {"id": "cerealia", "tier": "power", "t": "Its brightest spot is Cerealia Facula; a smaller group of spots is Vinalia Faculae", "k": ["cerealia facula", "vinalia"], "n": 0},
+        {"id": "ahuna", "tier": "power", "t": "Ahuna Mons, a lone, steep-sided mountain, is thought to be an ice volcano", "k": ["ahuna mons", "ice volcano"], "n": 0, "rabbit": "Volcanoes"},
+        {"id": "water-vapor", "tier": "power", "t": "In 2014, the Herschel Space Observatory detected water vapor coming from it; brine may lie deep beneath Occator", "k": ["water vapor", "herschel", "brine"], "n": 0},
+        {"id": "von-zach-olbers", "tier": "power", "t": "Franz Xaver von Zach and Heinrich Olbers found it again about a year after its discovery, using Gauss’s orbit", "k": ["von zach", "olbers"], "n": 0},
+        {"id": "comet", "tier": "power", "t": "Piazzi, a Theatine priest checking star positions for a catalog, first reported it as a possible comet", "k": ["comet", "theatine"], "n": 0},
+        {"id": "ferdinandea", "tier": "power", "t": "Piazzi first wanted to add “Ferdinandea” to its name, for King Ferdinand; the name honors the patron goddess of Sicily", "k": ["ferdinandea", "patron goddess"], "n": 0},
+        {"id": "first-orbited", "tier": "power", "t": "In March 2015, Dawn made it the first dwarf planet ever orbited by a spacecraft", "k": ["march 2015", "first dwarf planet"], "n": 0},
+        {"id": "two-worlds", "tier": "power", "t": "Dawn was the first spacecraft to orbit two different worlds beyond Earth; it ran out of fuel in 2018", "k": ["two different worlds", "2018"], "n": 0},
+        {"id": "ammonia", "tier": "power", "t": "Ammonia-rich clays on its surface hint that it may have formed farther from the Sun", "k": ["ammonia", "clays"], "n": 0},
+        {"id": "smallest", "tier": "power", "t": "The smallest object officially recognized as a dwarf planet", "k": ["smallest", "officially"], "n": 0},
+        {"id": "star-like", "tier": "power", "t": "William Herschel saw it and Pallas as mere points of light and in 1802 named such objects from a Greek word meaning “star-like”", "k": ["star-like", "1802", "pallas"], "n": 0},
+        {"id": "sickle", "tier": "power", "t": "Its features are named for farming gods and harvest festivals (Occator is a Roman god of harrowing); its symbol is a sickle", "k": ["sickle", "harrowing", "farming"], "n": 0},
+        {"id": "orbit-day", "tier": "power", "t": "Orbits the Sun about every 4.6 years and spins once about every 9 hours", "k": ["4.6 years", "9 hours"], "n": 0},
+    ],
+    "trap": {
+        "title": "Dwarf planet, asteroid, or goddess?",
+        "body": "Ceres is both the biggest asteroid and a dwarf planet, so its clues show up in tossups whose answer is “asteroids” in general, and real answer lines for that group do not accept Ceres. Vesta, the other world NASA’s Dawn probe orbited, and Pluto, which was reclassified by the same 2006 vote, are the other common wrong buzzes. In mythology questions, the Greek goddess of grain is Demeter, not Ceres.",
+        "fix": "“This object” or “this dwarf planet” plus Piazzi, Gauss, January 1, 1801, Occator’s bright spots, or Ahuna Mons means Ceres. “These objects” in the belt means asteroids. Vesta has a giant crater with a huge central mountain and is the brightest asteroid in our sky.",
+        "line": "Real answer line: <b><u>Ceres</u></b> (accept <u>1 Ceres</u>)",
+    },
+    "tests": {
+        "right": ["Ceres", "ceres", "Ceris", "1 Ceres", "dwarf planet Ceres"],
+        "prompt": [],
+        "wrong": ["Vesta", "Pallas", "Pluto", "Eris", "Demeter", "asteroids", "Juno"],
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("saved", out)

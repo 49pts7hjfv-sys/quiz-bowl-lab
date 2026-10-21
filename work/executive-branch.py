@@ -109,7 +109,7 @@ data = {
           "The head of this branch is commander in chief of the armed forces. For 10 points, name this branch of government."),
         T("In _Clinton v. City of New York_, the Supreme Court struck down a 1996 law that let the head of this branch cancel individual spending items in a bill after signing it. The Court ruled that this line-item veto broke the Constitution’s rules for how bills become laws.",
           "For 10 points, name this branch of government whose leader can veto bills passed by Congress."),
-        T("Article II gives the head of this branch the power to grant “Reprieves and Pardons” for federal crimes, except in cases of impeachment. In 1974, Gerald Ford used that power to pardon Richard Nixon for any federal crimes he might have committed as president.",
+        T("The Constitution gives the head of this branch the power to grant “Reprieves and Pardons” for federal crimes, except in cases of impeachment. In 1974, Gerald Ford used that power to pardon Richard Nixon for any federal crimes he might have committed as president.",
           "Ford had taken over this branch’s top job when Nixon resigned. For 10 points, name this branch of government that carries out the laws."),
         T("The Articles of Confederation created no separate branch of this kind, so the national government had no one to carry out its laws. At the Constitutional Convention, delegates argued over whether this branch should be led by one person or by a council of several people.",
           "They chose one person, the president. For 10 points, name this branch created by Article II."),
@@ -119,10 +119,10 @@ data = {
           "For 10 points, name this branch of government created by Article II of the Constitution."),
         T("If the head of this branch holds a bill unsigned for ten days while Congress has adjourned, the bill dies in a “pocket veto.” Congress can override a regular veto from the head of this branch by a two-thirds vote in both houses.",
           "For 10 points, name this branch of government, which shares power with the legislative and judicial branches."),
-        T("Article II says that the leader of this branch must be a natural-born citizen, at least 35 years old, and a resident of the United States for at least 14 years. That leader swears to “preserve, protect and defend the Constitution of the United States.”",
+        T("The Constitution says that the leader of this branch must be a natural-born citizen, at least 35 years old, and a resident of the United States for at least 14 years. That leader swears to “preserve, protect and defend the Constitution of the United States.”",
           "The vice president also belongs to this branch. For 10 points, name this branch of government led by the president."),
-        T("The newest of the 15 departments in this branch, the Department of Homeland Security, was created in 2002 after the September 11 attacks. The heads of those departments make up most of the Cabinet, which advises this branch’s leader.",
-          "For 10 points, name this branch of the U.S. government, whose leader is the president.")
+        T("The newest of the 15 departments in this branch, the Department of Homeland Security, was created in 2002 after the September 11 attacks. Its oldest departments, including State and Treasury, date from 1789.",
+          "The heads of those departments make up most of the Cabinet. For 10 points, name this branch of the U.S. government, whose leader is the president.")
     ],
     "clues": [
         C("carries-out-laws", "giveaway", "The branch of government that carries out (enforces) the laws; Congress makes them and the courts interpret them", ["carries out", "enforces", "laws"]),

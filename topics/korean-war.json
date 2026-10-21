@@ -1,0 +1,490 @@
+{
+  "id": "korean-war",
+  "name": "Korean War",
+  "mono": "KW",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Cold War fight on the Korean Peninsula · Ended by a 1953 armistice",
+  "dates": "Fought 1950–1953",
+  "briefing": "On June 25, 1950, North Korean troops crossed the 38th parallel into South Korea, and the United Nations sent an army, led mostly by Americans, to stop them. After a surprise landing at Inchon, a huge Chinese counterattack, and two more years of grinding battles near the old border, an armistice in July 1953 stopped the fighting. No peace treaty was ever signed, and Americans often call it the “Forgotten War.”",
+  "answerHtml": "<b><u>Korean War</u></b> (accept <u>Korean Conflict</u> or <u>6–25 War</u>; prompt on <u>Korea</u> or “police action”; do not accept “Vietnam War”)",
+  "accept": [
+    "korean war",
+    "the korean war",
+    "korean conflict",
+    "the korean conflict",
+    "korea war",
+    "war in korea",
+    "korean war of 1950",
+    "6 25 war",
+    "625 war",
+    "six two five war",
+    "fatherland liberation war",
+    "war to resist america and aid korea",
+    "war to resist us aggression and aid korea"
+  ],
+  "prompt": [
+    "korea",
+    "police action",
+    "korean police action",
+    "forgotten war",
+    "the forgotten war"
+  ],
+  "reject": [
+    "vietnam war",
+    "vietnam",
+    "second indochina war",
+    "first indochina war",
+    "indochina war",
+    "cold war",
+    "world war ii",
+    "world war 2",
+    "second world war",
+    "world war i",
+    "world war 1",
+    "first world war",
+    "chinese civil war",
+    "gulf war",
+    "persian gulf war",
+    "war of 1812",
+    "spanish american war",
+    "mexican american war",
+    "battle of inchon",
+    "inchon",
+    "inchon landing",
+    "incheon",
+    "operation chromite",
+    "battle of chosin reservoir",
+    "chosin reservoir",
+    "chosin",
+    "pusan perimeter",
+    "battle of pork chop hill",
+    "pork chop hill",
+    "heartbreak ridge",
+    "38th parallel",
+    "korean demilitarized zone",
+    "demilitarized zone",
+    "dmz",
+    "panmunjom",
+    "korean armistice agreement",
+    "armistice",
+    "north korea",
+    "south korea",
+    "douglas macarthur",
+    "macarthur",
+    "harry truman",
+    "harry s truman",
+    "truman",
+    "dwight eisenhower",
+    "dwight d eisenhower",
+    "eisenhower",
+    "kim il sung",
+    "syngman rhee",
+    "mash",
+    "m a s h"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Korean_War",
+  "qb": {
+    "q": "Korean War",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In August 1945, two American colonels, Dean Rusk and Charles Bonesteel, used a National Geographic map to choose a line dividing a peninsula into American and Soviet occupation zones. Five years later, troops from the northern zone crossed that line, starting this war.",
+      "r": "That line was the 38th parallel. For 10 points, name this war that began in June 1950."
+    },
+    {
+      "p": "The Soviet Union could not veto a key Security Council vote at the start of this war because it was boycotting the council to protest Taiwan’s government holding China’s seat. Sixteen countries eventually sent combat troops to fight under the United Nations flag in this war.",
+      "r": "For 10 points, name this war in which UN forces defended South Korea from 1950 to 1953."
+    },
+    {
+      "p": "The first American ground troops to fight in this war, a small unit called Task Force Smith, were overrun at Osan in July 1950. By August, the defenders had been pushed into a small corner around the port of Pusan [“POO-sahn”], where they held a line called the Pusan Perimeter.",
+      "r": "The invaders had come from North Korea that June. For 10 points, name this war that lasted until 1953."
+    },
+    {
+      "p": "Some officers warned that one port’s enormous tides and high seawalls made it a terrible place for a landing, but Operation Chromite went ahead there on September 15, 1950. That surprise amphibious attack cut the invaders’ supply lines and led to the recapture of Seoul about two weeks later.",
+      "r": "Douglas MacArthur planned that landing at Inchon. For 10 points, name this war, fought from 1950 to 1953."
+    },
+    {
+      "p": "American F-86 Sabre jets battled Soviet-built MiG-15s over an area near the Yalu River nicknamed “MiG Alley” during this war. In October 1950, Chinese troops under Peng Dehuai [“PUNG duh-HWY”] secretly crossed that river and soon launched huge attacks on UN forces.",
+      "r": "For 10 points, name this war in which China fought on the side of North Korea."
+    },
+    {
+      "p": "U.S. Marines who fought their way out after Chinese troops surrounded them in bitter, below-zero cold in late 1950 became known as the “Chosin Few.” Afterward, ships carried about 100,000 soldiers and nearly as many civilians away from the port of Hungnam [“HOONG-nahm”].",
+      "r": "That fight was the Battle of Chosin Reservoir. For 10 points, name this war that ended in 1953."
+    },
+    {
+      "p": "In December 1950, Jesse L. Brown, the first African American pilot to complete the U.S. Navy’s flight training program, was shot down near the Chosin Reservoir and died. His wingman, Thomas Hudner, crash-landed his own plane in an attempt to rescue him and received the Medal of Honor.",
+      "r": "For 10 points, name this war in which UN forces fought North Korean and Chinese troops from 1950 to 1953."
+    },
+    {
+      "p": "House Republican leader Joseph Martin read aloud a letter in which a general in this war wrote that “there is no substitute for victory.” Days later, in April 1951, that general was removed from command for publicly challenging the president’s policy.",
+      "r": "That general was Douglas MacArthur, and the president who fired him was Harry Truman. For 10 points, name this war."
+    },
+    {
+      "p": "Omar Bradley warned that carrying this war into China itself would mean fighting “the wrong war, at the wrong place, at the wrong time, and with the wrong enemy.” Matthew Ridgway, who had taken over the Eighth Army, replaced the fired commander of UN forces in this war.",
+      "r": "That fired commander was Douglas MacArthur. For 10 points, name this war that began in June 1950 and ended in 1953."
+    },
+    {
+      "p": "Truce talks in this war began at Kaesong [“KAY-sung”] in July 1951 and later moved to Panmunjom [“pahn-moon-JUM”], where they dragged on for two years, mostly over whether prisoners of war could refuse to go home. Syngman Rhee [“SING-mun REE”], who wanted to keep fighting, refused to sign the agreement that finally stopped it.",
+      "r": "That armistice was signed on July 27, 1953. For 10 points, name this war, which ended without a peace treaty."
+    },
+    {
+      "p": "During the 1952 presidential campaign, Dwight Eisenhower promised to travel to the front lines of this war, a trip he made that December. After he took office and Joseph Stalin died in March 1953, negotiators finally reached a deal to stop the fighting.",
+      "r": "Eisenhower had told voters, “I shall go to Korea.” For 10 points, name this war, ended by an armistice in 1953."
+    },
+    {
+      "p": "Gregory Peck starred in a 1959 film about the fight for Pork Chop Hill, one of many costly battles over hilltops during this war’s last two years. Other hard-fought battles in this war took place at Heartbreak Ridge and Bloody Ridge, close to the old dividing line.",
+      "r": "That line was the 38th parallel. For 10 points, name this war that ended in 1953."
+    },
+    {
+      "p": "The final episode of a TV comedy set in this war, “Goodbye, Farewell and Amen,” became the most-watched broadcast in American television history up to that time when it aired in 1983. That series followed Hawkeye Pierce and other doctors at the 4077th Mobile Army Surgical Hospital.",
+      "r": "That show, _M*A*S*H_, ran for 11 seasons. For 10 points, name this war in which it was set."
+    },
+    {
+      "p": "A memorial on the National Mall, dedicated in 1995, shows 19 stainless steel soldiers in rain ponchos walking through a field, and a polished granite wall reflects them to make 38. Nearby, a line carved in stone reads “Freedom Is Not Free.”",
+      "r": "For 10 points, name this war, often called the “Forgotten War,” whose memorial stands near the Lincoln Memorial."
+    },
+    {
+      "p": "A small mare named Reckless carried ammunition for U.S. Marines in this war and was later promoted to staff sergeant. Soon after this war began, Harry Truman approved NSC-68, a secret plan calling for a huge military buildup to contain communism.",
+      "r": "During this war, the city of Seoul changed hands four times. For 10 points, name this war fought from 1950 to 1953."
+    }
+  ],
+  "clues": [
+    {
+      "id": "invasion",
+      "tier": "giveaway",
+      "t": "Began on June 25, 1950, when North Korea invaded South Korea",
+      "k": [
+        "june 25, 1950",
+        "invaded",
+        "north korea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parallel",
+      "tier": "giveaway",
+      "t": "The 38th parallel divided North and South Korea; the fighting ended near it",
+      "k": [
+        "38th parallel",
+        "parallel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "armistice",
+      "tier": "giveaway",
+      "t": "Ended with an armistice on July 27, 1953, not a peace treaty",
+      "k": [
+        "armistice",
+        "july 27, 1953",
+        "peace treaty"
+      ],
+      "n": 0
+    },
+    {
+      "id": "un",
+      "tier": "giveaway",
+      "t": "United Nations (UN) forces, led mostly by the United States, defended South Korea",
+      "k": [
+        "united nations",
+        "un forces"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forgotten",
+      "tier": "giveaway",
+      "t": "Often nicknamed the “Forgotten War” in the United States",
+      "k": [
+        "forgotten",
+        "nicknamed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "macarthur",
+      "tier": "middle",
+      "t": "General Douglas MacArthur led UN forces until Harry Truman fired him in April 1951",
+      "k": [
+        "douglas macarthur",
+        "macarthur",
+        "truman",
+        "fired"
+      ],
+      "n": 0,
+      "rabbit": "Douglas MacArthur"
+    },
+    {
+      "id": "inchon",
+      "tier": "middle",
+      "t": "MacArthur’s surprise landing at Inchon (September 15, 1950) turned the tide",
+      "k": [
+        "inchon",
+        "landing",
+        "september 15"
+      ],
+      "n": 0
+    },
+    {
+      "id": "china",
+      "tier": "middle",
+      "t": "China entered in late 1950 after UN forces neared the Yalu River border",
+      "k": [
+        "china",
+        "yalu river",
+        "yalu"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chosin",
+      "tier": "middle",
+      "t": "Battle of Chosin Reservoir (late 1950): surrounded Marines fought their way out in bitter cold",
+      "k": [
+        "chosin",
+        "reservoir",
+        "marines"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pusan",
+      "tier": "middle",
+      "t": "Early on, UN troops were pushed back into the Pusan Perimeter in the southeast",
+      "k": [
+        "pusan perimeter",
+        "pusan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leaders",
+      "tier": "middle",
+      "t": "North Korea was led by Kim Il Sung; South Korea by Syngman Rhee, who refused to sign the armistice",
+      "k": [
+        "kim il sung",
+        "syngman rhee"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eisenhower",
+      "tier": "middle",
+      "t": "Dwight Eisenhower promised in 1952, “I shall go to Korea”; the armistice came in his first year as president",
+      "k": [
+        "eisenhower",
+        "i shall go",
+        "1952"
+      ],
+      "n": 0,
+      "rabbit": "Dwight D. Eisenhower"
+    },
+    {
+      "id": "mash",
+      "tier": "middle",
+      "t": "The TV comedy _M*A*S*H_ (1972–1983), about Hawkeye Pierce’s army hospital, was set in this war; its 1983 finale set viewing records",
+      "k": [
+        "m*a*s*h",
+        "hawkeye",
+        "finale"
+      ],
+      "n": 0
+    },
+    {
+      "id": "police-action",
+      "tier": "middle",
+      "t": "Truman agreed with a reporter who called it a “police action”; Congress never declared war",
+      "k": [
+        "police action",
+        "declared war"
+      ],
+      "n": 0,
+      "rabbit": "Harry S. Truman"
+    },
+    {
+      "id": "rusk",
+      "tier": "power",
+      "t": "Dean Rusk and Charles Bonesteel picked the 38th parallel as the dividing line in 1945, using a National Geographic map",
+      "k": [
+        "rusk",
+        "bonesteel",
+        "national geographic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "boycott",
+      "tier": "power",
+      "t": "The Soviet Union was boycotting the UN Security Council, so it could not veto sending troops",
+      "k": [
+        "boycotting",
+        "security council",
+        "veto"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sixteen",
+      "tier": "power",
+      "t": "Sixteen nations sent combat troops under the UN flag",
+      "k": [
+        "sixteen",
+        "combat troops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "task-force-smith",
+      "tier": "power",
+      "t": "Task Force Smith, the first U.S. ground unit to fight, was overrun at Osan (July 1950)",
+      "k": [
+        "task force smith",
+        "osan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mig-alley",
+      "tier": "power",
+      "t": "F-86 Sabres fought Soviet-built MiG-15s in “MiG Alley”; Peng Dehuai led the Chinese troops",
+      "k": [
+        "mig alley",
+        "sabres",
+        "peng dehuai"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hungnam",
+      "tier": "power",
+      "t": "The Hungnam evacuation (December 1950) carried away about 100,000 troops and nearly as many civilians",
+      "k": [
+        "hungnam",
+        "evacuation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jesse-brown",
+      "tier": "power",
+      "t": "Jesse L. Brown, the first African American to complete Navy flight training, was shot down and died; Thomas Hudner won the Medal of Honor trying to save him",
+      "k": [
+        "hudner",
+        "jesse brown",
+        "medal of honor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "no-substitute",
+      "tier": "power",
+      "t": "MacArthur’s letter, read by Joseph Martin: “There is no substitute for victory”; his farewell: “Old soldiers never die”",
+      "k": [
+        "no substitute for victory",
+        "joseph martin",
+        "old soldiers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bradley",
+      "tier": "power",
+      "t": "Omar Bradley: war with China would be “the wrong war, at the wrong place, at the wrong time, and with the wrong enemy”",
+      "k": [
+        "omar bradley",
+        "bradley",
+        "wrong enemy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ridgway",
+      "tier": "power",
+      "t": "Matthew Ridgway took over the Eighth Army, then replaced MacArthur (1951)",
+      "k": [
+        "ridgway",
+        "eighth army"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kaesong",
+      "tier": "power",
+      "t": "Truce talks began at Kaesong (1951) and moved to Panmunjom; prisoners of war were the main dispute",
+      "k": [
+        "kaesong",
+        "prisoners of war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hills",
+      "tier": "power",
+      "t": "Battles for hills: Pork Chop Hill (a 1959 Gregory Peck film), Heartbreak Ridge, and Bloody Ridge",
+      "k": [
+        "pork chop hill",
+        "heartbreak ridge",
+        "gregory peck"
+      ],
+      "n": 0
+    },
+    {
+      "id": "memorial",
+      "tier": "power",
+      "t": "Its memorial in Washington (1995): 19 steel soldiers in ponchos and the words “Freedom Is Not Free”",
+      "k": [
+        "ponchos",
+        "freedom is not free",
+        "19"
+      ],
+      "n": 0
+    },
+    {
+      "id": "reckless",
+      "tier": "power",
+      "t": "Reckless, a small mare that carried ammunition for the Marines, was promoted to staff sergeant",
+      "k": [
+        "reckless",
+        "staff sergeant"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Korea, not Vietnam",
+    "body": "The Korean War and the Vietnam War were both Cold War fights between a Communist north and a U.S.-backed south, so players mix them up. Many clues inside Korean War tossups, like Inchon, the Chosin Reservoir, and Douglas MacArthur, are answer lines of their own, and “name this battle” or “name this general” wants that answer instead. Calling it just “Korea” or a “police action” earns only a prompt.",
+    "fix": "The 38th parallel, Inchon, Chosin, MacArthur’s firing, Panmunjom, and _M*A*S*H_ mean Korea (1950–1953). The 17th parallel, Ho Chi Minh, the Gulf of Tonkin, and the Tet Offensive mean Vietnam. Say “Korean War,” not just “Korea.”",
+    "line": "Real answer line: <b><u>Korean War</u></b> (accept <u>Korean Conflict</u> or <u>6–25 War</u>; prompt on <u>Korea</u>)"
+  },
+  "tests": {
+    "right": [
+      "Korean War",
+      "The Korean War",
+      "Korean Conflict",
+      "Koren War",
+      "6-25 War"
+    ],
+    "prompt": [
+      "Korea",
+      "police action"
+    ],
+    "wrong": [
+      "Vietnam War",
+      "Cold War",
+      "Battle of Inchon",
+      "World War II",
+      "Douglas MacArthur",
+      "North Korea",
+      "Chosin Reservoir"
+    ]
+  }
+}

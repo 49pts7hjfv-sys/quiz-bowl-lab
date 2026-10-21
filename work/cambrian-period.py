@@ -1,0 +1,322 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "cambrian-period",
+    "name": "Cambrian period",
+    "mono": "CMB",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "First period of the Paleozoic Era · When most animal groups first appear",
+    "dates": "Began about 539 million years ago",
+    "briefing": "The Cambrian period began about 539 million years ago, and over the next few tens of millions of years most major groups of animals appeared in the fossil record, a burst known as the Cambrian explosion. Trilobites crawled across the seafloor, while strange creatures like five-eyed Opabinia and the predator Anomalocaris swam above them. Canada’s Burgess Shale preserved many of these animals in amazing detail, even their soft parts.",
+    "answerHtml": "<b><u>Cambrian</u></b> period (accept <u>Cambrian</u> explosion; prompt on <u>Paleozoic</u> Era; do not accept “Precambrian” or “Ordovician”)",
+    "accept": [
+        "cambrian",
+        "cambrian period",
+        "the cambrian",
+        "cambrian era",
+        "cambrian age",
+        "cambrian times",
+        "cambrian system",
+        "cambrian explosion",
+        "cambrian radiation",
+        "early cambrian",
+        "middle cambrian",
+        "late cambrian"
+    ],
+    "prompt": [
+        "paleozoic",
+        "paleozoic era",
+        "palaeozoic"
+    ],
+    "reject": [
+        "precambrian",
+        "pre cambrian",
+        "ordovician",
+        "ordovician period",
+        "ediacaran",
+        "ediacaran period",
+        "silurian",
+        "devonian",
+        "carboniferous",
+        "permian",
+        "triassic",
+        "jurassic",
+        "cretaceous",
+        "proterozoic",
+        "archean",
+        "hadean",
+        "cryogenian",
+        "mesozoic",
+        "cenozoic",
+        "burgess shale",
+        "chengjiang"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Cambrian",
+    "qb": {
+        "q": "Cambrian",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1879, Charles Lapworth ended a long fight between Adam Sedgwick and Roderick Murchison by creating the Ordovician, made from rock layers that both men had claimed, and the Ordovician became the period right after this one.",
+            "r": "Sedgwick named this period for an old Latin name for Wales. For 10 points, name this first period of the Paleozoic Era, known for an “explosion” of animal life."
+        },
+        {
+            "p": "In 1909, Charles Walcott, the head of the Smithsonian Institution, discovered a fossil bed high in the Canadian Rockies that preserves soft-bodied animals from this period in amazing detail. Walcott later described the early chordate Pikaia from those rocks.",
+            "r": "That fossil bed is the Burgess Shale. For 10 points, name this period that began about 539 million years ago with an “explosion” of animal life."
+        },
+        {
+            "p": "When Simon Conway Morris named Hallucigenia [“huh-loo-sih-JEE-nee-uh”] from fossils of this period, he drew it upside down, mistaking its long spines for legs. He chose its name because the animal looked so strange and dreamlike.",
+            "r": "It is one of many odd animals from the Burgess Shale. For 10 points, name this period known for a sudden burst, or “explosion,” of animal life."
+        },
+        {
+            "p": "The grasping front limbs of Anomalocaris [“uh-nom-uh-loh-KAIR-iss”], whose name means “abnormal shrimp,” were first mistaken for the tail ends of shrimp-like animals. This top predator, one of the largest animals of its time, hunted in the seas of this period.",
+            "r": "For 10 points, name this first period of the Paleozoic Era, when trilobites and many other animal groups first appeared."
+        },
+        {
+            "p": "Opabinia [“oh-puh-BIN-ee-uh”], an animal with five eyes on stalks and a long, flexible nozzle tipped with a grasping claw, swam in the seas of this period. Its fossils come from a famous shale in British Columbia’s Yoho National Park.",
+            "r": "For 10 points, name this period, known for the sudden appearance of most major animal groups in an event called its “explosion.”"
+        },
+        {
+            "p": "Stephen Jay Gould’s book _Wonderful Life_ argued that the strange animals of this period show how much evolution depends on chance, but Simon Conway Morris, who studied many of the same fossils, disagreed. Gould published that book in 1989.",
+            "r": "Those fossils come from the Burgess Shale. For 10 points, name this first period of the Paleozoic Era, famous for an “explosion” of animal diversity."
+        },
+        {
+            "p": "China’s Chengjiang [“chung-jyahng”] fossils, found in Yunnan Province, preserve soft-bodied animals from early in this period, including the fishlike Haikouichthys [“hy-koo-IK-thiss”], one of the earliest known chordates. Those fossils are about 10 million years older than Canada’s Burgess Shale.",
+            "r": "Trilobites were common in this period. For 10 points, name this period, which began about 539 million years ago with an “explosion” of animal life."
+        },
+        {
+            "p": "Charles Darwin admitted in _On the Origin of Species_ that he could not explain why so many kinds of animals seemed to appear suddenly in the oldest fossil-rich rocks then known, which belong to this period, with almost no fossils of their ancestors beneath them.",
+            "r": "Scientists call that burst of life this period’s “explosion.” For 10 points, name this period that came right before the Ordovician."
+        },
+        {
+            "p": "The start of this period is officially marked at Fortune Head in Newfoundland by the first appearance of Treptichnus pedum, a trace fossil left by a burrowing animal. Before this period, during the Ediacaran, soft, quilted creatures like Dickinsonia lay on the seafloor.",
+            "r": "This period was followed by the Ordovician. For 10 points, name this first period of the Paleozoic Era."
+        },
+        {
+            "p": "In the Grand Canyon, the Tapeats Sandstone, Bright Angel Shale, and Muav Limestone formed during this period. They rest on far older rock across a gap in the rock record that John Wesley Powell named the Great Unconformity.",
+            "r": "Trilobite fossils turn up in those layers. For 10 points, name this period, famous for its “explosion” of animal life."
+        },
+        {
+            "p": "Tiny tubes, cones, and plates of shell from early in this period are called “small shelly fossils,” and they show that many animals were starting to build hard parts. Hard shells and exoskeletons may have helped animals of this period protect themselves from new predators.",
+            "r": "Trilobites, arthropods with three-lobed bodies, are this period’s most famous fossils. For 10 points, name this period, which began about 539 million years ago."
+        },
+        {
+            "p": "Sponge-like animals called archaeocyathids [“ar-kee-oh-SY-uh-thids”] built some of the first animal reefs early in this period, but nearly all of them vanished partway through it. During this period, life was still almost entirely in the sea, since plants had not yet spread onto land.",
+            "r": "For 10 points, name this first period of the Paleozoic Era, known for its sudden “explosion” of animal life."
+        },
+        {
+            "p": "Andrew Parker’s “Light Switch” hypothesis argues that the evolution of eyes set off an arms race between predators and prey during this period. Other scientists point to rising oxygen levels in the oceans as a trigger for this period’s changes.",
+            "r": "Those changes produced most major animal groups in a burst called this period’s “explosion.” For 10 points, name this first period of the Paleozoic Era."
+        },
+        {
+            "p": "Marrella, a small arthropod with long, sweeping spines on its head shield, is the most common animal found in a famous fossil bed from this period. Underwater mudflows buried those animals so quickly that even their soft parts were preserved.",
+            "r": "That fossil bed is Canada’s Burgess Shale. For 10 points, name this period that began about 539 million years ago, famous for its “explosion” of animal life."
+        },
+        {
+            "p": "Most major groups of animals first appear in the fossil record during this period, when trilobites crawled across the seafloor and the predator Anomalocaris hunted above them. Five-eyed Opabinia also lived in its seas.",
+            "r": "This period came right before the Ordovician and saw a sudden burst of new animals called an “explosion.” For 10 points, name this first period of the Paleozoic Era."
+        }
+    ],
+    "clues": [
+        {
+            "id": "first-paleozoic",
+            "tier": "giveaway",
+            "t": "The first period of the Paleozoic Era",
+            "k": ["first period", "paleozoic"],
+            "n": 0
+        },
+        {
+            "id": "explosion",
+            "tier": "giveaway",
+            "t": "Known for its “explosion”: most major animal groups appear suddenly in the fossil record",
+            "k": ["explosion", "animal groups"],
+            "n": 0
+        },
+        {
+            "id": "539-million",
+            "tier": "giveaway",
+            "t": "Began about 539 million years ago, after billions of years of mostly single-celled life",
+            "k": ["539 million", "single-celled"],
+            "n": 0
+        },
+        {
+            "id": "before-ordovician",
+            "tier": "middle",
+            "t": "Followed by the Ordovician period",
+            "k": ["ordovician", "followed"],
+            "n": 0
+        },
+        {
+            "id": "trilobites",
+            "tier": "middle",
+            "t": "Trilobites, three-lobed arthropods, are its most famous fossils",
+            "k": ["trilobites", "arthropods", "three-lobed"],
+            "n": 0
+        },
+        {
+            "id": "burgess-shale",
+            "tier": "middle",
+            "t": "Canada’s Burgess Shale, in British Columbia’s Yoho National Park, preserves its soft-bodied animals in amazing detail",
+            "k": ["burgess shale", "british columbia", "soft-bodied", "yoho"],
+            "n": 0,
+            "rabbit": "Shale"
+        },
+        {
+            "id": "walcott",
+            "tier": "middle",
+            "t": "Charles Walcott, head of the Smithsonian, discovered the Burgess Shale in 1909 and described Pikaia",
+            "k": ["walcott", "smithsonian", "1909", "pikaia"],
+            "n": 0,
+            "rabbit": "Chordates"
+        },
+        {
+            "id": "wales",
+            "tier": "middle",
+            "t": "Adam Sedgwick named it in 1835 for Cambria, the old Latin name for Wales",
+            "k": ["wales", "sedgwick", "1835"],
+            "n": 0
+        },
+        {
+            "id": "anomalocaris",
+            "tier": "middle",
+            "t": "Anomalocaris (“abnormal shrimp”) was a top predator; its front limbs were first mistaken for shrimp-like animals",
+            "k": ["anomalocaris", "abnormal shrimp", "predator"],
+            "n": 0
+        },
+        {
+            "id": "opabinia",
+            "tier": "middle",
+            "t": "Opabinia had five eyes on stalks and a long nozzle tipped with a claw",
+            "k": ["opabinia", "five eyes", "nozzle"],
+            "n": 0
+        },
+        {
+            "id": "hard-parts",
+            "tier": "middle",
+            "t": "Many animals first grew hard shells and exoskeletons; tiny early pieces are “small shelly fossils”",
+            "k": ["hard shells", "exoskeletons", "small shelly"],
+            "n": 0
+        },
+        {
+            "id": "lapworth",
+            "tier": "power",
+            "t": "Charles Lapworth created the Ordovician in 1879 to settle the Sedgwick–Murchison fight over its rocks",
+            "k": ["lapworth", "murchison", "1879"],
+            "n": 0
+        },
+        {
+            "id": "hallucigenia",
+            "tier": "power",
+            "t": "Simon Conway Morris named Hallucigenia for its dreamlike look and first drew it upside down",
+            "k": ["hallucigenia", "conway morris", "upside down"],
+            "n": 0
+        },
+        {
+            "id": "wonderful-life",
+            "tier": "power",
+            "t": "Stephen Jay Gould’s _Wonderful Life_ (1989) used its fossils to argue that evolution depends on chance",
+            "k": ["wonderful life", "gould", "chance"],
+            "n": 0
+        },
+        {
+            "id": "chengjiang",
+            "tier": "power",
+            "t": "China’s Chengjiang fossils, about 10 million years older than the Burgess Shale, include the fishlike Haikouichthys",
+            "k": ["chengjiang", "haikouichthys", "yunnan"],
+            "n": 0
+        },
+        {
+            "id": "darwin",
+            "tier": "power",
+            "t": "Darwin admitted in _On the Origin of Species_ that he could not explain animals appearing so suddenly in its rocks",
+            "k": ["darwin", "origin of species"],
+            "n": 0
+        },
+        {
+            "id": "fortune-head",
+            "tier": "power",
+            "t": "Its start is defined at Fortune Head, Newfoundland, by the burrow fossil Treptichnus pedum",
+            "k": ["fortune head", "newfoundland", "treptichnus"],
+            "n": 0
+        },
+        {
+            "id": "ediacaran",
+            "tier": "power",
+            "t": "It followed the Ediacaran period, home to soft, quilted creatures like Dickinsonia",
+            "k": ["ediacaran", "dickinsonia"],
+            "n": 0
+        },
+        {
+            "id": "grand-canyon",
+            "tier": "power",
+            "t": "The Grand Canyon’s Tapeats Sandstone, Bright Angel Shale, and Muav Limestone date from it, above Powell’s Great Unconformity",
+            "k": ["tapeats", "bright angel", "great unconformity", "grand canyon"],
+            "n": 0
+        },
+        {
+            "id": "marrella",
+            "tier": "power",
+            "t": "Marrella, a spiny little arthropod, is the most common Burgess Shale animal; mudflows buried the animals quickly",
+            "k": ["marrella", "mudflows"],
+            "n": 0
+        },
+        {
+            "id": "archaeocyathids",
+            "tier": "power",
+            "t": "Sponge-like archaeocyathids built some of the first animal reefs; life was still almost all in the sea",
+            "k": ["archaeocyathids", "reefs"],
+            "n": 0
+        },
+        {
+            "id": "light-switch",
+            "tier": "power",
+            "t": "Andrew Parker’s “Light Switch” idea: the evolution of eyes sparked a predator–prey arms race; rising oxygen is another proposed trigger",
+            "k": ["light switch", "eyes", "arms race", "oxygen"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Precambrian or Cambrian?",
+        "body": "The Precambrian is everything before this period, from Earth’s formation up to about 539 million years ago, so “Precambrian” is a different answer even though it contains this period’s name. The Ordovician came right after, and saying only “Paleozoic” names the whole era, which earns a prompt at most.",
+        "fix": "The Burgess Shale, early trilobites, Anomalocaris, Hallucigenia, and a sudden “explosion” of animals mean the Cambrian. Ediacaran creatures like Dickinsonia and the earliest single-celled life mean the Precambrian, and Charles Lapworth’s compromise period, with its later wave of new species, means the Ordovician.",
+        "line": "Real answer line: <b><u>Cambrian</u></b> period (accept <u>Cambrian</u> explosion; prompt on Paleozoic; do not accept “Precambrian” or “Ordovician”)"
+    },
+    "tests": {
+        "right": [
+            "Cambrian",
+            "Cambrian period",
+            "Cambrian explosion",
+            "Cambrain",
+            "the Cambrian"
+        ],
+        "prompt": [
+            "Paleozoic",
+            "Paleozoic Era"
+        ],
+        "wrong": [
+            "Precambrian",
+            "Pre-Cambrian",
+            "Ordovician",
+            "Ediacaran",
+            "Jurassic",
+            "Burgess Shale"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

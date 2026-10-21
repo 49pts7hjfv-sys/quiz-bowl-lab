@@ -1,0 +1,455 @@
+{
+  "id": "the-sun",
+  "name": "The Sun",
+  "mono": "SUN",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "The star at the center of our solar system · Powers nearly all life on Earth",
+  "dates": "Formed about 4.6 billion years ago",
+  "briefing": "The Sun is a middle-aged yellow star that holds about 99.8 percent of all the mass in the solar system; about 109 Earths could line up across its face. In its core, at about 15 million degrees, it fuses hydrogen into helium and gives off about 3.8 × 10²⁶ watts. Its light takes about 8 minutes to reach Earth, so we always see the Sun as it was about 8 minutes earlier.",
+  "answerHtml": "the <b><u>Sun</u></b> (accept <u>Sol</u>; prompt on <u>star</u> or <u>yellow dwarf</u>; do not accept “sunspots” or “Helios”)",
+  "accept": [
+    "sun",
+    "the sun",
+    "our sun",
+    "sol"
+  ],
+  "prompt": [
+    "star",
+    "yellow dwarf",
+    "yellow dwarf star",
+    "yellow star",
+    "g type star",
+    "g2 star",
+    "g type main sequence star"
+  ],
+  "reject": [
+    "sunspot",
+    "sunspots",
+    "the sun also rises",
+    "sun also rises",
+    "helios",
+    "the moon",
+    "moon",
+    "solar system",
+    "solar wind",
+    "corona",
+    "photosphere",
+    "solar flare",
+    "solar flares",
+    "sirius",
+    "proxima centauri",
+    "alpha centauri",
+    "polaris",
+    "earth",
+    "ra",
+    "apollo"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Sun",
+  "qb": {
+    "q": "Sun",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "The outer atmosphere of this star, its corona, is more than a million degrees, far hotter than its visible surface, a puzzle called the coronal heating problem. In 2021, a NASA probe named for Eugene Parker became the first spacecraft to fly through that corona.",
+      "r": "For 10 points, name this star that Earth orbits once a year."
+    },
+    {
+      "p": "Starting in the 1960s, Raymond Davis caught neutrinos from this star with a huge tank of dry-cleaning fluid in the Homestake Mine in South Dakota, but he found only about a third of the number predicted. Neutrinos changing type on their way to Earth explained that shortfall.",
+      "r": "For 10 points, name this star, about 150 million kilometers from Earth."
+    },
+    {
+      "p": "In the 1800s, Lord Kelvin argued that this object could be only tens of millions of years old, because he assumed it shone by slowly shrinking under its own gravity. In 1920, Arthur Eddington suggested that it is powered instead by turning hydrogen into helium.",
+      "r": "For 10 points, name this star, whose light takes about eight minutes to reach Earth."
+    },
+    {
+      "p": "In 1814, Joseph von Fraunhofer mapped hundreds of dark lines in this object’s spectrum. In 1868, astronomers studying its spectrum during an eclipse found a yellow line from an element not yet known on Earth, which was later named from this object’s Greek name.",
+      "r": "That element is helium. For 10 points, name this star at the center of Earth’s planetary system."
+    },
+    {
+      "p": "About three-quarters of this object’s mass is hydrogen and about one-quarter is helium. Its visible surface, the photosphere, is about 5,500 degrees Celsius, while its core is thousands of times hotter.",
+      "r": "It holds about 99.8 percent of the mass of its planetary system. For 10 points, name this yellow, G-type star that Earth orbits."
+    },
+    {
+      "p": "This object spins faster at its equator, about once every 25 days, than near its poles, where one turn takes about 35 days. The number of dark, cooler spots on its surface rises and falls over a cycle of about 11 years.",
+      "r": "For 10 points, name this star, whose core is about 15 million kelvins."
+    },
+    {
+      "p": "This star lies about 26,000 light-years from the center of the Milky Way, in a minor spiral arm called the Orion Arm, and it takes about 230 million years to circle the galaxy once.",
+      "r": "Earth orbits it once a year at a distance of one astronomical unit. For 10 points, name this star."
+    },
+    {
+      "p": "Energy made in this object’s core can take many thousands of years to work its way out through the radiative zone. It then rises through a convective zone, whose bubbling tops appear as granules on this object’s visible surface, the photosphere.",
+      "r": "For 10 points, name this star, which fuses hydrogen into helium in a core at about 15 million kelvins."
+    },
+    {
+      "p": "In 1958, Eugene Parker predicted that this object constantly blows a stream of charged particles into space, and in 2012, Voyager 1 left the giant bubble carved out by that stream. Those particles help light up auroras when they reach Earth.",
+      "r": "For 10 points, name this star whose wind streams past all of its planets."
+    },
+    {
+      "p": "In 1859, Richard Carrington saw a brilliant white-light flare on this object, and within a day a huge storm of charged particles made telegraph wires spark and auroras glow near the tropics. Giant eruptions of gas from this object are called coronal mass ejections.",
+      "r": "For 10 points, name this star, whose outbursts cause space weather around Earth."
+    },
+    {
+      "p": "Aristarchus of Samos proposed in the third century BCE that Earth circles this object, an idea that Nicolaus Copernicus revived in his 1543 book _On the Revolutions of the Heavenly Spheres_.",
+      "r": "For 10 points, name this star at the center of the model that replaced Ptolemy’s Earth-centered system."
+    },
+    {
+      "p": "Hans Bethe won a Nobel Prize for working out the nuclear reactions that power this object and other stars. This object turns about four million tons of its mass into energy every second, for a total power output of about 3.8 times 10 to the 26th watts.",
+      "r": "For 10 points, name this star, whose light reaches Earth in about eight minutes."
+    },
+    {
+      "p": "During a 1919 eclipse, Arthur Eddington’s expedition measured starlight bending around this object, supporting Albert Einstein’s general relativity. Its pearly corona can be seen with the naked eye only during a total eclipse, such as the one that crossed North America on April 8, 2024.",
+      "r": "For 10 points, name this star, which the Moon blocks during a total eclipse."
+    },
+    {
+      "p": "Early in its life, this star gave off only about 70 percent as much energy as it does in modern times, yet young Earth still had liquid water. In about five billion years, it will swell into a red giant, and it will end its life as a white dwarf.",
+      "r": "For 10 points, name this G2 V star, which is about 4.6 billion years old."
+    },
+    {
+      "p": "This object’s astronomical symbol is a circle with a dot at its center. Greek myths pictured its god Helios driving a fiery chariot across the sky each day, and the ancient Egyptians worshipped it as Ra.",
+      "r": "For 10 points, name this star, the source of daylight on Earth."
+    }
+  ],
+  "clues": [
+    {
+      "id": "center-star",
+      "tier": "giveaway",
+      "t": "The star at the center of our planetary system, which Earth orbits once a year",
+      "k": [
+        "center",
+        "planetary system",
+        "orbits"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eight-minutes",
+      "tier": "giveaway",
+      "t": "About 150 million km (93 million miles) away, so its light takes about 8 minutes to reach Earth",
+      "k": [
+        "150 million",
+        "8 minutes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fusion",
+      "tier": "giveaway",
+      "t": "Fuses hydrogen into helium in its core, at about 15 million kelvins",
+      "k": [
+        "hydrogen",
+        "helium",
+        "15 million"
+      ],
+      "n": 0,
+      "rabbit": "Nuclear fusion"
+    },
+    {
+      "id": "yellow-dwarf",
+      "tier": "giveaway",
+      "t": "A G-type main-sequence star, or yellow dwarf; its full label is G2 V",
+      "k": [
+        "yellow dwarf",
+        "g-type",
+        "g2 v"
+      ],
+      "n": 0,
+      "rabbit": "Main sequence"
+    },
+    {
+      "id": "mass-size",
+      "tier": "giveaway",
+      "t": "Holds about 99.8 percent of the mass in its planetary system; about 109 Earths could line up across its face",
+      "k": [
+        "99.8 percent",
+        "109"
+      ],
+      "n": 0
+    },
+    {
+      "id": "age-future",
+      "tier": "middle",
+      "t": "About 4.6 billion years old; in about five billion years it will swell into a red giant, then end as a white dwarf",
+      "k": [
+        "4.6 billion",
+        "red giant",
+        "white dwarf"
+      ],
+      "n": 0,
+      "rabbit": "White dwarfs"
+    },
+    {
+      "id": "layers",
+      "tier": "middle",
+      "t": "Layers from the inside out: core, radiative zone, convective zone, photosphere (the visible surface), chromosphere, and corona",
+      "k": [
+        "radiative zone",
+        "convective zone",
+        "photosphere",
+        "chromosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "corona",
+      "tier": "middle",
+      "t": "Its outer atmosphere, the corona, is more than a million degrees, far hotter than its surface (about 5,500 °C)",
+      "k": [
+        "corona",
+        "million degrees"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wind",
+      "tier": "middle",
+      "t": "Blows a constant stream of charged particles, called its wind, which helps light up auroras on Earth",
+      "k": [
+        "charged particles",
+        "auroras"
+      ],
+      "n": 0
+    },
+    {
+      "id": "power-output",
+      "tier": "middle",
+      "t": "Gives off about 3.8 × 10²⁶ watts; about 1,361 watts per square meter reach the top of Earth’s atmosphere",
+      "k": [
+        "watts",
+        "1,361"
+      ],
+      "n": 0,
+      "rabbit": "Luminosity"
+    },
+    {
+      "id": "spots",
+      "tier": "middle",
+      "t": "Dark, cooler magnetic spots on its surface rise and fall in number over a cycle of about 11 years",
+      "k": [
+        "spots",
+        "11 years"
+      ],
+      "n": 0,
+      "rabbit": "Sunspots"
+    },
+    {
+      "id": "copernicus",
+      "tier": "middle",
+      "t": "Nicolaus Copernicus put it at the center of his model in 1543; Aristarchus of Samos had proposed the idea in the third century BCE",
+      "k": [
+        "copernicus",
+        "aristarchus",
+        "1543"
+      ],
+      "n": 0
+    },
+    {
+      "id": "helium-1868",
+      "tier": "middle",
+      "t": "Helium was found in its spectrum during an 1868 eclipse, before it was found on Earth, and was named from its Greek name",
+      "k": [
+        "helium",
+        "1868",
+        "eclipse"
+      ],
+      "n": 0,
+      "rabbit": "Helium"
+    },
+    {
+      "id": "total-eclipse",
+      "tier": "middle",
+      "t": "Its corona can be seen with the naked eye only during a total eclipse, like the one across North America on April 8, 2024",
+      "k": [
+        "total eclipse",
+        "april 8, 2024"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coronal-heating",
+      "tier": "power",
+      "t": "Why the corona is so much hotter than the surface is the coronal heating problem; in 2021, a NASA probe named for Eugene Parker first flew through the corona",
+      "k": [
+        "coronal heating",
+        "2021"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parker-voyager",
+      "tier": "power",
+      "t": "Eugene Parker predicted its wind in 1958; Voyager 1 left the giant bubble carved out by that wind in 2012",
+      "k": [
+        "eugene parker",
+        "1958",
+        "voyager 1"
+      ],
+      "n": 0
+    },
+    {
+      "id": "davis",
+      "tier": "power",
+      "t": "Raymond Davis’s tank of dry-cleaning fluid in South Dakota’s Homestake Mine caught only about a third of its predicted neutrinos; neutrinos changing type explained why",
+      "k": [
+        "davis",
+        "homestake",
+        "neutrinos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin",
+      "tier": "power",
+      "t": "Lord Kelvin thought it could be only tens of millions of years old, assuming it shone by slowly shrinking under gravity",
+      "k": [
+        "kelvin",
+        "shrinking"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eddington-bethe",
+      "tier": "power",
+      "t": "Arthur Eddington proposed in 1920 that it runs on hydrogen turning into helium; Hans Bethe later won a Nobel Prize for working out the reactions",
+      "k": [
+        "eddington",
+        "1920",
+        "bethe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fraunhofer",
+      "tier": "power",
+      "t": "Joseph von Fraunhofer mapped hundreds of dark lines in its spectrum in 1814",
+      "k": [
+        "fraunhofer",
+        "dark lines",
+        "1814"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rotation",
+      "tier": "power",
+      "t": "Spins about once every 25 days at its equator but only about once every 35 days near its poles",
+      "k": [
+        "25 days",
+        "35 days",
+        "equator"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galactic-orbit",
+      "tier": "power",
+      "t": "About 26,000 light-years from the Milky Way’s center, in the Orion Arm; one trip around the galaxy takes about 230 million years",
+      "k": [
+        "26,000",
+        "orion arm",
+        "230 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carrington",
+      "tier": "power",
+      "t": "Richard Carrington saw a white-light flare on it in 1859; within a day, a huge storm made telegraph wires spark",
+      "k": [
+        "carrington",
+        "1859",
+        "telegraph"
+      ],
+      "n": 0
+    },
+    {
+      "id": "granules",
+      "tier": "power",
+      "t": "Energy from its core can take many thousands of years to cross the radiative zone; convection makes granules on its surface",
+      "k": [
+        "granules",
+        "thousands of years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "four-million-tons",
+      "tier": "power",
+      "t": "Turns about four million tons of its mass into energy every second",
+      "k": [
+        "four million tons",
+        "every second"
+      ],
+      "n": 0
+    },
+    {
+      "id": "faint-young",
+      "tier": "power",
+      "t": "Early in its life it gave off only about 70 percent of its modern energy, yet young Earth had liquid water",
+      "k": [
+        "70 percent",
+        "liquid water"
+      ],
+      "n": 0
+    },
+    {
+      "id": "symbol-myth",
+      "tier": "power",
+      "t": "Its symbol is a circle with a dot in the center; the Greek god Helios drove its chariot, and Egyptians worshipped it as Ra",
+      "k": [
+        "circle with a dot",
+        "helios"
+      ],
+      "n": 0,
+      "rabbit": "Helios"
+    },
+    {
+      "id": "eclipse-1919",
+      "tier": "power",
+      "t": "Arthur Eddington’s 1919 eclipse expedition measured starlight bending around it, supporting Einstein’s general relativity",
+      "k": [
+        "1919",
+        "starlight bending"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    }
+  ],
+  "trap": {
+    "title": "Star, spots, or god?",
+    "body": "Sunspots have their own answer line, and their clues (dark, cooler patches, the 11-year cycle, the Maunder Minimum) also turn up in tossups about the whole star, so players blurt out “sunspots.” Others hear “nearest star” and say Proxima Centauri, which is only the nearest star beyond this one. In mythology, Helios and Ra are gods of this star, a different answer line.",
+    "fix": "“This star” or “this object” plus Earth’s orbit, eight-minute light travel, the corona, Eugene Parker, Raymond Davis’s neutrinos, or Fraunhofer lines means the Sun. “These dark regions” means sunspots. You can also answer “Sol,” its Latin name.",
+    "line": "Real answer line: the <b><u>Sun</u></b> (accept <u>Sol</u>; prompt on <u>star</u>)"
+  },
+  "tests": {
+    "right": [
+      "the Sun",
+      "Sun",
+      "Sol",
+      "the sunn",
+      "our Sun"
+    ],
+    "prompt": [
+      "star",
+      "yellow dwarf"
+    ],
+    "wrong": [
+      "sunspots",
+      "Helios",
+      "The Moon",
+      "solar wind",
+      "Sirius",
+      "Proxima Centauri",
+      "The Sun Also Rises"
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "id": "el-nino",
+  "name": "El Niño",
+  "mono": "EN",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Warming of the tropical Pacific every few years · Shifts weather worldwide",
+  "dates": "Returns every 2 to 7 years",
+  "briefing": "Every few years, the trade winds over the tropical Pacific weaken, and a huge pool of warm water spreads east toward South America: that is El Niño. Peruvian fishermen named it “the boy,” meaning the Christ child, because the warm water often arrived around Christmas. It can wreck fish catches, flood deserts, and bring drought to Australia and Indonesia, and its cold opposite is called La Niña.",
+  "answerHtml": "<b><u>El Niño</u></b> (accept <u>El Nino</u>, <u>El Niño</u>–Southern Oscillation, or ENSO; prompt on Southern Oscillation; do not accept “La Niña”)",
+  "accept": [
+    "el nino",
+    "el ninos",
+    "elnino",
+    "el nino southern oscillation",
+    "el nino southern oscillation enso",
+    "enso",
+    "el nino event",
+    "el nino events",
+    "el nino effect",
+    "el nino phenomenon",
+    "el nino current",
+    "el nino year",
+    "el nino modoki"
+  ],
+  "prompt": [
+    "southern oscillation",
+    "the southern oscillation",
+    "nino"
+  ],
+  "reject": [
+    "la nina",
+    "la ninas",
+    "la nina event",
+    "el nina",
+    "upwelling",
+    "walker circulation",
+    "walker cell",
+    "monsoon",
+    "monsoons",
+    "humboldt current",
+    "peru current",
+    "gulf stream",
+    "jet stream",
+    "trade winds",
+    "kelvin wave",
+    "kelvin waves",
+    "pacific decadal oscillation",
+    "north atlantic oscillation",
+    "arctic oscillation",
+    "madden julian oscillation",
+    "indian ocean dipole",
+    "global warming",
+    "climate change",
+    "hurricane",
+    "hurricanes",
+    "typhoon",
+    "typhoons"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o",
+  "qb": {
+    "q": "El Nino",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "While trying to predict failures of India’s monsoon in the 1920s, Gilbert Walker discovered a seesaw in air pressure across the tropical Pacific and Indian Oceans, which he named the Southern Oscillation. That seesaw was later linked to this ocean event.",
+      "r": "During this event, weak trade winds let warm water spread east toward South America. For 10 points, name this climate pattern, the opposite of La Niña."
+    },
+    {
+      "p": "Scientists often track this event with an index based on the difference in air pressure between Tahiti and Darwin, Australia, and that index turns strongly negative while this event is under way. That index is called the Southern Oscillation Index.",
+      "r": "Peruvian fishermen named this event for the Christ child because it often arrives near Christmas. For 10 points, name this warming of the eastern tropical Pacific."
+    },
+    {
+      "p": "Slow, eastward-moving bulges of warm water called Kelvin waves carry heat across the equatorial Pacific at the start of this event, pushing the thermocline deeper off South America. Bursts of westerly wind over the western Pacific can set those waves in motion.",
+      "r": "This event weakens upwelling off Peru. For 10 points, name this warm phase of the tropical Pacific, the opposite of La Niña."
+    },
+    {
+      "p": "Galápagos marine iguanas can actually shrink in body length during this event, because the algae they graze on underwater die back. Galápagos penguins and sea lions also go hungry when this event cuts off their cold, food-rich water.",
+      "r": "This event also hurts the anchoveta catch off Peru. For 10 points, name this periodic warming of the eastern Pacific Ocean, named for the Christ child."
+    },
+    {
+      "p": "The 1997–98 example of this event, one of the strongest ever measured, brought deadly floods to Peru and Ecuador and a stormy winter to California. It helped make 1998 the warmest year on record up to that time.",
+      "r": "Its name means “the boy” in Spanish. For 10 points, name this warming of the tropical Pacific Ocean, the opposite of La Niña."
+    },
+    {
+      "p": "In 1972, Peru’s anchoveta fishery, then the largest in the world, collapsed when this event cut off the upwelling of nutrient-rich water, on top of years of heavy fishing. Seabirds that fed on those fish died in huge numbers.",
+      "r": "For 10 points, name this warming of the Pacific off South America, which Peruvian fishermen named for the Christ child."
+    },
+    {
+      "p": "This event usually weakens the Atlantic hurricane season, because it strengthens the high-altitude winds that shear the tops off growing storms, while the eastern Pacific often sees more strong storms. Forecasters call that effect wind shear.",
+      "r": "It tends to bring wetter winters to the southern United States. For 10 points, name this periodic warming of the eastern tropical Pacific, whose cold counterpart is La Niña."
+    },
+    {
+      "p": "During this event, heavy rain shifts away from Indonesia and eastern Australia, bringing drought and wildfires there, while normally dry coastal deserts in Peru can flood. India’s summer monsoon also tends to be weaker.",
+      "r": "This event happens when the trade winds weaken over the tropical Pacific. For 10 points, name this climate pattern that returns every two to seven years."
+    },
+    {
+      "p": "Scientists at NOAA declare this event when sea-surface temperatures in a key patch of the central Pacific stay at least 0.5 degrees Celsius above normal for several months in a row, along with matching changes in the winds above.",
+      "r": "Its Spanish name refers to the Christ child. For 10 points, name this warm event in the tropical Pacific, the opposite of La Niña."
+    },
+    {
+      "p": "A version of this event centered in the middle of the Pacific, rather than near South America, has been nicknamed Modoki, from a Japanese word meaning “similar but different.” In that version, the water off South America can stay cooler than normal.",
+      "r": "In the usual version, weak trade winds let warm water pile up off Peru. For 10 points, name this climate event whose cold opposite is La Niña."
+    },
+    {
+      "p": "After scientists failed to see the giant 1982–83 example of this event coming until it was well under way, they built the TAO array, a network of moored buoys across the equatorial Pacific that watches for it.",
+      "r": "For 10 points, name this periodic warming of the tropical Pacific that Peruvian fishermen named for the infant Jesus."
+    },
+    {
+      "p": "Jacob Bjerknes [“BYERK-ness”] explained this event in 1969 with a feedback loop between the ocean and the winds above it, in which a small warming in the eastern Pacific keeps growing stronger. He named the usual east–west loop of air over the Pacific the Walker circulation, after Gilbert Walker.",
+      "r": "The Southern Oscillation is the air-pressure part of the same cycle. For 10 points, name this warm event in the Pacific, whose cold counterpart is La Niña."
+    },
+    {
+      "p": "The 2015–16 example of this event, one of the strongest on record, helped make 2016 the hottest year measured up to that time, and it helped cause severe coral bleaching on Australia’s Great Barrier Reef.",
+      "r": "During this event, the trade winds weaken and warm water spreads east. For 10 points, name this climate pattern named for the Christ child."
+    },
+    {
+      "p": "During this event, the Pacific jet stream often shifts south and strengthens, steering storms toward California and the Gulf Coast while the northern United States and Canada have milder winters than usual.",
+      "r": "This event weakens the upwelling of cold water off Peru. For 10 points, name this warming of the tropical Pacific, whose opposite is La Niña."
+    },
+    {
+      "p": "This event is one phase of a cycle that includes the Southern Oscillation, and it usually brings drought to Indonesia and Australia and fewer hurricanes to the Atlantic. It also shuts down the upwelling of cold water off Peru.",
+      "r": "Peruvian fishermen named it for the Christ child because it often arrives near Christmas. For 10 points, name this warming of the eastern Pacific, the opposite of La Niña."
+    }
+  ],
+  "clues": [
+    {
+      "id": "warm-pacific",
+      "tier": "giveaway",
+      "t": "A warming of the surface waters of the central and eastern tropical Pacific Ocean",
+      "k": [
+        "warming",
+        "tropical pacific",
+        "eastern"
+      ],
+      "n": 0
+    },
+    {
+      "id": "christ-child",
+      "tier": "giveaway",
+      "t": "Named by Peruvian fishermen for the Christ child, since it often arrives near Christmas; Spanish for “the boy”",
+      "k": [
+        "christ child",
+        "christmas",
+        "the boy",
+        "peruvian"
+      ],
+      "n": 0
+    },
+    {
+      "id": "la-nina",
+      "tier": "giveaway",
+      "t": "Its cold opposite is La Niña (“the girl”)",
+      "k": [
+        "la niña",
+        "la nina",
+        "the girl",
+        "opposite"
+      ],
+      "n": 0
+    },
+    {
+      "id": "trade-winds",
+      "tier": "giveaway",
+      "t": "Happens when the trade winds weaken and warm water spreads east toward South America",
+      "k": [
+        "trade winds",
+        "weaken",
+        "spreads east"
+      ],
+      "n": 0
+    },
+    {
+      "id": "two-to-seven-years",
+      "tier": "giveaway",
+      "t": "Returns every 2 to 7 years",
+      "k": [
+        "2 to 7 years",
+        "returns"
+      ],
+      "n": 0
+    },
+    {
+      "id": "southern-oscillation",
+      "tier": "middle",
+      "t": "Linked to the Southern Oscillation, a seesaw in air pressure across the tropical Pacific; together they form one cycle",
+      "k": [
+        "southern oscillation",
+        "seesaw",
+        "air pressure"
+      ],
+      "n": 0
+    },
+    {
+      "id": "upwelling-peru",
+      "tier": "middle",
+      "t": "Shuts off the upwelling of cold, nutrient-rich water off Peru, hurting the anchoveta fishery",
+      "k": [
+        "upwelling",
+        "anchoveta",
+        "peru"
+      ],
+      "n": 0,
+      "rabbit": "Upwelling"
+    },
+    {
+      "id": "droughts",
+      "tier": "middle",
+      "t": "Brings drought and wildfires to Indonesia and eastern Australia, weakens India’s monsoon, and floods Peru’s coastal deserts",
+      "k": [
+        "drought",
+        "indonesia",
+        "australia",
+        "monsoon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hurricanes",
+      "tier": "middle",
+      "t": "Usually weakens the Atlantic hurricane season by strengthening wind shear",
+      "k": [
+        "atlantic hurricane",
+        "wind shear"
+      ],
+      "n": 0,
+      "rabbit": "Hurricanes"
+    },
+    {
+      "id": "event-1997-98",
+      "tier": "middle",
+      "t": "The 1997–98 event, one of the strongest ever measured, flooded Peru and Ecuador and helped make 1998 the warmest year on record up to then",
+      "k": [
+        "1997",
+        "ecuador",
+        "1998"
+      ],
+      "n": 0
+    },
+    {
+      "id": "us-winters",
+      "tier": "middle",
+      "t": "Often brings wetter winters to the southern U.S. and milder winters to the northern U.S. and Canada",
+      "k": [
+        "wetter winters",
+        "southern",
+        "milder"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thermocline",
+      "tier": "middle",
+      "t": "The thermocline deepens in the eastern Pacific, so less cold water reaches the surface",
+      "k": [
+        "thermocline",
+        "deepens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "walker",
+      "tier": "power",
+      "t": "Gilbert Walker found the Southern Oscillation in the 1920s while trying to predict India’s monsoon failures",
+      "k": [
+        "gilbert walker",
+        "monsoon failures",
+        "1920s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bjerknes",
+      "tier": "power",
+      "t": "Jacob Bjerknes explained it in 1969 with an ocean–wind feedback loop and named the Walker circulation",
+      "k": [
+        "bjerknes",
+        "1969",
+        "walker circulation",
+        "feedback"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tahiti-darwin",
+      "tier": "power",
+      "t": "The Southern Oscillation Index compares air pressure at Tahiti and Darwin, Australia; it turns strongly negative during the warm event",
+      "k": [
+        "tahiti",
+        "darwin",
+        "southern oscillation index"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kelvin-waves",
+      "tier": "power",
+      "t": "Eastward-moving Kelvin waves, set off by bursts of westerly wind, carry warm water across the Pacific as it begins",
+      "k": [
+        "kelvin waves",
+        "westerly wind"
+      ],
+      "n": 0
+    },
+    {
+      "id": "iguanas",
+      "tier": "power",
+      "t": "Galápagos marine iguanas shrink in length when their algae die back; penguins and sea lions go hungry",
+      "k": [
+        "marine iguanas",
+        "galápagos",
+        "shrink"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anchoveta-1972",
+      "tier": "power",
+      "t": "In 1972, Peru’s anchoveta fishery, then the world’s largest, collapsed during a strong one plus heavy fishing",
+      "k": [
+        "1972",
+        "fishery",
+        "collapsed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "half-degree",
+      "tier": "power",
+      "t": "NOAA declares one when a key patch of the central Pacific stays at least 0.5 °C above normal for several months",
+      "k": [
+        "noaa",
+        "0.5",
+        "central pacific"
+      ],
+      "n": 0
+    },
+    {
+      "id": "modoki",
+      "tier": "power",
+      "t": "A central-Pacific version is nicknamed Modoki, Japanese for “similar but different”",
+      "k": [
+        "modoki",
+        "similar but different"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tao-array",
+      "tier": "power",
+      "t": "The TAO array of moored buoys was built after scientists missed the giant 1982–83 event until it was under way",
+      "k": [
+        "tao array",
+        "buoys",
+        "1982"
+      ],
+      "n": 0
+    },
+    {
+      "id": "event-2015-16",
+      "tier": "power",
+      "t": "The 2015–16 event helped make 2016 the hottest year measured up to then and helped bleach the Great Barrier Reef",
+      "k": [
+        "2016",
+        "great barrier reef",
+        "bleach"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jet-stream",
+      "tier": "power",
+      "t": "The Pacific jet stream shifts south and strengthens, steering storms toward California and the Gulf Coast",
+      "k": [
+        "jet stream",
+        "california",
+        "gulf coast"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "El Niño or La Niña?",
+    "body": "La Niña is the cold phase of the same cycle, with extra-strong trade winds and colder water in the eastern Pacific, so the two share almost every clue: Peru, the trade winds, the Southern Oscillation, and weather effects around the world. Upwelling, the rising cold water that this warm event shuts off, is a wrong answer too.",
+    "fix": "Warm water spreading east, weak trade winds, Christmas, floods in Peru, drought in Australia, and a quiet Atlantic hurricane season mean El Niño. Cold water off South America, extra-strong trade winds, and busier Atlantic hurricane seasons mean La Niña. Saying only “Southern Oscillation” earns a prompt.",
+    "line": "Real answer line: <b><u>El Niño</u></b> (accept El Niño–Southern Oscillation or ENSO; prompt on Southern Oscillation; do not accept “La Niña”)"
+  },
+  "tests": {
+    "right": [
+      "El Nino",
+      "El Niño",
+      "ENSO",
+      "El Nino Southern Oscillation",
+      "Elnino",
+      "El Nino Modoki"
+    ],
+    "prompt": [
+      "Southern Oscillation"
+    ],
+    "wrong": [
+      "La Nina",
+      "La Niña",
+      "Upwelling",
+      "Monsoon",
+      "Walker circulation",
+      "Gulf Stream"
+    ]
+  }
+}

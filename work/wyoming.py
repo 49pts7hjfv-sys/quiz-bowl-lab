@@ -1,0 +1,351 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "wyoming",
+    "name": "Wyoming",
+    "mono": "WY",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Least populous U.S. state · First territory to let women vote (1869)",
+    "dates": "Territory 1868; statehood July 10, 1890",
+    "briefing": "Wyoming has fewer people than any other state, but it holds some big firsts. In 1869 its territorial legislature gave women the right to vote, earning it the nickname “the Equality State,” and in 1925 Nellie Tayloe Ross became the first woman governor in U.S. history. Most of Yellowstone, the world’s first national park, lies in its northwest corner, and Devils Tower became the first national monument in 1906.",
+    "answerHtml": "<b><u>Wyoming</u></b> (accept <u>Wyoming Territory</u>)",
+    "accept": [
+        "wyoming",
+        "state of wyoming",
+        "wyoming territory",
+        "territory of wyoming"
+    ],
+    "prompt": [],
+    "reject": [
+        "montana",
+        "idaho",
+        "colorado",
+        "utah",
+        "nebraska",
+        "south dakota",
+        "north dakota",
+        "nevada",
+        "oregon",
+        "dakota territory",
+        "cheyenne",
+        "yellowstone",
+        "yellowstone national park",
+        "grand teton",
+        "grand teton national park",
+        "devils tower",
+        "teapot dome",
+        "laramie",
+        "fort laramie",
+        "casper",
+        "jackson hole",
+        "wyoming valley",
+        "wyoming valley massacre"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Wyoming",
+    "qb": {
+        "q": "Wyoming",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1870, Esther Hobart Morris of South Pass City became the first woman in the United States to serve as a justice of the peace, in this territory. A year earlier, its governor had signed a bill introduced by William Bright.",
+            "r": "That 1869 law made it the first U.S. territory to let women vote. For 10 points, name this “Equality State.”"
+        },
+        {
+            "p": "After her husband died in office, Nellie Tayloe Ross won a special election and took office in January 1925, about two weeks before Texas swore in Miriam “Ma” Ferguson. Ross later directed the U.S. Mint for twenty years.",
+            "r": "Ross was the first woman governor in U.S. history. For 10 points, name the state she led, whose capital is Cheyenne."
+        },
+        {
+            "p": "The Teton Range towers over the valley of Jackson Hole in this state, where John D. Rockefeller Jr. secretly bought land in the 1920s and later donated it to expand Grand Teton National Park.",
+            "r": "Old Faithful geyser erupts in another park in this state’s northwest corner. For 10 points, name this state that holds most of Yellowstone National Park."
+        },
+        {
+            "p": "Many Plains nations call a giant rock tower in this state “Bear Lodge,” and Steven Spielberg’s 1977 film _Close Encounters of the Third Kind_ ends there. Theodore Roosevelt made that tower the first national monument in 1906.",
+            "r": "It is Devils Tower. For 10 points, name this state whose capital is Cheyenne."
+        },
+        {
+            "p": "Interior Secretary Albert Fall leased a federal oil reserve in this state to Harry Sinclair’s company in 1922 without competitive bidding. Fall was later convicted of taking a bribe and became the first former cabinet member sent to prison for crimes committed in office.",
+            "r": "That reserve was named for a rock shaped like a teapot. For 10 points, name this state, the site of the Teapot Dome scandal."
+        },
+        {
+            "p": "Railroad surveyors founded this state’s capital in 1867 as a stop on the Union Pacific line and named it for a Plains Indian nation. That city holds Frontier Days, one of the world’s largest outdoor rodeos, every July.",
+            "r": "That city is Cheyenne. For 10 points, name this state, the least populous in the nation."
+        },
+        {
+            "p": "Dick Cheney held this state’s only seat in the U.S. House from 1979 to 1989, and his daughter, Liz Cheney, held that same at-large seat from 2017 to 2023. This state has never had more than one House seat.",
+            "r": "It has the smallest population of any state. For 10 points, name this state whose capital is Cheyenne."
+        },
+        {
+            "p": "Pioneers carved their names into Independence Rock, the “Register of the Desert,” as they crossed this state, and they hoped to reach that rock by the Fourth of July. Farther west, they crossed the Continental Divide at the wide, gentle South Pass.",
+            "r": "That route was the Oregon Trail. For 10 points, name this state whose northwest corner holds most of Yellowstone National Park."
+        },
+        {
+            "p": "In December 1866, Lakota and Cheyenne warriors defeated William Fetterman’s soldiers near Fort Phil Kearny, in what is now this state, during Red Cloud’s War. That war ended in 1868 with a treaty signed at Fort Laramie, which also lies in this state.",
+            "r": "For 10 points, name this Rocky Mountain state whose capital shares its name with one of those nations."
+        },
+        {
+            "p": "When Congress debated admitting this territory as a state, its lawmakers reportedly sent word that they would “remain out of the Union one hundred years rather than come in without the women.” It was admitted on July 10, 1890, as the 44th state.",
+            "r": "It kept its women’s voting rights and became known as the Equality State. For 10 points, name this state."
+        },
+        {
+            "p": "During World War II, about 10,000 Japanese Americans were held at the Heart Mountain camp in this state, where some young men formed the Fair Play Committee to resist being drafted while their families were held there.",
+            "r": "The camp stood near Cody, a town named for Buffalo Bill. For 10 points, name this state, home to Yellowstone National Park."
+        },
+        {
+            "p": "The Green River Basin in this state holds the world’s largest known deposit of trona, a mineral used to make soda ash for glass. Huge open-pit mines in its Powder River Basin have made it the nation’s top coal producer.",
+            "r": "Its capital is Cheyenne. For 10 points, name this state, home to Yellowstone and Devils Tower."
+        },
+        {
+            "p": "James Cash Penney opened his first store, called the Golden Rule, in the mining town of Kemmerer in this state in 1902. This state’s flag shows a white bison, and its license plates feature a cowboy riding a bucking horse.",
+            "r": "For 10 points, name this state nicknamed both the Cowboy State and the Equality State."
+        },
+        {
+            "p": "In 1892, wealthy cattle ranchers hired gunmen from Texas to attack small ranchers they accused of stealing cattle in this state’s Johnson County, until President Benjamin Harrison sent in the cavalry.",
+            "r": "Butch Cassidy’s gang also hid out at the nearby Hole-in-the-Wall. For 10 points, name this state whose capital is Cheyenne."
+        },
+        {
+            "p": "This state took its name from a valley in Pennsylvania, using a Lenape [“leh-NAH-pay”] word often translated as “at the big river flat.” A popular 1809 poem by Thomas Campbell had made that valley famous.",
+            "r": "Shaped almost like a rectangle, this state borders six others, including Montana and Colorado. For 10 points, name this Rocky Mountain state whose capital is Cheyenne."
+        }
+    ],
+    "clues": [
+        {
+            "id": "equality-state",
+            "tier": "giveaway",
+            "t": "Nicknamed “the Equality State” for its early support of women’s voting rights",
+            "k": ["equality state", "equality"],
+            "n": 0
+        },
+        {
+            "id": "cheyenne",
+            "tier": "giveaway",
+            "t": "Capital and largest city: Cheyenne",
+            "k": ["cheyenne", "capital"],
+            "n": 0
+        },
+        {
+            "id": "least-populous",
+            "tier": "giveaway",
+            "t": "The least populous U.S. state (about 577,000 people in the 2020 census)",
+            "k": ["least populous", "2020 census"],
+            "n": 0
+        },
+        {
+            "id": "yellowstone",
+            "tier": "giveaway",
+            "t": "Holds most of Yellowstone, the first national park (1872), home of Old Faithful geyser",
+            "k": ["yellowstone", "old faithful", "1872"],
+            "n": 0
+        },
+        {
+            "id": "women-vote",
+            "tier": "giveaway",
+            "t": "In 1869, its territorial legislature made it the first U.S. territory to give women the right to vote",
+            "k": ["1869", "right to vote", "territorial legislature"],
+            "n": 0,
+            "rabbit": "Women’s Suffrage"
+        },
+        {
+            "id": "nellie-ross",
+            "tier": "middle",
+            "t": "Nellie Tayloe Ross became the first woman governor in U.S. history (January 1925)",
+            "k": ["nellie tayloe ross", "first woman governor", "1925"],
+            "n": 0
+        },
+        {
+            "id": "devils-tower",
+            "tier": "middle",
+            "t": "Devils Tower became the first national monument (1906, under Theodore Roosevelt); it appears in _Close Encounters of the Third Kind_",
+            "k": ["devils tower", "national monument", "close encounters"],
+            "n": 0
+        },
+        {
+            "id": "teapot-dome",
+            "tier": "middle",
+            "t": "Teapot Dome, a federal oil reserve named for a teapot-shaped rock, gave its name to a 1920s scandal under Warren Harding",
+            "k": ["teapot dome", "oil reserve", "harding"],
+            "n": 0
+        },
+        {
+            "id": "grand-teton",
+            "tier": "middle",
+            "t": "Grand Teton National Park rises above the valley of Jackson Hole",
+            "k": ["grand teton", "jackson hole"],
+            "n": 0
+        },
+        {
+            "id": "statehood",
+            "tier": "middle",
+            "t": "Became the 44th state on July 10, 1890, and kept women’s voting rights",
+            "k": ["44th state", "july 10, 1890", "1890"],
+            "n": 0
+        },
+        {
+            "id": "oregon-trail",
+            "tier": "middle",
+            "t": "The Oregon Trail crossed it, passing Independence Rock (“Register of the Desert”) and South Pass",
+            "k": ["oregon trail", "independence rock", "south pass"],
+            "n": 0
+        },
+        {
+            "id": "fort-laramie",
+            "tier": "middle",
+            "t": "The Treaties of Fort Laramie (1851 and 1868) were signed at a fort in what is now this state",
+            "k": ["fort laramie", "treaties", "1868"],
+            "n": 0
+        },
+        {
+            "id": "union-pacific",
+            "tier": "middle",
+            "t": "Cheyenne was founded in 1867 as a Union Pacific Railroad stop; it holds the Frontier Days rodeo each July",
+            "k": ["union pacific", "frontier days", "1867"],
+            "n": 0
+        },
+        {
+            "id": "cowboy-state",
+            "tier": "middle",
+            "t": "Also called the Cowboy State; a cowboy on a bucking horse is on its license plates, and a white bison is on its flag",
+            "k": ["cowboy state", "bucking horse", "bison"],
+            "n": 0
+        },
+        {
+            "id": "esther-morris",
+            "tier": "power",
+            "t": "Esther Hobart Morris of South Pass City became the first woman justice of the peace in the U.S. (1870)",
+            "k": ["esther hobart morris", "justice of the peace", "south pass city"],
+            "n": 0
+        },
+        {
+            "id": "william-bright",
+            "tier": "power",
+            "t": "William Bright introduced the 1869 women’s suffrage bill; Governor John Campbell signed it",
+            "k": ["william bright", "john campbell", "bright"],
+            "n": 0
+        },
+        {
+            "id": "ferguson",
+            "tier": "power",
+            "t": "Ross took office about two weeks before Texas’s Miriam “Ma” Ferguson; she later directed the U.S. Mint (1933–1953)",
+            "k": ["ma ferguson", "ferguson", "mint"],
+            "n": 0
+        },
+        {
+            "id": "remain-out",
+            "tier": "power",
+            "t": "Its lawmakers reportedly said they would “remain out of the Union one hundred years rather than come in without the women”",
+            "k": ["one hundred years", "without the women"],
+            "n": 0
+        },
+        {
+            "id": "albert-fall",
+            "tier": "power",
+            "t": "Interior Secretary Albert Fall leased Teapot Dome to Harry Sinclair’s company (1922); Fall went to prison for taking a bribe",
+            "k": ["albert fall", "harry sinclair", "sinclair", "bribe"],
+            "n": 0
+        },
+        {
+            "id": "rockefeller",
+            "tier": "power",
+            "t": "John D. Rockefeller Jr. secretly bought land in Jackson Hole and donated it to expand Grand Teton National Park",
+            "k": ["rockefeller", "secretly"],
+            "n": 0
+        },
+        {
+            "id": "bear-lodge",
+            "tier": "power",
+            "t": "Many Plains nations call Devils Tower “Bear Lodge”",
+            "k": ["bear lodge"],
+            "n": 0
+        },
+        {
+            "id": "fetterman",
+            "tier": "power",
+            "t": "Red Cloud’s War: Lakota and Cheyenne warriors defeated William Fetterman’s soldiers near Fort Phil Kearny (1866)",
+            "k": ["fetterman", "red cloud", "fort phil kearny"],
+            "n": 0
+        },
+        {
+            "id": "heart-mountain",
+            "tier": "power",
+            "t": "About 10,000 Japanese Americans were held at Heart Mountain, near Cody, in World War II; its Fair Play Committee resisted the draft",
+            "k": ["heart mountain", "fair play committee", "cody"],
+            "n": 0,
+            "rabbit": "Japanese American internment"
+        },
+        {
+            "id": "johnson-county",
+            "tier": "power",
+            "t": "Johnson County War (1892): big cattle ranchers hired gunmen against small ranchers until the cavalry came; Butch Cassidy’s gang hid at Hole-in-the-Wall",
+            "k": ["johnson county war", "johnson county", "hole-in-the-wall", "butch cassidy"],
+            "n": 0
+        },
+        {
+            "id": "penney",
+            "tier": "power",
+            "t": "James Cash Penney opened his first store, the Golden Rule, in Kemmerer (1902)",
+            "k": ["kemmerer", "penney", "golden rule"],
+            "n": 0
+        },
+        {
+            "id": "cheney",
+            "tier": "power",
+            "t": "Dick Cheney (1979–1989) and his daughter Liz Cheney (2017–2023) each held its only seat in the U.S. House",
+            "k": ["dick cheney", "liz cheney", "cheney"],
+            "n": 0
+        },
+        {
+            "id": "coal-trona",
+            "tier": "power",
+            "t": "Top U.S. coal producer (Powder River Basin); the Green River Basin holds the world’s largest known trona deposit, used for soda ash",
+            "k": ["powder river basin", "trona", "coal", "soda ash"],
+            "n": 0
+        },
+        {
+            "id": "name-origin",
+            "tier": "power",
+            "t": "Named for a valley in Pennsylvania (from a Lenape word, “at the big river flat”); nearly a rectangle, it borders six states",
+            "k": ["pennsylvania", "lenape", "big river flat", "rectangle"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Rocky Mountain state?",
+        "body": "Wyoming’s neighbors share many of its clues. Montana and Idaho also hold small slices of Yellowstone, Utah Territory let women vote in 1870, just months after Wyoming did, and Colorado is the other state shaped almost like a rectangle. A tossup about the 1778 attack in the Wyoming Valley is about Pennsylvania, not this state.",
+        "fix": "The Equality State, Cheyenne, Devils Tower, Teapot Dome, Nellie Tayloe Ross, and the 1869 suffrage law all mean Wyoming. Helena, Glacier National Park, or the Little Bighorn mean Montana; Denver or Pikes Peak mean Colorado; Salt Lake City means Utah.",
+        "line": "Real answer line: <b><u>Wyoming</u></b> (accept <u>Wyoming Territory</u>)"
+    },
+    "tests": {
+        "right": [
+            "Wyoming",
+            "Wyoming Territory",
+            "State of Wyoming",
+            "Wyomming",
+            "Wyoning"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Montana",
+            "Colorado",
+            "Idaho",
+            "Utah",
+            "Cheyenne",
+            "Yellowstone",
+            "Wyoming Valley"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

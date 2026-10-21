@@ -1,0 +1,357 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "bacteriophages",
+    "name": "Bacteriophages",
+    "mono": "PHG",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Viruses that infect bacteria · Their name means “bacteria eaters”",
+    "dates": "Discovered 1915–1917",
+    "briefing": "Bacteriophages, or phages, are viruses that attack only bacteria. Many look like tiny lunar landers: a many-sided head full of DNA sits on a hollow tail with spidery legs that grab a bacterium so the virus can inject its genes. Frederick Twort and Félix d’Hérelle discovered them in 1915 and 1917, and doctors are testing them again as a weapon against germs that antibiotics can no longer kill.",
+    "answerHtml": "<b><u>Bacteriophages</u></b> (accept <u>phages</u>; prompt on <u>viruses</u>; do not accept “bacteria”)",
+    "accept": [
+        "bacteriophages",
+        "bacteriophage",
+        "phages",
+        "phage",
+        "bacterial viruses",
+        "bacterial virus"
+    ],
+    "prompt": [
+        "viruses",
+        "virus",
+        "virions",
+        "virion"
+    ],
+    "reject": [
+        "bacteria",
+        "bacterium",
+        "e coli",
+        "escherichia coli",
+        "macrophages",
+        "macrophage",
+        "phagocytes",
+        "phagocyte",
+        "prophages",
+        "prophage",
+        "plasmids",
+        "plasmid",
+        "prions",
+        "prion",
+        "viroids",
+        "viroid",
+        "archaea",
+        "capsids",
+        "capsid",
+        "antibiotics",
+        "antibiotic"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Bacteriophage",
+    "qb": {
+        "q": "bacteriophage",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In a 1925 novel by Sinclair Lewis, the scientist Martin Arrowsmith discovers a germ-killing agent he calls the “X Principle,” but Félix d’Hérelle [“day-REL”] has already described it as one of these viruses. Arrowsmith later tests the agent during an outbreak of plague on a Caribbean island.",
+            "r": "Many of these viruses look like tiny lunar landers. For 10 points, name these viruses that attack bacteria, whose name means “bacteria eaters.”"
+        },
+        {
+            "p": "In 1896, Ernest Hanbury Hankin reported that water from India’s Ganges and Yamuna rivers could kill the bacteria that cause cholera, an effect that may have come from these viruses. In 1915, Frederick Twort described a “glassy,” see-through change in colonies of bacteria that was caused by these viruses.",
+            "r": "Félix d’Hérelle named them two years later. For 10 points, name these viruses that infect bacteria, such as T4 and lambda."
+        },
+        {
+            "p": "In 1952, two scientists used a kitchen blender to shake the empty protein coats of the T2 type of these viruses off of E. coli cells. Radioactive phosphorus marking the viruses’ DNA had gone into the cells, but radioactive sulfur marking their protein had not.",
+            "r": "That Hershey–Chase experiment showed that DNA is the genetic material. For 10 points, name these viruses that infect bacteria."
+        },
+        {
+            "p": "Salvador Luria and Max Delbrück’s 1943 “fluctuation test” showed that E. coli cells become resistant to these viruses through random mutations that happen before the viruses ever arrive. Luria and Delbrück shared the 1969 Nobel Prize in Physiology or Medicine with Alfred Hershey for their research on these viruses.",
+            "r": "In the lytic cycle, these viruses multiply inside a host cell until it bursts. For 10 points, name these viruses that infect bacteria."
+        },
+        {
+            "p": "Esther Lederberg discovered lambda, one of these viruses, hiding in a lab strain of E. coli. In the lysogenic cycle, the DNA of these viruses hides inside the host’s chromosome and is copied every time the host cell divides.",
+            "r": "In the lytic cycle, they instead make many copies and burst the cell. For 10 points, name these viruses that infect bacteria."
+        },
+        {
+            "p": "In 1961, Francis Crick and Sydney Brenner added and removed single DNA bases in a gene of the T4 type of these viruses and showed that the genetic code is read three bases at a time. Seymour Benzer had already mapped that same gene region, called rII [“R-two”], in great detail.",
+            "r": "These viruses inject their DNA into host cells such as E. coli. For 10 points, name these viruses, such as T4 and lambda, that infect bacteria."
+        },
+        {
+            "p": "In 1977, Frederick Sanger’s team read every DNA base of Phi X 174, one of these viruses, making it the first DNA genome ever sequenced. A year earlier, Walter Fiers’s lab had sequenced the complete genome of MS2, a member of this group that carries RNA instead of DNA.",
+            "r": "Many of these viruses have a many-sided head, a tail, and tail fibers. For 10 points, name these viruses that infect bacteria."
+        },
+        {
+            "p": "George Smith and Gregory Winter shared part of the 2018 Nobel Prize in Chemistry for a technique that makes these viruses carry a chosen protein on their outer coat. Winter used that technique to build new antibody medicines.",
+            "r": "These viruses can reproduce only inside bacteria. For 10 points, name these viruses, whose name means “bacteria eaters.”"
+        },
+        {
+            "p": "The spacers stored in a bacterium’s CRISPR regions are short copies of DNA from past attacks by these viruses, which help Cas enzymes find and cut the same invaders again. Restriction enzymes, which chop up foreign DNA, were discovered because they block these viruses from growing in some bacteria.",
+            "r": "Their hollow tails inject DNA into their hosts. For 10 points, name these viruses that infect bacteria, such as T4 and lambda."
+        },
+        {
+            "p": "In 2016, doctors at the University of California, San Diego, treated Tom Patterson’s infection, which no antibiotic could stop, by giving him these viruses. In 1923, George Eliava founded an institute in Tbilisi, Georgia, that kept using these viruses as medicine after antibiotics took over in the West.",
+            "r": "Félix d’Hérelle pioneered using them as medicine. For 10 points, name these viruses that kill bacteria."
+        },
+        {
+            "p": "When these viruses are spread over a dish covered with a thin “lawn” of bacteria, they leave behind clear, round spots called plaques where the cells have been killed. Scientists count those plaques to measure how many of these viruses a sample holds.",
+            "r": "Félix d’Hérelle named these viruses in 1917. For 10 points, name these viruses whose name means “bacteria eaters.”"
+        },
+        {
+            "p": "The genes for the toxins made by the bacteria that cause diphtheria and cholera are carried by some of these viruses, so a harmless strain can turn dangerous after one of them hides its DNA inside the bacterium. That change is called lysogenic conversion.",
+            "r": "These viruses inject their DNA through a hollow tail. For 10 points, name these viruses that infect bacteria."
+        },
+        {
+            "p": "André Lwoff showed that ultraviolet light could wake up the hidden DNA of these viruses inside bacteria, work that helped earn him a share of the 1965 Nobel Prize. In 1952, Norton Zinder and Joshua Lederberg found that these viruses can carry genes from one Salmonella cell to another, a process called transduction.",
+            "r": "These viruses usually keep their DNA in a many-sided head. For 10 points, name these viruses, such as T4 and lambda, that infect bacteria."
+        },
+        {
+            "p": "Scientists estimate that about 10 to the 31st power of these viruses exist on Earth, making them the most numerous biological entities on the planet. In the oceans, they kill huge numbers of bacteria every day, releasing nutrients back into the water.",
+            "r": "Each kind usually attacks just one species of bacteria. For 10 points, name these viruses, whose name means “bacteria eaters.”"
+        },
+        {
+            "p": "The T4 type of these viruses lands on a host cell using six long tail fibers, then contracts its tail like a syringe to inject its DNA through the cell wall. A many-sided protein head called a capsid holds that DNA.",
+            "r": "Their shape is often compared to a lunar lander. For 10 points, name these viruses that infect bacteria."
+        }
+    ],
+    "clues": [
+        {
+            "id": "infect-bacteria",
+            "tier": "giveaway",
+            "t": "Viruses that infect bacteria and use them to make copies of themselves",
+            "k": ["infect bacteria", "copies"],
+            "n": 0,
+            "rabbit": "Viruses"
+        },
+        {
+            "id": "bacteria-eaters",
+            "tier": "giveaway",
+            "t": "Their name comes from Greek words meaning “bacteria eaters”",
+            "k": ["bacteria eaters", "greek"],
+            "n": 0
+        },
+        {
+            "id": "lunar-lander",
+            "tier": "giveaway",
+            "t": "Many look like tiny lunar landers: a many-sided head full of DNA on a hollow tail with spidery tail fibers",
+            "k": ["lunar landers", "tail fibers", "head"],
+            "n": 0
+        },
+        {
+            "id": "t4-lambda",
+            "tier": "giveaway",
+            "t": "Famous examples include T4 and lambda, which infect E. coli",
+            "k": ["t4", "lambda", "e. coli"],
+            "n": 0,
+            "rabbit": "E. coli"
+        },
+        {
+            "id": "lytic-cycle",
+            "tier": "middle",
+            "t": "Lytic cycle: they make many copies inside a host cell, then burst it open",
+            "k": ["lytic cycle", "burst"],
+            "n": 0
+        },
+        {
+            "id": "lysogenic-cycle",
+            "tier": "middle",
+            "t": "Lysogenic cycle: their DNA hides in the host’s chromosome and is copied each time the host divides",
+            "k": ["lysogenic cycle", "chromosome"],
+            "n": 0
+        },
+        {
+            "id": "twort-dherelle",
+            "tier": "middle",
+            "t": "Discovered by Frederick Twort (1915) and Félix d’Hérelle (1917), who gave them their name",
+            "k": ["twort", "d’hérelle", "1915", "1917"],
+            "n": 0
+        },
+        {
+            "id": "therapy",
+            "tier": "middle",
+            "t": "Used as medicine against infections, especially by bacteria that resist antibiotics; d’Hérelle pioneered this therapy",
+            "k": ["medicine", "resist antibiotics", "therapy"],
+            "n": 0
+        },
+        {
+            "id": "hershey-chase",
+            "tier": "middle",
+            "t": "Hershey and Chase (1952) tagged T2 with radioactive phosphorus and sulfur and used a blender to show DNA is the genetic material",
+            "k": ["hershey", "chase", "blender", "1952"],
+            "n": 0,
+            "rabbit": "DNA"
+        },
+        {
+            "id": "plaques",
+            "tier": "middle",
+            "t": "Leave clear spots called plaques on a “lawn” of bacteria; counting plaques measures how many are in a sample",
+            "k": ["plaques", "lawn"],
+            "n": 0
+        },
+        {
+            "id": "capsid",
+            "tier": "middle",
+            "t": "A protein head called a capsid holds their DNA, which they inject into the host through the tail",
+            "k": ["capsid", "inject"],
+            "n": 0
+        },
+        {
+            "id": "one-host",
+            "tier": "middle",
+            "t": "Each kind usually attacks only one species of bacteria, and they cannot reproduce in human cells",
+            "k": ["one species", "human cells"],
+            "n": 0
+        },
+        {
+            "id": "crispr",
+            "tier": "middle",
+            "t": "Bacteria defend themselves with CRISPR, which stores bits of these invaders’ DNA so Cas enzymes can cut it later",
+            "k": ["crispr", "cas enzymes"],
+            "n": 0,
+            "rabbit": "Bacteria"
+        },
+        {
+            "id": "arrowsmith",
+            "tier": "power",
+            "t": "In Sinclair Lewis’s 1925 novel _Arrowsmith_, the hero discovers them as the “X Principle” and tests them against plague",
+            "k": ["arrowsmith", "sinclair lewis", "x principle", "plague"],
+            "n": 0
+        },
+        {
+            "id": "hankin",
+            "tier": "power",
+            "t": "In 1896, Ernest Hanbury Hankin found that Ganges River water killed cholera bacteria, possibly because of them",
+            "k": ["hankin", "ganges", "cholera"],
+            "n": 0
+        },
+        {
+            "id": "glassy",
+            "tier": "power",
+            "t": "Twort described a “glassy,” see-through change in colonies of bacteria in 1915",
+            "k": ["glassy", "see-through"],
+            "n": 0
+        },
+        {
+            "id": "fluctuation-test",
+            "tier": "power",
+            "t": "Luria and Delbrück’s 1943 fluctuation test showed that bacteria become resistant to them through random mutations",
+            "k": ["fluctuation test", "luria", "random mutations", "1943"],
+            "n": 0,
+            "rabbit": "Mutations"
+        },
+        {
+            "id": "nobel-1969",
+            "tier": "power",
+            "t": "Max Delbrück, Salvador Luria, and Alfred Hershey shared the 1969 Nobel Prize in Physiology or Medicine for studying them",
+            "k": ["1969", "delbrück", "nobel prize"],
+            "n": 0
+        },
+        {
+            "id": "esther-lederberg",
+            "tier": "power",
+            "t": "Esther Lederberg discovered lambda hiding in a lab strain of E. coli",
+            "k": ["esther lederberg", "lab strain"],
+            "n": 0
+        },
+        {
+            "id": "crick-brenner",
+            "tier": "power",
+            "t": "Crick and Brenner (1961) used mutants of T4’s rII gene to show the genetic code is read three bases at a time; Seymour Benzer mapped rII",
+            "k": ["crick", "brenner", "three bases", "benzer"],
+            "n": 0
+        },
+        {
+            "id": "sequencing",
+            "tier": "power",
+            "t": "Phi X 174 was the first DNA genome ever sequenced (Frederick Sanger, 1977); Walter Fiers sequenced the RNA genome of MS2 in 1976",
+            "k": ["phi x 174", "sanger", "ms2", "fiers"],
+            "n": 0
+        },
+        {
+            "id": "display",
+            "tier": "power",
+            "t": "George Smith and Gregory Winter shared the 2018 Nobel Prize in Chemistry for a technique that puts chosen proteins on their coats",
+            "k": ["george smith", "gregory winter", "2018"],
+            "n": 0
+        },
+        {
+            "id": "eliava-patterson",
+            "tier": "power",
+            "t": "George Eliava’s institute in Tbilisi, Georgia (1923) kept using them as medicine; in 2016, San Diego doctors treated Tom Patterson with them",
+            "k": ["eliava", "tbilisi", "tom patterson", "2016"],
+            "n": 0
+        },
+        {
+            "id": "toxin-genes",
+            "tier": "power",
+            "t": "Some carry the toxin genes of diphtheria and cholera bacteria, turning harmless strains dangerous (lysogenic conversion)",
+            "k": ["diphtheria", "lysogenic conversion", "toxin genes"],
+            "n": 0
+        },
+        {
+            "id": "lwoff-zinder",
+            "tier": "power",
+            "t": "André Lwoff woke their hidden DNA with ultraviolet light (1965 Nobel); Zinder and Lederberg found in 1952 that they carry genes between cells (transduction)",
+            "k": ["lwoff", "ultraviolet", "transduction", "zinder"],
+            "n": 0,
+            "rabbit": "Bacterial conjugation"
+        },
+        {
+            "id": "abundance",
+            "tier": "power",
+            "t": "About 10 to the 31st power exist, the most numerous biological entities on Earth; in the oceans they kill huge numbers of bacteria daily",
+            "k": ["10 to the 31st", "most numerous", "oceans"],
+            "n": 0
+        },
+        {
+            "id": "syringe",
+            "tier": "power",
+            "t": "T4 lands with six long tail fibers and contracts its tail like a syringe to inject its DNA",
+            "k": ["syringe", "six long", "contracts"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Virus, not bacterium",
+        "body": "Bacteriophages are viruses, so answering just “virus” is on the right track but only earns a prompt. Their hosts are bacteria such as E. coli, and naming the host is wrong. Macrophages and phagocytes are traps too: those are white blood cells that swallow germs, and their names share the same Greek root for “eat.”",
+        "fix": "If the question says “these viruses” and mentions tails, T4, lambda, the lytic or lysogenic cycle, plaques, or Hershey and Chase, say “bacteriophages” or just “phages.” Save “viruses” for questions about the whole group, which also includes the causes of the flu and measles.",
+        "line": "Real answer line: <b><u>Bacteriophages</u></b> (accept <u>phages</u>; prompt on <u>viruses</u>; do not accept “bacteria”)"
+    },
+    "tests": {
+        "right": [
+            "Bacteriophages",
+            "phage",
+            "Bacteriophage",
+            "bacteriofage",
+            "T4 phage",
+            "Phages"
+        ],
+        "prompt": [
+            "Virus",
+            "viruses"
+        ],
+        "wrong": [
+            "Bacteria",
+            "E. coli",
+            "Macrophages",
+            "Phagocytes",
+            "Prophage",
+            "Plasmid"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
