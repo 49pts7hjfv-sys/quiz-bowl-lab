@@ -1,0 +1,474 @@
+{
+  "id": "cretaceous-period",
+  "name": "Cretaceous period",
+  "mono": "CRE",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Last period of the Mesozoic Era · Ended with the non-bird dinosaurs’ extinction",
+  "dates": "About 145 to 66 million years ago",
+  "briefing": "The Cretaceous period, from about 145 to 66 million years ago, was the last chapter of the Age of Dinosaurs, when Tyrannosaurus rex and Triceratops roamed and flowering plants spread across the land. Its name comes from the Latin word for “chalk,” the rock of England’s White Cliffs of Dover. Most scientists think it ended when an asteroid slammed into Mexico and wiped out every dinosaur except the birds.",
+  "answerHtml": "<b><u>Cretaceous</u></b> period (prompt on <u>Mesozoic</u> Era; do not accept “Jurassic,” “Triassic,” “Paleogene,” or the “Cretaceous–Paleogene extinction”)",
+  "accept": [
+    "cretaceous",
+    "cretaceous period",
+    "the cretaceous",
+    "the cretaceous period",
+    "cretaceous era",
+    "cretaceous age",
+    "cretaceous times",
+    "cretaceous system",
+    "early cretaceous",
+    "late cretaceous",
+    "lower cretaceous",
+    "upper cretaceous"
+  ],
+  "prompt": [
+    "mesozoic",
+    "mesozoic era",
+    "the mesozoic",
+    "the mesozoic era",
+    "age of reptiles",
+    "the age of reptiles",
+    "age of dinosaurs",
+    "the age of dinosaurs",
+    "age of the dinosaurs"
+  ],
+  "reject": [
+    "jurassic",
+    "jurassic period",
+    "triassic",
+    "triassic period",
+    "paleogene",
+    "paleogene period",
+    "neogene",
+    "tertiary",
+    "quaternary",
+    "cenozoic",
+    "cenozoic era",
+    "paleozoic",
+    "permian",
+    "carboniferous",
+    "devonian",
+    "silurian",
+    "ordovician",
+    "cambrian",
+    "precambrian",
+    "paleocene",
+    "eocene",
+    "cretaceous paleogene",
+    "cretaceous tertiary",
+    "k pg",
+    "kpg",
+    "k t",
+    "kt",
+    "k pg extinction",
+    "kpg extinction",
+    "k t extinction",
+    "kt extinction",
+    "k pg boundary",
+    "kpg boundary",
+    "k t boundary",
+    "kt boundary",
+    "k pg event",
+    "k t event",
+    "chicxulub",
+    "chicxulub crater",
+    "jurassic park",
+    "jurassic world"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Cretaceous",
+  "qb": {
+    "q": "Cretaceous",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Belgian geologist Jean d’Omalius d’Halloy named this period in 1822 for thick white rock layers in the Paris Basin. Similar rock forms England’s White Cliffs of Dover, built from the microscopic plates of algae called coccolithophores [“kok-oh-LITH-oh-forz”].",
+      "r": "This period’s name comes from the Latin word for “chalk.” For 10 points, name this last period of the Mesozoic Era."
+    },
+    {
+      "p": "Near Gubbio [“GOOB-ee-oh”], Italy, Walter Alvarez and his father, Luis, found that a thin clay layer at the end of this period holds unusually high amounts of iridium, a metal rare in Earth’s crust but common in asteroids. In 1980, they argued that an impact from space caused the mass extinction at its end.",
+      "r": "For 10 points, name this period that ended about 66 million years ago with the extinction of the non-bird dinosaurs."
+    },
+    {
+      "p": "While searching for oil for Mexico’s state oil company, Pemex, geophysicists Glen Penfield and Antonio Camargo found signs of a huge buried crater that was later linked to the end of this period. That crater, Chicxulub [“CHEEK-shoo-loob”], lies under the Yucatán Peninsula.",
+      "r": "For 10 points, name this period, home of Tyrannosaurus rex, that ended about 66 million years ago."
+    },
+    {
+      "p": "This period’s final stage, the Maastrichtian [“mahs-TRIK-tee-un”], is named for a Dutch city near where the first fossils of mosasaurs, giant sea-going lizards, were dug up. Pterosaurs such as Pteranodon [“teh-RAN-oh-don”] soared over the seas of this period.",
+      "r": "For 10 points, name this last period of the Mesozoic Era, which ended with the extinction of the non-bird dinosaurs."
+    },
+    {
+      "p": "Enormous lava flows in India built up the Deccan Traps near the end of this period, and some scientists think their gases helped cause a mass extinction. Most scientists blame that extinction mainly on an asteroid that left the Chicxulub [“CHEEK-shoo-loob”] crater in Mexico.",
+      "r": "For 10 points, name this period, the last of the Mesozoic Era, which ended about 66 million years ago."
+    },
+    {
+      "p": "A huge fossil skeleton nicknamed Sue, found in South Dakota in 1990 and now displayed at Chicago’s Field Museum, came from the Hell Creek Formation, a famous set of rock layers from the very end of this period.",
+      "r": "Sue is a Tyrannosaurus rex, which lived alongside Triceratops during this period. For 10 points, name this last period of the Mesozoic Era."
+    },
+    {
+      "p": "In 1923, Roy Chapman Andrews’s expedition found famous fossil dinosaur eggs at Mongolia’s Flaming Cliffs, and scientists later showed that they belong to Oviraptor and its close relatives. Velociraptor was first discovered at the same site.",
+      "r": "For 10 points, name this geologic period, about 145 to 66 million years ago, home of Tyrannosaurus rex and Triceratops."
+    },
+    {
+      "p": "Feathered dinosaurs such as Sinosauropteryx [“sye-noh-sor-OP-ter-iks”] were found in rocks from early in this period in China’s Liaoning [“lyow-NING”] Province. Much later in this period, Spinosaurus lived in North Africa and Argentinosaurus, one of the largest land animals ever, lived in South America.",
+      "r": "For 10 points, name this period that came right after the Jurassic, the last period of the Mesozoic Era."
+    },
+    {
+      "p": "Charles Darwin called the sudden appearance of flowering plants in the fossil record an “abominable mystery,” and those plants spread across the land during this period. Forests of this period still held many conifers, cycads, and ginkgoes.",
+      "r": "For 10 points, name this period that ended with the extinction of the non-bird dinosaurs about 66 million years ago."
+    },
+    {
+      "p": "Dinosaur footprints along the Paluxy [“puh-LUK-see”] River at Glen Rose, Texas, were left in mud early in this period, including tracks thought to belong to the meat-eater Acrocanthosaurus. Much later in this period, Quetzalcoatlus [“KET-sul-koh-AT-lus”], a pterosaur with about a 10-meter wingspan, soared over Texas.",
+      "r": "This period followed the Jurassic. For 10 points, name this last period of the Mesozoic Era, home of Tyrannosaurus rex."
+    },
+    {
+      "p": "Grains of shocked quartz and tiny glassy beads called spherules fill a thin layer of rock that marks the end of this period, evidence of a huge impact. About three-quarters of Earth’s plant and animal species died out at that time.",
+      "r": "For 10 points, name this period, about 145 to 66 million years ago, the last period of the Mesozoic Era."
+    },
+    {
+      "p": "For much of this period, the Western Interior Seaway split North America in two, and fossils of giant marine reptiles called mosasaurs are found in the chalk of Kansas. Sea levels were high and the climate was warm, with little or no ice at the poles.",
+      "r": "This period’s name comes from the Latin for “chalk.” For 10 points, name this last period of the Mesozoic Era."
+    },
+    {
+      "p": "During this period, the South Atlantic Ocean opened as South America and Africa pulled apart, and India drifted north toward Asia. Flowering plants spread across the land during this period.",
+      "r": "For 10 points, name this period that followed the Jurassic and ended about 66 million years ago."
+    },
+    {
+      "p": "Hesperornis [“hess-per-OR-nis”], a flightless diving bird that still had teeth, swam in the shallow seas of this period, along with the toothed seabird Ichthyornis [“ik-thee-OR-nis”]. Only one group of dinosaurs, the birds, made it through the mass extinction at the end of this period.",
+      "r": "For 10 points, name this period that ended about 66 million years ago, when Tyrannosaurus rex died out."
+    },
+    {
+      "p": "Geologists abbreviate this period with the letter K, from Kreide [“KRY-duh”], the German word for its namesake rock, and the boundary at its end is called the K–Pg boundary. The Paleogene period came right after it.",
+      "r": "For 10 points, name this period whose name comes from the Latin for “chalk,” the last period of the Mesozoic Era."
+    }
+  ],
+  "clues": [
+    {
+      "id": "last-mesozoic",
+      "tier": "giveaway",
+      "t": "The last period of the Mesozoic Era, after the Triassic and the Jurassic",
+      "k": [
+        "last period",
+        "mesozoic",
+        "jurassic"
+      ],
+      "n": 0,
+      "rabbit": "Mesozoic Era"
+    },
+    {
+      "id": "dates",
+      "tier": "giveaway",
+      "t": "Lasted from about 145 to 66 million years ago",
+      "k": [
+        "66 million",
+        "145",
+        "million years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "extinction",
+      "tier": "giveaway",
+      "t": "Ended with a mass extinction that wiped out the non-bird dinosaurs",
+      "k": [
+        "mass extinction",
+        "non-bird dinosaurs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "t-rex-triceratops",
+      "tier": "giveaway",
+      "t": "Home of Tyrannosaurus rex and Triceratops",
+      "k": [
+        "tyrannosaurus",
+        "triceratops"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chalk",
+      "tier": "middle",
+      "t": "Its name comes from the Latin creta, “chalk”; the White Cliffs of Dover are chalk from this time",
+      "k": [
+        "chalk",
+        "creta",
+        "white cliffs of dover"
+      ],
+      "n": 0
+    },
+    {
+      "id": "chicxulub",
+      "tier": "middle",
+      "t": "Most scientists think an asteroid that hit Mexico’s Yucatán Peninsula, leaving the Chicxulub crater, caused the extinction at its end",
+      "k": [
+        "chicxulub",
+        "asteroid",
+        "yucatán"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alvarez-iridium",
+      "tier": "middle",
+      "t": "In 1980, Luis and Walter Alvarez linked an iridium-rich clay layer at its end to an impact from space",
+      "k": [
+        "alvarez",
+        "iridium",
+        "1980"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flowering-plants",
+      "tier": "middle",
+      "t": "Flowering plants spread across the land, joining the conifers, cycads, and ginkgoes",
+      "k": [
+        "flowering plants",
+        "conifers",
+        "cycads"
+      ],
+      "n": 0,
+      "rabbit": "Flowers"
+    },
+    {
+      "id": "paleogene-next",
+      "tier": "middle",
+      "t": "Followed by the Paleogene period, the first period of the Cenozoic Era",
+      "k": [
+        "paleogene",
+        "cenozoic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marine-reptiles",
+      "tier": "middle",
+      "t": "Mosasaurs, giant sea-going lizards, ruled its seas, and pterosaurs like Pteranodon flew overhead",
+      "k": [
+        "mosasaurs",
+        "pteranodon",
+        "pterosaurs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "other-dinosaurs",
+      "tier": "middle",
+      "t": "Velociraptor lived in Mongolia, Spinosaurus in North Africa, and Argentinosaurus in South America",
+      "k": [
+        "velociraptor",
+        "spinosaurus",
+        "argentinosaurus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "interior-seaway",
+      "tier": "middle",
+      "t": "The Western Interior Seaway split North America in two; sea levels were high and the climate was warm",
+      "k": [
+        "western interior seaway",
+        "sea levels"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-quarters",
+      "tier": "middle",
+      "t": "About three-quarters of plant and animal species died out at its end",
+      "k": [
+        "three-quarters",
+        "species"
+      ],
+      "n": 0
+    },
+    {
+      "id": "d-omalius",
+      "tier": "power",
+      "t": "Belgian geologist Jean d’Omalius d’Halloy named it in 1822 for chalk layers in the Paris Basin",
+      "k": [
+        "omalius",
+        "1822",
+        "paris basin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gubbio",
+      "tier": "power",
+      "t": "The Alvarez team found the iridium layer in rocks near Gubbio, Italy",
+      "k": [
+        "gubbio",
+        "italy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "shocked-quartz",
+      "tier": "power",
+      "t": "Shocked quartz and tiny glassy beads called spherules in the boundary layer point to an impact",
+      "k": [
+        "shocked quartz",
+        "spherules"
+      ],
+      "n": 0
+    },
+    {
+      "id": "penfield-pemex",
+      "tier": "power",
+      "t": "Glen Penfield and Antonio Camargo found signs of the buried crater while searching for oil for Pemex",
+      "k": [
+        "penfield",
+        "camargo",
+        "pemex"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deccan-traps",
+      "tier": "power",
+      "t": "Huge lava flows built India’s Deccan Traps near its end; some scientists think they helped cause the extinction",
+      "k": [
+        "deccan traps",
+        "lava flows",
+        "india"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maastrichtian",
+      "tier": "power",
+      "t": "Its final stage, the Maastrichtian, is named for Maastricht, Netherlands, near where the first mosasaur fossils were found",
+      "k": [
+        "maastrichtian",
+        "maastricht",
+        "mosasaur"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kreide",
+      "tier": "power",
+      "t": "Abbreviated K, from Kreide, German for “chalk”; the boundary at its end is the K–Pg boundary",
+      "k": [
+        "kreide",
+        "k–pg boundary",
+        "german"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sue-hell-creek",
+      "tier": "power",
+      "t": "Sue, a huge Tyrannosaurus found in South Dakota in 1990, came from the Hell Creek Formation at its very end",
+      "k": [
+        "hell creek",
+        "south dakota",
+        "sue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flaming-cliffs",
+      "tier": "power",
+      "t": "In 1923, Roy Chapman Andrews’s expedition found dinosaur eggs at Mongolia’s Flaming Cliffs; they belong to Oviraptor and its close relatives",
+      "k": [
+        "flaming cliffs",
+        "roy chapman andrews",
+        "oviraptor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "liaoning",
+      "tier": "power",
+      "t": "Feathered dinosaurs like Sinosauropteryx come from rocks from early in it in Liaoning, China",
+      "k": [
+        "liaoning",
+        "sinosauropteryx",
+        "feathered"
+      ],
+      "n": 0
+    },
+    {
+      "id": "darwin",
+      "tier": "power",
+      "t": "Charles Darwin called the sudden appearance of flowering plants an “abominable mystery”",
+      "k": [
+        "abominable mystery",
+        "darwin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas",
+      "tier": "power",
+      "t": "Dinosaur tracks at Glen Rose, Texas, date from early in it; late in it, Quetzalcoatlus, a pterosaur with about a 10 m wingspan, flew over Texas",
+      "k": [
+        "glen rose",
+        "quetzalcoatlus",
+        "texas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toothed-birds",
+      "tier": "power",
+      "t": "Toothed birds like Hesperornis and Ichthyornis lived in its seas; birds were the only dinosaurs to survive its end",
+      "k": [
+        "hesperornis",
+        "ichthyornis",
+        "toothed"
+      ],
+      "n": 0
+    },
+    {
+      "id": "south-atlantic",
+      "tier": "power",
+      "t": "The South Atlantic Ocean opened as South America and Africa pulled apart, and India drifted north toward Asia",
+      "k": [
+        "south atlantic",
+        "africa",
+        "india"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Cretaceous, not Jurassic",
+    "body": "The movie _Jurassic Park_ made the Jurassic famous, but its stars, Tyrannosaurus rex, Triceratops, and Velociraptor, actually lived in the Cretaceous. Players hear “dinosaurs” and blurt “Jurassic,” or say “Mesozoic,” which names the whole era and earns only a prompt. The extinction at its end, the Cretaceous–Paleogene (K–Pg) extinction, is a different answer from the period itself.",
+    "fix": "Tyrannosaurus, Triceratops, flowering plants, chalk, the Alvarez iridium layer, and Chicxulub mean Cretaceous, about 145 to 66 million years ago. Stegosaurus, Brachiosaurus, Allosaurus, and Archaeopteryx mean Jurassic. Name the period, not the era.",
+    "line": "Real answer line: <b><u>Cretaceous</u></b> period (prompt on <u>Mesozoic</u> Era; do not accept “Jurassic” or “Paleogene”)"
+  },
+  "tests": {
+    "right": [
+      "Cretaceous",
+      "Cretaceous period",
+      "Cretacious",
+      "Late Cretaceous",
+      "the Cretaceous Period"
+    ],
+    "prompt": [
+      "Mesozoic",
+      "Age of Dinosaurs"
+    ],
+    "wrong": [
+      "Jurassic",
+      "Triassic",
+      "Paleogene",
+      "K-Pg extinction",
+      "Cretaceous-Paleogene extinction",
+      "Tertiary",
+      "Jurassic Park"
+    ]
+  }
+}
