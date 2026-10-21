@@ -435,7 +435,7 @@
   ],
   "trap": {
     "title": "Which three letters?",
-    "body": "Several agencies get mixed up. The CIA gathers intelligence abroad and has no police powers at home; the FBI, part of the Justice Department, investigates federal crimes and spies inside the United States; and the NSA intercepts and decodes communications. The CIA’s World War II forerunner was the Office of Strategic Services (OSS), and the Soviet Union’s spy agency was the KGB.",
+    "body": "Several agencies get mixed up. The CIA gathers intelligence abroad and has no police powers at home; the FBI, part of the Justice Department, investigates federal crimes and catches spies inside the United States; and the NSA intercepts and decodes communications. The CIA’s World War II forerunner was the Office of Strategic Services (OSS), and the Soviet Union’s spy agency was the KGB.",
     "fix": "Spying abroad, Langley, the OSS, Allen Dulles, the U-2, the Bay of Pigs, and the Church Committee mean the CIA. J. Edgar Hoover, G-men, and the Ten Most Wanted list mean the FBI. If the question asks for “this law,” the answer may be the National Security Act of 1947.",
     "line": "Real answer line: <b><u>Central Intelligence Agency</u></b> (accept <u>CIA</u>; prompt on <u>Langley</u> or <u>the Company</u>; do not accept “FBI” or “NSA”)"
   },

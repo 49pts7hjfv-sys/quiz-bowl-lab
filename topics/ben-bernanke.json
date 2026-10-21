@@ -1,7 +1,7 @@
 {
   "id": "ben-bernanke",
   "name": "Ben Bernanke",
-  "mono": "BB",
+  "mono": "BEB",
   "category": "American History",
   "qbCategory": "History · American History",
   "kicker": "Federal Reserve chair, 2006–2014 · Steered the Fed through the 2008 crisis",
@@ -438,7 +438,7 @@
     "title": "Which Fed chair?",
     "body": "Federal Reserve chairs come up often, and their clues overlap. Alan Greenspan led the Fed from 1987 to 2006, just before this economist; Janet Yellen followed him in 2014 as the first woman to chair the Fed; and Paul Volcker fought high inflation around 1980. Henry Paulson was the Treasury Secretary, not a Fed chair, during the 2008 crisis.",
     "fix": "Great Depression research, Princeton, “Helicopter Ben,” the 2008 crisis, and the 2022 Nobel Prize mean Bernanke. Greenspan clues include the 1987 stock market crash and “irrational exuberance”; Yellen clues include being the first woman to chair the Fed and later serving as Treasury Secretary (2021–2025).",
-    "line": "Real answer line: Ben <b><u>Bernanke</u></b> (accept Benjamin Shalom <b><u>Bernanke</u></b>; prompt on “Helicopter Ben”)"
+    "line": "Real answer line: Ben <b><u>Bernanke</u></b> (accept Benjamin Shalom <b><u>Bernanke</u></b>; prompt on <u>Helicopter Ben</u>)"
   },
   "tests": {
     "right": [

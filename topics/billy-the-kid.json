@@ -96,7 +96,7 @@
       "r": "For 10 points, name this outlaw who fought in the resulting Lincoln County War and was later killed by Pat Garrett."
     },
     {
-      "p": "On April 1, 1878, Sheriff William Brady was shot dead on the main street of Lincoln by a group of gunmen that included this man. Three years later, a court in Mesilla [“meh-SEE-yuh”] convicted this man of Brady’s murder and sentenced him to hang.",
+      "p": "On April 1, 1878, Sheriff William Brady was killed in an ambush on the main street of Lincoln by a group of gunmen that included this man. Three years later, a court in Mesilla [“meh-SEE-yuh”] convicted this man of Brady’s murder and sentenced him to hang.",
       "r": "For 10 points, name this outlaw of the Lincoln County War, later killed by Sheriff Pat Garrett."
     },
     {
@@ -140,7 +140,7 @@
       "r": "Its composer was Aaron Copland. For 10 points, name this outlaw who was killed by Pat Garrett."
     },
     {
-      "p": "Emilio Estevez played this outlaw in the 1988 film _Young Guns_, and Kris Kristofferson played him in a 1973 Sam Peckinpah Western whose soundtrack, by Bob Dylan, includes “Knockin’ on Heaven’s Door.” Billy Joel sang a ballad about him on the album _Piano Man_.",
+      "p": "Emilio Estevez played this outlaw in the 1988 film _Young Guns_, and Kris Kristofferson played him in a 1973 Sam Peckinpah Western whose soundtrack, by Bob Dylan, includes “Knockin’ on Heaven’s Door.” A ballad about him appears on _Piano Man_, an album released that same year.",
       "r": "For 10 points, name this outlaw who was shot by Sheriff Pat Garrett in 1881 at Fort Sumner, New Mexico."
     }
   ],
@@ -312,12 +312,12 @@
     {
       "id": "mother",
       "tier": "power",
-      "t": "His mother, Catherine, married William Antrim in Santa Fe (1873) and died of tuberculosis in Silver City (1874)",
+      "t": "His mother, Catherine, married in Santa Fe (1873) and died of tuberculosis in Silver City (1874)",
       "k": [
-        "william antrim",
         "catherine",
         "tuberculosis",
-        "santa fe"
+        "santa fe",
+        "silver city"
       ],
       "n": 0
     },
@@ -452,11 +452,11 @@
     {
       "id": "billy-joel",
       "tier": "power",
-      "t": "Billy Joel sang a ballad about him on the album _Piano Man_ (1973)",
+      "t": "A ballad about him appears on the 1973 album _Piano Man_",
       "k": [
         "piano man",
-        "billy joel",
-        "ballad"
+        "ballad",
+        "1973"
       ],
       "n": 0
     }

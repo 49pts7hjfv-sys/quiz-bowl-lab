@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Lakota, Cheyenne, and Arapaho defeat Custer’s 7th Cavalry · Montana, June 1876",
   "dates": "June 25–26, 1876",
-  "briefing": "On June 25, 1876, Lieutenant Colonel George Armstrong Custer led the U.S. 7th Cavalry in an attack on a huge camp of Lakota, Northern Cheyenne, and Arapaho people beside Montana’s Little Bighorn River. Warriors led by Crazy Horse, Gall, and others won a major victory, and Custer and every soldier in the five companies he led were killed. The Lakota and Cheyenne call it the Battle of the Greasy Grass; newspapers called it “Custer’s Last Stand.”",
-  "answerHtml": "Battle of the <b><u>Little Bighorn</u></b> (accept Battle of the <u>Greasy Grass</u> or <u>Custer’s Last Stand</u>; prompt on <u>Great Sioux War</u>; do not accept “Wounded Knee”)",
+  "briefing": "On June 25, 1876, Lieutenant Colonel George Armstrong Custer led the U.S. 7th Cavalry in an attack on a huge camp of Lakota, Northern Cheyenne, and Arapaho people beside Montana’s Little Bighorn River. Warriors led by Crazy Horse, Gall, and others won a major victory, and Custer and every soldier in the five companies he led were killed. The Lakota and Cheyenne call it the Battle of the Greasy Grass; it is also known as “Custer’s Last Stand.”",
+  "answerHtml": "Battle of the <b><u>Little Bighorn</u></b> (accept Battle of the <u>Greasy Grass</u> or <u>Custer’s Last Stand</u>; prompt on <u>Bighorn</u> or <u>Great Sioux War</u>; do not accept “Wounded Knee”)",
   "accept": [
     "battle of the little bighorn",
     "battle of little bighorn",
@@ -110,7 +110,7 @@
       "r": "For 10 points, name this 1876 battle in which warriors led by Crazy Horse and Gall defeated George Armstrong Custer."
     },
     {
-      "p": "Captain Myles Keogh [“KEE-oh”] was killed with his entire company in this battle, but his badly wounded horse survived. The Army later ordered that the horse, Comanche, should never be ridden again, and it became a living symbol of this battle.",
+      "p": "Captain Myles Keogh [“KEE-oh”] was killed with his entire company in this battle, but his badly wounded horse survived. The 7th Cavalry later ordered that the horse, Comanche, should never be ridden again, and it became a living symbol of this battle.",
       "r": "For 10 points, name this battle where George Armstrong Custer and his 7th Cavalry were defeated in June 1876."
     },
     {
@@ -142,7 +142,7 @@
       "r": "For 10 points, name this June 1876 battle in which Lakota and Cheyenne warriors defeated George Armstrong Custer."
     },
     {
-      "p": "During this battle, trumpeter John Martin carried a hurried written message to Captain Frederick Benteen: “Come on. Big village. Be quick. Bring packs.” Benteen instead joined Major Marcus Reno’s soldiers on a hilltop, where most of them survived.",
+      "p": "During this battle, trumpeter John Martin carried a hurried note from adjutant William Cooke to Captain Frederick Benteen: “Come on. Big village. Be quick. Bring packs.” Benteen instead joined Major Marcus Reno’s soldiers on a hilltop, where most of them survived.",
       "r": "For 10 points, name this June 1876 battle where George Armstrong Custer and all the men with him were killed."
     }
   ],
@@ -174,7 +174,7 @@
     {
       "id": "june-1876",
       "tier": "giveaway",
-      "t": "Fought June 25–26, 1876, beside a river in southern Montana Territory",
+      "t": "Fought June 25–26, 1876, beside a river in southeastern Montana Territory",
       "k": [
         "june 25",
         "1876",
@@ -289,7 +289,7 @@
     {
       "id": "comanche",
       "tier": "middle",
-      "t": "Comanche, the horse of Captain Myles Keogh, survived; the Army ordered that he never be ridden again",
+      "t": "Comanche, the horse of Captain Myles Keogh, survived; the 7th Cavalry ordered that he never be ridden again",
       "k": [
         "comanche",
         "keogh",
@@ -378,12 +378,13 @@
     {
       "id": "martin-message",
       "tier": "power",
-      "t": "Trumpeter John Martin carried a note to Benteen: “Come on. Big village. Be quick. Bring packs.”",
+      "t": "Trumpeter John Martin carried adjutant William Cooke’s note to Benteen: “Come on. Big village. Be quick. Bring packs.”",
       "k": [
         "john martin",
         "trumpeter",
         "big village",
-        "bring packs"
+        "bring packs",
+        "william cooke"
       ],
       "n": 0
     },
@@ -448,7 +449,7 @@
     "title": "Battle, man, or massacre?",
     "body": "Little Bighorn questions are full of names that are answer lines of their own: George Armstrong Custer (the commander who died), Sitting Bull and Crazy Horse (Lakota leaders), and the Battle of the Rosebud (Crazy Horse’s fight with George Crook eight days earlier). The Wounded Knee Massacre (1890) involved the same 7th Cavalry regiment but happened 14 years later, in South Dakota.",
     "fix": "Listen for the noun: “this battle” wants the Little Bighorn, while “this man” or “this commander” wants Custer. Answer lines also accept the Lakota and Cheyenne name, the Battle of the Greasy Grass, and “Custer’s Last Stand.” December 1890, the Ghost Dance, and Spotted Elk (Big Foot) mean Wounded Knee.",
-    "line": "Real answer line: Battle of the <b><u>Little Bighorn</u></b> (accept Battle of the <u>Greasy Grass</u> or <u>Custer’s Last Stand</u>; prompt on <u>Great Sioux War</u>; do not accept “Wounded Knee”)"
+    "line": "Real answer line: Battle of the <b><u>Little Bighorn</u></b> (accept Battle of the <u>Greasy Grass</u> or <u>Custer’s Last Stand</u>; prompt on <u>Bighorn</u> or <u>Great Sioux War</u>; do not accept “Wounded Knee”)"
   },
   "tests": {
     "right": [
