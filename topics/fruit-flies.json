@@ -1,0 +1,469 @@
+{
+  "id": "fruit-flies",
+  "name": "Fruit flies",
+  "mono": "DM",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Classic genetics model organism · Studied in Thomas Hunt Morgan’s Fly Room",
+  "dates": "White-eyed mutant found in 1910",
+  "briefing": "Fruit flies are the tiny red-eyed insects that show up around overripe bananas, and they are also some of the most important animals in the history of science. Because a new generation grows up in about ten days, geneticists can watch traits pass through dozens of generations in a single year. Research on fruit flies has led to several Nobel Prizes, and in 1947 they became the first animals sent into space.",
+  "answerHtml": "<b><u>Fruit flies</u></b> (accept <u>fruit fly</u>, <u>Drosophila</u>, or <u>Drosophila melanogaster</u>; prompt on <u>flies</u>; do not accept “houseflies,” “mosquitoes,” or “gnats”)",
+  "accept": [
+    "fruit flies",
+    "fruit fly",
+    "drosophila",
+    "drosophilas",
+    "drosophila melanogaster",
+    "d melanogaster",
+    "common fruit fly",
+    "common fruit flies",
+    "vinegar flies",
+    "vinegar fly"
+  ],
+  "prompt": [
+    "flies",
+    "fly"
+  ],
+  "reject": [
+    "houseflies",
+    "housefly",
+    "house flies",
+    "house fly",
+    "mosquitoes",
+    "mosquitos",
+    "mosquito",
+    "gnats",
+    "gnat",
+    "fungus gnats",
+    "midges",
+    "horseflies",
+    "horsefly",
+    "horse flies",
+    "horse fly",
+    "tsetse flies",
+    "tsetse fly",
+    "blowflies",
+    "blow flies",
+    "crane flies",
+    "sand flies",
+    "black flies",
+    "hoverflies",
+    "dragonflies",
+    "butterflies",
+    "fireflies",
+    "bees",
+    "honey bees",
+    "honeybees",
+    "ants",
+    "beetles",
+    "moths",
+    "c elegans",
+    "nematodes",
+    "roundworms",
+    "yeast",
+    "e coli",
+    "zebrafish",
+    "mice",
+    "lord of the flies"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Drosophila_melanogaster",
+  "qb": {
+    "q": "Drosophila",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1947, scientists in New Mexico launched these insects aboard a captured German V-2 rocket, making them the first animals sent into space; a parachuted capsule brought them back alive. The launch tested how radiation at high altitudes affects living things.",
+      "r": "Thomas Hunt Morgan studied them in his “Fly Room.” For 10 points, name these insects, a famous model organism in genetics."
+    },
+    {
+      "p": "In 1910, Thomas Hunt Morgan found a white-eyed male among his red-eyed insects of this species and showed that the trait was carried on the X chromosome, the first gene tied to a particular chromosome. Morgan won the 1933 Nobel Prize in Physiology or Medicine.",
+      "r": "Their short life cycle makes them a classic model organism. For 10 points, name these insects often found around rotting bananas."
+    },
+    {
+      "p": "In 1913, Morgan’s undergraduate student Alfred Sturtevant stayed up most of a night drawing the first genetic map, using how often traits of these insects were inherited together to place several genes in order along the X chromosome. Calvin Bridges later used them to prove that genes ride on chromosomes.",
+      "r": "They were raised in milk bottles in Thomas Hunt Morgan’s lab. For 10 points, name these small insects used as a model organism in genetics."
+    },
+    {
+      "p": "Hermann J. Muller won the 1946 Nobel Prize in Physiology or Medicine for showing in 1927 that X-rays greatly raise the rate of mutations in these insects. Muller had trained in Thomas Hunt Morgan’s lab at Columbia University, where these insects were raised in milk bottles.",
+      "r": "Their larvae have giant polytene chromosomes. For 10 points, name these small insects, a favorite model organism of geneticists."
+    },
+    {
+      "p": "Edward B. Lewis studied mutants of these insects that grow an extra pair of wings because of changes in a cluster of genes called the bithorax complex. Lewis shared the 1995 Nobel Prize in Physiology or Medicine with Christiane Nüsslein-Volhard [“NOOS-line FOLL-hart”] and Eric Wieschaus [“WEE-shows”].",
+      "r": "They are a classic model organism with a short life cycle. For 10 points, name these insects studied in Thomas Hunt Morgan’s “Fly Room.”"
+    },
+    {
+      "p": "In one mutant of these insects, called Antennapedia [“an-ten-uh-PEE-dee-uh”], legs grow out of the head where antennae should be. That mutation affects a Hox gene, one of a family of master genes that tell each body segment what to become. Humans have related Hox genes.",
+      "r": "Thomas Hunt Morgan’s team studied their white-eyed mutants. For 10 points, name these small insects often used in genetics labs."
+    },
+    {
+      "p": "Cells in the salivary glands of these insects’ larvae copy their DNA again and again without dividing, building giant polytene [“POL-ee-teen”] chromosomes with striped banding patterns. Theophilus Painter used those bands in the 1930s to match genes to specific spots on chromosomes.",
+      "r": "Their short life cycle makes them a classic model organism. For 10 points, name these insects that swarm around overripe fruit."
+    },
+    {
+      "p": "A gene in these insects was named hedgehog because larvae missing it are covered in tiny spikes, and scientists later named a related gene in vertebrates Sonic hedgehog, after the video game character. Another of their genes, tinman, is needed to build a heart.",
+      "r": "Thomas Hunt Morgan studied them in his “Fly Room.” For 10 points, name these insects, a classic model organism."
+    },
+    {
+      "p": "In 1995, Walter Gehring’s team made extra eyes grow on the legs and wings of these insects by switching on a gene called eyeless in the wrong places. A version of that gene, called Pax6, also helps build eyes in mice and humans.",
+      "r": "A white-eyed mutant of them was found in 1910. For 10 points, name these insects studied by Thomas Hunt Morgan."
+    },
+    {
+      "p": "A gene in these insects is named Toll because Christiane Nüsslein-Volhard reportedly exclaimed the German word for “amazing” when she saw the strange mutant larvae. Jules Hoffmann later showed that Toll also helps these insects fight fungal infections, and he shared a 2011 Nobel Prize.",
+      "r": "Thomas Hunt Morgan bred them in milk bottles. For 10 points, name these small insects, a classic model organism in genetics."
+    },
+    {
+      "p": "In 1971, Ronald Konopka and Seymour Benzer found mutants of these insects whose daily rhythms were thrown off by changes in a gene called period. Jeffrey Hall, Michael Rosbash, and Michael Young shared the 2017 Nobel Prize for explaining how that gene helps run their internal clock.",
+      "r": "Thomas Hunt Morgan studied their white-eyed mutants. For 10 points, name these insects that gather around overripe bananas."
+    },
+    {
+      "p": "A mother of this species loads her eggs with messenger RNA for a protein called bicoid [“BY-koyd”], which forms a gradient that tells the embryo which end will become the head. Christiane Nüsslein-Volhard, whose lab identified bicoid, had earlier searched for body-plan genes with Eric Wieschaus by studying thousands of mutant embryos of these insects.",
+      "r": "Thomas Hunt Morgan first made them famous in genetics. For 10 points, name these insects that swarm around overripe fruit."
+    },
+    {
+      "p": "The genus name of these insects means “dew-lover,” and their species name means “black belly.” They feed on the yeast that grows on overripe, fermenting fruit, and a female lays her eggs on that fruit, where the hatching larvae feed.",
+      "r": "A new generation grows up in about ten days, making them a classic model organism. For 10 points, name these insects."
+    },
+    {
+      "p": "Like other members of the order Diptera, these insects have only one pair of working wings; their hind wings are shrunk into knobby balancing organs called halteres [“HAL-teerz”]. They go through complete metamorphosis, from egg to larva to pupa to adult.",
+      "r": "Thomas Hunt Morgan bred them in milk bottles at Columbia. For 10 points, name these tiny insects drawn to ripe bananas."
+    },
+    {
+      "p": "These insects have only four pairs of chromosomes, one of them a tiny “dot,” and their genome was sequenced in 2000. Roughly three-quarters of the genes known to cause human diseases have a close match in their DNA, which makes them useful for medical research.",
+      "r": "They breed quickly and cheaply in small jars. For 10 points, name these insects that Thomas Hunt Morgan studied in his “Fly Room.”"
+    }
+  ],
+  "clues": [
+    {
+      "id": "model-organism",
+      "tier": "giveaway",
+      "t": "A classic model organism for genetics, because they breed fast and are cheap to raise",
+      "k": [
+        "model organism",
+        "genetics",
+        "breed fast"
+      ],
+      "n": 0
+    },
+    {
+      "id": "overripe-fruit",
+      "tier": "giveaway",
+      "t": "Tiny insects that swarm around overripe, fermenting fruit such as bananas",
+      "k": [
+        "overripe",
+        "fermenting",
+        "bananas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "morgan",
+      "tier": "giveaway",
+      "t": "Thomas Hunt Morgan studied them in his “Fly Room” at Columbia University",
+      "k": [
+        "thomas hunt morgan",
+        "columbia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "short-generation",
+      "tier": "giveaway",
+      "t": "A new generation grows up in about ten days, and a female can lay hundreds of eggs",
+      "k": [
+        "ten days",
+        "hundreds of eggs",
+        "generation"
+      ],
+      "n": 0
+    },
+    {
+      "id": "white-eyed",
+      "tier": "middle",
+      "t": "In 1910, Morgan found a white-eyed male whose eye-color gene was the first tied to a particular chromosome, the X",
+      "k": [
+        "white-eyed",
+        "1910",
+        "eye-color"
+      ],
+      "n": 0,
+      "rabbit": "X chromosome"
+    },
+    {
+      "id": "sex-linked",
+      "tier": "middle",
+      "t": "Morgan’s work showed sex-linked inheritance and that genes ride on chromosomes; he won the 1933 Nobel Prize",
+      "k": [
+        "sex-linked",
+        "1933",
+        "chromosomes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "milk-bottles",
+      "tier": "middle",
+      "t": "Morgan’s team raised them in milk bottles and fed them bananas",
+      "k": [
+        "milk bottles",
+        "bananas"
+      ],
+      "n": 0
+    },
+    {
+      "id": "muller",
+      "tier": "middle",
+      "t": "Hermann J. Muller showed in 1927 that X-rays cause mutations in them (Nobel Prize, 1946)",
+      "k": [
+        "muller",
+        "x-rays",
+        "mutations"
+      ],
+      "n": 0,
+      "rabbit": "Mutations"
+    },
+    {
+      "id": "polytene",
+      "tier": "middle",
+      "t": "The salivary glands of their larvae hold giant polytene chromosomes with striped bands",
+      "k": [
+        "polytene",
+        "salivary glands",
+        "bands"
+      ],
+      "n": 0,
+      "rabbit": "Chromosomes"
+    },
+    {
+      "id": "hox",
+      "tier": "middle",
+      "t": "Their Hox genes tell each body segment what to become; humans have related Hox genes",
+      "k": [
+        "hox genes",
+        "body segment"
+      ],
+      "n": 0
+    },
+    {
+      "id": "v2-rocket",
+      "tier": "middle",
+      "t": "In 1947 they rode a captured German V-2 rocket launched in New Mexico, becoming the first animals sent into space",
+      "k": [
+        "v-2",
+        "1947",
+        "first animals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "metamorphosis",
+      "tier": "middle",
+      "t": "They go through complete metamorphosis: egg, larva, pupa, adult",
+      "k": [
+        "complete metamorphosis",
+        "larva",
+        "pupa"
+      ],
+      "n": 0,
+      "rabbit": "Metamorphosis"
+    },
+    {
+      "id": "sturtevant",
+      "tier": "power",
+      "t": "Alfred Sturtevant, an undergraduate in Morgan’s lab, drew the first genetic map in 1913 using their genes",
+      "k": [
+        "sturtevant",
+        "1913",
+        "genetic map"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bridges",
+      "tier": "power",
+      "t": "Calvin Bridges used them to prove that genes ride on chromosomes",
+      "k": [
+        "calvin bridges",
+        "prove"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lewis-bithorax",
+      "tier": "power",
+      "t": "Edward B. Lewis studied bithorax mutants that grow an extra pair of wings and shared the 1995 Nobel Prize",
+      "k": [
+        "lewis",
+        "bithorax",
+        "1995"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nusslein-volhard",
+      "tier": "power",
+      "t": "Christiane Nüsslein-Volhard and Eric Wieschaus studied thousands of their mutant embryos and shared the 1995 Nobel Prize",
+      "k": [
+        "nüsslein-volhard",
+        "wieschaus",
+        "embryos"
+      ],
+      "n": 0
+    },
+    {
+      "id": "antennapedia",
+      "tier": "power",
+      "t": "Antennapedia mutants grow legs on the head where antennae should be",
+      "k": [
+        "antennapedia",
+        "antennae",
+        "legs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bicoid",
+      "tier": "power",
+      "t": "Mothers load their eggs with bicoid messenger RNA, whose protein gradient marks where the head will form",
+      "k": [
+        "bicoid",
+        "gradient",
+        "head"
+      ],
+      "n": 0
+    },
+    {
+      "id": "painter",
+      "tier": "power",
+      "t": "Theophilus Painter used polytene chromosome bands in the 1930s to pin genes to spots on chromosomes",
+      "k": [
+        "painter",
+        "1930s"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hedgehog",
+      "tier": "power",
+      "t": "Their hedgehog gene is named for spiky mutant larvae; the related vertebrate gene is called Sonic hedgehog",
+      "k": [
+        "hedgehog",
+        "sonic hedgehog",
+        "spiky"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tinman",
+      "tier": "power",
+      "t": "Their tinman gene is needed to build a heart",
+      "k": [
+        "tinman",
+        "heart"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eyeless",
+      "tier": "power",
+      "t": "In 1995, Walter Gehring’s team grew extra eyes on their legs and wings by switching on the eyeless gene (Pax6 in mammals)",
+      "k": [
+        "gehring",
+        "eyeless",
+        "pax6"
+      ],
+      "n": 0
+    },
+    {
+      "id": "toll",
+      "tier": "power",
+      "t": "The Toll gene was reportedly named for the German word for “amazing”; Jules Hoffmann showed it fights fungal infections (2011 Nobel Prize)",
+      "k": [
+        "toll",
+        "hoffmann",
+        "2011"
+      ],
+      "n": 0
+    },
+    {
+      "id": "period",
+      "tier": "power",
+      "t": "Konopka and Benzer found period gene mutants in 1971; Hall, Rosbash, and Young won the 2017 Nobel Prize for explaining their internal clock",
+      "k": [
+        "period",
+        "konopka",
+        "benzer",
+        "2017"
+      ],
+      "n": 0,
+      "rabbit": "Sleep"
+    },
+    {
+      "id": "name-meaning",
+      "tier": "power",
+      "t": "Their genus name means “dew-lover,” and their species name means “black belly”",
+      "k": [
+        "dew-lover",
+        "black belly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "halteres",
+      "tier": "power",
+      "t": "Like other Diptera, they have one pair of working wings; the hind wings are knobby balancers called halteres",
+      "k": [
+        "halteres",
+        "diptera"
+      ],
+      "n": 0
+    },
+    {
+      "id": "genome",
+      "tier": "power",
+      "t": "Only four pairs of chromosomes; genome sequenced in 2000; roughly three-quarters of human disease genes have a match in their DNA",
+      "k": [
+        "four pairs",
+        "2000",
+        "three-quarters"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Which insect, which flies?",
+    "body": "These tossups mention mutants, wings, and Thomas Hunt Morgan, so players sometimes blurt a different insect, such as houseflies, mosquitoes, or gnats, and all of those are wrong. Saying just “flies” earns only a prompt, so be ready to add “fruit.” Don’t mix up the insect with _Lord of the Flies_, William Golding’s novel about boys stranded on an island.",
+    "fix": "The white-eyed mutant, the “Fly Room,” polytene chromosomes, Hox genes, or Antennapedia mean fruit flies, and “Drosophila” or _Drosophila melanogaster_ is just as good. Clues about biting or spreading malaria point to mosquitoes instead.",
+    "line": "Real answer line: <b><u>Fruit flies</u></b> (accept <u>fruit fly</u>, <u>Drosophila</u>, or <u>Drosophila melanogaster</u>; prompt on <u>flies</u>; do not accept “houseflies,” “mosquitoes,” or “gnats”)"
+  },
+  "tests": {
+    "right": [
+      "Fruit flies",
+      "fruit fly",
+      "Drosophila",
+      "Drosophila melanogaster",
+      "Drosofila",
+      "D. melanogaster"
+    ],
+    "prompt": [
+      "Flies",
+      "Fly"
+    ],
+    "wrong": [
+      "Houseflies",
+      "Mosquitoes",
+      "Gnats",
+      "Lord of the Flies",
+      "Honey bees",
+      "Horseflies",
+      "Butterflies"
+    ]
+  }
+}

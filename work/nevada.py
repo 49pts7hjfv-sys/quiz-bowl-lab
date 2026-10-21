@@ -1,0 +1,335 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "nevada",
+    "name": "Nevada",
+    "mono": "NV",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "The Silver State · Became a state in 1864, during the Civil War",
+    "dates": "Statehood October 31, 1864",
+    "briefing": "Nevada was born in the middle of the Civil War. Silver from the Comstock Lode helped it become the 36th state on October 31, 1864, which is why its flag says “Battle Born.” Most of it lies in the dry Great Basin, and it gets less rain than any other state. After it legalized gambling in 1931, Las Vegas grew into its biggest city, though the capital is Carson City.",
+    "answerHtml": "<b><u>Nevada</u></b> (do not accept “Area 51” or “Las Vegas”)",
+    "accept": [
+        "nevada",
+        "state of nevada",
+        "nevada state",
+        "nevada territory",
+        "territory of nevada"
+    ],
+    "prompt": [],
+    "reject": [
+        "sierra nevada",
+        "sierra nevada mountains",
+        "nevada test site",
+        "nevada national security site",
+        "university of nevada",
+        "uss nevada",
+        "nevada city",
+        "area 51",
+        "las vegas",
+        "reno",
+        "carson city",
+        "virginia city",
+        "utah",
+        "arizona",
+        "california",
+        "new mexico",
+        "idaho",
+        "oregon",
+        "colorado",
+        "hoover dam",
+        "boulder dam",
+        "lake tahoe",
+        "lake mead",
+        "great basin",
+        "comstock lode",
+        "yucca mountain",
+        "groom lake",
+        "harry reid"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Nevada",
+    "qb": {
+        "q": "Nevada",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "This state’s constitution was sent to Washington, D.C., by telegraph in 1864, at the time the longest telegram ever sent. Abraham Lincoln proclaimed it a state on October 31 of that year, just over a week before he won reelection.",
+            "r": "Its flag bears the words “Battle Born.” For 10 points, name this state whose capital is Carson City."
+        },
+        {
+            "p": "Samuel Clemens came to this future state in 1861 with his brother Orion, who had been named its territorial secretary. While writing for the _Territorial Enterprise_ newspaper in Virginia City, Clemens first signed an article with the pen name Mark Twain.",
+            "r": "His book _Roughing It_ describes the silver boom there. For 10 points, name this state, home of the Comstock Lode."
+        },
+        {
+            "p": "Coins stamped with a “CC” mint mark were struck from 1870 to 1893 at a U.S. Mint in this state’s capital, using silver from nearby mines. That capital and a nearby river are named for Kit Carson, a scout who guided the explorer John C. Frémont [“FREE-mont”].",
+            "r": "For 10 points, name this state whose capital is Carson City and whose largest city is Las Vegas."
+        },
+        {
+            "p": "In 1931, this state cut the time a person had to live there before getting a divorce to just six weeks, which made the city of Reno famous for quick divorces. In the same year, this state legalized most forms of gambling.",
+            "r": "Gambling helped Las Vegas grow into its largest city. For 10 points, name this state."
+        },
+        {
+            "p": "From 1951 to 1992, the U.S. government set off more than 900 nuclear test explosions at a desert site in this state, first above ground and later underground. In the 1950s, tourists in a nearby city could watch mushroom clouds rise from the tests.",
+            "r": "That city is Las Vegas. For 10 points, name this state, which is also home to Area 51."
+        },
+        {
+            "p": "The Paiute [“PIE-yoot”] prophet Wovoka [“woh-VOH-kuh”], whose visions began the Ghost Dance movement in 1889, lived in this state. Another Paiute from this state, Sarah Winnemucca, wrote _Life Among the Piutes_, one of the first books written by a Native American woman.",
+            "r": "Her statue represents this state in the U.S. Capitol. For 10 points, name this state, whose capital is Carson City."
+        },
+        {
+            "p": "Adolph Sutro dug a tunnel nearly four miles long to drain hot water from deep silver mines in this state. In 1873, miners there struck the “Big Bonanza,” one of the richest bodies of silver ore ever found, in the Consolidated Virginia mine.",
+            "r": "Both were part of the Comstock Lode. For 10 points, name this state nicknamed the Silver State."
+        },
+        {
+            "p": "In 1844, John C. Frémont [“FREE-mont”] named a lake in this state for a rocky island that reminded him of an Egyptian pyramid. He also named the Great Basin, a dry region with no outlet to the sea that covers most of this state.",
+            "r": "For 10 points, name this state, whose largest city is Las Vegas and whose capital is Carson City."
+        },
+        {
+            "p": "Workers building a dam on this state’s border with Arizona lived in Boulder City, a town the federal government built for them. Franklin Roosevelt dedicated their dam in 1935, and its reservoir, Lake Mead, holds water from the Colorado River.",
+            "r": "That dam is Hoover Dam. For 10 points, name this state, home of Las Vegas."
+        },
+        {
+            "p": "A city in this state that grew up along the Central Pacific Railroad in 1868 was named for Jesse Reno, a Union general killed during the Civil War. That city calls itself “The Biggest Little City in the World.”",
+            "r": "For 10 points, name this state, which shares Lake Tahoe with California and whose largest city is Las Vegas."
+        },
+        {
+            "p": "Mormon Station, founded in 1851 and later renamed Genoa [“juh-NOH-uh”], was the first permanent non-Native settlement in this future state. This state’s land was part of Utah Territory until 1861, when Congress gave it a territory of its own.",
+            "r": "For 10 points, name this state that joined the Union in 1864, during the Civil War."
+        },
+        {
+            "p": "In 1987, Congress chose Yucca Mountain in this state as the place to store the nation’s nuclear waste, but the plan was never completed. This state is also home to a secret air base by Groom Lake, where the U-2 spy plane was first tested.",
+            "r": "That base is Area 51. For 10 points, name this state, home of Las Vegas."
+        },
+        {
+            "p": "Boundary Peak is the highest point in this state, the driest state in the nation. A bristlecone pine nearly 5,000 years old was cut down in 1964 in what later became this state’s Great Basin National Park.",
+            "r": "For 10 points, name this western state whose cities include Reno, Carson City, and Las Vegas."
+        },
+        {
+            "p": "In 1859, miners found a huge deposit of silver ore on the slopes of Mount Davidson, in what was then part of Utah Territory. That discovery, often called the first major silver strike in the United States, set off a rush to Virginia City.",
+            "r": "It was named the Comstock Lode, for a prospector who claimed the land. For 10 points, name this Silver State."
+        },
+        {
+            "p": "The United States gained this state’s land from Mexico in 1848 in the Treaty of Guadalupe Hidalgo [“gwah-duh-LOO-pay ee-DAHL-goh”]. The federal government owns about four-fifths of the land in this state, a larger share than in any other state.",
+            "r": "Its largest city, Las Vegas, was founded as a railroad town in 1905. For 10 points, name this state."
+        }
+    ],
+    "clues": [
+        {
+            "id": "capitals",
+            "tier": "giveaway",
+            "t": "Its capital is Carson City, and its largest city is Las Vegas",
+            "k": ["carson city", "las vegas", "capital"],
+            "n": 0
+        },
+        {
+            "id": "battle-born",
+            "tier": "giveaway",
+            "t": "Became the 36th state on October 31, 1864, during the Civil War, so its flag says “Battle Born”",
+            "k": ["battle born", "october 31", "1864", "36th"],
+            "n": 0
+        },
+        {
+            "id": "comstock",
+            "tier": "giveaway",
+            "t": "Nicknamed the “Silver State” for the Comstock Lode, a huge silver strike found in 1859",
+            "k": ["comstock lode", "silver state", "comstock", "1859"],
+            "n": 0
+        },
+        {
+            "id": "gambling",
+            "tier": "giveaway",
+            "t": "Legalized gambling in 1931, and Las Vegas grew into a famous casino city",
+            "k": ["gambling", "1931", "casino"],
+            "n": 0
+        },
+        {
+            "id": "hoover-dam",
+            "tier": "middle",
+            "t": "Hoover Dam, on its border with Arizona, was dedicated in 1935 and created Lake Mead; its workers lived in Boulder City",
+            "k": ["hoover dam", "lake mead", "boulder city", "arizona"],
+            "n": 0,
+            "rabbit": "Herbert Hoover"
+        },
+        {
+            "id": "area-51",
+            "tier": "middle",
+            "t": "Home of Area 51, the secret base by Groom Lake where the U-2 spy plane was tested starting in 1955",
+            "k": ["area 51", "groom lake", "u-2"],
+            "n": 0,
+            "rabbit": "Area 51"
+        },
+        {
+            "id": "test-site",
+            "tier": "middle",
+            "t": "The U.S. set off more than 900 nuclear tests at a desert test site here from 1951 to 1992",
+            "k": ["nuclear tests", "test site", "1951"],
+            "n": 0
+        },
+        {
+            "id": "great-basin",
+            "tier": "middle",
+            "t": "Most of it lies in the Great Basin, whose rivers never reach the sea; it is the driest state",
+            "k": ["great basin", "driest", "sea"],
+            "n": 0
+        },
+        {
+            "id": "tahoe-reno",
+            "tier": "middle",
+            "t": "Shares Lake Tahoe with California; Reno calls itself “The Biggest Little City in the World”",
+            "k": ["lake tahoe", "biggest little city", "reno"],
+            "n": 0
+        },
+        {
+            "id": "mark-twain",
+            "tier": "middle",
+            "t": "Samuel Clemens came west in 1861 and first used the pen name Mark Twain at Virginia City’s _Territorial Enterprise_; _Roughing It_ describes the boom",
+            "k": ["mark twain", "territorial enterprise", "roughing it", "virginia city"],
+            "n": 0,
+            "rabbit": "Mark Twain"
+        },
+        {
+            "id": "divorce",
+            "tier": "middle",
+            "t": "A 1931 law requiring only six weeks of residence made Reno famous for quick divorces",
+            "k": ["divorces", "six weeks", "residence"],
+            "n": 0
+        },
+        {
+            "id": "telegraph",
+            "tier": "power",
+            "t": "Its constitution was telegraphed to Washington in 1864, the longest telegram sent up to then; statehood came just over a week before Lincoln’s reelection",
+            "k": ["telegram", "telegraphed", "lincoln"],
+            "n": 0
+        },
+        {
+            "id": "mint",
+            "tier": "power",
+            "t": "A U.S. Mint in Carson City struck coins with a “CC” mint mark from local silver (1870–1893)",
+            "k": ["mint mark", "mint", "1870"],
+            "n": 0
+        },
+        {
+            "id": "kit-carson",
+            "tier": "power",
+            "t": "Carson City and the Carson River are named for Kit Carson, a scout for the explorer John C. Frémont",
+            "k": ["kit carson", "frémont", "scout"],
+            "n": 0
+        },
+        {
+            "id": "pyramid-lake",
+            "tier": "power",
+            "t": "Frémont named Pyramid Lake (1844) for a pyramid-shaped rock island, and he named the Great Basin",
+            "k": ["pyramid lake", "1844", "pyramid"],
+            "n": 0
+        },
+        {
+            "id": "wovoka",
+            "tier": "power",
+            "t": "The Paiute prophet Wovoka, whose visions started the Ghost Dance (1889), lived here",
+            "k": ["wovoka", "ghost dance", "paiute"],
+            "n": 0,
+            "rabbit": "Wounded Knee Massacre"
+        },
+        {
+            "id": "winnemucca",
+            "tier": "power",
+            "t": "Paiute author Sarah Winnemucca (_Life Among the Piutes_, 1883) represents it in the U.S. Capitol’s Statuary Hall",
+            "k": ["sarah winnemucca", "winnemucca", "life among the piutes", "statuary hall"],
+            "n": 0
+        },
+        {
+            "id": "sutro-bonanza",
+            "tier": "power",
+            "t": "Adolph Sutro’s tunnel drained hot water from the silver mines; the “Big Bonanza” was struck in 1873",
+            "k": ["sutro", "big bonanza", "1873"],
+            "n": 0
+        },
+        {
+            "id": "reno-name",
+            "tier": "power",
+            "t": "Reno grew up on the Central Pacific Railroad in 1868 and was named for Union general Jesse Reno",
+            "k": ["jesse reno", "central pacific", "1868"],
+            "n": 0
+        },
+        {
+            "id": "genoa",
+            "tier": "power",
+            "t": "Mormon Station (Genoa), founded in 1851, was its first permanent non-Native settlement; its land was part of Utah Territory until 1861",
+            "k": ["mormon station", "genoa", "utah territory", "1851"],
+            "n": 0
+        },
+        {
+            "id": "yucca",
+            "tier": "power",
+            "t": "Congress chose Yucca Mountain for nuclear waste storage in 1987, but the plan was never completed",
+            "k": ["yucca mountain", "nuclear waste", "1987"],
+            "n": 0,
+            "rabbit": "Harry Reid"
+        },
+        {
+            "id": "boundary-peak",
+            "tier": "power",
+            "t": "Its highest point is Boundary Peak; Great Basin National Park protects ancient bristlecone pines",
+            "k": ["boundary peak", "bristlecone", "great basin national park"],
+            "n": 0
+        },
+        {
+            "id": "mexican-cession",
+            "tier": "power",
+            "t": "Gained from Mexico in 1848 (Treaty of Guadalupe Hidalgo); the federal government owns about four-fifths of its land",
+            "k": ["guadalupe hidalgo", "four-fifths", "mexico"],
+            "n": 0
+        },
+        {
+            "id": "las-vegas-1905",
+            "tier": "power",
+            "t": "Las Vegas, Spanish for “the meadows,” was founded as a railroad town in 1905",
+            "k": ["meadows", "railroad town", "1905"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "State, city, or base?",
+        "body": "Nevada clues overlap with several other answer lines. Las Vegas is its largest city, Area 51 is the secret air base at Groom Lake, and the Nevada Test Site was a separate nuclear testing ground. Utah and Arizona share clues too: Nevada was carved out of Utah Territory in 1861, and Hoover Dam sits on the Arizona border.",
+        "fix": "Listen for the noun: “this state” wants Nevada, “this city” wants Las Vegas or Reno, and “this base” wants Area 51. “Battle Born,” the Comstock Lode, Carson City, and statehood in 1864 all mean the state.",
+        "line": "Real answer line: <b><u>Nevada</u></b> (do not accept “Area 51” or “Las Vegas”)"
+    },
+    "tests": {
+        "right": [
+            "Nevada",
+            "State of Nevada",
+            "the state of Nevada",
+            "Nevada Territory",
+            "Neveda"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Area 51",
+            "Las Vegas",
+            "Las Vegas, Nevada",
+            "Utah",
+            "Arizona",
+            "Sierra Nevada",
+            "Nevada Test Site",
+            "Carson City",
+            "California"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

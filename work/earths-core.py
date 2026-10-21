@@ -29,15 +29,11 @@ data = {
     "accept": [
         "earths core",
         "earth core",
-        "the earths core",
-        "the earth core",
         "core",
-        "the core",
         "cores",
         "earths cores",
         "core of the earth",
         "core of earth",
-        "the core of the earth",
         "planetary core",
         "iron core",
         "earths iron core",
@@ -73,7 +69,11 @@ data = {
         "core sample",
         "core samples",
         "apple core",
-        "kola superdeep borehole"
+        "kola superdeep borehole",
+        "iron ore",
+        "ceres",
+        "pope",
+        "the pope"
     ],
     "media": [],
     "mediaPending": True,
@@ -90,7 +90,7 @@ data = {
     "tossups": [
         {
             "p": "In 1936, Danish seismologist Inge Lehmann [“LAY-mun”] published a paper titled simply “P′” [“P-prime”], using faint earthquake waves that showed up where they were not expected to reveal that this region has a solid inner part.",
-            "r": "For 10 points, name this central layer of Earth, made mostly of iron and nickel."
+            "r": "For 10 points, name this central layer of Earth, beneath the mantle, made mostly of iron and nickel."
         },
         {
             "p": "In 1906, Richard Dixon Oldham used records of earthquake waves to argue that Earth has a dense central zone that slows some waves down, the first strong evidence for this region. Beno Gutenberg later figured out how deep it lies.",

@@ -115,7 +115,7 @@
     },
     {
       "p": "Gabriel Cramer of Geneva published a rule in 1750 that solves one of these by dividing two determinants, one of them found after replacing a column of coefficients with the constants from the right-hand side. That rule works only when the determinant of the coefficient matrix is not zero.",
-      "r": "For 10 points, name these sets of equations, such as x + y = 10 and x − y = 4, that must all be true at once."
+      "r": "For 10 points, name these sets of equations, such as x plus y equals 10 and x minus y equals 4, that must all be true at once."
     },
     {
       "p": "An ancient Chinese puzzle in the _Sunzi Suanjing_ [“SOON-dzuh SWAHN-jing”] asks how many pheasants and rabbits share a cage holding 35 heads and 94 feet. The answer is 23 pheasants and 12 rabbits, since 23 plus 12 is 35 and their feet add up to 46 plus 48, or 94.",
@@ -123,7 +123,7 @@
     },
     {
       "p": "Seki Takakazu [“SEH-kee tah-kah-KAH-zoo”] in Japan and Gottfried Leibniz [“LYBE-nits”] in Germany each discovered determinants in the late 1600s while studying how to solve these. In 1750, Gabriel Cramer published a rule that solves them using ratios of determinants.",
-      "r": "For 10 points, name these collections of equations, such as 2x + y = 7 and x − y = 2, that are solved together."
+      "r": "For 10 points, name these collections of equations, such as 2x plus y equals 7 and x minus y equals 2, that are solved together."
     },
     {
       "p": "The TOP500 list ranks the world’s fastest supercomputers by how quickly they solve one gigantic one of these, a test called the LINPACK benchmark. Computers often solve these using Gaussian elimination, a step-by-step method of row operations on a grid of numbers.",
@@ -147,7 +147,7 @@
     },
     {
       "p": "The Jacobi [“yah-KOH-bee”] and Gauss–Seidel [“GOWSS ZY-dul”] methods solve large examples of these by starting with a guess and improving it over and over. Writing a square matrix as a lower triangular matrix times an upper triangular one, called LU decomposition, speeds up solving many of these that share the same coefficients.",
-      "r": "Substitution solves one equation for one unknown and plugs the result into the others. For 10 points, name these groups of equations, such as y = 2x and x + y = 12."
+      "r": "Substitution solves one equation for one unknown and plugs the result into the others. For 10 points, name these groups of equations, such as y equals 2x and x plus y equals 12."
     },
     {
       "p": "Wassily Leontief’s [“vah-SEE-lee lee-ON-tee-efs”] input–output model, which won the 1973 Nobel Prize in economics, finds how much each industry must produce by solving a giant one of these. Economists find the price at which supply equals demand by solving a small one of these.",
@@ -163,10 +163,10 @@
     },
     {
       "p": "One of these is called underdetermined if it has fewer equations than unknowns, and such a case can never have exactly one solution. A company’s break-even point, where its cost line meets its revenue line, can be found by solving one of these.",
-      "r": "Subtracting 2x − y = 1 from 2x + 3y = 13 leaves 4y = 12. For 10 points, name these sets of equations that must all be true at once."
+      "r": "Subtracting 2x minus y equals 1 from 2x plus 3y equals 13 leaves 4y equals 12. For 10 points, name these sets of equations that must all be true at once."
     },
     {
-      "p": "Gaussian elimination turns one of these into a staircase-shaped “row echelon form,” and then back substitution finds the unknowns one at a time, starting from the bottom row. If elimination produces a false statement such as 0 = 5, there is no solution.",
+      "p": "Gaussian elimination turns one of these into a staircase-shaped “row echelon form,” and then back substitution finds the unknowns one at a time, starting from the bottom row. If elimination produces a false statement such as 0 equals 5, there is no solution.",
       "r": "For 10 points, name these sets of equations whose graphed lines cross at the solution, unless the lines are parallel."
     }
   ],

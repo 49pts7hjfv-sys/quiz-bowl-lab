@@ -1,0 +1,446 @@
+{
+  "id": "van-allen-radiation-belts",
+  "name": "Van Allen radiation belts",
+  "mono": "VAB",
+  "category": "Earth Science",
+  "qbCategory": "Science · Other Science (Earth Science)",
+  "kicker": "Zones of trapped charged particles around Earth · Found by Explorer 1 in 1958",
+  "dates": "Discovered 1958",
+  "briefing": "Far above the atmosphere, Earth’s magnetic field traps speeding charged particles in two giant doughnut-shaped zones called the Van Allen radiation belts. They were the first big discovery of the Space Age, found in 1958 by a Geiger counter on Explorer 1, the first American satellite, and named for physicist James Van Allen. Their particles can damage satellites, so spacecraft and astronauts try to cross them quickly.",
+  "answerHtml": "<b><u>Van Allen</u></b> radiation belts (accept <u>Van Allen</u> belts; prompt on radiation belts; do not accept “magnetosphere,” “ionosphere,” or “auroras”)",
+  "accept": [
+    "van allen radiation belts",
+    "van allen radiation belt",
+    "van allen belts",
+    "van allen belt",
+    "van allen",
+    "van allen radiation",
+    "van allen zones",
+    "van allen zone",
+    "van allen radiation zones",
+    "van allen radiation zone"
+  ],
+  "prompt": [
+    "radiation belts",
+    "radiation belt",
+    "the radiation belts",
+    "earths radiation belts",
+    "radiation zones",
+    "belts",
+    "inner belt",
+    "outer belt",
+    "the inner belt",
+    "the outer belt",
+    "inner radiation belt",
+    "outer radiation belt",
+    "inner van allen belt",
+    "outer van allen belt",
+    "the inner van allen belt",
+    "the outer van allen belt",
+    "inner van allen radiation belt",
+    "outer van allen radiation belt"
+  ],
+  "reject": [
+    "magnetosphere",
+    "earths magnetosphere",
+    "ionosphere",
+    "thermosphere",
+    "exosphere",
+    "stratosphere",
+    "plasmasphere",
+    "aurora",
+    "auroras",
+    "aurora borealis",
+    "aurora australis",
+    "northern lights",
+    "southern lights",
+    "earths magnetic field",
+    "magnetic field",
+    "geomagnetic field",
+    "solar wind",
+    "cosmic rays",
+    "kuiper belt",
+    "asteroid belt",
+    "oort cloud",
+    "south atlantic anomaly",
+    "explorer 1",
+    "explorer i",
+    "starfish prime",
+    "james van allen",
+    "james alfred van allen",
+    "van allen probes",
+    "van allen probe",
+    "magnetopause",
+    "bow shock",
+    "ring current",
+    "plasma sheet",
+    "ozone layer"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Van_Allen_radiation_belt",
+  "qb": {
+    "q": "Van Allen",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "Early in 1958, a Geiger counter on a new satellite sometimes reported no counts at all, because so many charged particles were striking it that it was swamped. A second satellite, Explorer 3, confirmed the discovery about two months later.",
+      "r": "The first satellite, Explorer 1, was the first American satellite. For 10 points, name these doughnut-shaped zones of charged particles trapped by Earth’s magnetic field."
+    },
+    {
+      "p": "In 1962, the United States set off the Starfish Prime nuclear test about 400 kilometers above Johnston Island in the Pacific, creating a new, artificial zone of trapped particles like these that damaged several satellites.",
+      "r": "The natural ones were discovered with Explorer 1 in 1958. For 10 points, name these zones of charged particles trapped around Earth."
+    },
+    {
+      "p": "Over the South Atlantic Anomaly, off the coast of Brazil, the inner one of these zones dips closest to Earth’s surface, so the Hubble Space Telescope stops taking observations while passing through it.",
+      "r": "For 10 points, name these two doughnut-shaped zones of charged particles trapped by Earth’s magnetic field, discovered in 1958."
+    },
+    {
+      "p": "Particles trapped in these zones spiral around magnetic field lines, bounce back and forth between “mirror points” near the north and south magnetic poles, and slowly drift around the planet.",
+      "r": "For 10 points, name these zones of charged particles around Earth, named for the scientist whose instruments found them on Explorer 1."
+    },
+    {
+      "p": "A famous photo shows William Pickering, Wernher von Braun, and the namesake of these zones lifting a model of the satellite that discovered them high over their heads at a press conference.",
+      "r": "That satellite was Explorer 1, launched in 1958. For 10 points, name these zones of charged particles trapped by Earth’s magnetic field."
+    },
+    {
+      "p": "In 2012, a pair of NASA spacecraft studying these zones spotted a temporary third one forming between the usual two. It lasted about a month before a blast of solar wind wiped it out.",
+      "r": "Normally there is an inner zone and an outer zone. For 10 points, name these regions of charged particles held by Earth’s magnetic field."
+    },
+    {
+      "p": "Apollo missions to the Moon were planned to cross these zones quickly, along paths that skirted their most intense parts, so the astronauts received only small doses of radiation. Engineers still shield spacecraft electronics from particles in these zones.",
+      "r": "For 10 points, name these zones of charged particles trapped by Earth’s magnetic field, discovered by Explorer 1."
+    },
+    {
+      "p": "The inner one of these zones is filled mostly with high-energy protons, while the outer one holds mostly high-energy electrons, and a gap called the slot region lies between them. The outer zone swells and shrinks the most during solar storms.",
+      "r": "For 10 points, name these zones around Earth, discovered in 1958 and named for a University of Iowa physicist."
+    },
+    {
+      "p": "Many protons in the inner one of these zones come from cosmic rays smashing into the upper atmosphere and knocking loose neutrons, which then break down into protons that get trapped.",
+      "r": "For 10 points, name these zones of charged particles trapped by Earth’s magnetic field, found with the first U.S. satellite."
+    },
+    {
+      "p": "On January 31, 1958, a Juno I rocket built by Wernher von Braun’s team lifted off from Cape Canaveral carrying a small Geiger counter, which soon found these zones high above Earth.",
+      "r": "That satellite, Explorer 1, was the first American one. For 10 points, name these zones of charged particles trapped by Earth’s magnetic field."
+    },
+    {
+      "p": "Jupiter’s versions of these zones are far more intense than Earth’s, so spacecraft visiting that planet need heavy shielding for their electronics. Saturn, Uranus, and Neptune have their own versions too.",
+      "r": "Earth’s versions were found in 1958. For 10 points, name these doughnut-shaped regions of charged particles trapped by a planet’s magnetic field."
+    },
+    {
+      "p": "Engineers “harden” satellite electronics against particles from these zones, which can flip bits in computer memory and slowly wear down solar panels. GPS satellites orbit within the outer one of these zones.",
+      "r": "For 10 points, name these zones of charged particles trapped by Earth’s magnetic field, named for the scientist whose instruments found them."
+    },
+    {
+      "p": "A tape recorder aboard Explorer 3 stored a full orbit’s worth of data in 1958, confirming the discovery of these zones made weeks earlier by another satellite’s Geiger counter.",
+      "r": "That earlier satellite, Explorer 1, was the first American satellite. For 10 points, name these zones of charged particles trapped by Earth’s magnetic field."
+    },
+    {
+      "p": "The inner one of these zones begins roughly 1,000 kilometers above Earth’s surface, while the outer one stretches out to tens of thousands of kilometers into space. Between them lies a quieter gap called the slot region.",
+      "r": "Both hold charged particles trapped by Earth’s magnetic field. For 10 points, name these zones discovered by Explorer 1 in 1958."
+    },
+    {
+      "p": "Some electrons in the outer one of these zones travel at nearly the speed of light, and NASA’s twin probes studied them from 2012 to 2019 to learn how they get so much energy.",
+      "r": "For 10 points, name these zones of charged particles trapped by Earth’s magnetic field, named for a University of Iowa physicist."
+    }
+  ],
+  "clues": [
+    {
+      "id": "trapped-particles",
+      "tier": "giveaway",
+      "t": "Two doughnut-shaped zones of charged particles trapped by Earth’s magnetic field",
+      "k": [
+        "doughnut-shaped",
+        "charged particles",
+        "magnetic field"
+      ],
+      "n": 0,
+      "rabbit": "Earth’s magnetic field"
+    },
+    {
+      "id": "explorer-1958",
+      "tier": "giveaway",
+      "t": "Discovered in 1958 with a Geiger counter on Explorer 1, the first U.S. satellite",
+      "k": [
+        "explorer 1",
+        "1958",
+        "geiger counter"
+      ],
+      "n": 0
+    },
+    {
+      "id": "namesake",
+      "tier": "giveaway",
+      "t": "Named for the University of Iowa physicist whose instruments found them",
+      "k": [
+        "university of iowa",
+        "physicist"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inner-outer",
+      "tier": "giveaway",
+      "t": "There is an inner zone and an outer zone",
+      "k": [
+        "inner zone",
+        "outer zone"
+      ],
+      "n": 0
+    },
+    {
+      "id": "protons-electrons",
+      "tier": "middle",
+      "t": "The inner zone holds mostly protons; the outer zone holds mostly electrons",
+      "k": [
+        "protons",
+        "electrons"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slot",
+      "tier": "middle",
+      "t": "A quieter gap called the slot region separates the two zones",
+      "k": [
+        "slot region",
+        "gap"
+      ],
+      "n": 0
+    },
+    {
+      "id": "apollo",
+      "tier": "middle",
+      "t": "Apollo missions crossed them quickly, skirting their most intense parts, so astronauts got only small doses",
+      "k": [
+        "apollo",
+        "quickly",
+        "small doses"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spacecraft-hazard",
+      "tier": "middle",
+      "t": "Their particles can damage satellite electronics and solar panels, so engineers “harden” spacecraft",
+      "k": [
+        "electronics",
+        "solar panels",
+        "harden"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sources",
+      "tier": "middle",
+      "t": "Their particles come largely from the solar wind and from cosmic rays",
+      "k": [
+        "solar wind",
+        "cosmic rays"
+      ],
+      "n": 0
+    },
+    {
+      "id": "geiger-swamped",
+      "tier": "middle",
+      "t": "Explorer 1’s Geiger counter sometimes read zero because so many particles swamped it",
+      "k": [
+        "swamped",
+        "zero"
+      ],
+      "n": 0
+    },
+    {
+      "id": "explorer-3",
+      "tier": "middle",
+      "t": "Explorer 3’s tape recorder confirmed the discovery about two months later, in 1958",
+      "k": [
+        "explorer 3",
+        "tape recorder"
+      ],
+      "n": 0
+    },
+    {
+      "id": "probes-2012",
+      "tier": "middle",
+      "t": "NASA’s twin probes, launched in 2012 and named for the discoverer, studied them until 2019",
+      "k": [
+        "twin probes",
+        "2012",
+        "2019"
+      ],
+      "n": 0
+    },
+    {
+      "id": "outer-swells",
+      "tier": "middle",
+      "t": "The outer zone changes the most, swelling and shrinking during solar storms",
+      "k": [
+        "solar storms",
+        "swelling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "starfish-prime",
+      "tier": "power",
+      "t": "The 1962 Starfish Prime nuclear test, about 400 km above the Pacific, made an artificial zone that damaged satellites",
+      "k": [
+        "starfish prime",
+        "1962",
+        "artificial"
+      ],
+      "n": 0
+    },
+    {
+      "id": "south-atlantic-anomaly",
+      "tier": "power",
+      "t": "The inner zone dips closest to Earth over the South Atlantic Anomaly, off Brazil; Hubble stops observing there",
+      "k": [
+        "south atlantic anomaly",
+        "brazil",
+        "hubble"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mirror-points",
+      "tier": "power",
+      "t": "Trapped particles spiral along field lines, bounce between “mirror points” near the poles, and drift around Earth",
+      "k": [
+        "mirror points",
+        "spiral",
+        "drift"
+      ],
+      "n": 0
+    },
+    {
+      "id": "photo",
+      "tier": "power",
+      "t": "A famous photo shows William Pickering, Wernher von Braun, and the discoverer lifting a model of Explorer 1",
+      "k": [
+        "pickering",
+        "von braun",
+        "model"
+      ],
+      "n": 0
+    },
+    {
+      "id": "juno",
+      "tier": "power",
+      "t": "Explorer 1 rode a Juno I rocket from Cape Canaveral on January 31, 1958",
+      "k": [
+        "juno i",
+        "cape canaveral",
+        "january 31"
+      ],
+      "n": 0
+    },
+    {
+      "id": "third-zone",
+      "tier": "power",
+      "t": "In 2012, NASA’s twin probes saw a temporary third zone that lasted about a month",
+      "k": [
+        "third zone",
+        "temporary",
+        "about a month"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neutron-decay",
+      "tier": "power",
+      "t": "Many inner-zone protons come from neutrons knocked out of the atmosphere by cosmic rays, which then decay",
+      "k": [
+        "neutrons",
+        "decay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jupiter",
+      "tier": "power",
+      "t": "Jupiter’s versions are far more intense; Saturn, Uranus, and Neptune have them too",
+      "k": [
+        "jupiter",
+        "saturn",
+        "neptune"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gps",
+      "tier": "power",
+      "t": "GPS satellites orbit within the outer zone",
+      "k": [
+        "gps",
+        "orbit"
+      ],
+      "n": 0
+    },
+    {
+      "id": "distances",
+      "tier": "power",
+      "t": "The inner zone begins roughly 1,000 km up; the outer zone reaches tens of thousands of kilometers out",
+      "k": [
+        "1,000 km",
+        "tens of thousands"
+      ],
+      "n": 0
+    },
+    {
+      "id": "light-speed",
+      "tier": "power",
+      "t": "Some outer-zone electrons travel at nearly the speed of light",
+      "k": [
+        "speed of light",
+        "nearly"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bit-flips",
+      "tier": "power",
+      "t": "Their particles can flip bits in computer memory",
+      "k": [
+        "flip bits",
+        "computer memory"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not the magnetosphere",
+    "body": "The Van Allen belts sit inside the magnetosphere, the giant bubble of space controlled by Earth’s magnetic field, so players hear “trapped by Earth’s magnetic field” and say “magnetosphere,” which names the whole bubble, not these two zones. The ionosphere is much lower, a charged layer of the upper atmosphere, and auroras are glowing light shows, not zones of particles.",
+    "fix": "Explorer 1, 1958, a Geiger counter, an inner proton zone and an outer electron zone, Starfish Prime, and the South Atlantic Anomaly mean the Van Allen belts. Saying just “radiation belts” earns a prompt, so add “Van Allen.”",
+    "line": "Real answer line: <b><u>Van Allen</u></b> radiation belts (prompt on radiation belts; do not accept “magnetosphere” or “ionosphere”)"
+  },
+  "tests": {
+    "right": [
+      "Van Allen belts",
+      "Van Allen radiation belts",
+      "van allen",
+      "Van Alen belts",
+      "the Van Allen radiation belt"
+    ],
+    "prompt": [
+      "radiation belts",
+      "inner belt"
+    ],
+    "wrong": [
+      "Magnetosphere",
+      "Ionosphere",
+      "Aurora borealis",
+      "Asteroid belt",
+      "James Van Allen",
+      "Kuiper Belt",
+      "South Atlantic Anomaly"
+    ]
+  }
+}

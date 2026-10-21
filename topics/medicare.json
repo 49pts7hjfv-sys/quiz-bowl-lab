@@ -1,0 +1,427 @@
+{
+  "id": "medicare",
+  "name": "Medicare",
+  "mono": "MC",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Federal health insurance for Americans 65 and older · Signed by LBJ in 1965",
+  "dates": "Signed July 30, 1965; coverage began 1966",
+  "briefing": "Before 1965, many older Americans had no health insurance, and one serious illness could use up a lifetime of savings. That July, President Lyndon Johnson signed Medicare into law at Harry Truman’s library in Independence, Missouri, and handed the former president the first Medicare card. The federal program helps pay for hospital stays, doctor visits, and, starting in 2006, prescription drugs for people 65 and older and some younger people with disabilities.",
+  "answerHtml": "<b><u>Medicare</u></b> (prompt on “Social Security Amendments of 1965”; do not accept or prompt on “Medicaid”)",
+  "accept": [
+    "medicare",
+    "medicare program",
+    "the medicare program"
+  ],
+  "prompt": [
+    "social security amendments of 1965",
+    "social security amendments"
+  ],
+  "reject": [
+    "medicaid",
+    "affordable care act",
+    "obamacare",
+    "patient protection and affordable care act",
+    "childrens health insurance program",
+    "chip",
+    "schip",
+    "medigap",
+    "great society",
+    "fair deal",
+    "new deal",
+    "social security administration",
+    "tricare",
+    "kerr mills act",
+    "kerr mills",
+    "medical assistance for the aged"
+  ],
+  "tests": {
+    "right": [
+      "Medicare",
+      "the Medicare program",
+      "Medicar",
+      "Medicare Part A",
+      "medicare part d"
+    ],
+    "prompt": [
+      "Social Security Amendments of 1965"
+    ],
+    "wrong": [
+      "Medicaid",
+      "Social Security",
+      "Affordable Care Act",
+      "Obamacare",
+      "CHIP",
+      "Medigap",
+      "Great Society",
+      "Social Security Act"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Medicare_(United_States)",
+  "qb": {
+    "q": "Medicare",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "House Ways and Means chairman Wilbur Mills combined a hospital plan, a Republican plan to cover doctors’ bills, and aid for poor people into a “three-layer cake” that created this program. The same 1965 law also created a joint federal-state program for people with low incomes.",
+      "r": "For 10 points, name this program that Lyndon Johnson signed into law in 1965 to give health insurance to Americans 65 and older."
+    },
+    {
+      "p": "The 1960 Kerr–Mills Act gave states money to help pay medical bills for poor older people, but supporters of this program wanted more. In 1962, John F. Kennedy spoke at Madison Square Garden in favor of an earlier version of this program, the King–Anderson bill.",
+      "r": "For 10 points, name this program of health insurance for Americans 65 and older that Lyndon Johnson signed in 1965."
+    },
+    {
+      "p": "The American Medical Association fought early proposals for this program, calling them “socialized medicine,” and in 1961 the actor Ronald Reagan recorded an album for the association criticizing such plans. Labor unions and organizations of retired workers pushed for this program.",
+      "r": "For 10 points, name this federal health insurance program for older Americans, created in 1965."
+    },
+    {
+      "p": "A 2003 law that added a new part to this program also created health savings accounts. That new part, which began in 2006, helps pay for prescription drugs, and it was signed into law by George W. Bush.",
+      "r": "For 10 points, name this health insurance program for people 65 and older, created under Lyndon Johnson."
+    },
+    {
+      "p": "A coverage gap called the “doughnut hole” in one part of this program was closed under the Affordable Care Act. A 2022 law allowed this program to negotiate the prices of some prescription drugs and limited what its members pay for insulin to $35 a month.",
+      "r": "For 10 points, name this federal health insurance program that mainly covers people 65 and older."
+    },
+    {
+      "p": "In 1966, hospitals across the South quickly desegregated, because only hospitals that obeyed the Civil Rights Act of 1964 could receive payments from this new program. Coverage under this program began on July 1 of that year.",
+      "r": "For 10 points, name this federal program of health insurance for older Americans, signed into law by Lyndon Johnson."
+    },
+    {
+      "p": "A 1972 law signed by Richard Nixon extended this program to some younger Americans, including people with long-term disabilities and people whose kidneys had failed. People in this program can choose private plans under its Part C, which were renamed “Advantage” plans in 2003.",
+      "r": "For 10 points, name this federal health insurance program, mostly for people 65 and older, that began under Lyndon Johnson."
+    },
+    {
+      "p": "Workers and their employers each pay 1.45 percent of wages into a trust fund that pays for the hospital insurance part of this program, known as Part A. Its Part B, which helps pay for doctor visits, is paid for partly by monthly premiums.",
+      "r": "For 10 points, name this federal health insurance program for people 65 and older, signed into law in 1965."
+    },
+    {
+      "p": "In 2018 and 2019, this program mailed new cards to its members that replaced their Social Security numbers with random identification numbers, to help prevent identity theft. The first card for this program had gone to a former president in 1965.",
+      "r": "That former president was Harry Truman. For 10 points, name this federal health insurance program for older Americans."
+    },
+    {
+      "p": "Private “Medigap” policies help pay some of the costs that this program does not cover, such as deductibles and copayments. This program’s Part A covers hospital stays, while its Part B covers doctor visits and outpatient care.",
+      "r": "Lyndon Johnson signed the law creating it in 1965. For 10 points, name this federal health insurance program for Americans 65 and older."
+    },
+    {
+      "p": "Two decades after Harry Truman asked Congress for national health insurance, Lyndon Johnson traveled to Independence, Missouri, to sign the law creating this program at Truman’s presidential library. Truman received this program’s first card, and his wife, Bess, received the second.",
+      "r": "For 10 points, name this federal health insurance program for people 65 and older, signed on July 30, 1965."
+    },
+    {
+      "p": "A federal agency in the Department of Health and Human Services that was called the Health Care Financing Administration until 2001 runs this program. By the 2020s, more than 60 million Americans were enrolled in this program.",
+      "r": "For 10 points, name this federal health insurance program for people 65 and older that Lyndon Johnson signed into law."
+    },
+    {
+      "p": "This program was created as Title XVIII of the Social Security Act, and Title XIX of the same act created a companion program that the federal government runs jointly with the states. Both programs began as part of the Social Security Amendments of 1965.",
+      "r": "That companion program is Medicaid. For 10 points, name this federal health insurance program for older Americans."
+    },
+    {
+      "p": "Canada’s public health care system, whose founder is often said to be Tommy Douglas of Saskatchewan, has the same popular name as this American program. So does Australia’s national health insurance system, created in the 1980s.",
+      "r": "Unlike those systems, this American program mainly covers people 65 and older. For 10 points, name this program created in 1965."
+    },
+    {
+      "p": "This program generally does not pay for long-term care in nursing homes, which Medicaid often pays for instead, and its original version does not cover routine dental care or eyeglasses. Its Part A does cover hospice care.",
+      "r": "For 10 points, name this federal health insurance program for Americans 65 and older, whose Part D covers prescription drugs."
+    }
+  ],
+  "clues": [
+    {
+      "id": "elderly",
+      "tier": "giveaway",
+      "t": "Federal health insurance program mainly for Americans 65 and older",
+      "k": [
+        "health insurance",
+        "65 and older",
+        "federal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lbj-1965",
+      "tier": "giveaway",
+      "t": "Signed into law by President Lyndon B. Johnson in 1965, as part of his Great Society",
+      "k": [
+        "lyndon b. johnson",
+        "johnson",
+        "1965",
+        "great society"
+      ],
+      "n": 0,
+      "rabbit": "Lyndon B. Johnson"
+    },
+    {
+      "id": "truman-card",
+      "tier": "giveaway",
+      "t": "Johnson signed it at the Truman Library in Independence, Missouri; Harry Truman got the first card and Bess Truman the second",
+      "k": [
+        "truman library",
+        "independence, missouri",
+        "harry truman",
+        "first card"
+      ],
+      "n": 0,
+      "rabbit": "Harry S. Truman"
+    },
+    {
+      "id": "parts",
+      "tier": "giveaway",
+      "t": "Part A covers hospital stays, Part B doctor visits, Part C private “Advantage” plans, and Part D prescription drugs",
+      "k": [
+        "part a",
+        "part d",
+        "hospital stays",
+        "prescription drugs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medicaid",
+      "tier": "middle",
+      "t": "Created by the same 1965 law as Medicaid, a joint federal-state program for people with low incomes",
+      "k": [
+        "medicaid",
+        "low incomes",
+        "joint federal-state"
+      ],
+      "n": 0
+    },
+    {
+      "id": "part-d-bush",
+      "tier": "middle",
+      "t": "Part D, for prescription drugs, was added by a 2003 law signed by George W. Bush and began in 2006",
+      "k": [
+        "george w. bush",
+        "2003",
+        "2006"
+      ],
+      "n": 0,
+      "rabbit": "George W. Bush"
+    },
+    {
+      "id": "title-xviii",
+      "tier": "middle",
+      "t": "Created as Title XVIII of the Social Security Act; Medicaid is Title XIX",
+      "k": [
+        "title xviii",
+        "title xix",
+        "social security act"
+      ],
+      "n": 0
+    },
+    {
+      "id": "disabilities-1972",
+      "tier": "middle",
+      "t": "A 1972 law signed by Richard Nixon extended it to some younger people with long-term disabilities or kidney failure",
+      "k": [
+        "1972",
+        "disabilities",
+        "kidney failure",
+        "richard nixon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "payroll-tax",
+      "tier": "middle",
+      "t": "Part A is paid for mostly by a payroll tax: workers and employers each pay 1.45 percent of wages into a trust fund",
+      "k": [
+        "payroll tax",
+        "1.45 percent",
+        "trust fund"
+      ],
+      "n": 0
+    },
+    {
+      "id": "truman-health",
+      "tier": "middle",
+      "t": "Harry Truman had asked Congress for national health insurance in 1945, part of what became his Fair Deal",
+      "k": [
+        "national health insurance",
+        "fair deal",
+        "1945"
+      ],
+      "n": 0
+    },
+    {
+      "id": "desegregation",
+      "tier": "middle",
+      "t": "Coverage began July 1, 1966; only hospitals that obeyed the Civil Rights Act could get its payments, so many quickly desegregated",
+      "k": [
+        "july 1, 1966",
+        "desegregated",
+        "civil rights act"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hcfa",
+      "tier": "middle",
+      "t": "Run by an agency of the Department of Health and Human Services, called the Health Care Financing Administration until 2001; more than 60 million people enrolled by the 2020s",
+      "k": [
+        "health and human services",
+        "health care financing administration",
+        "60 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coverage-limits",
+      "tier": "middle",
+      "t": "Generally does not cover long-term nursing home care (Medicaid often does) or, in its original form, routine dental care and eyeglasses; Part A covers hospice care",
+      "k": [
+        "nursing home",
+        "dental",
+        "eyeglasses",
+        "hospice"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mills",
+      "tier": "power",
+      "t": "House Ways and Means chairman Wilbur Mills combined rival plans into a “three-layer cake” (1965)",
+      "k": [
+        "wilbur mills",
+        "ways and means",
+        "three-layer cake"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kerr-mills",
+      "tier": "power",
+      "t": "The Kerr–Mills Act (1960) gave states money to help pay medical bills for poor older people",
+      "k": [
+        "kerr–mills",
+        "kerr–mills act",
+        "1960"
+      ],
+      "n": 0
+    },
+    {
+      "id": "king-anderson",
+      "tier": "power",
+      "t": "An earlier version was the King–Anderson bill, named for Representative Cecil King and Senator Clinton Anderson",
+      "k": [
+        "king–anderson",
+        "cecil king",
+        "clinton anderson"
+      ],
+      "n": 0
+    },
+    {
+      "id": "jfk-garden",
+      "tier": "power",
+      "t": "John F. Kennedy spoke at Madison Square Garden in support of health care for older Americans (1962)",
+      "k": [
+        "madison square garden",
+        "john f. kennedy",
+        "1962"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ama",
+      "tier": "power",
+      "t": "The American Medical Association called early proposals “socialized medicine”; Ronald Reagan recorded an album for it against such plans (1961)",
+      "k": [
+        "american medical association",
+        "socialized medicine",
+        "ronald reagan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hsa",
+      "tier": "power",
+      "t": "The 2003 law that added Part D also created health savings accounts",
+      "k": [
+        "health savings accounts",
+        "savings"
+      ],
+      "n": 0
+    },
+    {
+      "id": "advantage",
+      "tier": "power",
+      "t": "Part C lets members choose private plans, renamed “Advantage” plans in 2003",
+      "k": [
+        "advantage",
+        "private plans",
+        "part c"
+      ],
+      "n": 0
+    },
+    {
+      "id": "donut-hole",
+      "tier": "power",
+      "t": "Part D’s coverage gap, the “doughnut hole,” was closed under the Affordable Care Act",
+      "k": [
+        "doughnut hole",
+        "coverage gap",
+        "affordable care act"
+      ],
+      "n": 0,
+      "rabbit": "Affordable Care Act"
+    },
+    {
+      "id": "ira-2022",
+      "tier": "power",
+      "t": "A 2022 law let it negotiate prices for some prescription drugs and limited members’ insulin costs to $35 a month",
+      "k": [
+        "insulin",
+        "negotiate",
+        "$35",
+        "2022"
+      ],
+      "n": 0
+    },
+    {
+      "id": "new-cards",
+      "tier": "power",
+      "t": "New cards mailed in 2018–2019 replaced Social Security numbers with random ID numbers to fight identity theft",
+      "k": [
+        "identity theft",
+        "social security numbers",
+        "2018"
+      ],
+      "n": 0
+    },
+    {
+      "id": "medigap",
+      "tier": "power",
+      "t": "Private “Medigap” policies help pay costs it leaves uncovered, such as deductibles and copayments",
+      "k": [
+        "medigap",
+        "deductibles",
+        "copayments"
+      ],
+      "n": 0
+    },
+    {
+      "id": "canada-australia",
+      "tier": "power",
+      "t": "Canada’s public health care system (often credited to Tommy Douglas of Saskatchewan) and Australia’s national health insurance have the same popular name",
+      "k": [
+        "canada",
+        "australia",
+        "tommy douglas",
+        "saskatchewan"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Medicare or Medicaid?",
+    "body": "Medicare and Medicaid were created by the same 1965 law, signed by Lyndon Johnson, and their names differ by only a few letters. Medicare is run by the federal government and covers mainly people 65 and older; Medicaid is run jointly by the federal government and the states and covers people with low incomes. Social Security (1935) pays retirement benefits, and the Affordable Care Act (2010) is a separate health law.",
+    "fix": "Age 65, Parts A through D, Harry Truman’s first card, and the 2003 prescription drug law mean Medicare; low incomes and state-run programs mean Medicaid. Memory trick: Medi-CARE takes care of older people, while Medic-AID gives aid to people with low incomes.",
+    "line": "Real answer line: <b><u>Medicare</u></b> (do not accept or prompt on “Medicaid”)"
+  }
+}

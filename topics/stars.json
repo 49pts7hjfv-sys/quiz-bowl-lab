@@ -1,0 +1,509 @@
+{
+  "id": "stars",
+  "name": "Stars",
+  "mono": "STS",
+  "category": "Astronomy",
+  "qbCategory": "Science · Other Science (Astronomy)",
+  "kicker": "Glowing balls of plasma powered by fusion · From red dwarfs to supergiants",
+  "dates": "First lit up within a few hundred million years of the Big Bang",
+  "briefing": "Almost every twinkling point of light in the night sky is a star: a giant ball of hot plasma that shines by fusing hydrogen into helium in its core. A star’s color reveals its temperature, from cool red dwarfs to scorching blue giants, and when stars die they leave behind white dwarfs, neutron stars, or black holes. The nearest one after the Sun, Proxima Centauri, is so far away that its light takes over four years to reach us.",
+  "answerHtml": "<b><u>star</u></b>s (accept <u>star</u>; do not accept “the Sun,” “planets,” “galaxies,” or “constellations”)",
+  "accept": [
+    "star",
+    "stars"
+  ],
+  "prompt": [],
+  "reject": [
+    "the sun",
+    "sun",
+    "our sun",
+    "sol",
+    "planet",
+    "planets",
+    "galaxy",
+    "galaxies",
+    "constellation",
+    "constellations",
+    "nebula",
+    "nebulae",
+    "neutron star",
+    "neutron stars",
+    "white dwarf",
+    "white dwarfs",
+    "red giant",
+    "red giants",
+    "red dwarf",
+    "red dwarfs",
+    "brown dwarf",
+    "brown dwarfs",
+    "dwarf star",
+    "dwarf stars",
+    "supergiant",
+    "supergiants",
+    "main sequence",
+    "main sequence star",
+    "main sequence stars",
+    "star formation",
+    "star cluster",
+    "star clusters",
+    "binary star",
+    "binary stars",
+    "variable star",
+    "variable stars",
+    "shooting star",
+    "shooting stars",
+    "falling star",
+    "falling stars",
+    "morning star",
+    "evening star",
+    "north star",
+    "pole star",
+    "dog star",
+    "sea star",
+    "sea stars",
+    "the fault in our stars",
+    "fault in our stars",
+    "pulsar",
+    "pulsars",
+    "quasar",
+    "quasars",
+    "black hole",
+    "black holes",
+    "supernova",
+    "supernovae",
+    "comet",
+    "comets",
+    "meteor",
+    "meteors",
+    "asteroid",
+    "asteroids",
+    "moon",
+    "sirius",
+    "polaris",
+    "proxima centauri",
+    "alpha centauri",
+    "betelgeuse",
+    "rigel",
+    "vega"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Star",
+  "qb": {
+    "q": "stars",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In her 1925 doctoral thesis, Cecilia Payne studied the spectra of these objects and showed that they are made mostly of hydrogen and helium, unlike the rocky mix of elements that makes up Earth.",
+      "r": "Annie Jump Cannon sorted them into classes O, B, A, F, G, K, and M. For 10 points, name these balls of plasma, such as the Sun."
+    },
+    {
+      "p": "Hans Bethe won the 1967 Nobel Prize in Physics for explaining how these objects produce energy. Heavier ones mostly rely on the CNO cycle, in which carbon, nitrogen, and oxygen nuclei act as catalysts, while lighter ones mostly use the proton-proton chain.",
+      "r": "Those reactions fuse hydrogen into helium in their cores. For 10 points, name these objects, which include Sirius and the Sun."
+    },
+    {
+      "p": "A famous 1957 paper by Margaret and Geoffrey Burbidge, William Fowler, and Fred Hoyle explained how chemical elements are forged inside these objects. Fusion in their cores releases energy only for elements up to iron, so an iron core cannot keep a massive one shining.",
+      "r": "That core then collapses, which can set off a supernova. For 10 points, name these huge balls of glowing gas, such as Betelgeuse and the Sun."
+    },
+    {
+      "p": "In 1838, Friedrich Bessel made the first measurement of the distance to one of these objects outside our solar system by detecting the tiny yearly back-and-forth shift, or parallax, of 61 Cygni [“SIG-nee”] against more distant ones.",
+      "r": "Distances to these objects are often given in light-years. For 10 points, name these objects, the nearest of which, besides the Sun, is Proxima Centauri."
+    },
+    {
+      "p": "One parsec, about 3.26 light-years, is the distance at which one of these objects would show a parallax angle of one arcsecond. Absolute magnitude measures how bright one of these objects would look if it were placed 10 parsecs away.",
+      "r": "On the apparent magnitude scale, lower numbers mean brighter, so the brightest ones have negative values. For 10 points, name these objects that twinkle in the night sky."
+    },
+    {
+      "p": "In 1856, Norman Pogson defined a difference of five magnitudes as a brightness ratio of exactly 100. He was sharpening an ancient scale, credited to Hipparchus [“hih-PAR-kus”], that ranked these objects from first magnitude, the brightest, to sixth magnitude, the faintest visible without a telescope.",
+      "r": "The brightest of them in the night sky, Sirius, lies in Canis Major. For 10 points, name these objects, which ancient people grouped into constellations."
+    },
+    {
+      "p": "Wien’s [“VEENZ”] law says that the hotter one of these objects is, the shorter the wavelength at which its light is strongest. The Stefan–Boltzmann law says that the energy given off by each square meter of one of these objects rises with the fourth power of its temperature.",
+      "r": "Blue-white ones are the hottest, and red ones are the coolest. For 10 points, name these objects, whose colors reveal their surface temperatures."
+    },
+    {
+      "p": "Objects with less than about 8 percent of the Sun’s mass, roughly 80 times the mass of Jupiter, never get hot enough inside to keep fusing ordinary hydrogen, so they do not count as these objects. Those failed versions of these objects are called brown dwarfs.",
+      "r": "Red dwarfs, the smallest true ones, are the most common kind in the Milky Way. For 10 points, name these objects powered by nuclear fusion."
+    },
+    {
+      "p": "These objects stay stable through hydrostatic equilibrium, a balance between the outward push of hot gas and the inward pull of gravity. When fusion ends, a leftover core heavier than about 1.4 times the Sun’s mass, the Chandrasekhar [“chan-druh-SAY-kar”] limit, is too heavy to become a white dwarf.",
+      "r": "A Sun-like one swells into a red giant before it dies. For 10 points, name these objects that shine by fusing hydrogen into helium."
+    },
+    {
+      "p": "Johann Bayer’s 1603 sky atlas _Uranometria_ labeled these objects with Greek letters such as alpha and beta, often giving alpha to the brightest one in each group. Many of their traditional names, which reached Europe through medieval astronomy, come from Arabic.",
+      "r": "Astronomers divide the whole sky into 88 official constellations. For 10 points, name these objects, such as Sirius and Rigel."
+    },
+    {
+      "p": "Astronomers use the word scintillation for a rapid effect in the light of these objects. Large telescopes undo the resulting blur with adaptive optics, using flexible mirrors that change shape many times each second, often guided by a laser that creates an artificial one of these objects in the sky.",
+      "r": "That effect, called twinkling, happens because moving air in Earth’s atmosphere bends their light. For 10 points, name these objects, such as Vega and Polaris."
+    },
+    {
+      "p": "In 1912, Henrietta Leavitt found that Cepheid [“SEF-ee-id”] variables, a type of these objects that regularly brighten and dim, are more luminous the longer they take to pulse. Edwin Hubble later used that rule to show that the Andromeda “nebula” is a separate galaxy.",
+      "r": "The Hertzsprung–Russell diagram plots these objects’ brightness against their temperature. For 10 points, name these objects, which include Polaris and the Sun."
+    },
+    {
+      "p": "Late in their lives, many of these objects fuse three helium nuclei into one carbon nucleus in the triple-alpha process. In lower-mass ones, helium fusion switches on suddenly in the core, an event called the helium flash.",
+      "r": "Before that, they spend most of their lives on the main sequence. For 10 points, name these balls of plasma, the nearest of which is the Sun."
+    },
+    {
+      "p": "In 1944, Walter Baade sorted these objects into Population I, young ones rich in elements heavier than helium, and Population II, older ones with far fewer such elements. Astronomers who study these objects call every element heavier than helium a “metal.”",
+      "r": "New ones are born when gravity pulls together clouds of gas and dust called nebulae. For 10 points, name these objects, which form constellations such as Orion."
+    },
+    {
+      "p": "Launched in 2013, the European Space Agency’s Gaia spacecraft measured precise positions and distances for more than a billion of these objects. Gaia followed the Hipparcos satellite, whose name honors an ancient Greek astronomer who cataloged these objects.",
+      "r": "One light-year, the distance light travels in a year, is about 9.5 trillion kilometers. For 10 points, name these objects, such as Aldebaran and Antares."
+    }
+  ],
+  "clues": [
+    {
+      "id": "fusion",
+      "tier": "giveaway",
+      "t": "Huge, glowing balls of hot plasma that shine by fusing hydrogen into helium in their cores",
+      "k": [
+        "plasma",
+        "fusing hydrogen",
+        "helium"
+      ],
+      "n": 0,
+      "rabbit": "Nuclear fusion"
+    },
+    {
+      "id": "sun-nearest",
+      "tier": "giveaway",
+      "t": "The Sun is the closest one to Earth; most other points of light in the night sky are far more distant ones",
+      "k": [
+        "the sun",
+        "closest",
+        "points of light"
+      ],
+      "n": 0,
+      "rabbit": "The Sun"
+    },
+    {
+      "id": "classes",
+      "tier": "giveaway",
+      "t": "Sorted by temperature into classes O, B, A, F, G, K, M, from hottest to coolest (“Oh Be A Fine Girl/Guy, Kiss Me”)",
+      "k": [
+        "classes",
+        "oh be a fine",
+        "hottest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twinkle",
+      "tier": "giveaway",
+      "t": "They seem to twinkle because moving air in Earth’s atmosphere bends their light; planets usually twinkle less",
+      "k": [
+        "twinkle",
+        "atmosphere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "constellations",
+      "tier": "giveaway",
+      "t": "People group the bright ones into patterns called constellations, like Orion; astronomers recognize 88 official constellations",
+      "k": [
+        "constellations",
+        "88",
+        "orion"
+      ],
+      "n": 0,
+      "rabbit": "Orion"
+    },
+    {
+      "id": "color",
+      "tier": "middle",
+      "t": "Color shows surface temperature: blue-white ones are hottest, yellow ones like the Sun are in between, and red ones are coolest",
+      "k": [
+        "color",
+        "blue-white",
+        "temperature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sirius",
+      "tier": "middle",
+      "t": "Sirius, in Canis Major, is the brightest one in the night sky, about 8.6 light-years away",
+      "k": [
+        "sirius",
+        "canis major",
+        "brightest"
+      ],
+      "n": 0
+    },
+    {
+      "id": "proxima",
+      "tier": "middle",
+      "t": "Proxima Centauri, a dim red dwarf about 4.2 light-years away, is the nearest one beyond the Sun; one light-year is about 9.5 trillion km",
+      "k": [
+        "proxima centauri",
+        "light-year",
+        "9.5 trillion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "magnitude",
+      "tier": "middle",
+      "t": "Brightness is measured in magnitudes: the lower the number, the brighter, so the brightest ones have negative magnitudes",
+      "k": [
+        "magnitudes",
+        "lower",
+        "negative"
+      ],
+      "n": 0,
+      "rabbit": "Luminosity"
+    },
+    {
+      "id": "hr-diagram",
+      "tier": "middle",
+      "t": "The Hertzsprung–Russell diagram plots their luminosity against temperature; about 90 percent lie on its main sequence",
+      "k": [
+        "hertzsprung",
+        "main sequence",
+        "luminosity"
+      ],
+      "n": 0,
+      "rabbit": "Hertzsprung–Russell diagram"
+    },
+    {
+      "id": "sun-like-death",
+      "tier": "middle",
+      "t": "A Sun-like one swells into a red giant, puffs off a planetary nebula, and leaves behind a white dwarf",
+      "k": [
+        "red giant",
+        "planetary nebula",
+        "white dwarf"
+      ],
+      "n": 0,
+      "rabbit": "White dwarfs"
+    },
+    {
+      "id": "massive-death",
+      "tier": "middle",
+      "t": "One with more than about eight times the Sun’s mass ends in a supernova, leaving an ultra-dense ball of neutrons or a black hole",
+      "k": [
+        "supernova",
+        "black hole",
+        "neutrons"
+      ],
+      "n": 0,
+      "rabbit": "Supernovae"
+    },
+    {
+      "id": "nebula-birth",
+      "tier": "middle",
+      "t": "They are born when gravity pulls together cold clouds of gas and dust called nebulae, such as the Orion Nebula",
+      "k": [
+        "nebulae",
+        "orion nebula",
+        "gravity"
+      ],
+      "n": 0,
+      "rabbit": "Nebulae"
+    },
+    {
+      "id": "cannon",
+      "tier": "middle",
+      "t": "At Harvard, Annie Jump Cannon sorted hundreds of thousands of them into the O-to-M classes",
+      "k": [
+        "annie jump cannon",
+        "harvard"
+      ],
+      "n": 0
+    },
+    {
+      "id": "payne",
+      "tier": "power",
+      "t": "Cecilia Payne’s 1925 thesis showed that they are made mostly of hydrogen and helium",
+      "k": [
+        "cecilia payne",
+        "1925",
+        "thesis"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bethe",
+      "tier": "power",
+      "t": "Hans Bethe won the 1967 Nobel Prize in Physics for explaining how they make energy; heavier ones mostly use the CNO cycle, lighter ones the proton-proton chain",
+      "k": [
+        "hans bethe",
+        "cno cycle",
+        "proton-proton chain"
+      ],
+      "n": 0
+    },
+    {
+      "id": "b2fh-iron",
+      "tier": "power",
+      "t": "A 1957 paper by the Burbidges, William Fowler, and Fred Hoyle explained how they forge elements; fusion in their cores releases energy only up to iron",
+      "k": [
+        "burbidges",
+        "fred hoyle",
+        "iron"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bessel-gaia",
+      "tier": "power",
+      "t": "Friedrich Bessel first measured the distance to one beyond the Sun, 61 Cygni, by parallax (1838); the Gaia spacecraft (launched 2013) measured more than a billion",
+      "k": [
+        "bessel",
+        "61 cygni",
+        "parallax",
+        "gaia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parsec",
+      "tier": "power",
+      "t": "A parsec (about 3.26 light-years) is the distance at which one would show a parallax of one arcsecond; absolute magnitude is brightness as seen from 10 parsecs",
+      "k": [
+        "parsec",
+        "arcsecond",
+        "absolute magnitude"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pogson",
+      "tier": "power",
+      "t": "Hipparchus is credited with ranking them from 1st magnitude (brightest) to 6th; in 1856, Norman Pogson made a 5-magnitude gap equal a brightness ratio of 100",
+      "k": [
+        "hipparchus",
+        "pogson",
+        "1856"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wien",
+      "tier": "power",
+      "t": "Wien’s law: hotter ones give off light that peaks at shorter wavelengths; by the Stefan–Boltzmann law, energy per square meter grows with temperature to the fourth power",
+      "k": [
+        "wien",
+        "wavelengths",
+        "stefan"
+      ],
+      "n": 0
+    },
+    {
+      "id": "brown-dwarfs",
+      "tier": "power",
+      "t": "Objects under about 8 percent of the Sun’s mass (about 80 Jupiters) are brown dwarfs, too small to keep fusing ordinary hydrogen",
+      "k": [
+        "brown dwarfs",
+        "8 percent"
+      ],
+      "n": 0,
+      "rabbit": "Main sequence"
+    },
+    {
+      "id": "equilibrium",
+      "tier": "power",
+      "t": "They stay stable by hydrostatic equilibrium; a dead core above about 1.4 Suns (the Chandrasekhar limit) is too heavy to be a white dwarf",
+      "k": [
+        "hydrostatic equilibrium",
+        "chandrasekhar",
+        "1.4"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bayer",
+      "tier": "power",
+      "t": "Johann Bayer’s 1603 atlas _Uranometria_ labeled them with Greek letters, often alpha for the brightest in a constellation; many traditional names come from Arabic",
+      "k": [
+        "bayer",
+        "uranometria",
+        "greek letters",
+        "arabic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "scintillation",
+      "tier": "power",
+      "t": "Astronomers call their twinkling scintillation; telescopes undo the blurring with adaptive optics, often aimed using a laser that creates an artificial one",
+      "k": [
+        "scintillation",
+        "adaptive optics",
+        "laser"
+      ],
+      "n": 0
+    },
+    {
+      "id": "leavitt",
+      "tier": "power",
+      "t": "Henrietta Leavitt (1912): Cepheid variables that pulse more slowly are more luminous, a key tool for measuring distances",
+      "k": [
+        "henrietta leavitt",
+        "cepheid",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Cepheid variables"
+    },
+    {
+      "id": "triple-alpha",
+      "tier": "power",
+      "t": "Later in life they fuse three helium nuclei into carbon (the triple-alpha process); in lower-mass ones, helium ignites suddenly in a helium flash",
+      "k": [
+        "triple-alpha",
+        "helium flash",
+        "carbon"
+      ],
+      "n": 0
+    },
+    {
+      "id": "populations",
+      "tier": "power",
+      "t": "Walter Baade (1944) split them into metal-rich Population I and older, metal-poor Population II; astronomers call all elements heavier than helium “metals”",
+      "k": [
+        "walter baade",
+        "population i",
+        "metals"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "The group, not one",
+    "body": "Stars tossups are packed with famous examples, so players who hear “Sirius,” “Proxima Centauri,” or “Betelgeuse” blurt out that one star’s name, and others say “the Sun.” When a question asks for “these objects,” naming a single example is wrong, and so is naming a stage of life like “red giants” or “white dwarfs.” The reverse trap waits on the Sun’s own tossups, where saying only “star” earns just a prompt.",
+    "fix": "Listen for the plural: “these objects” or “these balls of plasma,” with clues about fusion, spectral classes, color and temperature, magnitudes, or life cycles, means stars. This page marks “the Sun” wrong because it is one example, not the whole group; save it for a question about “this star” with clues like eight-minute sunlight or the corona.",
+    "line": "Real answer line: <b><u>star</u></b>s (accept <u>star</u>; do not accept or prompt on “the Sun” or the name of a single star)"
+  },
+  "tests": {
+    "right": [
+      "Stars",
+      "star",
+      "Strs",
+      "the stars",
+      "a star"
+    ],
+    "prompt": [],
+    "wrong": [
+      "the Sun",
+      "Sun",
+      "planets",
+      "galaxies",
+      "constellations",
+      "neutron stars",
+      "shooting stars",
+      "Sirius",
+      "red giants"
+    ]
+  }
+}
