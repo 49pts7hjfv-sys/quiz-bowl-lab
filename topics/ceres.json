@@ -62,7 +62,7 @@
       "r": "For 10 points, name this dwarf planet in the asteroid belt, which NASA’s Dawn probe orbited."
     },
     {
-      "p": "In 2014, the European Space Agency’s Herschel Space Observatory detected water vapor coming from this world. Scientists think a layer of salty water, or brine, may still lie deep beneath its crater Occator.",
+      "p": "In 2014, astronomers using the European Space Agency’s Herschel Space Observatory reported water vapor coming from this world. Scientists think a layer of salty water, or brine, may still lie deep beneath its crater Occator.",
       "r": "For 10 points, name this dwarf planet, the only one in the inner solar system."
     },
     {
@@ -94,7 +94,7 @@
       "r": "That probe, Dawn, had visited Vesta first. For 10 points, name this largest object in the asteroid belt."
     },
     {
-      "p": "This world takes about four and a half years to orbit the Sun and spins once about every nine hours. It is far more massive than Vesta, the second-most massive object in its region, but Vesta usually looks brighter in our sky.",
+      "p": "This world takes about 4.6 years to orbit the Sun and spins once about every nine hours. It is far more massive than Vesta, the second-most massive object in its region, but Vesta usually looks brighter in our sky.",
       "r": "For 10 points, name this dwarf planet in the asteroid belt, discovered by Giuseppe Piazzi."
     },
     {
@@ -151,7 +151,7 @@
     {
       "id": "dawn",
       "tier": "giveaway",
-      "t": "NASA’s Dawn spacecraft orbited it from 2015 to 2018",
+      "t": "NASA’s Dawn spacecraft reached orbit around it in 2015 and studied it until 2018",
       "k": [
         "dawn",
         "2015"
@@ -276,7 +276,7 @@
     {
       "id": "water-vapor",
       "tier": "power",
-      "t": "In 2014, the Herschel Space Observatory detected water vapor coming from it; brine may lie deep beneath Occator",
+      "t": "In 2014, astronomers using the Herschel Space Observatory reported water vapor coming from it; brine may lie deep beneath Occator",
       "k": [
         "water vapor",
         "herschel",

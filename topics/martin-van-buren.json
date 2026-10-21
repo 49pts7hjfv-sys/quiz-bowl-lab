@@ -61,7 +61,6 @@
     "henry clay",
     "daniel webster",
     "hugh lawson white",
-    "kinderhook",
     "rip van winkle",
     "washington irving",
     "peggy eaton",
@@ -98,7 +97,7 @@
     },
     {
       "p": "Just weeks after this man took office, banks in New York stopped paying out gold and silver, setting off a depression that lasted for years. Many people blamed his predecessor’s Specie Circular, which had required buyers of public land to pay in gold or silver.",
-      "r": "That crisis was the Panic of 1837. For 10 points, name this president, mocked as “Martin Van Ruin.”"
+      "r": "That crisis was the Panic of 1837. For 10 points, name this eighth president, Andrew Jackson’s successor."
     },
     {
       "p": "This president’s answer to a financial crisis was to keep federal money in government vaults instead of private banks, a “divorce” of the government from the banks. He signed the act creating that system on July 4, 1840, but the Whigs repealed it the next year.",
@@ -168,7 +167,7 @@
     {
       "id": "panic",
       "tier": "giveaway",
-      "t": "President during the Panic of 1837, which began weeks after he took office; critics called him “Martin Van Ruin”",
+      "t": "President during the Panic of 1837, which began just weeks after he took office",
       "k": [
         "panic of 1837",
         "1837",
@@ -461,7 +460,8 @@
     ],
     "prompt": [
       "Martin",
-      "Little Magician"
+      "Little Magician",
+      "Old Kinderhook"
     ],
     "wrong": [
       "Andrew Jackson",
@@ -470,7 +470,8 @@
       "James K. Polk",
       "Martin Luther",
       "Richard Mentor Johnson",
-      "Hannah Van Buren"
+      "Hannah Van Buren",
+      "Kinderhook"
     ]
   }
 }

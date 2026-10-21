@@ -7,7 +7,7 @@
   "kicker": "Pulsing stars that reveal their true brightness · Yardsticks for the universe",
   "dates": "First found 1784; Leavitt’s law 1912",
   "briefing": "Cepheid variables are giant stars that swell and shrink like a beating heart, brightening and dimming on a regular schedule of days or weeks. In 1912, Henrietta Swan Leavitt discovered that the slower a Cepheid pulses, the more light it truly gives off, so astronomers can work out how far away it is. Edwin Hubble used that rule to show that the Andromeda “nebula” is a separate galaxy.",
-  "answerHtml": "<b><u>Cepheid</u></b> variables (accept <u>Cepheid</u>s or <u>Delta Cephei</u> variables; prompt on <u>variable star</u>s, <u>pulsating star</u>s, or <u>standard candle</u>s; do not accept “RR Lyrae” or “Polaris”)",
+  "answerHtml": "<b><u>Cepheid</u></b> variables (accept <u>Cepheid</u>s or <u>Delta Cephei</u> variables; prompt on <u>variable star</u>s, <u>pulsating star</u>s, or <u>standard candle</u>s; do not accept “Cepheus,” “RR Lyrae,” or “Polaris”)",
   "accept": [
     "cepheid variables",
     "cepheid variable",
@@ -83,7 +83,7 @@
       "r": "That astronomer, Henrietta Swan Leavitt [“LEV-it”], found that the longer these stars take to pulse, the brighter they are. For 10 points, name these pulsating stars."
     },
     {
-      "p": "In October 1923, Edwin Hubble crossed out the letter “N” on a photographic plate of the Andromeda “nebula” and wrote “VAR!” after realizing that a star he had marked as a nova was really one of these stars.",
+      "p": "After photographing the Andromeda “nebula” in October 1923, Edwin Hubble crossed out the letter “N” on the plate and wrote “VAR!” when he realized that a star he had marked as a nova was really one of these stars.",
       "r": "That star proved that Andromeda is a separate galaxy. For 10 points, name these pulsating stars that serve as standard candles."
     },
     {
@@ -115,7 +115,7 @@
       "r": "For 10 points, name these pulsating stars, which work as standard candles."
     },
     {
-      "p": "As these stars pulse, Doppler shifts in their spectra show their surfaces moving toward and away from us, and their temperatures rise and fall along with their sizes. Their cycles range from about a day to a few months.",
+      "p": "As these stars pulse, Doppler shifts in their spectra show their surfaces moving toward and away from us, and their surface temperatures change over each cycle, too. Their cycles range from about a day to a few months.",
       "r": "Longer-period ones are more luminous. For 10 points, name these pulsating stars named for Delta Cephei."
     },
     {
@@ -131,8 +131,8 @@
       "r": "For 10 points, name these stars that brighten and dim in a regular cycle whose period reveals their luminosity."
     },
     {
-      "p": "The same deaf astronomer who discovered the namesake of these stars had earlier suggested that the star Algol dims because a darker companion passes in front of it.",
-      "r": "That astronomer, John Goodricke, found Delta Cephei in 1784. For 10 points, name these pulsating stars used as standard candles."
+      "p": "The same deaf astronomer who discovered that the namesake of these stars changes in brightness had earlier suggested that the star Algol dims because a darker companion passes in front of it.",
+      "r": "That astronomer, John Goodricke, noticed Delta Cephei’s changes in 1784. For 10 points, name these pulsating stars used as standard candles."
     }
   ],
   "clues": [

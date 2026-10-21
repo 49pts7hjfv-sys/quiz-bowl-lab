@@ -6,8 +6,8 @@
   "qbCategory": "Science · Other Science (Astronomy)",
   "kicker": "Hydrogen-fusing band on the H–R diagram · Where stars spend most of their lives",
   "dates": "Found on the first H–R diagrams, 1911–1913",
-  "briefing": "Plot stars by brightness and temperature, and most of them fall along one diagonal stripe: the main sequence. A star joins it when it starts fusing hydrogen into helium in its core, and it stays there for about 90 percent of its life. Heavier stars sit higher on the stripe and burn out faster. The Sun has been on the main sequence for about 4.6 billion years and has roughly 5 billion to go.",
-  "answerHtml": "<b><u>main sequence</u></b> (accept <u>main-sequence star</u>s; prompt on <u>dwarf</u> stars or luminosity <u>class V</u>; do not accept “Hertzsprung–Russell diagram” or “red giants”)",
+  "briefing": "Plot stars by brightness and temperature, and most of them fall along one diagonal stripe: the main sequence. A star joins it when it starts fusing hydrogen into helium in its core and stays there for about 90 percent of its life; heavier stars sit higher on the stripe and burn out faster. The Sun has been on the main sequence for about 4.6 billion years and has roughly 5 billion to go.",
+  "answerHtml": "<b><u>main sequence</u></b> (accept <u>main-sequence star</u>s; prompt on <u>dwarf</u> stars or luminosity <u>class V</u>; do not accept “Hertzsprung–Russell diagram,” “red giants,” or “white dwarfs”)",
   "accept": [
     "main sequence",
     "the main sequence",
@@ -58,7 +58,7 @@
   },
   "tossups": [
     {
-      "p": "The Vogt–Russell theorem says that a star’s mass and chemical makeup decide where it sits on this band. Stars on this band stay stable because the outward push of their hot gas balances the inward pull of gravity, a state called hydrostatic equilibrium.",
+      "p": "Stars on this band stay stable because the outward push of their hot gas balances the inward pull of gravity, a state called hydrostatic equilibrium. Annie Jump Cannon’s spectral classes O, B, A, F, G, K, and M run along this band, from its hottest stars to its coolest.",
       "r": "The Sun lies on this band. For 10 points, name this diagonal band on the Hertzsprung–Russell diagram, where stars fuse hydrogen into helium in their cores."
     },
     {
@@ -260,12 +260,13 @@
       "n": 0
     },
     {
-      "id": "vogt-russell",
+      "id": "spectral-classes",
       "tier": "power",
-      "t": "The Vogt–Russell theorem: a star’s mass and chemical makeup determine its structure and its place on this band",
+      "t": "Annie Jump Cannon’s spectral classes O, B, A, F, G, K, M run along it, from the hottest stars at the upper left to the coolest at the lower right",
       "k": [
-        "vogt",
-        "chemical makeup"
+        "annie jump cannon",
+        "spectral classes",
+        "obafgkm"
       ],
       "n": 0
     },
@@ -395,7 +396,7 @@
   ],
   "trap": {
     "title": "Band, diagram, or dwarf?",
-    "body": "Tossups on this band are full of H–R diagram clues, so players buzz with “Hertzsprung–Russell diagram,” which is the whole graph, not the band of stars on it. Others answer “red giants,” the stage that comes right after it. The word “dwarf” causes more trouble: the Sun (a yellow dwarf) and red dwarfs are on this band, but white dwarfs and brown dwarfs are not.",
+    "body": "Tossups on this band are full of H–R diagram clues, so players buzz with “Hertzsprung–Russell diagram,” which is the whole graph, not the band of stars on it. Others answer “red giants,” the stage that comes after it. The word “dwarf” causes more trouble: the Sun (a yellow dwarf) and red dwarfs are on this band, but white dwarfs and brown dwarfs are not.",
     "fix": "“This band,” “this stage,” hydrogen fusing into helium in the core, the turnoff, or the zero-age line means main sequence. “This diagram” or “this graph” means the H–R diagram. Saying only “dwarf stars” earns a prompt, so give the full name.",
     "line": "Real answer line: <b><u>main sequence</u></b> (accept <u>main-sequence star</u>s; do not accept “Hertzsprung–Russell diagram” or “red giants”)"
   },

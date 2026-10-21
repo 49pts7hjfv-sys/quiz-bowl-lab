@@ -128,11 +128,11 @@
       "r": "He liked to hand out shiny new dimes to the people he met. For 10 points, name this oil tycoon who founded Standard Oil."
     },
     {
-      "p": "Within a few weeks in early 1872, this man’s company bought out 22 of its 26 Cleveland competitors, an episode critics called the “Cleveland Massacre.” He usually offered rival owners either cash or shares of his company’s stock, and those who took the stock often grew rich.",
+      "p": "In early 1872, this man’s company bought out 22 of its 26 Cleveland competitors, an episode critics called the “Cleveland Massacre.” He usually offered rival owners either cash or shares of his company’s stock, and those who took the stock often grew rich.",
       "r": "Combining firms that do the same job is called horizontal integration. For 10 points, name this founder of Standard Oil."
     },
     {
-      "p": "This man’s partner Henry Flagler later built a railroad down Florida’s east coast and turned Palm Beach into a resort. This man moved his company’s headquarters to 26 Broadway in New York City in 1885, and after he stepped back in the late 1890s, John D. Archbold ran the company.",
+      "p": "Born in 1839 in Richford, New York, this man moved with his family to the Cleveland area as a teenager. His partner Henry Flagler later built a railroad down Florida’s east coast and turned Palm Beach into a resort.",
       "r": "Flagler and this man had been partners since the 1860s in Cleveland. For 10 points, name this founder of Standard Oil."
     },
     {
@@ -316,7 +316,7 @@
     {
       "id": "cleveland-massacre",
       "tier": "power",
-      "t": "“Cleveland Massacre” (1872): bought out 22 of 26 Cleveland rivals within a few weeks",
+      "t": "“Cleveland Massacre” (early 1872): bought out 22 of 26 Cleveland rivals",
       "k": [
         "cleveland massacre",
         "massacre",
@@ -437,13 +437,13 @@
       "n": 0
     },
     {
-      "id": "archbold",
+      "id": "richford",
       "tier": "power",
-      "t": "Moved headquarters to 26 Broadway, New York (1885); John D. Archbold ran the company after he stepped back",
+      "t": "Born in Richford, New York, in 1839; moved with his family to the Cleveland area as a teenager",
       "k": [
-        "26 broadway",
-        "archbold",
-        "broadway"
+        "richford",
+        "new york",
+        "1839"
       ],
       "n": 0
     },
