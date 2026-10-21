@@ -4,7 +4,7 @@
   "mono": "REI",
   "category": "Religion",
   "qbCategory": "Religion",
-  "kicker": "The soul’s return in a new body after death · From India to ancient Greece",
+  "kicker": "Belief in the soul’s return in a new body · From India to ancient Greece",
   "dates": "Taught since ancient times in India and Greece",
   "briefing": "Imagine being two years old and hearing that you are a great teacher who has returned in a new body. In 1937, Tibetan Buddhists believed exactly that about a little boy whom they recognized as the fourteenth Dalai Lama. Reincarnation, the belief that after death a soul is born again in a new body, is central to Hinduism, and Buddhists, Jains, Sikhs, the Druze, and Greek thinkers like Pythagoras and Plato have taught versions of it.",
   "answerHtml": "<b><u>reincarnation</u></b> (accept <u>rebirth</u>, <u>transmigration</u> of souls, or <u>metempsychosis</u>; do not accept “samsara,” “karma,” “resurrection,” or “nirvana”)",
@@ -35,7 +35,6 @@
     "afterlife",
     "immortality",
     "atman",
-    "soul",
     "bardo",
     "tulku",
     "dalai lama",
@@ -70,7 +69,7 @@
       "r": "For 10 points, name this belief that the eternal self, or atman, passes into a new body after death."
     },
     {
-      "p": "In the _Questions of King Milinda_, the monk Nagasena [“NAH-guh-SAY-nuh”] compares this process to lighting one lamp from another, since Buddhists teach that no permanent self passes from one life to the next. Buddhists picture six realms where beings may enter a new life, from gods to hungry ghosts.",
+      "p": "In the _Questions of King Milinda_, the monk Nagasena [“NAH-guh-SAY-nuh”] compares this process to lighting one lamp from another, since Buddhists teach that no permanent self passes from one life to the next. Buddhists picture six realms where beings may enter a new life, from gods to hell beings.",
       "r": "For 10 points, name this belief that, after death, a being returns to life in a new body."
     },
     {
@@ -137,7 +136,7 @@
     {
       "id": "samsara",
       "tier": "giveaway",
-      "t": "Hindus call the endless cycle of birth, death, and new birth samsara; karma drives it",
+      "t": "Hindus call the endless cycle of birth, death, and new birth samsara and believe karma drives it",
       "k": [
         "samsara",
         "cycle",
@@ -445,7 +444,8 @@
       "transmigration of souls",
       "metempsychosis",
       "reincarnaton",
-      "being reincarnated"
+      "being reincarnated",
+      "transmigration of the soul"
     ],
     "prompt": [],
     "wrong": [

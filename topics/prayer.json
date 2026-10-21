@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Speaking to God or the divine · Practiced in nearly every religion",
   "dates": "Found in religions around the world",
-  "briefing": "Five times a day, Muslims face Mecca for salat; three times a day, many Jews recite the Amidah facing Jerusalem; and Christians around the world say the prayer Jesus taught, beginning “Our Father.” Prayer, the act of speaking to God or another divine power, takes many forms: Tibetan Buddhists spin prayer wheels, Hindus chant mantras at dawn, and many Sikhs begin each morning with Guru Nanak’s Japji.",
+  "briefing": "Five times a day, Muslims face Mecca for salat; three times a day, many Jews recite the Amidah facing Jerusalem; and Christians around the world say the prayer Jesus taught, beginning “Our Father.” Prayer, the act of speaking to God or another divine power, takes many forms: Tibetan Buddhists spin prayer wheels, many Hindus chant mantras at dawn, and many Sikhs begin each morning with Guru Nanak’s Japji.",
   "answerHtml": "<b><u>prayer</u></b> (accept word forms like <u>praying</u>; prompt on <u>worship</u>; do not accept “meditation” or a specific prayer such as the “Lord’s Prayer”)",
   "accept": [
     "prayer",
@@ -16,7 +16,9 @@
     "prayed"
   ],
   "prompt": [
-    "worship"
+    "worship",
+    "salat",
+    "salah"
   ],
   "reject": [
     "meditation",
@@ -104,7 +106,7 @@
       "r": "That devotion is the rosary. For 10 points, name this act of speaking to God or to holy figures."
     },
     {
-      "p": "Tibetan Buddhists spin metal wheels named for this act, which are filled with scrolls printed with the mantra “Om mani padme hum” [“ohm MAH-nee PAHD-may HOOM”], believing each turn spreads the same blessing as reciting it. They also hang colorful flags named for this act so the wind can carry the blessings away.",
+      "p": "Tibetan Buddhists spin wheels named for this act, which are filled with scrolls printed with the mantra “Om mani padme hum” [“ohm MAH-nee PAHD-may HOOM”], believing each turn spreads the same blessing as reciting it. They also hang colorful flags named for this act so the wind can carry the blessings away.",
       "r": "For 10 points, name this act of addressing God or holy beings, which Muslims perform five times a day."
     },
     {
@@ -112,7 +114,7 @@
       "r": "Strings of beads used this way are named for this act. For 10 points, name this act of addressing God."
     },
     {
-      "p": "Many Sikhs begin each morning by reciting Guru Nanak’s Japji Sahib [“JUP-jee SAH-hib”], the first composition in their holy book, and they end services with the Ardas [“ur-DAHS”], a form of this act said while standing with folded hands. Those daily recitations are called Nitnem [“NIT-nem”], or “daily rule.”",
+      "p": "Many Sikhs begin each morning by reciting Guru Nanak’s Japji Sahib [“JUP-jee SAH-hib”], the first composition in their holy book, and they end services with the Ardas [“ur-DAHS”], a form of this act said while standing with folded hands. Japji is the first of the daily recitations called Nitnem [“NIT-nem”], or “daily rule.”",
       "r": "For 10 points, name this act of addressing God, which Sikhs, Jews, Christians, and Muslims all practice."
     },
     {
@@ -124,7 +126,7 @@
       "r": "For 10 points, name this act of addressing gods or spirits, also practiced in churches, mosques, and synagogues."
     },
     {
-      "p": "Albrecht Dürer’s [“DOO-rer’z”] 1508 ink drawing of a pair of folded hands became a famous symbol of this act. In the Gospels, Jesus does this in the Garden of Gethsemane [“geth-SEM-uh-nee”] on the night before his death, asking that “this cup” pass from him.",
+      "p": "A 1508 ink drawing by Albrecht Dürer [“DYUR-er”] of a pair of folded hands became a famous symbol of this act. In the Gospels, Jesus does this in the Garden of Gethsemane [“geth-SEM-uh-nee”] on the night before his death, asking that “this cup” pass from him.",
       "r": "For 10 points, name this act of speaking to God, often done with bowed head and folded hands."
     },
     {
@@ -472,7 +474,8 @@
       "pray"
     ],
     "prompt": [
-      "worship"
+      "worship",
+      "salat"
     ],
     "wrong": [
       "meditation",

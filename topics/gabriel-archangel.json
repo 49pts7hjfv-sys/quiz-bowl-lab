@@ -67,7 +67,7 @@
       "r": "Muslims believe he revealed the Quran to Muhammad. For 10 points, name this archangel of the Annunciation."
     },
     {
-      "p": "While the priest Zechariah [“zek-uh-RYE-uh”] was burning incense in the Temple, this figure told him that his elderly wife would have a son. Because Zechariah doubted the message, this figure made him unable to speak until the baby was born.",
+      "p": "While the priest Zechariah [“zek-uh-RYE-uh”] was burning incense in the Temple, this figure told him that his elderly wife would have a son. Because Zechariah doubted the message, this figure made him unable to speak until the baby was named.",
       "r": "That baby was John the Baptist. In the sixth month of that pregnancy, this angel visited Mary in Nazareth. For 10 points, name this archangel."
     },
     {
@@ -99,7 +99,7 @@
       "r": "Muslims believe this angel also brought the Quran to Muhammad. For 10 points, name this archangel."
     },
     {
-      "p": "Muslim tradition says this figure went over the entire revelation with Muhammad every Ramadan, and twice in Muhammad’s final year. Muslims also identify this figure with the “Trustworthy Spirit” mentioned in the Quran, and the surah “The Cow” lists him beside Michael.",
+      "p": "Muslim tradition says this figure went over the revelation with Muhammad every Ramadan, and twice in Muhammad’s final year. Muslims also identify this figure with the “Trustworthy Spirit” mentioned in the Quran, and the surah “The Cow” lists him beside Michael.",
       "r": "For 10 points, name this archangel who, Muslims believe, brought the Quran down to Muhammad’s heart."
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "p": "This figure’s Hebrew name is often translated “God is my strength,” and Catholics honor him as a patron saint of messengers and communications workers. In the Gospel of Luke, this figure tells a doubting priest, “I stand in the presence of God.”",
-      "r": "He also announced the birth of John the Baptist. For 10 points, name this archangel who announced the birth of Jesus to Mary."
+      "r": "That priest’s son became John the Baptist. For 10 points, name this archangel who announced the birth of Jesus to Mary."
     }
   ],
   "clues": [
@@ -182,7 +182,7 @@
     {
       "id": "zechariah",
       "tier": "middle",
-      "t": "Told the priest Zechariah that his wife Elizabeth would have a son, John the Baptist; Zechariah doubted and could not speak until the birth",
+      "t": "Told the priest Zechariah that his wife Elizabeth would have a son, John the Baptist; Zechariah doubted and could not speak until the baby was named",
       "k": [
         "zechariah",
         "elizabeth",
@@ -364,7 +364,7 @@
     {
       "id": "the-cow",
       "tier": "power",
-      "t": "Named in the Quran’s longest surah, “The Cow” (Al-Baqarah), where the next verse lists him beside Michael",
+      "t": "Named in the Quran’s longest surah, “The Cow” (Al-Baqarah), in a verse that lists him beside Michael",
       "k": [
         "the cow",
         "baqarah",
@@ -423,7 +423,7 @@
   "trap": {
     "title": "Which archangel?",
     "body": "Gabriel shares the stage with other named angels. Michael is the warrior who battles the dragon in the Book of Revelation and protects Israel in the Book of Daniel; Raphael guides young Tobias in the Book of Tobit (and Raphael the Renaissance painter is a separate answer line); and in Islamic tradition, Israfil, not Gabriel, blows the trumpet on Judgment Day. The angels who speak to Joseph in his dreams and to the shepherds at Jesus’s birth are never named in the Gospels.",
-    "fix": "Messages and announcements (Daniel’s visions, Zechariah, Mary, and the revelation of the Quran) point to Gabriel, whom Muslims call Jibril; both names are accepted. Battles with the dragon or with Satan point to Michael, and healing or the Book of Tobit points to Raphael.",
+    "fix": "Messages and announcements (Daniel’s visions, Zechariah, Mary, and the revelation of the Quran) point to Gabriel, whom Muslims call Jibril; both names are accepted. Battles with the dragon in Revelation point to Michael, and healing or the Book of Tobit points to Raphael.",
     "line": "Real answer line: <b><u>Gabriel</u></b> (or <u>Jibril</u> or <u>Jibreel</u>; accept <u>Gavriel</u>; do not accept “Michael” or “Raphael”)"
   },
   "tests": {

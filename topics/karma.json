@@ -4,7 +4,7 @@
   "mono": "KAR",
   "category": "Religion",
   "qbCategory": "Religion",
-  "kicker": "Law that actions bring results · Shared by Hindus, Buddhists, Jains, and Sikhs",
+  "kicker": "Idea that actions bring results · Shared by Hindus, Buddhists, Jains, and Sikhs",
   "dates": "Taught in India for more than 2,500 years",
   "briefing": "Karma is a Sanskrit word meaning “action,” and it names the idea that every deed, good or bad, brings results for the person who does it, in this life or a future one. Hindus, Buddhists, Jains, and Sikhs all teach it, though in different ways: Jains picture it as sticky particles clinging to the soul, while Buddhists say what counts most is a person’s intention.",
   "answerHtml": "<b><u>karma</u></b> (or <u>kamma</u>; do not accept “dharma,” “samsara,” or “reincarnation”)",
@@ -72,15 +72,15 @@
       "r": "For 10 points, name this principle that good and bad actions bring good and bad results."
     },
     {
-      "p": "During the second watch of the night of his enlightenment, the Buddha is said to have seen countless beings dying and being born again in better or worse states according to this principle. In the first watch of that night, he had remembered his own past lives.",
+      "p": "During the second watch of the night of his enlightenment, the Buddha is said to have seen countless beings dying and being born again in better or worse states according to this principle. In the first watch of that night, he is said to have remembered his own past lives.",
       "r": "For 10 points, name this law of cause and effect, a Sanskrit word for “action” or “deed.”"
     },
     {
-      "p": "One religion sorts this force into eight main types and calls its inflow into the soul asrava [“AHS-ruh-vuh”] and its shedding nirjara [“nir-JAH-ruh”]. That religion teaches that this force is made of tiny particles of matter that stick to the soul, or jiva [“JEE-vuh”], like dust on an oily cloth.",
+      "p": "One religion sorts this force into eight main types and calls its inflow into the soul asrava [“AHS-ruh-vuh”] and its shedding nirjara [“nir-JAH-ruh”]. That religion teaches that this force is made of tiny particles of matter that cling to the soul, or jiva [“JEE-vuh”], the way dust clings to a body smeared with oil.",
       "r": "Jains try to shed all of it to free the soul. For 10 points, name this concept, from a Sanskrit word meaning “action.”"
     },
     {
-      "p": "Guru Nanak’s Japji [“JUP-jee”] teaches that people reap what they themselves have sown, and that this force decides the kind of body a soul is born into. Yet Sikhs believe that liberation comes only through God’s grace, called nadar [“NUH-dur”].",
+      "p": "Guru Nanak’s Japji [“JUP-jee”] describes this force by teaching that people reap what they themselves have sown. Sikhs believe that it shapes a person’s rebirth, but that liberation comes only through God’s grace, called nadar [“NUH-dur”].",
       "r": "For 10 points, name this law of cause and effect that Sikhs share with Hindus, Buddhists, and Jains."
     },
     {
@@ -143,7 +143,7 @@
     {
       "id": "rebirth",
       "tier": "giveaway",
-      "t": "Good and bad deeds shape a person’s future, including the next life in the cycle of rebirth (samsara)",
+      "t": "Believers hold that good and bad deeds shape a person’s future, including the next life in the cycle of rebirth (samsara)",
       "k": [
         "samsara",
         "rebirth",
@@ -226,7 +226,7 @@
     {
       "id": "merit",
       "tier": "middle",
-      "t": "Good deeds bring merit (punya) and bad deeds bring demerit (papa); Buddhists make merit by giving food to monks",
+      "t": "Good deeds are said to bring merit (punya) and bad deeds demerit (papa); Buddhists make merit by giving food to monks",
       "k": [
         "merit",
         "punya",
@@ -238,7 +238,7 @@
     {
       "id": "sikh-grace",
       "tier": "middle",
-      "t": "In Sikhism, it decides the body a soul is born into, but liberation comes through God’s grace (nadar)",
+      "t": "In Sikhism, it shapes a soul’s rebirth, but liberation comes only through God’s grace (nadar)",
       "k": [
         "grace",
         "nadar",
@@ -283,7 +283,7 @@
     {
       "id": "second-watch",
       "tier": "power",
-      "t": "In the second watch of his enlightenment night, the Buddha saw beings reborn according to their deeds",
+      "t": "In the second watch of his enlightenment night, the Buddha is said to have seen beings reborn according to their deeds",
       "k": [
         "second watch",
         "enlightenment"

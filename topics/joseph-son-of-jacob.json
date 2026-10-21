@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Dreamer sold into slavery by his brothers · Rose to power in Egypt",
   "dates": "Story told in Genesis 37–50",
-  "briefing": "Joseph was his father Jacob’s favorite son, and his jealous older brothers hated him for it, especially after Jacob gave him a special coat and Joseph dreamed that they would all bow down to him. In the Book of Genesis, the brothers sell him to traders headed for Egypt, where he rises from slave and prisoner to Pharaoh’s top official by explaining dreams. In the Quran, his story fills the twelfth surah, named Yusuf.",
+  "briefing": "In the Book of Genesis, Joseph was his father Jacob’s favorite son, and his jealous older brothers hated him for it, especially after Jacob gave him a special coat and Joseph dreamed that they would all bow down to him. The brothers sold him to traders headed for Egypt, where he rose from slave and prisoner to Pharaoh’s top official by explaining dreams. In the Quran, his story fills the twelfth surah, named Yusuf.",
   "answerHtml": "<b><u>Joseph</u></b> (accept <u>Yosef</u> or <u>Yusuf</u>; do not accept “Jacob” or Joseph the husband of Mary)",
   "accept": [
     "joseph",
@@ -21,14 +21,11 @@
   ],
   "prompt": [],
   "reject": [
-    "jacob",
-    "israel",
     "benjamin",
     "reuben",
     "judah",
     "simeon",
     "levi",
-    "rachel",
     "leah",
     "esau",
     "isaac",
@@ -136,7 +133,7 @@
       "r": "For 10 points, name this son of Jacob, the subject of the Quran’s twelfth surah."
     },
     {
-      "p": "The Persian poet Jami [“JAH-mee”] wrote a famous poem about this man and Zulaikha [“zoo-LY-khuh”], the name Islamic tradition gives to his master’s wife. Thomas Mann retold this man’s life in a series of four novels written between 1933 and 1943.",
+      "p": "The Persian poet Jami [“JAH-mee”] wrote a famous poem about this man and Zulaikha [“zoo-LY-khuh”], the name Islamic tradition gives to his master’s wife. Thomas Mann retold this man’s life in a series of four novels published between 1933 and 1943.",
       "r": "Andrew Lloyd Webber and Tim Rice’s musical about him features the song “Any Dream Will Do.” For 10 points, name this biblical dreamer with an “Amazing Technicolor Dreamcoat.”"
     }
   ],
@@ -202,7 +199,7 @@
     {
       "id": "dreams",
       "tier": "middle",
-      "t": "Dreamed that his brothers’ sheaves of grain, and later the sun, the moon, and eleven stars, bowed down to him",
+      "t": "Dreamed that his brothers’ sheaves of grain bowed down to his sheaf, and later that the sun, the moon, and eleven stars bowed down to him",
       "k": [
         "sheaves",
         "eleven stars",
@@ -213,7 +210,7 @@
     {
       "id": "pit",
       "tier": "middle",
-      "t": "Reuben saved his life, so the brothers threw him into a dry pit; Judah suggested selling him for 20 pieces of silver",
+      "t": "Reuben saved his life, so the brothers threw him into a dry pit; at Judah’s suggestion, they sold him for 20 pieces of silver",
       "k": [
         "reuben",
         "pit",
@@ -434,7 +431,7 @@
     {
       "id": "thomas-mann",
       "tier": "power",
-      "t": "Thomas Mann retold his story in a series of four novels (1933–1943)",
+      "t": "Thomas Mann retold his story in a series of four novels published from 1933 to 1943",
       "k": [
         "thomas mann",
         "four novels"
@@ -466,7 +463,8 @@
       "Josef",
       "Josep",
       "Joseph son of Jacob",
-      "Prophet Yusuf"
+      "Prophet Yusuf",
+      "Joseph the son of Jacob"
     ],
     "prompt": [],
     "wrong": [

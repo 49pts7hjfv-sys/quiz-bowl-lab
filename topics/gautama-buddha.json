@@ -6,7 +6,7 @@
   "qbCategory": "Religion",
   "kicker": "Founder of Buddhism · The prince who became the “Awakened One”",
   "dates": "Lived c. 500s–400s BCE",
-  "briefing": "Born a prince in Lumbini, in southern Nepal, Siddhartha Gautama grew up surrounded by luxury until four sights (an old man, a sick man, a dead body, and a wandering holy man) sent him searching for the cause of suffering. After six years of hardship, he sat beneath a fig tree at Bodh Gaya and, Buddhists believe, reached enlightenment, becoming the Buddha, or “Awakened One.” He spent the next 45 years teaching across northern India.",
+  "briefing": "Buddhist tradition says that Siddhartha Gautama was born a prince in Lumbini, in southern Nepal, and grew up surrounded by luxury until four sights (an old man, a sick man, a dead body, and a wandering holy man) sent him searching for the cause of suffering. After six years of hardship, he sat beneath a fig tree at Bodh Gaya and, Buddhists believe, reached enlightenment, becoming the Buddha, or “Awakened One.” He spent the next 45 years teaching across northern India.",
   "answerHtml": "the <b><u>Buddha</u></b> (or <b><u>Siddhartha</u></b> <b><u>Gautama</u></b>, accepting either name; or Gautama <u>Buddha</u>; accept <u>Shakyamuni</u>; do not accept “Buddhism”)",
   "accept": [
     "buddha",
@@ -58,7 +58,8 @@
     "laozi",
     "lao tzu",
     "guru nanak",
-    "nagarjuna"
+    "nagarjuna",
+    "dipankara"
   ],
   "media": [],
   "mediaPending": true,
@@ -94,7 +95,7 @@
       "r": "He then taught a Middle Way between luxury and harsh self-denial. For 10 points, name this founder of Buddhism."
     },
     {
-      "p": "While this man sat in deep concentration through the night, the demon Mara [“MAH-ruh”] attacked him with armies and sent his daughters to tempt him. When Mara demanded proof of this man’s right to sit there, this man touched the ground and called on the earth as his witness.",
+      "p": "In Buddhist tradition, while this man sat in deep concentration through the night, the demon Mara [“MAH-ruh”] attacked him with armies and sent his daughters to tempt him. When Mara demanded proof of this man’s right to sit there, this man touched the ground and called on the earth as his witness.",
       "r": "He then reached enlightenment under the Bodhi tree. For 10 points, name this founder of Buddhism."
     },
     {
@@ -119,7 +120,7 @@
     },
     {
       "p": "Hundreds of Jataka [“JAH-tuh-kuh”] tales describe this man’s past lives as animals and people, including one as the generous Prince Vessantara [“vay-SAHN-tuh-ruh”], who gave away everything he owned. Some Hindu traditions count this man as an avatar of the god Vishnu.",
-      "r": "In his final life, he was born a prince in Lumbini. For 10 points, name this founder of Buddhism."
+      "r": "Buddhists say that in his final life he was born a prince in Lumbini. For 10 points, name this founder of Buddhism."
     },
     {
       "p": "This teacher’s last words urged his followers to strive on with diligence, because all things that come into being must pass away. He had fallen ill after eating a meal offered by Cunda [“CHOON-dah”] the smith, and he died at about age 80 at Kushinagar [“koo-shee-NAH-gar”], lying between two sal trees.",
@@ -207,7 +208,7 @@
     {
       "id": "mara",
       "tier": "middle",
-      "t": "The demon Mara tempted him; he touched the ground to call the earth as his witness",
+      "t": "Tradition says the demon Mara tempted him; he touched the ground to call the earth as his witness",
       "k": [
         "mara",
         "earth",
@@ -451,7 +452,7 @@
   ],
   "trap": {
     "title": "The man, not the religion",
-    "body": "Tossups about this man are full of clues about Buddhism itself, so it is easy to blurt “Buddhism” when the question asks for “this man” or “this teacher,” and that answer is wrong. Mahavira, Jainism’s 24th Tirthankara, is another trap: he was also a prince who gave up palace life in the same region at about the same time. Other buddhas, like Amitabha of the Pure Land or Maitreya, the buddha of the future, are different answers, and so is Bodhidharma, who brought Zen to China.",
+    "body": "Tossups about this man are full of clues about Buddhism itself, so it is easy to blurt “Buddhism” when the question asks for “this man” or “this teacher,” and that answer is wrong. Mahavira, Jainism’s 24th Tirthankara, is another trap: he was also a prince who gave up palace life in the same region at about the same time. Other buddhas, like Amitabha of the Pure Land or Maitreya, the buddha of the future, are different answers, and so is Bodhidharma, who is said to have brought Zen to China.",
     "fix": "Listen for the noun: “this man,” “this prince,” or “this teacher” wants the Buddha; “this religion” wants Buddhism. The Buddha, Siddhartha Gautama, Gautama Buddha, and Shakyamuni are all accepted. Clues about Vardhamana, the Tirthankaras, or the Digambara and Svetambara sects point to Mahavira instead.",
     "line": "Real answer line: the <b><u>Buddha</u></b> (or <b><u>Siddhartha</u></b> <b><u>Gautama</u></b>, accepting either name; or Gautama <u>Buddha</u>; accept <u>Shakyamuni</u>; do not accept “Buddhism”)"
   },
@@ -473,7 +474,8 @@
       "Amitabha Buddha",
       "Maitreya",
       "Ananda",
-      "Dalai Lama"
+      "Dalai Lama",
+      "Dipankara Buddha"
     ]
   }
 }

@@ -26,7 +26,6 @@
     "king solomon",
     "jonathan",
     "samuel",
-    "jesse",
     "absalom",
     "bathsheba",
     "uriah",
@@ -231,7 +230,7 @@
     {
       "id": "jonathan",
       "tier": "middle",
-      "t": "Best friend of Saul’s son Jonathan; when both died on Mount Gilboa, he lamented, “How the mighty have fallen!”",
+      "t": "Best friend of Saul’s son Jonathan; when Saul and Jonathan died on Mount Gilboa, he lamented, “How the mighty have fallen!”",
       "k": [
         "jonathan",
         "how the mighty have fallen",
@@ -398,12 +397,13 @@
       "n": 0
     },
     {
-      "id": "fast",
+      "id": "temple-promise",
       "tier": "power",
-      "t": "Muslim tradition praises his way of fasting every other day as the best voluntary fast",
+      "t": "In 2 Samuel, the prophet Nathan tells him that his son, not he, will build the Temple, and that God will make his royal line last forever",
       "k": [
-        "every other day",
-        "fasting"
+        "temple",
+        "royal line",
+        "nathan"
       ],
       "n": 0
     },
@@ -478,7 +478,8 @@
       "Dawud",
       "Davd",
       "Dovid",
-      "David, son of Jesse"
+      "David, son of Jesse",
+      "David, the son of Jesse"
     ],
     "prompt": [],
     "wrong": [
