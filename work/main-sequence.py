@@ -76,7 +76,7 @@ data = {
             "r": "For 10 points, name this band on the Hertzsprung–Russell diagram, where stars spend most of their lives fusing hydrogen.",
         },
         {
-            "p": "Astronomers find the age of a star cluster from its turnoff point, where its brightest stars are just peeling away from this band, because heavier stars leave it first. Blue stragglers are odd stars in clusters that still sit on this band above that turnoff.",
+            "p": "Blue stragglers are odd stars in star clusters that still sit on this band, even though they lie above the cluster’s turnoff point, where heavier stars have already peeled away. Astronomers find a cluster’s age from that turnoff, because heavier stars leave this band first.",
             "r": "For 10 points, name this diagonal band of hydrogen-fusing stars on the H–R diagram, which includes the Sun.",
         },
         {
@@ -101,7 +101,7 @@ data = {
         },
         {
             "p": "Vega, the brightest star in Lyra, and Sirius A, the brightest star in the night sky, are both hot, white stars on this band. Proxima Centauri, the nearest star to the Sun, is a dim red dwarf near this band’s lower right end.",
-            "r": "Red supergiants like Betelgeuse have already left it. For 10 points, name this band on the H–R diagram.",
+            "r": "Red supergiants like Betelgeuse have already left it. For 10 points, name this band on the H–R diagram, where stars fuse hydrogen in their cores.",
         },
         {
             "p": "All stars on this band are sometimes called dwarf stars, a name that covers yellow stars like the Sun and red dwarfs but not white dwarfs or brown dwarfs. Roughly 90 percent of all stars belong to this band.",
@@ -109,10 +109,10 @@ data = {
         },
         {
             "p": "Newborn stars creep toward this band along Hayashi tracks, which run almost straight down the H–R diagram, and the heavier ones finish the trip along Henyey tracks, which run to the left. The Sun has been on this band for about 4.6 billion years.",
-            "r": "A star joins it once hydrogen fusion begins in its core. For 10 points, name this band of stars.",
+            "r": "A star joins it once hydrogen fusion begins in its core. For 10 points, name this band on the Hertzsprung–Russell diagram.",
         },
         {
-            "p": "When Ejnar Hertzsprung and Henry Norris Russell separately plotted stars’ brightness against their colors in the early 1910s, most stars fell along this narrow band. The most massive stars on this band leave it after only a few million years, while the Sun will spend about 10 billion years on it in all.",
+            "p": "When Ejnar Hertzsprung and Henry Norris Russell separately plotted stars’ brightness against their colors or spectral types in the early 1910s, most stars fell along this narrow band. The most massive stars on this band leave it after only a few million years, while the Sun will spend about 10 billion years on it in all.",
             "r": "It runs from hot, blue stars at the upper left to cool, red stars at the lower right. For 10 points, name this band.",
         },
         {

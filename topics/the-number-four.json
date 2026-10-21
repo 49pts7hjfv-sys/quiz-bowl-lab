@@ -162,7 +162,7 @@
       "r": "A tesseract is a cube in this many dimensions. For 10 points, name this number, three dimensions of space plus one of time."
     },
     {
-      "p": "The Pythagoreans held sacred a triangle of 10 dots arranged in rows of 1, 2, 3, and this many dots, since those numbers add up to 10. This number factorial equals 24, the number of ways to line up this many different books on a shelf.",
+      "p": "The Pythagoreans held sacred a triangle of 10 dots whose bottom row has this many dots. This number factorial equals 24, the number of ways to line up this many different books on a shelf.",
       "r": "Two plus two and two times two both equal this number. For 10 points, name this smallest composite number, which also equals 2 squared."
     },
     {
@@ -182,16 +182,16 @@
       "r": "For 10 points, name this number, which is the number of seasons in a year and of sides on a square."
     },
     {
-      "p": "Abraham Lincoln’s Gettysburg Address begins by counting back this many “score” and seven years, or 87 years, to 1776. U.S. presidents are elected to terms of this many years, and the Summer Olympics are held this many years apart.",
-      "r": "For 10 points, name this number of sides on a square, which is also 2 times 2."
+      "p": "Abraham Lincoln’s Gettysburg Address begins by counting back this many “score” and seven years, or 87 years, to 1776. The Summer Olympics are held this many years apart, and so are most leap years.",
+      "r": "U.S. presidents serve terms of this many years. For 10 points, name this number of sides on a square, which is also 2 times 2."
     },
     {
       "p": "A monument in the American Southwest marks the only point where the borders of this many U.S. states meet. The human heart has this many chambers, and DNA is written with this many kinds of bases.",
       "r": "For 10 points, name this number, written IV in Roman numerals, whose English name has as many letters as its value."
     },
     {
-      "p": "Antonio Vivaldi published a set of this many violin concertos about the seasons in 1725, each paired with a sonnet. Mount Rushmore shows the carved faces of this many U.S. presidents.",
-      "r": "For 10 points, name this number, which is the smallest composite number and the number of sides on a square."
+      "p": "The Collatz conjecture says that every starting number eventually falls into a loop that runs from this number to 2 to 1 and back again. Antonio Vivaldi published a set of this many violin concertos about the seasons in 1725, each paired with a sonnet.",
+      "r": "Mount Rushmore shows this many presidents. For 10 points, name this smallest composite number, the number of sides on a square."
     },
     {
       "p": "Only three regular polygons tile a flat floor by themselves, and in the tiling made of squares, this many squares meet at every corner. A polygon with this many sides splits into two triangles, so its angles add up to 360 degrees.",
@@ -419,7 +419,7 @@
     {
       "id": "pythagoreans",
       "tier": "power",
-      "t": "The Pythagoreans held sacred a triangle of 10 dots in rows of 1, 2, 3, and this many",
+      "t": "The Pythagoreans held sacred a triangle of 10 dots whose bottom row has this many dots (1 + 2 + 3 + it = 10)",
       "k": [
         "pythagoreans",
         "10 dots",
@@ -511,6 +511,17 @@
         "galen"
       ],
       "n": 0
+    },
+    {
+      "id": "collatz",
+      "tier": "power",
+      "t": "Collatz conjecture: every starting number seems to end in the loop that runs from this number to 2 to 1 and back",
+      "k": [
+        "collatz",
+        "loop"
+      ],
+      "n": 0,
+      "rabbit": "The number one"
     },
     {
       "id": "complete-graph",
