@@ -72,7 +72,7 @@
   },
   "tossups": [
     {
-      "p": "Brunó Straub isolated this protein in 1942 in the Hungarian lab of Albert Szent-Györgyi [“SENT-JUR-jee”], which showed that threads of muscle proteins shrink when ATP is added. Single globular units of this protein link up into long, twisted filaments.",
+      "p": "Brunó Straub isolated this protein in 1942 in the Hungarian lab of Albert Szent-Györgyi [“SENT JUR-jee”], which showed that threads of muscle proteins shrink when ATP is added. Single globular units of this protein link up into long, twisted filaments.",
       "r": "Myosin pulls on this protein to make muscles contract. For 10 points, name this protein that forms microfilaments and the thin filaments of muscle."
     },
     {
@@ -84,7 +84,7 @@
       "r": "For 10 points, name this protein that forms microfilaments and is pulled by myosin in muscle cells."
     },
     {
-      "p": "A group of proteins called the Arp2/3 complex makes new filaments of this protein sprout as side branches from old ones. _Listeria_ bacteria hijack this protein inside host cells, building “comet tails” of it that push the bacteria through the cytoplasm and into neighboring cells.",
+      "p": "This protein’s amino acid sequence has changed so little over evolution that the versions in yeast and in humans are very similar. _Listeria_ bacteria hijack this protein inside host cells, building “comet tails” of it that push the bacteria through the cytoplasm and into neighboring cells.",
       "r": "Its filaments are the thinnest fibers of the cytoskeleton. For 10 points, name this protein that myosin pulls on in muscles."
     },
     {
@@ -108,7 +108,7 @@
       "r": "It forms the microfilaments of the cytoskeleton. For 10 points, name this protein that myosin pulls on in muscle cells."
     },
     {
-      "p": "Units of this protein carrying ATP add on faster at the barbed, or plus, end of its filaments than at the pointed, or minus, end, so a filament can grow at one end while shrinking at the other in a process called treadmilling.",
+      "p": "The orderly overlap of thin filaments of this protein with thicker myosin filaments in repeating sarcomeres gives skeletal and cardiac muscle their striped, or striated, look. Smooth muscle lacks those stripes because its filaments of this protein are not lined up in sarcomeres.",
       "r": "Myosin pulls on it in muscle cells. For 10 points, name this protein that forms microfilaments and the thin filaments of muscle."
     },
     {
@@ -316,23 +316,24 @@
       "n": 0
     },
     {
-      "id": "arp23",
+      "id": "conserved",
       "tier": "power",
-      "t": "The Arp2/3 complex makes new filaments sprout as side branches from old ones",
+      "t": "One of the most highly conserved proteins: its amino acid sequence has changed so little that the yeast and human versions are very similar",
       "k": [
-        "arp2/3",
-        "side branches"
+        "conserved",
+        "amino acid sequence",
+        "yeast"
       ],
       "n": 0
     },
     {
-      "id": "treadmilling",
+      "id": "striations",
       "tier": "power",
-      "t": "Units join faster at the barbed (plus) end than the pointed (minus) end, allowing treadmilling: growth at one end, loss at the other",
+      "t": "Its orderly overlap with myosin in sarcomeres gives skeletal and cardiac muscle a striped (striated) look; smooth muscle has no stripes",
       "k": [
-        "treadmilling",
-        "barbed",
-        "pointed"
+        "striated",
+        "striped",
+        "cardiac"
       ],
       "n": 0
     },

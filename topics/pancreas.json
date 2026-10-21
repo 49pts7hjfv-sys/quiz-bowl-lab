@@ -56,7 +56,7 @@
       "r": "This organ also makes insulin. For 10 points, name this gland that lies behind the stomach."
     },
     {
-      "p": "In 1902, William Bayliss and Ernest Starling discovered secretin, the first hormone ever found, which tells this organ to release bicarbonate. Another hormone, cholecystokinin [“koh-luh-sis-toh-KY-nin”], tells this organ to release its digestive enzymes.",
+      "p": "In 1902, William Bayliss and Ernest Starling discovered secretin, often called the first hormone ever found, which tells this organ to release bicarbonate. Another hormone, cholecystokinin [“koh-luh-sis-toh-KY-nin”], tells this organ to release its digestive enzymes.",
       "r": "Its main duct empties into the duodenum. For 10 points, name this organ that also makes the hormones insulin and glucagon."
     },
     {
@@ -290,7 +290,7 @@
     {
       "id": "bayliss-starling",
       "tier": "power",
-      "t": "William Bayliss and Ernest Starling found secretin in 1902, the first hormone ever discovered, which acts on it",
+      "t": "William Bayliss and Ernest Starling found secretin in 1902 (often called the first hormone discovered), which acts on it",
       "k": [
         "bayliss",
         "starling",

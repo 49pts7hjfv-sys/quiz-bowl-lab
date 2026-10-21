@@ -138,7 +138,7 @@
     {
       "id": "castes",
       "tier": "giveaway",
-      "t": "Each colony has one egg-laying queen (more than a thousand eggs a day), thousands of female workers, and male drones",
+      "t": "Each colony has one egg-laying queen (she can lay over a thousand eggs a day), thousands of female workers, and male drones",
       "k": [
         "queen",
         "workers",
@@ -410,7 +410,7 @@
     {
       "id": "white-mans-fly",
       "tier": "power",
-      "t": "Not native to the Americas; Thomas Jefferson wrote that Native Americans called them the “white man’s fly”",
+      "t": "Not native to the Americas; in _Notes on the State of Virginia_, Thomas Jefferson wrote that Native Americans called them the “white man’s fly”",
       "k": [
         "white man’s fly",
         "jefferson"

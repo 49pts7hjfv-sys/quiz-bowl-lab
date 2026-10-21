@@ -52,7 +52,7 @@
   },
   "tossups": [
     {
-      "p": "An ideal ammeter has almost none of this quantity, so it does not change the current it measures, while an ideal voltmeter has an enormous amount of it. In ordinary metals, this quantity increases as the temperature rises.",
+      "p": "A good ammeter has almost none of this quantity, so it barely changes the current it measures, while a good voltmeter has an enormous amount of it. In ordinary metals, this quantity increases as the temperature rises.",
       "r": "Georg Ohm found that voltage equals current times this quantity. For 10 points, name this property, measured in ohms, that opposes the flow of electric current."
     },
     {
@@ -277,7 +277,7 @@
     {
       "id": "meters",
       "tier": "power",
-      "t": "An ideal ammeter has almost none of it and an ideal voltmeter has an enormous amount, so neither one disturbs the circuit",
+      "t": "A good ammeter has almost none of it and a good voltmeter has an enormous amount, so neither one disturbs the circuit much",
       "k": [
         "ammeter",
         "voltmeter"
