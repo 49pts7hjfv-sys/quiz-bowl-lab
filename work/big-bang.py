@@ -77,7 +77,7 @@ data = {
             "r": "For 10 points, name this event that started the expansion of the universe about 13.8 billion years ago.",
         },
         {
-            "p": "Around 1980, Alan Guth proposed that a split second after this event, the universe swelled enormously in a burst called inflation. That idea helps explain why the universe looks so smooth in every direction and why space is so nearly flat.",
+            "p": "To explain why the universe looks so smooth in every direction and why space is so nearly flat, physicists propose that a split second after this event, the universe swelled enormously in a burst called inflation. Alan Guth first proposed that idea around 1980.",
             "r": "For 10 points, name this event, the hot, dense beginning of the universe about 13.8 billion years ago.",
         },
         {
