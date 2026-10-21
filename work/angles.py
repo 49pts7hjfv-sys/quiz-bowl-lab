@@ -63,12 +63,6 @@ data = {
         "side angle side",
         "angular momentum",
         "angular velocity",
-        "angler",
-        "anglers",
-        "ankle",
-        "ankles",
-        "angel",
-        "angels",
         "anglo saxons",
         "angles and saxons"
     ],
