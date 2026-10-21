@@ -1,0 +1,365 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "crab-nebula",
+    "name": "Crab Nebula",
+    "mono": "M1",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Wreck of a star seen exploding in 1054 · First object in Messier’s catalog",
+    "dates": "Supernova seen in 1054 CE; first seen through a telescope in 1731",
+    "briefing": "In 1054 CE, Chinese astronomers saw a “guest star” blaze so brightly that it could be seen in daylight for 23 days. Its wreckage is the Crab Nebula, a glowing tangle of gas about 6,500 light-years away in the constellation Taurus. At its heart spins a pulsar, the crushed core of the exploded star, which whirls about 30 times every second and keeps the whole cloud shining.",
+    "answerHtml": "<b><u>Crab</u></b> Nebula (accept <u>M1</u>, <u>Messier 1</u>, or <u>NGC 1952</u>; do not accept “supernova” or “pulsar”)",
+    "accept": [
+        "crab nebula",
+        "crab",
+        "the crab",
+        "m1",
+        "m 1",
+        "messier 1",
+        "messier object 1",
+        "ngc 1952",
+        "crab nebula in taurus"
+    ],
+    "prompt": [],
+    "reject": [
+        "supernova",
+        "supernovae",
+        "supernovas",
+        "sn 1054",
+        "pulsar",
+        "pulsars",
+        "crab pulsar",
+        "neutron star",
+        "neutron stars",
+        "taurus",
+        "orion nebula",
+        "eagle nebula",
+        "ring nebula",
+        "horsehead nebula",
+        "veil nebula",
+        "cassiopeia a",
+        "planetary nebula",
+        "planetary nebulae",
+        "pleiades",
+        "hyades",
+        "aldebaran",
+        "cancer",
+        "m42",
+        "m45",
+        "m57",
+        "m31",
+        "m16",
+        "messier 42",
+        "messier 45",
+        "messier 57",
+        "messier 31",
+        "messier 16",
+        "messier 13",
+        "messier 27",
+        "messier 51",
+        "messier 87",
+        "messier 101",
+        "messier 104",
+        "ngc 1976"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Crab_Nebula",
+    "qb": {
+        "q": "Crab Nebula",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In 1953, Iosif Shklovsky [“SHKLOF-skee”] proposed that the bluish glow of this object comes from synchrotron radiation, given off by electrons spiraling at nearly the speed of light around magnetic field lines. Tangled orange and red filaments of gas surround that glow.",
+            "r": "For 10 points, name this supernova remnant in Taurus, the first object in Charles Messier’s catalog."
+        },
+        {
+            "p": "A diary called the _Meigetsuki_, kept by the Japanese poet Fujiwara no Teika, copied older records of the exploding star that made this object. Some researchers think a rock painting at Chaco Canyon in New Mexico shows that same event.",
+            "r": "Chinese astronomers recorded that “guest star” in 1054 CE. For 10 points, name this supernova remnant in Taurus."
+        },
+        {
+            "p": "The English doctor John Bevis first spotted this object through a telescope in 1731. In 1758, the comet hunter Charles Messier [“MESS-ee-ay”] came across it and at first mistook it for a comet, which inspired him to start a famous list of fuzzy objects.",
+            "r": "It became the first entry on that list. For 10 points, name this supernova remnant in Taurus."
+        },
+        {
+            "p": "In 1844, the Irish astronomer Lord Rosse sketched this object with leg-like filaments, giving it its common name. Through his bigger Leviathan telescope, it later looked less like that animal, but the name stuck.",
+            "r": "For 10 points, name this nebula in Taurus, which holds a pulsar spinning about 30 times a second."
+        },
+        {
+            "p": "In 1969, astronomers at Arizona’s Steward Observatory saw the dense star at the center of this object flashing in visible light, the first time a pulsar was caught blinking at visible wavelengths. Radio astronomers had found that pulsar the year before.",
+            "r": "It spins about 30 times a second. For 10 points, name this supernova remnant, the first object in Messier’s catalog."
+        },
+        {
+            "p": "In 1928, Edwin Hubble noticed that this object’s expansion traced back about 900 years, and he suggested that it was left by an exploding star seen in medieval times. Nicholas Mayall later helped confirm that idea.",
+            "r": "Chinese astronomers recorded that “guest star” in 1054 CE. For 10 points, name this nebula in Taurus."
+        },
+        {
+            "p": "In 1949, John Bolton and his colleagues in Australia matched a strong radio source called Taurus A to this object, making it one of the first radio sources ever linked to something seen in visible light.",
+            "r": "For 10 points, name this glowing supernova remnant in Taurus, the first object in Charles Messier’s catalog."
+        },
+        {
+            "p": "In 1964, as the Moon slid in front of this object, a rocket team led by Herbert Friedman watched its X-rays fade gradually, showing that they came from a spread-out cloud rather than a single point. X-ray astronomers still use this object’s brightness as a standard unit.",
+            "r": "For 10 points, name this supernova remnant in Taurus, whose central pulsar spins about 30 times a second."
+        },
+        {
+            "p": "This object lies about 6,500 light-years away, has grown to about 11 light-years across, and is still expanding at roughly 1,500 kilometers per second. Its filaments contain hydrogen, helium, and heavier elements such as oxygen and sulfur that were forged inside the star that exploded.",
+            "r": "For 10 points, name this nebula in Taurus, left by a supernova seen in 1054 CE."
+        },
+        {
+            "p": "This object is the best-known example of a pulsar wind nebula, a cloud lit by particles blown out by a spinning neutron star. Finding a pulsar inside it in 1968 helped confirm Walter Baade and Fritz Zwicky’s idea that supernovae leave behind neutron stars.",
+            "r": "For 10 points, name this remnant of a supernova seen in 1054 CE, found in Taurus."
+        },
+        {
+            "p": "This object lies close to Zeta Tauri, the star that marks the tip of the bull’s southern horn. Too faint to see with the naked eye, it looks like a small, smudgy oval through binoculars or a small telescope.",
+            "r": "It is the first entry in Charles Messier’s catalog. For 10 points, name this supernova remnant."
+        },
+        {
+            "p": "In 2005, NASA released a giant mosaic of this object stitched together from many Hubble images. In 2023, the James Webb Space Telescope photographed it in infrared light, mapping its glowing dust and cage-like filaments.",
+            "r": "For 10 points, name this nebula left behind by a supernova that Chinese astronomers recorded in 1054."
+        },
+        {
+            "p": "The explosion that made this object stayed visible in the daytime sky for 23 days and in the night sky for almost two years. Song dynasty astronomers in China recorded it as a “guest star” near a star now called Zeta Tauri.",
+            "r": "For 10 points, name this supernova remnant in Taurus, whose central pulsar spins about 30 times per second."
+        },
+        {
+            "p": "Thomas Gold’s idea that pulsars are spinning neutron stars was confirmed when the pulsar inside this object was found to be slowly losing spin, at a rate that matched the energy needed to keep this object glowing.",
+            "r": "For 10 points, name this nebula, the remnant of a supernova seen in 1054 CE."
+        },
+        {
+            "p": "The pulsar at the center of this object has a period of about 33 milliseconds, and it is one of the few pulsars detected across nearly the whole spectrum, from radio waves to gamma rays.",
+            "r": "For 10 points, name this nebula in Taurus, the wreck of a star that Chinese astronomers saw explode in 1054."
+        }
+    ],
+    "clues": [
+        {
+            "id": "remnant",
+            "tier": "giveaway",
+            "t": "Supernova remnant in the constellation Taurus",
+            "k": ["supernova remnant", "taurus"],
+            "n": 0,
+            "rabbit": "Supernovae"
+        },
+        {
+            "id": "year-1054",
+            "tier": "giveaway",
+            "t": "Left by a supernova that Chinese astronomers recorded as a “guest star” in 1054 CE",
+            "k": ["1054", "guest star", "chinese"],
+            "n": 0
+        },
+        {
+            "id": "messier-first",
+            "tier": "giveaway",
+            "t": "The first object in Charles Messier’s catalog of fuzzy objects",
+            "k": ["messier", "first object", "catalog"],
+            "n": 0
+        },
+        {
+            "id": "pulsar",
+            "tier": "giveaway",
+            "t": "A pulsar at its center spins about 30 times a second",
+            "k": ["pulsar", "30 times a second"],
+            "n": 0,
+            "rabbit": "Pulsars"
+        },
+        {
+            "id": "rosse",
+            "tier": "middle",
+            "t": "Its name comes from Lord Rosse’s 1844 sketch, which showed leg-like filaments",
+            "k": ["lord rosse", "1844", "sketch"],
+            "n": 0
+        },
+        {
+            "id": "daylight",
+            "tier": "middle",
+            "t": "The 1054 explosion could be seen in daylight for 23 days and at night for almost two years",
+            "k": ["daylight", "23 days"],
+            "n": 0
+        },
+        {
+            "id": "synchrotron",
+            "tier": "middle",
+            "t": "Its bluish glow is synchrotron radiation from fast electrons spiraling around magnetic field lines",
+            "k": ["synchrotron", "electrons"],
+            "n": 0
+        },
+        {
+            "id": "spin-down",
+            "tier": "middle",
+            "t": "Energy lost as its pulsar slows down keeps the whole cloud glowing",
+            "k": ["slows down", "glowing"],
+            "n": 0
+        },
+        {
+            "id": "distance-size",
+            "tier": "middle",
+            "t": "About 6,500 light-years away and about 11 light-years across, still expanding at roughly 1,500 km per second",
+            "k": ["6,500 light-years", "11 light-years", "expanding"],
+            "n": 0
+        },
+        {
+            "id": "messier-comet",
+            "tier": "middle",
+            "t": "The comet hunter Charles Messier came across it in 1758 and at first mistook it for a comet",
+            "k": ["comet", "1758", "mistook"],
+            "n": 0,
+            "rabbit": "Comets"
+        },
+        {
+            "id": "bevis",
+            "tier": "middle",
+            "t": "John Bevis first saw it through a telescope in 1731",
+            "k": ["bevis", "1731"],
+            "n": 0
+        },
+        {
+            "id": "hubble-1928",
+            "tier": "middle",
+            "t": "In 1928, Edwin Hubble linked it to the 1054 “guest star”; Nicholas Mayall later helped confirm the link",
+            "k": ["edwin hubble", "1928", "mayall"],
+            "n": 0,
+            "rabbit": "Edwin Hubble"
+        },
+        {
+            "id": "filaments",
+            "tier": "middle",
+            "t": "Orange and red filaments of gas, rich in elements like oxygen and sulfur, surround its bluish inner glow",
+            "k": ["filaments", "orange", "sulfur"],
+            "n": 0
+        },
+        {
+            "id": "shklovsky",
+            "tier": "power",
+            "t": "Iosif Shklovsky proposed in 1953 that its glow is synchrotron radiation",
+            "k": ["shklovsky", "1953"],
+            "n": 0
+        },
+        {
+            "id": "optical-pulsar",
+            "tier": "power",
+            "t": "In 1969, its pulsar became the first ever seen flashing in visible light, at Arizona’s Steward Observatory",
+            "k": ["visible light", "steward observatory", "1969"],
+            "n": 0
+        },
+        {
+            "id": "taurus-a",
+            "tier": "power",
+            "t": "Its radio source, Taurus A, was matched to it in 1949 by John Bolton’s team in Australia",
+            "k": ["taurus a", "bolton", "1949"],
+            "n": 0
+        },
+        {
+            "id": "occultation",
+            "tier": "power",
+            "t": "In 1964, Herbert Friedman’s rocket team saw its X-rays fade gradually as the Moon passed in front, showing that they came from a spread-out cloud",
+            "k": ["herbert friedman", "x-rays", "1964"],
+            "n": 0
+        },
+        {
+            "id": "xray-unit",
+            "tier": "power",
+            "t": "X-ray astronomers use its brightness as a standard unit of measurement",
+            "k": ["standard unit", "x-ray astronomers"],
+            "n": 0
+        },
+        {
+            "id": "meigetsuki",
+            "tier": "power",
+            "t": "Fujiwara no Teika’s diary, the _Meigetsuki_, copied older records of the 1054 explosion",
+            "k": ["meigetsuki", "fujiwara", "teika"],
+            "n": 0
+        },
+        {
+            "id": "chaco",
+            "tier": "power",
+            "t": "Some researchers think a rock painting at Chaco Canyon, New Mexico, shows the 1054 explosion",
+            "k": ["chaco canyon", "rock painting"],
+            "n": 0
+        },
+        {
+            "id": "pwn",
+            "tier": "power",
+            "t": "The best-known example of a pulsar wind nebula",
+            "k": ["pulsar wind", "best-known"],
+            "n": 0
+        },
+        {
+            "id": "baade-zwicky",
+            "tier": "power",
+            "t": "Its pulsar, found in 1968, helped confirm Walter Baade and Fritz Zwicky’s idea that supernovae leave neutron stars",
+            "k": ["baade", "zwicky", "neutron stars", "1968"],
+            "n": 0,
+            "rabbit": "Neutron stars"
+        },
+        {
+            "id": "gold",
+            "tier": "power",
+            "t": "Its pulsar’s slowing spin confirmed Thomas Gold’s idea that pulsars are spinning neutron stars",
+            "k": ["thomas gold", "slowing"],
+            "n": 0
+        },
+        {
+            "id": "zeta-tauri",
+            "tier": "power",
+            "t": "Lies near Zeta Tauri, the star at the tip of the bull’s southern horn",
+            "k": ["zeta tauri", "horn"],
+            "n": 0
+        },
+        {
+            "id": "period-33",
+            "tier": "power",
+            "t": "Its pulsar’s period is about 33 milliseconds, and it is seen from radio waves to gamma rays",
+            "k": ["33 milliseconds", "gamma rays"],
+            "n": 0
+        },
+        {
+            "id": "webb",
+            "tier": "power",
+            "t": "The Webb telescope imaged its dust and cage-like filaments in 2023; a giant Hubble mosaic of it came out in 2005",
+            "k": ["webb", "2023", "cage-like"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Remnant, blast, or pulsar?",
+        "body": "Crab Nebula tossups are packed with clues that belong to other answer lines. The 1054 explosion itself was a supernova, the spinning neutron star inside is the Crab Pulsar, and Taurus is the constellation where it sits. Players who hear “1054” or “30 times a second” may blurt out “supernova” or “pulsar,” but those answers are wrong when the question asks for this nebula.",
+        "fix": "“This nebula,” “this remnant,” or “this object,” plus Messier’s first entry, Lord Rosse, John Bevis, synchrotron glow, or orange filaments, means the Crab Nebula. “These explosions” means supernovae, and “these spinning neutron stars” means pulsars. You can also answer “M1” or “Messier 1.”",
+        "line": "Real answer line: <b><u>Crab</u></b> Nebula (accept <u>M1</u> or <u>Messier 1</u>)"
+    },
+    "tests": {
+        "right": [
+            "Crab Nebula",
+            "crab nebula",
+            "Crab Nebulla",
+            "M1",
+            "Messier 1",
+            "the Crab"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Supernova",
+            "Crab Pulsar",
+            "Taurus",
+            "Nebula",
+            "Nebulae",
+            "Orion Nebula",
+            "Pulsar"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
