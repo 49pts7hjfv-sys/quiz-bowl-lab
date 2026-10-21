@@ -1,0 +1,374 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "corn-maize",
+    "name": "Corn (maize)",
+    "mono": "ZM",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Grain crop domesticated from teosinte in Mexico · Grown across the Midwest",
+    "dates": "Domesticated about 9,000 years ago",
+    "briefing": "Corn, also called maize, began about 9,000 years ago as teosinte, a scraggly wild grass in southern Mexico whose small ears held just a few rock-hard seeds. Thousands of years of farming turned it into a giant with fat cobs of kernels, and it is grown on every continent except Antarctica. Its kernels become tortillas, popcorn, breakfast cereal, animal feed, sweet syrup, and even fuel for cars.",
+    "answerHtml": "<b><u>Corn</u></b> (accept <u>maize</u> or <u>Zea mays</u>; do not accept “wheat,” “sorghum,” or “teosinte”)",
+    "accept": [
+        "corn",
+        "maize",
+        "zea mays",
+        "corn maize",
+        "maize corn",
+        "indian corn",
+        "sweet corn",
+        "field corn",
+        "dent corn",
+        "flint corn",
+        "corn plant",
+        "corn plants",
+        "maize plant",
+        "maize plants",
+        "corn crop"
+    ],
+    "prompt": [],
+    "reject": [
+        "wheat",
+        "rice",
+        "sorghum",
+        "teosinte",
+        "millet",
+        "barley",
+        "oats",
+        "oat",
+        "rye",
+        "sugarcane",
+        "sugar cane",
+        "beans",
+        "squash",
+        "pumpkins",
+        "three sisters",
+        "potatoes",
+        "potato",
+        "soybeans",
+        "soybean",
+        "quinoa",
+        "amaranth",
+        "corn laws",
+        "corn law",
+        "corn syrup",
+        "high fructose corn syrup",
+        "corn belt",
+        "corn starch",
+        "corn oil",
+        "corn smut",
+        "huitlacoche",
+        "corn borer",
+        "european corn borer",
+        "candy corn",
+        "corn snake",
+        "zea mays parviglumis",
+        "parviglumis",
+        "maine",
+        "ethanol",
+        "tobacco",
+        "cotton"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Maize",
+    "qb": {
+        "q": "corn",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Genetic studies suggest that this crop was domesticated just once, about 9,000 years ago in the Balsas [“BAHL-sahs”] River valley of southern Mexico, from a wild grass whose small ears held just a few hard-cased seeds. That wild ancestor is called teosinte [“tay-oh-SIN-tay”].",
+            "r": "Many Native American peoples planted it with beans and squash as the “Three Sisters.” For 10 points, name this grain crop whose kernels grow on cobs."
+        },
+        {
+            "p": "George Beadle, who shared a 1958 Nobel Prize for work on bread mold, spent years arguing that this crop descended from the wild grass teosinte. A change in a gene called _tga1_ helped free its kernels from the hard cases that cover teosinte seeds.",
+            "r": "Its male flowers form tassels at the top of the stalk. For 10 points, name this grain crop whose kernels grow on cobs."
+        },
+        {
+            "p": "Elements nicknamed Ac and Ds can hop around the chromosomes of this plant, switching genes for kernel color off and on and leaving the kernels speckled. Barbara McClintock discovered those “jumping genes” and won the 1983 Nobel Prize in Physiology or Medicine by herself.",
+            "r": "It was domesticated from teosinte in Mexico. For 10 points, name this grain crop whose ears are wrapped in husks."
+        },
+        {
+            "p": "In 1931, Harriet Creighton and Barbara McClintock proved that chromosomes physically swap pieces during crossing over by tracking an oddly shaped chromosome, along with genes for kernel color and texture, in this plant. McClintock also identified each of this plant’s ten pairs of chromosomes under the microscope.",
+            "r": "Many Native American peoples grew it with beans and squash. For 10 points, name this crop with tassels and silks."
+        },
+        {
+            "p": "This crop uses a pathway named for Marshall Hatch and Roger Slack, first trapping carbon dioxide with the enzyme PEP carboxylase [“kar-BOK-sih-lays”] and then releasing it in bundle-sheath cells arranged in a wreath-like Kranz pattern. That C4 pathway helps it grow fast in hot, sunny weather.",
+            "r": "Its kernels grow on cobs inside leafy husks. For 10 points, name this grain domesticated from teosinte in Mexico."
+        },
+        {
+            "p": "George Shull’s experiments in the early 1900s showed that crossing two inbred lines of this crop produced unusually vigorous offspring, an effect called hybrid vigor. In 1926, Henry A. Wallace, later vice president under Franklin Roosevelt, founded a company to sell its hybrid seed.",
+            "r": "Iowa is a leading grower of it. For 10 points, name this grain crop whose plants have tassels and silks."
+        },
+        {
+            "p": "The Haudenosaunee [“hoh-dee-noh-SHOH-nee”] and other Native American peoples planted this crop in mounds with climbing beans, which used its tall stalks for support and added nitrogen to the soil, and with squash, whose broad leaves shaded out weeds.",
+            "r": "Those three crops are called the “Three Sisters.” For 10 points, name this grain crop that was domesticated in Mexico."
+        },
+        {
+            "p": "Each strand of silk on an ear of this plant is attached to a single future kernel, so every kernel needs its own grain of pollen to land on its silk. Wind carries that pollen down from the tassels, the male flowers at the top of the stalk.",
+            "r": "For 10 points, name this grain crop, grown heavily in Iowa, whose kernels sit in rows on cobs."
+        },
+        {
+            "p": "In the early 1900s, pellagra struck many poor Southerners whose meals relied heavily on this grain, and Joseph Goldberger showed that the disease came from a poor diet, not germs. Soaking the kernels in limewater, a Mesoamerican process called nixtamalization [“nish-tuh-mah-lee-ZAY-shun”], frees niacin that the body can then absorb.",
+            "r": "Masa, the dough used for tamales and many tortillas, is made from it. For 10 points, name this grain crop domesticated from teosinte."
+        },
+        {
+            "p": "According to the Maya book _Popol Vuh_ [“poh-POHL VOO”], the gods failed to make good humans out of mud and wood before finally succeeding with dough made from this plant’s ground kernels. The Aztec god Quetzalcoatl was said to have turned into an ant to steal its kernels from inside a mountain.",
+            "r": "Its kernels grow in rows on a cob. For 10 points, name this grain crop that the Maya and Aztecs depended on."
+        },
+        {
+            "p": "Enzymes break down this crop’s starch into glucose, and then an enzyme called glucose isomerase converts some of that glucose into fructose to make a sweetener. Starch from its kernels is also used to thicken gravies and sauces.",
+            "r": "That sweetener is a high-fructose syrup used in many soft drinks. For 10 points, name this grain crop grown across the American Midwest."
+        },
+        {
+            "p": "A large share of the United States’ harvest of this crop is fermented by yeast into ethanol, which is blended into gasoline; most gasoline sold in the U.S. contains about 10 percent ethanol. Leftover mash from that process, called distillers’ grains, is fed to cattle.",
+            "r": "Its plants have tassels on top. For 10 points, name this grain crop that the U.S. grows more of than any other country."
+        },
+        {
+            "p": "Dent varieties of this crop are named for the dimple that forms in the top of each kernel as it dries, while flint varieties have hard, glassy kernels in many colors. Dent types are the most widely grown kind in the United States.",
+            "r": "Another variety pops when heated. For 10 points, name this grain crop whose kernels grow on cobs."
+        },
+        {
+            "p": "The kernels on an ear of this plant almost always line up in an even number of rows, commonly 16, because they develop in pairs. Each kernel is botanically a fruit called a caryopsis [“kair-ee-OP-sis”], not just a seed.",
+            "r": "Iowa and Illinois are the top two U.S. states for growing it. For 10 points, name this grain crop with tassels and silks."
+        },
+        {
+            "p": "One of this crop’s English names comes from mahiz, a word of the Taíno [“tah-EE-noh”] people of the Caribbean, by way of Spanish. Christopher Columbus’s voyages brought it to Europe, and it soon spread to Africa and Asia as part of the Columbian Exchange.",
+            "r": "It was domesticated from teosinte in Mexico. For 10 points, name this grain crop grown on cobs."
+        }
+    ],
+    "clues": [
+        {
+            "id": "cobs",
+            "tier": "giveaway",
+            "t": "A grain crop whose kernels grow in rows on cobs wrapped in leafy husks",
+            "k": ["kernels", "cobs", "husks"],
+            "n": 0
+        },
+        {
+            "id": "teosinte",
+            "tier": "giveaway",
+            "t": "Domesticated in Mexico from a wild grass called teosinte",
+            "k": ["teosinte", "mexico", "wild grass"],
+            "n": 0
+        },
+        {
+            "id": "three-sisters",
+            "tier": "giveaway",
+            "t": "Planted with beans and squash as the “Three Sisters” by many Native American peoples",
+            "k": ["three sisters", "beans", "squash"],
+            "n": 0
+        },
+        {
+            "id": "midwest",
+            "tier": "giveaway",
+            "t": "A major crop of the U.S. Midwest; Iowa and Illinois grow the most of it",
+            "k": ["midwest", "iowa", "illinois"],
+            "n": 0
+        },
+        {
+            "id": "tassels-silks",
+            "tier": "middle",
+            "t": "Male flowers form tassels at the top of the stalk; female flowers grow silks, one strand per kernel",
+            "k": ["tassels", "silks", "one strand"],
+            "n": 0,
+            "rabbit": "Flowers"
+        },
+        {
+            "id": "mcclintock",
+            "tier": "middle",
+            "t": "Barbara McClintock discovered “jumping genes” (transposable elements) in it and won the 1983 Nobel Prize by herself",
+            "k": ["mcclintock", "jumping genes", "transposable elements", "1983"],
+            "n": 0,
+            "rabbit": "Chromosomes"
+        },
+        {
+            "id": "c4",
+            "tier": "middle",
+            "t": "Uses C4 photosynthesis, which helps it grow fast in hot, sunny weather",
+            "k": ["c4", "photosynthesis", "sunny"],
+            "n": 0,
+            "rabbit": "Photosynthesis"
+        },
+        {
+            "id": "hybrid",
+            "tier": "middle",
+            "t": "Hybrid seed from crossing two inbred lines gives extra-vigorous plants, an effect called hybrid vigor",
+            "k": ["hybrid vigor", "inbred"],
+            "n": 0
+        },
+        {
+            "id": "ethanol",
+            "tier": "middle",
+            "t": "Much of the U.S. crop is fermented into ethanol, which is blended into gasoline",
+            "k": ["ethanol", "gasoline"],
+            "n": 0
+        },
+        {
+            "id": "syrup",
+            "tier": "middle",
+            "t": "Its starch is turned into a high-fructose syrup used in many soft drinks",
+            "k": ["high-fructose", "starch", "soft drinks"],
+            "n": 0
+        },
+        {
+            "id": "columbian-exchange",
+            "tier": "middle",
+            "t": "Columbus’s voyages carried it to Europe; it then spread to Africa and Asia in the Columbian Exchange",
+            "k": ["columbus", "columbian exchange"],
+            "n": 0
+        },
+        {
+            "id": "varieties",
+            "tier": "middle",
+            "t": "Varieties include dent (the most common in the U.S.), flint, sweet, and a kind that pops when heated",
+            "k": ["dent", "flint", "pops"],
+            "n": 0
+        },
+        {
+            "id": "balsas",
+            "tier": "power",
+            "t": "Domesticated just once, about 9,000 years ago, in the Balsas River valley of southern Mexico",
+            "k": ["balsas", "9,000 years"],
+            "n": 0
+        },
+        {
+            "id": "beadle",
+            "tier": "power",
+            "t": "George Beadle, who shared a 1958 Nobel Prize for bread-mold work, argued that it descended from teosinte",
+            "k": ["beadle", "1958", "bread-mold"],
+            "n": 0
+        },
+        {
+            "id": "tga1",
+            "tier": "power",
+            "t": "A change in the gene _tga1_ freed its kernels from the hard cases around teosinte seeds",
+            "k": ["tga1", "hard cases"],
+            "n": 0
+        },
+        {
+            "id": "ac-ds",
+            "tier": "power",
+            "t": "McClintock’s jumping elements Ac and Ds switch kernel-color genes off and on, leaving speckled kernels",
+            "k": ["ac and ds", "speckled"],
+            "n": 0
+        },
+        {
+            "id": "creighton",
+            "tier": "power",
+            "t": "In 1931, Harriet Creighton and McClintock used it to prove that chromosomes physically swap pieces in crossing over; it has ten pairs of chromosomes",
+            "k": ["creighton", "1931", "crossing over", "ten pairs"],
+            "n": 0
+        },
+        {
+            "id": "hatch-slack",
+            "tier": "power",
+            "t": "Its C4 pathway, named for Hatch and Slack, traps carbon dioxide with PEP carboxylase and uses wreath-like Kranz anatomy",
+            "k": ["hatch", "slack", "pep carboxylase", "kranz"],
+            "n": 0,
+            "rabbit": "Calvin cycle"
+        },
+        {
+            "id": "shull-wallace",
+            "tier": "power",
+            "t": "George Shull showed its hybrid vigor in the early 1900s; Henry A. Wallace founded a company to sell its hybrid seed in 1926",
+            "k": ["shull", "wallace", "1926"],
+            "n": 0
+        },
+        {
+            "id": "pellagra",
+            "tier": "power",
+            "t": "Diets that relied on it untreated led to pellagra; Joseph Goldberger showed the disease came from poor diet, not germs",
+            "k": ["pellagra", "goldberger"],
+            "n": 0,
+            "rabbit": "B vitamins"
+        },
+        {
+            "id": "nixtamalization",
+            "tier": "power",
+            "t": "Soaking the kernels in limewater, called nixtamalization, frees niacin; masa dough is made this way",
+            "k": ["nixtamalization", "limewater", "masa"],
+            "n": 0
+        },
+        {
+            "id": "popol-vuh",
+            "tier": "power",
+            "t": "In the Maya _Popol Vuh_, the gods made the first true humans from dough of its ground kernels, after failing with mud and wood",
+            "k": ["popol vuh", "mud and wood", "maya"],
+            "n": 0,
+            "rabbit": "Maya mythology"
+        },
+        {
+            "id": "quetzalcoatl",
+            "tier": "power",
+            "t": "The Aztec god Quetzalcoatl turned into an ant to steal its kernels from inside a mountain",
+            "k": ["quetzalcoatl", "mountain"],
+            "n": 0,
+            "rabbit": "Quetzalcoatl"
+        },
+        {
+            "id": "even-rows",
+            "tier": "power",
+            "t": "Its kernels almost always grow in an even number of rows, and each kernel is a fruit called a caryopsis",
+            "k": ["even number", "caryopsis"],
+            "n": 0
+        },
+        {
+            "id": "mahiz",
+            "tier": "power",
+            "t": "One of its English names comes from the Taíno word mahiz, by way of Spanish",
+            "k": ["taíno", "mahiz", "spanish"],
+            "n": 0
+        },
+        {
+            "id": "dent-dimple",
+            "tier": "power",
+            "t": "Dent varieties are named for a dimple that forms as each kernel dries; flint kernels are hard and glassy",
+            "k": ["dimple", "glassy"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which grain is it?",
+        "body": "These tossups describe a grass, a grain, and a wild ancestor, so players sometimes blurt wheat, sorghum, or teosinte. Teosinte is the wild grass corn came from, so it is wrong, and wheat and rice are different grains with their own answer lines. History can trip you up too: in Britain, “corn” once meant any grain, so Britain’s Corn Laws were mostly about wheat, not this crop.",
+        "fix": "Tassels and silks, cobs and husks, the Three Sisters, Barbara McClintock’s jumping genes, or teosinte as an ancestor all mean corn, and “maize” or _Zea mays_ is just as good. Wheat clues mention bread flour, gluten, and the Fertile Crescent; rice clues mention flooded paddies.",
+        "line": "Real answer line: <b><u>Corn</u></b> (accept <u>maize</u> or <u>Zea mays</u>; do not accept “wheat,” “sorghum,” or “teosinte”)"
+    },
+    "tests": {
+        "right": [
+            "Corn",
+            "Maize",
+            "Zea mays",
+            "Corn (maize)",
+            "Maiz",
+            "Sweet corn",
+            "Indian corn"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Wheat",
+            "Rice",
+            "Sorghum",
+            "Teosinte",
+            "Corn syrup",
+            "Corn Laws",
+            "Three Sisters",
+            "Beans"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])
