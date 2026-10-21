@@ -1,0 +1,419 @@
+{
+  "id": "haymarket-affair",
+  "name": "Haymarket Affair",
+  "mono": "HAY",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Bombing at an 1886 Chicago labor rally · Remembered every May Day",
+  "dates": "May 4, 1886",
+  "briefing": "Much of the world honors workers every May 1 because of what happened in Chicago in 1886. On May 4, as police moved in to break up a rally in Haymarket Square for an eight-hour workday, someone threw a bomb. Seven police officers and at least four other people died in the explosion and the gunfire that followed. Eight anarchists were convicted and four were executed, though no one ever proved who threw the bomb.",
+  "answerHtml": "<b><u>Haymarket</u></b> Affair (or <b><u>Haymarket</u></b> Square Riot or <b><u>Haymarket</u></b> Massacre; do not accept “Pullman Strike” or “Homestead Strike”)",
+  "accept": [
+    "haymarket affair",
+    "haymarket",
+    "haymarket square riot",
+    "haymarket riot",
+    "haymarket massacre",
+    "haymarket square massacre",
+    "haymarket square",
+    "haymarket square affair",
+    "haymarket bombing",
+    "haymarket incident",
+    "haymarket tragedy"
+  ],
+  "prompt": [
+    "chicago riot",
+    "chicago bombing",
+    "chicago labor riot",
+    "1886 chicago riot"
+  ],
+  "reject": [
+    "pullman strike",
+    "pullman boycott",
+    "homestead strike",
+    "great railroad strike",
+    "great railroad strike of 1877",
+    "railroad strike of 1877",
+    "triangle shirtwaist fire",
+    "ludlow massacre",
+    "lawrence textile strike",
+    "bread and roses strike",
+    "boston massacre",
+    "may day",
+    "international workers day",
+    "labor day",
+    "great chicago fire",
+    "chicago fire",
+    "mccormick strike",
+    "mccormick reaper strike",
+    "knights of labor",
+    "molly maguires"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Haymarket_affair",
+  "qb": {
+    "q": "Haymarket",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1893, Illinois governor John Peter Altgeld pardoned Samuel Fielden, Michael Schwab, and Oscar Neebe, three men who had been in prison since this event, declaring that their trial had been unfair. The pardons badly damaged Altgeld’s popularity.",
+      "r": "Four other men had been executed for this event in 1887. For 10 points, name this 1886 bombing at a Chicago labor rally."
+    },
+    {
+      "p": "Mayor Carter Harrison listened to the speeches at the rally that ended in this event, decided the crowd was peaceful, and went home. Soon afterward, Samuel Fielden was finishing the last speech when police marched in and ordered the crowd to break up.",
+      "r": "Moments later, a bomb exploded among the officers. For 10 points, name this violent end to a Chicago labor rally on May 4, 1886."
+    },
+    {
+      "p": "August Spies, one of the speakers at the rally that ended in this event, edited the German-language newspaper _Arbeiter-Zeitung_ [“AR-by-ter TSY-toong”]. The day before this event, Spies had watched police fire on strikers outside the McCormick reaper factory.",
+      "r": "For 10 points, name this 1886 Chicago incident in which a bomb was thrown at police, after which Spies and three other anarchists were executed."
+    },
+    {
+      "p": "A labor federation that later became the American Federation of Labor had set May 1, 1886, as the date by which a shorter workday should become standard, and strikes spread across the country that week. Two days later, police shot strikers at a Chicago reaper factory.",
+      "r": "The next night, a bomb exploded among police at a protest rally. For 10 points, name this 1886 Chicago event, which is remembered every May Day."
+    },
+    {
+      "p": "In 1889, socialist parties meeting in Paris formed the Second International and called for workers’ demonstrations around the world on the anniversary of the nationwide strikes that came just before this event. Those demonstrations grew into a yearly holiday in many countries.",
+      "r": "That holiday is May Day, or International Workers’ Day. For 10 points, name this 1886 incident in which a bomb was thrown at police in Chicago."
+    },
+    {
+      "p": "Public fear after this event badly hurt the Knights of Labor, even though its leader, Terence Powderly, had condemned the radicals involved. Many workers turned instead to Samuel Gompers’s American Federation of Labor, founded later that same year.",
+      "r": "For 10 points, name this May 1886 Chicago incident in which someone threw a bomb at police officers breaking up a labor rally."
+    },
+    {
+      "p": "Albert Parsons, a Confederate army veteran who edited the anarchist newspaper _The Alarm_, fled Chicago after this event but walked into court on the first day of the trial to stand beside his fellow defendants. His wife, Lucy, later helped found the Industrial Workers of the World.",
+      "r": "Parsons was one of four men executed in 1887 after this event. For 10 points, name this 1886 bombing at a Chicago labor rally."
+    },
+    {
+      "p": "Judge Joseph Gary refused to give separate trials to the eight men charged after this event, and he allowed jurors who admitted they were already prejudiced against the defendants. Seven of the eight men were sentenced to death.",
+      "r": "Four of them were executed in 1887. For 10 points, name this 1886 incident in which a bomb was thrown at Chicago police during a rally for the eight-hour day."
+    },
+    {
+      "p": "Emma Goldman, who said this event inspired her to become an anarchist, is buried in Forest Park, Illinois, near a monument to the men convicted after it. Lucy Parsons, whose husband Albert was one of those men, is buried nearby.",
+      "r": "For 10 points, name this 1886 event in which a bomb exploded among Chicago police at a rally for the eight-hour workday."
+    },
+    {
+      "p": "In 1889, a statue of a police officer was put up near the site of this event to honor the officers who died there. Officer Mathias Degan was the first of those seven officers to die.",
+      "r": "For 10 points, name this May 1886 incident in which a bomb was thrown at police breaking up a Chicago labor rally."
+    },
+    {
+      "p": "Governor Richard Oglesby changed the death sentences of Samuel Fielden and Michael Schwab to life in prison the day before four other men were executed for this event. A fifth man sentenced to death, Louis Lingg, had died in his jail cell.",
+      "r": "For 10 points, name this 1886 incident in which a bomb was thrown at Chicago police during a labor rally in a public square."
+    },
+    {
+      "p": "Flyers printed in both English and German called workers to the meeting that ended in this event, held in a square on Randolph Street on a Tuesday evening. The crowd had thinned out and rain was starting to fall by the time police arrived.",
+      "r": "During the last speech, police marched in, and someone threw a bomb. For 10 points, name this 1886 event in Chicago."
+    },
+    {
+      "p": "Oscar Neebe was sentenced to 15 years in prison while his seven co-defendants were sentenced to death in the trial after this event. Prosecutor Julius Grinnell never showed that any of the eight had thrown the bomb, arguing instead that their speeches and newspapers had encouraged the unknown bomber.",
+      "r": "For 10 points, name this 1886 incident at a Chicago labor rally that led to the execution of four anarchists."
+    },
+    {
+      "p": "Inspector John Bonfield led the column of police that marched in to break up the meeting that ended in this event. Seven officers and at least four other people died, many of them in the gunfire that followed an explosion, and the person who caused that explosion was never identified.",
+      "r": "The meeting had been called to support the eight-hour workday. For 10 points, name this May 4, 1886, event in Chicago."
+    },
+    {
+      "p": "Speakers at the meeting that ended in this event stood on a wagon on Desplaines Street, and a sculpture of a speakers’ wagon was dedicated at that spot in 2004. August Spies, Albert Parsons, and Samuel Fielden all spoke that night.",
+      "r": "For 10 points, name this 1886 Chicago incident in which a bomb was thrown at police, an event remembered each May Day."
+    }
+  ],
+  "clues": [
+    {
+      "id": "chicago-bomb",
+      "tier": "giveaway",
+      "t": "A bomb was thrown at police breaking up a labor rally in Chicago on May 4, 1886",
+      "k": [
+        "bomb",
+        "chicago",
+        "may 4",
+        "1886"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eight-hour",
+      "tier": "giveaway",
+      "t": "The rally supported the eight-hour workday",
+      "k": [
+        "eight-hour",
+        "workday"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anarchists",
+      "tier": "giveaway",
+      "t": "Eight anarchists were convicted, and four of them were executed in 1887",
+      "k": [
+        "anarchists",
+        "executed",
+        "1887"
+      ],
+      "n": 0
+    },
+    {
+      "id": "may-day",
+      "tier": "giveaway",
+      "t": "Remembered around the world every May 1, on May Day (International Workers’ Day)",
+      "k": [
+        "may day",
+        "may 1",
+        "international workers"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mccormick",
+      "tier": "middle",
+      "t": "The rally was called to protest police shooting strikers at the McCormick reaper factory the day before",
+      "k": [
+        "mccormick",
+        "reaper"
+      ],
+      "n": 0
+    },
+    {
+      "id": "spies",
+      "tier": "middle",
+      "t": "Speaker August Spies edited the German-language newspaper _Arbeiter-Zeitung_; he was one of the four men executed",
+      "k": [
+        "august spies",
+        "spies",
+        "arbeiter-zeitung"
+      ],
+      "n": 0
+    },
+    {
+      "id": "parsons",
+      "tier": "middle",
+      "t": "Albert Parsons, a Confederate veteran who edited _The Alarm_, gave himself up to stand trial and was executed",
+      "k": [
+        "albert parsons",
+        "parsons",
+        "the alarm"
+      ],
+      "n": 0
+    },
+    {
+      "id": "altgeld",
+      "tier": "middle",
+      "t": "Illinois governor John Peter Altgeld pardoned the three imprisoned men in 1893, calling their trial unfair",
+      "k": [
+        "altgeld",
+        "pardoned",
+        "1893"
+      ],
+      "n": 0,
+      "rabbit": "Pullman Strike"
+    },
+    {
+      "id": "unknown-bomber",
+      "tier": "middle",
+      "t": "The bomb thrower was never identified; prosecutors blamed the speeches and writings of the accused",
+      "k": [
+        "never identified",
+        "speeches",
+        "writings"
+      ],
+      "n": 0
+    },
+    {
+      "id": "death-toll",
+      "tier": "middle",
+      "t": "Seven police officers and at least four other people died in the explosion and the gunfire after it",
+      "k": [
+        "seven police",
+        "gunfire"
+      ],
+      "n": 0
+    },
+    {
+      "id": "knights",
+      "tier": "middle",
+      "t": "The backlash hurt the Knights of Labor, led by Terence Powderly, while Samuel Gompers’s AFL grew",
+      "k": [
+        "knights of labor",
+        "powderly",
+        "gompers"
+      ],
+      "n": 0,
+      "rabbit": "Labor unions"
+    },
+    {
+      "id": "second-international",
+      "tier": "middle",
+      "t": "In 1889, the Second International, meeting in Paris, called for worldwide workers’ demonstrations every May 1",
+      "k": [
+        "second international",
+        "paris",
+        "1889"
+      ],
+      "n": 0
+    },
+    {
+      "id": "harrison-fielden",
+      "tier": "power",
+      "t": "Mayor Carter Harrison found the rally peaceful and went home; police marched in as Samuel Fielden gave the last speech",
+      "k": [
+        "carter harrison",
+        "fielden",
+        "last speech"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bonfield",
+      "tier": "power",
+      "t": "Inspector John Bonfield led the column of police that broke up the meeting",
+      "k": [
+        "bonfield",
+        "inspector"
+      ],
+      "n": 0
+    },
+    {
+      "id": "federation",
+      "tier": "power",
+      "t": "The Federation of Organized Trades and Labor Unions (later the AFL) set May 1, 1886, as the deadline for a shorter workday",
+      "k": [
+        "federation of organized trades",
+        "deadline",
+        "may 1, 1886"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gary-jury",
+      "tier": "power",
+      "t": "Judge Joseph Gary refused separate trials and seated jurors who admitted they were prejudiced",
+      "k": [
+        "joseph gary",
+        "gary",
+        "separate trials",
+        "jurors"
+      ],
+      "n": 0
+    },
+    {
+      "id": "neebe-grinnell",
+      "tier": "power",
+      "t": "Oscar Neebe got 15 years in prison; prosecutor Julius Grinnell won death sentences for the other seven",
+      "k": [
+        "neebe",
+        "15 years",
+        "grinnell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oglesby-lingg",
+      "tier": "power",
+      "t": "Governor Richard Oglesby changed the death sentences of Fielden and Michael Schwab to life; Louis Lingg died in his cell",
+      "k": [
+        "oglesby",
+        "schwab",
+        "lingg"
+      ],
+      "n": 0
+    },
+    {
+      "id": "executed-names",
+      "tier": "power",
+      "t": "Executed on November 11, 1887: August Spies, Albert Parsons, Adolph Fischer, and George Engel",
+      "k": [
+        "november 11",
+        "fischer",
+        "engel"
+      ],
+      "n": 0
+    },
+    {
+      "id": "flyers",
+      "tier": "power",
+      "t": "Flyers in English and German called workers to the meeting near Randolph Street",
+      "k": [
+        "english and german",
+        "flyers",
+        "randolph street"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wagon",
+      "tier": "power",
+      "t": "Speakers stood on a wagon on Desplaines Street; a 2004 sculpture of a speakers’ wagon marks the spot",
+      "k": [
+        "wagon",
+        "desplaines",
+        "2004"
+      ],
+      "n": 0
+    },
+    {
+      "id": "monument",
+      "tier": "power",
+      "t": "A monument to the convicted men stands in a cemetery in Forest Park, Illinois, near the graves of Emma Goldman and Lucy Parsons",
+      "k": [
+        "forest park",
+        "emma goldman",
+        "monument"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucy-parsons",
+      "tier": "power",
+      "t": "Albert Parsons’s wife, Lucy Parsons, later helped found the Industrial Workers of the World (1905)",
+      "k": [
+        "lucy parsons",
+        "industrial workers of the world",
+        "1905"
+      ],
+      "n": 0
+    },
+    {
+      "id": "police-statue",
+      "tier": "power",
+      "t": "An 1889 statue honored the police who died; Officer Mathias Degan was the first of the seven to die",
+      "k": [
+        "statue",
+        "degan",
+        "1889"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Haymarket, Homestead, or Pullman?",
+    "body": "Three famous Gilded Age labor clashes get mixed up. The Haymarket Affair (1886, Chicago) began when a bomb was thrown at police during a rally for the eight-hour day; the Homestead Strike (1892, Pennsylvania) was a fight at one of Andrew Carnegie’s steel mills; and the Pullman Strike (1894) was a nationwide railroad boycott led by Eugene Debs. Governor John Peter Altgeld shows up in both Haymarket and Pullman questions, because he pardoned the Haymarket prisoners and later protested federal troops during the Pullman Strike.",
+    "fix": "Anarchists, a bomb, May Day, and August Spies mean Haymarket. Carnegie, Henry Clay Frick, and Pinkerton guards mean Homestead. Debs, sleeping cars, and Grover Cleveland’s troops mean Pullman. If Altgeld comes up, wait for the year: 1886 is Haymarket, 1894 is Pullman.",
+    "line": "Real answer line: <b><u>Haymarket</u></b> Affair (or <b><u>Haymarket</u></b> Square Riot; do not accept “Pullman Strike” or “Homestead Strike”)"
+  },
+  "tests": {
+    "right": [
+      "Haymarket Affair",
+      "Haymarket Square Riot",
+      "Haymarket riot",
+      "Haymarket",
+      "the Haymarket massacre",
+      "Haymarkt affair"
+    ],
+    "prompt": [
+      "Chicago riot"
+    ],
+    "wrong": [
+      "Pullman Strike",
+      "Homestead Strike",
+      "May Day",
+      "Great Chicago Fire",
+      "Triangle Shirtwaist Fire",
+      "Labor Day"
+    ]
+  }
+}

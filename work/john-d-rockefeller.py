@@ -1,0 +1,220 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def T(p, r):
+    return {"p": p, "r": r}
+
+
+def C(cid, tier, t, k, rabbit=None):
+    c = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        c["rabbit"] = rabbit
+    return c
+
+
+data = {
+    "id": "john-d-rockefeller",
+    "name": "John D. Rockefeller",
+    "mono": "JDR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Founder of Standard Oil · Oil tycoon who gave away hundreds of millions",
+    "dates": "1839–1937",
+    "briefing": "John D. Rockefeller started out as a teenage bookkeeper in Cleveland, Ohio, and in 1870 founded the Standard Oil Company, which came to control about 90 percent of America’s oil refining. Critics called him a “robber baron,” and in 1911 the Supreme Court broke his company into 34 pieces. He spent his long retirement giving away hundreds of millions of dollars, funding the University of Chicago and the Rockefeller Foundation, and handing out shiny dimes to people he met.",
+    "answerHtml": "John D. <b><u>Rockefeller</u></b> (or John Davison <u>Rockefeller</u> Sr.; do not accept “Standard Oil” or “John D. Rockefeller Jr.”)",
+    "accept": [
+        "john d rockefeller",
+        "rockefeller",
+        "john rockefeller",
+        "john davison rockefeller",
+        "john d rockefeller sr",
+        "john d rockefeller senior",
+        "john rockefeller sr",
+        "jd rockefeller",
+        "j d rockefeller"
+    ],
+    "prompt": [],
+    "reject": [
+        "standard oil",
+        "standard oil company",
+        "standard oil trust",
+        "standard oil of ohio",
+        "standard oil of new jersey",
+        "exxon",
+        "exxonmobil",
+        "mobil",
+        "chevron",
+        "john d rockefeller jr",
+        "john d rockefeller junior",
+        "john rockefeller jr",
+        "rockefeller jr",
+        "john d rockefeller ii",
+        "nelson rockefeller",
+        "nelson",
+        "david rockefeller",
+        "winthrop rockefeller",
+        "jay rockefeller",
+        "william rockefeller",
+        "laura spelman rockefeller",
+        "laura rockefeller",
+        "rockefeller center",
+        "rockefeller foundation",
+        "rockefeller university",
+        "rockefeller institute",
+        "andrew carnegie",
+        "carnegie",
+        "j p morgan",
+        "jp morgan",
+        "john pierpont morgan",
+        "morgan",
+        "cornelius vanderbilt",
+        "vanderbilt",
+        "henry flagler",
+        "flagler",
+        "samuel andrews",
+        "maurice clark",
+        "ida tarbell",
+        "tarbell",
+        "henry h rogers",
+        "john d archbold",
+        "archbold",
+        "henry ford",
+        "jay gould",
+        "leland stanford",
+        "andrew mellon",
+        "frederick t gates"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/John_D._Rockefeller",
+    "qb": {
+        "q": "Rockefeller",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        T("In 1872, this man joined a secret scheme called the South Improvement Company, in which railroads would give big discounts to a few refiners and also pay them part of what rival refiners paid to ship oil. When the plan leaked, oil producers in Pennsylvania organized a boycott, and the state canceled the company’s charter.",
+          "His company later controlled about 90 percent of the oil refining in the United States. For 10 points, name this founder of Standard Oil."),
+        T("In 1865, this man paid 72,500 dollars at an auction held between him and his partners, the Clark brothers, winning control of a Cleveland oil refinery he ran with chemist Samuel Andrews. Henry Flagler soon joined that business, which was reorganized as a corporation in Ohio in 1870.",
+          "That corporation was named Standard Oil. For 10 points, name this man who became the richest American of his time."),
+        T("For the rest of his life, this man celebrated September 26 as “Job Day,” marking the date in 1855 when he was hired as an assistant bookkeeper by a Cleveland produce firm. He recorded every penny he earned, spent, and gave to his Baptist church in a small notebook he called “Ledger A.”",
+          "Fifteen years later, he founded an oil company in that same city. For 10 points, name this founder of Standard Oil."),
+        T("This man’s lawyer Samuel C. T. Dodd designed an 1882 agreement in which the owners of dozens of companies handed their stock to nine trustees in return for certificates. That kind of arrangement gave its name to the antitrust laws that were later passed to break up giant businesses.",
+          "Ohio’s Supreme Court ordered that trust dissolved in 1892. For 10 points, name this oil tycoon who led the Standard Oil Trust."),
+        T("Henry H. Rogers, a top executive of this man’s company and a friend of Mark Twain, agreed to meet with a journalist whose father’s oil business in Pennsylvania had suffered from that company’s tactics. Her series in _McClure’s Magazine_ became a famous 1904 work of muckraking.",
+          "That journalist, Ida Tarbell, called her book _The History of the Standard Oil Company_. For 10 points, name this man who founded that company."),
+        T("Henry Demarest Lloyd attacked this man’s business methods in his 1894 book _Wealth Against Commonwealth_. A decade later, Udo Keppler’s cartoon “Next!” showed this man’s company as a giant octopus with its tentacles wrapped around the Capitol and reaching for the White House.",
+          "Critics often nicknamed that company “the Octopus.” For 10 points, name this oil tycoon, the founder of Standard Oil."),
+        T("Chief Justice Edward Douglass White announced the “rule of reason” in a 1911 case that split this man’s company into 34 separate firms. Two of those firms later became Exxon and Mobil, which merged again in 1999, and another became Chevron.",
+          "The government had sued under the Sherman Antitrust Act. For 10 points, name this founder of Standard Oil."),
+        T("Baptist minister Frederick T. Gates helped persuade this man to pay for a new university, which opened in 1892 on land donated by the merchant Marshall Field. William Rainey Harper became that school’s first president, and this man went on to give it tens of millions of dollars.",
+          "That school is the University of Chicago. For 10 points, name this oil tycoon and philanthropist who founded Standard Oil."),
+        T("In 1901, this man founded an institute for medical research in New York City that later became a university named for him. In 1909, he paid for a commission that fought hookworm, a parasite that infected many barefoot children across the American South.",
+          "In 1913, he created a foundation “to promote the well-being of mankind throughout the world.” For 10 points, name this Standard Oil founder."),
+        T("A school for Black women in Atlanta took the name Spelman in 1884 to honor the family of this man’s wife, Laura, after he gave it large gifts. In 1902, he created the General Education Board, which spent millions of dollars on schools across the American South.",
+          "For 10 points, name this founder of Standard Oil, who gave away hundreds of millions of dollars in his long life."),
+        T("In 1937, this man died at The Casements, his winter home in Ormond Beach, Florida, at the age of 97. In his last decades, he liked to play golf and hand out shiny new dimes to the children and adults he met.",
+          "Decades earlier, he had founded Standard Oil in Cleveland. For 10 points, name this oil tycoon and philanthropist."),
+        T("Within a few weeks in early 1872, this man’s company bought out 22 of its 26 Cleveland competitors, an episode critics called the “Cleveland Massacre.” He usually offered rival owners either cash or shares of his company’s stock, and those who took the stock often grew rich.",
+          "Combining firms that do the same job is called horizontal integration. For 10 points, name this founder of Standard Oil."),
+        T("This man’s partner Henry Flagler later built a railroad down Florida’s east coast and turned Palm Beach into a resort. This man moved his company’s headquarters to 26 Broadway in New York City in 1885, and after he stepped back in the late 1890s, John D. Archbold ran the company.",
+          "Flagler and this man had been partners since the 1860s in Cleveland. For 10 points, name this founder of Standard Oil."),
+        T("Rival refiners complained that this man’s company slashed prices in their towns until they had to sell out, and that railroads gave it secret discounts called rebates. His company first grew rich selling kerosene, a fuel burned in lamps, before cars made gasoline valuable.",
+          "Critics called him a “robber baron.” For 10 points, name this Cleveland businessman who founded Standard Oil in 1870."),
+        T("Ron Chernow’s 1998 biography _Titan_ tells the story of this man, whose only son built an Art Deco complex of skyscrapers in Midtown Manhattan during the Great Depression. This man’s grandson Nelson later served as vice president under Gerald Ford.",
+          "For 10 points, name this founder of Standard Oil, often called the richest American in history.")
+    ],
+    "clues": [
+        C("standard-oil", "giveaway", "Founded the Standard Oil Company in Cleveland, Ohio, in 1870",
+          ["standard oil", "cleveland", "1870"]),
+        C("robber-baron", "giveaway", "Gilded Age oil tycoon, often called the richest American ever; critics called him a “robber baron”",
+          ["robber baron", "richest", "gilded age"]),
+        C("breakup", "giveaway", "In 1911 the Supreme Court broke his company into 34 pieces under the Sherman Antitrust Act",
+          ["1911", "34 pieces", "sherman antitrust"], "Sherman Antitrust Act"),
+        C("philanthropy", "giveaway", "Gave away hundreds of millions of dollars; founded the University of Chicago (1890) and a famous foundation (1913)",
+          ["university of chicago", "foundation", "philanthropy"]),
+        C("dimes", "giveaway", "In old age, handed out shiny dimes to children and adults he met",
+          ["dimes", "shiny dimes"]),
+        C("horizontal", "middle", "Used horizontal integration: bought up rival refiners that did the same job",
+          ["horizontal integration", "horizontal", "rival refiners"], "Andrew Carnegie"),
+        C("trust", "middle", "Organized the Standard Oil Trust (1882), run by nine trustees; Ohio’s Supreme Court ordered it dissolved in 1892",
+          ["trust", "nine trustees", "1882"], "Monopoly"),
+        C("tarbell", "middle", "Ida Tarbell’s _The History of the Standard Oil Company_ (1904), first printed in _McClure’s_, exposed its tactics",
+          ["ida tarbell", "tarbell", "mcclure’s", "muckraking"], "Ida Tarbell"),
+        C("rebates", "middle", "Got secret railroad discounts called rebates; first grew rich selling kerosene for lamps",
+          ["rebates", "kerosene", "railroad"]),
+        C("ninety-percent", "middle", "By the 1880s his company controlled about 90 percent of U.S. oil refining",
+          ["90 percent", "refining"]),
+        C("bookkeeper", "middle", "Started out in 1855 as an assistant bookkeeper at a Cleveland produce firm",
+          ["bookkeeper", "1855", "produce"]),
+        C("flagler", "middle", "Partner Henry Flagler later built a railroad down Florida’s east coast and developed Palm Beach",
+          ["henry flagler", "flagler", "palm beach"]),
+        C("octopus", "middle", "Cartoonists drew his company as an octopus, as in Udo Keppler’s 1904 cartoon “Next!”",
+          ["octopus", "keppler", "next"]),
+        C("successors", "middle", "Companies from the breakup became Exxon, Mobil (the two merged in 1999), and Chevron",
+          ["exxon", "mobil", "chevron"]),
+        C("south-improvement", "power", "South Improvement Company (1872): a secret railroad deal with rebates and payments on rivals’ shipments; Pennsylvania canceled its charter",
+          ["south improvement", "drawbacks", "pennsylvania"]),
+        C("cleveland-massacre", "power", "“Cleveland Massacre” (1872): bought out 22 of 26 Cleveland rivals within a few weeks",
+          ["cleveland massacre", "massacre", "22 of 26"]),
+        C("clark-auction", "power", "Won an 1865 auction against partner Maurice Clark ($72,500) for a refinery he ran with chemist Samuel Andrews",
+          ["maurice clark", "auction", "samuel andrews", "72,500"]),
+        C("job-day", "power", "Celebrated September 26 as “Job Day”; recorded every penny in “Ledger A”",
+          ["job day", "ledger a", "september 26"]),
+        C("dodd", "power", "Lawyer Samuel C. T. Dodd designed the 1882 trust agreement",
+          ["dodd", "samuel dodd", "lawyer"]),
+        C("rogers", "power", "Executive Henry H. Rogers, a friend of Mark Twain, met with Ida Tarbell",
+          ["rogers", "mark twain", "henry rogers"]),
+        C("lloyd", "power", "Henry Demarest Lloyd attacked him in _Wealth Against Commonwealth_ (1894)",
+          ["lloyd", "wealth against commonwealth", "demarest"]),
+        C("rule-of-reason", "power", "Chief Justice Edward Douglass White’s “rule of reason” came from the 1911 breakup case",
+          ["rule of reason", "edward douglass white", "white"]),
+        C("gates-harper", "power", "Baptist minister Frederick T. Gates advised his giving; William Rainey Harper was the University of Chicago’s first president",
+          ["gates", "frederick gates", "harper", "william rainey harper"]),
+        C("medical", "power", "Founded an institute for medical research in New York (1901), now a university; paid for a 1909 hookworm commission",
+          ["medical research", "hookworm", "1901"]),
+        C("spelman", "power", "Spelman College in Atlanta honors his wife Laura’s family (1884); created the General Education Board (1902)",
+          ["spelman", "general education board", "atlanta"]),
+        C("ormond", "power", "Died in 1937, at 97, at The Casements in Ormond Beach, Florida",
+          ["ormond beach", "casements", "1937"]),
+        C("archbold", "power", "Moved headquarters to 26 Broadway, New York (1885); John D. Archbold ran the company after he stepped back",
+          ["26 broadway", "archbold", "broadway"]),
+        C("titan", "power", "Subject of Ron Chernow’s biography _Titan_ (1998); grandson Nelson was Gerald Ford’s vice president",
+          ["titan", "chernow", "nelson"])
+    ],
+    "trap": {
+        "title": "The man, not the company",
+        "body": "Standard Oil, the company he founded in 1870, is a separate answer line, and many tossups ask for “this company” or “this trust” instead of the man. The same clues, like Ida Tarbell’s exposé, the South Improvement Company, the octopus cartoon, and the 1911 breakup, show up in both kinds of questions. His son, John D. Rockefeller Jr., and his grandson Nelson Rockefeller, a vice president, are different answers too.",
+        "fix": "Listen for the noun: “this man” or “this tycoon” wants Rockefeller, while “this company,” “this trust,” or “this corporation” wants Standard Oil. Among the Gilded Age giants, oil means Rockefeller, steel means Andrew Carnegie, banking means J.P. Morgan, and railroads mean Cornelius Vanderbilt.",
+        "line": "Real answer lines: John D. <b><u>Rockefeller</u></b> (do not accept “John D. Rockefeller Jr.”) and, for the company, <b><u>Standard Oil</u></b> Company"
+    },
+    "tests": {
+        "right": [
+            "John D. Rockefeller",
+            "Rockefeller",
+            "John Rockefeller",
+            "John Davison Rockefeller",
+            "Rockafeller",
+            "John D. Rockefeller Sr."
+        ],
+        "prompt": [],
+        "wrong": [
+            "Standard Oil",
+            "John D. Rockefeller Jr.",
+            "Nelson Rockefeller",
+            "Andrew Carnegie",
+            "J.P. Morgan",
+            "Henry Flagler",
+            "Ida Tarbell"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

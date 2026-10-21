@@ -1,0 +1,519 @@
+{
+  "id": "paul-the-apostle",
+  "name": "Paul the Apostle",
+  "mono": "SP",
+  "category": "Religion",
+  "qbCategory": "Religion",
+  "kicker": "Apostle to the Gentiles · Missionary and author of New Testament letters",
+  "dates": "c. 5–c. 64 CE",
+  "briefing": "According to the Acts of the Apostles, a Pharisee named Saul was hunting down followers of Jesus when a blinding light stopped him on the road to Damascus. Known by his Roman name, Paul, he became one of early Christianity’s most important missionaries, traveling around the Mediterranean by land and sea and surviving a shipwreck on Malta. Thirteen of the New Testament’s 27 books are letters traditionally credited to him, and tradition says he was executed in Rome under the emperor Nero.",
+  "answerHtml": "<b><u>Paul</u></b> the Apostle (or Saint <u>Paul</u> or <u>Paul</u> of Tarsus; accept <u>Saul of Tarsus</u>; prompt on <u>Saul</u>; do not accept “Peter”)",
+  "accept": [
+    "paul",
+    "paul the apostle",
+    "saint paul",
+    "st paul",
+    "apostle paul",
+    "the apostle paul",
+    "saint paul the apostle",
+    "st paul the apostle",
+    "paul of tarsus",
+    "saint paul of tarsus",
+    "saul of tarsus"
+  ],
+  "prompt": [
+    "saul"
+  ],
+  "reject": [
+    "peter",
+    "saint peter",
+    "st peter",
+    "simon peter",
+    "cephas",
+    "acts of the apostles",
+    "acts",
+    "book of acts",
+    "barnabas",
+    "silas",
+    "timothy",
+    "luke",
+    "stephen",
+    "saint stephen",
+    "ananias",
+    "gamaliel",
+    "apollos",
+    "titus",
+    "philemon",
+    "onesimus",
+    "john mark",
+    "aquila",
+    "priscilla",
+    "lydia",
+    "jesus",
+    "john the baptist",
+    "king saul",
+    "saul bellow",
+    "romans",
+    "letter to the romans",
+    "epistle to the romans",
+    "corinthians",
+    "galatians",
+    "ephesians",
+    "philippians",
+    "epistles",
+    "pauline epistles",
+    "nero",
+    "sergius paulus",
+    "pope paul",
+    "paul i",
+    "paul iii",
+    "pope john paul ii",
+    "john paul",
+    "jean paul",
+    "jean paul sartre",
+    "peter paul rubens",
+    "paul revere",
+    "paul reveres ride",
+    "paul ryan",
+    "paul von hindenburg",
+    "paul cezanne",
+    "paul bunyan",
+    "paul gauguin",
+    "paul mccartney",
+    "paul robeson",
+    "alice paul",
+    "les paul",
+    "ron paul",
+    "rand paul",
+    "st pauls cathedral",
+    "saint pauls cathedral",
+    "saint paul minnesota",
+    "st paul minnesota"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Paul_the_Apostle",
+  "qb": {
+    "q": "Paul",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In a garden in Milan, Augustine of Hippo heard a child’s voice chanting “Take up and read,” opened a book of scripture, and read a passage from this man’s Letter to the Romans that led to his conversion. Martin Luther later found the heart of his teaching on faith in that letter’s line “The just shall live by faith.”",
+      "r": "This apostle also wrote letters to the Corinthians and the Galatians. For 10 points, name this missionary who was converted on the road to Damascus."
+    },
+    {
+      "p": "While his enemies watched the city gates day and night, this man’s followers lowered him in a basket through an opening in the city wall so that he could escape. Earlier in that same city, a disciple named Ananias [“an-uh-NY-us”] placed his hands on him, and something like scales fell from his eyes.",
+      "r": "That city was Damascus. For 10 points, name this apostle who had been blinded by a light on the road there."
+    },
+    {
+      "p": "In one letter, this man says that after his conversion he went away into Arabia, and that he later opposed Cephas [“SEE-fus”], or Peter, “to his face” at Antioch for pulling away from meals with non-Jewish believers. That letter says that among believers there is “neither Jew nor Greek,” neither slave nor free, because all are one in Christ Jesus.",
+      "r": "That letter is addressed to the Galatians. For 10 points, name this author of many New Testament letters, called the Apostle to the Gentiles."
+    },
+    {
+      "p": "In the shortest letter credited to him, this man asks a believer named Philemon [“fy-LEE-mun”] to welcome back Onesimus [“oh-NESS-ih-mus”], an enslaved man who had left Philemon’s household, “no longer as a slave” but as a dear brother. He wrote that letter while he was a prisoner.",
+      "r": "He also wrote letters to the churches in Rome and Corinth. For 10 points, name this apostle who was converted on the road to Damascus."
+    },
+    {
+      "p": "After this man spoke in Athens, a council member named Dionysius [“dy-uh-NISH-ee-us”] and a woman named Damaris [“DAM-uh-ris”] became believers. Earlier, Epicurean and Stoic philosophers had brought him to the Areopagus [“air-ee-OP-uh-gus”], where he spoke about an altar inscribed “To an unknown god.”",
+      "r": "His missionary journeys fill much of the second half of the Acts of the Apostles. For 10 points, name this apostle who wrote the Letter to the Romans."
+    },
+    {
+      "p": "After more than forty men vowed not to eat or drink until they had killed this prisoner, his sister’s son warned a Roman commander, who sent him under heavy guard to the governor Felix in Caesarea [“sess-uh-REE-uh”]. That commander had earlier been alarmed to learn that he had put a Roman citizen in chains.",
+      "r": "Later, on trial before the governor Festus, this man declared, “I appeal to Caesar!” For 10 points, name this apostle who was sent to Rome as a prisoner."
+    },
+    {
+      "p": "On an island where he stayed for three months, this man healed the father of Publius [“PUB-lee-us”], the island’s chief official. When a viper fastened onto his hand as he put brushwood on a fire, he shook it off without harm, and the islanders decided he must be a god.",
+      "r": "He had been shipwrecked on that island, Malta, while being taken to Rome. For 10 points, name this apostle who wrote the Letter to the Romans."
+    },
+    {
+      "p": "This man called himself “a Hebrew of Hebrews” from the tribe of Benjamin and, as to the law, a Pharisee. According to Acts, he studied in Jerusalem under the respected teacher Gamaliel [“guh-MAY-lee-ul”], and he earned his living as a tentmaker.",
+      "r": "He was born in Tarsus, in what is now Turkey. For 10 points, name this apostle who was blinded by a light on the road to Damascus."
+    },
+    {
+      "p": "In Ephesus [“EF-uh-sus”], handkerchiefs and aprons that had touched this man were carried to the sick, and many people who had practiced magic burned their scrolls. A silversmith named Demetrius started a riot in that city because this man’s preaching was hurting the trade in silver shrines of the goddess Artemis.",
+      "r": "For 10 points, name this missionary who traveled with Barnabas and Silas and wrote many letters in the New Testament."
+    },
+    {
+      "p": "The King James Bible’s version of one of this man’s letters says that “now we see through a glass, darkly,” and it ends that chapter by naming faith, hope, and charity, adding that “the greatest of these is charity.” Modern translations of that chapter, often read at weddings, say “Love is patient, love is kind.”",
+      "r": "That chapter is in his First Letter to the Corinthians. For 10 points, name this apostle who was converted on the road to Damascus."
+    },
+    {
+      "p": "Caravaggio [“kar-uh-VAH-jee-oh”] painted this man lying on his back beneath a large horse, with his arms flung open, for a chapel in Rome’s church of Santa Maria del Popolo. In art, this man often holds a sword, a reminder of the tradition that he was executed in Rome under the emperor Nero.",
+      "r": "That painting shows the moment he was struck blind on the road to Damascus. For 10 points, name this apostle."
+    },
+    {
+      "p": "After a sharp disagreement over bringing along John Mark, who had left them partway through an earlier journey, this man and Barnabas went separate ways. This man chose Silas as his new partner, and in a vision a man of Macedonia begged him, “Come over to Macedonia and help us.”",
+      "r": "Soon after, a seller of purple cloth named Lydia was baptized in Philippi. For 10 points, name this missionary who later wrote a letter to the church at Philippi."
+    },
+    {
+      "p": "A letter to Timothy credited to this man says, “I have fought the good fight, I have finished the race, I have kept the faith.” In another letter, he says he was given a “thorn in the flesh” to keep him from becoming conceited, and he lists hardships that include being shipwrecked three times.",
+      "r": "Thirteen New Testament letters are traditionally credited to him, though scholars debate whether he wrote all of them. For 10 points, name this Apostle to the Gentiles."
+    },
+    {
+      "p": "Acts first calls this man by his Roman name in a scene on the island of Cyprus, where he makes a sorcerer named Elymas [“EL-ih-mus”] blind for a time. Later on that journey, a crowd at Lystra [“LISS-truh”] hailed his partner as Zeus and called this man Hermes because he did most of the talking.",
+      "r": "That partner was Barnabas. For 10 points, name this apostle, who was also called by the Hebrew name Saul."
+    },
+    {
+      "p": "Witnesses at the stoning of Stephen laid their cloaks at this young man’s feet, and he approved of that killing. Afterward, according to Acts, he went from house to house dragging believers off to prison, and he asked the high priest for letters allowing him to arrest followers of Jesus in Damascus.",
+      "r": "On his way there, a light from heaven blinded him. For 10 points, name this man who became the Apostle to the Gentiles."
+    }
+  ],
+  "clues": [
+    {
+      "id": "damascus-road",
+      "tier": "giveaway",
+      "t": "Converted on the road to Damascus, when a light from heaven blinded him and a voice said, “I am Jesus, whom you are persecuting”",
+      "k": [
+        "damascus",
+        "road to damascus",
+        "light from heaven",
+        "blinded"
+      ],
+      "n": 0,
+      "rabbit": "Acts of the Apostles"
+    },
+    {
+      "id": "gentiles",
+      "tier": "giveaway",
+      "t": "Called the “Apostle to the Gentiles” for spreading the faith among non-Jews",
+      "k": [
+        "gentiles",
+        "non-jews"
+      ],
+      "n": 0
+    },
+    {
+      "id": "letters",
+      "tier": "giveaway",
+      "t": "Wrote many New Testament letters, or epistles, such as Romans, 1 and 2 Corinthians, and Galatians",
+      "k": [
+        "epistles",
+        "letters",
+        "romans",
+        "corinthians",
+        "galatians"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tarsus",
+      "tier": "giveaway",
+      "t": "Born in Tarsus, in modern Turkey; he was also called by his Hebrew name, Saul",
+      "k": [
+        "tarsus",
+        "saul",
+        "hebrew name"
+      ],
+      "n": 0
+    },
+    {
+      "id": "journeys",
+      "tier": "giveaway",
+      "t": "Made missionary journeys around the eastern Mediterranean, told in the Acts of the Apostles",
+      "k": [
+        "missionary journeys",
+        "mediterranean",
+        "acts"
+      ],
+      "n": 0,
+      "rabbit": "Acts of the Apostles"
+    },
+    {
+      "id": "stephen",
+      "tier": "middle",
+      "t": "Witnesses at Stephen’s stoning laid their cloaks at his feet; afterward he dragged believers off to prison",
+      "k": [
+        "stephen",
+        "cloaks",
+        "stoning"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ananias",
+      "tier": "middle",
+      "t": "In Damascus, a disciple named Ananias laid hands on him, and something like scales fell from his eyes",
+      "k": [
+        "ananias",
+        "scales"
+      ],
+      "n": 0
+    },
+    {
+      "id": "barnabas",
+      "tier": "middle",
+      "t": "First missionary journey with Barnabas; at Lystra, a crowd called Barnabas Zeus and him Hermes",
+      "k": [
+        "barnabas",
+        "lystra",
+        "hermes",
+        "zeus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "silas-timothy",
+      "tier": "middle",
+      "t": "Later traveled with Silas and Timothy; two New Testament letters are addressed to Timothy",
+      "k": [
+        "silas",
+        "timothy"
+      ],
+      "n": 0
+    },
+    {
+      "id": "areopagus",
+      "tier": "middle",
+      "t": "In Athens, spoke at the Areopagus (Mars Hill) about an altar inscribed “To an unknown god”",
+      "k": [
+        "areopagus",
+        "mars hill",
+        "unknown god",
+        "athens"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pharisee",
+      "tier": "middle",
+      "t": "A Pharisee from the tribe of Benjamin who studied under Gamaliel and earned his living as a tentmaker",
+      "k": [
+        "pharisee",
+        "gamaliel",
+        "tentmaker",
+        "benjamin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caesar",
+      "tier": "middle",
+      "t": "A Roman citizen by birth, he told the governor Festus, “I appeal to Caesar!” and was sent to Rome",
+      "k": [
+        "roman citizen",
+        "appeal to caesar",
+        "festus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "malta",
+      "tier": "middle",
+      "t": "Shipwrecked on Malta on the way to Rome; a viper bit his hand, and he shook it off unharmed",
+      "k": [
+        "malta",
+        "shipwrecked",
+        "viper"
+      ],
+      "n": 0
+    },
+    {
+      "id": "love-chapter",
+      "tier": "middle",
+      "t": "1 Corinthians 13: “Love is patient, love is kind … the greatest of these is love”",
+      "k": [
+        "corinthians 13",
+        "love is patient",
+        "greatest of these"
+      ],
+      "n": 0
+    },
+    {
+      "id": "thirteen-letters",
+      "tier": "middle",
+      "t": "Thirteen letters are traditionally credited to him; scholars agree he wrote at least seven and debate the rest",
+      "k": [
+        "thirteen letters",
+        "seven",
+        "scholars"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nero",
+      "tier": "middle",
+      "t": "Tradition says he was executed in Rome under the emperor Nero; in art he often holds a sword",
+      "k": [
+        "nero",
+        "executed",
+        "sword"
+      ],
+      "n": 0
+    },
+    {
+      "id": "augustine-luther",
+      "tier": "power",
+      "t": "His Letter to the Romans led to Augustine’s conversion (“Take up and read”) and inspired Martin Luther’s “The just shall live by faith”",
+      "k": [
+        "augustine",
+        "take up and read",
+        "luther",
+        "live by faith"
+      ],
+      "n": 0,
+      "rabbit": "Martin Luther"
+    },
+    {
+      "id": "basket",
+      "tier": "power",
+      "t": "Escaped Damascus when his followers lowered him in a basket through an opening in the city wall",
+      "k": [
+        "basket",
+        "city wall"
+      ],
+      "n": 0
+    },
+    {
+      "id": "galatians",
+      "tier": "power",
+      "t": "Galatians: he went into Arabia after his conversion, opposed Cephas (Peter) “to his face” at Antioch, and wrote “neither Jew nor Greek”",
+      "k": [
+        "cephas",
+        "to his face",
+        "arabia",
+        "neither jew nor greek"
+      ],
+      "n": 0
+    },
+    {
+      "id": "philemon",
+      "tier": "power",
+      "t": "His shortest letter asks Philemon to welcome back Onesimus “no longer as a slave” but as a brother",
+      "k": [
+        "philemon",
+        "onesimus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dionysius",
+      "tier": "power",
+      "t": "In Athens, he debated Epicurean and Stoic philosophers; converts included a council member, Dionysius, and a woman named Damaris",
+      "k": [
+        "dionysius",
+        "damaris",
+        "epicurean",
+        "stoic"
+      ],
+      "n": 0
+    },
+    {
+      "id": "forty-men",
+      "tier": "power",
+      "t": "More than forty men vowed to kill him; his sister’s son warned a Roman commander, who sent him to the governor Felix in Caesarea",
+      "k": [
+        "forty men",
+        "felix",
+        "caesarea"
+      ],
+      "n": 0
+    },
+    {
+      "id": "publius",
+      "tier": "power",
+      "t": "On Malta, he healed the father of Publius, the island’s chief official, and the islanders thought he was a god",
+      "k": [
+        "publius",
+        "chief official"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ephesus",
+      "tier": "power",
+      "t": "In Ephesus, handkerchiefs that touched him were carried to the sick; Demetrius the silversmith led a riot over shrines of Artemis",
+      "k": [
+        "ephesus",
+        "demetrius",
+        "artemis",
+        "handkerchiefs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "caravaggio",
+      "tier": "power",
+      "t": "Caravaggio painted his conversion, showing him on his back beneath a horse, for Santa Maria del Popolo in Rome",
+      "k": [
+        "caravaggio",
+        "horse",
+        "santa maria del popolo"
+      ],
+      "n": 0
+    },
+    {
+      "id": "john-mark",
+      "tier": "power",
+      "t": "Split with Barnabas over John Mark, chose Silas, and saw a vision of a man of Macedonia; Lydia, a seller of purple cloth, was baptized at Philippi",
+      "k": [
+        "john mark",
+        "macedonia",
+        "lydia",
+        "purple cloth"
+      ],
+      "n": 0
+    },
+    {
+      "id": "good-fight",
+      "tier": "power",
+      "t": "Wrote of a “thorn in the flesh” and of being shipwrecked three times; a letter to Timothy says, “I have fought the good fight”",
+      "k": [
+        "thorn in the flesh",
+        "good fight",
+        "shipwrecked three times"
+      ],
+      "n": 0
+    },
+    {
+      "id": "elymas",
+      "tier": "power",
+      "t": "Acts first uses his Roman name on Cyprus, where he makes the sorcerer Elymas blind for a time",
+      "k": [
+        "elymas",
+        "cyprus",
+        "roman name",
+        "sorcerer"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Paul or Peter?",
+    "body": "Paul and Peter are the two great apostles of the Acts of the Apostles, they share a feast day on June 29, and painters often show them side by side, so early buzzers mix them up. Peter was one of Jesus’s twelve disciples; Paul joined the movement after Jesus’s death and was converted on the road to Damascus. A question that asks for the book telling both of their stories wants “Acts,” not either man.",
+    "fix": "Keys, walking on water, denying Jesus three times, or the first pope in Catholic tradition mean Peter. Tarsus, Damascus, Barnabas, Silas, Malta, the Areopagus, or letters to the Romans, Corinthians, and Galatians mean Paul. Saying only “Saul” earns a prompt, so add “of Tarsus” or just say Paul.",
+    "line": "Real answer line: <b><u>Paul</u></b> the Apostle (or Saint <u>Paul</u> or <u>Paul</u> of Tarsus; accept <u>Saul of Tarsus</u>; prompt on <u>Saul</u>; do not accept “Peter”)"
+  },
+  "tests": {
+    "right": [
+      "Paul",
+      "Saint Paul",
+      "St. Paul",
+      "Paul the Apostle",
+      "the Apostle Paul",
+      "Saul of Tarsus",
+      "Paul of Tarsus",
+      "Paul the Apostel",
+      "Saul of Tarsis"
+    ],
+    "prompt": [
+      "Saul"
+    ],
+    "wrong": [
+      "Peter",
+      "Saint Peter",
+      "Acts of the Apostles",
+      "Barnabas",
+      "Silas",
+      "Stephen",
+      "King Saul",
+      "Paul Revere",
+      "Pope John Paul II"
+    ]
+  }
+}

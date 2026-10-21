@@ -1,0 +1,358 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "down-syndrome",
+    "name": "Down syndrome",
+    "mono": "T21",
+    "category": "Biology",
+    "qbCategory": "Science · Biology",
+    "kicker": "Genetic condition from an extra chromosome 21 · Also called trisomy 21",
+    "dates": "Described in 1866; cause found in 1959",
+    "briefing": "Down syndrome is a genetic condition that happens when a person has an extra copy of chromosome 21, which is why it is also called trisomy 21. It is named for John Langdon Down, an English doctor who described it in 1866, and in 1959 a French team including Jérôme Lejeune and Marthe Gautier found the extra chromosome. Every March 21, or 3/21, World Down Syndrome Day celebrates people with Down syndrome around the world.",
+    "answerHtml": "<b><u>Down syndrome</u></b> (accept <u>Down’s syndrome</u> or <u>trisomy 21</u>; prompt on <u>trisomy</u>; do not accept “Edwards syndrome” or “Patau syndrome”)",
+    "accept": [
+        "down syndrome",
+        "downs syndrome",
+        "down s syndrome",
+        "trisomy 21",
+        "trisomy twenty one",
+        "trisomy xxi",
+        "trisomy of chromosome 21"
+    ],
+    "prompt": [
+        "trisomy",
+        "chromosomal disorder",
+        "chromosomal condition",
+        "chromosome disorder",
+        "genetic condition",
+        "genetic disorder"
+    ],
+    "reject": [
+        "edwards syndrome",
+        "edwards",
+        "patau syndrome",
+        "patau",
+        "trisomy 13",
+        "trisomy 18",
+        "trisomy 8",
+        "trisomy 9",
+        "trisomy 12",
+        "trisomy 16",
+        "trisomy 20",
+        "trisomy 22",
+        "turner syndrome",
+        "klinefelter syndrome",
+        "fragile x syndrome",
+        "fragile x",
+        "williams syndrome",
+        "cri du chat",
+        "autism",
+        "cerebral palsy",
+        "alzheimers disease",
+        "alzheimers",
+        "nondisjunction",
+        "monosomy"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Down_syndrome",
+    "qb": {
+        "q": "Down syndrome",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Marthe Gautier [“goh-TYAY”] did much of the laboratory work behind a 1959 discovery about this condition, though most of the credit went to her colleague Jérôme Lejeune [“zhay-ROHM luh-ZHUHN”]. Their team in Paris found that people with this condition have 47 chromosomes instead of the usual 46.",
+            "r": "It is named for an English doctor who described it in 1866. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In 2011, the United Nations General Assembly declared a yearly world awareness day for this condition, first observed by the U.N. in 2012. On that day, many people wear brightly colored or mismatched socks to celebrate people who have this condition.",
+            "r": "That day falls on March 21, or 3/21, to stand for three copies of chromosome 21. For 10 points, name this genetic condition."
+        },
+        {
+            "p": "In 1866, an English doctor working at a hospital in Surrey published a description of a group of his patients who shared several traits, and this condition was later named for him. Nearly a century later, in 1959, scientists in Paris discovered the genetic cause of this condition.",
+            "r": "Its world awareness day is March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "Most cases of this condition begin with nondisjunction [“non-dis-JUNK-shun”], in which a pair of chromosomes fails to separate during meiosis while an egg or sperm cell forms. In a rarer mosaic form, the error usually happens after fertilization, so only some of a person’s cells are affected.",
+            "r": "Its awareness day is March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In a few percent of cases of this condition, extra genetic material is attached to another chromosome, often chromosome 14, in a change called a translocation. That form can sometimes be inherited from a parent whose chromosomes are rearranged but who does not have this condition.",
+            "r": "It was described in 1866 by an English doctor. For 10 points, name this condition in which people have three copies of chromosome 21."
+        },
+        {
+            "p": "Because the gene for amyloid precursor protein lies on the chromosome involved in this condition, adults with this condition have a higher risk of developing Alzheimer’s disease, often earlier in life than other people. Scientists also study mice bred with extra copies of many of the matching genes.",
+            "r": "About half of babies born with this condition have a heart defect. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In 2000, the chromosome involved in this condition became the second human chromosome to have its DNA sequenced. A karyotype [“KAIR-ee-oh-type”], a picture of a person’s chromosomes lined up by size, can confirm this condition by showing three copies of that small chromosome.",
+            "r": "Its world awareness day is held each March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "Actor Chris Burke, who has this condition, starred as Corky Thacher on the TV drama _Life Goes On_ from 1989 to 1993. Lauren Potter, an actress who also has this condition, played the cheerleader Becky Jackson on the TV series _Glee_.",
+            "r": "Its world awareness day is March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In 2020, Chris Nikic became the first person with this condition to finish an Ironman triathlon, completing a 2.4-mile swim, a 112-mile bike ride, and a 26.2-mile run in under 17 hours. Guinness World Records recognized his finish.",
+            "r": "Its world awareness day is March 21. For 10 points, name this genetic condition in which people have three copies of chromosome 21."
+        },
+        {
+            "p": "Small white or gray spots on the iris called Brushfield spots are common in people with this condition. Other common traits include low muscle tone, eyes that slant upward, and a single crease across the palm, although every person with this condition is different.",
+            "r": "It is named for an English doctor who described it in 1866. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In the United States, the average life expectancy of people with this condition rose from about 25 years in 1983 to about 60 years. The chance of having a baby with this condition rises with the mother’s age, but many babies with it are born to younger mothers, since younger women have more babies overall.",
+            "r": "Its world awareness day is March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "Doctors describe three types of this condition: a standard type that makes up about 95 percent of cases, a translocation type, and a mosaic type in which only some of a person’s cells carry the extra genetic material.",
+            "r": "People with the standard type have 47 chromosomes instead of 46. For 10 points, name this condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "American groups write this condition’s name without an apostrophe and s, since the doctor it honors did not have the condition, while British writers often include them. It is the most common chromosomal condition diagnosed in the United States.",
+            "r": "Most people with it have some degree of intellectual disability. For 10 points, name this condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "Zack Gottsagen, an actor with this condition, starred in the 2019 film _The Peanut Butter Falcon_ and helped present an award at the 2020 Academy Awards. In the United States, October is this condition’s awareness month.",
+            "r": "It is named for an English doctor who described it in 1866. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        },
+        {
+            "p": "In most cases of this condition, the extra chromosome comes from the egg rather than the sperm. Like Edwards syndrome and Patau syndrome, this condition is a trisomy, but it involves a smaller chromosome than either of those conditions do.",
+            "r": "Its world awareness day is March 21. For 10 points, name this genetic condition caused by an extra copy of chromosome 21."
+        }
+    ],
+    "clues": [
+        {
+            "id": "extra-21",
+            "tier": "giveaway",
+            "t": "Caused by an extra copy of chromosome 21, so most people with it have 47 chromosomes instead of 46",
+            "k": ["chromosome 21", "extra copy", "47 chromosomes"],
+            "n": 0,
+            "rabbit": "Chromosomes"
+        },
+        {
+            "id": "namesake",
+            "tier": "giveaway",
+            "t": "Named for an English doctor who described it in 1866",
+            "k": ["english doctor", "1866"],
+            "n": 0
+        },
+        {
+            "id": "world-day",
+            "tier": "giveaway",
+            "t": "Its world awareness day is March 21 (3/21), for three copies of chromosome 21; in the U.S., October is its awareness month",
+            "k": ["march 21", "three copies", "october"],
+            "n": 0
+        },
+        {
+            "id": "most-common",
+            "tier": "giveaway",
+            "t": "The most common chromosomal condition diagnosed in the United States",
+            "k": ["most common", "chromosomal condition"],
+            "n": 0
+        },
+        {
+            "id": "intellectual-disability",
+            "tier": "giveaway",
+            "t": "Most people with it have some degree of intellectual disability, which varies from person to person",
+            "k": ["intellectual disability", "varies"],
+            "n": 0
+        },
+        {
+            "id": "lejeune",
+            "tier": "middle",
+            "t": "In 1959, a team in Paris including Jérôme Lejeune and Marthe Gautier found the extra chromosome that causes it",
+            "k": ["lejeune", "gautier", "1959", "paris"],
+            "n": 0
+        },
+        {
+            "id": "nondisjunction",
+            "tier": "middle",
+            "t": "Usually caused by nondisjunction: chromosome 21 fails to separate during meiosis as an egg or sperm forms",
+            "k": ["nondisjunction", "meiosis"],
+            "n": 0,
+            "rabbit": "Meiosis"
+        },
+        {
+            "id": "karyotype",
+            "tier": "middle",
+            "t": "A karyotype, a picture of a person’s chromosomes lined up by size, shows the three copies of chromosome 21",
+            "k": ["karyotype", "lined up by size"],
+            "n": 0
+        },
+        {
+            "id": "three-types",
+            "tier": "middle",
+            "t": "Three types: standard (about 95 percent of cases), translocation, and mosaic, in which only some cells carry the extra chromosome",
+            "k": ["translocation", "mosaic", "95 percent"],
+            "n": 0
+        },
+        {
+            "id": "maternal-age",
+            "tier": "middle",
+            "t": "The chance rises with the mother’s age, but many babies with it are born to younger mothers, who have more babies overall",
+            "k": ["mother’s age", "younger mothers"],
+            "n": 0
+        },
+        {
+            "id": "traits",
+            "tier": "middle",
+            "t": "Common traits include low muscle tone, eyes that slant upward, and a single crease across the palm, though every person is different",
+            "k": ["low muscle tone", "single crease", "palm"],
+            "n": 0
+        },
+        {
+            "id": "heart-defect",
+            "tier": "middle",
+            "t": "About half of babies born with it have a heart defect",
+            "k": ["heart defect", "half"],
+            "n": 0
+        },
+        {
+            "id": "alzheimers",
+            "tier": "middle",
+            "t": "Adults with it have a higher risk of Alzheimer’s disease, because chromosome 21 carries the gene for amyloid precursor protein",
+            "k": ["alzheimer’s", "amyloid precursor protein"],
+            "n": 0,
+            "rabbit": "Alzheimer’s disease"
+        },
+        {
+            "id": "socks",
+            "tier": "middle",
+            "t": "On March 21, many people wear bright or mismatched socks to celebrate people with it",
+            "k": ["socks", "mismatched"],
+            "n": 0
+        },
+        {
+            "id": "gautier-credit",
+            "tier": "power",
+            "t": "Marthe Gautier did much of the lab work for the 1959 discovery, though most of the credit went to Jérôme Lejeune",
+            "k": ["marthe gautier", "credit"],
+            "n": 0
+        },
+        {
+            "id": "un-2011",
+            "tier": "power",
+            "t": "The U.N. General Assembly declared its world day in 2011, and the U.N. first observed it in 2012",
+            "k": ["general assembly", "2011", "2012"],
+            "n": 0
+        },
+        {
+            "id": "surrey",
+            "tier": "power",
+            "t": "Its namesake described it in 1866 while working at a hospital in Surrey, England",
+            "k": ["surrey"],
+            "n": 0
+        },
+        {
+            "id": "translocation-14",
+            "tier": "power",
+            "t": "In translocation cases, extra chromosome 21 material is attached to another chromosome, often number 14; this type can be inherited",
+            "k": ["translocation", "number 14", "inherited"],
+            "n": 0
+        },
+        {
+            "id": "smallest-sequenced",
+            "tier": "power",
+            "t": "Chromosome 21 is the smallest human autosome; in 2000 it became the second human chromosome to be sequenced",
+            "k": ["smallest", "autosome", "2000"],
+            "n": 0
+        },
+        {
+            "id": "egg-origin",
+            "tier": "power",
+            "t": "In most cases, the extra chromosome comes from the egg rather than the sperm",
+            "k": ["sperm", "extra chromosome"],
+            "n": 0
+        },
+        {
+            "id": "brushfield",
+            "tier": "power",
+            "t": "Small white or gray spots on the iris, called Brushfield spots, are common in people with it",
+            "k": ["brushfield spots", "iris"],
+            "n": 0
+        },
+        {
+            "id": "life-expectancy",
+            "tier": "power",
+            "t": "In the U.S., average life expectancy for people with it rose from about 25 years in 1983 to about 60",
+            "k": ["life expectancy", "1983"],
+            "n": 0
+        },
+        {
+            "id": "apostrophe",
+            "tier": "power",
+            "t": "U.S. groups write its name without an apostrophe and s, since the doctor it honors did not have it; British usage often keeps them",
+            "k": ["apostrophe", "british"],
+            "n": 0
+        },
+        {
+            "id": "burke-potter",
+            "tier": "power",
+            "t": "Actors with it include Chris Burke (Corky on _Life Goes On_, 1989–1993) and Lauren Potter (Becky Jackson on _Glee_)",
+            "k": ["chris burke", "life goes on", "lauren potter", "glee"],
+            "n": 0
+        },
+        {
+            "id": "nikic",
+            "tier": "power",
+            "t": "In 2020, Chris Nikic became the first person with it to finish an Ironman triathlon",
+            "k": ["chris nikic", "ironman", "2020"],
+            "n": 0
+        },
+        {
+            "id": "gottsagen",
+            "tier": "power",
+            "t": "Actor Zack Gottsagen starred in _The Peanut Butter Falcon_ (2019) and helped present an award at the 2020 Academy Awards",
+            "k": ["zack gottsagen", "peanut butter falcon"],
+            "n": 0
+        },
+        {
+            "id": "edwards-patau",
+            "tier": "power",
+            "t": "Like Edwards syndrome (chromosome 18) and Patau syndrome (chromosome 13), it is a trisomy, but of a smaller chromosome",
+            "k": ["edwards", "patau", "trisomy"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which trisomy?",
+        "body": "Down syndrome is the best-known trisomy, but quiz bowl also asks about Edwards syndrome (an extra chromosome 18) and Patau syndrome (an extra chromosome 13), plus sex-chromosome conditions like Turner syndrome and Klinefelter syndrome. Saying only “trisomy” earns a prompt. The British form, “Down’s syndrome,” is accepted.",
+        "fix": "Chromosome 21, March 21, an English doctor in 1866, or Jérôme Lejeune in 1959 means Down syndrome. Chromosome 18 means Edwards syndrome, chromosome 13 means Patau syndrome, a missing X chromosome in females means Turner syndrome, and an extra X in males (XXY) means Klinefelter syndrome.",
+        "line": "Real answer line: <b><u>Down syndrome</u></b> (accept Down’s syndrome or <u>trisomy 21</u>; prompt on <u>trisomy</u>)"
+    },
+    "tests": {
+        "right": [
+            "Down syndrome",
+            "Down’s syndrome",
+            "Trisomy 21",
+            "Downs syndrom",
+            "trisomy-21"
+        ],
+        "prompt": [
+            "Trisomy"
+        ],
+        "wrong": [
+            "Edwards syndrome",
+            "Patau syndrome",
+            "Trisomy 18",
+            "Turner syndrome",
+            "Fragile X syndrome",
+            "Klinefelter syndrome"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

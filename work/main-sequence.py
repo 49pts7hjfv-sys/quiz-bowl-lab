@@ -1,0 +1,168 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "main-sequence",
+    "name": "Main sequence",
+    "mono": "MSQ",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Hydrogen-fusing band on the H–R diagram · Where stars spend most of their lives",
+    "dates": "Found on the first H–R diagrams, 1911–1913",
+    "briefing": "Plot stars by brightness and temperature, and most of them fall along one diagonal stripe: the main sequence. A star joins it when it starts fusing hydrogen into helium in its core, and it stays there for about 90 percent of its life. Heavier stars sit higher on the stripe and burn out faster. The Sun has been on the main sequence for about 4.6 billion years and has roughly 5 billion to go.",
+    "answerHtml": "<b><u>main sequence</u></b> (accept <u>main-sequence star</u>s; prompt on <u>dwarf</u> stars or luminosity <u>class V</u>; do not accept “Hertzsprung–Russell diagram” or “red giants”)",
+    "accept": [
+        "main sequence",
+        "the main sequence",
+        "main sequence star",
+        "main sequence stars",
+        "main sequence band",
+    ],
+    "prompt": [
+        "dwarf stars",
+        "dwarf star",
+        "dwarfs",
+        "class v",
+        "luminosity class v",
+    ],
+    "reject": [
+        "red giant",
+        "red giants",
+        "red giant branch",
+        "white dwarf",
+        "white dwarfs",
+        "brown dwarf",
+        "brown dwarfs",
+        "horizontal branch",
+        "asymptotic giant branch",
+        "subgiant",
+        "subgiants",
+        "hertzsprung russell diagram",
+        "hr diagram",
+        "h r diagram",
+        "hertzsprung gap",
+        "instability strip",
+        "main sequence turnoff",
+        "turnoff",
+        "turnoff point",
+        "hayashi track",
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Main_sequence",
+    "qb": {
+        "q": "main sequence",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "The Vogt–Russell theorem says that a star’s mass and chemical makeup decide where it sits on this band. Stars on this band stay stable because the outward push of their hot gas balances the inward pull of gravity, a state called hydrostatic equilibrium.",
+            "r": "The Sun lies on this band. For 10 points, name this diagonal band on the Hertzsprung–Russell diagram, where stars fuse hydrogen into helium in their cores.",
+        },
+        {
+            "p": "The lower end of this band lies at about 8 percent of the Sun’s mass, because smaller objects called brown dwarfs never get hot enough inside to keep fusing ordinary hydrogen. The coolest, dimmest stars on this band are red dwarfs, such as Proxima Centauri.",
+            "r": "For 10 points, name this band on the H–R diagram that holds the Sun and most other stars.",
+        },
+        {
+            "p": "The smallest stars on this band, red dwarfs with less than about a third of the Sun’s mass, are stirred by convection all the way through, so they can use up most of their hydrogen. Such stars may stay on this band for trillions of years, far longer than the universe has existed.",
+            "r": "For 10 points, name this longest stage of a star’s life, when it fuses hydrogen into helium in its core.",
+        },
+        {
+            "p": "Stars on the upper part of this band, with more than about 1.3 times the Sun’s mass, get most of their energy from the CNO cycle, in which carbon, nitrogen, and oxygen nuclei act as catalysts. Stars on its lower part, including the Sun, mostly use the proton-proton chain.",
+            "r": "For 10 points, name this band on the Hertzsprung–Russell diagram, where stars spend most of their lives fusing hydrogen.",
+        },
+        {
+            "p": "Astronomers find the age of a star cluster from its turnoff point, where its brightest stars are just peeling away from this band, because heavier stars leave it first. Blue stragglers are odd stars in clusters that still sit on this band above that turnoff.",
+            "r": "For 10 points, name this diagonal band of hydrogen-fusing stars on the H–R diagram, which includes the Sun.",
+        },
+        {
+            "p": "By sliding a star cluster’s diagram up or down until its version of this band lines up with a standard one, astronomers can work out how far away the cluster is. Newborn stars land on the “zero-age” edge of this band when hydrogen fusion first switches on in their cores.",
+            "r": "For 10 points, name this band on the H–R diagram, where stars spend about 90 percent of their lives.",
+        },
+        {
+            "p": "In the Morgan–Keenan system, stars on this band get the Roman numeral V and are called dwarfs, even though the hottest of them are several times wider than the Sun. The Sun’s full label, G2 V, places it near the middle of this band.",
+            "r": "For 10 points, name this band on the Hertzsprung–Russell diagram, where stars fuse hydrogen in their cores.",
+        },
+        {
+            "p": "For stars on this band, luminosity rises roughly as mass to the 3.5 power, so a star ten times as massive as the Sun shines thousands of times brighter and uses up its core hydrogen in only tens of millions of years. The hottest, bluest stars on this band sit at its upper left.",
+            "r": "For 10 points, name this band on the H–R diagram that runs from the upper left to the lower right.",
+        },
+        {
+            "p": "Stars that have just left this band drift to the right across the H–R diagram as subgiants. In about five billion years, the Sun will use up the hydrogen in its core, leave this band, and swell into a red giant.",
+            "r": "For 10 points, name this stage of a star’s life, when it steadily fuses hydrogen into helium in its core.",
+        },
+        {
+            "p": "Stars slowly brighten while they are on this band, because helium builds up in their cores. Early in its time on this band, the Sun gave off only about 70 percent as much energy as it does in modern times, which leads to a puzzle called the faint young Sun paradox.",
+            "r": "Most stars, including the Sun, lie on it. For 10 points, name this diagonal band on the Hertzsprung–Russell diagram.",
+        },
+        {
+            "p": "Vega, the brightest star in Lyra, and Sirius A, the brightest star in the night sky, are both hot, white stars on this band. Proxima Centauri, the nearest star to the Sun, is a dim red dwarf near this band’s lower right end.",
+            "r": "Red supergiants like Betelgeuse have already left it. For 10 points, name this band on the H–R diagram.",
+        },
+        {
+            "p": "All stars on this band are sometimes called dwarf stars, a name that covers yellow stars like the Sun and red dwarfs but not white dwarfs or brown dwarfs. Roughly 90 percent of all stars belong to this band.",
+            "r": "For 10 points, name this band on the H–R diagram, where stars fuse hydrogen into helium in their cores.",
+        },
+        {
+            "p": "Newborn stars creep toward this band along Hayashi tracks, which run almost straight down the H–R diagram, and the heavier ones finish the trip along Henyey tracks, which run to the left. The Sun has been on this band for about 4.6 billion years.",
+            "r": "A star joins it once hydrogen fusion begins in its core. For 10 points, name this band of stars.",
+        },
+        {
+            "p": "When Ejnar Hertzsprung and Henry Norris Russell separately plotted stars’ brightness against their colors in the early 1910s, most stars fell along this narrow band. The most massive stars on this band leave it after only a few million years, while the Sun will spend about 10 billion years on it in all.",
+            "r": "It runs from hot, blue stars at the upper left to cool, red stars at the lower right. For 10 points, name this band.",
+        },
+        {
+            "p": "By timing the orbits of binary stars, astronomers weighed stars on this band and found that their masses rise steadily toward its upper left, from less than a tenth of the Sun’s mass to more than fifty times. Massive stars on this band have churning, convective cores.",
+            "r": "For 10 points, name this band on the H–R diagram where stars, including the Sun, fuse hydrogen into helium.",
+        },
+    ],
+    "clues": [
+        {"id": "hydrogen-fusion", "tier": "giveaway", "t": "Stars on it fuse hydrogen into helium in their cores", "k": ["hydrogen", "helium", "cores"], "n": 0},
+        {"id": "diagonal-band", "tier": "giveaway", "t": "A diagonal band across the Hertzsprung–Russell diagram, from hot, bright, blue stars at the upper left to cool, dim, red stars at the lower right", "k": ["diagonal band", "upper left", "lower right"], "n": 0, "rabbit": "Hertzsprung–Russell diagram"},
+        {"id": "sun", "tier": "giveaway", "t": "The Sun is on it, about halfway through its stay of roughly 10 billion years", "k": ["halfway", "10 billion"], "n": 0, "rabbit": "The Sun"},
+        {"id": "most-stars", "tier": "giveaway", "t": "Roughly 90 percent of stars belong to it, and stars spend about 90 percent of their lives on it", "k": ["90 percent", "lives"], "n": 0},
+        {"id": "mass", "tier": "middle", "t": "A star’s place on it depends mostly on its mass: the heaviest, hottest stars sit at the upper left", "k": ["mass", "heaviest"], "n": 0},
+        {"id": "mass-luminosity", "tier": "middle", "t": "Luminosity rises roughly as mass to the 3.5 power, so a star ten times the Sun’s mass shines thousands of times brighter", "k": ["3.5 power", "luminosity", "thousands"], "n": 0, "rabbit": "Luminosity"},
+        {"id": "lifetimes", "tier": "middle", "t": "Heavier stars leave it sooner: the most massive last only a few million years, while red dwarfs may last trillions of years", "k": ["few million", "trillions", "red dwarfs"], "n": 0},
+        {"id": "red-giant", "tier": "middle", "t": "When its core hydrogen runs out, a star leaves it and swells into a red giant; the Sun will do so in about five billion years", "k": ["red giant", "five billion"], "n": 0},
+        {"id": "hydrostatic", "tier": "middle", "t": "Its stars stay stable because outward gas pressure balances gravity, a state called hydrostatic equilibrium", "k": ["hydrostatic equilibrium", "gravity"], "n": 0},
+        {"id": "dwarfs", "tier": "middle", "t": "Its stars are called dwarfs, class V in the Morgan–Keenan system, so the Sun’s full label is G2 V", "k": ["dwarfs", "class v", "morgan", "keenan"], "n": 0},
+        {"id": "red-dwarfs", "tier": "middle", "t": "Red dwarfs such as Proxima Centauri sit at its lower right; hot O and B stars sit at its upper left", "k": ["red dwarfs", "proxima centauri"], "n": 0},
+        {"id": "turnoff", "tier": "middle", "t": "A star cluster’s age comes from its turnoff point, where its stars are peeling away from this band", "k": ["turnoff", "age"], "n": 0},
+        {"id": "hertzsprung-russell", "tier": "middle", "t": "Ejnar Hertzsprung and Henry Norris Russell found most stars on this band when they plotted brightness against color in the early 1910s", "k": ["hertzsprung", "russell", "1910s"], "n": 0},
+        {"id": "vogt-russell", "tier": "power", "t": "The Vogt–Russell theorem: a star’s mass and chemical makeup determine its structure and its place on this band", "k": ["vogt", "chemical makeup"], "n": 0},
+        {"id": "brown-dwarfs", "tier": "power", "t": "Its lower end is about 8 percent of the Sun’s mass (roughly 80 times Jupiter’s); smaller brown dwarfs can’t keep fusing ordinary hydrogen", "k": ["brown dwarfs", "8 percent"], "n": 0},
+        {"id": "cno-cycle", "tier": "power", "t": "Stars above about 1.3 Suns mostly use the CNO cycle; the Sun and smaller stars mostly use the proton-proton chain", "k": ["cno cycle", "proton-proton"], "n": 0, "rabbit": "Nuclear fusion"},
+        {"id": "fully-convective", "tier": "power", "t": "Red dwarfs below about a third of the Sun’s mass are fully convective, stirring their hydrogen through their whole interior", "k": ["fully convective", "third"], "n": 0},
+        {"id": "convective-cores", "tier": "power", "t": "Massive stars on it have convective cores; in Sun-like stars, energy leaves the core mainly as radiation", "k": ["convective cores", "radiation"], "n": 0},
+        {"id": "zero-age", "tier": "power", "t": "Stars first land on its “zero-age” edge when hydrogen fusion switches on in their cores", "k": ["zero-age", "switches on"], "n": 0},
+        {"id": "hayashi", "tier": "power", "t": "Newborn stars reach it along Hayashi tracks (almost straight down) and, for heavier ones, Henyey tracks (to the left)", "k": ["hayashi", "henyey"], "n": 0, "rabbit": "Star formation"},
+        {"id": "fitting", "tier": "power", "t": "Sliding a cluster’s version of this band up or down to match a standard one gives the cluster’s distance, a method called “fitting”", "k": ["fitting", "distance"], "n": 0},
+        {"id": "blue-stragglers", "tier": "power", "t": "Blue stragglers sit on it above a cluster’s turnoff, even though stars that heavy should already have left", "k": ["blue stragglers"], "n": 0},
+        {"id": "brightening", "tier": "power", "t": "Stars slowly brighten on it as helium builds up; the early Sun gave off only about 70 percent of its modern energy (the faint young Sun paradox)", "k": ["faint young sun", "70 percent", "brighten"], "n": 0},
+        {"id": "vega-sirius", "tier": "power", "t": "Vega and Sirius A are hot, white stars on it; red supergiants like Betelgeuse have already left it", "k": ["vega", "sirius a", "betelgeuse"], "n": 0},
+        {"id": "binary-masses", "tier": "power", "t": "Orbits of binary stars show that its stars range from under a tenth of the Sun’s mass to more than fifty times", "k": ["binary", "tenth", "fifty"], "n": 0},
+        {"id": "subgiants", "tier": "power", "t": "Stars that have just left it drift to the right across the H–R diagram as subgiants", "k": ["subgiants"], "n": 0},
+    ],
+    "trap": {
+        "title": "Band, diagram, or dwarf?",
+        "body": "Tossups on this band are full of H–R diagram clues, so players buzz with “Hertzsprung–Russell diagram,” which is the whole graph, not the band of stars on it. Others answer “red giants,” the stage that comes right after it. The word “dwarf” causes more trouble: the Sun (a yellow dwarf) and red dwarfs are on this band, but white dwarfs and brown dwarfs are not.",
+        "fix": "“This band,” “this stage,” hydrogen fusing into helium in the core, the turnoff, or the zero-age line means main sequence. “This diagram” or “this graph” means the H–R diagram. Saying only “dwarf stars” earns a prompt, so give the full name.",
+        "line": "Real answer line: <b><u>main sequence</u></b> (accept <u>main-sequence star</u>s; do not accept “Hertzsprung–Russell diagram” or “red giants”)",
+    },
+    "tests": {
+        "right": ["main sequence", "Main-sequence stars", "main sequnce", "the main sequence", "zero-age main sequence"],
+        "prompt": ["dwarf stars", "class V"],
+        "wrong": ["red giants", "white dwarfs", "H-R diagram", "Hertzsprung-Russell diagram", "main sequence turnoff", "horizontal branch"],
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("saved", out)

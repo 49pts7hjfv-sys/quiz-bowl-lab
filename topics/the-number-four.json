@@ -1,0 +1,533 @@
+{
+  "id": "the-number-four",
+  "name": "The number four",
+  "mono": "4",
+  "category": "Math",
+  "qbCategory": "Science · Other Science (Math)",
+  "kicker": "The smallest composite number · Enough colors for any map",
+  "dates": "Map-coloring theorem proved 1976",
+  "briefing": "Four is the smallest composite number, and it is the only number whose English name has exactly as many letters as its value. Two plus two, two times two, and two squared all equal 4. A square has four sides, a tetrahedron has four faces, and in 1976 two mathematicians used a computer to prove that four colors are always enough to color any map so that no neighboring regions match.",
+  "answerHtml": "<b><u>four</u></b> (or <u>4</u>)",
+  "accept": [
+    "four",
+    "4",
+    "the number four",
+    "number four",
+    "the number 4",
+    "number 4"
+  ],
+  "prompt": [],
+  "reject": [
+    "zero",
+    "0",
+    "the number zero",
+    "number zero",
+    "one",
+    "1",
+    "the number one",
+    "number one",
+    "two",
+    "2",
+    "the number two",
+    "number two",
+    "three",
+    "3",
+    "the number three",
+    "number three",
+    "five",
+    "5",
+    "the number five",
+    "number five",
+    "six",
+    "eight",
+    "ten",
+    "fourteen",
+    "forty",
+    "the number forty",
+    "number forty",
+    "the number fourteen",
+    "fourth",
+    "a fourth",
+    "one fourth",
+    "quarter",
+    "a quarter",
+    "one quarter",
+    "twenty four",
+    "forty four",
+    "sixty four",
+    "four hundred",
+    "four thirds",
+    "square",
+    "squares",
+    "square number",
+    "tetrahedron",
+    "quadrilateral",
+    "quadrilaterals",
+    "quartic",
+    "quaternions",
+    "tesseract",
+    "composite",
+    "composite number",
+    "composite numbers",
+    "four color theorem",
+    "four colour theorem",
+    "the four seasons",
+    "four seasons",
+    "nineteen eighty four",
+    "pi",
+    "e",
+    "i",
+    "infinity",
+    "the number 0",
+    "the number 1",
+    "the number 2",
+    "the number 3",
+    "the number 5",
+    "the number 6",
+    "the number 7",
+    "the number 8",
+    "the number 9",
+    "the number 10",
+    "the number 14",
+    "the number 24",
+    "the number 40",
+    "the number 44",
+    "number 0",
+    "number 1",
+    "number 2",
+    "number 3",
+    "number 5",
+    "number 6",
+    "number 7",
+    "number 8",
+    "number 9",
+    "number 10",
+    "number 14",
+    "number 24",
+    "number 40",
+    "number 44"
+  ],
+  "tests": {
+    "right": [
+      "four",
+      "4",
+      "The number four",
+      "number 4",
+      "Four",
+      "the number 4"
+    ],
+    "prompt": [],
+    "wrong": [
+      "two",
+      "three",
+      "The number two",
+      "five",
+      "tetrahedron",
+      "composite number",
+      "The Four Seasons",
+      "the number 3"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/4",
+  "qb": {
+    "q": "four",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1852, Francis Guthrie noticed that this many colors were enough to fill in a map of the counties of England so that no neighboring counties matched. In 1976, Kenneth Appel and Wolfgang Haken used a computer to prove that this many colors are enough for any flat map.",
+      "r": "This number’s English name has as many letters as its value. For 10 points, name this smallest composite number."
+    },
+    {
+      "p": "Pierre de Fermat [“fair-MAH”] used infinite descent to show that no right triangle with whole-number sides has a perfect-square area, proving his Last Theorem for this exponent. Lodovico Ferrari found the first general method for solving equations of this degree, which Gerolamo Cardano published in _Ars Magna_.",
+      "r": "For 10 points, name this number, the degree of a quartic equation, which equals 2 plus 2."
+    },
+    {
+      "p": "In 1770, Joseph-Louis Lagrange [“luh-GRAHNZH”] proved that every positive whole number is the sum of at most this many perfect squares, and 7 is the smallest number that needs that many. Carbon atoms usually form this many covalent bonds, as in a methane molecule.",
+      "r": "A square has this many equal sides and this many right angles. For 10 points, name this number, which equals 2 times 2."
+    },
+    {
+      "p": "Some buildings in East Asia skip floor numbers containing this digit, because in Chinese, Japanese, and Korean its name sounds like the word for “death.” Many clock faces with Roman numerals write this number as a row of identical strokes instead of its usual Roman numeral.",
+      "r": "For 10 points, name this number, usually written IV in Roman numerals, the number of sides of a square."
+    },
+    {
+      "p": "In 1908, Hermann Minkowski [“min-KOFF-skee”] described space and time together as a single spacetime with this many dimensions, an idea Albert Einstein later used in general relativity. Physics recognizes this many fundamental forces, including gravity and electromagnetism.",
+      "r": "A tesseract is a cube in this many dimensions. For 10 points, name this number, three dimensions of space plus one of time."
+    },
+    {
+      "p": "The Pythagoreans held sacred a triangle of 10 dots arranged in rows of 1, 2, 3, and this many dots, since those numbers add up to 10. This number factorial equals 24, the number of ways to line up this many different books on a shelf.",
+      "r": "Two plus two and two times two both equal this number. For 10 points, name this smallest composite number, which also equals 2 squared."
+    },
+    {
+      "p": "Archimedes proved that a sphere’s surface area is exactly this many times the area of a circle with the same radius. Madhava [“MAH-duh-vuh”] and, much later, Gottfried Leibniz [“LYBE-nits”] found an endless sum, 1 minus a third plus a fifth minus a seventh and so on, that gives pi when multiplied by this number.",
+      "r": "A square has this many sides. For 10 points, name this number, which equals 2 plus 2 and 2 times 2."
+    },
+    {
+      "p": "William Rowan Hamilton carved the rule for a new kind of number into a Dublin bridge in 1843; each of those numbers has this many parts, a plain number plus multiples of i, j, and k. Beryllium, the element right after lithium, has this atomic number.",
+      "r": "Hamilton named those numbers quaternions. For 10 points, name this number of sides on a square or any other quadrilateral."
+    },
+    {
+      "p": "By the Abel–Ruffini theorem, this is the highest degree for which every polynomial equation can be solved by a general formula using only arithmetic and roots. The Platonic solid with the fewest faces has this many triangular faces and this many corners.",
+      "r": "That solid is the tetrahedron. For 10 points, name this number, which is the smallest composite number."
+    },
+    {
+      "p": "The Greek philosopher Empedocles [“em-PED-uh-kleez”] taught that everything is made from this many “roots,” or elements, including fire and water. Ancient doctors such as Galen believed that health depended on balancing this many bodily fluids, called humors.",
+      "r": "For 10 points, name this number, which is the number of seasons in a year and of sides on a square."
+    },
+    {
+      "p": "Abraham Lincoln’s Gettysburg Address begins by counting back this many “score” and seven years, or 87 years, to 1776. U.S. presidents are elected to terms of this many years, and the Summer Olympics are held this many years apart.",
+      "r": "For 10 points, name this number of sides on a square, which is also 2 times 2."
+    },
+    {
+      "p": "A monument in the American Southwest marks the only point where the borders of this many U.S. states meet. The human heart has this many chambers, and DNA is written with this many kinds of bases.",
+      "r": "For 10 points, name this number, written IV in Roman numerals, whose English name has as many letters as its value."
+    },
+    {
+      "p": "Antonio Vivaldi published a set of this many violin concertos about the seasons in 1725, each paired with a sonnet. Mount Rushmore shows the carved faces of this many U.S. presidents.",
+      "r": "For 10 points, name this number, which is the smallest composite number and the number of sides on a square."
+    },
+    {
+      "p": "Only three regular polygons tile a flat floor by themselves, and in the tiling made of squares, this many squares meet at every corner. A polygon with this many sides splits into two triangles, so its angles add up to 360 degrees.",
+      "r": "Such polygons, including squares and rectangles, are called quadrilaterals. For 10 points, name this number, which equals 2 plus 2."
+    },
+    {
+      "p": "The complete graph on this many points, with every pair of points joined by a line, is the largest complete graph that can be drawn on paper with no crossing lines. In binary, this number is written 100.",
+      "r": "For 10 points, name this number, which is 2 plus 2 and the smallest composite number."
+    }
+  ],
+  "clues": [
+    {
+      "id": "smallest-composite",
+      "tier": "giveaway",
+      "t": "The smallest composite number; 2 + 2, 2 × 2, and 2² all equal it",
+      "k": [
+        "smallest composite",
+        "composite",
+        "2 × 2"
+      ],
+      "n": 0,
+      "rabbit": "Prime numbers"
+    },
+    {
+      "id": "square-sides",
+      "tier": "giveaway",
+      "t": "A square, a rectangle, and every other quadrilateral have this many sides",
+      "k": [
+        "square",
+        "quadrilateral",
+        "sides"
+      ],
+      "n": 0
+    },
+    {
+      "id": "letters",
+      "tier": "giveaway",
+      "t": "The only number whose English name has exactly as many letters as its value",
+      "k": [
+        "english name",
+        "letters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "roman-binary",
+      "tier": "giveaway",
+      "t": "Roman numeral IV, though many clock faces write it IIII; in binary it is written 100",
+      "k": [
+        "roman numeral",
+        "clock faces",
+        "binary"
+      ],
+      "n": 0,
+      "rabbit": "Binary numbers"
+    },
+    {
+      "id": "map-coloring",
+      "tier": "middle",
+      "t": "Map-coloring theorem: this many colors can fill any flat map so no neighboring regions match; Kenneth Appel and Wolfgang Haken proved it with a computer in 1976",
+      "k": [
+        "neighboring regions",
+        "appel",
+        "haken",
+        "1976"
+      ],
+      "n": 0,
+      "rabbit": "Graph theory"
+    },
+    {
+      "id": "tetrahedron",
+      "tier": "middle",
+      "t": "A tetrahedron, the Platonic solid with the fewest faces, has this many triangular faces and this many corners",
+      "k": [
+        "tetrahedron",
+        "platonic solid",
+        "triangular faces"
+      ],
+      "n": 0,
+      "rabbit": "Triangles"
+    },
+    {
+      "id": "spacetime",
+      "tier": "middle",
+      "t": "Hermann Minkowski (1908) joined three dimensions of space and one of time into a spacetime with this many dimensions; a tesseract is a cube in this many",
+      "k": [
+        "minkowski",
+        "spacetime",
+        "tesseract",
+        "1908"
+      ],
+      "n": 0,
+      "rabbit": "Albert Einstein"
+    },
+    {
+      "id": "lagrange",
+      "tier": "middle",
+      "t": "Lagrange’s theorem (1770): every positive whole number is a sum of at most this many perfect squares; 7 is the smallest that needs that many",
+      "k": [
+        "lagrange",
+        "perfect squares",
+        "1770"
+      ],
+      "n": 0
+    },
+    {
+      "id": "quartic",
+      "tier": "middle",
+      "t": "Quartic equations have this degree, the highest degree with a general formula using only arithmetic and roots (the Abel–Ruffini theorem)",
+      "k": [
+        "quartic",
+        "abel–ruffini",
+        "degree"
+      ],
+      "n": 0,
+      "rabbit": "Polynomials"
+    },
+    {
+      "id": "science",
+      "tier": "middle",
+      "t": "Beryllium’s atomic number; carbon atoms usually form this many covalent bonds; DNA is written with this many kinds of bases",
+      "k": [
+        "beryllium",
+        "covalent bonds",
+        "carbon",
+        "bases"
+      ],
+      "n": 0,
+      "rabbit": "Carbon"
+    },
+    {
+      "id": "heart-forces",
+      "tier": "middle",
+      "t": "The human heart has this many chambers, and physics recognizes this many fundamental forces",
+      "k": [
+        "chambers",
+        "fundamental forces",
+        "heart"
+      ],
+      "n": 0,
+      "rabbit": "Heart"
+    },
+    {
+      "id": "sphere-area",
+      "tier": "middle",
+      "t": "Archimedes proved that a sphere’s surface area is this many times the area of a circle with the same radius",
+      "k": [
+        "archimedes",
+        "surface area",
+        "sphere"
+      ],
+      "n": 0,
+      "rabbit": "Spheres"
+    },
+    {
+      "id": "calendar",
+      "tier": "middle",
+      "t": "U.S. presidents are elected to terms of this many years; the Summer Olympics and most leap years come this many years apart",
+      "k": [
+        "presidents",
+        "olympics",
+        "leap years"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tiling",
+      "tier": "middle",
+      "t": "Squares are one of only three regular polygons that tile a flat floor by themselves; this many squares meet at each corner, and a quadrilateral’s angles add up to 360°",
+      "k": [
+        "tile",
+        "regular polygons",
+        "each corner",
+        "360°"
+      ],
+      "n": 0
+    },
+    {
+      "id": "guthrie",
+      "tier": "power",
+      "t": "Francis Guthrie first guessed the map-coloring rule in 1852 while coloring a map of the counties of England",
+      "k": [
+        "guthrie",
+        "1852",
+        "counties of england"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fermat-descent",
+      "tier": "power",
+      "t": "Pierre de Fermat proved his Last Theorem for this exponent by infinite descent: no right triangle with whole-number sides has a perfect-square area",
+      "k": [
+        "infinite descent",
+        "fermat",
+        "perfect-square area"
+      ],
+      "n": 0,
+      "rabbit": "Fermat’s Last Theorem"
+    },
+    {
+      "id": "ferrari",
+      "tier": "power",
+      "t": "Lodovico Ferrari found how to solve equations of this degree; Gerolamo Cardano published the method in _Ars Magna_ (1545)",
+      "k": [
+        "ferrari",
+        "cardano",
+        "ars magna",
+        "1545"
+      ],
+      "n": 0
+    },
+    {
+      "id": "east-asia",
+      "tier": "power",
+      "t": "In Chinese, Japanese, and Korean its name sounds like the word for “death,” so some buildings skip floor numbers with this digit",
+      "k": [
+        "death",
+        "skip floor",
+        "chinese",
+        "korean"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pythagoreans",
+      "tier": "power",
+      "t": "The Pythagoreans held sacred a triangle of 10 dots in rows of 1, 2, 3, and this many",
+      "k": [
+        "pythagoreans",
+        "10 dots",
+        "sacred"
+      ],
+      "n": 0,
+      "rabbit": "Pythagorean theorem"
+    },
+    {
+      "id": "factorial",
+      "tier": "power",
+      "t": "Its factorial is 24 (the ways to line up this many books), and the whole numbers from 1 up to it add up to 10",
+      "k": [
+        "factorial",
+        "24",
+        "add up to 10"
+      ],
+      "n": 0,
+      "rabbit": "Factorial"
+    },
+    {
+      "id": "madhava",
+      "tier": "power",
+      "t": "Madhava and, much later, Leibniz: 1 − 1/3 + 1/5 − 1/7 + … gives π when multiplied by this number",
+      "k": [
+        "madhava",
+        "leibniz",
+        "1/3"
+      ],
+      "n": 0,
+      "rabbit": "Pi"
+    },
+    {
+      "id": "quaternions",
+      "tier": "power",
+      "t": "William Rowan Hamilton’s quaternions (1843), carved into a Dublin bridge, have this many parts: a plain number plus multiples of i, j, and k",
+      "k": [
+        "quaternions",
+        "hamilton",
+        "1843",
+        "dublin"
+      ],
+      "n": 0,
+      "rabbit": "Complex numbers"
+    },
+    {
+      "id": "vivaldi",
+      "tier": "power",
+      "t": "Antonio Vivaldi published this many violin concertos about the seasons in 1725, each paired with a sonnet",
+      "k": [
+        "vivaldi",
+        "violin concertos",
+        "1725"
+      ],
+      "n": 0,
+      "rabbit": "Antonio Vivaldi"
+    },
+    {
+      "id": "gettysburg",
+      "tier": "power",
+      "t": "Lincoln’s Gettysburg Address begins by counting back this many “score” and seven years: 87 years, to 1776",
+      "k": [
+        "gettysburg",
+        "score",
+        "87 years"
+      ],
+      "n": 0,
+      "rabbit": "Gettysburg Address"
+    },
+    {
+      "id": "four-corners",
+      "tier": "power",
+      "t": "A Southwest monument marks the only point where this many U.S. states meet: Arizona, Colorado, New Mexico, and Utah",
+      "k": [
+        "monument",
+        "arizona",
+        "utah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "empedocles",
+      "tier": "power",
+      "t": "Empedocles taught that everything is made of this many elements (earth, water, air, fire); Galen balanced this many bodily humors",
+      "k": [
+        "empedocles",
+        "elements",
+        "humors",
+        "galen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "complete-graph",
+      "tier": "power",
+      "t": "The complete graph on this many points is the largest complete graph that can be drawn flat with no crossing lines",
+      "k": [
+        "complete graph",
+        "crossing lines"
+      ],
+      "n": 0,
+      "rabbit": "Graph theory"
+    }
+  ],
+  "trap": {
+    "title": "Name the number itself",
+    "body": "Number tossups mention other numbers along the way: “2 plus 2,” “2 squared,” “a triangle of 10 dots,” or “its factorial is 24.” The answer is the number the clues point to, 4, not one said in passing. Related things like the Four Color Theorem, the tetrahedron, quadrilaterals, and Vivaldi’s _The Four Seasons_ are their own answer lines.",
+    "fix": "When the giveaway asks for “this number,” say “four” or “4.” If it asks for “this theorem,” “this solid,” or “these concertos,” name that thing instead. Don’t mix it up with 2, the only even prime, whose clues often mention squaring.",
+    "line": "Real answer line: <b><u>four</u></b> (or <u>4</u>)"
+  }
+}
