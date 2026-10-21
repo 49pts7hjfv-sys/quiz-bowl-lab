@@ -101,7 +101,7 @@
       "r": "Wind piles this material into dunes. For 10 points, name this loose material made mostly of quartz grains."
     },
     {
-      "p": "Dunes of this material in Namibia’s Namib Desert are among the tallest in the world, and a thin coating of iron oxide on each grain gives them their red-orange color. The famous red dunes around Sossusvlei, a dry clay pan, draw many visitors.",
+      "p": "Dunes of this material in Namibia’s Namib Desert are among the tallest in the world, and a thin coating of iron oxide on each grain gives them their red-orange color. The famous red dunes around Sossusvlei, a usually dry clay pan, draw many visitors.",
       "r": "Glass is made by melting this material. For 10 points, name this granular material found on beaches and in deserts."
     },
     {
@@ -419,7 +419,8 @@
       "Sandz",
       "Quartz sand",
       "Grains of sand",
-      "Black sand"
+      "Black sand",
+      "White sand"
     ],
     "prompt": [
       "Sediment"
@@ -430,7 +431,8 @@
       "Gravel",
       "Sandstone",
       "Sand dunes",
-      "Soil"
+      "Soil",
+      "White Fang"
     ]
   }
 }

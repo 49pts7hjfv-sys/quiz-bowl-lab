@@ -75,7 +75,7 @@
       "r": "During this event, weak trade winds let warm water spread east toward South America. For 10 points, name this climate pattern, the opposite of La Niña."
     },
     {
-      "p": "Scientists often track this event with an index based on the difference in air pressure between Tahiti and Darwin, Australia, and that index turns strongly negative while this event is under way. That index is called the Southern Oscillation Index.",
+      "p": "Scientists often track this event with an index based on the difference in air pressure between Tahiti and Darwin, Australia, and that index turns negative while this event is under way. That index is called the Southern Oscillation Index.",
       "r": "Peruvian fishermen named this event for the Christ child because it often arrives near Christmas. For 10 points, name this warming of the eastern tropical Pacific."
     },
     {
@@ -202,7 +202,7 @@
     {
       "id": "upwelling-peru",
       "tier": "middle",
-      "t": "Shuts off the upwelling of cold, nutrient-rich water off Peru, hurting the anchoveta fishery",
+      "t": "Weakens the upwelling of cold, nutrient-rich water off Peru, hurting the anchoveta fishery",
       "k": [
         "upwelling",
         "anchoveta",
@@ -292,7 +292,7 @@
     {
       "id": "tahiti-darwin",
       "tier": "power",
-      "t": "The Southern Oscillation Index compares air pressure at Tahiti and Darwin, Australia; it turns strongly negative during the warm event",
+      "t": "The Southern Oscillation Index compares air pressure at Tahiti and Darwin, Australia; it turns negative during the warm event",
       "k": [
         "tahiti",
         "darwin",
@@ -389,7 +389,7 @@
   ],
   "trap": {
     "title": "El Niño or La Niña?",
-    "body": "La Niña is the cold phase of the same cycle, with extra-strong trade winds and colder water in the eastern Pacific, so the two share almost every clue: Peru, the trade winds, the Southern Oscillation, and weather effects around the world. Upwelling, the rising cold water that this warm event shuts off, is a wrong answer too.",
+    "body": "La Niña is the cold phase of the same cycle, with extra-strong trade winds and colder water in the eastern Pacific, so the two share almost every clue: Peru, the trade winds, the Southern Oscillation, and weather effects around the world. Upwelling, the rising cold water that this warm event weakens, is a wrong answer too.",
     "fix": "Warm water spreading east, weak trade winds, Christmas, floods in Peru, drought in Australia, and a quiet Atlantic hurricane season mean El Niño. Cold water off South America, extra-strong trade winds, and busier Atlantic hurricane seasons mean La Niña. Saying only “Southern Oscillation” earns a prompt.",
     "line": "Real answer line: <b><u>El Niño</u></b> (accept El Niño–Southern Oscillation or ENSO; prompt on Southern Oscillation; do not accept “La Niña”)"
   },

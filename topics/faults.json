@@ -71,6 +71,7 @@
     "san andreas fault",
     "hayward fault",
     "north anatolian fault",
+    "denali fault",
     "hanging wall",
     "footwall",
     "foot wall",
@@ -131,7 +132,7 @@
       "r": "Earthquakes begin when rock suddenly slips along one. For 10 points, name these fractures in Earth’s crust, whose main types are normal, reverse, and strike-slip."
     },
     {
-      "p": "Geologists describe the position of one of these features with two measurements: its strike, the compass direction of the line where it meets level ground, and its dip, the angle at which it slants downward. The dip-slip kinds of these features move up or down along that slant.",
+      "p": "Geologists describe the orientation of one of these features with two measurements: its strike, the compass direction of the line where it meets level ground, and its dip, the angle at which it slants downward. The dip-slip kinds of these features move up or down along that slant.",
       "r": "Strike-slip kinds move sideways instead. For 10 points, name these breaks in rock, such as California’s San Andreas, along which earthquakes happen."
     },
     {
@@ -297,7 +298,7 @@
     {
       "id": "horst-graben",
       "tier": "middle",
-      "t": "Normal ones stretch the land into raised horsts and dropped grabens, as in Nevada’s Basin and Range",
+      "t": "Where the crust stretches, normal ones create raised horsts and dropped grabens, as in Nevada’s Basin and Range",
       "k": [
         "horsts",
         "grabens",
@@ -350,7 +351,7 @@
     {
       "id": "strike-dip",
       "tier": "power",
-      "t": "Position given by strike (compass direction along level ground) and dip (the angle it slants down)",
+      "t": "Orientation given by strike (compass direction along level ground) and dip (the angle it slants down)",
       "k": [
         "strike",
         "dip",
@@ -505,7 +506,10 @@
       "Joints",
       "Folds",
       "The Fault in Our Stars",
-      "Subduction"
+      "Subduction",
+      "Faust",
+      "Fasting",
+      "Denali Fault"
     ]
   }
 }

@@ -79,8 +79,7 @@
     "faults",
     "thrust fault",
     "convection",
-    "mantle convection",
-    "mantle"
+    "mantle convection"
   ],
   "media": [],
   "mediaPending": true,
@@ -438,7 +437,8 @@
       "Subduction zone",
       "subduction zones",
       "Subductoin",
-      "Subducting plate"
+      "Subducting plate",
+      "Subduction into the mantle"
     ],
     "prompt": [
       "Convergent boundary",
@@ -450,7 +450,9 @@
       "Obduction",
       "Mariana Trench",
       "Ring of Fire",
-      "Faults"
+      "Faults",
+      "Thrust fault",
+      "Megathrust"
     ]
   }
 }

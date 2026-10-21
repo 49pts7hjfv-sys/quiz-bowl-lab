@@ -21,6 +21,8 @@
     "rift lakes",
     "glacial lake",
     "glacial lakes",
+    "glacier lake",
+    "glacier lakes",
     "kettle lake",
     "kettle lakes",
     "freshwater lake",
@@ -78,6 +80,8 @@
     "aquifer",
     "aquifers",
     "limnology",
+    "lake effect",
+    "lake effect snow",
     "great lakes",
     "lake superior",
     "lake michigan",
@@ -156,7 +160,7 @@
     },
     {
       "p": "As North America’s great ice sheets melted, they left behind Agassiz, a gigantic body of meltwater named for Louis Agassiz. Glacial bodies of water like it collected thin yearly layers of sediment called varves, which scientists count like tree rings.",
-      "r": "Retreating glaciers also carved out the basins of Superior and Michigan. For 10 points, name these bodies of standing water, which include kettle and oxbow types."
+      "r": "Ice-age glaciers also helped carve out the basins of Superior and Michigan. For 10 points, name these bodies of standing water, which include kettle and oxbow types."
     },
     {
       "p": "The Uros people live on floating islands made of totora [“toh-TOR-uh”] reeds in one of these bodies of water, which sits about 3,800 meters above sea level on the border of Peru and Bolivia. In Inca legend, the founders of their empire rose from its waters.",
@@ -167,7 +171,7 @@
       "r": "Tanganyika and Malawi are long, deep examples of these bodies of water in Africa’s Great Rift Valley. For 10 points, name these inland bodies of standing water."
     },
     {
-      "p": "Gordon Lightfoot wrote a hit song about the freighter _Edmund Fitzgerald_, which sank during a November storm in 1975 while carrying iron ore across one of these bodies of water. The ship’s bell was later raised from the wreck and placed in a museum.",
+      "p": "Gordon Lightfoot wrote a hit song about the freighter _Edmund Fitzgerald_, which sank with all 29 of its crew during a November storm in 1975 while carrying iron ore across one of these bodies of water. The ship’s bell was later raised from the wreck and placed in a museum as a memorial.",
       "r": "That body of water, Superior, has the largest surface area of any freshwater one. For 10 points, name these inland bodies of standing water, whose deepest example is Russia’s Baikal."
     },
     {
@@ -250,7 +254,7 @@
     {
       "id": "crater-mazama",
       "tier": "middle",
-      "t": "Oregon’s deepest one fills the caldera of Mount Mazama, which collapsed about 7,700 years ago; no rivers flow in or out",
+      "t": "The deepest one in the U.S. fills the caldera of Oregon’s Mount Mazama, which collapsed about 7,700 years ago; no rivers flow in or out",
       "k": [
         "mazama",
         "caldera",
@@ -263,7 +267,7 @@
     {
       "id": "glacial-basins",
       "tier": "middle",
-      "t": "Retreating glaciers carved the basins of Superior, Michigan, Huron, Erie, and Ontario",
+      "t": "Ice-age glaciers helped carve the basins of Superior, Michigan, Huron, Erie, and Ontario",
       "k": [
         "glaciers",
         "basins",
@@ -455,7 +459,7 @@
     {
       "id": "fitzgerald",
       "tier": "power",
-      "t": "The freighter _Edmund Fitzgerald_ sank on Superior in 1975, inspiring a Gordon Lightfoot song",
+      "t": "The freighter _Edmund Fitzgerald_ sank on Superior with all 29 crew in 1975, inspiring a Gordon Lightfoot song",
       "k": [
         "edmund fitzgerald",
         "lightfoot",
@@ -511,7 +515,8 @@
       "Oxbow lakes",
       "Crater lake",
       "Lakess",
-      "Glacial lakes"
+      "Glacial lakes",
+      "Glacier lakes"
     ],
     "prompt": [
       "Reservoirs",
@@ -524,7 +529,8 @@
       "Great Lakes",
       "Lake Superior",
       "Caspian Sea",
-      "Lake Baikal"
+      "Lake Baikal",
+      "Lake-effect snow"
     ]
   }
 }
