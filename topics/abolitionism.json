@@ -1,12 +1,12 @@
 {
   "id": "abolitionism",
   "name": "Abolitionism",
-  "mono": "AB",
+  "mono": "ABL",
   "category": "American History",
   "qbCategory": "History · American History",
   "kicker": "The movement to end slavery · Grew into a national crusade in the 1830s",
-  "dates": "Roots in the 1700s; a national movement from the 1830s to 1865",
-  "briefing": "Abolitionism was the movement to end slavery. In the 1830s it grew from a few small groups into a national crusade, led by people like William Lloyd Garrison, who demanded immediate emancipation in _The Liberator_, and Frederick Douglass, who had escaped slavery himself. Abolitionists gave speeches, flooded Congress with petitions, and spread books such as _Uncle Tom’s Cabin_. Many faced angry mobs, and in 1837 a mob in Illinois killed the editor Elijah Lovejoy.",
+  "dates": "Roots in the late 1600s; a national movement from the 1830s to 1865",
+  "briefing": "Abolitionism, the movement to end slavery, grew in the 1830s from a few small groups into a national crusade led by people like William Lloyd Garrison, who demanded immediate emancipation in _The Liberator_, and later Frederick Douglass, who had escaped slavery himself. Abolitionists gave speeches, flooded Congress with petitions, and spread books such as _Uncle Tom’s Cabin_. Many faced angry mobs, and in 1837 a mob in Illinois killed the editor Elijah Lovejoy.",
   "answerHtml": "<b><u>abolition</u></b>ism (or <u>abolition</u>ist movement; accept <u>antislavery movement</u>; prompt on <u>emancipation</u>; do not accept “Underground Railroad,” “Emancipation Proclamation,” or “Free Soil Party”)",
   "accept": [
     "abolitionism",
@@ -136,7 +136,7 @@
     },
     {
       "p": "Founded in Philadelphia in 1833, the national society of this movement voted to disband in 1870, after the Fifteenth Amendment protected Black men’s right to vote. Wendell Phillips had led that society for its last five years.",
-      "r": "Its most famous newspaper had stopped printing in 1865, once the Thirteenth Amendment ended slavery. For 10 points, name this movement led by William Lloyd Garrison and Frederick Douglass."
+      "r": "The movement’s best-known newspaper had stopped printing in 1865, once the Thirteenth Amendment ended slavery. For 10 points, name this movement led by William Lloyd Garrison and Frederick Douglass."
     }
   ],
   "clues": [
@@ -167,7 +167,7 @@
     {
       "id": "douglass",
       "tier": "giveaway",
-      "t": "Frederick Douglass, who escaped slavery, became its greatest speaker and founded _The North Star_",
+      "t": "Frederick Douglass, who escaped slavery, became its most famous speaker and founded _The North Star_",
       "k": [
         "frederick douglass",
         "douglass",
@@ -437,7 +437,7 @@
     "title": "The movement, not a person",
     "body": "Tossups on this movement are full of names, and William Lloyd Garrison, Frederick Douglass, Harriet Tubman, and Sojourner Truth all have their own answer lines, so naming one of them is wrong when the question asks for “this movement.” The Underground Railroad (the escape network), the Emancipation Proclamation (Lincoln’s 1863 order), and the Free Soil Party (an 1848 party against spreading slavery west) are separate answers too.",
     "fix": "Listen for the noun. “This movement,” “this cause,” or “this crusade” wants abolitionism (“abolition” is fine). “This network” means the Underground Railroad, “this party” could mean the Liberty or Free Soil Party, and “this man” or “this woman” wants a person.",
-    "line": "Real answer line: <b><u>abolition</u></b>ism (or <u>abolition</u>ist movement; accept <u>antislavery movement</u>; prompt on <u>emancipation</u>; do not accept “Underground Railroad” or “Emancipation Proclamation”)"
+    "line": "Real answer line: <b><u>abolition</u></b>ism (or <u>abolition</u>ist movement; accept <u>antislavery movement</u>; prompt on <u>emancipation</u>; do not accept “Underground Railroad,” “Emancipation Proclamation,” or “Free Soil Party”)"
   },
   "tests": {
     "right": [

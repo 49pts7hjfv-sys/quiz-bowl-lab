@@ -74,7 +74,7 @@
       "r": "In 2018, she was elected to Congress from New York at age 29. For 10 points, name this congresswoman widely known by her initials."
     },
     {
-      "p": "While in college, this future lawmaker worked as an intern on immigration cases in the Boston office of Senator Ted Kennedy. After graduating, she worked as a bartender and waitress in Manhattan to help support her family.",
+      "p": "While in college, this future lawmaker worked as an intern on immigration issues for Senator Ted Kennedy. After graduating, she worked as a bartender and waitress in Manhattan to help support her family.",
       "r": "In 2018, she defeated Joe Crowley in a Democratic primary. For 10 points, name this congresswoman from the Bronx and Queens."
     },
     {
@@ -102,7 +102,7 @@
       "r": "For 10 points, name this New York Democrat who was first elected to the House in 2018 at age 29."
     },
     {
-      "p": "In 2025, this politician joined Bernie Sanders at rallies on his “Fighting Oligarchy” tour. A member of the Democratic Socialists of America, she won reelection to the House in 2020, 2022, and 2024.",
+      "p": "In August 2024, this politician spoke at the Democratic National Convention in Chicago. A member of the Democratic Socialists of America, she won reelection to the House in 2020, 2022, and 2024.",
       "r": "For 10 points, name this congresswoman who first won her New York seat in 2018 at age 29."
     },
     {
@@ -118,11 +118,11 @@
       "r": "For 10 points, name this New York congresswoman, first elected in 2018 as one of the four members of “the Squad.”"
     },
     {
-      "p": "In a January 2019 interview with Anderson Cooper on _60 Minutes_, this newly sworn-in member of Congress suggested a top tax rate of 70 percent on income above $10 million a year.",
+      "p": "In a January 2019 interview with Anderson Cooper on _60 Minutes_, this newly sworn-in member of Congress suggested a top tax rate as high as 70 percent on income above $10 million a year.",
       "r": "For 10 points, name this democratic socialist from New York who had become the youngest woman elected to Congress up to that time."
     },
     {
-      "p": "In the 2020 Democratic primary, this first-term representative easily defeated the former CNBC anchor Michelle Caruso-Cabrera [“kuh-ROO-soh kuh-BRAIR-uh”], and that November she won a second term in the House.",
+      "p": "In the 2020 Democratic primary, this first-term representative defeated the former CNBC anchor Michelle Caruso-Cabrera [“kuh-ROO-soh kuh-BRAIR-uh”] by a wide margin, and that November she won a second term in the House.",
       "r": "She had first won her seat in 2018 by defeating Joe Crowley. For 10 points, name this New York Democrat, a self-described democratic socialist."
     },
     {
@@ -276,7 +276,7 @@
     {
       "id": "kennedy",
       "tier": "power",
-      "t": "Interned on immigration cases in Senator Ted Kennedy’s Boston office",
+      "t": "Interned for Senator Ted Kennedy in college, working on immigration issues",
       "k": [
         "ted kennedy",
         "kennedy",
@@ -351,7 +351,7 @@
     {
       "id": "sixty-minutes",
       "tier": "power",
-      "t": "On _60 Minutes_ (January 2019), suggested a 70 percent top tax rate on income above $10 million",
+      "t": "On _60 Minutes_ (January 2019), suggested a top tax rate as high as 70 percent on income above $10 million",
       "k": [
         "60 minutes",
         "70 percent",
@@ -371,13 +371,13 @@
       "n": 0
     },
     {
-      "id": "oligarchy",
+      "id": "dnc-2024",
       "tier": "power",
-      "t": "Joined Bernie Sanders at rallies on his “Fighting Oligarchy” tour (2025)",
+      "t": "Spoke at the 2024 Democratic National Convention in Chicago",
       "k": [
-        "fighting oligarchy",
-        "oligarchy",
-        "2025"
+        "democratic national convention",
+        "chicago",
+        "2024"
       ],
       "n": 0
     },

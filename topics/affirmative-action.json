@@ -1,13 +1,13 @@
 {
   "id": "affirmative-action",
   "name": "Affirmative action",
-  "mono": "AA",
+  "mono": "AFA",
   "category": "American History",
   "qbCategory": "History · American History",
   "kicker": "Programs to widen opportunity for minorities and women · Begun in the 1960s",
   "dates": "Begun 1961; race-conscious college admissions ended 2023",
-  "briefing": "Affirmative action means taking active steps to widen opportunities in jobs, contracts, and college admissions for groups that have faced discrimination, such as racial minorities and women. Presidents John F. Kennedy and Lyndon Johnson started federal programs in the 1960s. Supporters argue it makes up for past and present discrimination and builds diversity; opponents argue it treats people unequally because of race or sex. In 2023, the Supreme Court ruled that colleges may not use race-conscious admissions programs.",
-  "answerHtml": "<b><u>affirmative action</u></b> (prompt on descriptions like <u>race-conscious admissions</u> or <u>racial preferences</u>)",
+  "briefing": "Affirmative action means taking active steps to widen opportunities in jobs, contracts, and college admissions for groups that have faced discrimination, such as racial minorities and women. Presidents John F. Kennedy and Lyndon Johnson started federal programs in the 1960s, and in 2023 the Supreme Court ruled that colleges may not use race-conscious admissions programs. Supporters argue it makes up for past and present discrimination and builds diversity; opponents argue it treats people unequally because of race or sex.",
+  "answerHtml": "<b><u>affirmative action</u></b> (prompt on descriptions like <u>race-conscious admissions</u>)",
   "accept": [
     "affirmative action",
     "affirmative action programs",
@@ -76,7 +76,7 @@
       "r": "Opponents of this policy argue that it treats people unequally because of race. For 10 points, name this policy, ended in college admissions by a 2023 Supreme Court ruling."
     },
     {
-      "p": "In 1969, Labor Secretary George Shultz announced the Philadelphia Plan, which required construction companies on federally funded projects in that city to set goals and timetables for hiring minority workers in skilled trades.",
+      "p": "In 1969, the Labor Department under Secretary George Shultz put the Philadelphia Plan into effect, requiring construction companies on federally funded projects in that city to set goals and timetables for hiring minority workers in skilled trades.",
       "r": "That plan under Richard Nixon was an early example of this policy. For 10 points, name this policy, which the Supreme Court addressed in the _Bakke_ case."
     },
     {
@@ -116,7 +116,7 @@
       "r": "For 10 points, name this policy, which California had also banned in public colleges with Proposition 209."
     },
     {
-      "p": "In January 2025, President Donald Trump signed an order revoking Executive Order 11246, which for about sixty years had required federal contractors to take active steps to hire and promote women and minorities.",
+      "p": "In January 2025, President Donald Trump signed an order revoking Executive Order 11246, which for about sixty years had required federal contractors to take active steps against job discrimination.",
       "r": "Lyndon Johnson had signed that order in 1965. For 10 points, name this policy, which the Supreme Court had ended in college admissions in 2023."
     },
     {
@@ -397,7 +397,7 @@
     }
   ],
   "trap": {
-    "title": "Policy, not a law or clause",
+    "title": "Policy, not law or clause",
     "body": "Tossups on this policy mention several related answer lines. The Civil Rights Act of 1964 banned discrimination in jobs and public places, the Equal Protection Clause of the 14th Amendment is the part of the Constitution courts used to judge these programs, and _Brown v. Board of Education_ (1954) ended legal school segregation. Naming one of them is wrong when the question asks for “this policy.”",
     "fix": "Executive Orders 10925 and 11246, _Bakke_, _Gratz_, _Grutter_, Proposition 209, and _Students for Fair Admissions_ all point to affirmative action. If the question asks for “this clause,” say Equal Protection; if it asks for “this law” from 1964, say the Civil Rights Act.",
     "line": "Real answer line: <b><u>affirmative action</u></b> (prompt on descriptions like <u>race-conscious admissions</u>)"

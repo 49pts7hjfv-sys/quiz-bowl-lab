@@ -6,8 +6,8 @@
   "qbCategory": "History · American History",
   "kicker": "Delays congressional pay changes until after an election · Ratified 1992",
   "dates": "Proposed 1789; ratified 1992",
-  "briefing": "The 27th Amendment says that if Congress changes its own pay, the change cannot take effect until after the next election for the House of Representatives. James Madison proposed it in 1789, but it sat unratified for almost two centuries. Then in 1982, a University of Texas student named Gregory Watson wrote a paper about it, got a C, and started a letter-writing campaign. It was finally ratified in 1992, about 202 years after Congress first proposed it.",
-  "answerHtml": "<b><u>Twenty-seventh Amendment</u></b> (or <u>27th</u> Amendment or Amendment <u>XXVII</u>; accept <u>Congressional Compensation</u> Amendment)",
+  "briefing": "The 27th Amendment says that if Congress changes its own pay, the change cannot take effect until after the next election for the House of Representatives. James Madison proposed it in 1789, but it sat unratified for almost two centuries until 1982, when a University of Texas student named Gregory Watson wrote a paper about it, got a C, and started a letter-writing campaign. It was finally ratified in 1992, about 202 years after Congress first proposed it.",
+  "answerHtml": "<b><u>Twenty-seventh Amendment</u></b> (or <u>27th Amendment</u> or <u>Amendment XXVII</u>; accept <u>Congressional Compensation Amendment</u>; prompt on <u>27th</u> alone; do not accept other numbers)",
   "accept": [
     "27th amendment",
     "twenty seventh amendment",
@@ -508,7 +508,7 @@
     "title": "Get the number right",
     "body": "The last few amendments blur together. The 26th Amendment (1971) lowered the voting age to 18, the 25th covers what happens if a president dies or cannot serve, the 22nd limits presidents to two terms, and the 20th moved Inauguration Day to January. Some players also say “Bill of Rights,” because this amendment was proposed in 1789 along with the first ten, but it was not ratified until 1992.",
     "fix": "Congressional pay, Gregory Watson, a C on a college paper, 1992, and 202 years all mean the Twenty-seventh Amendment. Say the number clearly. Voting age 18 means the 26th, and two-term limits mean the 22nd.",
-    "line": "Real answer line: <b><u>Twenty-seventh Amendment</u></b> (or <u>27th</u> Amendment or Amendment <u>XXVII</u>; do not accept other numbers)"
+    "line": "Real answer line: <b><u>Twenty-seventh Amendment</u></b> (or <u>27th Amendment</u> or <u>Amendment XXVII</u>; accept <u>Congressional Compensation Amendment</u>; prompt on <u>27th</u> alone; do not accept other numbers)"
   },
   "tests": {
     "right": [
