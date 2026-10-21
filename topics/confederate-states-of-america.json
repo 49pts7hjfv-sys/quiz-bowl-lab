@@ -28,7 +28,9 @@
     "the confederates",
     "dixie",
     "rebels",
-    "the rebels"
+    "the rebels",
+    "confederate government",
+    "the confederate government"
   ],
   "reject": [
     "union",
@@ -104,7 +106,7 @@
       "r": "Its best-known general was Robert E. Lee. For 10 points, name this government led by Jefferson Davis during the Civil War."
     },
     {
-      "p": "This nation’s navy raised the burned frigate USS _Merrimack_ and rebuilt it as an ironclad, which fought the USS _Monitor_ at Hampton Roads in March 1862. Its submarine _H. L. Hunley_ later became the first submarine to sink an enemy warship.",
+      "p": "This nation’s navy raised the burned frigate USS _Merrimack_ and rebuilt it as the ironclad CSS _Virginia_, which fought the USS _Monitor_ at Hampton Roads in March 1862. Its submarine _H. L. Hunley_ later became the first submarine to sink an enemy warship.",
       "r": "For 10 points, name this nation whose generals included Robert E. Lee and Stonewall Jackson."
     },
     {
@@ -327,12 +329,13 @@
     {
       "id": "merrimack",
       "tier": "power",
-      "t": "Rebuilt the USS _Merrimack_ as an ironclad, which fought the USS _Monitor_ at Hampton Roads (March 1862)",
+      "t": "Rebuilt the USS _Merrimack_ as the ironclad CSS _Virginia_, which fought the USS _Monitor_ at Hampton Roads (March 1862)",
       "k": [
         "merrimack",
         "monitor",
         "hampton roads",
-        "ironclad"
+        "ironclad",
+        "css virginia"
       ],
       "n": 0,
       "rabbit": "Ironclads"
@@ -441,7 +444,8 @@
     ],
     "prompt": [
       "the South",
-      "Confederate"
+      "Confederate",
+      "Confederate government"
     ],
     "wrong": [
       "Union",

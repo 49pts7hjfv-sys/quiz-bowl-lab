@@ -61,12 +61,12 @@
   },
   "tossups": [
     {
-      "p": "In the Ostend Manifesto of 1854, three American diplomats, including future president James Buchanan, urged the United States to offer Spain up to $120 million for this island and suggested taking it by force if Spain refused. Many Southern leaders hoped to add this island as a new slave state.",
+      "p": "In the Ostend Manifesto of 1854, three American diplomats, including future president James Buchanan, urged the United States to try to buy this island from Spain and suggested taking it by force if Spain refused. Many Southern leaders hoped to add this island as a new slave state.",
       "r": "Christopher Columbus had landed there in 1492. For 10 points, name this Caribbean island whose capital is Havana."
     },
     {
       "p": "Carlos Manuel de Céspedes [“SEHS-peh-dess”] freed the enslaved workers on his sugar plantation in 1868 and began this island’s Ten Years’ War against Spain. During that war, Spanish forces captured the ship _Virginius_ and executed dozens of its crew and passengers, including Americans.",
-      "r": "Thirty years later, the USS _Maine_ exploded in its main harbor. For 10 points, name this Caribbean island, home to the city of Havana."
+      "r": "In 1898, the USS _Maine_ exploded in its main harbor. For 10 points, name this Caribbean island, home to the city of Havana."
     },
     {
       "p": "This island’s national hero wrote the poems of _Versos Sencillos_ (“Simple Verses”), some of which became the words of the song “Guantanamera.” That poet, José Martí [“mar-TEE”], organized a revolutionary party while living in New York and was killed in battle in 1895.",
@@ -85,7 +85,7 @@
       "r": "That lawyer, Fidel Castro, took power in 1959. For 10 points, name this island nation that he ruled for nearly 50 years."
     },
     {
-      "p": "In December 1956, 82 rebels sailed from Mexico to this island aboard the overcrowded yacht _Granma_, and the few survivors of their landing hid in the Sierra Maestra [“my-ES-truh”] mountains. An Argentine doctor, Che Guevara [“CHAY gheh-VAR-uh”], became one of their top commanders.",
+      "p": "In December 1956, 82 rebels reached this island after sailing from Mexico aboard the overcrowded yacht _Granma_, and the few survivors of their landing hid in the Sierra Maestra [“mah-ES-truh”] mountains. An Argentine doctor, Che Guevara [“CHAY gheh-VAR-uh”], became one of their top commanders.",
       "r": "For 10 points, name this country where those rebels, led by Fidel Castro, took power in 1959."
     },
     {
@@ -297,18 +297,18 @@
     {
       "id": "ostend",
       "tier": "power",
-      "t": "Ostend Manifesto (1854): U.S. diplomats, including James Buchanan, urged offering Spain up to $120 million for it",
+      "t": "Ostend Manifesto (1854): U.S. diplomats, including James Buchanan, urged buying it from Spain, or taking it by force if Spain refused",
       "k": [
         "ostend",
         "buchanan",
-        "$120 million"
+        "by force"
       ],
       "n": 0
     },
     {
       "id": "ten-years-war",
       "tier": "power",
-      "t": "Ten Years’ War (1868–1878), begun by Carlos Manuel de Céspedes; in the _Virginius_ Affair (1873), Spain executed dozens aboard a captured ship, including Americans",
+      "t": "Ten Years’ War (1868–1878), begun by Carlos Manuel de Céspedes; in the _Virginius_ Affair (1873), Spain executed dozens of people from a captured ship, including Americans",
       "k": [
         "ten years’ war",
         "céspedes",
