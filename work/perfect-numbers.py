@@ -6,7 +6,7 @@ data = {
     "mono": "28",
     "category": "Math",
     "qbCategory": "Science · Other Science (Math)",
-    "kicker": "Equal to the sum of their proper divisors · Examples: 6, 28, 496, 8128",
+    "kicker": "Equal to the sum of their proper divisors · The smallest are 6 and 28",
     "dates": "Euclid’s recipe for even ones, c. 300 BCE",
     "briefing": "A perfect number equals the sum of its proper divisors, the numbers that divide it evenly other than itself: 6 = 1 + 2 + 3, and 28 = 1 + 2 + 4 + 7 + 14. The ancient Greeks knew the first four, 6, 28, 496, and 8,128, and Euclid showed how to build them from special primes now named for Marin Mersenne. Every perfect number ever found is even, and nobody knows whether an odd one exists.",
     "answerHtml": "<b><u>perfect number</u></b>s (prompt on <u>perfect</u>; do not accept “prime numbers,” “Mersenne primes,” or “perfect squares”)",

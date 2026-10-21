@@ -1,0 +1,494 @@
+{
+  "id": "b-vitamins",
+  "name": "B vitamins",
+  "mono": "VB",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Eight water-soluble vitamins · From thiamine (B1) to cobalamin (B12)",
+  "dates": "Discovered 1910s–1940s",
+  "briefing": "The B vitamins are a family of eight water-soluble vitamins that help your cells turn food into energy, mostly by helping enzymes do their jobs. Many have names as well as numbers: thiamine (B1), riboflavin (B2), niacin (B3), folate (B9), and cobalamin (B12). Lacking one can cause a disease, such as beriberi without thiamine or pellagra without niacin, which is how scientists first discovered them.",
+  "answerHtml": "<b><u>B vitamins</u></b> (accept <u>vitamin B</u> complex; prompt on <u>vitamins</u>; do not accept a single B vitamin or “vitamin C”)",
+  "accept": [
+    "b vitamins",
+    "b vitamin",
+    "vitamin b",
+    "vitamins b",
+    "vitamin bs",
+    "vitamin b complex",
+    "b complex",
+    "b complex vitamins",
+    "vitamin b group"
+  ],
+  "prompt": [
+    "vitamins",
+    "vitamin",
+    "water soluble vitamins",
+    "water soluble vitamin"
+  ],
+  "reject": [
+    "vitamin c",
+    "vitamin a",
+    "vitamin d",
+    "vitamin e",
+    "vitamin k",
+    "vitamin f",
+    "vitamin g",
+    "vitamin h",
+    "vitamin p",
+    "vitamin b1",
+    "vitamin b 1",
+    "b1",
+    "vitamin b2",
+    "vitamin b 2",
+    "b2",
+    "vitamin b3",
+    "vitamin b 3",
+    "b3",
+    "vitamin b5",
+    "vitamin b 5",
+    "b5",
+    "vitamin b6",
+    "vitamin b 6",
+    "b6",
+    "vitamin b7",
+    "vitamin b 7",
+    "b7",
+    "vitamin b9",
+    "vitamin b 9",
+    "b9",
+    "vitamin b12",
+    "vitamin b 12",
+    "b12",
+    "thiamine",
+    "thiamin",
+    "riboflavin",
+    "niacin",
+    "nicotinic acid",
+    "niacinamide",
+    "nicotinamide",
+    "pantothenic acid",
+    "pyridoxine",
+    "biotin",
+    "folic acid",
+    "folate",
+    "cobalamin",
+    "cyanocobalamin",
+    "ascorbic acid",
+    "beriberi",
+    "pellagra",
+    "pernicious anemia",
+    "anemia",
+    "coenzymes",
+    "minerals"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/B_vitamins",
+  "qb": {
+    "q": "B vitamins",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In the 1890s in Java, Christiaan Eijkman [“AYK-mahn”] noticed that chickens fed polished white rice developed a nerve disease, while chickens fed unpolished rice stayed healthy. Eijkman shared the 1929 Nobel Prize in Physiology or Medicine for work that pointed to a missing nutrient from this group.",
+      "r": "That nutrient, thiamine, prevents beriberi. For 10 points, name this group of water-soluble vitamins that also includes niacin and folic acid."
+    },
+    {
+      "p": "In 1937, Conrad Elvehjem [“EL-vuh-yem”] found that one of these vitamins cured “black tongue” in dogs. Two decades earlier, Joseph Goldberger had shown that pellagra, a similar disease that caused rough skin rashes across the American South, came from a poor diet rather than from germs.",
+      "r": "That vitamin is niacin. For 10 points, name this family of water-soluble vitamins that also includes thiamine and cobalamin."
+    },
+    {
+      "p": "Cooks in Mexico and Central America have long soaked corn in limewater before grinding it, a process called nixtamalization [“nish-tuh-mah-lee-ZAY-shun”] that frees one of these vitamins so the body can absorb it. Where people ate untreated corn as their main food, a lack of that vitamin caused pellagra.",
+      "r": "That vitamin is niacin. For 10 points, name this group of eight water-soluble vitamins, which also includes thiamine and riboflavin."
+    },
+    {
+      "p": "George Minot and William Murphy shared the 1934 Nobel Prize with George Whipple after they treated pernicious anemia by feeding patients large amounts of liver, which is rich in one of these vitamins. That vitamin is the only vitamin that contains a metal atom: cobalt.",
+      "r": "That vitamin, cobalamin, is number 12 in this group. For 10 points, name this group of water-soluble vitamins that also includes thiamine."
+    },
+    {
+      "p": "In the 1950s, Dorothy Hodgkin used X-ray crystallography to work out the structure of one of these vitamins, part of the work that earned her the 1964 Nobel Prize in Chemistry. Robert Woodward and Albert Eschenmoser [“ESH-en-moh-zer”] later led a huge team that built that same molecule from scratch, finishing in 1972.",
+      "r": "That vitamin, cobalamin, contains cobalt. For 10 points, name this family of water-soluble vitamins that includes thiamine and niacin."
+    },
+    {
+      "p": "Only bacteria and archaea can make one of these vitamins, so it is found naturally almost only in animal foods. Absorbing that vitamin requires intrinsic factor, a protein made in the stomach, and losing that protein leads to pernicious anemia.",
+      "r": "That vitamin is cobalamin. For 10 points, name this group of vitamins, numbered from 1 to 12, that includes thiamine and folic acid."
+    },
+    {
+      "p": "Avidin, a protein in raw egg whites, grabs onto biotin, one of these vitamins, so tightly that scientists use the pair as a molecular “glue.” Biotin was once called vitamin H, and the body uses it to help enzymes build fats.",
+      "r": "For 10 points, name this group of water-soluble vitamins whose other members include thiamine, niacin, and cobalamin."
+    },
+    {
+      "p": "Pantothenic [“pan-toh-THEN-ik”] acid, one of these vitamins, takes its name from a Greek word meaning “from everywhere,” because nearly every food contains some. The body uses it to build coenzyme A, which carries pieces of food molecules into the Krebs cycle.",
+      "r": "Other members of this group include riboflavin and folic acid. For 10 points, name this family of water-soluble vitamins."
+    },
+    {
+      "p": "One of these vitamins is a yellow-orange compound whose name partly comes from the Latin word for “yellow,” and extra amounts of it can turn urine bright yellow. The body uses that vitamin to build FAD, a molecule that carries electrons during cellular respiration.",
+      "r": "That vitamin is riboflavin. For 10 points, name this group of water-soluble vitamins that includes thiamine and niacin."
+    },
+    {
+      "p": "Around 1930, Lucy Wills found that Marmite, a yeast extract, could cure a type of anemia in pregnant textile workers in Bombay, India. The nutrient behind her discovery turned out to be one of these vitamins, which the body needs in order to make DNA.",
+      "r": "That vitamin is folate, or folic acid. For 10 points, name this group of water-soluble vitamins that also includes thiamine."
+    },
+    {
+      "p": "One of these vitamins is named for the Latin word for “leaf,” since it was first isolated from spinach leaves. Since the late 1990s, that vitamin has been added to flour and other grain products in the United States to lower the rate of neural tube defects such as spina bifida [“SPY-nuh BIF-ih-duh”].",
+      "r": "That vitamin is folic acid. For 10 points, name this group of vitamins that also includes thiamine and cobalamin."
+    },
+    {
+      "p": "In 1912, while studying a substance in rice bran that prevents beriberi, the Polish biochemist Casimir Funk coined the word “vitamine,” short for “vital amine.” That anti-beriberi substance was the first member of this group to be discovered.",
+      "r": "That substance is thiamine. For 10 points, name this group of water-soluble vitamins that also includes niacin and riboflavin."
+    },
+    {
+      "p": "Pyridoxine [“peer-ih-DOK-seen”], one of these vitamins, helps enzymes process amino acids, including a step in turning tryptophan into the messenger chemical serotonin. Its active form, called PLP, helps more than 100 different enzymes do their jobs.",
+      "r": "Gaps in this group’s numbering come from substances that turned out not to be vitamins. For 10 points, name this group that includes thiamine and niacin."
+    },
+    {
+      "p": "Sulfa drugs stop many bacteria from growing by blocking how they make one of these vitamins, while the cancer drug methotrexate [“meth-oh-TREK-sayt”] blocks how cells use that same vitamin. A lack of either that vitamin or another member of this group causes anemia with oversized red blood cells.",
+      "r": "Those two vitamins are folate and cobalamin. For 10 points, name this group of water-soluble vitamins that includes thiamine."
+    },
+    {
+      "p": "In 1941, the United States began “enriching” white flour with iron and three of these vitamins, replacing nutrients lost when wheat is milled. Milling brown rice into white rice also strips away the bran, which holds much of these vitamins.",
+      "r": "Yeast extracts such as Marmite and Vegemite are rich in them. For 10 points, name this group of vitamins that includes thiamine, riboflavin, and niacin."
+    }
+  ],
+  "clues": [
+    {
+      "id": "family",
+      "tier": "giveaway",
+      "t": "A family of eight water-soluble vitamins",
+      "k": [
+        "eight",
+        "water-soluble",
+        "family"
+      ],
+      "n": 0,
+      "rabbit": "Vitamins"
+    },
+    {
+      "id": "members",
+      "tier": "giveaway",
+      "t": "Members include thiamine, riboflavin, niacin, folic acid, and cobalamin",
+      "k": [
+        "thiamine",
+        "riboflavin",
+        "niacin",
+        "folic acid",
+        "cobalamin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "numbered",
+      "tier": "giveaway",
+      "t": "Members are numbered from 1 to 12 with gaps: thiamine is 1, riboflavin 2, niacin 3, folate 9, and cobalamin 12",
+      "k": [
+        "numbered",
+        "gaps"
+      ],
+      "n": 0
+    },
+    {
+      "id": "enzymes",
+      "tier": "giveaway",
+      "t": "Many of them help enzymes turn food into energy",
+      "k": [
+        "enzymes",
+        "energy"
+      ],
+      "n": 0,
+      "rabbit": "Enzymes"
+    },
+    {
+      "id": "beriberi",
+      "tier": "middle",
+      "t": "A lack of thiamine causes beriberi, a disease of the nerves and heart",
+      "k": [
+        "beriberi",
+        "nerves"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pellagra",
+      "tier": "middle",
+      "t": "A lack of niacin causes pellagra, a disease with rough skin rashes",
+      "k": [
+        "pellagra",
+        "rashes"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pernicious-anemia",
+      "tier": "middle",
+      "t": "Absorbing cobalamin needs intrinsic factor, a stomach protein; losing it causes pernicious anemia",
+      "k": [
+        "pernicious anemia",
+        "intrinsic factor"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cobalt",
+      "tier": "middle",
+      "t": "Cobalamin is the only vitamin that contains a metal: cobalt",
+      "k": [
+        "cobalt",
+        "metal"
+      ],
+      "n": 0
+    },
+    {
+      "id": "coenzymes",
+      "tier": "middle",
+      "t": "Niacin becomes NAD, riboflavin becomes FAD, and pantothenic acid becomes coenzyme A",
+      "k": [
+        "nad",
+        "fad",
+        "coenzyme a"
+      ],
+      "n": 0
+    },
+    {
+      "id": "folate-dna",
+      "tier": "middle",
+      "t": "Folate is needed to make DNA; since 1998 it has been added to U.S. flour to lower rates of neural tube defects like spina bifida",
+      "k": [
+        "neural tube",
+        "spina bifida",
+        "1998"
+      ],
+      "n": 0
+    },
+    {
+      "id": "oversized-cells",
+      "tier": "middle",
+      "t": "A lack of folate or cobalamin causes anemia with oversized red blood cells",
+      "k": [
+        "oversized",
+        "red blood cells"
+      ],
+      "n": 0,
+      "rabbit": "Red blood cells"
+    },
+    {
+      "id": "bran-enriched",
+      "tier": "middle",
+      "t": "Milling white rice strips them away with the bran; U.S. flour has been “enriched” with three of them since 1941",
+      "k": [
+        "bran",
+        "enriched",
+        "1941"
+      ],
+      "n": 0
+    },
+    {
+      "id": "marmite",
+      "tier": "middle",
+      "t": "Yeast extracts like Marmite and Vegemite are rich in them",
+      "k": [
+        "marmite",
+        "vegemite",
+        "yeast extracts"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eijkman",
+      "tier": "power",
+      "t": "In Java in the 1890s, Christiaan Eijkman saw that chickens fed polished white rice got sick; he shared the 1929 Nobel Prize",
+      "k": [
+        "eijkman",
+        "polished",
+        "1929"
+      ],
+      "n": 0
+    },
+    {
+      "id": "funk",
+      "tier": "power",
+      "t": "Casimir Funk coined “vitamine” (“vital amine”) in 1912 while studying the rice-bran substance that prevents beriberi",
+      "k": [
+        "casimir funk",
+        "vitamine",
+        "vital amine",
+        "1912"
+      ],
+      "n": 0,
+      "rabbit": "Vitamin C"
+    },
+    {
+      "id": "goldberger-elvehjem",
+      "tier": "power",
+      "t": "Joseph Goldberger showed in the 1910s that pellagra comes from diet, not germs; Conrad Elvehjem found in 1937 that niacin cures “black tongue” in dogs",
+      "k": [
+        "goldberger",
+        "elvehjem",
+        "black tongue"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nixtamalization",
+      "tier": "power",
+      "t": "Soaking corn in limewater (nixtamalization) frees its niacin; diets based on untreated corn led to pellagra",
+      "k": [
+        "nixtamalization",
+        "limewater",
+        "corn"
+      ],
+      "n": 0
+    },
+    {
+      "id": "minot-murphy",
+      "tier": "power",
+      "t": "George Minot and William Murphy treated pernicious anemia with liver and shared the 1934 Nobel Prize with George Whipple",
+      "k": [
+        "minot",
+        "murphy",
+        "whipple",
+        "1934"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hodgkin",
+      "tier": "power",
+      "t": "Dorothy Hodgkin worked out cobalamin’s structure by X-ray crystallography in the 1950s (1964 Nobel Prize in Chemistry)",
+      "k": [
+        "hodgkin",
+        "crystallography",
+        "1964"
+      ],
+      "n": 0,
+      "rabbit": "Penicillin"
+    },
+    {
+      "id": "woodward",
+      "tier": "power",
+      "t": "Robert Woodward and Albert Eschenmoser’s team finished building cobalamin from scratch in 1972",
+      "k": [
+        "woodward",
+        "eschenmoser",
+        "1972"
+      ],
+      "n": 0
+    },
+    {
+      "id": "animal-foods",
+      "tier": "power",
+      "t": "Only bacteria and archaea make cobalamin, so it is found naturally almost only in animal foods",
+      "k": [
+        "bacteria and archaea",
+        "animal foods"
+      ],
+      "n": 0
+    },
+    {
+      "id": "biotin",
+      "tier": "power",
+      "t": "Avidin in raw egg whites grabs biotin tightly; biotin, once called vitamin H, helps enzymes build fats",
+      "k": [
+        "avidin",
+        "biotin",
+        "egg whites"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pantothenic",
+      "tier": "power",
+      "t": "Pantothenic acid’s name means “from everywhere,” since nearly every food has some; the body builds coenzyme A from it",
+      "k": [
+        "pantothenic",
+        "from everywhere"
+      ],
+      "n": 0
+    },
+    {
+      "id": "riboflavin-yellow",
+      "tier": "power",
+      "t": "Riboflavin is yellow-orange (its name comes partly from the Latin for “yellow”), and extra can turn urine bright yellow",
+      "k": [
+        "yellow",
+        "urine"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lucy-wills",
+      "tier": "power",
+      "t": "Around 1930, Lucy Wills used Marmite to cure an anemia in pregnant textile workers in Bombay; the nutrient was folate",
+      "k": [
+        "lucy wills",
+        "bombay"
+      ],
+      "n": 0
+    },
+    {
+      "id": "folate-leaf",
+      "tier": "power",
+      "t": "Folate is named for the Latin word for “leaf”; it was first isolated from spinach",
+      "k": [
+        "leaf",
+        "spinach"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pyridoxine",
+      "tier": "power",
+      "t": "Pyridoxine’s active form, PLP, helps more than 100 enzymes, including one step in making serotonin",
+      "k": [
+        "pyridoxine",
+        "plp",
+        "serotonin"
+      ],
+      "n": 0
+    },
+    {
+      "id": "sulfa-methotrexate",
+      "tier": "power",
+      "t": "Sulfa drugs stop bacteria from making folate; the cancer drug methotrexate blocks cells from using it",
+      "k": [
+        "sulfa drugs",
+        "methotrexate"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "One vitamin, or the family?",
+    "body": "Tossups on this group often spend their early clues on one member, like thiamine and beriberi, or cobalamin and pernicious anemia. A player who buzzes with that single vitamin is wrong when the question wants the whole group. Vitamin C, the only other water-soluble vitamin, is another common wrong answer, and saying just “vitamins” earns only a prompt.",
+    "fix": "Wait for the noun: “this group,” “this family,” or “these vitamins” wants the B vitamins, while “this vitamin” wants one member. Scurvy, citrus fruit, and collagen mean vitamin C, not this group.",
+    "line": "Real answer line: <b><u>B vitamins</u></b> (accept <u>vitamin B</u> complex; prompt on <u>vitamins</u>; do not accept a single B vitamin)"
+  },
+  "tests": {
+    "right": [
+      "B vitamins",
+      "vitamin B complex",
+      "Vitamin B",
+      "the B vitamins",
+      "B-complex",
+      "B vitamns"
+    ],
+    "prompt": [
+      "vitamins",
+      "water-soluble vitamins"
+    ],
+    "wrong": [
+      "Vitamin C",
+      "Thiamine",
+      "Vitamin B12",
+      "Niacin",
+      "Folic acid",
+      "Vitamin D",
+      "B12",
+      "vitamin h"
+    ]
+  }
+}

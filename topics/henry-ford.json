@@ -7,7 +7,7 @@
   "kicker": "Carmaker who built the Model T · Made the moving assembly line famous",
   "dates": "1863–1947",
   "briefing": "Henry Ford didn’t invent the car, but he figured out how to make cars cheap enough for ordinary families to buy. His Model T, introduced in 1908, was soon built on a moving assembly line that cut the time to put together a car’s chassis from more than 12 hours to about an hour and a half. In 1914, he shocked the business world by roughly doubling his workers’ pay to $5 a day, and by 1927 his company had built about 15 million Model Ts.",
-  "answerHtml": "<b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford”)",
+  "answerHtml": "<b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford” or “Ford Motor Company”)",
   "accept": [
     "henry ford",
     "henry ford sr",
@@ -70,11 +70,11 @@
       "r": "That letter, T, stands for his most famous car. For 10 points, name this carmaker who introduced the moving assembly line."
     },
     {
-      "p": "In 1915, this man chartered the ocean liner _Oscar II_ and sailed to Europe with a group of peace activists, hoping to end World War I by Christmas. Newspapers mocked the trip as the “Peace Ship.”",
+      "p": "In 1915, this man chartered the ocean liner _Oscar II_ and sailed to Europe with a group of peace activists, hoping to end World War I by Christmas. Newspapers mocked the voyage, which became known as the “Peace Ship.”",
       "r": "For 10 points, name this industrialist whose low-priced Model T put millions of Americans behind the wheel."
     },
     {
-      "p": "With Woodrow Wilson’s encouragement, this man ran for the U.S. Senate from Michigan in 1918 as a Democrat and narrowly lost to Truman Newberry. He also bought the _Dearborn Independent_, a weekly newspaper that published antisemitic articles in the early 1920s.",
+      "p": "With Woodrow Wilson’s encouragement, this man ran for the U.S. Senate from Michigan in 1918 as a Democrat and narrowly lost to Truman Newberry. He also bought the weekly newspaper the _Dearborn Independent_ and used it to publish antisemitic articles in the early 1920s.",
       "r": "For 10 points, name this Michigan industrialist who introduced the $5 workday in 1914."
     },
     {
@@ -114,7 +114,7 @@
       "r": "Twelve years later, he introduced the low-priced Model T. For 10 points, name this Michigan automaker."
     },
     {
-      "p": "The brothers John and Horace Dodge, early investors in this man’s company, sued him in 1919 to force the company to pay larger dividends, and the Michigan Supreme Court ruled in their favor. The Dodges had supplied engines and other parts for his first cars.",
+      "p": "The brothers John and Horace Dodge, early investors in this man’s company, sued him to force the company to pay larger dividends, and in 1919 the Michigan Supreme Court ruled in their favor. The Dodges had supplied engines and other parts for his first cars.",
       "r": "For 10 points, name this founder of the car company that sold the Model T."
     },
     {
@@ -409,7 +409,7 @@
     {
       "id": "dodge",
       "tier": "power",
-      "t": "John and Horace Dodge supplied parts, invested, and won a 1919 lawsuit forcing bigger dividends",
+      "t": "John and Horace Dodge supplied parts, invested, and sued him; in 1919 a court ordered bigger dividends",
       "k": [
         "dodge",
         "dividends",
@@ -422,7 +422,7 @@
     "title": "Which Ford?",
     "body": "“Ford” can mean several different answers. Gerald Ford was the 38th president, Ford’s Theatre is where Abraham Lincoln was shot, and Ford Motor Company is the business Henry Ford founded in 1903. His son Edsel and his grandson Henry Ford II also ran the company. Saying just “Ford” earns a prompt here, and naming the company when the question asks for “this man” is wrong.",
     "fix": "The Model T, the moving assembly line, the $5 day, River Rouge, Greenfield Village, and the Peace Ship mean Henry Ford. Watergate’s aftermath, the pardon of Richard Nixon, and the 1976 election mean Gerald Ford. Always say the full name, “Henry Ford.”",
-    "line": "Real answer line: <b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford”)"
+    "line": "Real answer line: <b><u>Henry Ford</u></b> (prompt on <u>Ford</u>; do not accept “Gerald Ford” or “Ford Motor Company”)"
   },
   "tests": {
     "right": [

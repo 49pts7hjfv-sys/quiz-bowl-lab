@@ -1,0 +1,344 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "paul-ryan",
+    "name": "Paul Ryan",
+    "mono": "PR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Speaker of the House, 2015–2019 · Mitt Romney’s 2012 running mate",
+    "dates": "Born 1970",
+    "briefing": "Paul Ryan grew up in Janesville, Wisconsin, and was elected to the U.S. House of Representatives in 1998, when he was only 28. As chairman of the House Budget Committee, he became known for writing his party’s budget plans. He ran for vice president with Mitt Romney in 2012, served as Speaker of the House from 2015 to 2019, and chose not to run for reelection in 2018.",
+    "answerHtml": "Paul <b><u>Ryan</u></b> (accept Paul Davis <u>Ryan</u>)",
+    "accept": [
+        "paul ryan",
+        "ryan",
+        "paul davis ryan",
+        "paul d ryan",
+        "speaker paul ryan",
+        "speaker ryan"
+    ],
+    "prompt": [],
+    "reject": [
+        "nolan ryan",
+        "tim ryan",
+        "meg ryan",
+        "jack ryan",
+        "george ryan",
+        "leo ryan",
+        "bo ryan",
+        "rex ryan",
+        "matt ryan",
+        "ryan white",
+        "saving private ryan",
+        "paul revere",
+        "rand paul",
+        "ron paul",
+        "mitt romney",
+        "romney",
+        "john boehner",
+        "boehner",
+        "nancy pelosi",
+        "pelosi",
+        "kevin mccarthy",
+        "eric cantor",
+        "newt gingrich",
+        "dennis hastert",
+        "mike johnson",
+        "mike pence",
+        "joe biden",
+        "scott walker",
+        "reince priebus",
+        "patty murray",
+        "jack kemp"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Paul_Ryan",
+    "qb": {
+        "q": "Paul Ryan",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In December 2013, this congressman and Senator Patty Murray negotiated a two-year budget deal that eased the automatic spending cuts known as the sequester. He chaired the House Budget Committee from 2011 to 2015.",
+            "r": "For 10 points, name this Wisconsin Republican who served as Speaker of the House from 2015 to 2019."
+        },
+        {
+            "p": "This congressman’s budget plans, including a 2011 plan called “The Path to Prosperity,” proposed large cuts in federal spending and major changes to Medicare. Those plans passed the House but not the Senate.",
+            "r": "For 10 points, name this Republican from Janesville, Wisconsin, who ran for vice president with Mitt Romney in 2012."
+        },
+        {
+            "p": "In August 2012, this man was introduced to a national audience aboard the retired battleship USS _Wisconsin_ in Norfolk, Virginia, a ship that shared its name with his home state.",
+            "r": "That October, he debated Joe Biden. For 10 points, name this running mate of Mitt Romney who later became Speaker of the House."
+        },
+        {
+            "p": "This congressman wrote the 2010 book _Young Guns: A New Generation of Conservative Leaders_ with fellow House Republicans Eric Cantor and Kevin McCarthy. He had first been elected to Congress in 1998.",
+            "r": "In October 2015, he became the youngest Speaker since James G. Blaine. For 10 points, name this Wisconsin Republican."
+        },
+        {
+            "p": "As a college student, this future politician spent a summer selling for Oscar Mayer and once drove its hot-dog-shaped Wienermobile. He graduated from Miami University in Ohio in 1992 with degrees in economics and political science.",
+            "r": "For 10 points, name this Wisconsin Republican who was Speaker of the House from 2015 to 2019."
+        },
+        {
+            "p": "In December 2017, this congressional leader helped pass the Tax Cuts and Jobs Act, a law that lowered tax rates for corporations and individuals, through the House. President Donald Trump signed that law a few days later.",
+            "r": "For 10 points, name this Wisconsin Republican who was Speaker of the House from 2015 to 2019."
+        },
+        {
+            "p": "In April 2018, this congressman announced that he would not run for reelection, and Bryan Steil won his House seat that November. He had represented Wisconsin’s 1st District since 1999.",
+            "r": "Nancy Pelosi succeeded him as Speaker in January 2019. For 10 points, name this Wisconsin Republican who was Mitt Romney’s running mate."
+        },
+        {
+            "p": "Before winning a House seat at age 28 in 1998, this man worked as a speechwriter for Jack Kemp, the former congressman who had been Bob Dole’s running mate in 1996.",
+            "r": "Like Kemp, he later ran for vice president. For 10 points, name this Wisconsin Republican who was Speaker of the House from 2015 to 2019."
+        },
+        {
+            "p": "Martha Raddatz moderated this man’s only debate as a national candidate, held at Centre College in Danville, Kentucky, in October 2012. His opponent in that debate was Vice President Joe Biden.",
+            "r": "For 10 points, name this Wisconsin Republican who was Mitt Romney’s running mate and later Speaker of the House."
+        },
+        {
+            "p": "From 1999 to 2019, this congressman represented Wisconsin’s 1st District, which includes the cities of Kenosha and Racine as well as his hometown of Janesville. He first won that seat at age 28.",
+            "r": "For 10 points, name this Republican who was Speaker of the House from 2015 to 2019 and Mitt Romney’s running mate in 2012."
+        },
+        {
+            "p": "In November 2012, this man won reelection to the House on the same day that he lost a national race, because Wisconsin law let him appear on the ballot for both offices.",
+            "r": "He had been Mitt Romney’s running mate. For 10 points, name this Republican who later served as Speaker of the House."
+        },
+        {
+            "p": "In 2019, shortly after leaving Congress, this former lawmaker joined the board of directors of the Fox Corporation, a media company formed that year. Earlier, he had written the 2014 book _The Way Forward_.",
+            "r": "For 10 points, name this Wisconsin Republican who served as Speaker of the House from 2015 to 2019 and was Mitt Romney’s 2012 running mate."
+        },
+        {
+            "p": "In January 2015, this congressman became chairman of the Ways and Means Committee, which writes tax laws, but he held that post for less than a year. Before that, he had led the House Budget Committee for four years.",
+            "r": "He gave up that chairmanship to replace John Boehner as Speaker of the House. For 10 points, name this Wisconsin Republican."
+        },
+        {
+            "p": "This politician served as permanent chairman of the 2016 Republican National Convention in Cleveland, which nominated Donald Trump for president. He grew up in Janesville, Wisconsin, and represented it in Congress for twenty years.",
+            "r": "For 10 points, name this Republican who was Speaker of the House from 2015 to 2019 and Mitt Romney’s 2012 running mate."
+        },
+        {
+            "p": "Reporters covering the 2012 campaign wrote about this candidate’s intense P90X home workouts and his love of hunting with a bow and arrow. He grew up in Janesville, Wisconsin.",
+            "r": "For 10 points, name this Republican who was Mitt Romney’s running mate in 2012 and later became Speaker of the House."
+        }
+    ],
+    "clues": [
+        {
+            "id": "speaker",
+            "tier": "giveaway",
+            "t": "Speaker of the House of Representatives from October 2015 to January 2019",
+            "k": ["speaker of the house", "speaker", "2015"],
+            "n": 0,
+            "rabbit": "Speaker of the House of Representatives"
+        },
+        {
+            "id": "romney",
+            "tier": "giveaway",
+            "t": "Mitt Romney’s running mate for vice president in 2012",
+            "k": ["mitt romney", "running mate", "2012"],
+            "n": 0
+        },
+        {
+            "id": "wisconsin",
+            "tier": "giveaway",
+            "t": "Republican congressman from Janesville, Wisconsin, who served in the House from 1999 to 2019",
+            "k": ["janesville", "wisconsin", "republican"],
+            "n": 0
+        },
+        {
+            "id": "budget-chair",
+            "tier": "middle",
+            "t": "Chairman of the House Budget Committee from 2011 to 2015",
+            "k": ["budget committee", "2011"],
+            "n": 0
+        },
+        {
+            "id": "boehner-pelosi",
+            "tier": "middle",
+            "t": "Replaced John Boehner as Speaker in 2015; Nancy Pelosi replaced him in 2019",
+            "k": ["john boehner", "nancy pelosi", "boehner", "pelosi"],
+            "n": 0,
+            "rabbit": "John Boehner"
+        },
+        {
+            "id": "path-prosperity",
+            "tier": "middle",
+            "t": "Wrote House Republican budgets like “The Path to Prosperity” (2011), which proposed big spending cuts and changes to Medicare",
+            "k": ["path to prosperity", "medicare", "spending cuts"],
+            "n": 0,
+            "rabbit": "Medicare"
+        },
+        {
+            "id": "biden-debate",
+            "tier": "middle",
+            "t": "Debated Vice President Joe Biden in October 2012",
+            "k": ["joe biden", "debated", "biden"],
+            "n": 0
+        },
+        {
+            "id": "elected-1998",
+            "tier": "middle",
+            "t": "Won his House seat in 1998, at age 28",
+            "k": ["1998", "age 28"],
+            "n": 0
+        },
+        {
+            "id": "tax-cuts",
+            "tier": "middle",
+            "t": "Helped pass the Tax Cuts and Jobs Act (2017), which President Donald Trump signed",
+            "k": ["tax cuts and jobs act", "tax cuts", "donald trump"],
+            "n": 0,
+            "rabbit": "Donald Trump"
+        },
+        {
+            "id": "retired-2018",
+            "tier": "middle",
+            "t": "Chose not to run for reelection in 2018",
+            "k": ["reelection", "2018"],
+            "n": 0
+        },
+        {
+            "id": "blaine",
+            "tier": "middle",
+            "t": "At 45, became the youngest Speaker since James G. Blaine (1869)",
+            "k": ["youngest", "blaine"],
+            "n": 0
+        },
+        {
+            "id": "murray-deal",
+            "tier": "power",
+            "t": "Budget deal with Senator Patty Murray (December 2013) eased the automatic “sequester” spending cuts",
+            "k": ["patty murray", "sequester", "murray"],
+            "n": 0
+        },
+        {
+            "id": "uss-wisconsin",
+            "tier": "power",
+            "t": "Introduced as the vice-presidential pick aboard the battleship USS _Wisconsin_ in Norfolk, Virginia (August 2012)",
+            "k": ["uss wisconsin", "battleship", "norfolk"],
+            "n": 0
+        },
+        {
+            "id": "young-guns",
+            "tier": "power",
+            "t": "Co-wrote _Young Guns_ (2010) with Eric Cantor and Kevin McCarthy",
+            "k": ["young guns", "eric cantor", "kevin mccarthy"],
+            "n": 0
+        },
+        {
+            "id": "wienermobile",
+            "tier": "power",
+            "t": "Had a college summer job selling for Oscar Mayer and once drove the Wienermobile",
+            "k": ["wienermobile", "oscar mayer"],
+            "n": 0
+        },
+        {
+            "id": "miami",
+            "tier": "power",
+            "t": "Graduated from Miami University in Ohio (1992) with degrees in economics and political science",
+            "k": ["miami university", "economics", "1992"],
+            "n": 0
+        },
+        {
+            "id": "kemp",
+            "tier": "power",
+            "t": "Worked as a speechwriter for Jack Kemp, Bob Dole’s 1996 running mate",
+            "k": ["jack kemp", "speechwriter", "kemp"],
+            "n": 0
+        },
+        {
+            "id": "raddatz",
+            "tier": "power",
+            "t": "His 2012 debate at Centre College in Danville, Kentucky, was moderated by Martha Raddatz",
+            "k": ["martha raddatz", "centre college", "danville"],
+            "n": 0
+        },
+        {
+            "id": "district",
+            "tier": "power",
+            "t": "Represented Wisconsin’s 1st District, which includes Kenosha and Racine",
+            "k": ["1st district", "kenosha", "racine"],
+            "n": 0
+        },
+        {
+            "id": "dual-ballot",
+            "tier": "power",
+            "t": "In 2012, won reelection to the House while losing the national race, because Wisconsin let him run for both offices",
+            "k": ["both offices", "won reelection"],
+            "n": 0
+        },
+        {
+            "id": "fox-book",
+            "tier": "power",
+            "t": "Joined the Fox Corporation board in 2019; wrote the book _The Way Forward_ (2014)",
+            "k": ["fox corporation", "the way forward"],
+            "n": 0
+        },
+        {
+            "id": "ways-means",
+            "tier": "power",
+            "t": "Chaired the Ways and Means Committee, which writes tax laws, from January to October 2015",
+            "k": ["ways and means", "tax laws"],
+            "n": 0
+        },
+        {
+            "id": "steil",
+            "tier": "power",
+            "t": "Bryan Steil won his House seat in 2018",
+            "k": ["bryan steil", "steil"],
+            "n": 0
+        },
+        {
+            "id": "rnc-2016",
+            "tier": "power",
+            "t": "Permanent chairman of the 2016 Republican National Convention in Cleveland",
+            "k": ["republican national convention", "permanent chairman", "cleveland"],
+            "n": 0
+        },
+        {
+            "id": "p90x",
+            "tier": "power",
+            "t": "Known during the 2012 campaign for intense P90X workouts and bow hunting",
+            "k": ["p90x", "bow hunting", "workouts"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Speaker is it?",
+        "body": "Recent Speakers of the House get mixed up. John Boehner of Ohio was Speaker from 2011 until he resigned in 2015, Paul Ryan of Wisconsin served from 2015 to 2019, and Nancy Pelosi of California, the first woman Speaker, held the job from 2007 to 2011 and again from 2019 to 2023. Kevin McCarthy, Ryan’s fellow _Young Guns_ author, became Speaker in 2023. Other famous Ryans, like the baseball pitcher Nolan Ryan, are different answers.",
+        "fix": "Ryan clues: Janesville, the House Budget Committee, “The Path to Prosperity,” Mitt Romney’s 2012 running mate, the debate with Joe Biden, and the 2017 tax law. Boehner clues: Ohio and resigning in 2015. Pelosi clues: California and being the first woman Speaker. Saying just “Ryan” is enough.",
+        "line": "Real answer line: Paul <b><u>Ryan</u></b> (accept Paul Davis <u>Ryan</u>)"
+    },
+    "tests": {
+        "right": [
+            "Paul Ryan",
+            "Ryan",
+            "Speaker Paul Ryan",
+            "Paul Davis Ryan",
+            "Paul Rian"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Nolan Ryan",
+            "John Boehner",
+            "Nancy Pelosi",
+            "Mitt Romney",
+            "Paul Revere",
+            "Tim Ryan",
+            "Kevin McCarthy",
+            "Rand Paul"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,343 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "potomac-river",
+    "name": "Potomac River",
+    "mono": "PTR",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "River of the nation’s capital · Divides Maryland from Virginia",
+    "dates": "Explored by John Smith in 1608",
+    "briefing": "The Potomac River flows from the mountains of West Virginia to the Chesapeake Bay, forming much of the border between Maryland and Virginia. George Washington was born near it, built his home at Mount Vernon on its banks, and picked a spot along it for the nation’s capital. On the way, it meets the Shenandoah River at Harpers Ferry and tumbles over the rocky Great Falls just upstream from Washington, D.C.",
+    "answerHtml": "<b><u>Potomac</u></b> River (do not accept “Chesapeake Bay” or “Shenandoah River”)",
+    "accept": [
+        "potomac",
+        "potomac river",
+        "the potomac",
+        "the potomac river",
+        "potomac r"
+    ],
+    "prompt": [],
+    "reject": [
+        "chesapeake bay",
+        "chesapeake",
+        "shenandoah river",
+        "shenandoah",
+        "anacostia river",
+        "anacostia",
+        "rappahannock river",
+        "rappahannock",
+        "james river",
+        "york river",
+        "susquehanna river",
+        "susquehanna",
+        "delaware river",
+        "hudson river",
+        "ohio river",
+        "mississippi river",
+        "monocacy river",
+        "monocacy",
+        "antietam creek",
+        "occoquan river",
+        "army of the potomac",
+        "potomac company",
+        "patowmack company",
+        "chesapeake and ohio canal",
+        "c and o canal"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Potomac_River",
+    "qb": {
+        "q": "Potomac",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Maryland’s border with Virginia runs along the low-water mark on this river’s southern bank, so Maryland owns almost the entire width of the river where it separates the two states.",
+            "r": "George Washington’s home, Mount Vernon, overlooks this river from the Virginia side. For 10 points, name this river that flows past Washington, D.C."
+        },
+        {
+            "p": "On July 4, 1828, John Quincy Adams turned the first shovelful of dirt for a canal that eventually ran 184 miles beside this river, from Georgetown to Cumberland, Maryland. Justice William O. Douglas later led a hike along that canal’s towpath to save it from becoming a highway.",
+            "r": "George Washington’s Mount Vernon overlooks it. For 10 points, name this river that flows past Washington, D.C., into the Chesapeake Bay."
+        },
+        {
+            "p": "George Washington was the first president of the Patowmack Company, which built short canals to carry boats around the rapids of this river. In 1785, delegates from Virginia and Maryland met at George Washington’s home to settle arguments over shipping and fishing on it.",
+            "r": "That meeting helped lead to the Constitutional Convention. For 10 points, name this river along which the national capital was built."
+        },
+        {
+            "p": "Thomas Jefferson wrote that the view where this river meets the Shenandoah [“shen-un-DOH-uh”] was “worth a voyage across the Atlantic.” The town at that meeting point, Harpers Ferry, was the site of John Brown’s 1859 raid on a federal armory.",
+            "r": "For 10 points, name this river that forms much of the border between Maryland and Virginia."
+        },
+        {
+            "p": "This river’s North Branch begins at the Fairfax Stone in West Virginia, a marker that once showed the edge of Lord Fairfax’s huge land grant. Farther downstream, this river flows past Cumberland, Maryland, and Harpers Ferry.",
+            "r": "For 10 points, name this river that flows past Washington, D.C., on its way to the Chesapeake Bay."
+        },
+        {
+            "p": "Below its Great Falls, this river rushes through Mather Gorge, named for the first director of the National Park Service. Georgetown grew up as a port just downstream, where the river’s falls stopped ships sailing up from the ocean.",
+            "r": "It empties into the Chesapeake Bay. For 10 points, name this river that divides Washington, D.C., from Virginia."
+        },
+        {
+            "p": "George Washington, James Monroe, and Robert E. Lee were all born in Westmoreland County, Virginia, on the Northern Neck, a peninsula between this river and the Rappahannock [“rap-uh-HAN-uk”]. Lee was born at Stratford Hall there.",
+            "r": "Washington later lived at Mount Vernon, on this river’s banks. For 10 points, name this river that flows past the nation’s capital."
+        },
+        {
+            "p": "Robert E. Lee’s army crossed this river to invade Maryland in September 1862 and retreated back across it at Boteler’s Ford after the Battle of Antietam [“an-TEE-tum”]. The Union’s main army in the East was named for this river.",
+            "r": "For 10 points, name this river that flows past Washington, D.C., into the Chesapeake Bay."
+        },
+        {
+            "p": "After hiding for days in a Maryland pine thicket, John Wilkes Booth and David Herold crossed this river by rowboat into Virginia in April 1865. Its lower stretch forms the border between southern Maryland and Virginia’s Northern Neck.",
+            "r": "For 10 points, name this river that flows past Washington, D.C., and George Washington’s Mount Vernon."
+        },
+        {
+            "p": "John Quincy Adams liked to swim in this river early in the morning while he was president. An island in it near Georgetown is a memorial to Theodore Roosevelt.",
+            "r": "The Kennedy Center and the Lincoln Memorial stand near its banks. For 10 points, name this river that flows past Washington, D.C."
+        },
+        {
+            "p": "In 1608, Captain John Smith sailed up this river while exploring the Chesapeake Bay region, meeting the Patawomeck and other Algonquian-speaking peoples along its banks. Its mouth lies at Point Lookout, Maryland.",
+            "r": "It flows past Washington, D.C. For 10 points, name this river that forms much of the border between Maryland and Virginia."
+        },
+        {
+            "p": "In 1853, Ann Pamela Cunningham founded a ladies’ association that bought and preserved a famous plantation home on a hill overlooking this river in Virginia. That home’s owner had died there in 1799.",
+            "r": "That home is Mount Vernon. For 10 points, name this river that flows past Washington, D.C., on its way to the Chesapeake Bay."
+        },
+        {
+            "p": "In 1846, Congress returned to Virginia the part of the federal district that lay on the southern side of this river, including the port of Alexandria and what is now Arlington.",
+            "r": "The Residence Act of 1790 put the capital on this river. For 10 points, name this river between Washington, D.C., and Virginia."
+        },
+        {
+            "p": "The Arlington Memorial Bridge crosses this river to link the Lincoln Memorial with Arlington National Cemetery, and the Francis Scott Key Bridge crosses it at Georgetown. Farther south, the Woodrow Wilson Bridge carries Interstate 95 over it near Alexandria.",
+            "r": "George Washington’s Mount Vernon also overlooks it. For 10 points, name this river that separates Washington, D.C., from Virginia."
+        },
+        {
+            "p": "The Monocacy [“muh-NOK-uh-see”] River and Antietam Creek, both sites of Civil War battles, flow into this river from Maryland, and the Shenandoah joins it at Harpers Ferry, West Virginia, after flowing north through a famous valley.",
+            "r": "The Anacostia River joins it in Washington, D.C. For 10 points, name this river that empties into the Chesapeake Bay."
+        }
+    ],
+    "clues": [
+        {
+            "id": "capital",
+            "tier": "giveaway",
+            "t": "Flows past Washington, D.C., the national capital built on its banks",
+            "k": ["washington", "capital"],
+            "n": 0,
+            "rabbit": "Washington, D.C."
+        },
+        {
+            "id": "border",
+            "tier": "giveaway",
+            "t": "Forms much of the border between Maryland and Virginia (and West Virginia)",
+            "k": ["border", "maryland", "virginia"],
+            "n": 0
+        },
+        {
+            "id": "mount-vernon",
+            "tier": "giveaway",
+            "t": "George Washington’s home, Mount Vernon, overlooks it in Virginia",
+            "k": ["mount vernon", "george washington"],
+            "n": 0,
+            "rabbit": "George Washington"
+        },
+        {
+            "id": "chesapeake",
+            "tier": "giveaway",
+            "t": "Empties into the Chesapeake Bay",
+            "k": ["chesapeake bay", "chesapeake"],
+            "n": 0
+        },
+        {
+            "id": "harpers-ferry",
+            "tier": "middle",
+            "t": "Meets the Shenandoah River at Harpers Ferry, site of John Brown’s 1859 raid",
+            "k": ["shenandoah", "harpers ferry", "john brown"],
+            "n": 0,
+            "rabbit": "John Brown"
+        },
+        {
+            "id": "great-falls",
+            "tier": "middle",
+            "t": "Its Great Falls, just upstream from Washington, sit at the fall line, where ships coming upriver had to stop",
+            "k": ["great falls", "fall line"],
+            "n": 0
+        },
+        {
+            "id": "co-canal",
+            "tier": "middle",
+            "t": "The Chesapeake and Ohio Canal ran beside it from Georgetown to Cumberland, Maryland",
+            "k": ["chesapeake and ohio", "georgetown", "cumberland"],
+            "n": 0,
+            "rabbit": "Erie Canal"
+        },
+        {
+            "id": "residence-act",
+            "tier": "middle",
+            "t": "The Residence Act of 1790 put the national capital on its banks",
+            "k": ["residence act", "1790"],
+            "n": 0
+        },
+        {
+            "id": "army",
+            "tier": "middle",
+            "t": "The Union’s main army in the East during the Civil War was named for it",
+            "k": ["union", "army"],
+            "n": 0
+        },
+        {
+            "id": "antietam",
+            "tier": "middle",
+            "t": "Lee’s army crossed it to invade Maryland (1862) and retreated across it at Boteler’s Ford after the Battle of Antietam",
+            "k": ["antietam", "boteler’s ford", "1862"],
+            "n": 0,
+            "rabbit": "Battle of Antietam"
+        },
+        {
+            "id": "arlington",
+            "tier": "middle",
+            "t": "Arlington National Cemetery lies across it from the Lincoln Memorial; the Arlington Memorial Bridge and the Francis Scott Key Bridge cross it",
+            "k": ["arlington", "memorial bridge", "key bridge"],
+            "n": 0,
+            "rabbit": "Arlington National Cemetery"
+        },
+        {
+            "id": "booth",
+            "tier": "middle",
+            "t": "John Wilkes Booth crossed it by rowboat into Virginia while escaping (April 1865)",
+            "k": ["john wilkes booth", "rowboat", "booth"],
+            "n": 0,
+            "rabbit": "John Wilkes Booth"
+        },
+        {
+            "id": "low-water",
+            "tier": "power",
+            "t": "Maryland’s border runs along the low-water mark on its Virginia shore, so Maryland owns nearly all of the river there",
+            "k": ["low-water mark", "virginia shore"],
+            "n": 0
+        },
+        {
+            "id": "jqa-canal",
+            "tier": "power",
+            "t": "John Quincy Adams broke ground for the canal on July 4, 1828; Justice William O. Douglas’s hike on its towpath later helped save it",
+            "k": ["john quincy adams", "towpath", "july 4, 1828"],
+            "n": 0,
+            "rabbit": "John Quincy Adams"
+        },
+        {
+            "id": "patowmack",
+            "tier": "power",
+            "t": "George Washington was the first president of the Patowmack Company, which built canals around its rapids",
+            "k": ["patowmack company", "patowmack", "rapids"],
+            "n": 0
+        },
+        {
+            "id": "mount-vernon-conference",
+            "tier": "power",
+            "t": "Mount Vernon Conference (1785): Virginia and Maryland settled disputes over shipping and fishing on it, a step toward the Constitutional Convention",
+            "k": ["mount vernon conference", "1785", "fishing"],
+            "n": 0,
+            "rabbit": "Articles of Confederation"
+        },
+        {
+            "id": "jefferson-view",
+            "tier": "power",
+            "t": "Thomas Jefferson said the view where it meets the Shenandoah was “worth a voyage across the Atlantic”",
+            "k": ["voyage across the atlantic", "jefferson"],
+            "n": 0
+        },
+        {
+            "id": "fairfax-stone",
+            "tier": "power",
+            "t": "Its North Branch begins at the Fairfax Stone in West Virginia",
+            "k": ["fairfax stone", "north branch"],
+            "n": 0
+        },
+        {
+            "id": "mather-gorge",
+            "tier": "power",
+            "t": "Below Great Falls it rushes through Mather Gorge, named for the first director of the National Park Service",
+            "k": ["mather gorge", "national park service"],
+            "n": 0
+        },
+        {
+            "id": "westmoreland",
+            "tier": "power",
+            "t": "Washington, James Monroe, and Robert E. Lee were born in Westmoreland County, on the Northern Neck between it and the Rappahannock",
+            "k": ["westmoreland county", "northern neck", "rappahannock"],
+            "n": 0
+        },
+        {
+            "id": "jqa-swims",
+            "tier": "power",
+            "t": "John Quincy Adams liked to swim in it early in the morning; Theodore Roosevelt Island in it is a memorial",
+            "k": ["theodore roosevelt island", "swim"],
+            "n": 0
+        },
+        {
+            "id": "john-smith",
+            "tier": "power",
+            "t": "Captain John Smith explored it in 1608; it meets the Chesapeake at Point Lookout, Maryland",
+            "k": ["john smith", "point lookout", "1608"],
+            "n": 0,
+            "rabbit": "John Smith"
+        },
+        {
+            "id": "ladies-association",
+            "tier": "power",
+            "t": "Ann Pamela Cunningham founded the Mount Vernon Ladies’ Association (1853), which bought and saved Washington’s home",
+            "k": ["ann pamela cunningham", "ladies’ association", "1853"],
+            "n": 0
+        },
+        {
+            "id": "retrocession",
+            "tier": "power",
+            "t": "In 1846, Congress gave the land south of it, including Alexandria, back to Virginia (retrocession)",
+            "k": ["retrocession", "alexandria", "1846"],
+            "n": 0
+        },
+        {
+            "id": "tributaries",
+            "tier": "power",
+            "t": "Its tributaries include the Monocacy River, Antietam Creek, the Shenandoah, and the Anacostia",
+            "k": ["tributaries", "monocacy", "anacostia"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "River, bay, or tributary?",
+        "body": "The Potomac flows into the Chesapeake Bay, so bay clues and river clues get mixed up, and its tributaries, like the Shenandoah at Harpers Ferry and the Anacostia in Washington, D.C., are separate answers. The Rappahannock, farther south, runs past Ferry Farm, where George Washington spent much of his boyhood. A popular legend says Washington threw a silver dollar across the Potomac, but the story is usually told about the Rappahannock, near that boyhood home.",
+        "fix": "Potomac clues: Washington, D.C., Mount Vernon, Great Falls, Harpers Ferry, the C&O Canal, and the Maryland–Virginia border. Shenandoah clues: its valley, Stonewall Jackson’s 1862 campaign, and flowing north into another river. Chesapeake Bay clues: an estuary, oysters and blue crabs, and the Chesapeake Bay Bridge.",
+        "line": "Real answer line: <b><u>Potomac</u></b> River (do not accept “Chesapeake Bay” or “Shenandoah River”)"
+    },
+    "tests": {
+        "right": [
+            "Potomac",
+            "Potomac River",
+            "the Potomac",
+            "Potomoc River",
+            "potamac"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Chesapeake Bay",
+            "Shenandoah River",
+            "Anacostia River",
+            "Rappahannock River",
+            "James River",
+            "Susquehanna",
+            "Army of the Potomac",
+            "Hudson River"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

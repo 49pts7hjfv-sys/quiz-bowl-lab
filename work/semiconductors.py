@@ -1,0 +1,233 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+
+def C(cid, tier, t, k, rabbit=None):
+    d = {"id": cid, "tier": tier, "t": t, "k": k, "n": 0}
+    if rabbit:
+        d["rabbit"] = rabbit
+    return d
+
+
+data = {
+    "id": "semiconductors",
+    "name": "Semiconductors",
+    "mono": "SI",
+    "category": "Physics",
+    "qbCategory": "Science · Physics",
+    "kicker": "Materials between conductors and insulators · The heart of computer chips",
+    "dates": "First transistor built at Bell Labs, 1947",
+    "briefing": "Semiconductors are materials, like silicon and germanium, that conduct electricity better than insulators such as rubber but worse than metals such as copper. Adding a pinch of another element, called doping, lets engineers control exactly how well they conduct. That trick made possible the transistor, invented at Bell Labs in 1947, and billions of tiny silicon transistors fill the chips inside phones and computers.",
+    "answerHtml": "<b><u>semiconductor</u></b>s (accept <u>semiconducting</u> materials; prompt on <u>metalloid</u>s; do not accept “superconductors” or “insulators”)",
+    "accept": [
+        "semiconductors",
+        "semiconductor",
+        "semiconducting materials",
+        "semiconducting material",
+        "semiconductor materials",
+        "semiconductor material",
+        "semiconducting",
+        "semi conductors",
+        "semi conductor"
+    ],
+    "prompt": [
+        "metalloids",
+        "metalloid"
+    ],
+    "reject": [
+        "superconductors",
+        "superconductor",
+        "superconductivity",
+        "superconducting",
+        "insulators",
+        "insulator",
+        "electrical insulators",
+        "dielectrics",
+        "dielectric",
+        "transistors",
+        "transistor",
+        "diodes",
+        "diode",
+        "semiconductor diode",
+        "semiconductor diodes",
+        "semiconductor laser",
+        "led",
+        "leds",
+        "light emitting diodes",
+        "integrated circuits",
+        "integrated circuit",
+        "microchips",
+        "microchip",
+        "gallium arsenide",
+        "gallium nitride",
+        "resistors",
+        "resistor",
+        "capacitors",
+        "solar cells",
+        "solar cell",
+        "metals",
+        "p n junction",
+        "pn junction",
+        "doping",
+        "dopants",
+        "dopant",
+        "band gap",
+        "electron holes",
+        "electrical resistance",
+        "thermistors",
+        "thermistor"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Semiconductor",
+    "qb": {"q": "semiconductor", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "In 1833, Michael Faraday noticed that silver sulfide conducted electricity better as it got hotter, the opposite of how metals behave, an early example of these materials. In 1874, Karl Ferdinand Braun [“BROWN”] found that a metal point touching certain crystals of these materials let current pass more easily one way.",
+            "r": "For 10 points, name these materials, such as silicon and germanium, whose ability to conduct falls between that of metals and insulators."
+        },
+        {
+            "p": "The Czochralski [“choh-KRAHL-skee”] process grows huge single crystals of one of these materials by slowly pulling a seed crystal upward out of a pool of the melted material. The crystals are then sliced into thin wafers for making chips.",
+            "r": "For 10 points, name these materials, such as silicon, that conduct electricity better than insulators but worse than metals."
+        },
+        {
+            "p": "In these materials, the band gap, the energy an electron needs to jump from the valence band into the conduction band, is small enough that some electrons make the jump at room temperature.",
+            "r": "Insulators have much larger band gaps. For 10 points, name these materials, such as silicon, that conduct better than insulators but not as well as metals."
+        },
+        {
+            "p": "Adding a little phosphorus or arsenic, whose atoms have five valence electrons, to one of these materials leaves extra free electrons and makes it “n-type.” Each added atom has one more valence electron than the atoms it replaces.",
+            "r": "Adding boron instead creates positive “holes” and makes it p-type. For 10 points, name these materials whose conductivity can be controlled by doping."
+        },
+        {
+            "p": "John Bardeen, Walter Brattain, and William Shockley shared the 1956 Nobel Prize in Physics for research on these materials and for the discovery of the transistor effect. Shockley later invented an improved “junction” version of their device.",
+            "r": "Their first transistor was built at Bell Labs in 1947. For 10 points, name these materials, such as silicon and germanium."
+        },
+        {
+            "p": "The first transistor, built in December 1947, used a slab of one of these materials touched by two gold contacts placed very close together. Walter Brattain and John Bardeen built it at Bell Labs in New Jersey.",
+            "r": "That material was germanium. For 10 points, name these materials whose conductivity is between that of conductors and insulators."
+        },
+        {
+            "p": "John Bardeen, a co-inventor of a device made from these materials, later won a second Nobel Prize in Physics for explaining superconductivity, making him the only person to win that prize twice.",
+            "r": "For 10 points, name these materials, such as silicon, used to build transistors and computer chips, whose conductivity can be changed by doping."
+        },
+        {
+            "p": "Unlike metals, these materials usually conduct electricity better when they are heated, which lets some of them serve as temperature sensors called thermistors. Heat gives more electrons enough energy to jump across the material’s band gap.",
+            "r": "For 10 points, name these materials, like silicon and germanium, whose conductivity lies between that of metals and insulators."
+        },
+        {
+            "p": "In 1956, William Shockley set up a laboratory in California to make devices from these materials, but in 1957 eight of his employees, later nicknamed the “traitorous eight,” left to found the company Fairchild.",
+            "r": "California’s Silicon Valley is named for one of these materials. For 10 points, name these materials used to make computer chips."
+        },
+        {
+            "p": "Jack Kilby built the first integrated circuit in 1958, and Robert Noyce soon built a more practical one, each putting many tiny parts onto a single chip of one of these materials. Kilby won the 2000 Nobel Prize in Physics for that work.",
+            "r": "Kilby used germanium and Noyce used silicon. For 10 points, name these materials whose conductivity is between that of conductors and insulators."
+        },
+        {
+            "p": "In a light-emitting diode made of these materials, the color of the light depends on the size of the band gap, so blue light needs a material with a wide gap, such as gallium nitride.",
+            "r": "For 10 points, name these materials, like silicon, used to make diodes, transistors, and solar cells."
+        },
+        {
+            "p": "Dmitri Mendeleev predicted one element used in these materials in 1871, and Clemens Winkler discovered it in 1886, naming it for his home country. Mendeleev’s predictions of its properties turned out to be remarkably close.",
+            "r": "That element is germanium. For 10 points, name these materials, such as germanium and silicon, that conduct better than insulators but worse than metals."
+        },
+        {
+            "p": "Measuring the Hall effect in one of these materials reveals whether its current is carried mainly by negative electrons or by positive “holes.” That effect is much stronger in these materials than in metals, which have far more free electrons.",
+            "r": "For 10 points, name these materials that can be made n-type or p-type by adding tiny amounts of other elements."
+        },
+        {
+            "p": "Many spacecraft solar panels use gallium arsenide, one of these materials, because it turns sunlight into electricity more efficiently than ordinary solar cells do. In any solar cell, light striking the boundary between two specially treated layers knocks electrons loose and drives them around a circuit.",
+            "r": "Those layers are p-type and n-type versions of these materials. For 10 points, name these materials, such as silicon and germanium."
+        },
+        {
+            "p": "In a crystal of a typical one of these materials, each atom shares electrons with four neighbors in covalent bonds, and a missing electron, called a hole, can move through the crystal like a positive charge.",
+            "r": "For 10 points, name these materials, used in computer chips, that conduct better than insulators but not as well as metals."
+        }
+    ],
+    "clues": [
+        C("between", "giveaway", "Conduct electricity better than insulators but worse than metals",
+          ["insulators", "metals", "better"]),
+        C("silicon-germanium", "giveaway", "Most are made of silicon or germanium, metalloids in group 14",
+          ["silicon", "germanium", "group 14"]),
+        C("devices", "giveaway", "Used to make transistors, diodes, solar cells, and computer chips",
+          ["transistors", "computer chips", "solar cells"]),
+        C("bell-labs-1947", "giveaway", "The transistor was invented from them at Bell Labs in 1947",
+          ["bell labs", "1947", "transistor"]),
+        C("doping", "middle", "Doping: adding tiny amounts of other elements controls how well they conduct",
+          ["doping", "tiny amounts"]),
+        C("n-type", "middle", "n-type: doped with phosphorus or arsenic (five valence electrons), giving extra free electrons",
+          ["n-type", "phosphorus", "arsenic"]),
+        C("p-type", "middle", "p-type: doped with boron or gallium (three valence electrons), creating positive “holes”",
+          ["p-type", "boron", "holes"], "Boron"),
+        C("band-gap", "middle", "Have a small band gap between the valence band and the conduction band; insulators have a large one",
+          ["band gap", "valence band", "conduction band"]),
+        C("heat", "middle", "Usually conduct better when heated, the opposite of metals",
+          ["heated", "opposite"], "Electrical resistance"),
+        C("pn-junction", "middle", "Joining p-type and n-type layers makes a p-n junction, the heart of diodes, LEDs, and solar cells",
+          ["p-n junction", "diodes", "leds"], "Diodes"),
+        C("nobel-1956", "middle", "John Bardeen, Walter Brattain, and William Shockley shared the 1956 Nobel Prize in Physics",
+          ["bardeen", "brattain", "1956"]),
+        C("silicon-valley", "middle", "California’s Silicon Valley is named for the silicon in computer chips",
+          ["silicon valley", "california"]),
+        C("faraday-1833", "power", "Michael Faraday (1833) saw silver sulfide conduct better when hotter, an early example",
+          ["faraday", "silver sulfide", "1833"], "Michael Faraday"),
+        C("braun", "power", "Karl Ferdinand Braun (1874): a metal point touching certain crystals let current pass more easily one way",
+          ["braun", "1874", "crystals"]),
+        C("czochralski", "power", "The Czochralski process pulls a big single crystal from a melt using a seed crystal; it is sliced into wafers",
+          ["czochralski", "seed crystal", "wafers"]),
+        C("first-transistor", "power", "The first transistor (December 1947) used germanium touched by two gold contacts",
+          ["gold contacts", "december 1947"]),
+        C("bardeen-twice", "power", "John Bardeen later won a second physics Nobel (1972) for explaining superconductivity",
+          ["second", "1972", "superconductivity"], "Superconductivity"),
+        C("traitorous-eight", "power", "In 1957, the “traitorous eight” left Shockley’s California lab to found Fairchild",
+          ["traitorous eight", "fairchild", "1957"]),
+        C("kilby-noyce", "power", "Jack Kilby (1958, germanium) and Robert Noyce (silicon) built the first integrated circuits; Kilby won the 2000 Nobel Prize",
+          ["kilby", "noyce", "integrated circuits"]),
+        C("led-color", "power", "An LED’s color depends on its band gap; blue LEDs need a wide-gap material like gallium nitride",
+          ["gallium nitride", "color", "blue"]),
+        C("germanium-prediction", "power", "Mendeleev predicted germanium (1871); Clemens Winkler found it in 1886 and named it for Germany",
+          ["mendeleev", "winkler", "1886"]),
+        C("hall", "power", "The Hall effect shows whether current is carried by electrons or holes, and it is much stronger in them than in metals",
+          ["hall effect", "holes"], "Hall effect"),
+        C("gallium-arsenide", "power", "Gallium arsenide solar cells power many spacecraft because they are very efficient",
+          ["gallium arsenide", "spacecraft"]),
+        C("covalent", "power", "Each atom in a silicon crystal shares electrons with four neighbors; a missing electron (a hole) moves like a positive charge",
+          ["four neighbors", "hole"]),
+        C("thermistors", "power", "Thermistors use them as temperature sensors because their conductivity changes with heat",
+          ["thermistors", "temperature sensors"])
+    ],
+    "trap": {
+        "title": "Semi-, not super-",
+        "body": "Semiconductors and superconductors sound alike but behave very differently: a superconductor has zero resistance when it is very cold, while these materials conduct only partly and usually conduct better when warmed. Insulators, like rubber and glass, barely conduct at all. Players also blurt devices made from these materials, like transistors or diodes, or a single element like silicon.",
+        "fix": "Silicon and germanium, doping, n-type and p-type, holes, band gaps, and Bell Labs point to these materials. Zero resistance, the Meissner effect, and extreme cold point to superconductors; if the question asks for “this device,” name the transistor or diode instead.",
+        "line": "Real answer line: <b><u>semiconductor</u></b>s (accept <u>semiconducting</u> materials; prompt on <u>metalloid</u>s; do not accept “superconductors” or “insulators”)"
+    },
+    "tests": {
+        "right": [
+            "Semiconductors",
+            "semiconductor",
+            "Semi-conductors",
+            "Semiconductor materials",
+            "Semiconducters"
+        ],
+        "prompt": [
+            "Metalloids"
+        ],
+        "wrong": [
+            "Superconductors",
+            "Insulators",
+            "Transistors",
+            "Conductors",
+            "Diodes"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

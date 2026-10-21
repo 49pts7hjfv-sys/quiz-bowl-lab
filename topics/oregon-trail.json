@@ -69,7 +69,7 @@
     },
     {
       "p": "In 1971, three student teachers in Minnesota created a computer game named for this route, in which players buy oxen, ford rivers, and often lose members of their party to dysentery. The Minnesota Educational Computing Consortium later sent the game to schools across the country.",
-      "r": "For 10 points, name this wagon route that ran from Independence, Missouri, to Oregon."
+      "r": "Real pioneers on it usually traveled in covered wagons pulled by oxen. For 10 points, name this wagon route that ran from Independence, Missouri, to Oregon."
     },
     {
       "p": "Jesse Applegate wrote “A Day with the Cow Column” about the 1843 “Great Migration,” when about a thousand pioneers and their herds of cattle traveled this route together, helped along by the missionary Marcus Whitman.",
@@ -93,14 +93,14 @@
     },
     {
       "p": "Chimney Rock, a tall spire in western Nebraska, was the landmark that travelers on this route mentioned most often in their diaries. To get there, they followed the shallow Platte River, said to be “a mile wide and an inch deep.”",
-      "r": "For 10 points, name this roughly 2,000-mile trail that pioneers took to Oregon."
+      "r": "The trip usually took four to six months. For 10 points, name this roughly 2,000-mile trail that pioneers took to Oregon."
     },
     {
       "p": "Near Fort Hall, a trading post founded by Nathaniel Wyeth [“WY-eth”] in 1834 in present-day Idaho, many travelers left this route and headed southwest toward California. Those who stayed on it followed the Snake River west.",
-      "r": "For 10 points, name this pioneer trail that ended in Oregon’s Willamette [“wih-LAM-it”] Valley."
+      "r": "Most travelers had started out from Missouri. For 10 points, name this pioneer trail that ended in Oregon’s Willamette [“wih-LAM-it”] Valley."
     },
     {
-      "p": "John McLoughlin [“muh-KLOK-lin”], the Hudson’s Bay Company’s chief at Fort Vancouver, helped many tired and hungry American settlers who arrived at the end of this route, earning the nickname “Father of Oregon.” He later moved to Oregon City, the traditional end of this route.",
+      "p": "John McLoughlin, the Hudson’s Bay Company’s chief at Fort Vancouver, helped many tired and hungry American settlers who arrived at the end of this route, earning the nickname “Father of Oregon.” He worked for a British company, but he gave the newcomers food, seeds, and supplies on credit.",
       "r": "For 10 points, name this trail that pioneers took from Independence, Missouri, to the Pacific Northwest."
     },
     {
@@ -117,36 +117,56 @@
     },
     {
       "p": "Peter Burnett, who later became the first governor of the state of California, helped lead a large wagon train along this route in 1843. Travel on this route fell off after the first transcontinental railroad was finished in 1869.",
-      "r": "For 10 points, name this pioneer trail to Oregon’s Willamette [“wih-LAM-it”] Valley."
+      "r": "Many of its travelers began in Independence, Missouri. For 10 points, name this pioneer trail to Oregon’s Willamette [“wih-LAM-it”] Valley."
     }
   ],
   "clues": [
     {
-      "id": "route",
+      "id": "start",
       "tier": "giveaway",
-      "t": "About 2,000-mile wagon route from Independence, Missouri, to the Willamette Valley in the Pacific Northwest",
+      "t": "Began in towns along the Missouri River, especially Independence, Missouri",
       "k": [
         "independence",
+        "missouri river"
+      ],
+      "n": 0
+    },
+    {
+      "id": "end",
+      "tier": "giveaway",
+      "t": "Ended in the Willamette Valley, at Oregon City, in the Pacific Northwest",
+      "k": [
         "willamette valley",
         "pacific northwest",
-        "2,000"
+        "willamette"
       ],
       "n": 0
     },
     {
       "id": "wagons",
       "tier": "giveaway",
-      "t": "Pioneer families crossed it in covered wagons, mostly pulled by oxen, from the 1840s to the 1860s",
+      "t": "About 2,000 miles long; pioneer families crossed it in covered wagons, mostly pulled by oxen, from the 1840s to the 1860s",
       "k": [
         "covered wagons",
-        "oxen",
-        "pioneer"
+        "2,000 miles",
+        "oxen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cholera",
+      "tier": "middle",
+      "t": "Disease, especially cholera, was the most common cause of death on it; drownings at river crossings were another danger",
+      "k": [
+        "cholera",
+        "disease",
+        "drownings"
       ],
       "n": 0
     },
     {
       "id": "game",
-      "tier": "giveaway",
+      "tier": "middle",
       "t": "A 1971 computer game named for it is famous for players dying of dysentery",
       "k": [
         "computer game",
@@ -156,23 +176,14 @@
       "n": 0
     },
     {
-      "id": "cholera",
-      "tier": "giveaway",
-      "t": "Disease, especially cholera, was the most common cause of death on it",
-      "k": [
-        "cholera",
-        "disease"
-      ],
-      "n": 0
-    },
-    {
       "id": "chimney-rock",
       "tier": "middle",
-      "t": "Chimney Rock in western Nebraska was the landmark travelers mentioned most in their diaries",
+      "t": "Followed the shallow Platte River, “a mile wide and an inch deep,” past Chimney Rock in Nebraska, the landmark travelers mentioned most in their diaries",
       "k": [
         "chimney rock",
-        "nebraska",
-        "diaries"
+        "platte river",
+        "diaries",
+        "inch deep"
       ],
       "n": 0
     },
@@ -233,17 +244,6 @@
       "n": 0
     },
     {
-      "id": "platte",
-      "tier": "middle",
-      "t": "Followed the shallow Platte River, “a mile wide and an inch deep,” across Nebraska",
-      "k": [
-        "platte river",
-        "inch deep",
-        "platte"
-      ],
-      "n": 0
-    },
-    {
       "id": "great-migration",
       "tier": "middle",
       "t": "The 1843 “Great Migration” brought about a thousand settlers along it",
@@ -262,17 +262,6 @@
         "whitman",
         "walla walla",
         "1847"
-      ],
-      "n": 0
-    },
-    {
-      "id": "parkman",
-      "tier": "middle",
-      "t": "Francis Parkman’s 1849 book, named for it, describes his 1846 trip to the Great Plains",
-      "k": [
-        "francis parkman",
-        "parkman",
-        "1849"
       ],
       "n": 0
     },
@@ -415,6 +404,17 @@
       ],
       "n": 0,
       "rabbit": "First Transcontinental Railroad"
+    },
+    {
+      "id": "parkman",
+      "tier": "power",
+      "t": "Francis Parkman’s 1849 book, named for it, describes his 1846 trip to the Great Plains",
+      "k": [
+        "francis parkman",
+        "parkman",
+        "1849"
+      ],
+      "n": 0
     }
   ],
   "trap": {

@@ -74,7 +74,8 @@ data = {
         "ghost dance",
         "battle of the alamo",
         "alamo",
-        "trail of tears"
+        "trail of tears",
+        "little big man"
     ],
     "mediaPending": True,
     "media": [],
@@ -110,7 +111,7 @@ data = {
             "r": "Most of the soldiers with Reno and Frederick Benteen survived there. For 10 points, name this battle in which their commander, George Armstrong Custer, was killed."
         },
         {
-            "p": "Bloody Knife, an Arikara [“uh-RIK-uh-ruh”] scout who was a longtime favorite of the commanding officer, was killed early in this battle during Major Marcus Reno’s charge toward the village. Scouts had warned that the camp ahead was enormous.",
+            "p": "Bloody Knife, an Arikara [“uh-RIK-uh-ruh”] scout who was a longtime favorite of the commanding officer, was killed early in this battle during Major Marcus Reno’s attack on the village. Scouts had warned that the camp ahead was enormous.",
             "r": "For 10 points, name this 1876 battle in which warriors led by Crazy Horse and Gall defeated George Armstrong Custer."
         },
         {
@@ -118,7 +119,7 @@ data = {
             "r": "For 10 points, name this battle where George Armstrong Custer and his 7th Cavalry were defeated in June 1876."
         },
         {
-            "p": "Captain Grant Marsh’s steamboat, the _Far West_, rushed wounded soldiers from this battle down the Bighorn, Yellowstone, and Missouri Rivers to Bismarck in record time. Those soldiers had been part of Major Marcus Reno’s attack on the southern end of the village.",
+            "p": "Captain Grant Marsh’s steamboat, the _Far West_, rushed wounded soldiers from this battle down the Yellowstone and Missouri Rivers to Bismarck in record time. Those soldiers had survived with Major Marcus Reno and Captain Frederick Benteen on a hilltop above the river.",
             "r": "For 10 points, name this 1876 battle in which George Armstrong Custer and every soldier in his five companies were killed."
         },
         {
@@ -130,7 +131,7 @@ data = {
             "r": "That commander’s body was found on a ridge now called Last Stand Hill. For 10 points, name this 1876 battle where Lakota and Cheyenne warriors defeated George Armstrong Custer."
         },
         {
-            "p": "In Thomas Berger’s novel _Little Big Man_, the narrator Jack Crabb claims to be the only white survivor of this battle, and Dustin Hoffman played Crabb in the 1970 film version. An earlier film, _They Died with Their Boots On_, ends with this battle.",
+            "p": "In Thomas Berger’s novel _Little Big Man_, the narrator Jack Crabb claims to be the only white survivor of this battle, and Dustin Hoffman played Crabb in the 1970 film version. An earlier film, _They Died with Their Boots On_, climaxes with this battle.",
             "r": "For 10 points, name this 1876 battle in Montana where George Armstrong Custer was killed along with every soldier in his five companies."
         },
         {

@@ -93,7 +93,7 @@
       "r": "The Senate acquitted President Bill Clinton. For 10 points, name this process in which the House brings formal charges against an official."
     },
     {
-      "p": "Chief Justice John Roberts presided over a Senate trial in early 2020, but Senator Patrick Leahy presided over a second trial of the same man in 2021, because he was no longer president by then. The House had approved those charges in December 2019 and January 2021.",
+      "p": "In December 2019, the House approved two charges against a president, and Chief Justice John Roberts presided over his Senate trial in early 2020. In January 2021, the House charged the same man again, and Senator Patrick Leahy presided over the second trial because the man had left office by then.",
       "r": "The Senate acquitted Donald Trump both times. For 10 points, name this process, which the House has used against three presidents."
     },
     {
@@ -109,7 +109,7 @@
       "r": "For 10 points, name this process that begins when the House of Representatives approves charges called articles."
     },
     {
-      "p": "In 1843, Whig congressman John Botts introduced the first resolution aimed at starting this process against a president, John Tyler, but the House voted it down. In 1970, Gerald Ford led an effort to use this process against Justice William O. Douglas.",
+      "p": "In 1843, Whig congressman John Minor Botts introduced the first resolution aimed at starting this process against a president, John Tyler, but the House voted it down. In 1970, Gerald Ford led an effort to use this process against Justice William O. Douglas.",
       "r": "For 10 points, name this process in which the House brings charges that the Senate then tries."
     },
     {
@@ -218,22 +218,24 @@
     {
       "id": "trump-2019",
       "tier": "middle",
-      "t": "The House charged Donald Trump with abuse of power and obstruction of Congress in December 2019; the Senate acquitted him in February 2020",
+      "t": "The House charged Donald Trump with abuse of power and obstruction of Congress in December 2019; Chief Justice John Roberts presided as the Senate acquitted him in February 2020",
       "k": [
         "abuse of power",
         "obstruction of congress",
-        "2019"
+        "2019",
+        "john roberts"
       ],
       "n": 0
     },
     {
       "id": "trump-2021",
       "tier": "middle",
-      "t": "The House charged Trump with incitement of insurrection after the January 6, 2021, attack on the U.S. Capitol; the Senate acquitted him after he left office",
+      "t": "The House charged Trump with incitement of insurrection after the January 6, 2021, attack on the Capitol; with Senator Patrick Leahy presiding, the Senate acquitted him after he left office",
       "k": [
         "incitement of insurrection",
         "january 6",
-        "capitol"
+        "capitol",
+        "leahy"
       ],
       "n": 0
     },
@@ -280,6 +282,16 @@
       "n": 0
     },
     {
+      "id": "article-one",
+      "tier": "middle",
+      "t": "Article I of the Constitution gives the House the “sole Power” to bring these charges and the Senate the “sole Power” to try them",
+      "k": [
+        "article i",
+        "sole power"
+      ],
+      "n": 0
+    },
+    {
       "id": "mason",
       "tier": "power",
       "t": "George Mason first proposed “maladministration”; James Madison said it was too vague, so Mason chose “high crimes and misdemeanors”",
@@ -304,7 +316,7 @@
     {
       "id": "blount",
       "tier": "power",
-      "t": "Senator William Blount of Tennessee (1797) was the first federal official charged; the Senate expelled him instead",
+      "t": "Senator William Blount of Tennessee (1797) was the first federal official charged; the Senate expelled him and later dropped the case",
       "k": [
         "blount",
         "1797",
@@ -356,17 +368,6 @@
       "n": 0
     },
     {
-      "id": "roberts-leahy",
-      "tier": "power",
-      "t": "John Roberts presided over Trump’s first trial (2020); Senator Patrick Leahy presided over the second (2021), held after Trump left office",
-      "k": [
-        "john roberts",
-        "leahy",
-        "2020"
-      ],
-      "n": 0
-    },
-    {
       "id": "warren-hastings",
       "tier": "power",
       "t": "In Britain, Edmund Burke led the case against Warren Hastings, who was acquitted in 1795 after a seven-year trial",
@@ -400,7 +401,7 @@
     {
       "id": "tyler-ford",
       "tier": "power",
-      "t": "John Botts’s 1843 resolution against John Tyler failed; in 1970, Gerald Ford tried to target Justice William O. Douglas",
+      "t": "John Minor Botts’s 1843 resolution against John Tyler failed; in 1970, Gerald Ford tried to target Justice William O. Douglas",
       "k": [
         "john tyler",
         "botts",
@@ -425,7 +426,7 @@
     "title": "Charged is not removed",
     "body": "Being impeached means the House has approved charges; it does not mean the official was removed. Andrew Johnson, Bill Clinton, and Donald Trump were all impeached, and the Senate acquitted every one of them. Richard Nixon was never impeached: he resigned in 1974 before the full House voted. Players also confuse impeachment with censure (a vote that formally scolds someone), recall (an election that removes a state or local official), and the 25th Amendment (replacing a president who cannot do the job).",
     "fix": "If the question describes the House bringing charges and the Senate holding a trial, say “impeachment.” If it asks which president resigned, the answer is Nixon; if it asks for the first president impeached, the answer is Andrew Johnson.",
-    "line": "Real answer line: <b><u>impeachment</u></b> (accept word forms like <u>impeach</u> or <u>impeached</u>)"
+    "line": "Real answer line: <b><u>impeachment</u></b> (accept word forms like <u>impeach</u> or <u>impeached</u>; prompt on <u>removal</u> from office)"
   },
   "tests": {
     "right": [

@@ -28,12 +28,20 @@ data = {
         "hexagonal ice",
         "ice ih",
         "ice 1h",
-        "ice one h"
+        "ice one h",
+        "ice i",
+        "ice 1",
+        "ice one",
+        "ice cube",
+        "ice cubes"
     ],
     "prompt": [
         "water",
         "h2o",
-        "h o"
+        "h o",
+        "solid form of water",
+        "frozen form of water",
+        "frozen"
     ],
     "reject": [
         "glacier",

@@ -88,7 +88,8 @@
     "st pauls cathedral",
     "saint pauls cathedral",
     "saint paul minnesota",
-    "st paul minnesota"
+    "st paul minnesota",
+    "paul vi"
   ],
   "media": [],
   "mediaPending": true,
@@ -108,7 +109,7 @@
       "r": "This apostle also wrote letters to the Corinthians and the Galatians. For 10 points, name this missionary who was converted on the road to Damascus."
     },
     {
-      "p": "While his enemies watched the city gates day and night, this man’s followers lowered him in a basket through an opening in the city wall so that he could escape. Earlier in that same city, a disciple named Ananias [“an-uh-NY-us”] placed his hands on him, and something like scales fell from his eyes.",
+      "p": "According to Acts, while his enemies watched the city gates day and night, this man’s followers lowered him in a basket through an opening in the city wall so that he could escape. Earlier in that same city, a disciple named Ananias [“an-uh-NY-us”] placed his hands on him, and something like scales fell from his eyes.",
       "r": "That city was Damascus. For 10 points, name this apostle who had been blinded by a light on the road there."
     },
     {
@@ -120,7 +121,7 @@
       "r": "He also wrote letters to the churches in Rome and Corinth. For 10 points, name this apostle who was converted on the road to Damascus."
     },
     {
-      "p": "After this man spoke in Athens, a council member named Dionysius [“dy-uh-NISH-ee-us”] and a woman named Damaris [“DAM-uh-ris”] became believers. Earlier, Epicurean and Stoic philosophers had brought him to the Areopagus [“air-ee-OP-uh-gus”], where he spoke about an altar inscribed “To an unknown god.”",
+      "p": "In a speech in Athens, this man said that in God “we live and move and have our being.” Epicurean and Stoic philosophers had brought him to the Areopagus [“air-ee-OP-uh-gus”], where he spoke about an altar inscribed “To an unknown god.”",
       "r": "His missionary journeys fill much of the second half of the Acts of the Apostles. For 10 points, name this apostle who wrote the Letter to the Romans."
     },
     {
@@ -128,7 +129,7 @@
       "r": "Later, on trial before the governor Festus, this man declared, “I appeal to Caesar!” For 10 points, name this apostle who was sent to Rome as a prisoner."
     },
     {
-      "p": "On an island where he stayed for three months, this man healed the father of Publius [“PUB-lee-us”], the island’s chief official. When a viper fastened onto his hand as he put brushwood on a fire, he shook it off without harm, and the islanders decided he must be a god.",
+      "p": "Acts says a young man named Eutychus [“YOO-tih-kus”] fell asleep during this man’s long talk and dropped from a third-story window, and that this man brought him back to life. Later, when a viper fastened onto his hand as he put brushwood on a fire, he shook it off without harm, and the islanders decided he must be a god.",
       "r": "He had been shipwrecked on that island, Malta, while being taken to Rome. For 10 points, name this apostle who wrote the Letter to the Romans."
     },
     {
@@ -168,7 +169,7 @@
     {
       "id": "damascus-road",
       "tier": "giveaway",
-      "t": "Converted on the road to Damascus, when a light from heaven blinded him and a voice said, “I am Jesus, whom you are persecuting”",
+      "t": "Acts says he was converted on the road to Damascus when a light from heaven blinded him and a voice said, “I am Jesus, whom you are persecuting”",
       "k": [
         "damascus",
         "road to damascus",
@@ -238,7 +239,7 @@
     {
       "id": "ananias",
       "tier": "middle",
-      "t": "In Damascus, a disciple named Ananias laid hands on him, and something like scales fell from his eyes",
+      "t": "In Damascus, Acts says, a disciple named Ananias laid hands on him, and something like scales fell from his eyes",
       "k": [
         "ananias",
         "scales"
@@ -327,7 +328,7 @@
     {
       "id": "thirteen-letters",
       "tier": "middle",
-      "t": "Thirteen letters are traditionally credited to him; scholars agree he wrote at least seven and debate the rest",
+      "t": "Thirteen letters are traditionally credited to him; most scholars agree he wrote at least seven and debate the rest",
       "k": [
         "thirteen letters",
         "seven",
@@ -349,7 +350,7 @@
     {
       "id": "augustine-luther",
       "tier": "power",
-      "t": "His Letter to the Romans led to Augustine’s conversion (“Take up and read”) and inspired Martin Luther’s “The just shall live by faith”",
+      "t": "His Letter to the Romans led to Augustine’s conversion (“Take up and read”), and its line “The just shall live by faith” inspired Martin Luther",
       "k": [
         "augustine",
         "take up and read",
@@ -392,12 +393,12 @@
       "n": 0
     },
     {
-      "id": "dionysius",
+      "id": "live-and-move",
       "tier": "power",
-      "t": "In Athens, he debated Epicurean and Stoic philosophers; converts included a council member, Dionysius, and a woman named Damaris",
+      "t": "In his Athens speech, he said that in God “we live and move and have our being”; Epicurean and Stoic philosophers had debated him",
       "k": [
-        "dionysius",
-        "damaris",
+        "live and move",
+        "have our being",
         "epicurean",
         "stoic"
       ],
@@ -415,12 +416,13 @@
       "n": 0
     },
     {
-      "id": "publius",
+      "id": "eutychus",
       "tier": "power",
-      "t": "On Malta, he healed the father of Publius, the island’s chief official, and the islanders thought he was a god",
+      "t": "Acts says Eutychus fell asleep during his long talk and dropped from a third-story window, and that he brought the young man back to life",
       "k": [
-        "publius",
-        "chief official"
+        "eutychus",
+        "third-story window",
+        "asleep"
       ],
       "n": 0
     },
@@ -513,7 +515,8 @@
       "Stephen",
       "King Saul",
       "Paul Revere",
-      "Pope John Paul II"
+      "Pope John Paul II",
+      "Paul VI"
     ]
   }
 }

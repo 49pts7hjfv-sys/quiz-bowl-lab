@@ -1,0 +1,417 @@
+{
+  "id": "william-henry-seward",
+  "name": "William Henry Seward",
+  "mono": "WHS",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Lincoln’s Secretary of State · Bought Alaska from Russia in 1867",
+  "dates": "1801–1872",
+  "briefing": "William Henry Seward was a New York governor and senator who expected to win the 1860 Republican nomination, but Abraham Lincoln beat him and then made him Secretary of State. On the night Lincoln was shot, Seward survived an attack in his own bedroom. In 1867, he bought Alaska from Russia for about $7.2 million, a deal critics mocked as “Seward’s Folly.” Alaska later turned out to be rich in gold, oil, and fish.",
+  "answerHtml": "William Henry <b><u>Seward</u></b> (prompt on “William Henry” alone; do not accept “William Henry Harrison”)",
+  "accept": [
+    "william henry seward",
+    "william seward",
+    "william h seward",
+    "seward",
+    "secretary seward",
+    "governor seward",
+    "senator seward"
+  ],
+  "prompt": [
+    "william henry",
+    "william"
+  ],
+  "reject": [
+    "william henry harrison",
+    "william harrison",
+    "harrison",
+    "benjamin harrison",
+    "frederick seward",
+    "frances seward",
+    "sewards folly",
+    "alaska purchase",
+    "alaska",
+    "abraham lincoln",
+    "andrew johnson",
+    "salmon chase",
+    "edwin stanton",
+    "gideon welles",
+    "thurlow weed",
+    "lewis powell",
+    "john wilkes booth",
+    "secretary of state",
+    "charles francis adams"
+  ],
+  "tests": {
+    "right": [
+      "William Henry Seward",
+      "William Seward",
+      "Seward",
+      "William H. Seward",
+      "Seaward"
+    ],
+    "prompt": [
+      "William Henry"
+    ],
+    "wrong": [
+      "William Henry Harrison",
+      "Abraham Lincoln",
+      "Seward's Folly",
+      "Andrew Johnson",
+      "Salmon Chase",
+      "Edwin Stanton",
+      "Alaska Purchase"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/William_H._Seward",
+  "qb": {
+    "q": "Seward",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "This man suggested a gentle closing for a speech, which Abraham Lincoln rewrote into the lines about “the mystic chords of memory” and “the better angels of our nature” at the end of his first inaugural address. Three years earlier, this man had called the struggle over slavery an “irrepressible conflict.”",
+      "r": "For 10 points, name this New Yorker who served as Secretary of State and arranged the purchase of Alaska in 1867."
+    },
+    {
+      "p": "On April 1, 1861, this cabinet member sent the president a memo titled “Some Thoughts for the President’s Consideration,” suggesting that a war with a European power might reunite the country and offering to run the government’s policy himself. The president politely turned him down.",
+      "r": "For 10 points, name this New Yorker who served as Secretary of State under Abraham Lincoln and Andrew Johnson."
+    },
+    {
+      "p": "Late in 1861, this official calmed a crisis with Britain by releasing James Mason and John Slidell, two Confederate diplomats whom a U.S. Navy captain had seized from the British ship _Trent_. He explained that the captain had acted without orders.",
+      "r": "For 10 points, name this Secretary of State who later bought Alaska from Russia."
+    },
+    {
+      "p": "In an 1850 Senate speech against compromising with slavery in the western lands, this New Yorker declared that “there is a higher law than the Constitution.” That speech opposed the package of bills that Henry Clay had proposed that year.",
+      "r": "For 10 points, name this antislavery senator who later served as Abraham Lincoln’s Secretary of State."
+    },
+    {
+      "p": "In an 1858 speech in Rochester, this politician called the struggle over slavery “an irrepressible conflict between opposing and enduring forces.” That speech made him seem too radical to some Republicans, which helped cost him his party’s presidential nomination two years later.",
+      "r": "For 10 points, name this New York senator who lost that nomination to Abraham Lincoln and then became his Secretary of State."
+    },
+    {
+      "p": "At the 1860 Republican convention in a Chicago hall called the Wigwam, this man led on the first two ballots, helped by his longtime political partner, the Albany editor Thurlow Weed. On the third ballot, the delegates turned to a rival from Illinois.",
+      "r": "That rival was Abraham Lincoln. For 10 points, name this New Yorker who became Lincoln’s Secretary of State."
+    },
+    {
+      "p": "On April 5, 1865, this man broke his jaw and arm when he was thrown from his carriage. Nine days later, while he was still recovering in bed at his home near the White House, an attacker forced his way into the house.",
+      "r": "That attacker, Lewis Powell, was part of John Wilkes Booth’s plot. For 10 points, name this Secretary of State who survived the attack and later bought Alaska."
+    },
+    {
+      "p": "This official negotiated a treaty with the Russian minister Eduard de Stoeckl that was signed on March 30, 1867. The deal cost the United States about 7.2 million dollars, or roughly two cents an acre.",
+      "r": "Critics mocked that purchase of Alaska as this man’s “Folly.” For 10 points, name this Secretary of State."
+    },
+    {
+      "p": "In 1867, while this man was Secretary of State, the United States took possession of the Midway Islands in the Pacific, and he arranged a treaty to buy the Danish West Indies, though the Senate never approved it. That same year he made his most famous purchase.",
+      "r": "For 10 points, name this Secretary of State under Lincoln and Andrew Johnson who bought Alaska from Russia in 1867."
+    },
+    {
+      "p": "After the Civil War, this diplomat pressured France to pull its troops out of Mexico, where Napoleon III had made the Austrian archduke Maximilian emperor. The French troops left by 1867, and Maximilian’s government soon collapsed.",
+      "r": "For 10 points, name this Secretary of State under Abraham Lincoln and Andrew Johnson who bought Alaska."
+    },
+    {
+      "p": "In 1859, this senator sold Harriet Tubman a house and land in Auburn, New York, where she later opened a home for elderly African Americans. This man lived in Auburn for most of his life and died there in 1872.",
+      "r": "For 10 points, name this New Yorker who served as Secretary of State and bought Alaska."
+    },
+    {
+      "p": "This man won his first election as an Anti-Masonic candidate for the New York State Senate, and he later served as a Whig governor of New York from 1839 to 1842. He was elected to the U.S. Senate in 1849.",
+      "r": "For 10 points, name this New Yorker who became Abraham Lincoln’s Secretary of State."
+    },
+    {
+      "p": "In July 1862, this cabinet member advised the president to wait until the Union won a major victory before announcing a plan to free enslaved people, so that it would not look like an act of desperation. The president waited until after Antietam.",
+      "r": "For 10 points, name this Secretary of State who served under Abraham Lincoln and Andrew Johnson."
+    },
+    {
+      "p": "After leaving office in 1869, this man traveled around the world, a trip of more than a year. A state holiday on the last Monday in March, the peninsula that reaches closest to Russia, and a port city on the Kenai Peninsula all honor him.",
+      "r": "Those places are in Alaska. For 10 points, name this Secretary of State who bought that territory from Russia in 1867."
+    },
+    {
+      "p": "This 1820 graduate of Union College was born in Florida, New York, and became a lawyer in Auburn. His wife, Frances, opened their Auburn home to freedom seekers on the Underground Railroad.",
+      "r": "For 10 points, name this New Yorker who later served as Abraham Lincoln’s Secretary of State and bought Alaska."
+    }
+  ],
+  "clues": [
+    {
+      "id": "alaska",
+      "tier": "giveaway",
+      "t": "Arranged the purchase of Alaska from Russia in 1867",
+      "k": [
+        "alaska",
+        "russia",
+        "1867"
+      ],
+      "n": 0
+    },
+    {
+      "id": "folly",
+      "tier": "giveaway",
+      "t": "Critics mocked the Alaska deal as his “Folly” or his “Icebox”",
+      "k": [
+        "folly",
+        "icebox"
+      ],
+      "n": 0
+    },
+    {
+      "id": "secretary-of-state",
+      "tier": "giveaway",
+      "t": "Secretary of State under Abraham Lincoln and Andrew Johnson (1861–1869)",
+      "k": [
+        "secretary of state",
+        "lincoln",
+        "andrew johnson"
+      ],
+      "n": 0,
+      "rabbit": "Secretary of State"
+    },
+    {
+      "id": "powell",
+      "tier": "giveaway",
+      "t": "Attacked at home by Lewis Powell on April 14, 1865, the night Lincoln was shot; he survived",
+      "k": [
+        "lewis powell",
+        "powell",
+        "april 14"
+      ],
+      "n": 0,
+      "rabbit": "John Wilkes Booth"
+    },
+    {
+      "id": "higher-law",
+      "tier": "middle",
+      "t": "1850 Senate speech against the Compromise of 1850: “there is a higher law than the Constitution”",
+      "k": [
+        "higher law",
+        "1850"
+      ],
+      "n": 0
+    },
+    {
+      "id": "irrepressible",
+      "tier": "middle",
+      "t": "1858 speech in Rochester: an “irrepressible conflict” over slavery",
+      "k": [
+        "irrepressible conflict",
+        "irrepressible",
+        "rochester"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nomination-1860",
+      "tier": "middle",
+      "t": "Front-runner for the 1860 Republican nomination, but lost to Lincoln on the third ballot at the Wigwam in Chicago",
+      "k": [
+        "wigwam",
+        "third ballot",
+        "front-runner"
+      ],
+      "n": 0
+    },
+    {
+      "id": "team-of-rivals",
+      "tier": "middle",
+      "t": "One of the former rivals in Lincoln’s cabinet (_Team of Rivals_)",
+      "k": [
+        "team of rivals",
+        "rivals"
+      ],
+      "n": 0
+    },
+    {
+      "id": "governor",
+      "tier": "middle",
+      "t": "Whig governor of New York (1839–1842) and U.S. senator (1849–1861)",
+      "k": [
+        "governor",
+        "whig",
+        "new york"
+      ],
+      "n": 0
+    },
+    {
+      "id": "auburn",
+      "tier": "middle",
+      "t": "Lived in Auburn, New York; sold Harriet Tubman a home there in 1859",
+      "k": [
+        "auburn",
+        "harriet tubman",
+        "1859"
+      ],
+      "n": 0,
+      "rabbit": "Harriet Tubman"
+    },
+    {
+      "id": "emancipation",
+      "tier": "middle",
+      "t": "Advised Lincoln to wait for a Union victory before announcing the Emancipation Proclamation (1862)",
+      "k": [
+        "emancipation proclamation",
+        "union victory"
+      ],
+      "n": 0,
+      "rabbit": "Emancipation Proclamation"
+    },
+    {
+      "id": "trent",
+      "tier": "middle",
+      "t": "Ended the _Trent_ Affair (1861) by releasing Confederate diplomats James Mason and John Slidell",
+      "k": [
+        "trent",
+        "mason",
+        "slidell"
+      ],
+      "n": 0
+    },
+    {
+      "id": "some-thoughts",
+      "tier": "power",
+      "t": "April 1, 1861 memo, “Some Thoughts for the President’s Consideration,” suggested a foreign war; Lincoln declined",
+      "k": [
+        "some thoughts",
+        "april 1",
+        "foreign war"
+      ],
+      "n": 0
+    },
+    {
+      "id": "inaugural",
+      "tier": "power",
+      "t": "Suggested the ending that Lincoln reworked into “the better angels of our nature” (first inaugural, 1861)",
+      "k": [
+        "better angels",
+        "inaugural"
+      ],
+      "n": 0
+    },
+    {
+      "id": "carriage",
+      "tier": "power",
+      "t": "Broke his jaw and arm in a carriage accident on April 5, 1865, nine days before Powell’s attack",
+      "k": [
+        "carriage",
+        "jaw",
+        "april 5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "stoeckl",
+      "tier": "power",
+      "t": "Negotiated with Russian minister Eduard de Stoeckl; the treaty was signed March 30, 1867, for about $7.2 million",
+      "k": [
+        "stoeckl",
+        "march 30",
+        "7.2 million"
+      ],
+      "n": 0
+    },
+    {
+      "id": "midway",
+      "tier": "power",
+      "t": "The U.S. took the Midway Islands in 1867; his treaty to buy the Danish West Indies was never approved",
+      "k": [
+        "midway",
+        "danish west indies"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mexico",
+      "tier": "power",
+      "t": "Pressured France to withdraw its troops from Mexico, ending Maximilian’s empire",
+      "k": [
+        "mexico",
+        "maximilian",
+        "france"
+      ],
+      "n": 0
+    },
+    {
+      "id": "weed",
+      "tier": "power",
+      "t": "Longtime political partner of Albany editor and boss Thurlow Weed",
+      "k": [
+        "thurlow weed",
+        "weed",
+        "albany"
+      ],
+      "n": 0
+    },
+    {
+      "id": "anti-masonic",
+      "tier": "power",
+      "t": "First elected to the New York State Senate as an Anti-Masonic candidate",
+      "k": [
+        "anti-masonic",
+        "state senate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "union-college",
+      "tier": "power",
+      "t": "Born in Florida, New York (1801); graduated from Union College (1820)",
+      "k": [
+        "union college",
+        "1801",
+        "1820"
+      ],
+      "n": 0
+    },
+    {
+      "id": "world-trip",
+      "tier": "power",
+      "t": "Traveled around the world after leaving office in 1869; died in Auburn in 1872",
+      "k": [
+        "around the world",
+        "1872"
+      ],
+      "n": 0
+    },
+    {
+      "id": "alaska-names",
+      "tier": "power",
+      "t": "Alaska’s holiday on the last Monday in March, a peninsula near Russia, and a port city on the Kenai Peninsula are named for him",
+      "k": [
+        "last monday in march",
+        "kenai",
+        "peninsula"
+      ],
+      "n": 0
+    },
+    {
+      "id": "frances",
+      "tier": "power",
+      "t": "His wife, Frances, helped freedom seekers on the Underground Railroad at their Auburn home",
+      "k": [
+        "frances",
+        "underground railroad"
+      ],
+      "n": 0
+    },
+    {
+      "id": "impeachment",
+      "tier": "power",
+      "t": "Stayed in Andrew Johnson’s cabinet through Johnson’s 1868 impeachment",
+      "k": [
+        "impeachment",
+        "1868"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Not the other William Henry",
+    "body": "Two famous Americans share the first names William Henry. William Henry Seward was the Secretary of State for Lincoln and Andrew Johnson who bought Alaska; William Henry Harrison was the ninth president, who won at Tippecanoe and died a month after taking office in 1841. Seward also gets mixed up with other members of Lincoln’s cabinet, such as Treasury Secretary Salmon Chase and War Secretary Edwin Stanton.",
+    "fix": "Alaska, the “higher law” and “irrepressible conflict” speeches, the _Trent_ Affair, Lewis Powell’s attack, and Auburn, New York, mean Seward. Saying just “William Henry” gets a prompt, so add “Seward.”",
+    "line": "Real answer line: William Henry <b><u>Seward</u></b>"
+  }
+}

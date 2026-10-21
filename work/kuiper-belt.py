@@ -1,0 +1,174 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "kuiper-belt",
+    "name": "Kuiper Belt",
+    "mono": "KB",
+    "category": "Astronomy",
+    "qbCategory": "Science · Other Science (Astronomy)",
+    "kicker": "Icy ring of worlds beyond Neptune · Home of Pluto and snowman-shaped Arrokoth",
+    "dates": "Predicted 1940s–1951; first object beyond Pluto and Charon found 1992",
+    "briefing": "Far beyond Neptune, a wide, doughnut-shaped ring of icy leftovers from the birth of the solar system circles the Sun: the Kuiper belt. Pluto was its first member found, in 1930, but nobody spotted another one until 1992. Since then, astronomers have found thousands, and on New Year’s Day 2019, NASA’s New Horizons probe flew past one called Arrokoth, which is shaped like a snowman.",
+    "answerHtml": "<b><u>Kuiper belt</u></b> (accept <u>Edgeworth–Kuiper belt</u>; prompt on <u>Kuiper</u> alone or <u>trans-Neptunian objects</u>; do not accept “Oort cloud,” “asteroid belt,” or “scattered disk”)",
+    "accept": [
+        "kuiper belt",
+        "the kuiper belt",
+        "edgeworth kuiper belt",
+        "kuiper edgeworth belt",
+        "kuiper belt objects",
+        "kuiper belt object",
+    ],
+    "prompt": [
+        "kuiper",
+        "edgeworth belt",
+        "trans neptunian region",
+        "trans neptunian objects",
+        "trans neptunian object",
+        "tnos",
+        "tno",
+        "kbo",
+        "kbos",
+    ],
+    "reject": [
+        "oort cloud",
+        "opik oort cloud",
+        "asteroid belt",
+        "main belt",
+        "main asteroid belt",
+        "scattered disk",
+        "scattered disc",
+        "van allen belt",
+        "van allen belts",
+        "van allen radiation belts",
+        "gerard kuiper",
+        "kuiper airborne observatory",
+        "pluto",
+        "eris",
+        "arrokoth",
+        "ultima thule",
+        "sedna",
+        "heliosphere",
+        "orions belt",
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Kuiper_belt",
+    "qb": {
+        "q": "Kuiper belt",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it.",
+    },
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "Objects with nearly circular orbits in this region are nicknamed “cubewanos,” a name taken from the label of the first object found here after Pluto and Charon, 1992 QB1. That object was later named Albion.",
+            "r": "For 10 points, name this belt of icy bodies beyond Neptune, home to Pluto.",
+        },
+        {
+            "p": "In 2012, David Jewitt and Jane Luu shared the Kavli Prize with Mike Brown. After searching for about five years, Jewitt and Luu had used a telescope on Mauna Kea in Hawaii to find the first known object in this region besides Pluto and Charon, in 1992.",
+            "r": "For 10 points, name this region of icy bodies beyond Neptune, named for a Dutch-American astronomer.",
+        },
+        {
+            "p": "In 1951, a Dutch-American astronomer wrote about a disk of icy bodies beyond the planets, though he thought it might have been cleared out long ago. A few years earlier, the Irish astronomer Kenneth Edgeworth had suggested that such a reservoir existed.",
+            "r": "That astronomer was Gerard Kuiper [“KY-per”]. For 10 points, name this region beyond Neptune that contains Pluto.",
+        },
+        {
+            "p": "Arrokoth, whose name means “sky” in the Powhatan language, is an object in this region that looks like a flattened snowman, made of two lobes that gently stuck together. Once nicknamed “Ultima Thule,” it was visited by a NASA probe on January 1, 2019.",
+            "r": "That probe was New Horizons. For 10 points, name this belt of icy bodies beyond Neptune.",
+        },
+        {
+            "p": "Objects in this region that orbit the Sun twice for every three orbits of Neptune are called plutinos, after their most famous member. Neptune’s gravity also herds other objects here into similar resonances.",
+            "r": "For 10 points, name this region of icy bodies beyond Neptune, which includes Pluto.",
+        },
+        {
+            "p": "The number of objects in this region drops sharply at about 50 times Earth’s distance from the Sun, an edge nicknamed a “cliff.” Most of this region lies between about 30 and 50 astronomical units from the Sun.",
+            "r": "For 10 points, name this disk of icy bodies just beyond Neptune’s orbit.",
+        },
+        {
+            "p": "Many comets that return every few decades or less, such as the Jupiter-family comets, are thought to begin as icy bodies in this region or in the scattered disk just beyond it. Long-period comets come from the much more distant Oort cloud instead.",
+            "r": "For 10 points, name this region of icy bodies beyond Neptune, named partly for Gerard Kuiper.",
+        },
+        {
+            "p": "This region holds the dwarf planet Haumea, which is stretched into an egg shape by its fast spin of about four hours, and Makemake, which was discovered just after Easter in 2005 and named for a god of Easter Island’s Rapa Nui people.",
+            "r": "Pluto also lies in it. For 10 points, name this belt of icy bodies beyond Neptune.",
+        },
+        {
+            "p": "Mike Brown wrote _How I Killed Pluto and Why It Had It Coming_ about finding Eris, a dwarf planet that orbits mostly in the scattered disk just beyond this region. The discovery of Eris in 2005 helped get Pluto reclassified.",
+            "r": "For 10 points, name this region beyond Neptune, home to Pluto, Haumea, and Makemake.",
+        },
+        {
+            "p": "Neptune’s large moon Triton, which orbits backward, is probably an object captured from this region. Like Pluto, the objects here are mostly mixtures of rock and frozen water, methane, and ammonia, leftovers from the formation of the solar system.",
+            "r": "For 10 points, name this belt of icy bodies beyond Neptune.",
+        },
+        {
+            "p": "This region is about 20 times as wide as the asteroid belt and much more massive, yet all of its objects together likely add up to only a small fraction of Earth’s mass.",
+            "r": "For 10 points, name this doughnut-shaped region of icy bodies beyond Neptune, home to Pluto.",
+        },
+        {
+            "p": "In the Nice [“NEESS”] model, named for a city in France, the giant planets moved after they formed, and Neptune’s outward drift scattered and sculpted the objects of this region. Neptune’s gravity still shapes the orbits of many objects here.",
+            "r": "For 10 points, name this region of icy bodies just beyond Neptune, which contains Pluto.",
+        },
+        {
+            "p": "Quaoar [“KWAH-wahr”], an object in this region, was found in 2023 to have a ring far outside the distance where rings were expected to survive. Another object here, Orcus, is nicknamed the “anti-Pluto” because it moves in a similar orbit but on the opposite side of the Sun.",
+            "r": "For 10 points, name this belt of icy bodies beyond Neptune.",
+        },
+        {
+            "p": "NASA’s New Horizons, launched in January 2006, was the first spacecraft sent to explore this region, and its team used the Hubble Space Telescope in 2014 to find a second target here, Arrokoth.",
+            "r": "New Horizons flew past this region’s best-known member, Pluto, in 2015. For 10 points, name this belt of icy worlds beyond Neptune.",
+        },
+        {
+            "p": "The “cold classical” objects of this region have nearly circular, barely tilted orbits and probably formed in place, and many of them come in pairs. Arrokoth is one of those cold classical objects.",
+            "r": "For 10 points, name this belt of icy bodies beyond Neptune, named for Gerard Kuiper and Kenneth Edgeworth.",
+        },
+    ],
+    "clues": [
+        {"id": "beyond-neptune", "tier": "giveaway", "t": "A huge, doughnut-shaped region of icy bodies beyond the orbit of Neptune", "k": ["beyond", "neptune", "icy bodies"], "n": 0, "rabbit": "Neptune"},
+        {"id": "pluto-home", "tier": "giveaway", "t": "Home of Pluto and the dwarf planets Haumea and Makemake", "k": ["pluto", "haumea", "makemake"], "n": 0, "rabbit": "Pluto"},
+        {"id": "namesakes", "tier": "giveaway", "t": "Named for a Dutch-American astronomer who wrote about it in 1951, and sometimes also for the Irish astronomer Kenneth Edgeworth", "k": ["dutch-american", "1951", "edgeworth"], "n": 0},
+        {"id": "new-horizons", "tier": "giveaway", "t": "NASA’s New Horizons probe explored it, flying past Pluto in 2015", "k": ["new horizons", "2015"], "n": 0},
+        {"id": "comets", "tier": "middle", "t": "Source of many short-period comets; long-period comets come from the more distant Oort cloud", "k": ["short-period comets", "oort cloud"], "n": 0, "rabbit": "Comets"},
+        {"id": "jewitt-luu", "tier": "middle", "t": "David Jewitt and Jane Luu found its first known member besides Pluto and Charon in 1992, from Mauna Kea in Hawaii", "k": ["jewitt", "luu", "1992"], "n": 0},
+        {"id": "qb1", "tier": "middle", "t": "That first object was 1992 QB1, later named Albion", "k": ["qb1", "albion"], "n": 0},
+        {"id": "snowman", "tier": "middle", "t": "New Horizons flew past Arrokoth on January 1, 2019; once nicknamed “Ultima Thule,” it is shaped like a flattened snowman", "k": ["snowman", "ultima thule", "arrokoth"], "n": 0},
+        {"id": "distance", "tier": "middle", "t": "Most of it lies about 30 to 50 AU from the Sun (30 to 50 times Earth’s distance)", "k": ["30 to 50", "au"], "n": 0},
+        {"id": "plutinos", "tier": "middle", "t": "Plutinos, like Pluto, orbit the Sun twice for every three orbits of Neptune (a 3:2 resonance)", "k": ["plutinos", "3:2", "resonance"], "n": 0},
+        {"id": "triton", "tier": "middle", "t": "Neptune’s backward-orbiting moon Triton is probably a captured object from it", "k": ["triton", "captured"], "n": 0, "rabbit": "Triton"},
+        {"id": "eris-scattered", "tier": "middle", "t": "Eris, whose 2005 discovery helped get Pluto reclassified, orbits mostly in the scattered disk just beyond it", "k": ["eris", "scattered disk"], "n": 0},
+        {"id": "edgeworth", "tier": "middle", "t": "The Irish astronomer Kenneth Edgeworth suggested a reservoir of icy bodies beyond the planets in the 1940s", "k": ["kenneth edgeworth", "1940s"], "n": 0},
+        {"id": "leftovers", "tier": "middle", "t": "Its objects are leftovers from the solar system’s formation: mixtures of rock and frozen water, methane, and ammonia", "k": ["leftovers", "methane", "ammonia"], "n": 0},
+        {"id": "cubewanos", "tier": "power", "t": "Objects with nearly circular orbits are nicknamed cubewanos, a name based on “QB1”", "k": ["cubewanos"], "n": 0},
+        {"id": "kavli", "tier": "power", "t": "Jewitt and Luu, who searched for about five years, shared the 2012 Kavli Prize with Mike Brown", "k": ["kavli", "2012", "five years"], "n": 0},
+        {"id": "cleared-out", "tier": "power", "t": "In 1951, its namesake wrote about such a disk but thought it might have been cleared out long ago", "k": ["1951", "cleared out"], "n": 0},
+        {"id": "powhatan", "tier": "power", "t": "Arrokoth’s name means “sky” in the Powhatan language", "k": ["powhatan", "sky"], "n": 0},
+        {"id": "cliff", "tier": "power", "t": "The number of objects drops sharply at about 50 AU, an edge nicknamed a “cliff”", "k": ["cliff", "50 au"], "n": 0},
+        {"id": "haumea", "tier": "power", "t": "Haumea is stretched into an egg shape by its fast spin of about four hours", "k": ["egg shape", "four hours"], "n": 0},
+        {"id": "makemake", "tier": "power", "t": "Makemake was found just after Easter in 2005 and named for a god of Easter Island’s Rapa Nui people", "k": ["easter", "rapa nui"], "n": 0},
+        {"id": "brown-book", "tier": "power", "t": "Mike Brown, who found Eris, wrote _How I Killed Pluto and Why It Had It Coming_", "k": ["mike brown", "killed pluto"], "n": 0},
+        {"id": "size-mass", "tier": "power", "t": "About 20 times as wide as the asteroid belt and much more massive, yet all its objects likely total only a small fraction of Earth’s mass", "k": ["20 times", "asteroid belt", "fraction"], "n": 0, "rabbit": "Asteroids"},
+        {"id": "nice-model", "tier": "power", "t": "In the Nice model, Neptune’s outward drift after the planets formed scattered and sculpted its objects", "k": ["nice model", "outward drift"], "n": 0},
+        {"id": "quaoar", "tier": "power", "t": "Quaoar was found in 2023 to have a ring far outside the distance where rings were expected to survive", "k": ["quaoar", "ring", "2023"], "n": 0},
+        {"id": "orcus", "tier": "power", "t": "Orcus, the “anti-Pluto,” moves in an orbit like Pluto’s but on the opposite side of the Sun", "k": ["orcus", "anti-pluto"], "n": 0},
+        {"id": "cold-classical", "tier": "power", "t": "Its “cold classical” objects, like Arrokoth, have nearly circular, barely tilted orbits, probably formed in place, and often come in pairs", "k": ["cold classical", "pairs"], "n": 0},
+        {"id": "first-spacecraft", "tier": "power", "t": "New Horizons (launched January 2006) was the first spacecraft sent to explore it; its team found Arrokoth with the Hubble Space Telescope in 2014", "k": ["january 2006", "hubble space telescope", "2014"], "n": 0},
+    ],
+    "trap": {
+        "title": "Kuiper belt or Oort cloud?",
+        "body": "The solar system has two icy reservoirs. The Kuiper belt is a doughnut-shaped ring just beyond Neptune, about 30 to 50 AU from the Sun, while the Oort cloud is a far more distant, roughly round shell that sends in long-period comets and has never been seen directly. Players also blurt out “asteroid belt,” the rocky ring between Mars and Jupiter, or “scattered disk,” the region of stretched-out orbits where Eris spends most of its time.",
+        "fix": "Pluto, plutinos, Arrokoth, New Horizons, 1992 QB1, Jewitt and Luu, or short-period comets mean the Kuiper belt. Ernst Öpik, Jan Oort, a round shell, or long-period comets mean the Oort cloud. Ceres, Vesta, and Kirkwood gaps mean the asteroid belt. Saying only “Kuiper” earns a prompt, so add “belt.”",
+        "line": "Real answer line: <b><u>Kuiper belt</u></b> (accept <u>Edgeworth–Kuiper belt</u>; do not accept “Oort cloud” or “asteroid belt”)",
+    },
+    "tests": {
+        "right": ["Kuiper belt", "Kuiper Belt", "Kuiper bealt", "Edgeworth-Kuiper belt", "the Kuiper belt"],
+        "prompt": ["Kuiper", "trans-Neptunian objects"],
+        "wrong": ["Oort cloud", "asteroid belt", "scattered disk", "Gerard Kuiper", "Van Allen belts", "Pluto"],
+    },
+}
+
+out = ROOT / "topics" / f"{data['id']}.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("saved", out)

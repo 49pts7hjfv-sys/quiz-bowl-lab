@@ -1,0 +1,328 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+data = {
+    "id": "wikileaks",
+    "name": "WikiLeaks",
+    "mono": "WL",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Website that publishes secret documents · Founded by Julian Assange in 2006",
+    "dates": "Founded 2006",
+    "briefing": "WikiLeaks is a website that publishes secret documents, often sent by anonymous sources. The Australian Julian Assange founded it in 2006, and in 2010 it released hundreds of thousands of classified U.S. military reports and diplomatic messages provided by Army analyst Chelsea Manning. Supporters praised it for exposing government secrets, while U.S. officials said its releases put lives at risk. In 2024, Assange made a plea deal and returned home to Australia.",
+    "answerHtml": "<b><u>WikiLeaks</u></b> (do not accept “Julian Assange” or “Wikipedia”)",
+    "accept": [
+        "wikileaks",
+        "wiki leaks",
+        "wikileaks org"
+    ],
+    "prompt": [],
+    "reject": [
+        "julian assange",
+        "assange",
+        "chelsea manning",
+        "bradley manning",
+        "manning",
+        "edward snowden",
+        "snowden",
+        "pentagon papers",
+        "daniel ellsberg",
+        "wikipedia",
+        "wikimedia",
+        "anonymous",
+        "cablegate",
+        "vault 7",
+        "panama papers",
+        "the intercept",
+        "kristinn hrafnsson",
+        "sarah harrison",
+        "adrian lamo",
+        "nsa",
+        "national security agency"
+    ],
+    "tests": {
+        "right": [
+            "WikiLeaks",
+            "Wiki Leaks",
+            "wikileaks.org",
+            "Wikileeks",
+            "Wikilaeks"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Julian Assange",
+            "Chelsea Manning",
+            "Edward Snowden",
+            "Wikipedia",
+            "Pentagon Papers",
+            "Anonymous"
+        ]
+    },
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/WikiLeaks",
+    "qb": {
+        "q": "WikiLeaks",
+        "found": 0,
+        "tip": TIP
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In June 2024, this organization’s founder pleaded guilty to one charge in a U.S. federal court on Saipan, in the Northern Mariana Islands, and then flew home to Australia. He had spent the previous five years in London’s Belmarsh prison fighting extradition to the United States.",
+            "r": "For 10 points, name this website, founded by Julian Assange, that publishes secret documents from anonymous sources."
+        },
+        {
+            "p": "As a teenage computer hacker in Melbourne, this organization’s founder used the online name “Mendax,” and he later pleaded guilty to hacking charges in Australia in the 1990s. That founder had been born in Townsville, Australia, in 1971.",
+            "r": "He started this organization in 2006. For 10 points, name this website, founded by Julian Assange, that publishes secret documents."
+        },
+        {
+            "p": "In June 2012, this organization’s founder walked into Ecuador’s embassy in London to avoid being sent to Sweden for questioning in a criminal investigation that was later dropped. He lived inside the embassy for nearly seven years until Ecuador withdrew his asylum in 2019 and British police arrested him.",
+            "r": "For 10 points, name this website founded by Julian Assange, which publishes secret government documents from anonymous sources."
+        },
+        {
+            "p": "In 2013, a military court convicted an Army intelligence analyst of giving this organization hundreds of thousands of classified files and sentenced her to 35 years in prison. President Barack Obama commuted that sentence in 2017, and she was released that May.",
+            "r": "That analyst was Chelsea Manning. For 10 points, name this website founded by Julian Assange."
+        },
+        {
+            "p": "In July 2010, this organization worked with _The New York Times_, _The Guardian_, and _Der Spiegel_ to publish tens of thousands of secret U.S. military reports about the war in Afghanistan. Three months later, it released nearly 400,000 reports about the Iraq War.",
+            "r": "For 10 points, name this website, founded by Julian Assange, that publishes classified documents."
+        },
+        {
+            "p": "Beginning in November 2010, this organization and several newspapers published parts of about 250,000 messages sent between the U.S. State Department and American embassies around the world. The release embarrassed diplomats by revealing their private opinions of foreign leaders, and journalists nicknamed it “Cablegate.”",
+            "r": "For 10 points, name this website founded by Julian Assange, which publishes secret government documents."
+        },
+        {
+            "p": "In December 2010, Visa, MasterCard, and PayPal stopped handling donations to this organization, and the hacker group Anonymous attacked those companies’ websites in response. Bank of America also cut off payments to this group that month.",
+            "r": "For 10 points, name this website whose founder, Julian Assange, had just begun releasing secret U.S. diplomatic cables."
+        },
+        {
+            "p": "In 2008, a U.S. federal judge briefly ordered this organization’s web address shut down after the Swiss bank Julius Baer [“BAIR”] sued over documents it had published, but the judge reversed that order about two weeks later.",
+            "r": "Despite its name, this organization has no connection to Wikipedia. For 10 points, name this website founded by Julian Assange."
+        },
+        {
+            "p": "In 2017, this organization began publishing “Vault 7,” a large set of files describing hacking tools used by the CIA. Earlier, in 2011, it released secret U.S. military files on prisoners held at Guantánamo Bay.",
+            "r": "For 10 points, name this website, founded by Julian Assange, that publishes secret documents from anonymous sources."
+        },
+        {
+            "p": "During the 2016 U.S. presidential campaign, this organization published emails taken from the Democratic National Committee and from John Podesta, the chairman of Hillary Clinton’s campaign. In 2018, a U.S. special counsel charged twelve Russian military intelligence officers with stealing those emails.",
+            "r": "For 10 points, name this website founded by Julian Assange that publishes secret documents from anonymous sources."
+        },
+        {
+            "p": "In 2013, this organization’s editor Sarah Harrison traveled with Edward Snowden when he flew from Hong Kong to Moscow after revealing secret National Security Agency programs. Snowden had given his documents to journalists, not to this group.",
+            "r": "For 10 points, name this website founded by Julian Assange that publishes secret documents."
+        },
+        {
+            "p": "Benedict Cumberbatch played this organization’s founder in the 2013 film _The Fifth Estate_. That same year, Alex Gibney released a documentary about this organization and its sources called _We Steal Secrets_.",
+            "r": "For 10 points, name this website, founded by Julian Assange in 2006, that publishes secret documents from anonymous sources."
+        },
+        {
+            "p": "In 2018, the Icelandic journalist Kristinn Hrafnsson became this organization’s editor-in-chief, replacing its founder. That same year, Ecuador cut off the founder’s internet access inside its embassy in London, where he had been living since 2012.",
+            "r": "That founder was Julian Assange. For 10 points, name this website that publishes secret documents."
+        },
+        {
+            "p": "In 2019, the U.S. Justice Department charged this organization’s founder with 18 crimes, 17 of them under the Espionage Act of 1917. His supporters argued that the charges threatened press freedom, while prosecutors said his publications had put people’s lives at risk.",
+            "r": "For 10 points, name this website, founded by Julian Assange, that publishes secret documents from anonymous sources."
+        },
+        {
+            "p": "In May 2010, the former hacker Adrian Lamo reported an Army private serving in Iraq to investigators after she described, in online chats, sending classified files to this organization. That private, then known as Bradley Manning, was arrested within days.",
+            "r": "For 10 points, name this website founded by Julian Assange that publishes secret documents."
+        }
+    ],
+    "clues": [
+        {
+            "id": "assange",
+            "tier": "giveaway",
+            "t": "Founded in 2006 by Julian Assange, an Australian",
+            "k": ["julian assange", "assange", "2006"],
+            "n": 0
+        },
+        {
+            "id": "publishes",
+            "tier": "giveaway",
+            "t": "A website that publishes secret documents, often from anonymous sources",
+            "k": ["secret documents", "anonymous sources", "website"],
+            "n": 0
+        },
+        {
+            "id": "manning",
+            "tier": "giveaway",
+            "t": "Its biggest source in 2010 was Army intelligence analyst Chelsea Manning",
+            "k": ["chelsea manning", "manning", "army"],
+            "n": 0
+        },
+        {
+            "id": "embassy",
+            "tier": "giveaway",
+            "t": "Assange lived in Ecuador’s embassy in London from 2012 to 2019",
+            "k": ["ecuador", "embassy", "london"],
+            "n": 0
+        },
+        {
+            "id": "afghan-iraq",
+            "tier": "middle",
+            "t": "2010: published secret U.S. military reports on the wars in Afghanistan and Iraq",
+            "k": ["afghanistan", "iraq", "military reports"],
+            "n": 0
+        },
+        {
+            "id": "cables",
+            "tier": "middle",
+            "t": "“Cablegate” (2010): about 250,000 U.S. diplomatic cables",
+            "k": ["cablegate", "diplomatic cables", "250,000"],
+            "n": 0
+        },
+        {
+            "id": "newspapers",
+            "tier": "middle",
+            "t": "Its 2010 partners included _The New York Times_, _The Guardian_, and _Der Spiegel_",
+            "k": ["new york times", "guardian", "der spiegel"],
+            "n": 0
+        },
+        {
+            "id": "manning-sentence",
+            "tier": "middle",
+            "t": "Manning was convicted in 2013 and sentenced to 35 years; Barack Obama commuted the sentence in 2017",
+            "k": ["35 years", "commuted", "obama"],
+            "n": 0
+        },
+        {
+            "id": "plea",
+            "tier": "middle",
+            "t": "2024: Assange pleaded guilty to one charge in a U.S. court on Saipan and returned home to Australia",
+            "k": ["saipan", "pleaded guilty", "australia"],
+            "n": 0
+        },
+        {
+            "id": "dnc",
+            "tier": "middle",
+            "t": "2016: published emails taken from the Democratic National Committee and Clinton campaign chairman John Podesta",
+            "k": ["democratic national committee", "podesta", "2016"],
+            "n": 0
+        },
+        {
+            "id": "snowden",
+            "tier": "middle",
+            "t": "Its editor Sarah Harrison traveled with Edward Snowden from Hong Kong to Moscow (2013)",
+            "k": ["sarah harrison", "edward snowden", "snowden"],
+            "n": 0,
+            "rabbit": "Edward Snowden"
+        },
+        {
+            "id": "not-wikipedia",
+            "tier": "middle",
+            "t": "Despite its name, it has no connection to Wikipedia",
+            "k": ["wikipedia", "no connection"],
+            "n": 0
+        },
+        {
+            "id": "mendax",
+            "tier": "power",
+            "t": "Assange was a teenage hacker known online as “Mendax” and pleaded guilty to hacking charges in the 1990s",
+            "k": ["mendax", "hacker"],
+            "n": 0
+        },
+        {
+            "id": "townsville",
+            "tier": "power",
+            "t": "Assange was born in Townsville, Australia, in 1971",
+            "k": ["townsville", "1971"],
+            "n": 0
+        },
+        {
+            "id": "belmarsh",
+            "tier": "power",
+            "t": "Assange spent 2019–2024 in London’s Belmarsh prison fighting extradition to the United States",
+            "k": ["belmarsh", "extradition"],
+            "n": 0
+        },
+        {
+            "id": "sweden",
+            "tier": "power",
+            "t": "He entered the embassy to avoid being sent to Sweden for questioning in an investigation that was later dropped",
+            "k": ["sweden", "questioning"],
+            "n": 0
+        },
+        {
+            "id": "espionage-act",
+            "tier": "power",
+            "t": "2019: the U.S. charged Assange with 18 crimes, 17 of them under the Espionage Act",
+            "k": ["espionage act", "18 crimes"],
+            "n": 0
+        },
+        {
+            "id": "payments",
+            "tier": "power",
+            "t": "December 2010: Visa, MasterCard, PayPal, and Bank of America stopped handling its donations; Anonymous attacked their websites",
+            "k": ["visa", "mastercard", "paypal", "anonymous"],
+            "n": 0
+        },
+        {
+            "id": "julius-baer",
+            "tier": "power",
+            "t": "2008: a U.S. judge briefly ordered its web address shut down after the Swiss bank Julius Baer sued",
+            "k": ["julius baer", "swiss bank", "judge"],
+            "n": 0
+        },
+        {
+            "id": "vault-7",
+            "tier": "power",
+            "t": "“Vault 7” (2017): files describing CIA hacking tools",
+            "k": ["vault 7", "hacking tools", "cia"],
+            "n": 0
+        },
+        {
+            "id": "guantanamo",
+            "tier": "power",
+            "t": "2011: released secret U.S. military files on prisoners held at Guantánamo Bay",
+            "k": ["guantánamo", "guantanamo", "prisoners"],
+            "n": 0
+        },
+        {
+            "id": "mueller",
+            "tier": "power",
+            "t": "In 2018, a U.S. special counsel charged 12 Russian military intelligence officers with stealing the 2016 emails",
+            "k": ["special counsel", "russian", "military intelligence"],
+            "n": 0
+        },
+        {
+            "id": "hrafnsson",
+            "tier": "power",
+            "t": "Icelandic journalist Kristinn Hrafnsson became editor-in-chief in 2018",
+            "k": ["hrafnsson", "icelandic", "editor-in-chief"],
+            "n": 0
+        },
+        {
+            "id": "films",
+            "tier": "power",
+            "t": "Benedict Cumberbatch played Assange in _The Fifth Estate_ (2013); Alex Gibney made the documentary _We Steal Secrets_",
+            "k": ["fifth estate", "cumberbatch", "we steal secrets"],
+            "n": 0
+        },
+        {
+            "id": "lamo",
+            "tier": "power",
+            "t": "Former hacker Adrian Lamo reported Manning to investigators in May 2010",
+            "k": ["adrian lamo", "lamo"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Website, founder, or source?",
+        "body": "Tossups on this answer line are packed with people. Julian Assange founded it, and Chelsea Manning gave it hundreds of thousands of secret files. Edward Snowden, who revealed secret National Security Agency programs in 2013, is often mixed up with it, even though he gave his documents to journalists instead. Naming a person when the question asks for “this organization” or “this website” loses the tossup.",
+        "fix": "Listen for the noun: “this organization,” “this group,” or “this website” wants WikiLeaks; “this man” or “this Australian” wants Assange; “this analyst” or “this soldier” wants Manning. The Pentagon Papers (1971) were a different case, made public by Daniel Ellsberg.",
+        "line": "Real answer line: <b><u>WikiLeaks</u></b>"
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

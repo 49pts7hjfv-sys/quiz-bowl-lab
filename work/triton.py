@@ -50,7 +50,7 @@ data = {
             "r": "For 10 points, name this moon of Neptune, which orbits in the opposite direction from its planet’s spin.",
         },
         {
-            "p": "Tides from its planet are slowly shrinking this moon’s orbit, so billions of years from now it may be torn apart into a ring or crash into its planet. That fate comes from the unusual direction of this moon’s orbit.",
+            "p": "Tides from its planet are slowly shrinking this moon’s orbit, so billions of years in the future it may be torn apart into a ring or crash into its planet. That fate comes from the unusual direction of this moon’s orbit.",
             "r": "It orbits opposite to its planet’s spin. For 10 points, name this backward-orbiting largest moon of Neptune.",
         },
         {
@@ -113,7 +113,7 @@ data = {
         {"id": "cantaloupe", "tier": "power", "t": "A large region is covered in dimpled, wrinkled “cantaloupe terrain,” like the skin of a melon", "k": ["cantaloupe terrain", "melon"], "n": 0},
         {"id": "brewer", "tier": "power", "t": "Its discoverer, Lassell, was a Liverpool brewer who built his own telescopes and later moved a large one to Malta", "k": ["brewer", "malta", "liverpool"], "n": 0},
         {"id": "ariel-umbriel", "tier": "power", "t": "Lassell also discovered Uranus’s moons Ariel and Umbriel (1851)", "k": ["ariel", "umbriel"], "n": 0},
-        {"id": "spiral-in", "tier": "power", "t": "Tides are slowly shrinking its orbit; billions of years from now it may be torn into a ring or crash into Neptune", "k": ["shrinking", "ring", "crash"], "n": 0},
+        {"id": "spiral-in", "tier": "power", "t": "Tides are slowly shrinking its orbit; billions of years in the future it may be torn into a ring or crash into Neptune", "k": ["shrinking", "ring", "crash"], "n": 0},
         {"id": "pair-capture", "tier": "power", "t": "May once have been one member of a pair of Kuiper belt objects; its capture may have flung Nereid into a stretched-out orbit", "k": ["pair", "nereid"], "n": 0},
         {"id": "flammarion", "tier": "power", "t": "Camille Flammarion suggested its name in 1880; the merman it is named for blew a conch shell to calm or stir up the waves", "k": ["flammarion", "1880", "conch"], "n": 0},
         {"id": "satellite-of-neptune", "tier": "power", "t": "For about a century it was usually just called “the satellite of Neptune,” until Gerard Kuiper found Nereid in 1949", "k": ["satellite of neptune", "1949", "kuiper"], "n": 0},

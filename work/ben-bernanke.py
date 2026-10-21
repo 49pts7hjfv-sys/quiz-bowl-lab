@@ -1,0 +1,362 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ben-bernanke",
+    "name": "Ben Bernanke",
+    "mono": "BB",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Federal Reserve chair, 2006–2014 · Steered the Fed through the 2008 crisis",
+    "dates": "Born 1953; Fed chair 2006–2014",
+    "briefing": "As a boy in Dillon, South Carolina, Ben Bernanke made it to the National Spelling Bee; he grew up to be an economist who studied why the Great Depression was so severe. He chaired the Federal Reserve, America’s central bank, from 2006 to 2014, steering it through the financial crisis of 2008. _Time_ named him Person of the Year for 2009, and in 2022 he shared the Nobel Prize in economics for research on banks and financial crises.",
+    "answerHtml": "Ben <b><u>Bernanke</u></b> (accept Benjamin Shalom <b><u>Bernanke</u></b>; prompt on <u>Helicopter Ben</u>)",
+    "accept": [
+        "ben bernanke",
+        "bernanke",
+        "benjamin bernanke",
+        "benjamin shalom bernanke",
+        "ben shalom bernanke",
+        "ben s bernanke",
+        "benjamin s bernanke",
+        "chairman bernanke"
+    ],
+    "prompt": [
+        "helicopter ben"
+    ],
+    "reject": [
+        "alan greenspan",
+        "greenspan",
+        "janet yellen",
+        "yellen",
+        "paul volcker",
+        "volcker",
+        "jerome powell",
+        "jay powell",
+        "powell",
+        "henry paulson",
+        "hank paulson",
+        "paulson",
+        "timothy geithner",
+        "tim geithner",
+        "geithner",
+        "milton friedman",
+        "friedman",
+        "anna schwartz",
+        "douglas diamond",
+        "philip dybvig",
+        "dybvig",
+        "stanley fischer",
+        "fischer",
+        "robert frank",
+        "mark gertler",
+        "lawrence summers",
+        "larry summers",
+        "john maynard keynes",
+        "keynes",
+        "arthur burns",
+        "marriner eccles",
+        "federal reserve",
+        "federal reserve system",
+        "the fed",
+        "fed",
+        "bernard",
+        "bernie sanders",
+        "bernie madoff"
+    ],
+    "mediaPending": True,
+    "media": [],
+    "wiki": "https://en.wikipedia.org/wiki/Ben_Bernanke",
+    "qb": {
+        "q": "Bernanke",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "At age 11, this future economist represented South Carolina at the 1965 National Spelling Bee, where he was knocked out on the word “edelweiss.” He grew up in the small town of Dillon, where his father was a pharmacist.",
+            "r": "He later led the Fed through the 2008 financial crisis. For 10 points, name this man who chaired the Federal Reserve from 2006 to 2014."
+        },
+        {
+            "p": "As a teenager, this man spent summers waiting tables at South of the Border, a roadside stop near his South Carolina hometown. He later earned a Ph.D. at MIT, where Stanley Fischer advised him, after graduating from Harvard.",
+            "r": "He taught at Princeton before joining the Fed. For 10 points, name this economist who led the Federal Reserve during the 2008 financial crisis."
+        },
+        {
+            "p": "This economist’s 1983 paper argued that waves of bank failures made the Great Depression worse by cutting off credit to households and small businesses. He collected his research on that era in the book _Essays on the Great Depression_.",
+            "r": "That research helped win him a 2022 Nobel Prize. For 10 points, name this Princeton professor who chaired the Federal Reserve from 2006 to 2014."
+        },
+        {
+            "p": "At a 2002 conference honoring Milton Friedman’s 90th birthday, this man told Friedman and Anna Schwartz that they were right about the central bank’s role in the Great Depression, saying, “We did it. We’re very sorry.”",
+            "r": "He was then a member of the Federal Reserve Board. For 10 points, name this economist who chaired the Fed from 2006 to 2014."
+        },
+        {
+            "p": "In a 2004 speech, this economist described the “Great Moderation,” a long period of steady growth and mild inflation after the mid-1980s. Two years earlier, a speech on fighting deflation, in which he mentioned Milton Friedman’s idea of a “helicopter drop” of money, had earned him a nickname.",
+            "r": "For 10 points, name this man nicknamed “Helicopter Ben,” who chaired the Federal Reserve from 2006 to 2014."
+        },
+        {
+            "p": "In 2005, this economist argued that a “global saving glut,” as countries like China saved huge sums, was helping keep U.S. interest rates low. That year, he became chairman of President George W. Bush’s Council of Economic Advisers.",
+            "r": "Bush then chose him to lead the Federal Reserve. For 10 points, name this successor to Alan Greenspan."
+        },
+        {
+            "p": "In March 2008, this man’s agency helped JPMorgan Chase buy the failing investment bank Bear Stearns. Six months later, Lehman Brothers went bankrupt, but his agency made an emergency loan to the insurance giant AIG.",
+            "r": "That December, his agency cut short-term interest rates to nearly zero. For 10 points, name this Federal Reserve chair during the 2008 financial crisis."
+        },
+        {
+            "p": "This man co-wrote the 2019 book _Firefighting_ with Timothy Geithner and Henry Paulson. Eleven years earlier, he and Treasury Secretary Paulson had urged Congress to pass the $700 billion Troubled Asset Relief Program to steady the banking system.",
+            "r": "He had succeeded Alan Greenspan in 2006. For 10 points, name this man who chaired the Federal Reserve during the 2008 financial crisis."
+        },
+        {
+            "p": "In 2012, this man’s agency set an official inflation goal of 2 percent for the first time. Starting in late 2008, it had bought huge amounts of bonds in a program called “quantitative easing,” meant to push down long-term interest rates.",
+            "r": "He had earlier taught economics at Princeton. For 10 points, name this Federal Reserve chair from 2006 to 2014."
+        },
+        {
+            "p": "In April 2011, this man became the first head of his agency to hold regular press conferences after its policy meetings. Two years later, his hint that the agency would slow its bond buying set off the “taper tantrum” in markets.",
+            "r": "For 10 points, name this Federal Reserve chair who was succeeded by Janet Yellen in 2014."
+        },
+        {
+            "p": "This economist co-wrote the college textbook _Principles of Economics_ with Robert Frank. His 2015 memoir, _The Courage to Act_, describes leading a central bank through a financial panic, a job he left in 2014 to join the Brookings Institution.",
+            "r": "For 10 points, name this economist who succeeded Alan Greenspan as chair of the Federal Reserve."
+        },
+        {
+            "p": "This economist shared a 2022 prize with Douglas Diamond and Philip Dybvig, whose 1983 model showed how fear can set off a run on a bank. The prize committee praised his research on bank failures during the Great Depression.",
+            "r": "For 10 points, name this winner of the Nobel Prize in economics who chaired the Federal Reserve from 2006 to 2014."
+        },
+        {
+            "p": "In August 2009, Barack Obama announced that he would reappoint this man, who had first been chosen for his post by George W. Bush. Months later, _Time_ magazine named him its Person of the Year for 2009.",
+            "r": "For 10 points, name this economist who chaired the Federal Reserve from 2006 to 2014, succeeding Alan Greenspan."
+        },
+        {
+            "p": "As a professor, this economist co-wrote a book on inflation targeting, in which a central bank announces a clear goal for inflation. In 2009, his agency led “stress tests” of the 19 largest U.S. banks to see whether they could survive an even deeper recession.",
+            "r": "He served from 2006 to 2014. For 10 points, name this Federal Reserve chair during the Great Recession."
+        },
+        {
+            "p": "In 2011, this man’s agency launched a bond-swapping program nicknamed “Operation Twist,” borrowing the name of a similar 1961 program. Its goal was to lower long-term interest rates and help the slow recovery from the Great Recession.",
+            "r": "For 10 points, name this economist who chaired the Federal Reserve between Alan Greenspan and Janet Yellen."
+        }
+    ],
+    "clues": [
+        {
+            "id": "fed-chair",
+            "tier": "giveaway",
+            "t": "Chair of the Federal Reserve, the U.S. central bank, from 2006 to 2014",
+            "k": ["federal reserve", "central bank", "2006", "chair"],
+            "n": 0,
+            "rabbit": "Federal Reserve System"
+        },
+        {
+            "id": "financial-crisis",
+            "tier": "giveaway",
+            "t": "Led the Fed through the financial crisis of 2008 and the Great Recession that followed",
+            "k": ["financial crisis", "2008", "great recession"],
+            "n": 0
+        },
+        {
+            "id": "greenspan-yellen",
+            "tier": "giveaway",
+            "t": "Succeeded Alan Greenspan as Fed chair; Janet Yellen succeeded him",
+            "k": ["alan greenspan", "greenspan", "janet yellen", "yellen"],
+            "n": 0,
+            "rabbit": "Janet Yellen"
+        },
+        {
+            "id": "nobel-2022",
+            "tier": "giveaway",
+            "t": "Shared the 2022 Nobel Prize in economics for research on banks and financial crises",
+            "k": ["nobel", "2022", "banks"],
+            "n": 0
+        },
+        {
+            "id": "depression-scholar",
+            "tier": "middle",
+            "t": "Studied the Great Depression; his 1983 paper argued that bank failures deepened it by cutting off credit (_Essays on the Great Depression_, 2000)",
+            "k": ["great depression", "bank failures", "1983", "credit"],
+            "n": 0,
+            "rabbit": "Great Depression"
+        },
+        {
+            "id": "princeton",
+            "tier": "middle",
+            "t": "Professor of economics at Princeton University (1985–2002), where he chaired the economics department",
+            "k": ["princeton", "professor", "1985"],
+            "n": 0
+        },
+        {
+            "id": "bush-obama",
+            "tier": "middle",
+            "t": "Picked to lead the Fed by George W. Bush; reappointed by Barack Obama for a second term (2010)",
+            "k": ["bush", "obama", "reappointed", "second term"],
+            "n": 0
+        },
+        {
+            "id": "time-person",
+            "tier": "middle",
+            "t": "_Time_ magazine’s Person of the Year for 2009",
+            "k": ["person of the year", "2009", "time"],
+            "n": 0
+        },
+        {
+            "id": "we-did-it",
+            "tier": "middle",
+            "t": "At a 2002 conference for Milton Friedman’s 90th birthday, admitted the Fed’s role in the Great Depression: “We did it. We’re very sorry.”",
+            "k": ["milton friedman", "friedman", "very sorry", "90th birthday"],
+            "n": 0
+        },
+        {
+            "id": "zero-rates",
+            "tier": "middle",
+            "t": "In December 2008, the Fed cut its short-term interest rate target to nearly zero",
+            "k": ["nearly zero", "interest rate", "december 2008"],
+            "n": 0
+        },
+        {
+            "id": "quantitative-easing",
+            "tier": "middle",
+            "t": "Began “quantitative easing” (late 2008): huge bond purchases meant to push down long-term interest rates",
+            "k": ["quantitative easing", "bond purchases", "bonds"],
+            "n": 0
+        },
+        {
+            "id": "lehman-aig",
+            "tier": "middle",
+            "t": "September 2008: Lehman Brothers went bankrupt, but the Fed made an emergency loan to the insurance giant AIG",
+            "k": ["lehman brothers", "lehman", "aig", "september 2008"],
+            "n": 0
+        },
+        {
+            "id": "helicopter-ben",
+            "tier": "middle",
+            "t": "Nicknamed “Helicopter Ben” after a 2002 speech on deflation that mentioned Milton Friedman’s “helicopter drop” of money",
+            "k": ["helicopter drop", "helicopter", "deflation"],
+            "n": 0
+        },
+        {
+            "id": "bear-stearns",
+            "tier": "power",
+            "t": "March 2008: the Fed helped JPMorgan Chase buy the failing investment bank Bear Stearns",
+            "k": ["bear stearns", "jpmorgan", "march 2008"],
+            "n": 0
+        },
+        {
+            "id": "tarp",
+            "tier": "power",
+            "t": "With Treasury Secretary Henry Paulson, urged Congress to pass the $700 billion Troubled Asset Relief Program (TARP, October 2008)",
+            "k": ["troubled asset relief", "paulson", "tarp", "700 billion"],
+            "n": 0
+        },
+        {
+            "id": "spelling-bee",
+            "tier": "power",
+            "t": "Grew up in Dillon, South Carolina; at age 11, he reached the 1965 National Spelling Bee and went out on “edelweiss”",
+            "k": ["spelling bee", "edelweiss", "dillon", "1965"],
+            "n": 0
+        },
+        {
+            "id": "early-life",
+            "tier": "power",
+            "t": "Born in Augusta, Georgia (1953); waited tables at South of the Border; studied at Harvard and earned a Ph.D. at MIT under Stanley Fischer",
+            "k": ["south of the border", "augusta", "stanley fischer", "harvard"],
+            "n": 0
+        },
+        {
+            "id": "great-moderation",
+            "tier": "power",
+            "t": "Popularized the term “Great Moderation” (2004) for the long calm stretch of steady growth and low inflation after the mid-1980s",
+            "k": ["great moderation", "2004"],
+            "n": 0
+        },
+        {
+            "id": "saving-glut",
+            "tier": "power",
+            "t": "Chaired George W. Bush’s Council of Economic Advisers (2005–2006); argued in 2005 that a “global saving glut” kept U.S. interest rates low",
+            "k": ["council of economic advisers", "saving glut", "2005"],
+            "n": 0
+        },
+        {
+            "id": "press-conferences",
+            "tier": "power",
+            "t": "First Fed chair to hold regular press conferences (2011); the Fed adopted an official 2 percent inflation goal in 2012",
+            "k": ["press conferences", "2 percent", "2011"],
+            "n": 0
+        },
+        {
+            "id": "taper-tantrum",
+            "tier": "power",
+            "t": "2013 “taper tantrum”: interest rates jumped after he hinted the Fed would slow its bond buying",
+            "k": ["taper tantrum", "taper", "2013"],
+            "n": 0
+        },
+        {
+            "id": "operation-twist",
+            "tier": "power",
+            "t": "2011: the Fed’s “Operation Twist” sold short-term Treasury bonds and bought long-term ones, borrowing the name of a 1961 program",
+            "k": ["operation twist", "1961"],
+            "n": 0
+        },
+        {
+            "id": "stress-tests",
+            "tier": "power",
+            "t": "2009: the Fed led “stress tests” of the 19 largest U.S. banks; as a professor he had co-written a book on inflation targeting",
+            "k": ["stress tests", "inflation targeting", "19 largest"],
+            "n": 0
+        },
+        {
+            "id": "diamond-dybvig",
+            "tier": "power",
+            "t": "Shared his Nobel with Douglas Diamond and Philip Dybvig, whose 1983 model showed how fear can cause bank runs",
+            "k": ["douglas diamond", "dybvig", "bank runs"],
+            "n": 0
+        },
+        {
+            "id": "courage-to-act",
+            "tier": "power",
+            "t": "Wrote the memoir _The Courage to Act_ (2015) and co-wrote _Firefighting_ (2019) with Henry Paulson and Timothy Geithner; joined the Brookings Institution in 2014",
+            "k": ["courage to act", "firefighting", "geithner", "brookings"],
+            "n": 0
+        },
+        {
+            "id": "textbook",
+            "tier": "power",
+            "t": "Co-wrote the college textbook _Principles of Economics_ with Robert Frank",
+            "k": ["principles of economics", "robert frank", "textbook"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Which Fed chair?",
+        "body": "Federal Reserve chairs come up often, and their clues overlap. Alan Greenspan led the Fed from 1987 to 2006, just before this economist; Janet Yellen followed him in 2014 as the first woman to chair the Fed; and Paul Volcker fought high inflation around 1980. Henry Paulson was the Treasury Secretary, not a Fed chair, during the 2008 crisis.",
+        "fix": "Great Depression research, Princeton, “Helicopter Ben,” the 2008 crisis, and the 2022 Nobel Prize mean Bernanke. Greenspan clues include the 1987 stock market crash and “irrational exuberance”; Yellen clues include being the first woman to chair the Fed and later serving as Treasury Secretary (2021–2025).",
+        "line": "Real answer line: Ben <b><u>Bernanke</u></b> (accept Benjamin Shalom <b><u>Bernanke</u></b>; prompt on “Helicopter Ben”)"
+    },
+    "tests": {
+        "right": [
+            "Ben Bernanke",
+            "Bernanke",
+            "Benjamin Bernanke",
+            "Benjamin Shalom Bernanke",
+            "Ben Bernake",
+            "Chairman Bernanke"
+        ],
+        "prompt": [
+            "Helicopter Ben"
+        ],
+        "wrong": [
+            "Alan Greenspan",
+            "Janet Yellen",
+            "Paul Volcker",
+            "Henry Paulson",
+            "Milton Friedman",
+            "Timothy Geithner",
+            "Jerome Powell"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote", data["id"])

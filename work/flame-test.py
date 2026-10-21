@@ -1,0 +1,390 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+TIP = "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+
+LINE = "<b><u>Flame test</u></b> (prompt on <u>spectroscopy</u>, <u>emission spectroscopy</u>, or <u>flame photometry</u>; do not accept “Bunsen burner”)"
+
+data = {
+    "id": "flame-test",
+    "name": "Flame test",
+    "mono": "FT",
+    "category": "Chemistry",
+    "qbCategory": "Science · Chemistry",
+    "kicker": "Identifying metals by flame color · The chemistry behind colored fireworks",
+    "dates": "Explained by Bunsen and Kirchhoff in 1859",
+    "briefing": "In a flame test, a chemist dips a clean wire loop into a sample and holds it in a hot, nearly invisible blue flame to see what color appears. Many metals give their own colors: sodium glows yellow-orange, potassium lilac, copper green or blue-green, and strontium bright red. Heat bumps electrons up to higher energy levels, and as they fall back, they give off light of particular colors, the same chemistry that colors fireworks.",
+    "answerHtml": LINE,
+    "accept": [
+        "flame test",
+        "flame tests",
+        "flame testing",
+        "flame color test",
+        "flame colour test",
+        "flame coloration test",
+        "flame emission test"
+    ],
+    "prompt": [
+        "spectroscopy",
+        "spectroscopic analysis",
+        "emission spectroscopy",
+        "atomic emission spectroscopy",
+        "flame emission spectroscopy",
+        "flame emission spectrometry",
+        "flame photometry",
+        "spectral analysis",
+        "spectrum analysis"
+    ],
+    "reject": [
+        "bunsen burner",
+        "bunsen burners",
+        "bunsen",
+        "robert bunsen",
+        "kirchhoff",
+        "gustav kirchhoff",
+        "fireworks",
+        "firework",
+        "pyrotechnics",
+        "litmus test",
+        "litmus",
+        "litmus paper",
+        "splint test",
+        "glowing splint test",
+        "burning splint test",
+        "pop test",
+        "squeaky pop test",
+        "limewater test",
+        "borax bead test",
+        "bead test",
+        "titration",
+        "chromatography",
+        "infrared spectroscopy",
+        "mass spectrometry",
+        "mass spectroscopy",
+        "absorption spectroscopy",
+        "atomic absorption spectroscopy",
+        "absorption spectrum",
+        "emission spectrum",
+        "emission spectra",
+        "line spectrum",
+        "spectroscope",
+        "fraunhofer lines",
+        "combustion",
+        "combustion test",
+        "precipitation test",
+        "sodium",
+        "potassium",
+        "strontium",
+        "lithium",
+        "copper",
+        "barium",
+        "calcium"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Flame_test",
+    "qb": {"q": "flame test", "found": 0, "tip": TIP},
+    "sample": {"n": 0, "note": "no real tossups checked yet"},
+    "tossups": [
+        {
+            "p": "In 1861, William Crookes discovered thallium by spotting a bright green line in the light from a heated sample, and he named the element from a Greek word for a green shoot. Chemists use colors like that one in this simple lab test, which can tell barium’s pale green from copper’s blue-green.",
+            "r": "For 10 points, name this lab test that identifies metals by the color they give off when heated in a burner."
+        },
+        {
+            "p": "In 1860, Robert Bunsen and Gustav Kirchhoff [“KEER-kof”] boiled down huge amounts of mineral water and found a new element by two bright blue lines in its light, naming it cesium, from the Latin for “sky blue.” Their spectroscope used a prism to spread out the colored light seen in this test.",
+            "r": "For 10 points, name this lab test, in which a sample is held in a flame to identify metals by color."
+        },
+        {
+            "p": "Chemists checking for potassium in this test often look through blue cobalt glass, which blocks the glare of sodium, because even a trace of sodium can hide other colors. Through the glass, potassium’s pale violet, or lilac, color shows up.",
+            "r": "For 10 points, name this lab test that identifies metals by the colors they give off when heated in a burner."
+        },
+        {
+            "p": "Before this test, a loop of platinum or nichrome [“NYE-krohm”] wire is dipped in hydrochloric acid and heated again and again until it adds no color of its own. Some teachers instead soak wooden splints in the solutions being tested.",
+            "r": "Next, the sample is held in a hot, nearly colorless flame. For 10 points, name this test that identifies metals by the color they give off."
+        },
+        {
+            "p": "Chemists often use the chloride salts of metals in this test, because chlorides turn into vapor easily in a hot flame and give brighter colors. The color comes from the metal ions, not from the chloride, so sodium chloride and sodium nitrate give the same yellow-orange glow.",
+            "r": "For 10 points, name this test that identifies metals by the colors they give off when heated."
+        },
+        {
+            "p": "Compounds of boron, such as boric acid mixed with methanol, burn with a bright green color, so this test can also detect borates. Barium compounds give a paler, apple-green color in the same test.",
+            "r": "For 10 points, name this lab test in which samples are heated in a flame to identify elements by color."
+        },
+        {
+            "p": "Blue is the hardest color for fireworks makers to produce, because the copper compounds that give it break down if the burning mixture gets too hot. Fireworks use the same chemistry as this lab test, with strontium salts for red and barium salts for green.",
+            "r": "For 10 points, name this lab test that identifies metals by the colors they give off in a flame."
+        },
+        {
+            "p": "One of Gustav Kirchhoff’s [“KEER-kofs”] three laws of spectroscopy says that a hot, thin gas gives off light only at certain colors, which show up as bright lines through a prism. Those bright lines explain the colors seen in this test, such as strontium’s bright red.",
+            "r": "For 10 points, name this test in which a metal’s compounds are heated in a burner to identify the metal by color."
+        },
+        {
+            "p": "This test works because heat bumps electrons up to higher energy levels, and when they fall back down, they give off light whose color matches the exact energy difference. Every element has its own set of energy levels, so each gives its own pattern of colors.",
+            "r": "For 10 points, name this lab test that identifies metals by heating them in a burner and watching the color."
+        },
+        {
+            "p": "This test works best with a burner whose air hole is open, giving a hot, nearly invisible blue flame that does not add a yellow glow of its own. The university mechanic Peter Desaga [“deh-ZAH-gah”] built the most famous burner of that kind in 1855.",
+            "r": "That burner is named for Robert Bunsen. For 10 points, name this test that identifies metals by the color they give a flame."
+        },
+        {
+            "p": "The bright yellow-orange color that sodium gives in this test comes mostly from two close lines near 589 nanometers, which match the dark lines in sunlight that Joseph von Fraunhofer [“FROWN-hoh-fer”] labeled D. Streetlights filled with sodium vapor glow the same color.",
+            "r": "For 10 points, name this lab test that identifies metals by the color they give off when heated in a flame."
+        },
+        {
+            "p": "An instrument called a flame photometer measures how much sodium or potassium is in a sample, while this simpler test only shows which metals are present. In this simpler test, calcium compounds give a brick-red or orange-red color, and copper compounds give a green or blue-green one.",
+            "r": "For 10 points, name this lab test that identifies metals by heating samples in a burner’s flame."
+        },
+        {
+            "p": "In qualitative analysis, this test is used to identify positive metal ions, while negative ions like chloride are found with other tests, such as adding silver nitrate to make a white precipitate. Not every metal gives a color in this test; magnesium compounds, for example, give none.",
+            "r": "For 10 points, name this test that identifies metals, like sodium and potassium, by the colors they give off when heated."
+        },
+        {
+            "p": "When salty pasta water boils over onto a gas stove, the burner’s blue flame flashes yellow-orange, an everyday example of this test’s chemistry. In this test, potassium gives lilac, lithium gives crimson, and barium gives pale green.",
+            "r": "For 10 points, name this lab test that identifies metals by the colors they give off in a flame."
+        },
+        {
+            "p": "In 1818, Christian Gmelin [“GMAY-leen”] noticed that salts of lithium, an element discovered the year before, give a bright red color in this test. Strontium gives a similar red, which is why its nitrate is used in highway road flares.",
+            "r": "For 10 points, name this lab test that identifies metals by the colors they give off in a burner’s flame."
+        }
+    ],
+    "clues": [
+        {
+            "id": "definition",
+            "tier": "giveaway",
+            "t": "A sample is held in a hot burner flame, and the color it gives off identifies the metal in it",
+            "k": ["burner", "color", "identifies"],
+            "n": 0
+        },
+        {
+            "id": "sodium-yellow",
+            "tier": "giveaway",
+            "t": "Sodium gives a bright yellow-orange color",
+            "k": ["sodium", "yellow-orange"],
+            "n": 0,
+            "rabbit": "Sodium"
+        },
+        {
+            "id": "potassium-lilac",
+            "tier": "giveaway",
+            "t": "Potassium gives a lilac (pale violet) color",
+            "k": ["potassium", "lilac", "pale violet"],
+            "n": 0,
+            "rabbit": "Potassium"
+        },
+        {
+            "id": "copper-green",
+            "tier": "giveaway",
+            "t": "Copper compounds give a green or blue-green color",
+            "k": ["copper", "blue-green"],
+            "n": 0,
+            "rabbit": "Copper"
+        },
+        {
+            "id": "fireworks",
+            "tier": "giveaway",
+            "t": "Fireworks use the same chemistry: strontium salts for red, barium salts for green, and copper compounds for blue",
+            "k": ["fireworks", "strontium", "barium"],
+            "n": 0
+        },
+        {
+            "id": "lithium-strontium",
+            "tier": "middle",
+            "t": "Lithium gives a crimson color, and strontium gives a similar bright red",
+            "k": ["lithium", "crimson", "strontium"],
+            "n": 0
+        },
+        {
+            "id": "calcium",
+            "tier": "middle",
+            "t": "Calcium gives a brick-red or orange-red color",
+            "k": ["calcium", "brick-red", "orange-red"],
+            "n": 0,
+            "rabbit": "Calcium"
+        },
+        {
+            "id": "barium",
+            "tier": "middle",
+            "t": "Barium gives a pale, apple-green color",
+            "k": ["barium", "apple-green"],
+            "n": 0
+        },
+        {
+            "id": "electrons",
+            "tier": "middle",
+            "t": "Heat bumps electrons up to higher energy levels; as they fall back, they give off light of exact colors",
+            "k": ["electrons", "energy levels", "fall back"],
+            "n": 0,
+            "rabbit": "Electrons"
+        },
+        {
+            "id": "emission-lines",
+            "tier": "middle",
+            "t": "Each element gives its own pattern of bright lines, which a spectroscope spreads out with a prism",
+            "k": ["bright lines", "spectroscope", "prism"],
+            "n": 0
+        },
+        {
+            "id": "cobalt-glass",
+            "tier": "middle",
+            "t": "Blue cobalt glass blocks sodium’s glare so that potassium’s lilac can be seen",
+            "k": ["cobalt glass", "glare"],
+            "n": 0
+        },
+        {
+            "id": "wire-loop",
+            "tier": "middle",
+            "t": "A platinum or nichrome wire loop is cleaned in hydrochloric acid first; wooden splints soaked in the solution also work",
+            "k": ["nichrome", "platinum", "hydrochloric acid", "splints"],
+            "n": 0
+        },
+        {
+            "id": "bunsen-burner",
+            "tier": "middle",
+            "t": "Done in a Bunsen burner with its air hole open, giving a hot, nearly invisible blue flame that adds no yellow of its own",
+            "k": ["bunsen burner", "air hole", "blue flame"],
+            "n": 0,
+            "rabbit": "Robert Bunsen"
+        },
+        {
+            "id": "gas-stove",
+            "tier": "middle",
+            "t": "Salty water boiling over onto a gas stove turns the burner’s flame yellow-orange, an everyday example",
+            "k": ["gas stove", "salty"],
+            "n": 0
+        },
+        {
+            "id": "crookes-thallium",
+            "tier": "power",
+            "t": "William Crookes found thallium by its bright green line in 1861, naming it from the Greek for a green shoot",
+            "k": ["crookes", "thallium", "1861", "green shoot"],
+            "n": 0
+        },
+        {
+            "id": "cesium",
+            "tier": "power",
+            "t": "Bunsen and Kirchhoff found cesium in mineral water in 1860 by two bright blue lines; its name means “sky blue”",
+            "k": ["cesium", "sky blue", "kirchhoff", "1860"],
+            "n": 0
+        },
+        {
+            "id": "rubidium-cesium",
+            "tier": "power",
+            "t": "Cesium gives a blue-violet color and rubidium a red-violet one; Bunsen and Kirchhoff discovered rubidium in 1861",
+            "k": ["blue-violet", "red-violet", "rubidium"],
+            "n": 0
+        },
+        {
+            "id": "chlorides",
+            "tier": "power",
+            "t": "Chloride salts are often used because they turn into vapor easily in the flame and give brighter colors",
+            "k": ["chloride salts", "vapor"],
+            "n": 0
+        },
+        {
+            "id": "same-color",
+            "tier": "power",
+            "t": "The color comes from the metal ions, so sodium chloride and sodium nitrate both glow yellow-orange",
+            "k": ["metal ions", "sodium nitrate"],
+            "n": 0
+        },
+        {
+            "id": "boron",
+            "tier": "power",
+            "t": "Boron compounds, such as boric acid mixed with methanol, burn bright green, which reveals borates",
+            "k": ["boron", "boric acid", "methanol", "borates"],
+            "n": 0
+        },
+        {
+            "id": "blue-hardest",
+            "tier": "power",
+            "t": "Blue is the hardest fireworks color, because the copper compounds that make it break down if the mixture gets too hot",
+            "k": ["hardest", "too hot"],
+            "n": 0
+        },
+        {
+            "id": "kirchhoff-laws",
+            "tier": "power",
+            "t": "One of Kirchhoff’s three laws of spectroscopy: a hot, thin gas gives off light only at certain colors, seen as bright lines",
+            "k": ["laws of spectroscopy", "hot, thin gas", "kirchhoff"],
+            "n": 0
+        },
+        {
+            "id": "sodium-d-lines",
+            "tier": "power",
+            "t": "Sodium’s color comes mostly from two lines near 589 nanometers, matching Fraunhofer’s dark D lines in sunlight",
+            "k": ["589", "nanometers", "fraunhofer", "d lines"],
+            "n": 0
+        },
+        {
+            "id": "desaga",
+            "tier": "power",
+            "t": "The university mechanic Peter Desaga built the most famous burner for it in 1855",
+            "k": ["desaga", "1855", "mechanic"],
+            "n": 0
+        },
+        {
+            "id": "photometer",
+            "tier": "power",
+            "t": "A flame photometer measures how much of a metal is present; this simpler test only shows which metals are there",
+            "k": ["photometer", "how much"],
+            "n": 0
+        },
+        {
+            "id": "positive-ions",
+            "tier": "power",
+            "t": "It identifies positive metal ions; negative ions like chloride need other tests, such as silver nitrate; magnesium compounds give no color",
+            "k": ["positive metal ions", "silver nitrate", "magnesium"],
+            "n": 0
+        },
+        {
+            "id": "gmelin",
+            "tier": "power",
+            "t": "In 1818, Christian Gmelin noticed that lithium salts give a bright red color",
+            "k": ["gmelin", "1818"],
+            "n": 0
+        },
+        {
+            "id": "road-flares",
+            "tier": "power",
+            "t": "Strontium nitrate makes highway road flares burn red",
+            "k": ["road flares", "strontium nitrate"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Element or the test?",
+        "body": "Flame colors show up in tossups about single elements too: a lilac flame means potassium, a yellow-orange one means sodium, and a crimson one can mean lithium or strontium. On this answer line, the question wants the procedure itself, so naming the element, the Bunsen burner, or fireworks is wrong, and the broader method, “spectroscopy,” earns only a prompt.",
+        "fix": "Listen to the noun at the end. “This test” or “this procedure” wants the flame test; “this element” wants the metal whose color is described; “this device” or “this burner” wants the Bunsen burner. If you are prompted after saying “spectroscopy,” narrow it to the flame test.",
+        "line": "Real answer line: " + LINE
+    },
+    "tests": {
+        "right": [
+            "Flame test",
+            "flame tests",
+            "Flame testing",
+            "Flme test",
+            "flame color test"
+        ],
+        "prompt": [
+            "Spectroscopy",
+            "Emission spectroscopy"
+        ],
+        "wrong": [
+            "Bunsen burner",
+            "Fireworks",
+            "Litmus test",
+            "Infrared spectroscopy",
+            "Sodium",
+            "Emission spectrum",
+            "Titration",
+            "Robert Bunsen"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

@@ -1,0 +1,335 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "patrick-henry",
+    "name": "Patrick Henry",
+    "mono": "PH",
+    "category": "American History",
+    "qbCategory": "History · American History",
+    "kicker": "Virginia orator of the Revolution · “Give me liberty, or give me death!”",
+    "dates": "1736–1799",
+    "briefing": "Patrick Henry failed as a storekeeper and a farmer before he found his true talent: speaking. As a young Virginia lawyer and lawmaker, he blasted the Stamp Act in 1765, and in 1775 he urged Virginians to arm themselves with the cry “Give me liberty, or give me death!” He became the first governor of the independent state of Virginia, then fought the new U.S. Constitution as a leading Anti-Federalist.",
+    "answerHtml": "Patrick <b><u>Henry</u></b>",
+    "accept": [
+        "patrick henry",
+        "henry",
+        "governor patrick henry"
+    ],
+    "prompt": [],
+    "reject": [
+        "richard henry lee",
+        "henry lee",
+        "light horse harry lee",
+        "harry lee",
+        "henry clay",
+        "henry knox",
+        "henry ford",
+        "henry viii",
+        "henry the eighth",
+        "o henry",
+        "henry james",
+        "henry wadsworth longfellow",
+        "henry david thoreau",
+        "henry purcell",
+        "henrys law",
+        "william henry harrison",
+        "william henry seward",
+        "henry hudson",
+        "john henry",
+        "henry kissinger",
+        "henry cabot lodge",
+        "henry laurens",
+        "henry the navigator",
+        "king henry",
+        "prince henry",
+        "james otis",
+        "samuel adams",
+        "george mason",
+        "nathan hale",
+        "thomas paine"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Patrick_Henry",
+    "qb": {
+        "q": "Patrick Henry",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "In the 1763 Parson’s Cause, this young lawyer argued that a king who struck down a useful Virginia law had “degenerated into a tyrant,” and the jury awarded the minister James Maury only one penny in damages.",
+            "r": "For 10 points, name this Virginian who later declared, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "Soon after joining the House of Burgesses in 1765, this man introduced resolutions against the Stamp Act and warned that “Caesar had his Brutus, Charles the First his Cromwell.” When other members shouted “Treason!” he supposedly answered, “If this be treason, make the most of it.”",
+            "r": "For 10 points, name this Virginia orator who later cried, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "At the First Continental Congress in 1774, this delegate declared that “the distinctions between Virginians, Pennsylvanians, New Yorkers, and New Englanders are no more. I am not a Virginian, but an American.” John Adams recorded those words in his notes.",
+            "r": "For 10 points, name this Virginian who in 1775 declared, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "No written copy of this man’s most famous speech survives; the version known today was pieced together by William Wirt for an 1817 biography, more than forty years later. In that speech, he warned that “the next gale that sweeps from the north will bring to our ears the clash of resounding arms.”",
+            "r": "For 10 points, name this Virginian who ended that 1775 speech with “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "This speaker said he had “but one lamp by which my feet are guided, and that is the lamp of experience,” and later asked, “Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery?”",
+            "r": "He gave that speech at St. John’s Church in Richmond in March 1775. For 10 points, name this patriot who ended it, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "After Virginia’s royal governor, Lord Dunmore, had gunpowder removed from the public magazine in Williamsburg in April 1775, this man led a militia company toward the capital and won payment for the powder.",
+            "r": "A month earlier, he had declared, “Give me liberty, or give me death!” For 10 points, name this Virginia patriot."
+        },
+        {
+            "p": "As governor, this man sent George Rogers Clark on a 1778 expedition to capture British posts in the Illinois Country, where Clark’s men took Kaskaskia and later Vincennes. This man served three one-year terms in that office.",
+            "r": "In 1776, he had become the first governor of the independent state of Virginia. For 10 points, name this patriot who said, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "At Virginia’s 1788 ratifying convention, this man asked what right the framers had to say “We, the people” instead of “We, the states.” He had refused to attend the Constitutional Convention, reportedly saying that he “smelt a rat.”",
+            "r": "For 10 points, name this Virginia Anti-Federalist who once cried, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "This man spoke against the Constitution for days at Virginia’s 1788 ratifying convention, but James Madison’s side won by a vote of 89 to 79. He then helped keep Madison out of the first U.S. Senate.",
+            "r": "For 10 points, name this Anti-Federalist who demanded a bill of rights and once cried, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "In a 1773 letter to a Quaker, this man admitted that he enslaved people although he believed slavery was wrong, writing, “I will not, I cannot justify it.” Ten years earlier, he had become famous as a lawyer in the Parson’s Cause.",
+            "r": "For 10 points, name this Virginian who said, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "In 1795, this former Anti-Federalist turned down George Washington’s offer to make him secretary of state. Four years later, Washington persuaded him to run for Virginia’s legislature, and he won but died before he could take his seat.",
+            "r": "For 10 points, name this patriot who said, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "This man spent his last years at Red Hill, his plantation in Charlotte County, Virginia, where he died in 1799. He had been born in Hanover County, where he first won fame as a lawyer.",
+            "r": "For 10 points, name this Virginia patriot who declared, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "In 1941, the first Liberty ship, a type of cargo vessel mass-produced during World War II, was launched in Baltimore and named for this man. Two Virginia counties had also been named for him.",
+            "r": "For 10 points, name this Virginia orator who in 1775 declared, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "As a young man, this future orator failed as a storekeeper and as a farmer before he taught himself enough law to become an attorney. His first famous case was the Parson’s Cause, argued at the Hanover County courthouse.",
+            "r": "For 10 points, name this Virginian who said, “Give me liberty, or give me death!”"
+        },
+        {
+            "p": "As a law student, Thomas Jefferson listened from a doorway of the House of Burgesses as this man spoke against the Stamp Act in 1765. This man had joined that assembly only days earlier, as a member from Louisa County.",
+            "r": "Jefferson later succeeded him as governor of Virginia. For 10 points, name this orator who in 1775 declared, “Give me liberty, or give me death!”"
+        }
+    ],
+    "clues": [
+        {
+            "id": "liberty-death",
+            "tier": "giveaway",
+            "t": "Declared “Give me liberty, or give me death!” in a speech on March 23, 1775",
+            "k": ["give me liberty", "give me death", "march 23"],
+            "n": 0
+        },
+        {
+            "id": "virginia-orator",
+            "tier": "giveaway",
+            "t": "Virginia lawyer and orator of the American Revolution",
+            "k": ["orator", "virginia", "lawyer"],
+            "n": 0,
+            "rabbit": "Colony of Virginia"
+        },
+        {
+            "id": "first-governor",
+            "tier": "giveaway",
+            "t": "First governor of the independent state of Virginia (1776–1779); governor again from 1784 to 1786",
+            "k": ["first governor", "governor", "1776"],
+            "n": 0
+        },
+        {
+            "id": "anti-federalist",
+            "tier": "middle",
+            "t": "Anti-Federalist who opposed the new Constitution and demanded a bill of rights",
+            "k": ["anti-federalist", "bill of rights", "constitution"],
+            "n": 0,
+            "rabbit": "Bill of Rights"
+        },
+        {
+            "id": "st-johns",
+            "tier": "middle",
+            "t": "Gave the “liberty or death” speech at St. John’s Church in Richmond, at the Second Virginia Convention",
+            "k": ["second virginia convention", "st. john’s church", "richmond"],
+            "n": 0
+        },
+        {
+            "id": "stamp-act",
+            "tier": "middle",
+            "t": "Introduced resolutions against the Stamp Act in Virginia’s House of Burgesses (1765)",
+            "k": ["stamp act", "house of burgesses", "resolutions"],
+            "n": 0,
+            "rabbit": "Stamp Act"
+        },
+        {
+            "id": "treason",
+            "tier": "middle",
+            "t": "Supposedly answered cries of “Treason!” with “If this be treason, make the most of it”",
+            "k": ["make the most of it", "treason"],
+            "n": 0
+        },
+        {
+            "id": "parsons-cause",
+            "tier": "middle",
+            "t": "Won fame as a lawyer in the Parson’s Cause (1763), over paying Virginia’s ministers in cash instead of tobacco",
+            "k": ["parson’s cause", "tobacco", "1763"],
+            "n": 0,
+            "rabbit": "Tobacco"
+        },
+        {
+            "id": "smelt-a-rat",
+            "tier": "middle",
+            "t": "Refused to attend the Constitutional Convention, reportedly saying he “smelt a rat”",
+            "k": ["smelt a rat", "constitutional convention"],
+            "n": 0
+        },
+        {
+            "id": "not-virginian",
+            "tier": "middle",
+            "t": "At the First Continental Congress (1774): “I am not a Virginian, but an American”",
+            "k": ["first continental congress", "not a virginian", "american"],
+            "n": 0
+        },
+        {
+            "id": "we-the-states",
+            "tier": "middle",
+            "t": "At Virginia’s 1788 ratifying convention, battled James Madison and asked why the Constitution said “We, the people” instead of “We, the states”",
+            "k": ["ratifying convention", "we, the states", "james madison"],
+            "n": 0,
+            "rabbit": "James Madison"
+        },
+        {
+            "id": "caesar-brutus",
+            "tier": "power",
+            "t": "Stamp Act speech: “Caesar had his Brutus, Charles the First his Cromwell”",
+            "k": ["caesar", "brutus", "cromwell"],
+            "n": 0
+        },
+        {
+            "id": "maury-penny",
+            "tier": "power",
+            "t": "In the Parson’s Cause, said a king who struck down a good law “degenerated into a tyrant”; the jury gave the minister James Maury one penny",
+            "k": ["james maury", "one penny", "tyrant"],
+            "n": 0
+        },
+        {
+            "id": "wirt",
+            "tier": "power",
+            "t": "No copy of the “liberty or death” speech survives; William Wirt pieced it together for an 1817 biography",
+            "k": ["william wirt", "wirt", "1817"],
+            "n": 0
+        },
+        {
+            "id": "lamp",
+            "tier": "power",
+            "t": "In the same speech: “the lamp of experience” and “the next gale that sweeps from the north”",
+            "k": ["lamp of experience", "next gale"],
+            "n": 0
+        },
+        {
+            "id": "gunpowder",
+            "tier": "power",
+            "t": "Gunpowder Incident (April 1775): led militia toward Williamsburg after Lord Dunmore removed the colony’s powder, and won payment for it",
+            "k": ["gunpowder", "dunmore", "williamsburg"],
+            "n": 0
+        },
+        {
+            "id": "clark",
+            "tier": "power",
+            "t": "As governor, sent George Rogers Clark to capture British posts in the Illinois Country (1778)",
+            "k": ["george rogers clark", "illinois country", "clark"],
+            "n": 0
+        },
+        {
+            "id": "vote-89-79",
+            "tier": "power",
+            "t": "Virginia ratified the Constitution anyway, 89 to 79; he then helped keep Madison out of the first U.S. Senate",
+            "k": ["89 to 79", "senate", "ratified"],
+            "n": 0
+        },
+        {
+            "id": "slavery-letter",
+            "tier": "power",
+            "t": "Enslaved people but wrote in a 1773 letter, “I will not, I cannot justify it”",
+            "k": ["cannot justify", "1773", "enslaved"],
+            "n": 0
+        },
+        {
+            "id": "secretary-of-state",
+            "tier": "power",
+            "t": "Turned down Washington’s offer to be secretary of state (1795); won a legislative seat in 1799 but died before serving",
+            "k": ["secretary of state", "1795", "1799"],
+            "n": 0
+        },
+        {
+            "id": "red-hill",
+            "tier": "power",
+            "t": "Born in Hanover County, Virginia (1736); died at Red Hill, his Charlotte County plantation (1799)",
+            "k": ["red hill", "hanover county", "charlotte county"],
+            "n": 0
+        },
+        {
+            "id": "liberty-ship",
+            "tier": "power",
+            "t": "The first Liberty ship (1941) was named for him, and so were two Virginia counties",
+            "k": ["liberty ship", "1941", "counties"],
+            "n": 0
+        },
+        {
+            "id": "failed-store",
+            "tier": "power",
+            "t": "Failed as a storekeeper and a farmer before teaching himself enough law to become an attorney",
+            "k": ["storekeeper", "farmer", "attorney"],
+            "n": 0
+        },
+        {
+            "id": "jefferson-doorway",
+            "tier": "power",
+            "t": "Thomas Jefferson, then a law student, heard his Stamp Act speech; Jefferson later succeeded him as governor",
+            "k": ["thomas jefferson", "law student", "succeeded"],
+            "n": 0,
+            "rabbit": "Thomas Jefferson"
+        }
+    ],
+    "trap": {
+        "title": "Which Revolutionary speaker?",
+        "body": "Several patriots are known for one famous line. Patrick Henry said “Give me liberty, or give me death!” in Virginia in 1775. Nathan Hale, a Connecticut spy, supposedly said “I only regret that I have but one life to lose for my country,” and James Otis of Massachusetts is linked to the slogan “Taxation without representation is tyranny.” Fellow Virginians Richard Henry Lee, who proposed independence in June 1776, and Henry “Light-Horse Harry” Lee also have “Henry” in their names.",
+        "fix": "Henry clues: the Parson’s Cause, the Stamp Act resolutions, “If this be treason,” St. John’s Church, first governor of Virginia, and leading the Anti-Federalists. Richard Henry Lee clues: the June 1776 resolution for independence. Saying just “Henry” is enough, but never say “Lee.”",
+        "line": "Real answer line: Patrick <b><u>Henry</u></b>"
+    },
+    "tests": {
+        "right": [
+            "Patrick Henry",
+            "Henry",
+            "Governor Patrick Henry",
+            "Patrik Henry",
+            "patrick henery"
+        ],
+        "prompt": [],
+        "wrong": [
+            "Richard Henry Lee",
+            "Henry Lee",
+            "Henry Clay",
+            "O. Henry",
+            "James Otis",
+            "Samuel Adams",
+            "George Mason",
+            "Nathan Hale"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / f"{data['id']}.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("wrote", data["id"])

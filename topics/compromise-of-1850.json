@@ -1,0 +1,461 @@
+{
+  "id": "compromise-of-1850",
+  "name": "Compromise of 1850",
+  "mono": "C50",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Henry Clay’s last great deal · Admitted California as a free state",
+  "dates": "Passed September 1850",
+  "briefing": "By 1849, the gold rush had brought so many settlers to California that it asked to become a state, with a constitution that banned slavery. Southern leaders warned they might leave the Union. Henry Clay offered a package deal, and after months of fierce debate, Stephen Douglas pushed it through Congress as five separate laws. The Compromise of 1850 admitted California as a free state but also created a harsh new Fugitive Slave Act.",
+  "answerHtml": "<b><u>Compromise of 1850</u></b> (prompt on <u>compromise</u> alone or <u>Omnibus Bill</u>; do not accept “Missouri Compromise,” “Kansas–Nebraska Act,” “Fugitive Slave Act,” or “Compromise of 1877”)",
+  "accept": [
+    "compromise of 1850",
+    "the compromise of 1850",
+    "1850 compromise",
+    "the 1850 compromise",
+    "compromise of eighteen fifty",
+    "compromise measures of 1850",
+    "compromise of 1850 laws"
+  ],
+  "prompt": [
+    "compromise",
+    "the compromise",
+    "omnibus bill",
+    "the omnibus bill",
+    "omnibus",
+    "clays compromise",
+    "henry clays compromise"
+  ],
+  "reject": [
+    "missouri compromise",
+    "the missouri compromise",
+    "missouri compromise of 1820",
+    "compromise of 1820",
+    "1820 compromise",
+    "compromise of 1821",
+    "compromise of 1877",
+    "1877 compromise",
+    "compromise of 1833",
+    "compromise tariff",
+    "compromise tariff of 1833",
+    "compromise of 1790",
+    "compromise of 1787",
+    "compromise of 1867",
+    "austro hungarian compromise",
+    "great compromise",
+    "connecticut compromise",
+    "three fifths compromise",
+    "3 5 compromise",
+    "crittenden compromise",
+    "kansas nebraska act",
+    "kansas nebraska",
+    "fugitive slave act",
+    "fugitive slave act of 1850",
+    "fugitive slave law",
+    "fugitive slave law of 1850",
+    "wilmot proviso",
+    "nashville convention",
+    "popular sovereignty",
+    "freeport doctrine",
+    "dred scott v sandford",
+    "treaty of guadalupe hidalgo",
+    "mexican cession",
+    "california gold rush",
+    "henry clay",
+    "stephen douglas"
+  ],
+  "tests": {
+    "right": [
+      "Compromise of 1850",
+      "the Compromise of 1850",
+      "1850 Compromise",
+      "Compromse of 1850"
+    ],
+    "prompt": [
+      "compromise",
+      "Omnibus Bill"
+    ],
+    "wrong": [
+      "Missouri Compromise",
+      "Kansas-Nebraska Act",
+      "Fugitive Slave Act",
+      "Compromise of 1877",
+      "Compromise of 1820",
+      "Compromise of 1790",
+      "Wilmot Proviso",
+      "Great Compromise"
+    ]
+  },
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Compromise_of_1850",
+  "qb": {
+    "q": "Compromise of 1850",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In March 1850, Senator James Mason of Virginia read aloud the last major speech of a dying John C. Calhoun, who opposed this plan and warned that the Union could break apart. Calhoun died that same month, about half a year before Congress finally passed this plan.",
+      "r": "Henry Clay had proposed it. For 10 points, name this group of laws that admitted California to the Union as a free state."
+    },
+    {
+      "p": "“I wish to speak today, not as a Massachusetts man, nor as a Northern man, but as an American,” began a Seventh of March speech in favor of this plan. That speech by Daniel Webster angered many abolitionists, and John Greenleaf Whittier attacked him in the poem “Ichabod.”",
+      "r": "For 10 points, name this group of laws, proposed by Henry Clay, that included a tougher Fugitive Slave Act."
+    },
+    {
+      "p": "William Seward of New York opposed this plan in a Senate speech claiming that there is “a higher law than the Constitution.” Seward wanted slavery kept out of all the land the United States had won in the war with Mexico.",
+      "r": "Millard Fillmore signed this plan’s laws after Zachary Taylor’s death. For 10 points, name this set of laws that admitted California as a free state."
+    },
+    {
+      "p": "A president who had been a hero of the war with Mexico opposed this plan, but he died in July 1850 after falling ill following a Fourth of July celebration. His successor, a New Yorker, supported this plan and signed each of its laws that September.",
+      "r": "Those presidents were Zachary Taylor and Millard Fillmore. For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state."
+    },
+    {
+      "p": "During the Senate debate over this plan in April 1850, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri, though no shot was fired. Months later, this plan passed only after it was broken up into separate bills.",
+      "r": "For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state and banned the slave trade in Washington, D.C."
+    },
+    {
+      "p": "A Senate committee of thirteen bundled the parts of this plan into a single “Omnibus Bill,” which opponents picked apart in July 1850. Illinois senator Stephen Douglas then split that bill into separate measures and steered each one through Congress.",
+      "r": "This plan’s author was Henry Clay of Kentucky. For 10 points, name this set of laws that admitted California as a free state."
+    },
+    {
+      "p": "Under this plan, Texas gave up its claims to land in present-day New Mexico, and the federal government agreed to pay ten million dollars toward Texas’s old debts. The same plan organized the territories of New Mexico and Utah without banning slavery in them.",
+      "r": "Settlers there would decide the question by popular sovereignty. For 10 points, name this set of laws that admitted California as a free state."
+    },
+    {
+      "p": "This plan ended the buying and selling of enslaved people in Washington, D.C., though slavery itself stayed legal in the capital until 1862. Antislavery leaders had long protested that human beings were sold at markets in the nation’s capital.",
+      "r": "This plan also admitted California as a free state. For 10 points, name this set of laws proposed by Henry Clay."
+    },
+    {
+      "p": "This plan let the settlers of the Utah and New Mexico territories decide for themselves whether to allow slavery, an idea called popular sovereignty. Four years later, Stephen Douglas used the same idea in the Kansas–Nebraska Act, which repealed the 36°30′ line drawn in 1820.",
+      "r": "For 10 points, name this set of laws, proposed by Henry Clay, that admitted California as a free state."
+    },
+    {
+      "p": "Gold-rush settlers wrote a state constitution banning slavery in 1849, and their request to join the Union threatened the Senate’s even split of fifteen free states and fifteen slave states. That request set off the long debate that produced this plan.",
+      "r": "This plan admitted California as a free state. For 10 points, name this set of laws proposed by Henry Clay."
+    },
+    {
+      "p": "This plan tried to settle a fight that began in 1846, when Pennsylvania congressman David Wilmot proposed banning slavery from all land won in the war with Mexico. Wilmot’s idea passed the House of Representatives but never passed the Senate.",
+      "r": "This plan instead let settlers in Utah and New Mexico decide on slavery. For 10 points, name this group of laws that admitted California as a free state."
+    },
+    {
+      "p": "In June 1850, delegates from several slave states met at the Nashville Convention to discuss how to defend slavery in the West, and some of them called for leaving the Union. Months later, this plan calmed the crisis, at least for a time.",
+      "r": "Its laws were signed by Millard Fillmore. For 10 points, name this set of laws that admitted California as a free state."
+    },
+    {
+      "p": "One part of this plan paid federal commissioners ten dollars for sending an accused person south into slavery but only five dollars for setting the person free. That part helped inspire Harriet Beecher Stowe to write _Uncle Tom’s Cabin_.",
+      "r": "That part was the Fugitive Slave Act. For 10 points, name this set of five laws that also admitted California as a free state."
+    },
+    {
+      "p": "This plan was the last of three famous deals between North and South worked out by one statesman, after a tariff deal in 1833 and an 1820 agreement over the admission of Maine and Missouri. That statesman died in 1852, two years after this plan passed.",
+      "r": "That statesman was Henry Clay. For 10 points, name this set of laws that admitted California as a free state."
+    },
+    {
+      "p": "This plan set off the last great Senate debate among the three members of the “Great Triumvirate.” Daniel Webster supported this plan, John C. Calhoun opposed it, and the third member of that trio had proposed it.",
+      "r": "That third member was Henry Clay. For 10 points, name this group of laws that admitted California as a free state and created a stricter Fugitive Slave Act."
+    }
+  ],
+  "clues": [
+    {
+      "id": "california-free",
+      "tier": "giveaway",
+      "t": "Admitted California to the Union as a free state (the 31st state)",
+      "k": [
+        "california",
+        "free state",
+        "31st"
+      ],
+      "n": 0,
+      "rabbit": "California"
+    },
+    {
+      "id": "henry-clay",
+      "tier": "giveaway",
+      "t": "Proposed by Henry Clay, a Whig senator from Kentucky",
+      "k": [
+        "henry clay",
+        "clay",
+        "kentucky"
+      ],
+      "n": 0,
+      "rabbit": "Henry Clay"
+    },
+    {
+      "id": "fugitive-slave",
+      "tier": "giveaway",
+      "t": "Included a tougher Fugitive Slave Act, which forced free states to help return people who had escaped slavery",
+      "k": [
+        "fugitive slave act",
+        "fugitive",
+        "escaped slavery"
+      ],
+      "n": 0,
+      "rabbit": "Fugitive Slave Act of 1850"
+    },
+    {
+      "id": "fillmore",
+      "tier": "giveaway",
+      "t": "Signed by President Millard Fillmore in September 1850",
+      "k": [
+        "millard fillmore",
+        "fillmore",
+        "september 1850"
+      ],
+      "n": 0
+    },
+    {
+      "id": "slave-trade-dc",
+      "tier": "middle",
+      "t": "Banned the slave trade (but not slavery itself) in Washington, D.C.",
+      "k": [
+        "slave trade",
+        "washington"
+      ],
+      "n": 0
+    },
+    {
+      "id": "popular-sovereignty",
+      "tier": "middle",
+      "t": "Organized the Utah and New Mexico territories, letting settlers decide on slavery by popular sovereignty",
+      "k": [
+        "popular sovereignty",
+        "utah",
+        "new mexico"
+      ],
+      "n": 0
+    },
+    {
+      "id": "douglas",
+      "tier": "middle",
+      "t": "Stephen Douglas passed it as separate bills after Clay’s “Omnibus Bill” fell apart in July 1850",
+      "k": [
+        "stephen douglas",
+        "douglas",
+        "omnibus",
+        "separate bills"
+      ],
+      "n": 0,
+      "rabbit": "Stephen A. Douglas"
+    },
+    {
+      "id": "taylor",
+      "tier": "middle",
+      "t": "President Zachary Taylor opposed it but died in July 1850; his successor, Millard Fillmore, supported it",
+      "k": [
+        "zachary taylor",
+        "taylor",
+        "july 1850"
+      ],
+      "n": 0
+    },
+    {
+      "id": "webster",
+      "tier": "middle",
+      "t": "Daniel Webster backed it in his Seventh of March speech: “not as a Massachusetts man, nor as a Northern man, but as an American”",
+      "k": [
+        "seventh of march",
+        "webster",
+        "massachusetts man"
+      ],
+      "n": 0,
+      "rabbit": "Daniel Webster"
+    },
+    {
+      "id": "calhoun",
+      "tier": "middle",
+      "t": "A dying John C. Calhoun’s last speech, against it, was read by Senator James Mason of Virginia (March 1850)",
+      "k": [
+        "calhoun",
+        "james mason",
+        "mason"
+      ],
+      "n": 0
+    },
+    {
+      "id": "texas",
+      "tier": "middle",
+      "t": "Texas gave up land claims in present-day New Mexico in exchange for $10 million toward its old debts",
+      "k": [
+        "texas",
+        "10 million",
+        "debts"
+      ],
+      "n": 0,
+      "rabbit": "Republic of Texas"
+    },
+    {
+      "id": "senate-split",
+      "tier": "middle",
+      "t": "California’s admission broke the Senate’s even split of 15 free states and 15 slave states",
+      "k": [
+        "even split",
+        "15 free",
+        "senate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "mexican-cession",
+      "tier": "middle",
+      "t": "Settled, for a time, the fight over slavery in the land won from Mexico in 1848 (the Mexican Cession)",
+      "k": [
+        "mexican cession",
+        "mexico",
+        "1848"
+      ],
+      "n": 0
+    },
+    {
+      "id": "seward",
+      "tier": "power",
+      "t": "William Seward of New York opposed it, saying there is “a higher law than the Constitution”",
+      "k": [
+        "seward",
+        "higher law"
+      ],
+      "n": 0,
+      "rabbit": "William Henry Seward"
+    },
+    {
+      "id": "foote-benton",
+      "tier": "power",
+      "t": "During the debate, Henry Foote of Mississippi pulled a pistol on Thomas Hart Benton of Missouri in the Senate (April 1850)",
+      "k": [
+        "foote",
+        "benton",
+        "pistol"
+      ],
+      "n": 0
+    },
+    {
+      "id": "committee-of-thirteen",
+      "tier": "power",
+      "t": "A Senate Committee of Thirteen bundled its parts into one “Omnibus Bill” in 1850",
+      "k": [
+        "committee of thirteen",
+        "thirteen",
+        "omnibus bill"
+      ],
+      "n": 0
+    },
+    {
+      "id": "ichabod",
+      "tier": "power",
+      "t": "John Greenleaf Whittier attacked Webster for supporting it in the poem “Ichabod”",
+      "k": [
+        "whittier",
+        "ichabod"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dc-1862",
+      "tier": "power",
+      "t": "Slavery itself stayed legal in Washington, D.C., until 1862",
+      "k": [
+        "1862",
+        "capital"
+      ],
+      "n": 0
+    },
+    {
+      "id": "wilmot",
+      "tier": "power",
+      "t": "The fight began with the Wilmot Proviso (1846), which tried to ban slavery in land won from Mexico; it passed the House but not the Senate",
+      "k": [
+        "wilmot proviso",
+        "wilmot",
+        "1846"
+      ],
+      "n": 0
+    },
+    {
+      "id": "nashville",
+      "tier": "power",
+      "t": "Delegates from several slave states met at the Nashville Convention (June 1850), and some called for leaving the Union",
+      "k": [
+        "nashville convention",
+        "nashville"
+      ],
+      "n": 0
+    },
+    {
+      "id": "commissioners",
+      "tier": "power",
+      "t": "Its Fugitive Slave Act paid commissioners $10 to send an accused person south but only $5 to set the person free",
+      "k": [
+        "commissioners",
+        "$10",
+        "$5"
+      ],
+      "n": 0
+    },
+    {
+      "id": "uncle-toms-cabin",
+      "tier": "power",
+      "t": "Its Fugitive Slave Act helped inspire Harriet Beecher Stowe’s _Uncle Tom’s Cabin_ (1852)",
+      "k": [
+        "uncle tom’s cabin",
+        "stowe"
+      ],
+      "n": 0
+    },
+    {
+      "id": "three-deals",
+      "tier": "power",
+      "t": "Clay’s last great deal between North and South, after an 1820 deal over Missouri and Maine and an 1833 tariff deal; he died in 1852",
+      "k": [
+        "1833",
+        "tariff",
+        "1852"
+      ],
+      "n": 0,
+      "rabbit": "Missouri Compromise"
+    },
+    {
+      "id": "kansas-nebraska",
+      "tier": "power",
+      "t": "Its popular sovereignty idea returned in Douglas’s Kansas–Nebraska Act (1854), which repealed the 36°30′ line",
+      "k": [
+        "kansas–nebraska",
+        "1854",
+        "36°30′"
+      ],
+      "n": 0,
+      "rabbit": "Kansas–Nebraska Act"
+    },
+    {
+      "id": "triumvirate",
+      "tier": "power",
+      "t": "Last great Senate debate of the “Great Triumvirate”: Clay proposed it, Webster supported it, and Calhoun opposed it",
+      "k": [
+        "great triumvirate",
+        "triumvirate"
+      ],
+      "n": 0
+    },
+    {
+      "id": "gold-rush",
+      "tier": "power",
+      "t": "The gold rush brought so many settlers that California wrote an antislavery state constitution in 1849 and skipped being a territory",
+      "k": [
+        "gold rush",
+        "1849",
+        "territory"
+      ],
+      "n": 0,
+      "rabbit": "California gold rush"
+    }
+  ],
+  "trap": {
+    "title": "Which compromise?",
+    "body": "Henry Clay helped pass three famous deals: the Missouri Compromise (1820), the Compromise Tariff of 1833, and this one, so an early buzz on Clay clues can go wrong. The Kansas–Nebraska Act of 1854 also used popular sovereignty, and the Compromise of 1877 ended Reconstruction. Some tossups ask only for one of this deal’s five laws, the Fugitive Slave Act, and then “Compromise of 1850” is wrong.",
+    "fix": "California, Utah and New Mexico, the slave trade in Washington, D.C., Zachary Taylor’s death, Millard Fillmore, and Webster’s Seventh of March speech mean 1850. Maine, Missouri, and the 36°30′ line mean 1820; Kansas means 1854; Rutherford B. Hayes means 1877. Saying just “compromise” earns a prompt, so give the year.",
+    "line": "Real answer line: <b><u>Compromise of 1850</u></b> (prompt on <u>compromise</u> or <u>Omnibus Bill</u>; do not accept “Missouri Compromise,” “Kansas–Nebraska Act,” or “Fugitive Slave Act”)"
+  }
+}
