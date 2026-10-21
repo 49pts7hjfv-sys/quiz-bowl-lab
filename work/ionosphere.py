@@ -1,0 +1,351 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+data = {
+    "id": "ionosphere",
+    "name": "Ionosphere",
+    "mono": "ISP",
+    "category": "Earth Science",
+    "qbCategory": "Science · Other Science (Earth Science)",
+    "kicker": "Electrically charged upper atmosphere · Bounces radio waves back to Earth",
+    "dates": "Roughly 50 to 1,000 km above the ground",
+    "briefing": "The ionosphere is a part of the upper atmosphere where sunlight knocks electrons loose from gas atoms, leaving the air electrically charged. That charge makes it act like a mirror for some radio waves: in 1901, Guglielmo Marconi’s signal bounced off it to cross the Atlantic. At night it changes shape, which is why faraway AM radio stations can sometimes be heard clearly after dark.",
+    "answerHtml": "<b><u>Ionosphere</u></b> (prompt on <u>upper atmosphere</u> or <u>atmosphere</u>; do not accept “thermosphere,” “stratosphere,” “magnetosphere,” “Van Allen belts,” or a single layer such as the “Kennelly–Heaviside layer”)",
+    "accept": [
+        "ionosphere",
+        "ionospheres",
+        "the ionosphere",
+        "earths ionosphere"
+    ],
+    "prompt": [
+        "upper atmosphere",
+        "the upper atmosphere",
+        "atmosphere",
+        "the atmosphere",
+        "earths atmosphere",
+        "atmospheric layer",
+        "layer of the atmosphere"
+    ],
+    "reject": [
+        "thermosphere",
+        "stratosphere",
+        "troposphere",
+        "mesosphere",
+        "exosphere",
+        "magnetosphere",
+        "earths magnetosphere",
+        "plasmasphere",
+        "heterosphere",
+        "homosphere",
+        "lithosphere",
+        "asthenosphere",
+        "hydrosphere",
+        "biosphere",
+        "van allen belts",
+        "van allen belt",
+        "van allen radiation belts",
+        "van allen radiation belt",
+        "radiation belts",
+        "ozone layer",
+        "kennelly heaviside layer",
+        "kennelly heaviside",
+        "heaviside layer",
+        "appleton layer",
+        "d layer",
+        "e layer",
+        "f layer",
+        "f1 layer",
+        "f2 layer",
+        "d region",
+        "e region",
+        "f region",
+        "sporadic e",
+        "aurora",
+        "auroras",
+        "aurora borealis",
+        "northern lights",
+        "radio waves",
+        "karman line"
+    ],
+    "media": [],
+    "mediaPending": True,
+    "wiki": "https://en.wikipedia.org/wiki/Ionosphere",
+    "qb": {
+        "q": "ionosphere",
+        "found": 0,
+        "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+    },
+    "sample": {
+        "n": 0,
+        "note": "no real tossups checked yet"
+    },
+    "tossups": [
+        {
+            "p": "Scottish radar pioneer Robert Watson-Watt coined this region’s name in a 1926 letter. Scientists label its layers D, E, and F, from lowest to highest, and its F layer splits into two parts during the day.",
+            "r": "For 10 points, name this electrically charged region of the upper atmosphere, which bounces radio waves back to Earth."
+        },
+        {
+            "p": "In 1925, Gregory Breit [“BRITE”] and Merle Tuve [“TOO-vee”] timed short radio pulses that bounced back down from this region to measure how high it is, a method still used by sounding instruments today.",
+            "r": "For 10 points, name this layer of charged particles high in Earth’s atmosphere, which bounces AM radio signals back to the ground."
+        },
+        {
+            "p": "In 1902, Arthur Kennelly and Oliver Heaviside [“HEV-ee-side”] each suggested that a conducting layer high in the sky could explain how radio signals had crossed the Atlantic, and that layer now forms this region’s E layer. Those signals had been sent by Guglielmo Marconi.",
+            "r": "For 10 points, name this charged region of the upper atmosphere that lets radio waves travel beyond the horizon."
+        },
+        {
+            "p": "Three dots, the Morse code letter S, crossed the Atlantic from Cornwall, England, to Signal Hill in Newfoundland in December 1901, because this region bent the radio waves back toward Earth instead of letting them escape into space.",
+            "r": "Guglielmo Marconi sent that signal. For 10 points, name this electrically charged layer of the upper atmosphere."
+        },
+        {
+            "p": "Scientists at HAARP, a research station near Gakona, Alaska, beam powerful radio waves upward to heat small patches of this region and study how it responds. Auroras glow at the same heights as this region.",
+            "r": "For 10 points, name this layer of charged particles that reflects AM and shortwave radio signals back to Earth."
+        },
+        {
+            "p": "Puerto Rico’s giant Arecibo [“air-uh-SEE-boh”] radio telescope was built in the early 1960s partly to study this region, by catching faint radar echoes from its free electrons. This region’s lowest layer fades away at night.",
+            "r": "For 10 points, name this charged part of the upper atmosphere, which bounces radio waves back to Earth."
+        },
+        {
+            "p": "Lightning makes the space between the ground and this region ring like a bell at about 7.8 hertz, a set of frequencies called Schumann [“SHOO-mahn”] resonances. Very low frequency radio waves can also travel long distances trapped between the ground and this region.",
+            "r": "It forms when sunlight knocks electrons off gas atoms. For 10 points, name this layer of charged particles high in Earth’s atmosphere."
+        },
+        {
+            "p": "Free electrons in this region slow down signals from GPS satellites, so precise receivers compare two different radio frequencies to correct the error. Solar flares can suddenly disturb this region and cause shortwave radio blackouts.",
+            "r": "This region overlaps the thermosphere. For 10 points, name this electrically charged region of the upper atmosphere, which reflects radio waves."
+        },
+        {
+            "p": "During the day, this region’s lowest part, the D layer, absorbs many AM radio signals, but it fades after sunset, which is why faraway AM stations can come in clearly at night.",
+            "r": "For 10 points, name this layer of charged particles high in the atmosphere, which bends radio waves back to Earth."
+        },
+        {
+            "p": "Ham radio operators talk about a “skip zone,” a stretch of ground where signals can’t be heard because they pass overhead before this region reflects them back down. That reflection lets shortwave broadcasts reach other continents.",
+            "r": "Ultraviolet light and X-rays from the Sun create this region. For 10 points, name this electrically charged part of Earth’s upper atmosphere."
+        },
+        {
+            "p": "During the day, the highest part of this region splits into the F1 and F2 layers, and the F2 layer holds more free electrons than any other part. Below them lie the E and D layers.",
+            "r": "For 10 points, name this charged region of the upper atmosphere, created by ultraviolet light and X-rays from the Sun."
+        },
+        {
+            "p": "Some of the gas in this region has been split into charged particles, enough to make it a plasma. Unlike the mesosphere and thermosphere, which are defined by temperature, this region is defined by its electric charge, and it overlaps both of them.",
+            "r": "It bounces AM and shortwave radio signals back to Earth. For 10 points, name this layer of the upper atmosphere."
+        },
+        {
+            "p": "Edward Appleton won the 1947 Nobel Prize in Physics for proving that this region exists, after he showed in 1924 that signals from a BBC radio transmitter were being reflected from high in the sky.",
+            "r": "Its F layer is sometimes called the Appleton layer. For 10 points, name this electrically charged region of the upper atmosphere."
+        },
+        {
+            "p": "Patches of unusually dense charged particles called “sporadic E” can suddenly form in one layer of this region, letting FM radio and TV signals travel much farther than usual on some summer days.",
+            "r": "Its E layer is also called the Kennelly–Heaviside layer. For 10 points, name this layer of charged particles high in the atmosphere."
+        },
+        {
+            "p": "Sydney Chapman’s 1931 theory explained how sunlight shining into thinner and thinner air at higher altitudes builds up layers of electric charge in this region. Those layers are strongest on the side of Earth facing the Sun.",
+            "r": "For 10 points, name this region of the upper atmosphere, which bounces AM and shortwave radio signals back to Earth."
+        }
+    ],
+    "clues": [
+        {
+            "id": "charged-region",
+            "tier": "giveaway",
+            "t": "Electrically charged region of Earth’s upper atmosphere, full of ions and free electrons",
+            "k": ["electrically charged", "free electrons", "ions"],
+            "n": 0
+        },
+        {
+            "id": "radio-bounce",
+            "tier": "giveaway",
+            "t": "Bends AM and shortwave radio signals back down to Earth, letting them travel beyond the horizon",
+            "k": ["radio signals", "shortwave", "horizon"],
+            "n": 0,
+            "rabbit": "Radio waves"
+        },
+        {
+            "id": "sunlight",
+            "tier": "giveaway",
+            "t": "Formed when the Sun’s ultraviolet light and X-rays knock electrons off gas atoms",
+            "k": ["ultraviolet", "x-rays", "knock electrons"],
+            "n": 0
+        },
+        {
+            "id": "marconi",
+            "tier": "middle",
+            "t": "In December 1901, it let Guglielmo Marconi send a radio signal across the Atlantic, from Cornwall to Newfoundland",
+            "k": ["marconi", "1901", "newfoundland"],
+            "n": 0
+        },
+        {
+            "id": "kennelly-heaviside",
+            "tier": "middle",
+            "t": "In 1902, Arthur Kennelly and Oliver Heaviside each predicted a conducting layer; the Kennelly–Heaviside layer is its E layer",
+            "k": ["kennelly", "heaviside", "e layer"],
+            "n": 0
+        },
+        {
+            "id": "d-e-f",
+            "tier": "middle",
+            "t": "Its layers are labeled D, E, and F, from lowest to highest; the F layer splits into F1 and F2 during the day",
+            "k": ["f layer", "lowest to highest", "f1"],
+            "n": 0
+        },
+        {
+            "id": "night-am",
+            "tier": "middle",
+            "t": "Its lowest D layer absorbs AM signals by day but fades at night, so faraway AM stations come in after dark",
+            "k": ["d layer", "after dark", "am signals"],
+            "n": 0
+        },
+        {
+            "id": "auroras",
+            "tier": "middle",
+            "t": "Auroras, the northern and southern lights, glow at its heights",
+            "k": ["auroras", "northern and southern lights"],
+            "n": 0
+        },
+        {
+            "id": "overlap",
+            "tier": "middle",
+            "t": "Defined by electric charge, not temperature, it overlaps the mesosphere, thermosphere, and exosphere",
+            "k": ["thermosphere", "mesosphere", "exosphere"],
+            "n": 0,
+            "rabbit": "Stratosphere"
+        },
+        {
+            "id": "solar-flares",
+            "tier": "middle",
+            "t": "Solar flares can suddenly disturb it and cause shortwave radio blackouts",
+            "k": ["solar flares", "blackouts"],
+            "n": 0
+        },
+        {
+            "id": "plasma",
+            "tier": "middle",
+            "t": "Some of its gas is split into charged particles, enough to make it a plasma",
+            "k": ["plasma", "charged particles"],
+            "n": 0,
+            "rabbit": "Plasma (physics)"
+        },
+        {
+            "id": "gps",
+            "tier": "middle",
+            "t": "Its free electrons slow GPS signals, so precise receivers compare two frequencies to correct the error",
+            "k": ["gps", "two frequencies"],
+            "n": 0
+        },
+        {
+            "id": "watson-watt",
+            "tier": "power",
+            "t": "Scottish radar pioneer Robert Watson-Watt coined its name in a 1926 letter",
+            "k": ["watson-watt", "1926", "radar"],
+            "n": 0
+        },
+        {
+            "id": "appleton",
+            "tier": "power",
+            "t": "Edward Appleton proved it exists using a BBC transmitter in 1924 and won the 1947 Nobel Prize; its F layer is the Appleton layer",
+            "k": ["appleton", "nobel", "1947"],
+            "n": 0
+        },
+        {
+            "id": "breit-tuve",
+            "tier": "power",
+            "t": "Gregory Breit and Merle Tuve timed radio pulses bouncing off it in 1925 to measure its height",
+            "k": ["breit", "tuve", "1925"],
+            "n": 0
+        },
+        {
+            "id": "signal-hill",
+            "tier": "power",
+            "t": "Marconi’s signal, three dots for the Morse code letter S, went from Cornwall to Signal Hill in Newfoundland",
+            "k": ["signal hill", "morse code", "cornwall"],
+            "n": 0
+        },
+        {
+            "id": "haarp",
+            "tier": "power",
+            "t": "HAARP, a research station near Gakona, Alaska, beams radio waves upward to heat and study it",
+            "k": ["haarp", "gakona", "alaska"],
+            "n": 0
+        },
+        {
+            "id": "arecibo",
+            "tier": "power",
+            "t": "Puerto Rico’s Arecibo radio telescope was built partly to study it with radar echoes",
+            "k": ["arecibo", "puerto rico", "radar echoes"],
+            "n": 0
+        },
+        {
+            "id": "schumann",
+            "tier": "power",
+            "t": "Lightning makes the space between the ground and it ring at about 7.8 hertz, the Schumann resonances",
+            "k": ["schumann", "7.8 hertz", "resonances"],
+            "n": 0,
+            "rabbit": "Lightning"
+        },
+        {
+            "id": "vlf",
+            "tier": "power",
+            "t": "Very low frequency radio waves travel long distances trapped between the ground and it",
+            "k": ["very low frequency", "trapped"],
+            "n": 0
+        },
+        {
+            "id": "skip-zone",
+            "tier": "power",
+            "t": "A “skip zone” is a stretch of ground where signals pass overhead before it reflects them back down",
+            "k": ["skip zone", "pass overhead"],
+            "n": 0
+        },
+        {
+            "id": "f2",
+            "tier": "power",
+            "t": "The F2 layer holds more free electrons than any other part",
+            "k": ["f2 layer", "free electrons"],
+            "n": 0
+        },
+        {
+            "id": "sporadic-e",
+            "tier": "power",
+            "t": "Patches called “sporadic E” can let FM radio and TV signals travel unusually far",
+            "k": ["sporadic e", "fm radio"],
+            "n": 0
+        },
+        {
+            "id": "chapman",
+            "tier": "power",
+            "t": "Sydney Chapman’s 1931 theory explained how sunlight builds up its layers of electric charge",
+            "k": ["sydney chapman", "1931", "layers of electric charge"],
+            "n": 0
+        }
+    ],
+    "trap": {
+        "title": "Not the thermosphere",
+        "body": "The ionosphere is named for its electric charge, not its temperature, and it overlaps the mesosphere, thermosphere, and exosphere. Auroras and high-flying spacecraft show up in thermosphere tossups too, so players often blurt the wrong “-sphere.” Here “thermosphere” is not accepted, because quiz bowl treats the two as separate answer lines, and the magnetosphere and the Van Allen belts are different regions much farther out in space.",
+        "fix": "Radio waves bouncing back to Earth, free electrons, Marconi, Kennelly–Heaviside, Appleton, and D, E, and F layers mean ionosphere. Temperature rising with height means thermosphere. If the clues name one layer, like the E layer, still answer with the whole region: ionosphere.",
+        "line": "Real answer line: <b><u>Ionosphere</u></b> (prompt on <u>upper atmosphere</u>; do not accept “thermosphere,” “magnetosphere,” or “Van Allen belts”)"
+    },
+    "tests": {
+        "right": [
+            "Ionosphere",
+            "the ionosphere",
+            "Ionospere",
+            "Earth's ionosphere"
+        ],
+        "prompt": [
+            "upper atmosphere",
+            "atmosphere"
+        ],
+        "wrong": [
+            "Thermosphere",
+            "Stratosphere",
+            "Magnetosphere",
+            "Van Allen belts",
+            "Kennelly-Heaviside layer",
+            "Mesosphere",
+            "Exosphere"
+        ]
+    }
+}
+
+with open(ROOT / "topics" / "ionosphere.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("wrote topics/ionosphere.json")
