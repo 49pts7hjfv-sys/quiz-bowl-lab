@@ -1,0 +1,463 @@
+{
+  "id": "trees",
+  "name": "Trees",
+  "mono": "TRE",
+  "category": "Biology",
+  "qbCategory": "Science · Biology",
+  "kicker": "Tall, long-lived woody plants · Their yearly rings record history",
+  "dates": "About 3 trillion on Earth (2015 estimate)",
+  "briefing": "Trees are tall, woody plants with a single main trunk, and some are among the biggest and oldest living things on Earth. A coast redwood called Hyperion is the tallest known, General Sherman, a giant sequoia, is the largest single-stem tree by volume, and bristlecone pines can live nearly 5,000 years. Most trees add one ring of wood every year, so scientists can read the rings to learn a tree’s age and even past climates.",
+  "answerHtml": "<b><u>Trees</u></b> (accept <u>tree</u>; prompt on <u>woody plants</u> or <u>plants</u>; do not accept “shrubs,” “forests,” or a specific kind such as “redwoods”)",
+  "accept": [
+    "trees",
+    "tree"
+  ],
+  "prompt": [
+    "plants",
+    "plant",
+    "woody plants",
+    "woody plant",
+    "perennials",
+    "perennial plants",
+    "vascular plants",
+    "seed plants"
+  ],
+  "reject": [
+    "shrubs",
+    "shrub",
+    "bushes",
+    "bush",
+    "vines",
+    "forests",
+    "forest",
+    "woods",
+    "wood",
+    "timber",
+    "lumber",
+    "bark",
+    "leaves",
+    "roots",
+    "xylem",
+    "gymnosperms",
+    "angiosperms",
+    "conifers",
+    "conifer",
+    "redwoods",
+    "redwood",
+    "sequoias",
+    "sequoia",
+    "giant sequoia",
+    "pines",
+    "pine",
+    "oaks",
+    "oak",
+    "palms",
+    "palm",
+    "hardwoods",
+    "softwoods",
+    "pine trees",
+    "pine tree",
+    "oak trees",
+    "oak tree",
+    "palm trees",
+    "palm tree",
+    "evergreen trees",
+    "evergreen tree",
+    "deciduous trees",
+    "deciduous tree",
+    "fruit trees",
+    "christmas trees",
+    "christmas tree",
+    "family tree",
+    "family trees",
+    "tree rings",
+    "tree ring",
+    "phylogenetic tree",
+    "tree of life",
+    "general sherman",
+    "hyperion",
+    "bristlecone pines",
+    "bristlecone pine",
+    "flowers",
+    "grasses",
+    "ferns",
+    "mosses",
+    "fungi"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/Tree",
+  "qb": {
+    "q": "trees",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In 1929, a charred beam labeled HH-39, found at Show Low, Arizona, let the astronomer A. E. Douglass connect two long records of yearly growth rings and date many ancient Pueblo ruins. Douglass had begun studying the rings of these plants while searching for evidence of sunspot cycles.",
+      "r": "The science he founded is called dendrochronology. For 10 points, name these tall, woody plants whose rings can be counted to find their age."
+    },
+    {
+      "p": "In 1964, a graduate student studying ice-age glaciers in Nevada cut down a bristlecone pine now known as Prometheus, and counting its rings showed that it was nearly 5,000 years old. In 1957, Edmund Schulman found that another Great Basin bristlecone pine, Methuselah, was more than 4,700 years old.",
+      "r": "Most of them add one growth ring each year. For 10 points, name these woody plants, which also include oaks, maples, and redwoods."
+    },
+    {
+      "p": "In 2006, naturalists Chris Atkins and Michael Taylor found a coast redwood named Hyperion, which at more than 115 meters is the tallest known living one of these plants. Its exact location in California’s Redwood National Park is kept secret to protect it.",
+      "r": "Their trunks are covered in bark. For 10 points, name these tall, woody plants, which include oaks, maples, and pines."
+    },
+    {
+      "p": "Named in 1879 for a Civil War general, a giant sequoia called General Sherman is the largest known living single-stem one of these plants by volume. It grows in California’s Sequoia National Park and is thought to be more than 2,000 years old.",
+      "r": "Most of them grow one ring of wood each year. For 10 points, name these tall plants with woody trunks, such as oaks, pines, and redwoods."
+    },
+    {
+      "p": "Pando, a grove of about 47,000 quaking aspen stems in Utah, is considered a single living thing because all of its stems share one root system, making it one of the heaviest known organisms. Aspen leaves tremble in light breezes because their stalks are flat.",
+      "r": "Deciduous ones drop their leaves each fall. For 10 points, name these tall woody plants, such as oaks and pines."
+    },
+    {
+      "p": "Wangari Maathai won the 2004 Nobel Peace Prize after founding Kenya’s Green Belt Movement in 1977, which planted tens of millions of these plants. J. Sterling Morton of Nebraska created a holiday devoted to planting them, first held in 1872.",
+      "r": "That holiday is Arbor Day. For 10 points, name these woody plants that include oaks and maples."
+    },
+    {
+      "p": "Joyce Kilmer’s 1913 poem about these plants begins, “I think that I shall never see / A poem lovely as” one of them. In a 1971 Dr. Seuss book, the Lorax “speaks for” the Truffula ones that the Once-ler chops down to make Thneeds.",
+      "r": "Their outer covering is bark. For 10 points, name these tall woody plants, such as oaks and pines."
+    },
+    {
+      "p": "In Norse mythology, a giant ash named Yggdrasil [“IG-druh-sil”] links the Nine Worlds, while a dragon gnaws at its roots. The Buddha is said to have reached enlightenment while meditating beneath one of these plants, a sacred fig, at Bodh Gaya in India.",
+      "r": "Most add a new ring of wood every year. For 10 points, name these tall plants with woody trunks, such as oaks, pines, and maples."
+    },
+    {
+      "p": "As autumn days shorten, many of these plants stop making chlorophyll, revealing yellow and orange carotenoids that were in their leaves all along, while red colors come from newly made anthocyanins [“an-thoh-SY-uh-ninz”]. A layer of cells at the base of each leaf stalk then lets the leaf drop.",
+      "r": "Those that lose their leaves every fall are called deciduous. For 10 points, name these woody plants that include maples and oaks."
+    },
+    {
+      "p": "In these plants, a thin layer called the vascular cambium adds new xylem toward the inside and new phloem toward the outside, while older xylem at the center becomes darker heartwood that no longer carries water. A separate cork cambium makes the dead cork cells of the outer covering.",
+      "r": "That outer covering is bark. For 10 points, name these woody plants whose trunks add a ring each year."
+    },
+    {
+      "p": "Balsa wood is classified as a hardwood, even though it is very soft, because it comes from a flowering example of these plants, while softwoods come from conifers. Palms can look like these plants but never make true wood, because they have no vascular cambium.",
+      "r": "Oaks and maples are examples. For 10 points, name these tall plants that usually have one woody trunk."
+    },
+    {
+      "p": "A 2015 study led by Thomas Crowther estimated that Earth has about 3 trillion of these plants, roughly 400 for every person. Cutting a ring of bark all the way around one of them, called girdling, kills it by blocking the flow of sugar to its roots.",
+      "r": "Most of them have a single trunk covered in bark. For 10 points, name these woody plants, such as oaks and pines."
+    },
+    {
+      "p": "Australia’s mountain ash, a kind of eucalyptus, is the tallest flowering one of these plants, while baobabs [“BAY-oh-babz”] store water inside their enormous, swollen trunks. Many mangroves, which grow in salty coastal water, send up “breathing” roots called pneumatophores [“noo-MAT-uh-forz”].",
+      "r": "Their rings show their age. For 10 points, name these woody plants, which include oaks, maples, and pines."
+    },
+    {
+      "p": "Chestnut blight, a fungal disease first noticed at New York’s Bronx Zoo in 1904, nearly wiped out the American chestnut, one of these plants. Since it was found near Detroit in 2002, an Asian beetle called the emerald ash borer has killed millions of North American ashes.",
+      "r": "Oaks and maples are other examples. For 10 points, name these woody plants that make up forests."
+    },
+    {
+      "p": "Suzanne Simard’s 1997 research suggested that these plants can share carbon through networks of fungi on their roots, nicknamed the “wood wide web.” The study of these plants is called dendrology, from a Greek root that also names the branching dendrites of neurons.",
+      "r": "Oaks, pines, and maples are examples. For 10 points, name these tall plants with woody trunks."
+    }
+  ],
+  "clues": [
+    {
+      "id": "definition",
+      "tier": "giveaway",
+      "t": "Tall, long-lived woody plants, usually with a single main stem called a trunk",
+      "k": [
+        "woody plants",
+        "trunk"
+      ],
+      "n": 0
+    },
+    {
+      "id": "growth-rings",
+      "tier": "giveaway",
+      "t": "Most add one growth ring of wood each year, so counting the rings on a stump shows age",
+      "k": [
+        "growth ring",
+        "stump"
+      ],
+      "n": 0
+    },
+    {
+      "id": "deciduous-evergreen",
+      "tier": "giveaway",
+      "t": "Deciduous ones, like oaks and maples, drop their leaves in fall; evergreen ones, like pines, keep them all year",
+      "k": [
+        "deciduous",
+        "evergreen"
+      ],
+      "n": 0
+    },
+    {
+      "id": "bark-wood",
+      "tier": "giveaway",
+      "t": "Covered by protective bark; their wood is mostly xylem",
+      "k": [
+        "bark",
+        "xylem"
+      ],
+      "n": 0,
+      "rabbit": "Xylem"
+    },
+    {
+      "id": "arbor-day",
+      "tier": "giveaway",
+      "t": "Arbor Day, first held in Nebraska in 1872, is a holiday for planting them",
+      "k": [
+        "arbor day",
+        "nebraska",
+        "1872"
+      ],
+      "n": 0
+    },
+    {
+      "id": "hyperion",
+      "tier": "middle",
+      "t": "Hyperion, a coast redwood found in 2006 by Chris Atkins and Michael Taylor, is the tallest known living one, at more than 115 meters",
+      "k": [
+        "hyperion",
+        "coast redwood",
+        "115 meters"
+      ],
+      "n": 0
+    },
+    {
+      "id": "general-sherman",
+      "tier": "middle",
+      "t": "General Sherman, a giant sequoia in California’s Sequoia National Park, is the largest known living single-stem one by volume",
+      "k": [
+        "general sherman",
+        "giant sequoia"
+      ],
+      "n": 0,
+      "rabbit": "Gymnosperms"
+    },
+    {
+      "id": "bristlecone",
+      "tier": "middle",
+      "t": "Great Basin bristlecone pines can live nearly 5,000 years; one named Methuselah is among the oldest known",
+      "k": [
+        "bristlecone",
+        "methuselah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "dendrochronology",
+      "tier": "middle",
+      "t": "Dendrochronology dates past events and climates by matching growth rings; dendrology is the study of these plants themselves",
+      "k": [
+        "dendrochronology",
+        "dendrology"
+      ],
+      "n": 0
+    },
+    {
+      "id": "cambium",
+      "tier": "middle",
+      "t": "The vascular cambium adds new xylem (wood) toward the inside and new phloem toward the outside",
+      "k": [
+        "vascular cambium"
+      ],
+      "n": 0,
+      "rabbit": "Phloem"
+    },
+    {
+      "id": "heartwood",
+      "tier": "middle",
+      "t": "Heartwood is the darker, older center of the trunk that no longer carries water; sapwood is the working outer part",
+      "k": [
+        "heartwood",
+        "sapwood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "fall-colors",
+      "tier": "middle",
+      "t": "Fall colors appear when chlorophyll breaks down, revealing yellow carotenoids; reds come from newly made anthocyanins",
+      "k": [
+        "carotenoids",
+        "anthocyanins"
+      ],
+      "n": 0,
+      "rabbit": "Chlorophyll"
+    },
+    {
+      "id": "hardwood-softwood",
+      "tier": "middle",
+      "t": "Hardwoods come from flowering ones like oaks and maples, softwoods from conifers; even soft balsa counts as a hardwood",
+      "k": [
+        "hardwoods",
+        "softwoods",
+        "balsa"
+      ],
+      "n": 0
+    },
+    {
+      "id": "lorax",
+      "tier": "middle",
+      "t": "In Dr. Seuss’s _The Lorax_ (1971), the Lorax “speaks for” the Truffula ones that the Once-ler chops down",
+      "k": [
+        "lorax",
+        "truffula",
+        "once-ler"
+      ],
+      "n": 0
+    },
+    {
+      "id": "douglass",
+      "tier": "power",
+      "t": "Astronomer A. E. Douglass founded dendrochronology while hunting for sunspot cycles; a charred beam, HH-39 (1929), let him date Pueblo ruins",
+      "k": [
+        "douglass",
+        "sunspot",
+        "hh-39"
+      ],
+      "n": 0
+    },
+    {
+      "id": "schulman-prometheus",
+      "tier": "power",
+      "t": "Edmund Schulman found Methuselah’s great age in 1957; Prometheus, a Nevada bristlecone nearly 5,000 years old, was cut down in 1964",
+      "k": [
+        "schulman",
+        "prometheus",
+        "1964"
+      ],
+      "n": 0
+    },
+    {
+      "id": "pando",
+      "tier": "power",
+      "t": "Pando, about 47,000 quaking aspen stems in Utah, shares one root system and counts as a single organism",
+      "k": [
+        "pando",
+        "quaking aspen",
+        "utah"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crowther",
+      "tier": "power",
+      "t": "A 2015 study led by Thomas Crowther estimated that Earth has about 3 trillion of them",
+      "k": [
+        "crowther",
+        "3 trillion"
+      ],
+      "n": 0
+    },
+    {
+      "id": "maathai",
+      "tier": "power",
+      "t": "Wangari Maathai’s Green Belt Movement in Kenya planted tens of millions of them; she won the 2004 Nobel Peace Prize",
+      "k": [
+        "wangari maathai",
+        "green belt movement",
+        "2004"
+      ],
+      "n": 0
+    },
+    {
+      "id": "kilmer",
+      "tier": "power",
+      "t": "Joyce Kilmer’s 1913 poem about them begins “I think that I shall never see / A poem lovely as…”",
+      "k": [
+        "joyce kilmer",
+        "1913"
+      ],
+      "n": 0
+    },
+    {
+      "id": "yggdrasil",
+      "tier": "power",
+      "t": "In Norse myth, the giant ash Yggdrasil links the Nine Worlds; the Buddha found enlightenment beneath a sacred fig at Bodh Gaya",
+      "k": [
+        "yggdrasil",
+        "nine worlds",
+        "sacred fig"
+      ],
+      "n": 0
+    },
+    {
+      "id": "girdling",
+      "tier": "power",
+      "t": "Girdling, cutting away a ring of bark all around the trunk, kills one by cutting off sugar to the roots",
+      "k": [
+        "girdling"
+      ],
+      "n": 0
+    },
+    {
+      "id": "palms",
+      "tier": "power",
+      "t": "Palms look like them but make no true wood, because they have no vascular cambium",
+      "k": [
+        "palms",
+        "true wood"
+      ],
+      "n": 0
+    },
+    {
+      "id": "eucalyptus-baobab",
+      "tier": "power",
+      "t": "Australia’s mountain ash, a eucalyptus, is the tallest flowering one; baobabs store water in their swollen trunks",
+      "k": [
+        "mountain ash",
+        "eucalyptus",
+        "baobabs"
+      ],
+      "n": 0
+    },
+    {
+      "id": "blight",
+      "tier": "power",
+      "t": "Chestnut blight (first noticed in 1904) nearly wiped out the American chestnut; the emerald ash borer, found in 2002, kills ashes",
+      "k": [
+        "chestnut blight",
+        "emerald ash borer"
+      ],
+      "n": 0
+    },
+    {
+      "id": "simard",
+      "tier": "power",
+      "t": "Suzanne Simard’s 1997 research suggested they share carbon through networks of root fungi, nicknamed the “wood wide web”",
+      "k": [
+        "simard",
+        "wood wide web"
+      ],
+      "n": 0,
+      "rabbit": "Fungi"
+    }
+  ],
+  "trap": {
+    "title": "Name the group, not one",
+    "body": "Tossups about trees love famous individuals and kinds: Hyperion, General Sherman, Methuselah, redwoods, and bristlecone pines. If the question asks for “these plants” and mixes examples from many groups, naming one kind, like “redwoods” or “conifers,” is wrong. “Forests” and “wood” are different answers, and plain “plants” earns only a prompt.",
+    "fix": "Listen for the noun: “these plants” or “these woody plants,” with examples from different families (oaks, pines, palms, baobabs), means trees. Name a single kind only when the question says “this species,” “this genus,” or “these conifers.” Naked seeds and cones can point to the separate answer Gymnosperms.",
+    "line": "Real answer line: <b><u>Trees</u></b> (accept tree; prompt on <u>woody plants</u>; do not accept a specific kind of tree)"
+  },
+  "tests": {
+    "right": [
+      "Trees",
+      "tree",
+      "Treees",
+      "The trees",
+      "treez"
+    ],
+    "prompt": [
+      "Plants",
+      "Woody plants"
+    ],
+    "wrong": [
+      "Shrubs",
+      "Forests",
+      "Redwoods",
+      "Conifers",
+      "Pine trees",
+      "Bark"
+    ]
+  }
+}
