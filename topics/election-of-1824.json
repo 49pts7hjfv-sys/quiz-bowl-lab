@@ -1,0 +1,395 @@
+{
+  "id": "election-of-1824",
+  "name": "Election of 1824",
+  "mono": "E24",
+  "category": "American History",
+  "qbCategory": "History · American History",
+  "kicker": "Jackson wins the most votes, but the House picks Adams · The “corrupt bargain”",
+  "dates": "Voting in late 1824; House vote February 9, 1825",
+  "briefing": "In 1824, four candidates from the same party ran for president: Andrew Jackson, John Quincy Adams, William Crawford, and Henry Clay. Jackson won the most popular and electoral votes but not a majority, so under the Twelfth Amendment the House of Representatives chose among the top three. It picked Adams in February 1825, and when Adams named Clay secretary of state, Jackson and his supporters called it a “corrupt bargain.”",
+  "answerHtml": "Election of <b><u>1824</u></b> (or <b><u>1824</u></b> presidential election; prompt on <u>presidential election</u> or the “<u>corrupt bargain</u>”; do not accept other years, such as 1825 or 1828)",
+  "accept": [
+    "1824",
+    "eighteen twenty four"
+  ],
+  "prompt": [
+    "election",
+    "the election",
+    "presidential election",
+    "the presidential election",
+    "us presidential election",
+    "corrupt bargain",
+    "the corrupt bargain",
+    "corrupt bargain election"
+  ],
+  "reject": [
+    "1825",
+    "1828",
+    "1820",
+    "1816",
+    "1832",
+    "1836",
+    "1800",
+    "1812",
+    "1822",
+    "1823",
+    "1826",
+    "1840",
+    "1844",
+    "1860",
+    "1876",
+    "1888",
+    "1992",
+    "2000",
+    "john quincy adams",
+    "andrew jackson",
+    "henry clay",
+    "william crawford",
+    "john c calhoun",
+    "twelfth amendment",
+    "12th amendment",
+    "era of good feelings",
+    "jacksonian democracy"
+  ],
+  "media": [],
+  "mediaPending": true,
+  "wiki": "https://en.wikipedia.org/wiki/1824_United_States_presidential_election",
+  "qb": {
+    "q": "1824 presidential election",
+    "found": 0,
+    "tip": "Search QBReader for this answer line (Middle School + Easy High School, power-marked) to see how real tossups clue it."
+  },
+  "sample": {
+    "n": 0,
+    "note": "no real tossups checked yet"
+  },
+  "tossups": [
+    {
+      "p": "In a famous story, New York congressman Stephen Van Rensselaer [“van REN-suh-leer”] bowed his head in prayer during the deciding vote for this contest, saw a ballot lying on the floor, and took it as a sign. His vote swung his state and gave the winner the thirteenth state he needed.",
+      "r": "For 10 points, name this election that the House of Representatives decided in February 1825 by choosing John Quincy Adams."
+    },
+    {
+      "p": "During this campaign, newspapers printed some of the first known opinion polls, informal “straw polls” of voters, which showed a Tennessee war hero in the lead. That candidate went on to win more popular votes than any of his three rivals.",
+      "r": "But the House of Representatives chose John Quincy Adams instead. For 10 points, name this presidential election."
+    },
+    {
+      "p": "Kentucky’s legislature told the state’s congressmen to vote for a Tennessean in the deciding round of this contest, but most of them chose a New Englander backed by their fellow Kentuckian, the Speaker of the House. That Speaker had finished fourth in electoral votes.",
+      "r": "He then became secretary of state. For 10 points, name this election that led to charges of a “corrupt bargain.”"
+    },
+    {
+      "p": "A poorly attended meeting of congressmen nominated a Georgia candidate in this contest, the last time a party relied on that “King Caucus” method. That candidate, the secretary of the Treasury, was backed by Martin Van Buren but had suffered a serious stroke the year before.",
+      "r": "He was William Crawford. For 10 points, name this four-way presidential election won by John Quincy Adams."
+    },
+    {
+      "p": "Because no candidate won a majority of electoral votes in this contest, an amendment ratified in 1804 required the House to choose among the top three finishers, with each state’s delegation casting one vote. That rule left out the fourth-place finisher, Henry Clay.",
+      "r": "For 10 points, name this election in which the House chose John Quincy Adams over Andrew Jackson."
+    },
+    {
+      "p": "John C. Calhoun dropped out of the presidential race in this contest and ran for vice president instead, winning that office easily with support from two rival camps. No candidate for president, however, won a majority of the electoral votes.",
+      "r": "For 10 points, name this election in which the House of Representatives chose John Quincy Adams over Andrew Jackson."
+    },
+    {
+      "p": "In the deciding vote for this contest, held on February 9, 1825, one candidate won thirteen state delegations, another won seven, and William Crawford won four. Each state’s delegation in the House of Representatives cast a single vote.",
+      "r": "For 10 points, name this election in which John Quincy Adams defeated Andrew Jackson."
+    },
+    {
+      "p": "After this contest, one candidate called his Kentucky rival “the Judas of the West,” comparing him to the disciple who betrayed Jesus for thirty pieces of silver. That rival had just been named secretary of state by the winner.",
+      "r": "The man who made that charge, Andrew Jackson, had won the most popular votes. For 10 points, name this election."
+    },
+    {
+      "p": "Months after losing this contest, one candidate resigned from the U.S. Senate, and the Tennessee legislature nominated him for the next presidential race. His supporters began campaigning for that rematch almost at once.",
+      "r": "That candidate, Andrew Jackson, won the rematch in 1828. For 10 points, name the earlier election that he lost to John Quincy Adams."
+    },
+    {
+      "p": "This contest helped break apart the only national party of its time, the Democratic-Republicans. Supporters of its loser formed what became the Democratic Party, while backers of its winner and his secretary of state became known as National Republicans.",
+      "r": "For 10 points, name this election decided by the House, in which John Quincy Adams beat Andrew Jackson."
+    },
+    {
+      "p": "This contest ended the so-called Era of Good Feelings, when only one major party competed for the presidency. All four main candidates belonged to that party, and one of them was Speaker of the House at the time.",
+      "r": "Another, John Quincy Adams, won the presidency in the House. For 10 points, name this election."
+    },
+    {
+      "p": "The winner of this contest is the only person to become president after finishing second in both the popular vote and the electoral vote. He had served for nearly eight years as secretary of state under James Monroe.",
+      "r": "For 10 points, name this election in which John Quincy Adams defeated Andrew Jackson."
+    },
+    {
+      "p": "In this contest, six of the twenty-four states still let their legislatures choose presidential electors instead of holding a popular vote. A general who had won the Battle of New Orleans led the popular vote with about 41 percent.",
+      "r": "That general, Andrew Jackson, still lost to John Quincy Adams in the House. For 10 points, name this election."
+    },
+    {
+      "p": "In January 1825, the fourth-place finisher in this contest met privately for hours with a rival who shared his support for tariffs, roads, and canals, and then backed that rival in the House. Opponents claimed the two men had made a deal.",
+      "r": "That claimed deal became known as the “corrupt bargain.” For 10 points, name this election that sent John Quincy Adams to the White House."
+    },
+    {
+      "p": "The Tennessee legislature nominated one candidate for this contest two years early, in 1822, and elected him to the U.S. Senate the next year. That candidate was a hero of the War of 1812 who had won the Battle of New Orleans.",
+      "r": "He won the most votes but lost in the House. For 10 points, name this election in which Andrew Jackson lost to John Quincy Adams."
+    }
+  ],
+  "clues": [
+    {
+      "id": "four-candidates",
+      "tier": "giveaway",
+      "t": "Four Democratic-Republicans ran: Andrew Jackson, John Quincy Adams, William Crawford, and Henry Clay",
+      "k": [
+        "andrew jackson",
+        "john quincy adams",
+        "william crawford",
+        "henry clay"
+      ],
+      "n": 0,
+      "rabbit": "Andrew Jackson"
+    },
+    {
+      "id": "house-chooses",
+      "tier": "giveaway",
+      "t": "No one won a majority of electoral votes, so the House of Representatives chose John Quincy Adams in February 1825",
+      "k": [
+        "house of representatives",
+        "majority",
+        "february 1825"
+      ],
+      "n": 0,
+      "rabbit": "John Quincy Adams"
+    },
+    {
+      "id": "corrupt-bargain",
+      "tier": "giveaway",
+      "t": "Adams named Henry Clay secretary of state, and Jackson’s supporters called it a “corrupt bargain”",
+      "k": [
+        "corrupt bargain",
+        "secretary of state"
+      ],
+      "n": 0,
+      "rabbit": "Henry Clay"
+    },
+    {
+      "id": "jackson-plurality",
+      "tier": "giveaway",
+      "t": "Andrew Jackson won the most popular votes (about 41 percent) and the most electoral votes (99) but lost",
+      "k": [
+        "most popular votes",
+        "41 percent",
+        "99"
+      ],
+      "n": 0
+    },
+    {
+      "id": "twelfth-amendment",
+      "tier": "middle",
+      "t": "Under the 12th Amendment (1804), the House chose among the top three, with one vote per state delegation",
+      "k": [
+        "12th amendment",
+        "top three",
+        "one vote"
+      ],
+      "n": 0,
+      "rabbit": "Electoral College"
+    },
+    {
+      "id": "clay-fourth",
+      "tier": "middle",
+      "t": "Henry Clay finished fourth in electoral votes, so the House could not pick him; as Speaker, he helped Adams win",
+      "k": [
+        "fourth",
+        "speaker"
+      ],
+      "n": 0
+    },
+    {
+      "id": "electoral-totals",
+      "tier": "middle",
+      "t": "Electoral votes: Jackson 99, Adams 84, Crawford 41, Clay 37; a majority took 131",
+      "k": [
+        "electoral votes",
+        "131",
+        "84"
+      ],
+      "n": 0
+    },
+    {
+      "id": "house-vote",
+      "tier": "middle",
+      "t": "The House vote on February 9, 1825: Adams 13 states, Jackson 7, Crawford 4",
+      "k": [
+        "february 9",
+        "13 states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "rematch",
+      "tier": "middle",
+      "t": "Jackson resigned from the Senate, was renominated by Tennessee in 1825, and beat Adams in their 1828 rematch",
+      "k": [
+        "1828",
+        "rematch",
+        "renominated"
+      ],
+      "n": 0
+    },
+    {
+      "id": "calhoun",
+      "tier": "middle",
+      "t": "John C. Calhoun won the vice presidency easily, backed by both the Adams and Jackson camps",
+      "k": [
+        "calhoun",
+        "vice presidency"
+      ],
+      "n": 0
+    },
+    {
+      "id": "good-feelings",
+      "tier": "middle",
+      "t": "Ended the Era of Good Feelings; the Democratic-Republicans split into Jackson’s Democrats and the National Republicans",
+      "k": [
+        "era of good feelings",
+        "national republicans",
+        "democrats"
+      ],
+      "n": 0
+    },
+    {
+      "id": "van-rensselaer",
+      "tier": "power",
+      "t": "Stephen Van Rensselaer said he saw a ballot on the floor while praying, then voted for Adams, swinging New York",
+      "k": [
+        "van rensselaer",
+        "ballot",
+        "praying"
+      ],
+      "n": 0
+    },
+    {
+      "id": "king-caucus",
+      "tier": "power",
+      "t": "A poorly attended congressional caucus (“King Caucus”) nominated Crawford, the last nomination made that way",
+      "k": [
+        "king caucus",
+        "caucus"
+      ],
+      "n": 0
+    },
+    {
+      "id": "crawford-stroke",
+      "tier": "power",
+      "t": "Treasury Secretary William Crawford of Georgia had suffered a serious stroke in 1823",
+      "k": [
+        "stroke",
+        "treasury",
+        "georgia"
+      ],
+      "n": 0
+    },
+    {
+      "id": "van-buren",
+      "tier": "power",
+      "t": "Martin Van Buren backed Crawford, then helped build the Jackson coalition that became the Democratic Party",
+      "k": [
+        "van buren",
+        "martin van buren"
+      ],
+      "n": 0,
+      "rabbit": "Martin Van Buren"
+    },
+    {
+      "id": "kentucky",
+      "tier": "power",
+      "t": "Kentucky’s legislature told its congressmen to vote for Jackson, but most of them voted for Adams",
+      "k": [
+        "kentucky",
+        "legislature"
+      ],
+      "n": 0
+    },
+    {
+      "id": "judas",
+      "tier": "power",
+      "t": "Jackson called Clay “the Judas of the West”",
+      "k": [
+        "judas",
+        "judas of the west"
+      ],
+      "n": 0
+    },
+    {
+      "id": "straw-polls",
+      "tier": "power",
+      "t": "Newspapers printed some of the first known opinion polls (“straw polls”) during the campaign",
+      "k": [
+        "straw polls",
+        "opinion polls"
+      ],
+      "n": 0
+    },
+    {
+      "id": "second-in-both",
+      "tier": "power",
+      "t": "Adams is the only president who finished second in both the popular vote and the electoral vote",
+      "k": [
+        "second in both",
+        "only president"
+      ],
+      "n": 0
+    },
+    {
+      "id": "six-legislatures",
+      "tier": "power",
+      "t": "Six of the 24 states still had their legislatures choose electors instead of holding a popular vote",
+      "k": [
+        "legislatures",
+        "24 states"
+      ],
+      "n": 0
+    },
+    {
+      "id": "tennessee-1822",
+      "tier": "power",
+      "t": "Tennessee’s legislature nominated Jackson in 1822 and elected him to the U.S. Senate in 1823",
+      "k": [
+        "1822",
+        "tennessee",
+        "1823"
+      ],
+      "n": 0
+    },
+    {
+      "id": "january-meeting",
+      "tier": "power",
+      "t": "In January 1825, Clay met privately with Adams for hours before backing him",
+      "k": [
+        "january 1825",
+        "met privately"
+      ],
+      "n": 0
+    }
+  ],
+  "trap": {
+    "title": "Name the right year",
+    "body": "Election tossups describe the candidates but want the year. The House settled this race in February 1825, and Jackson beat Adams in their 1828 rematch, so “1825” and “1828” are both wrong. “Corrupt bargain” earns only a prompt here: it names the deal that Jackson’s supporters said came after the election, not the election itself, so you still owe the year.",
+    "fix": "Four candidates, William Crawford, the House picking the president, and Clay becoming secretary of state all mean 1824. Jackson defeating Adams, the Coffin Handbills, and the Tariff of Abominations mean 1828. If the moderator prompts after “corrupt bargain,” say “1824.”",
+    "line": "Real answer line: United States presidential election of <b><u>1824</u></b> (prompt on <u>presidential election</u> or “<u>corrupt bargain</u>”; do not accept other years)"
+  },
+  "tests": {
+    "right": [
+      "1824",
+      "Election of 1824",
+      "1824 presidential election",
+      "the 1824 election",
+      "electon of 1824"
+    ],
+    "prompt": [
+      "presidential election",
+      "corrupt bargain",
+      "the corrupt bargain"
+    ],
+    "wrong": [
+      "1828",
+      "Election of 1825",
+      "1825",
+      "Election of 1800",
+      "John Quincy Adams",
+      "Andrew Jackson",
+      "election of 1828"
+    ]
+  }
+}
